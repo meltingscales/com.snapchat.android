@@ -6,7 +6,13 @@ apk download (was too large for Git):
 
 ### gitleaks
 
-TODO
+"SafetyNet" API key is leaked.
+
+```
+jadx/sources/com/snap/buildconfig/BuildConfig.java#L14
+
+public static final String SAFETYNET_API_KEY = "AIzaSyBw8SH3GKWmBS-HwS7qucQYGqSPRFnYJck";
+```
 
 ### apkurlgrep
 
@@ -46,11 +52,11 @@ And some URL routes below those:
 
 ### Snyk SAST
 
-TODO
+Waiting for scan to complete.
 
 ### jadx
 
-TODO
+NSTR.
 
 ## Commands
 

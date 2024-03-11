@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" android:orientation="vertical">
+    <com.snap.framework.ui.views.RoundedTriangleView android:id="@+id/preview_menu_upper_triangle" android:layout_width="@dimen/preview_menu_triangle_width" android:layout_height="@dimen/preview_menu_triangle_height" custom:baseRadius="@dimen/preview_menu_caret_base_radius" custom:tipRadius="@dimen/preview_menu_caret_tip_radius"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/preview_menu_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/preview_menu_upper_triangle"/>
+    <com.snap.framework.ui.views.RoundedTriangleView android:id="@+id/preview_menu_lower_triangle" android:layout_width="@dimen/preview_menu_triangle_width" android:layout_height="@dimen/preview_menu_triangle_height" android:layout_below="@+id/preview_menu_container" android:rotation="180" custom:baseRadius="@dimen/preview_menu_caret_base_radius" custom:tipRadius="@dimen/preview_menu_caret_tip_radius"/>
+</merge>

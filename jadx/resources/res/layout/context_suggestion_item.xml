@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:background="@drawable/rounded_corner_carousel" android:layout_width="wrap_content" android:layout_height="match_parent" android:paddingStart="8dp" android:paddingEnd="10dp">
+    <com.snap.ui.avatar.AvatarView android:id="@+id/avatar" android:layout_width="@dimen/suggestion_image_size" android:layout_height="@dimen/suggestion_image_size"/>
+    <com.snap.ui.view.RoundedImageView android:id="@+id/checked" android:visibility="gone" android:layout_width="@dimen/suggestion_image_size" android:layout_height="@dimen/suggestion_image_size" android:src="@drawable/svg_check" android:scaleType="centerInside"/>
+    <com.snap.ui.view.SnapFontTextView android:textSize="@dimen/v11_action_text_size" android:textColor="@color/sig_color_flat_pure_white_any" android:ellipsize="end" android:id="@+id/suggestion_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLength="15" app:scFontWeight="1"/>
+</LinearLayout>

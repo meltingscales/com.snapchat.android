@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.component.header.SnapSubscreenHeaderView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/lenses_explorer_header_view" app:header_background="?attr/leBackgroundColor" app:icon_tint_color="?attr/sigColorIconPrimary" app:top_right_layout="@layout/lenses_explorer_right_action_layout" style="@style/subscreen_header_default">
+    <com.snap.component.tabs.SnapTabLayout android:id="@+id/lenses_explorer_sections_tabs_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_gap_half" app:indicator_margin_top="@dimen/categories_tab_indicator_top_margin" app:use_updated_tabs="true"/>
+</com.snap.component.header.SnapSubscreenHeaderView>

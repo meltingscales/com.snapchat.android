@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/map_metadata" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="locale">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/weather_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="4dp">
+        <com.snap.imageloading.view.SnapImageView android:id="@+id/weather_icon" android:layout_width="wrap_content" android:layout_height="20dp" android:scaleType="centerInside"/>
+        <com.snap.ui.view.SnapFontTextView android:id="@+id/weather_temp" android:paddingLeft="3dp" android:paddingTop="1dp" android:paddingRight="3dp" android:paddingBottom="1dp" android:layout_width="wrap_content" android:layout_height="wrap_content" custom:scFontWeight="1" style="@style/map_metadata_text"/>
+    </LinearLayout>
+    <com.snap.ui.view.SnapFontTextView android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/divider_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="| " style="@style/map_metadata_separator"/>
+    <com.snap.ui.view.SnapFontTextView android:layout_gravity="center" android:id="@+id/time" android:paddingTop="1dp" android:paddingBottom="1dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="3dp" android:paddingEnd="2dp" custom:scFontWeight="1" style="@style/map_metadata_text"/>
+</LinearLayout>

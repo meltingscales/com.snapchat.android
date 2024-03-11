@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/memories_cell_cluster_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/memories_grid_cluster_header_margin_bottom" android:layout_marginStart="@dimen/memories_snap_grid_horizontal_spacing" android:layout_marginEnd="@dimen/memories_snap_grid_horizontal_spacing"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.snap.component.SnapLabelView android:layout_gravity="start" android:id="@id/cluster_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" style="@style/TextAppearance.Button4" />
+    <com.snap.component.SnapLabelView android:layout_gravity="end" android:id="@id/cluster_subtitle" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" style="@style/TextAppearance.Subtitle2.Gray50" />
+    <com.snap.component.SnapLabelView android:layout_gravity="end" android:id="@id/cluster_selection" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" style="@style/TextAppearance.Subtitle1.Blue" />
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:layout_width="@dimen/selector_carousel_item_width" android:layout_height="@dimen/selector_carousel_item_width" android:layout_marginBottom="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <com.snap.imageloading.view.SnapImageView android:layout_gravity="center" android:id="@id/selector_item_expanded" android:background="@drawable/preview_selector_carousel_circle" android:padding="@dimen/selector_carousel_item_expanded_stroke_width" android:visibility="invisible" android:layout_width="@dimen/selector_carousel_item_expanded_width" android:layout_height="@dimen/selector_carousel_item_expanded_width" android:scaleType="centerCrop" android:cropToPadding="true" />
+    <com.snap.imageloading.view.SnapImageView android:layout_gravity="center" android:id="@id/selector_item_collapsed" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" custom:isCircular="true" />
+</FrameLayout>

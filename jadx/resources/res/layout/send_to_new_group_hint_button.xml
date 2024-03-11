@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.component.button.SnapButtonView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/send_to_group_button" android:layout_width="wrap_content" android:layout_height="wrap_content" app:button_icon="@drawable/ic_new_group_24x24" app:button_style="small_button_rectangle_white" app:button_text="@string/send_to_new_group"/>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/bitmoji" android:layout_width="@dimen/enhanced_contact_bitmoji_size" android:layout_height="@dimen/enhanced_contact_bitmoji_size" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.snap.ui.view.SnapFontTextView android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextAppearance.Title1" />
+        <com.snap.ui.view.SnapFontTextView android:id="@id/phone_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-3.0dip" style="@style/TextAppearance.Subtitle2.Gray50" />
+    </LinearLayout>
+    <ImageView android:id="@id/delete_button" android:padding="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/svg_x_24x24" android:tint="@color/sig_color_base_gray50_any" />
+</LinearLayout>

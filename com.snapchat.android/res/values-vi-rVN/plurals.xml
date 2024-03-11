@@ -1,0 +1,780 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="action_menu_camera_select">
+        <item quantity="other">%d Món Đã Chọn</item>
+    </plurals>
+    <plurals name="action_menu_hide_long">
+        <item quantity="other">Ẩn Snap (Dành Riêng Tôi)</item>
+    </plurals>
+    <plurals name="action_menu_mute_for_hours">
+        <item quantity="other">Trong %d giờ</item>
+    </plurals>
+    <plurals name="action_menu_snap_select">
+        <item quantity="other">%d Snap Đã Chọn</item>
+    </plurals>
+    <plurals name="action_menu_unhide_long">
+        <item quantity="other">Bỏ Ẩn Snap</item>
+    </plurals>
+    <plurals name="active_indicator_explainer_active_hour">
+        <item quantity="other">%d giờ</item>
+    </plurals>
+    <plurals name="activity_indicator_explainer_active_friend_count">
+        <item quantity="other">%d người bạn</item>
+    </plurals>
+    <plurals name="add_friend_badge_request_tips">
+        <item quantity="other">%1$s Lượt Thêm Bạn mới</item>
+    </plurals>
+    <plurals name="add_friend_badge_suggestion_tips">
+        <item quantity="other">%1$s Đề Xuất Kết Bạn mới</item>
+    </plurals>
+    <plurals name="add_friends_button_subtext">
+        <item quantity="other">%1$s Tín Đồ Snapchatter thêm bạn!</item>
+    </plurals>
+    <plurals name="add_friends_button_suggestion_subtext">
+        <item quantity="other">%1$s gợi ý kết bạn!</item>
+    </plurals>
+    <plurals name="batch_capture_save_as_x_snaps">
+        <item quantity="other">Lưu dưới dạng %1$d Snap</item>
+    </plurals>
+    <plurals name="bottom_button_text">
+        <item quantity="other">+ Thêm %d người bạn</item>
+    </plurals>
+    <plurals name="camera_mode_batch_capture_limit_reached_description_with_count">
+        <item quantity="other">Chuỗi Snap có thể chụp tới %1$d Snap mỗi lần!</item>
+    </plurals>
+    <plurals name="camera_mode_disable_batch_capture_description">
+        <item quantity="other">Bạn có chắc chắn muốn tắt tính năng Chuỗi Snap? Snap chưa lưu %1$d sẽ mất.</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_image_sharer_you_not">
+        <item quantity="other">%1$s &amp; %2$s ĐÃ LƯU %3$d ẢNH TỪ %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_image_sharer_you_yes">
+        <item quantity="other">%1$s &amp; %2$s ĐÃ LƯU %3$d ẢNH BẠN ĐÃ GỬI</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_item_sharer_you_not">
+        <item quantity="other">%1$s &amp; %2$s ĐÃ LƯU %3$d MỤC TỪ %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_item_sharer_you_yes">
+        <item quantity="other">%1$s &amp; %2$s ĐÃ LƯU %3$d MỤC BẠN ĐÃ GỬI</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_video_sharer_you_not">
+        <item quantity="other">%1$s &amp; %2$s ĐÃ LƯU %3$d VIDEO TỪ %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_video_sharer_you_yes">
+        <item quantity="other">%1$s &amp; %2$s ĐÃ LƯU %3$d VIDEO BẠN ĐÃ GỬI</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_yes_media_image_sharer_you_not">
+        <item quantity="other">BẠN &amp; %1$s ĐÃ LƯU %2$d ẢNH TỪ %3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_yes_media_item_sharer_you_not">
+        <item quantity="other">BẠN &amp; %1$s ĐÃ LƯU %2$d MỤC TỪ %3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_yes_media_video_sharer_you_not">
+        <item quantity="other">BẠN &amp; %1$s ĐÃ LƯU %2$d VIDEO TỪ %3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_image_sharer_you_not">
+        <item quantity="other">%1$s &amp; %2$s ĐÃ LƯU %3$d BỨC ẢNH TỪ %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_image_sharer_you_yes">
+        <item quantity="other">%1$s VÀ %2$s ĐÃ LƯU %3$d ẢNH BẠN ĐÃ GỬI</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_item__sharer_you_not">
+        <item quantity="other">%1$s &amp; %2$s ĐÃ LƯU %3$d MÓN ĐỒ TỪ %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_item__sharer_you_yes">
+        <item quantity="other">%1$s &amp; %2$s ĐÃ LƯU %3$d MÓN ĐỒ BẠN GỬI</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_video_sharer_you_not">
+        <item quantity="other">%1$s &amp; %2$s ĐÃ LƯU %3$d VIDEO TỪ %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_video_sharer_you_yes">
+        <item quantity="other">%1$s &amp; %2$s ĐÃ LƯU %3$d VIDEO BẠN ĐÃ GỬI</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_yes_media_image_sharer_you_not">
+        <item quantity="other">BẠN, %1$s VÀ %2$s ĐÃ LƯU %3$d ẢNH TỪ %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_yes_media_item_sharer_you_not">
+        <item quantity="other">BẠN, %1$s VÀ %2$s ĐÃ LƯU %3$d MỤC TỪ %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_yes_media_video_sharer_you_not">
+        <item quantity="other">BẠN, %1$s, &amp; %2$s ĐÃ LƯU %3$d VIDEO TỪ %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_image_sharer_you_not">
+        <item quantity="other">%1$s ĐÃ LƯU %2$d ẢNH TỪ %3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_image_sharer_you_yes">
+        <item quantity="other">%1$s ĐÃ LƯU %2$d ẢNH BẠN GỬI</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_item_sharer_you_not">
+        <item quantity="other">%1$s ĐÃ LƯU %2$d MỤC TỪ %3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_item_sharer_you_yes">
+        <item quantity="other">%1$s ĐÃ LƯU %2$d MỤC BẠN ĐÃ GỬI</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_video_sharer_you_not">
+        <item quantity="other">%1$s ĐÃ LƯU %2$d VIDEO TỪ %3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_video_sharer_you_yes">
+        <item quantity="other">%1$s ĐÃ LƯU %2$d VIDEO BẠN ĐÃ GỬI</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_yes_media_image_sharer_you_not">
+        <item quantity="other">BẠN ĐÃ LƯU %1$d ẢNH TỪ %2$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_yes_media_item__sharer_you_not">
+        <item quantity="other">BẠN ĐÃ LƯU %1$d MỤC TỪ %2$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_yes_media_video_sharer_you_not">
+        <item quantity="other">BẠN ĐÃ LƯU %1$d VIDEO TỪ %2$s</item>
+    </plurals>
+    <plurals name="cannot_add_custom_story_snap_recipients">
+        <item quantity="other">Bạn chỉ có thể thêm vào %1$d Story Tùy Chỉnh cùng lúc</item>
+    </plurals>
+    <plurals name="capture_settings_distance_value_text_feet">
+        <item quantity="other">%1$d ft</item>
+    </plurals>
+    <plurals name="capture_settings_duration_value_text_orbits">
+        <item quantity="other">%1$d quỹ đạo</item>
+    </plurals>
+    <plurals name="chat_header_gifting_birthday_upsell">
+        <item quantity="other">%2$d ngày nữa là sinh nhật của %1$s rồi 🎂. Hãy tặng Snapchat+ cho họ nào</item>
+    </plurals>
+    <plurals name="cheerios_clean_unpair_cheerios_body">
+        <item quantity="other">Có %1$d Snap trên Pixy của bạn. Bạn có muốn đồng thời cài lại thiết bị và xóa toàn bộ Snap cũng như dữ liệu người dùng không?</item>
+    </plurals>
+    <plurals name="cheerios_confirm_delete_body">
+        <item quantity="other">Những Snap bạn xóa cũng sẽ bị gỡ khỏi thiết bị Cheerios.</item>
+    </plurals>
+    <plurals name="cheerios_deleted">
+        <item quantity="other">Đã xóa %d Snap</item>
+    </plurals>
+    <plurals name="cheerios_deleting">
+        <item quantity="other">Đang xóa %d Snap…</item>
+    </plurals>
+    <plurals name="cheerios_memories_tooltip">
+        <item quantity="other">%d Snap Mới</item>
+    </plurals>
+    <plurals name="cheerios_new_snap_to_import">
+        <item quantity="other">%d Snap Mới. Chạm Để Nhập.</item>
+    </plurals>
+    <plurals name="cheerios_status_transfer_complete_title">
+        <item quantity="other">Đã nhập %d Snap!</item>
+    </plurals>
+    <plurals name="cheerios_status_transferring_title">
+        <item quantity="other">Đang Nhập %d Snap...</item>
+    </plurals>
+    <plurals name="cluster_seven_or_more">
+        <item quantity="other">%1$s, %2$s, %3$s, %4$s, %5$s &amp; %6$d người nữa</item>
+    </plurals>
+    <plurals name="cluster_seven_or_more_me">
+        <item quantity="other">%1$s, %2$s, %3$s, %4$s, tôi &amp; %5$d người nữa</item>
+    </plurals>
+    <plurals name="cluster_three_or_more">
+        <item quantity="other">%1$s &amp; thêm %2$d nữa</item>
+    </plurals>
+    <plurals name="cluster_three_or_more_me">
+        <item quantity="other">Tôi &amp; %1$d người nữa</item>
+    </plurals>
+    <plurals name="cognac_active_playing_game_text_multiple_player">
+        <item quantity="other">%1$s, %2$s + %3$d người nữa đang chơi</item>
+    </plurals>
+    <plurals name="cognac_active_playing_game_text_multiple_player_shortened">
+        <item quantity="other">%1$s + %2$d người nữa đang chơi</item>
+    </plurals>
+    <plurals name="cognac_active_using_cypress_text_multiple_player">
+        <item quantity="other">%1$s, %2$s + %3$d người khác đang hoạt động</item>
+    </plurals>
+    <plurals name="cognac_active_using_cypress_text_multiple_player_shortened">
+        <item quantity="other">%1$s + %2$d người khác đang hoạt động</item>
+    </plurals>
+    <plurals name="cognac_app_profile_multiple_player_text">
+        <item quantity="other">Hỗ trợ %1$s-%2$d người chơi</item>
+    </plurals>
+    <plurals name="cognac_close_status_message_multiple_player_second_person">
+        <item quantity="other">Bạn, %1$s và %2$d người nữa đã chơi %3$s</item>
+    </plurals>
+    <plurals name="cognac_close_status_message_multiple_player_third_person">
+        <item quantity="other">%1$s, %2$s và %3$d người khác đã chơi %4$s</item>
+    </plurals>
+    <plurals name="cognac_close_status_message_text_for_feed_multiple_player_third_person">
+        <item quantity="other">%1$s và %2$d người nữa đã chơi %3$s</item>
+    </plurals>
+    <plurals name="cognac_cypress_close_status_message_multiple_player_second_person">
+        <item quantity="other">Bạn, %1$s và %2$d người khác đã dùng %3$s</item>
+    </plurals>
+    <plurals name="cognac_cypress_close_status_message_multiple_player_third_person">
+        <item quantity="other">%1$s, %2$s và %3$d người khác đã dùng %4$s</item>
+    </plurals>
+    <plurals name="cognac_cypress_close_status_message_text_for_feed_multiple_player_third_person">
+        <item quantity="other">%1$s và %2$d người khác đã dùng %3$s</item>
+    </plurals>
+    <plurals name="cognac_friend_picker_ringing_text_multiple_players">
+        <item quantity="other">Đang gọi %1$s và %2$d người khác...</item>
+    </plurals>
+    <plurals name="comments_collapse_child_comments">
+        <item quantity="other">Ẩn câu trả lời</item>
+    </plurals>
+    <plurals name="comments_expand_child_comments">
+        <item quantity="other">Hiển thị %s câu trả lời</item>
+    </plurals>
+    <plurals name="comments_header_with_live_comment_count">
+        <item quantity="other">%s Bình Luận</item>
+    </plurals>
+    <plurals name="content_detail_new_count">
+        <item quantity="other">%1$d mới</item>
+    </plurals>
+    <plurals name="content_detail_seen_text">
+        <item quantity="other">%1$d Để Nhập</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="other">%d ngày</item>
+    </plurals>
+    <plurals name="days_abbreviated">
+        <item quantity="other">%d ngày</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated">
+        <item quantity="other">%d ngày trước</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_camera_roll">
+        <item quantity="other">%1$d ngày trước từ Cuộn Camera</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_chat">
+        <item quantity="other">%1$d ngày trước từ Chat</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_cheerios">
+        <item quantity="other">Cách đây %1$d ngày từ Pixy</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d ngày trước từ %2$s</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_memories">
+        <item quantity="other">%1$d ngày trước từ Kỉ Niệm</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_spectacles">
+        <item quantity="other">%1$d ngày trước từ kính Spectacles</item>
+    </plurals>
+    <plurals name="days_ago_update">
+        <item quantity="other">Đã cập nhật cách đây %1$s ngày</item>
+    </plurals>
+    <plurals name="discard_batch_capture_description">
+        <item quantity="other">Bạn có chắc chắn muốn bỏ Chuỗi Snap? %1$d Snap chưa lưu sẽ mất.</item>
+    </plurals>
+    <plurals name="display_username_explanation_changed_username_too_recently">
+        <item quantity="other">"Bạn đã thay đổi tên đăng nhập vào %1$s.
+Bạn có thể thay đổi lại sau %2$d ngày."</item>
+    </plurals>
+    <plurals name="failed_to_save_multiple_snaps">
+        <item quantity="other">Lưu %1$d snap không thành công</item>
+    </plurals>
+    <plurals name="formatted_short_ft">
+        <item quantity="other">%d ft</item>
+    </plurals>
+    <plurals name="formatted_short_km">
+        <item quantity="other">%d km</item>
+    </plurals>
+    <plurals name="formatted_short_m">
+        <item quantity="other">%d m</item>
+    </plurals>
+    <plurals name="formatted_short_mile">
+        <item quantity="other">%d dặm</item>
+    </plurals>
+    <plurals name="friending_progress_bar_secondary">
+        <item quantity="other">Gửi thêm %1$s lời mời kết bạn!</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_description_items">
+        <item quantity="other">Món đồ của bạn đã được thêm vào mục Dành Riêng Tôi thành công. Bạn có muốn xóa các bản gốc trong Cuộn Camera của mình không?</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_description_photos">
+        <item quantity="other">Ảnh của bạn đã được thêm vào mục Dành Riêng Tôi thành công. Bạn có muốn xóa các bản gốc trong Cuộn Camera của mình không?</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_description_videos">
+        <item quantity="other">Video của bạn đã được thêm vào mục Dành Riêng Tôi thành công. Bạn có muốn xóa các bản gốc trong Cuộn Camera của mình không?</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_title">
+        <item quantity="other">Xóa Các Bản Gốc</item>
+    </plurals>
+    <plurals name="gallery_private_rate_limit_minutes_time_out">
+        <item quantity="other">"
+Thử lại sau %1$d phút nhé."</item>
+    </plurals>
+    <plurals name="gauge_altitude_unit_feet">
+        <item quantity="other">%d ft</item>
+    </plurals>
+    <plurals name="gauge_altitude_unit_meters">
+        <item quantity="other">%d m</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%d giờ</item>
+    </plurals>
+    <plurals name="hours_abbreviated">
+        <item quantity="other">%d giờ</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%d giờ</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated">
+        <item quantity="other">%d giờ trước</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_camera_roll">
+        <item quantity="other">%1$d giờ trước từ Cuộn Camera</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_chat">
+        <item quantity="other">%1$d giờ trước từ Chat</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_cheerios">
+        <item quantity="other">Cách đây %1$d giờ từ Pixy</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d giờ trước từ %2$s</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_memories">
+        <item quantity="other">%1$d giờ trước từ Kỉ Niệm</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_spectacles">
+        <item quantity="other">%1$d giờ trước từ kính Spectacles</item>
+    </plurals>
+    <plurals name="hours_ago_update">
+        <item quantity="other">Đã cập nhật cách đây %1$s giờ</item>
+    </plurals>
+    <plurals name="last_seen_here_hours">
+        <item quantity="other">Xuất hiện lần cuối ở đây %d giờ trước</item>
+    </plurals>
+    <plurals name="last_seen_here_minutes">
+        <item quantity="other">Xuất hiện lần cuối ở đây %d phút trước</item>
+    </plurals>
+    <plurals name="live_location_chat_hours_remaining">
+        <item quantity="other">%d giờ</item>
+    </plurals>
+    <plurals name="live_location_description_existing_sessions">
+        <item quantity="other">Bạn sẽ chia sẻ thông tin vị trí theo thời gian thực với bạn bè hiện trong nhóm này. %d bạn bè đã có thể nhìn thấy Thông Tin Vị Trí Trực Tiếp của bạn.</item>
+    </plurals>
+    <plurals name="live_location_duration_hr">
+        <item quantity="other">%d Giờ</item>
+    </plurals>
+    <plurals name="live_location_duration_min">
+        <item quantity="other">%d Phút</item>
+    </plurals>
+    <plurals name="live_location_share_group_description">
+        <item quantity="other">Bạn sẽ chia sẻ Thông Tin Vị Trí Trực Tiếp với bạn bè hiện trong nhóm này. %d thành viên sẽ không nhận được thông tin vị trí của bạn vì bạn chưa kết bạn với họ.</item>
+    </plurals>
+    <plurals name="live_location_with_friends">
+        <item quantity="other">với %d người bạn</item>
+    </plurals>
+    <plurals name="location_upsell_description_specific_friends_more_than_four">
+        <item quantity="other">%1$s, %2$s, %3$s và %4$d người bạn đang ở trên Bản Đồ!</item>
+    </plurals>
+    <plurals name="locked_lens_friending_banner_countdown_timer_hours">
+        <item quantity="other">%1$d giờ</item>
+    </plurals>
+    <plurals name="locked_lens_friending_banner_countdown_timer_minutes">
+        <item quantity="other">%1$d phút</item>
+    </plurals>
+    <plurals name="locked_lens_friending_banner_countdown_timer_seconds">
+        <item quantity="other">%1$d giây</item>
+    </plurals>
+    <plurals name="map_group_card_subtext_friend_sharing">
+        <item quantity="other">%1$d bạn bè đang chia sẻ</item>
+    </plurals>
+    <plurals name="map_passport_and_other">
+        <item quantity="other">và %d người khác</item>
+    </plurals>
+    <plurals name="map_passport_bucket_cities_title">
+        <item quantity="other">Thành Phố</item>
+    </plurals>
+    <plurals name="map_passport_bucket_countries_title">
+        <item quantity="other">Quốc Gia</item>
+    </plurals>
+    <plurals name="map_passport_bucket_places_title">
+        <item quantity="other">Địa Điểm</item>
+    </plurals>
+    <plurals name="map_widget_days_ago">
+        <item quantity="other">%d ngày</item>
+    </plurals>
+    <plurals name="media_export_service_batch_export_failure">
+        <item quantity="other">Đã xuất %1$d/%2$d Snap. %3$d Snap bị lỗi.</item>
+    </plurals>
+    <plurals name="media_export_service_processing">
+        <item quantity="other">Đang xuất %1$d/%2$d Snap…</item>
+    </plurals>
+    <plurals name="media_export_service_success">
+        <item quantity="other">Các Snap của bạn đã được xuất!</item>
+    </plurals>
+    <plurals name="memories_camera_select_limit_error">
+        <item quantity="other">Rất tiếc, chỉ có thể chọn %d mục mỗi lần.</item>
+    </plurals>
+    <plurals name="memories_delete_camera_roll_image_body">
+        <item quantity="other">Những hình ảnh này sẽ bị xóa khỏi thiết bị của bạn</item>
+    </plurals>
+    <plurals name="memories_delete_camera_roll_mixed_body">
+        <item quantity="other">Những món đồ này sẽ bị xóa khỏi thiết bị của bạn</item>
+    </plurals>
+    <plurals name="memories_delete_camera_roll_video_body">
+        <item quantity="other">Những video này sẽ bị xóa khỏi thiết bị của bạn</item>
+    </plurals>
+    <plurals name="memories_delete_snap_body">
+        <item quantity="other">Xóa các Snap?</item>
+    </plurals>
+    <plurals name="memories_delete_story_body">
+        <item quantity="other">Xóa Story?</item>
+    </plurals>
+    <plurals name="memories_export_error">
+        <item quantity="other">Không Thể Xuất Snap!</item>
+    </plurals>
+    <plurals name="memories_favorite_snaps_story_added">
+        <item quantity="other">Đã thêm %d Snap vào Story Yêu Thích của bạn</item>
+    </plurals>
+    <plurals name="memories_favorite_snaps_story_removed">
+        <item quantity="other">Đã xóa %d Snap khỏi Story Yêu Thích của bạn</item>
+    </plurals>
+    <plurals name="memories_featured_story_flashback_diff_date_subtext">
+        <item quantity="other">%1$d Năm Trước</item>
+    </plurals>
+    <plurals name="memories_featured_story_flashback_same_date_subtext">
+        <item quantity="other">Ngày Này %1$d Năm Trước</item>
+    </plurals>
+    <plurals name="memories_featured_story_trip_flashback_chat_prefill_snap">
+        <item quantity="other">%1$s, %2$d Năm Trước</item>
+    </plurals>
+    <plurals name="memories_featured_story_trip_flashback_chat_prefill_story">
+        <item quantity="other">Từ %1$d Năm Trước</item>
+    </plurals>
+    <plurals name="memories_hide_legacy_auto_saves">
+        <item quantity="other">Các Snap của những Story này sẽ vẫn còn trên Trang Story Của Tôi mới. Các Story bạn đã tạo hoặc chỉnh sửa sẽ không bị ảnh hưởng.</item>
+    </plurals>
+    <plurals name="memories_hide_legacy_auto_saves_title">
+        <item quantity="other">Gỡ %d Story lưu tự động cũ?</item>
+    </plurals>
+    <plurals name="memories_print_print_created">
+        <item quantity="other">Đã tạo %d Bản In 3D</item>
+    </plurals>
+    <plurals name="memories_print_processing">
+        <item quantity="other">Đang Xử Lý %d Snap để In...</item>
+    </plurals>
+    <plurals name="memories_remove_older_stories_dialog_title">
+        <item quantity="other">Thao tác này sẽ gỡ %d Story lưu tự động cũ.</item>
+    </plurals>
+    <plurals name="memories_select_limit_error">
+        <item quantity="other">Rất tiếc, chỉ có thể chọn %d Snap mỗi lần.</item>
+    </plurals>
+    <plurals name="memories_status_transfer_complete_in_app_notification_text">
+        <item quantity="other">%1$d Snap đã nhập từ %2$s</item>
+    </plurals>
+    <plurals name="memories_status_transfer_complete_title">
+        <item quantity="other">Đã Nhập %d Snap!</item>
+    </plurals>
+    <plurals name="memories_status_transfer_from_device_complete_title">
+        <item quantity="other">Snap mới từ %s</item>
+    </plurals>
+    <plurals name="memories_status_transferring_title">
+        <item quantity="other">Đang Nhập %1$d Trong %2$d Snap…</item>
+    </plurals>
+    <plurals name="memories_story_editor_add_snap_selected">
+        <item quantity="other">Đã Chọn %d</item>
+    </plurals>
+    <plurals name="minutes_abbreviated">
+        <item quantity="other">%d phút</item>
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="other">%d phút</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated">
+        <item quantity="other">%d phút trước</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_camera_roll">
+        <item quantity="other">%1$d phút trước từ Cuộn Camera</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_chat">
+        <item quantity="other">%1$d phút trước từ Chat</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_cheerios">
+        <item quantity="other">Cách đây %1$d phút từ Pixy</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d phút trước từ %2$s</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_memories">
+        <item quantity="other">%1$d phút trước từ Kỉ Niệm</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_spectacles">
+        <item quantity="other">%1$d phút trước từ kính Spectacles</item>
+    </plurals>
+    <plurals name="minutes_ago_update">
+        <item quantity="other">Đã cập nhật cách đây %1$s phút</item>
+    </plurals>
+    <plurals name="months_abbreviated">
+        <item quantity="other">%d tháng</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated">
+        <item quantity="other">%d tháng trước</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_camera_roll">
+        <item quantity="other">%1$d tháng trước từ Cuộn Camera</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_chat">
+        <item quantity="other">%1$d tháng trước từ Chat</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_cheerios">
+        <item quantity="other">Cách đây %1$d tháng từ Pixy</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d tháng trước từ %2$s</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_memories">
+        <item quantity="other">%1$d tháng trước từ Kỉ Niệm</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_spectacles">
+        <item quantity="other">%1$d tháng trước từ kính Spectacles</item>
+    </plurals>
+    <plurals name="months_ago_update">
+        <item quantity="other">Đã cập nhật cách đây %1$s tháng</item>
+    </plurals>
+    <plurals name="more_stories">
+        <item quantity="other">%d Story Khác</item>
+    </plurals>
+    <plurals name="muted_stories">
+        <item quantity="other">Đã Ẩn %d Story</item>
+    </plurals>
+    <plurals name="new_registration_continue_with_n_friends">
+        <item quantity="other">Thêm %d người bạn</item>
+    </plurals>
+    <plurals name="num_hours">
+        <item quantity="other">%d giờ</item>
+    </plurals>
+    <plurals name="num_minutes">
+        <item quantity="other">%d phút</item>
+    </plurals>
+    <plurals name="nyc_audience_many_and_x_others">
+        <item quantity="other">%1$s+%2$d người khác</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_ft">
+        <item quantity="other">ft</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_km">
+        <item quantity="other">km</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_m">
+        <item quantity="other">phút</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_mile">
+        <item quantity="other">mi</item>
+    </plurals>
+    <plurals name="nyc_friends_many_and_x_others">
+        <item quantity="other">%1$s và %2$s đang chia sẻ thông tin Vị trí trực tiếp với bạn</item>
+    </plurals>
+    <plurals name="nyc_sharing_live_location_with_friends">
+        <item quantity="other">"Bạn đang chia sẻ thông tin vị trí trực tiếp với %1$s người bạn. "</item>
+    </plurals>
+    <plurals name="nyc_unhide_live_location_friend_dialog_title">
+        <item quantity="other">Bạn đang ẩn Vị Trí Trực Tiếp với %1$d người bạn khác.</item>
+    </plurals>
+    <plurals name="pairing_validation_description">
+        <item quantity="other">%d Snap trên Pixy của bạn là của người dùng trước. Việc ghép nối với thiết bị này sẽ cài lại thiết bị và xóa mọi Snap cũng như dữ liệu người dùng.</item>
+    </plurals>
+    <plurals name="payments_num_purchased_items">
+        <item quantity="other">%d món hàng</item>
+    </plurals>
+    <plurals name="pending_syncs_logout_warning">
+        <item quantity="other">%1$d Các Snap này chưa được sao lưu vào Kỉ Niệm. Nếu giờ bạn đăng xuất, những Snap này có thể bị mất.</item>
+    </plurals>
+    <plurals name="perception_lens_collection_scan_card_lenses_count">
+        <item quantity="other">%d ống kính</item>
+    </plurals>
+    <plurals name="perception_lenses_scan_card_try_lenses">
+        <item quantity="other">Thử Ống Kính (%d)</item>
+    </plurals>
+    <plurals name="play_with_max_player_alert_text">
+        <item quantity="other">Game chỉ cho phép tối đa %1$d người chơi</item>
+    </plurals>
+    <plurals name="post_pairing_import_title">
+        <item quantity="other">%d Snap Mới</item>
+    </plurals>
+    <plurals name="registration_continue_with_n_friends">
+        <item quantity="other">+ Thêm %d Người Bạn</item>
+    </plurals>
+    <plurals name="save_button_tooltip_saved_multiple">
+        <item quantity="other">%1$d Snap đã lưu!</item>
+    </plurals>
+    <plurals name="saved_media_gallery_attribution_media_count">
+        <item quantity="other">%s Snap</item>
+    </plurals>
+    <plurals name="seconds_abbreviated">
+        <item quantity="other">%d giây</item>
+    </plurals>
+    <plurals name="seconds_ago">
+        <item quantity="other">%d giây</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated">
+        <item quantity="other">%d giây trước</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_camera_roll">
+        <item quantity="other">%1$d giây trước từ Cuộn Camera</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_chat">
+        <item quantity="other">%1$d giây trước từ Chat</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_cheerios">
+        <item quantity="other">Cách đây %1$d giây từ Pixy</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d giây trước từ %2$s</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_memories">
+        <item quantity="other">%1$d giây trước từ Kỉ Niệm</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_spectacles">
+        <item quantity="other">%1$d giây trước từ kính Spectacles</item>
+    </plurals>
+    <plurals name="seconds_ago_update">
+        <item quantity="other">Đã cập nhật cách đây %1$s giây</item>
+    </plurals>
+    <plurals name="select_friend_friend">
+        <item quantity="other">%1$d người bạn</item>
+    </plurals>
+    <plurals name="select_friend_other">
+        <item quantity="other">%1$s &amp; %2$d người khác</item>
+    </plurals>
+    <plurals name="settings_birthday_update_years_old">
+        <item quantity="other">Tôi được %d xuân xanh.</item>
+    </plurals>
+    <plurals name="snap_timer_selection_units">
+        <item quantity="other">giây</item>
+    </plurals>
+    <plurals name="snaps_count">
+        <item quantity="other">%1$d Snap</item>
+    </plurals>
+    <plurals name="spectacles_export_customization_description">
+        <item quantity="other">Bạn muốn xuất các Snap như thế nào?</item>
+    </plurals>
+    <plurals name="spotlight_comments_count_notification_title">
+        <item quantity="other">%d bình luận về Tâm Điểm đang chờ duyệt!</item>
+    </plurals>
+    <plurals name="status_views">
+        <item quantity="other">%d Lượt Xem</item>
+    </plurals>
+    <plurals name="still_sharing_last_active_location_description">
+        <item quantity="other">"Vị Trí Trực Tiếp của bạn đang ẩn nhưng %1$s người bạn vẫn có thể xem Vị Trí Hoạt Động Gần Đây Nhất của bạn.
+
+ Bạn có thể thay đổi điều này trong phần Cài Đặt Bản Đồ."</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_change_audience">
+        <item quantity="other">Bạn đã lưu thông số cài đặt về vị trí nhưng %1$s bạn bè vẫn có thể thấy thông tin Vị Trí Trực Tiếp của bạn. Để dừng chia sẻ, chạm vào “Dừng” bên cạnh tên của họ.</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_enter_ghost_mode">
+        <item quantity="other">Bạn đang ở Chế Độ Tàng Hình nhưng %1$s bạn bè vẫn có thể thấy thông tin Vị Trí Trực Tiếp của bạn. Để dừng chia sẻ, chạm vào “Dừng” bên cạnh tên của họ.</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_enter_ghost_mode_ghost_trail">
+        <item quantity="other">"Bạn đang ở Chế Độ Tàng Hình nhưng %1$s người bạn vẫn có thể thấy Vị Trí Trực Tiếp của bạn. Để dừng chia sẻ, hãy chạm vào “Dừng” bên cạnh tên của họ.
+
+Các vị trí sẽ không được thêm vào Đường Mòn Ma trong khi bạn ở Chế Độ Tàng Hình."</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_enter_ghost_mode_hide_live_location">
+        <item quantity="other">Bạn đang ở Chế Độ Tàng Hình nhưng %1$s người bạn vẫn có thể thấy thông tin Vị Trí Trực Tiếp của bạn. Để tạm dừng chia sẻ, chạm vào “Ẩn Vị Trí Trực Tiếp Của Tôi” ở dưới đây.</item>
+    </plurals>
+    <plurals name="story_friend_story_notification_title_update">
+        <item quantity="other">%d người bạn đã thêm vào Story của họ</item>
+    </plurals>
+    <plurals name="story_fullscreen_footer_view_count">
+        <item quantity="other">%d Lượt Xem</item>
+    </plurals>
+    <plurals name="story_management_viewer_list_more_viewers">
+        <item quantity="other">+ %1$d người nữa</item>
+    </plurals>
+    <plurals name="story_mob_subtext_more">
+        <item quantity="other">%1$s &amp; %2$d Snap nữa…</item>
+    </plurals>
+    <plurals name="story_profile_communities_members">
+        <item quantity="other">Đã Xác Thực • %d Thành Viên</item>
+    </plurals>
+    <plurals name="story_profile_shared_stories_members">
+        <item quantity="other">%d Thành Viên</item>
+    </plurals>
+    <plurals name="story_profile_stories_adding">
+        <item quantity="other">Đang thêm %d Snap…</item>
+    </plurals>
+    <plurals name="story_profile_stories_failed_to_add">
+        <item quantity="other">Thêm %d Snap không thành công</item>
+    </plurals>
+    <plurals name="story_profile_stories_waiting_to_add">
+        <item quantity="other">Đang đợi để thêm %d Snap…</item>
+    </plurals>
+    <plurals name="story_settings_action_menu_my_story_blocked_number_of_people">
+        <item quantity="other">%d Người</item>
+    </plurals>
+    <plurals name="streak_restore_dialog_subtitle_free_restore">
+        <item quantity="other">Bạn có %1$d lượt khôi phục miễn phí.</item>
+    </plurals>
+    <plurals name="streak_restore_dialog_subtitle_hours">
+        <item quantity="other">Bạn còn %2$d giờ để khôi phục Chuỗi Snapstreak với %1$s trước khi Chuỗi biến mất vĩnh viễn!</item>
+    </plurals>
+    <plurals name="streak_restore_dialog_subtitle_minutes">
+        <item quantity="other">Bạn còn %2$d phút để khôi phục Chuỗi Snapstreak với %1$s trước khi Chuỗi biến mất vĩnh viễn!</item>
+    </plurals>
+    <plurals name="subtitle_sharing_custom_friends">
+        <item quantity="other">với %d Người Bạn</item>
+    </plurals>
+    <plurals name="takeover_request_index_and_total">
+        <item quantity="other">%1$d/%2$d Lượt Thêm Bạn Mới</item>
+    </plurals>
+    <plurals name="ticketmaster_events_label">
+        <item quantity="other">sự kiện</item>
+    </plurals>
+    <plurals name="watched_stories">
+        <item quantity="other">Đã Xem %d Story</item>
+    </plurals>
+    <plurals name="weeks">
+        <item quantity="other">%d tuần</item>
+    </plurals>
+    <plurals name="weeks_abbreviated">
+        <item quantity="other">%d tuần</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated">
+        <item quantity="other">%d tuần trước</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_camera_roll">
+        <item quantity="other">%1$d tuần trước từ Cuộn Camera</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_chat">
+        <item quantity="other">%1$d tuần trước từ Chat</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_cheerios">
+        <item quantity="other">Cách đây %1$d tuần từ Pixy</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d tuần trước từ %2$s</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_memories">
+        <item quantity="other">%1$d tuần trước từ Kỉ Niệm</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_spectacles">
+        <item quantity="other">%1$d tuần trước từ kính Spectacles</item>
+    </plurals>
+    <plurals name="weeks_ago_update">
+        <item quantity="other">Đã cập nhật cách đây %1$s tuần</item>
+    </plurals>
+    <plurals name="years_abbreviated">
+        <item quantity="other">%d năm</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated">
+        <item quantity="other">%d năm trước</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_camera_roll">
+        <item quantity="other">%1$d năm trước từ Cuộn Camera</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_chat">
+        <item quantity="other">%1$d năm trước từ Chat</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_cheerios">
+        <item quantity="other">Cách đây %1$d năm từ Pixy</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d năm trước từ %2$s</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_memories">
+        <item quantity="other">%1$d năm trước từ Kỉ Niệm</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_spectacles">
+        <item quantity="other">%1$d năm trước từ kính Spectacles</item>
+    </plurals>
+    <plurals name="years_ago_update">
+        <item quantity="other">Đã cập nhật cách đây %1$s năm</item>
+    </plurals>
+</resources>

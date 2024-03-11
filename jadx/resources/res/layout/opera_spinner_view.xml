@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr">
+    <com.snap.ui.view.PausableLoadingSpinnerView android:layout_gravity="start|top" android:id="@+id/loading_screen_progress_bar" android:layout_width="@dimen/icon_size_larger" android:layout_height="@dimen/icon_size_larger" app:loading_spinner_color="@color/sig_color_flat_pure_white_any"/>
+    <com.snap.ui.view.PausableLoadingSpinnerView android:layout_gravity="start|bottom" android:id="@+id/loading_screen_progress_bar_vr_right_eye" android:visibility="gone" android:layout_width="@dimen/icon_size_larger" android:layout_height="@dimen/icon_size_larger" android:layout_marginTop="@dimen/icon_size_larger" app:loading_spinner_color="@color/sig_color_flat_pure_white_any"/>
+</FrameLayout>

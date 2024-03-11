@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.ui.view.ScrollViewWithMaxHeight xmlns:android="http://schemas.android.com/apk/res/android" style="@style/SigAlertDialog.DescriptionScrollView">
+    <com.snap.ui.view.SnapFontTextView android:id="@+id/alert_dialog_description" style="@style/SigAlertDialog.DescriptionContent"/>
+</com.snap.ui.view.ScrollViewWithMaxHeight>

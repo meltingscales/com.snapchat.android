@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.ui.view.SnapFontTextView xmlns:android="http://schemas.android.com/apk/res/android" android:textSize="?attr/v11Subtitle3TextSize" android:textColor="@color/sig_color_flat_pure_white_any" android:layout_width="@dimen/gallery_item_attribution_width" android:layout_height="@dimen/gallery_item_attribution_height"/>

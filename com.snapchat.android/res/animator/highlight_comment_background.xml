@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator android:duration="2000" android:startOffset="200" android:valueFrom="?sigColorBackgroundObject" android:valueTo="?sigColorBackgroundMain" android:valueType="colorType" android:propertyName="backgroundColor"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

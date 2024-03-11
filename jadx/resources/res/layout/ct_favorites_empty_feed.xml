@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.snap.imageloading.view.SnapImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/svg_empty_favorites_feed_sticker"/>
+    <com.snap.ui.view.SnapFontTextView android:textSize="?attr/v11Title1TextSize" android:textColor="?attr/sigColorTextPrimary" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/empty_favorites_feed_title" app:scFontWeight="2"/>
+    <com.snap.ui.view.SnapFontTextView android:textColor="?attr/sigColorTextSecondary" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/empty_favorites_feed_subtitle"/>
+</LinearLayout>

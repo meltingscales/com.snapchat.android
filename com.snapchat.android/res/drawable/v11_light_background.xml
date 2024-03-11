@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <size android:height="@dimen/v11_subscreen_header_height" />
+            <solid android:color="@color/sig_color_flat_pure_white_any" />
+        </shape>
+    </item>
+    <item android:top="@dimen/v11_subscreen_header_height">
+        <shape android:shape="rectangle">
+            <gradient android:startColor="@color/sig_color_base_gray10_any" android:endColor="@color/sig_color_flat_pure_white_any" android:angle="90.0" android:centerColor="@color/sig_color_base_gray10_any" />
+            <corners android:radius="0.0dip" />
+        </shape>
+    </item>
+</layer-list>

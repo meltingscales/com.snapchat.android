@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="?attr/sigColorBackgroundMain" android:layout_width="match_parent" android:layout_height="match_parent" android:keepScreenOn="true">
+    <com.snap.ui.view.ScHeaderView android:id="@+id/cheerios_manage_sc_header" android:layout_width="match_parent" android:layout_height="wrap_content" custom:centerHeader="true" custom:headerColorScheme="@color/sig_color_base_success_green_any" custom:headerTitle="@string/running1_4_name" custom:showBackArrow="true" custom:showBottomBorder="true"/>
+    <ScrollView android:id="@+id/cheerios_capture_settings_page" android:layout_width="match_parent" android:layout_height="0dp" android:fillViewport="false" android:layout_weight="1">
+        <LinearLayout android:gravity="top" android:orientation="vertical" android:id="@+id/cheerios_capture_settings_container" android:layout_width="match_parent" android:layout_height="0px">
+            <com.snap.ui.view.SnapFontTextView android:id="@+id/cheerios_capture_settings_custom_flight_mode_section_header" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_gap_half" android:text="@string/cheerios_running1_mode_header" android:textAllCaps="true" style="@style/new_settings_section_header"/>
+            <LinearLayout android:orientation="vertical" android:id="@+id/cheerios_capture_settings_custom_flight_mode_section_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:id="@+id/cheerios_capture_settings_custom_flight_mode_container" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/new_settings_item_outer">
+                    <com.snap.ui.view.SnapFontTextView android:id="@+id/cheerios_capture_settings_custom_flight_mode_text" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/running1_1_name" android:layout_weight="1" style="@style/new_settings_item_name"/>
+                    <LinearLayout android:orientation="horizontal" android:id="@+id/cheerios_capture_settings_custom_flight_mode_value_container" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginEnd="@dimen/reverse_default_gap" style="@style/new_settings_item_outer">
+                        <ImageView android:layout_gravity="center" android:id="@+id/custom_flight_mode_right_arrow" android:layout_width="@dimen/icon_size_smaller" android:layout_height="@dimen/icon_size_smaller" android:src="@drawable/right_arrow" android:layout_marginStart="@dimen/default_gap"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <com.snap.ui.view.SnapFontTextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_gap_half" android:text="@string/capture_settings_adjustments_text" android:textAllCaps="true" style="@style/new_settings_section_header"/>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/cheerios_capture_settings_distance_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/new_settings_item_outer">
+                <com.snap.ui.view.SnapFontTextView android:id="@+id/cheerios_capture_settings_distance_text" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/capture_settings_distance_text" android:layout_weight="1" style="@style/new_settings_item_name"/>
+                <LinearLayout android:orientation="horizontal" android:id="@+id/cheerios_capture_settings_distance_value_container" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginEnd="@dimen/reverse_default_gap" style="@style/new_settings_item_outer">
+                    <com.snap.ui.view.SnapFontTextView android:id="@+id/cheerios_capture_settings_distance_value" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/new_settings_item_status"/>
+                    <ImageView android:layout_gravity="center" android:id="@+id/distance_right_arrow" android:layout_width="@dimen/icon_size_smaller" android:layout_height="@dimen/icon_size_smaller" android:src="@drawable/right_arrow" android:layout_marginStart="@dimen/default_gap"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/cheerios_capture_settings_duration_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/new_settings_item_outer">
+                <com.snap.ui.view.SnapFontTextView android:id="@+id/cheerios_capture_settings_duration_text" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/capture_settings_duration_text" android:layout_weight="1" style="@style/new_settings_item_name"/>
+                <LinearLayout android:orientation="horizontal" android:id="@+id/cheerios_capture_settings_duration_value_container" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginEnd="@dimen/reverse_default_gap" style="@style/new_settings_item_outer">
+                    <com.snap.ui.view.SnapFontTextView android:id="@+id/cheerios_capture_settings_duration_value" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/new_settings_item_status"/>
+                    <ImageView android:layout_gravity="center" android:id="@+id/duration_right_arrow" android:layout_width="@dimen/icon_size_smaller" android:layout_height="@dimen/icon_size_smaller" android:src="@drawable/right_arrow" android:layout_marginStart="@dimen/default_gap"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/cheerios_capture_settings_tracking_container" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/new_settings_item_outer">
+                <com.snap.ui.view.SnapFontTextView android:id="@+id/cheerios_capture_settings_tracking_text" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/capture_settings_tracking_text" android:layout_weight="1" style="@style/new_settings_item_name"/>
+                <LinearLayout android:orientation="horizontal" android:id="@+id/cheerios_capture_settings_tracking_value_container" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginEnd="@dimen/reverse_default_gap" style="@style/new_settings_item_outer">
+                    <com.snap.ui.view.SnapFontTextView android:id="@+id/cheerios_capture_settings_tracking_value" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/new_settings_item_status"/>
+                    <ImageView android:layout_gravity="center" android:id="@+id/tracking_right_arrow" android:layout_width="@dimen/icon_size_smaller" android:layout_height="@dimen/icon_size_smaller" android:src="@drawable/right_arrow" android:layout_marginStart="@dimen/default_gap"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/cheerios_capture_settings_media_type_container" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/new_settings_item_outer">
+                <com.snap.ui.view.SnapFontTextView android:id="@+id/cheerios_capture_settings_media_type_text" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/capture_settings_media_type_text" android:layout_weight="1" style="@style/new_settings_item_name"/>
+                <LinearLayout android:orientation="horizontal" android:id="@+id/cheerios_capture_settings_media_type_value_container" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginEnd="@dimen/reverse_default_gap" style="@style/new_settings_item_outer">
+                    <com.snap.ui.view.SnapFontTextView android:id="@+id/cheerios_capture_settings_media_type_value" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/new_settings_item_status"/>
+                    <ImageView android:layout_gravity="center" android:id="@+id/media_type_right_arrow" android:layout_width="@dimen/icon_size_smaller" android:layout_height="@dimen/icon_size_smaller" android:src="@drawable/right_arrow" android:layout_marginStart="@dimen/default_gap"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <com.snap.ui.view.SnapFontTextView android:textSize="@dimen/default_gap_1_5x" android:textColor="@color/sig_color_text_primary_dark" android:gravity="center" android:id="@+id/cheerios_manage_device_info" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/default_gap_1_5x"/>
+</LinearLayout>

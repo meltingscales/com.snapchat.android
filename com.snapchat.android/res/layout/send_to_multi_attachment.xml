@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/send_to_preview_layout" android:background="@drawable/send_to_attachment_background" android:padding="@dimen/default_gap" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/preview_image_recycler_view" android:paddingBottom="@dimen/default_gap" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/send_to_preview_text" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.snap.ui.view.SnapFontEditText android:id="@id/send_to_preview_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/add_a_chat" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/preview_image_recycler_view" style="@style/SendToAttachmentText" />
+</androidx.constraintlayout.widget.ConstraintLayout>

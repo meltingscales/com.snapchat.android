@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/default_gap_10x" android:layout_marginRight="@dimen/default_gap_10x"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.snap.imageloading.view.SnapImageView android:layout_width="@dimen/comments_loading_failed_retry_icon_size" android:layout_height="wrap_content" android:src="@drawable/svg_mirror_retryload" android:tint="@color/sig_color_base_faded_black_any" />
+    <com.snap.ui.view.SnapFontTextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_gap_2_5x" android:text="@string/comments_loading_failed" style="@style/CommentsEmptyHeadline" />
+    <com.snap.component.button.SnapButtonView android:id="@id/comments_retry_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_gap_2_5x" app:button_style="large_button_rectangle_dark_gray" app:button_text="@string/comments_retry" />
+</LinearLayout>

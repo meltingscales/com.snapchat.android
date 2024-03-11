@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.ui.view.SnapFontTextView xmlns:android="http://schemas.android.com/apk/res/android" android:text="@string/subscreen_header_dismiss_text" style="@style/subscreen_header_top_cancel_text"/>

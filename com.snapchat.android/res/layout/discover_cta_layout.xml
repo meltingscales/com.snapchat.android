@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.snap.component.button.SnapButtonView android:id="@id/pill_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/df_cta_margin_bottom" android:layout_alignParentBottom="true" android:layout_centerInParent="true" app:button_style="small_button_rectangle_white" />
+    <com.snap.ui.view.SnapFontTextView android:textSize="@dimen/v11_input_field_pill_text_size" android:textColor="@color/sig_color_flat_pure_white_any" android:ellipsize="end" android:gravity="center" android:id="@id/context_tray_button" android:background="@drawable/tray_button_background" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/df_cta_context_tray_button_height" android:layout_marginTop="@dimen/df_cta_context_tray_button_margin" android:maxLines="1" android:layout_centerHorizontal="true" android:paddingStart="@dimen/df_cta_context_tray_button_padding" android:paddingEnd="@dimen/df_cta_context_tray_button_padding" app:scFontWeight="bolder" />
+</RelativeLayout>

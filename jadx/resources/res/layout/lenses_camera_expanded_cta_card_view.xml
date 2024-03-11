@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:id="@+id/lenses_camera_expanded_cta_view" android:background="@drawable/lenses_expanded_cta_card_bg" android:padding="@dimen/default_gap_1_25x" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.snap.lenses.common.RoundedImageView android:layout_gravity="center_vertical" android:id="@+id/lenses_camera_expanded_cta_card_icon" android:layout_width="48dp" android:layout_height="48dp" android:scaleType="centerCrop" app:cornerRadius="@dimen/default_gap_1_25x" app:shapeClipMode="corners"/>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/default_gap_1_25x">
+        <com.snap.ui.view.SnapFontTextView android:textColor="@color/sig_color_text_primary_dark" android:id="@+id/lenses_camera_expanded_cta_card_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:includeFontPadding="false" style="@style/TextStyle.Body"/>
+        <com.snap.ui.view.SnapFontTextView android:textColor="@color/sig_color_text_secondary_dark" android:id="@+id/lenses_camera_expanded_cta_card_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_gap_half" android:includeFontPadding="false" style="@style/TextStyle.Caption"/>
+    </LinearLayout>
+</LinearLayout>

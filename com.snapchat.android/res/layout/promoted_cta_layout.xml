@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.ui.view.SnapFontTextView android:textColor="@color/sig_color_base_faded_black_any" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/promoted_cta_button" android:padding="@dimen/default_gap_half" android:layout_width="wrap_content" android:layout_height="@dimen/context_cta_element_height" android:drawablePadding="@dimen/promoted_cta_padding_drawable" android:drawableStart="@drawable/svg_remix_cta" app:scFontWeight="bold"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

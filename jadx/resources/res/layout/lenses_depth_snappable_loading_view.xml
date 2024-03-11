@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/depth_snappable_loading_view" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.snap.imageloading.view.SnapImageView android:id="@+id/depth_snappable_fallback_image" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+    <android.view.View android:id="@+id/depth_snappable_black_background" android:background="@color/sig_color_flat_pure_black_any" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.snap.ui.view.PausableLoadingSpinnerView android:id="@+id/depth_snappable_loading_spinner" android:layout_width="35dp" android:layout_height="35dp" android:layout_centerInParent="true" app:loading_spinner_color="@color/sig_color_flat_pure_white_any"/>
+</RelativeLayout>

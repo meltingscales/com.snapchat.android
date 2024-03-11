@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/comments_list" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/comments_input_bar" app:layout_constraintTop_toTopOf="parent" />
+    <View android:background="@drawable/comments_bottom_view_shadow" android:layout_width="fill_parent" android:layout_height="@dimen/comments_shadow_height" app:layout_constraintBottom_toTopOf="@id/comments_input_bar" />
+    <include android:id="@id/comments_input_bar" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" layout="@layout/comments_input_bar" />
+</androidx.constraintlayout.widget.ConstraintLayout>

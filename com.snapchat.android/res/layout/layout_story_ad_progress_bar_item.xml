@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View android:background="@drawable/story_ad_progress_bar_unfilled_bg" android:layout_width="fill_parent" android:layout_height="@dimen/story_ad_progress_bar_height" android:layout_marginStart="@dimen/story_ad_progress_bar_margin" android:layout_marginEnd="@dimen/story_ad_progress_bar_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

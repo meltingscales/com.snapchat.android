@@ -1,0 +1,87 @@
+[
+  {
+    "id": "57931600888",
+    "code": "57931600888.lns",
+    "name": "Soft Filter Simple",
+    "hint_id": "",
+    "lensContext": {
+      "cameraContexts": [
+        "FRONT_FACING",
+        "REAR_FACING"
+      ],
+      "applicableContexts": [
+        "LIVE_CAMERA"
+      ]
+    },
+    "icon_link": "svg_bundled_57931600888",
+    "enabled": true
+  },
+  {
+    "id": "57716950937",
+    "code": "57716950937.lns",
+    "name": "Smiley Face Simple",
+    "hint_id": "",
+    "lensContext": {
+      "cameraContexts": [
+        "FRONT_FACING",
+        "REAR_FACING"
+      ],
+      "applicableContexts": [
+        "LIVE_CAMERA"
+      ]
+    },
+    "icon_link": "svg_bundled_57716950937",
+    "enabled": true
+  },
+  {
+    "id": "57685370875",
+    "code": "57685370875.lns",
+    "name": "Neon Devil Horns Simple \uD83D\uDE08",
+    "hint_id": "",
+    "lensContext": {
+      "cameraContexts": [
+        "FRONT_FACING",
+        "REAR_FACING"
+      ],
+      "applicableContexts": [
+        "LIVE_CAMERA"
+      ]
+    },
+    "icon_link": "svg_bundled_57685370875",
+    "enabled": true
+  },
+  {
+    "id": "57900991061",
+    "code": "57900991061.lns",
+    "name": "Collage with Heart Simple",
+    "hint_id": "",
+    "lensContext": {
+      "cameraContexts": [
+        "FRONT_FACING",
+        "REAR_FACING"
+      ],
+      "applicableContexts": [
+        "LIVE_CAMERA"
+      ]
+    },
+    "icon_link": "svg_bundled_57900991061",
+    "enabled": true
+  },
+  {
+    "id": "43675310939",
+    "code": "43675310939.lns",
+    "name": "Airy Shadows",
+    "hint_id": "",
+    "lensContext": {
+      "cameraContexts": [
+        "FRONT_FACING",
+        "REAR_FACING"
+      ],
+      "applicableContexts": [
+        "LIVE_CAMERA"
+      ]
+    },
+    "icon_link": "svg_bundled_43675310939",
+    "enabled": true
+  }
+]

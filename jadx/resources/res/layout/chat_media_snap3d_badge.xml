@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/chat_snap3d_badge" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/svg_chat_media_snap3d_badge"/>

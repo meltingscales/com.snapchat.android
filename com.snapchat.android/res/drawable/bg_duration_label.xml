@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/trans_grey" />
+    <corners android:topLeftRadius="@dimen/duration_label_radius" android:topRightRadius="@dimen/duration_label_radius" android:bottomLeftRadius="@dimen/duration_label_radius" android:bottomRightRadius="@dimen/duration_label_radius" />
+</shape>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="center" android:id="@+id/shimmer_frame_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include layout="@layout/catalog_store_loading_state_row"/>
+        <include layout="@layout/catalog_store_loading_state_row"/>
+        <include layout="@layout/catalog_store_loading_state_row"/>
+    </LinearLayout>
+</com.facebook.shimmer.ShimmerFrameLayout>

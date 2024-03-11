@@ -1,0 +1,21 @@
+package defpackage;
+
+import java.io.File;
+
+/* renamed from: zl5  reason: default package and case insensitive filesystem */
+/* loaded from: classes5.dex */
+public final class C56031zl5 implements InterfaceC25778g40, InterfaceC55304zHb {
+    public final DNb a;
+    public final AbstractC43935rs0 b;
+    public final File c;
+    public final InterfaceC6225Jug d = C35258mD7.c(new C54498yl5(this, 1));
+    public final InterfaceC6225Jug e = C35258mD7.c(new C54498yl5(this, 0));
+    public final InterfaceC6225Jug f = C35258mD7.c(new C54498yl5(this, 2));
+    public final InterfaceC6225Jug g = C35258mD7.c(new C54498yl5(this, 3));
+
+    public C56031zl5(DNb dNb, AbstractC43935rs0 abstractC43935rs0, File file) {
+        this.a = dNb;
+        this.b = abstractC43935rs0;
+        this.c = file;
+    }
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="@color/sig_color_base_gray30_any" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <gradient android:startColor="@color/sig_color_flat_pure_black_any_alpha_20" android:endColor="@android:color/transparent" android:angle="90.0" android:type="linear" />
+        </shape>
+    </item>
+</layer-list>

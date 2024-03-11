@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.stickers.ui.views.CategorySelector xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/sticker_picker_category_selector_container" android:visibility="visible" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="true"/>

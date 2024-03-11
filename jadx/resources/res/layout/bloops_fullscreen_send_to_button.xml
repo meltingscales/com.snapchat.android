@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_gravity="end|bottom" android:id="@+id/send_fullscreen_button" android:background="@drawable/bloops_fullscreen_send_button_bg" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.snap.imageloading.view.SnapImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginBottom="10dp" android:src="@drawable/bloops_ic_send_arrow" android:tint="@color/sig_color_flat_pure_white_any" android:layout_marginStart="20dp" android:layout_marginEnd="16dp"/>
+</FrameLayout>

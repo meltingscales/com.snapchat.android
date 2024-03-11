@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/sig_color_text_on_primary_button_light" />
+    <corners android:topLeftRadius="@dimen/cta_three_d_button_radius" android:topRightRadius="@dimen/cta_three_d_button_radius" android:bottomLeftRadius="@dimen/cta_three_d_button_radius" android:bottomRightRadius="@dimen/cta_three_d_button_radius" />
+</shape>

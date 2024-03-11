@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.lenses.actionbar.DefaultCameraLensActionBarView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ViewStub android:id="@+id/lenses_camera_favorite_action_stub" android:inflatedId="@+id/lenses_camera_favorite_action" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_gap"/>
+    <ViewStub android:id="@+id/lenses_camera_send_to_action_stub" android:inflatedId="@+id/lenses_camera_send_to_action" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_gap"/>
+    <ViewStub android:id="@+id/lenses_camera_lens_views_action_stub" android:inflatedId="@+id/lenses_camera_lens_views_action" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_gap"/>
+</com.snap.lenses.actionbar.DefaultCameraLensActionBarView>

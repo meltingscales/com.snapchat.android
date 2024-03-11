@@ -1,0 +1,75 @@
+package defpackage;
+
+/* renamed from: tmf  reason: default package and case insensitive filesystem */
+/* loaded from: classes.dex */
+public enum EnumC46866tmf {
+    CAMERA_VIDEO_RECORD_START(501),
+    SAVE_TO_CAMERA_ROLL(503),
+    /* JADX INFO: Fake field, exist only in values array */
+    MEMORIES_READ_CAMERA_ROLL(504),
+    REG_DISPLAY_NAME(505),
+    REG_PHONE_NUMBER(506),
+    /* JADX INFO: Fake field, exist only in values array */
+    REG_PHONE_VERIFY(507),
+    REG_EMAIL(508),
+    REG_FIND_FRIENDS(509),
+    IN_APP_FIND_FRIENDS(510),
+    IN_APP_PHONE_NUMBER(511),
+    /* JADX INFO: Fake field, exist only in values array */
+    IN_APP_PHONE_VERIFY(512),
+    SPECTACLES_PAIR_START(513),
+    MAP_LOCATION_OVERLAY(514),
+    ODG_DRAW_GEOFENCE(515),
+    REG_BLITZ(516),
+    REG_SUPER_BLITZ(517),
+    TALK_START_CALL(518),
+    TALK_RECORD_NOTE(519),
+    NEW_GEO_STORY(521),
+    FILTERS_LOCATION_CAROUSEL(522),
+    PREVIEW_AFTER_TAKING_SNAP(523),
+    /* JADX INFO: Fake field, exist only in values array */
+    SNAP_PREVIEW_ON_RESUME(524),
+    /* JADX INFO: Fake field, exist only in values array */
+    GEO_FILTER_PASSPORT(525),
+    LENSES_LOCATION(526),
+    /* JADX INFO: Fake field, exist only in values array */
+    GEO_FILTER_PASSPORT(527),
+    /* JADX INFO: Fake field, exist only in values array */
+    STICKERS_LOCATION_INFO(528),
+    SHARE_REQUEST_LOCATION(529),
+    PROFILE_MAP(530),
+    IN_APP_EMAIL(531),
+    REG_BITMOJI_CAMERA(532),
+    BITMOJI_NOTIFICATION_CAMERA(532),
+    CONTACTS_START(536),
+    BACKGROUND_LOCATION_PREREQUISITE(537),
+    LIVE_LOCATION_SHARE(538),
+    LOGIN_PHONE_NUMBER(539),
+    ENHANCE_CONTACTS(540),
+    ADS_LOCATION(542),
+    TALK_BLUETOOTH(543),
+    REG_NOTIFICATION(544),
+    MAIN_APP_AFTER_CRITICAL_PERMISSIONS_NOTIFICATION(545),
+    MAIN_APP_NOTIFICATION(546),
+    NEARBY_WIFI_DEVICES(547),
+    MAIN_APP_START(548),
+    MAIN_APP_AFTER_CRITICAL_PERMISSIONS_GRANTED(549),
+    CAMERA_PAGE(550),
+    BILLBOARD_NOTIFICATION_ENABLE(551),
+    REG_CONTACTS(553),
+    SETTINGS_CONTACTS(556),
+    REG_PHONE_STATE(554),
+    SHARING_DRAWER_CURRENT_LOCATION(557),
+    TALK_START_TELECOM_CALL(558),
+    CAMERA_PAGE_AFTER_CAMERA_PERMISSION_GRANTED(559),
+    NEARBY_FRIENDS_LOCATION(560),
+    READ_MEDIA_PERMISSIONS(561),
+    CAMERA_NONCRITICAL(562),
+    UNKNOWN(-500);
+    
+    public final int a;
+
+    EnumC46866tmf(int i) {
+        this.a = i;
+    }
+}

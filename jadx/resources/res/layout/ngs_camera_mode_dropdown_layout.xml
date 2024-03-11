@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatImageView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/camera_mode_dropdown" android:src="@drawable/ngs_camera_mode_dropdown_arrow_rotation" android:tint="@color/sig_color_flat_pure_white_any" android:contentDescription="@string/camera_mode_dropdown" style="@style/v11_hova_header_top_right_button"/>

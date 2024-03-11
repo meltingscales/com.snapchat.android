@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/featured_story_black_overlay" android:background="@color/sig_color_flat_pure_black_any_alpha_30" android:layout_width="match_parent" android:layout_height="match_parent"/>

@@ -1,0 +1,45 @@
+package defpackage;
+
+/* renamed from: cum  reason: default package and case insensitive filesystem */
+/* loaded from: classes4.dex */
+public final class C20944cum {
+    public final String a;
+    public final boolean b;
+
+    public C20944cum(String str, boolean z) {
+        this.a = str;
+        this.b = z;
+    }
+
+    public final boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (!(obj instanceof C20944cum)) {
+            return false;
+        }
+        C20944cum c20944cum = (C20944cum) obj;
+        if (K1c.m(this.a, c20944cum.a) && this.b == c20944cum.b) {
+            return true;
+        }
+        return false;
+    }
+
+    /* JADX WARN: Multi-variable type inference failed */
+    public final int hashCode() {
+        int hashCode = this.a.hashCode() * 31;
+        boolean z = this.b;
+        int i = z;
+        if (z != 0) {
+            i = 1;
+        }
+        return hashCode + i;
+    }
+
+    public final String toString() {
+        StringBuilder sb = new StringBuilder("UsernameCaptured(username=");
+        sb.append(this.a);
+        sb.append(", fromUsernamePage=");
+        return AbstractC38597oO2.v(sb, this.b, ')');
+    }
+}

@@ -1,0 +1,34 @@
+package com.snapchat.client.native_network_api;
+
+import com.snapchat.djinni.NativeObjectManager;
+import java.util.concurrent.atomic.AtomicBoolean;
+
+/* loaded from: classes8.dex */
+public abstract class CancelId {
+
+    /* loaded from: classes8.dex */
+    public static final class CppProxy extends CancelId {
+        static final /* synthetic */ boolean $assertionsDisabled = false;
+        private final AtomicBoolean destroyed = new AtomicBoolean(false);
+        private final long nativeRef;
+
+        private CppProxy(long j) {
+            if (j == 0) {
+                throw new RuntimeException("nativeRef is zero");
+            }
+            this.nativeRef = j;
+            NativeObjectManager.register(this, j);
+        }
+
+        public static native void nativeDestroy(long j);
+
+        private native void native_cancel(long j);
+
+        @Override // com.snapchat.client.native_network_api.CancelId
+        public void cancel() {
+            native_cancel(this.nativeRef);
+        }
+    }
+
+    public abstract void cancel();
+}

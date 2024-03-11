@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/ActionMenuStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.snap.ui.view.SnapFontTextView android:textSize="@dimen/v11_action_sheet_label_text_size" android:textColor="?title2ColorBlack" android:layout_gravity="center_vertical" android:id="@id/action_menu_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" app:scFontWeight="bold" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/action_menu_icon" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

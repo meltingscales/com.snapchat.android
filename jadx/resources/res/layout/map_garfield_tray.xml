@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/garfield_tray_container" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.snap.maps.components.halfsheet.HalfSheet android:id="@+id/garfield_half_sheet_root" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</FrameLayout>

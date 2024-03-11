@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@+id/effect_recycler_view" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/effect_list_margin_top" android:layout_marginStart="@dimen/effect_list_margin_start"/>
+</RelativeLayout>

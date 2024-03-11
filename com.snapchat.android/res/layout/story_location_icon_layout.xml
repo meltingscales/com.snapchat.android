@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.framework.ui.views.RoundedFrameLayout android:background="@drawable/location_icon_gradient" android:layout_width="fill_parent" android:layout_height="fill_parent" app:corner_radiusTopLeft="@dimen/story_tile_corner_radius" app:corner_radiusTopRight="@dimen/story_tile_corner_radius"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.snap.imageloading.view.SnapImageView android:layout_gravity="end|center|top" android:id="@id/spotlight_snap_map_location_icon" android:layout_width="wrap_content" android:layout_height="@dimen/story_management_location_icon_height" android:layout_marginTop="@dimen/default_gap_half" android:src="@drawable/svg_thumbnail_location_pin_icon" android:adjustViewBounds="true" android:tint="?colorWhite" android:layout_marginEnd="@dimen/default_gap_half" />
+</com.snap.framework.ui.views.RoundedFrameLayout>

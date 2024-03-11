@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="oval"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="@dimen/cheerios_calib_number_icon_size" android:width="@dimen/cheerios_calib_number_icon_size" />
+    <stroke android:width="@dimen/cheerios_calib_progress_link_weight" android:color="@color/cheerios_calib_link_pending" />
+</shape>

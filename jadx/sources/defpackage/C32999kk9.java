@@ -1,0 +1,228 @@
+package defpackage;
+
+import android.content.Context;
+import android.graphics.drawable.Drawable;
+import com.snap.ui.view.stackdraw.StackDrawLayout;
+import com.snapchat.android.R;
+
+/* renamed from: kk9  reason: default package and case insensitive filesystem */
+/* loaded from: classes6.dex */
+public final class C32999kk9 extends StackDrawLayout {
+    public static final /* synthetic */ int k1 = 0;
+    public final C4190Gol A0;
+    public final C4190Gol B0;
+    public final C4190Gol C0;
+    public final KF7 D0;
+    public final KF7 E0;
+    public final KF7 F0;
+    public final KF7 G0;
+    public final KF7 H0;
+    public final KF7 I0;
+    public final KF7 J0;
+    public final KF7 K0;
+    public final KF7 L0;
+    public final int M0;
+    public final int N0;
+    public final int O0;
+    public final int P0;
+    public final int Q0;
+    public final int R0;
+    public final C1338Cbl S0;
+    public final int T0;
+    public final int U0;
+    public final C1338Cbl V0;
+    public final C1338Cbl W0;
+    public final C1338Cbl X0;
+    public final C1338Cbl Y0;
+    public final C1338Cbl Z0;
+    public final C1338Cbl a1;
+    public final int b1;
+    public final C1338Cbl c1;
+    public final int d1;
+    public final C1338Cbl e1;
+    public final int f1;
+    public final C1338Cbl g1;
+    public final C4190Gol h;
+    public final int h1;
+    public final KF7 i;
+    public RMf i1;
+    public final C10485Qnh j;
+    public String j1;
+    public final C4190Gol k;
+    public final C4190Gol t;
+    public final KF7 y0;
+    public final KF7 z0;
+
+    public C32999kk9(Context context) {
+        super(context);
+        C4190Gol f;
+        int dimensionPixelSize = getResources().getDimensionPixelSize(R.dimen.ff_sdl_avatar_margin);
+        this.M0 = dimensionPixelSize;
+        this.N0 = getResources().getDimensionPixelSize(R.dimen.ff_muted_chat_notification_icon_margin);
+        this.O0 = getResources().getDimensionPixelSize(R.dimen.ff_sdl_cross_button_margin);
+        int dimensionPixelSize2 = getResources().getDimensionPixelSize(R.dimen.ff_sdl_primary_text_start_margin);
+        this.P0 = dimensionPixelSize2;
+        this.Q0 = getResources().getDimensionPixelSize(R.dimen.ff_sdl_reply_button_padding);
+        this.R0 = getResources().getDimensionPixelSize(R.dimen.ff_sdl_reply_pill_padding);
+        this.S0 = new C1338Cbl(new C29883ik9(this, 3));
+        this.T0 = getResources().getDimensionPixelSize(R.dimen.ff_sdl_snap_button_padding);
+        this.U0 = getResources().getDimensionPixelSize(R.dimen.ff_sdl_snap_button_padding);
+        getResources().getDimensionPixelSize(R.dimen.ff_sdl_pinned_convo_icon_padding);
+        this.V0 = new C1338Cbl(new T8a(context, 5));
+        this.W0 = new C1338Cbl(new T8a(context, 2));
+        this.X0 = new C1338Cbl(new T8a(context, 4));
+        this.Y0 = new C1338Cbl(new T8a(context, 3));
+        this.Z0 = new C1338Cbl(new C29883ik9(this, 1));
+        this.a1 = new C1338Cbl(new C29883ik9(this, 2));
+        this.b1 = getResources().getDimensionPixelSize(R.dimen.ff_sdl_chat_button_container_size);
+        this.c1 = new C1338Cbl(new T8a(context, 1));
+        this.d1 = getResources().getDimensionPixelSize(R.dimen.ff_cognac_thumbnail_size);
+        this.e1 = new C1338Cbl(new C29883ik9(this, 0));
+        this.f1 = getResources().getDimensionPixelSize(R.dimen.ff_smart_cta_icon_size);
+        this.g1 = new C1338Cbl(new T8a(context, 6));
+        float dimension = getResources().getDimension(R.dimen.ff_sdl_peeking_emoji_size);
+        float dimension2 = getResources().getDimension(R.dimen.ff_sdl_post_view_emoji_size);
+        int dimensionPixelSize3 = getResources().getDimensionPixelSize(R.dimen.ff_sdl_typing_avatar_container_size);
+        this.h1 = dimensionPixelSize3;
+        setId(R.id.ff_item);
+        setBackground(EWl.j(R.attr.listBackgroundDrawable, context.getTheme()));
+        int dimensionPixelSize4 = getResources().getDimensionPixelSize(R.dimen.ff_friends_feed_subtext_icon_size);
+        int dimensionPixelSize5 = getResources().getDimensionPixelSize(R.dimen.ff_friends_feed_loading_icon_size);
+        C48822v3b c48822v3b = new C48822v3b(-2, -2, 0, 0, 0, 0, 0, 0, 252);
+        c48822v3b.h = 8388627;
+        c48822v3b.c = 2;
+        c48822v3b.d = dimensionPixelSize;
+        c48822v3b.e = -dimensionPixelSize;
+        C4190Gol f2 = f(c48822v3b, new C40787pol(0, null, null, null, false, null, dimension, 0.0f, 0.0f, 0.0f, 0, 0, 0.0f, 0, 0, 0, 0, 0, null, 2097023));
+        f2.f0("👀");
+        f2.D(8);
+        this.h = f2;
+        C48822v3b c48822v3b2 = new C48822v3b(dimensionPixelSize3, dimensionPixelSize3, 0, 0, 0, 0, 0, 0, 252);
+        c48822v3b2.h = 8388627;
+        c48822v3b2.c = 2;
+        c48822v3b2.d = dimensionPixelSize;
+        KF7 k = k(c48822v3b2, 2);
+        k.t = "avatar_container";
+        this.i = k;
+        KF7 k2 = k(new C48822v3b(0, 0, 0, 0, 0, 0, 0, 0, 252), 2);
+        this.D0 = k2;
+        KF7 k3 = k(new C48822v3b(0, 0, 0, 0, 0, 0, 0, 0, 252), 2);
+        k3.t = "feed_cross_button";
+        this.I0 = k3;
+        k2.j = "Camera Reply";
+        KF7 k4 = k(new C48822v3b(0, 0, 0, 0, 0, 0, 0, 0, 252), 2);
+        k4.t = "feed_snap_reply_button";
+        this.E0 = k4;
+        KF7 k5 = k(new C48822v3b(0, 0, 0, 0, 0, 0, 0, 0, 252), 2);
+        k5.t = "feed_snap_smart_cta_button";
+        k5.D(8);
+        this.F0 = k5;
+        this.G0 = k(new C48822v3b(0, 0, 0, 0, 0, 0, 0, 0, 252), 2);
+        KF7 k6 = k(new C48822v3b(0, 0, 0, 0, 0, 0, 0, 0, 252), 2);
+        k6.t = "feed_chat_button";
+        this.H0 = k6;
+        KF7 k7 = k(new C48822v3b(0, 0, 0, 0, 0, 0, 0, 0, 252), 2);
+        k7.t = "feed_secondary_button_tag";
+        this.K0 = k7;
+        KF7 k8 = k(new C48822v3b(0, 0, 0, 0, 0, 0, 0, 0, 252), 2);
+        k8.t = "feed_pinned_convo_button";
+        this.J0 = k8;
+        C48822v3b c48822v3b3 = new C48822v3b(-2, -2, 0, 0, 0, 0, 0, 0, 252);
+        c48822v3b3.h = 8388629;
+        c48822v3b3.c = 2;
+        c48822v3b3.e = dimensionPixelSize;
+        f = f(c48822v3b3, new C40787pol(0, null, null, null, false, null, 0.0f, 0.0f, 0.0f, 0.0f, 0, 0, 0.0f, 0, 0, 0, 0, 0, null, 2097151));
+        this.B0 = f;
+        C48822v3b c48822v3b4 = new C48822v3b(1, 1, 0, 0, 0, 0, 0, 0, 252);
+        c48822v3b4.c = 2;
+        c48822v3b4.h = 8388613;
+        C10485Qnh c10485Qnh = new C10485Qnh(c48822v3b4);
+        w(c10485Qnh);
+        this.j = c10485Qnh;
+        C48822v3b c48822v3b5 = new C48822v3b(-1, -2, 0, 0, 0, 0, 0, 0, 252);
+        c48822v3b5.c = 3;
+        c48822v3b5.h = 48;
+        c48822v3b5.f = getResources().getDimensionPixelSize(R.dimen.ff_sdl_primary_text_top_margin);
+        c48822v3b5.d = dimensionPixelSize2;
+        c48822v3b5.e = dimensionPixelSize;
+        N3b c10485Qnh2 = new C10485Qnh(c48822v3b5);
+        C48822v3b c48822v3b6 = new C48822v3b(-2, -2, 0, 0, 0, 0, 0, 0, 252);
+        c48822v3b6.c = 2;
+        c48822v3b6.h = 8388627;
+        c48822v3b6.e = dimensionPixelSize;
+        C4190Gol c4190Gol = new C4190Gol(c48822v3b6, new C40787pol(1, null, null, null, false, null, 0.0f, 0.0f, 0.0f, 0.0f, 0, 0, 0.0f, 0, 0, 0, 0, 0, null, 2097134));
+        this.k = c4190Gol;
+        KF7 kf7 = new KF7(new C48822v3b(1, 1, 0, 0, 0, 0, 0, 0, 252), 0, 6);
+        kf7.t = "feed_muted_notification_icon";
+        this.L0 = kf7;
+        c10485Qnh2.I(c4190Gol);
+        c10485Qnh2.I(kf7);
+        w(c10485Qnh2);
+        C48822v3b c48822v3b7 = new C48822v3b(dimensionPixelSize4, dimensionPixelSize4, 0, 0, 0, 0, 0, 0, 252);
+        c48822v3b7.h = 8388659;
+        c48822v3b7.c = 2;
+        c48822v3b7.f = getResources().getDimensionPixelSize(R.dimen.ff_subtext_icon_top_margin);
+        this.y0 = k(c48822v3b7, 2);
+        C48822v3b c48822v3b8 = new C48822v3b(-2, -2, 0, 0, 0, 0, 0, 0, 252);
+        c48822v3b8.h = 8388659;
+        c48822v3b8.c = 2;
+        c48822v3b8.d = getResources().getDimensionPixelSize(R.dimen.ff_sdl_post_view_emoji_start_margin);
+        c48822v3b8.e = getResources().getDimensionPixelSize(R.dimen.ff_sdl_post_view_emoji_end_margin);
+        c48822v3b8.f = getResources().getDimensionPixelSize(R.dimen.ff_sdl_post_view_emoji_top_margin);
+        this.A0 = f(c48822v3b8, new C40787pol(0, null, null, null, false, null, dimension2, 0.0f, 0.0f, 0.0f, 0, 0, 0.0f, 0, 0, 0, 0, 0, null, 2097023));
+        C48822v3b c48822v3b9 = new C48822v3b(-2, -2, 0, 0, 0, 0, 0, 0, 252);
+        c48822v3b9.h = 8388659;
+        c48822v3b9.c = 2;
+        c48822v3b9.d = getResources().getDimensionPixelSize(R.dimen.ff_sdl_post_view_emoji_start_margin);
+        c48822v3b9.e = getResources().getDimensionPixelSize(R.dimen.ff_sdl_post_view_emoji_end_margin);
+        c48822v3b9.f = getResources().getDimensionPixelSize(R.dimen.ff_sdl_post_view_emoji_top_margin);
+        this.C0 = f(c48822v3b9, new C40787pol(0, null, null, null, false, null, dimension2, 0.0f, 0.0f, 0.0f, 0, 0, 0.0f, 0, 0, 0, 0, 0, null, 2097023));
+        C48822v3b c48822v3b10 = new C48822v3b(dimensionPixelSize5, dimensionPixelSize5, 0, 0, 0, 0, 0, 0, 252);
+        c48822v3b10.h = 8388659;
+        c48822v3b10.c = 2;
+        c48822v3b10.d = dimensionPixelSize2;
+        c48822v3b10.e = getResources().getDimensionPixelSize(R.dimen.ff_sdl_loading_icon_margin);
+        c48822v3b10.f = getResources().getDimensionPixelSize(R.dimen.ff_sdl_loading_icon_margin);
+        this.z0 = k(c48822v3b10, 2);
+        C48822v3b c48822v3b11 = new C48822v3b(-2, -2, 0, 0, 0, 0, 0, 0, 252);
+        c48822v3b11.h = 8388659;
+        c48822v3b11.c = 2;
+        c48822v3b11.e = dimensionPixelSize;
+        c48822v3b11.g = getResources().getDimensionPixelSize(R.dimen.ff_sdl_primary_text_top_margin);
+        this.t = f(c48822v3b11, new C40787pol(1, null, null, null, false, null, 0.0f, 0.0f, 0.0f, 0.0f, 0, 0, 0.0f, 2, 0, 0, 0, 0, null, 2080750));
+    }
+
+    public final int B() {
+        return ((Number) this.Z0.getValue()).intValue();
+    }
+
+    public final void C(Drawable drawable, int i, int i2) {
+        C48822v3b c48822v3b = new C48822v3b(-2, -2, 0, 0, 0, 0, 0, 0, 252);
+        c48822v3b.h = 8388629;
+        c48822v3b.c = 2;
+        c48822v3b.e = this.M0;
+        KF7 kf7 = this.D0;
+        kf7.C(c48822v3b);
+        kf7.K(drawable);
+        kf7.D(0);
+        kf7.J0 = i;
+        kf7.K0 = i;
+        kf7.L0 = i2;
+        kf7.M0 = i2;
+    }
+
+    public final void D(boolean z) {
+        C4190Gol c4190Gol = this.C0;
+        KF7 kf7 = this.y0;
+        if (z) {
+            kf7.D(8);
+            c4190Gol.D(0);
+        } else {
+            kf7.D(0);
+            c4190Gol.D(8);
+        }
+        this.z0.D(8);
+        this.A0.D(8);
+        this.t.m(0);
+    }
+}

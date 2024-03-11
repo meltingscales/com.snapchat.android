@@ -1,0 +1,31 @@
+package defpackage;
+
+import java.util.Set;
+
+/* renamed from: TKg  reason: default package */
+/* loaded from: classes8.dex */
+public final class TKg extends AbstractC13793Vtm {
+    public String f;
+    public Long g;
+    public Boolean h;
+    public EnumC29383iPh i;
+
+    public TKg() {
+        super("REAL_TIME_SCAN_DECODE_RESPONSE", EnumC45985tCg.BUSINESS, 1.0d, 1.0d);
+    }
+
+    @Override // defpackage.InterfaceC42467qug
+    public final int b() {
+        return 4190;
+    }
+
+    @Override // defpackage.InterfaceC42467qug
+    public final void c(C38303oC7 c38303oC7, Set set) {
+        byte[] bArr = new byte[1];
+        AbstractC39604p2m.L0(c38303oC7, 2, bArr, this.i, set);
+        AbstractC39604p2m.O0(c38303oC7, 3, bArr, this.f, set);
+        AbstractC39604p2m.J0(c38303oC7, 4, bArr, this.h, set);
+        AbstractC39604p2m.M0(c38303oC7, 5, bArr, this.g, set);
+        c38303oC7.j(bArr);
+    }
+}

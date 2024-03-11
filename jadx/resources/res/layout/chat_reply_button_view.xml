@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.messaging.chat.ui.view.ReplyButtonView xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/reply_icon" android:layout_width="@dimen/chat_reply_max_swipe_position" android:layout_height="match_parent" android:layout_marginStart="@dimen/chat_reply_margin_start"/>

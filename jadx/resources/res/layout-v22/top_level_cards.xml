@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@+id/cards_scroll_view" android:visibility="invisible" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/top_level_context_cards_horizontal_margin" android:layout_marginRight="@dimen/top_level_context_cards_horizontal_margin" android:layout_marginBottom="@dimen/top_level_context_cards_bottom_margin" android:requiresFadingEdge="vertical|horizontal" android:layout_marginHorizontal="@dimen/top_level_context_cards_horizontal_margin">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/cards" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</HorizontalScrollView>

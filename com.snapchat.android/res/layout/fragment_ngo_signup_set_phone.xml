@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/signup_set_phone_page" android:background="?sigColorBackgroundMain" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/ngo_top_bar" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0">
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/content_holder" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <com.snap.identity.ui.shared.phonenumber.PhonePickerViewV2 android:id="@id/phone_picker_v2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_gap" />
+            <com.snap.ui.view.SnapLinkFriendlyTextView android:textColor="?sigColorTextPrimary" android:id="@id/send_sms_explanation" android:visibility="visible" android:text="@string/signup_we_will_send_notice" android:textAllCaps="false" style="@style/IdentityFieldSubtext" />
+            <com.snap.ui.view.SnapFontTextView android:id="@id/phone_error_message" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/IdentityFieldSubtextError" />
+            <com.snap.ui.view.SnapFontTextView android:id="@id/signup_with_email_instead_v2" android:visibility="gone" android:text="@string/ngo_signup_with_email" style="@style/NgoIdentityLinkText" />
+            <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="2.0" />
+        </LinearLayout>
+    </ScrollView>
+    <com.snap.identity.api.sharedui.ProgressButton android:layout_gravity="center_horizontal" android:id="@id/continue_button" custom:buttonText="@string/ngo_finish" style="@style/LoginSignupButton" />
+</LinearLayout>

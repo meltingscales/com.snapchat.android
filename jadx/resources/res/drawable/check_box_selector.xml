@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" android:constantSize="true">
+    <item android:state_enabled="true" android:state_checked="true" android:drawable="@drawable/svg_select_on"/>
+    <item android:state_enabled="true" android:state_checked="false" android:drawable="@drawable/svg_select_off"/>
+    <item android:state_enabled="false" android:state_checked="true" android:drawable="@drawable/svg_select_disabled"/>
+</selector>

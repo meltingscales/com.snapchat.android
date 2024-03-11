@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/settings_bottom_round_corners" android:layout_width="fill_parent" android:layout_height="@dimen/default_gap_6x" android:elevation="@dimen/simple_card_elevation"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <com.snap.ui.view.SnapFontTextView android:textSize="?v11Title3TextSize" android:textColor="@color/settings_text_color" android:ellipsize="end" android:layout_gravity="center" android:id="@id/view_more_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/select_friend_view_more" custom:scFontWeight="bolder" />
+</FrameLayout>

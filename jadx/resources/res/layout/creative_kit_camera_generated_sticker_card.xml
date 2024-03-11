@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.component.cards.SnapCardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_gravity="center" android:id="@+id/generated_sticker_card" android:visibility="invisible" android:layout_width="@dimen/ck_sticker_card_width" android:layout_height="wrap_content" android:layout_margin="@dimen/ck_sticker_card_corner_radius" app:cardBackgroundColor="@color/sig_color_flat_pure_white_any" app:cardCornerRadius="@dimen/ck_sticker_card_corner_radius" app:cardElevation="@dimen/ck_sticker_card_elevation" app:contentPadding="@dimen/ck_sticker_content_margin">
+    <RelativeLayout android:id="@+id/sticker_card_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.snap.framework.ui.views.RoundedFrameLayout android:id="@+id/sticker_thumbnail_card" android:layout_width="@dimen/ck_sticker_thumbnail_img_width" android:layout_height="@dimen/ck_sticker_thumbnail_img_height" android:layout_marginBottom="@dimen/ck_sticker_text_content_margin" app:corner_radius="@dimen/ck_sticker_thumbnail_img_corner_radius">
+            <com.snap.imageloading.view.SnapImageView android:id="@+id/sticker_thumbnail_img" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+        </com.snap.framework.ui.views.RoundedFrameLayout>
+        <com.snap.ui.view.SnapFontTextView android:textSize="?attr/v11Heading1TextSize" android:textColor="@color/sig_color_flat_pure_black_any" android:ellipsize="end" android:id="@+id/sticker_title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ck_sticker_text_content_margin" android:maxLines="3" android:layout_below="@+id/sticker_thumbnail_card" app:scFontWeight="?attr/v11Heading1FontWeight"/>
+        <RelativeLayout android:id="@+id/sticker_fav_icon_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/sticker_title_text">
+            <com.snap.framework.ui.views.RoundedFrameLayout android:id="@+id/sticker_fav_icon_card" android:layout_width="@dimen/ck_sticker_fav_icon_width" android:layout_height="@dimen/ck_sticker_fav_icon_height" android:layout_marginEnd="@dimen/ck_sticker_fav_icon_subtitle_margin" app:corner_radius="@dimen/ck_sticker_fav_icon_corner_radius">
+                <com.snap.imageloading.view.SnapImageView android:id="@+id/sticker_fav_icon_img" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY"/>
+            </com.snap.framework.ui.views.RoundedFrameLayout>
+            <com.snap.ui.view.SnapFontTextView android:textSize="?attr/v11Title1TextSize" android:textColor="@color/sig_color_base_gray70_any" android:ellipsize="end" android:id="@+id/sticker_subtitle_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_toRightOf="@+id/sticker_fav_icon_card" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</com.snap.component.cards.SnapCardView>

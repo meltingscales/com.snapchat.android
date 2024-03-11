@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.component.cards.SnapCardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="wrap_content" android:layout_height="wrap_content" app:cardCornerRadius="@dimen/dual_camera_onboarding_card_corner_radius">
+    <com.snap.imageloading.view.SnapImageView android:layout_gravity="center" android:id="@+id/dual_camera_onboarding_image_view" android:layout_width="@dimen/dual_camera_onboarding_image_width" android:layout_height="@dimen/dual_camera_onboarding_image_height"/>
+</com.snap.component.cards.SnapCardView>

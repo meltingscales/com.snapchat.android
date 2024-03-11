@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/error_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/loading_screen_spacing" android:layout_marginEnd="@dimen/loading_screen_spacing">
+    <com.snap.component.SnapLabelView android:textSize="?attr/v11Heading5TextSize" android:textStyle="bold" android:textColor="?attr/colorWhite" android:gravity="center" android:id="@+id/loading_error_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/bloops_error_retry"/>
+    <com.snap.component.SnapLabelView android:textSize="?attr/v11Title1TextSize" android:textColor="?attr/colorWhite" android:gravity="center" android:id="@+id/loading_error_subtext" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_gap"/>
+    <TextView android:layout_gravity="center" android:id="@+id/loading_error_retry_button" android:layout_marginTop="@dimen/default_gap_3x" android:text="@string/retry" android:layout_marginEnd="@dimen/default_gap_2x" style="@style/loading_screen_button"/>
+</LinearLayout>

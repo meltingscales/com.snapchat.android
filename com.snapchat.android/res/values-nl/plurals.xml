@@ -1,0 +1,1047 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="action_menu_camera_select">
+        <item quantity="other">%d geselecteerde items</item>
+        <item quantity="one">%d geselecteerd item</item>
+    </plurals>
+    <plurals name="action_menu_hide_long">
+        <item quantity="other">Snaps verbergen (Alleen voor mij)</item>
+        <item quantity="one">@string/memories_opera_action_menu_hide</item>
+    </plurals>
+    <plurals name="action_menu_mute_for_hours">
+        <item quantity="other">Voor %d uur</item>
+        <item quantity="one">Voor %d uur</item>
+    </plurals>
+    <plurals name="action_menu_snap_select">
+        <item quantity="other">%d geselecteerde Snaps</item>
+        <item quantity="one">%d geselecteerde Snap</item>
+    </plurals>
+    <plurals name="action_menu_unhide_long">
+        <item quantity="other">Snaps verbergen opheffen</item>
+        <item quantity="one">@string/memories_opera_action_menu_unhide</item>
+    </plurals>
+    <plurals name="active_indicator_explainer_active_hour">
+        <item quantity="other">de afgelopen %d uur!</item>
+        <item quantity="one">het afgelopen %d uur!</item>
+    </plurals>
+    <plurals name="activity_indicator_explainer_active_friend_count">
+        <item quantity="other">%d vrienden waren</item>
+        <item quantity="one">%d vriend was</item>
+    </plurals>
+    <plurals name="add_friend_badge_request_tips">
+        <item quantity="other">%1$s nieuwe vrienden toevoegen</item>
+        <item quantity="one">%1$s nieuwe vriend toevoegen</item>
+    </plurals>
+    <plurals name="add_friend_badge_suggestion_tips">
+        <item quantity="other">%1$s nieuwe vriendschapssuggesties</item>
+        <item quantity="one">%1$s nieuwe vriendschapssuggestie</item>
+    </plurals>
+    <plurals name="add_friends_button_subtext">
+        <item quantity="other">%1$s Snapchatters hebben je toegevoegd!</item>
+        <item quantity="one">%1$s Snapchatter heeft je toegevoegd!</item>
+    </plurals>
+    <plurals name="add_friends_button_suggestion_subtext">
+        <item quantity="other">%1$s vriendschapssuggesties!</item>
+        <item quantity="one">%1$s vriendschapssuggestie!</item>
+    </plurals>
+    <plurals name="batch_capture_save_as_x_snaps">
+        <item quantity="other">Opslaan als %1$d Snaps</item>
+        <item quantity="one">Opslaan als %1$d Snap</item>
+    </plurals>
+    <plurals name="bottom_button_text">
+        <item quantity="other">+ %d vrienden toevoegen</item>
+        <item quantity="one">+ %d vriend toevoegen</item>
+    </plurals>
+    <plurals name="camera_mode_batch_capture_limit_reached_description_with_count">
+        <item quantity="other">Multi-Snap kan maximaal %1$d Snaps tegelijk opslaan.</item>
+        <item quantity="one">Multi-Snap kan maximaal %1$d Snaps tegelijk opslaan.</item>
+    </plurals>
+    <plurals name="camera_mode_disable_batch_capture_description">
+        <item quantity="other">Weet je zeker dat je de Multi-Snap wilt uitzetten? Je %1$d niet-opgeslagen Snaps gaan dan verloren.</item>
+        <item quantity="one">Weet je zeker dat je de Multi-Snap wilt uitzetten? Je niet-opgeslagen Snap gaat dan verloren.</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_image_sharer_you_not">
+        <item quantity="other">"%1$s EN %2$s HEBBEN %3$d FOTO'S OPGESLAGEN VAN %4$s"</item>
+        <item quantity="one">%1$s EN %2$s HEBBEN EEN FOTO OPGESLAGEN VAN %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_image_sharer_you_yes">
+        <item quantity="other">"%1$s EN %2$s HEBBEN %3$d FOTO'S DIE JE HEBT VERSTUURD OPGESLAGEN"</item>
+        <item quantity="one">%1$s EN %2$s HEBBEN JE FOTO OPGESLAGEN</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_item_sharer_you_not">
+        <item quantity="other">%1$s EN %2$s HEBBEN %3$d ITEMS OPGESLAGEN VAN %4$s</item>
+        <item quantity="one">%1$s EN %2$s HEBBEN EEN ITEM OPGESLAGEN VAN %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_item_sharer_you_yes">
+        <item quantity="other">%1$s EN %2$s HEBBEN %3$d ITEMS DIE JE HEBT VERSTUURD OPGESLAGEN</item>
+        <item quantity="one">%1$s EN %2$s HEBBEN JE ITEM OPGESLAGEN</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_video_sharer_you_not">
+        <item quantity="other">"%1$s EN %2$s HEBBEN %3$d VIDEO'S OPGESLAGEN VAN %4$s"</item>
+        <item quantity="one">%1$s EN %2$s HEBBEN EEN VIDEO OPGESLAGEN VAN %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_video_sharer_you_yes">
+        <item quantity="other">"%1$s EN %2$s HEBBEN %3$d VIDEO'S DIE JE HEBT VERSTUURD OPGESLAGEN"</item>
+        <item quantity="one">%1$s EN %2$s HEBBEN JE VIDEO OPGESLAGEN</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_yes_media_image_sharer_you_not">
+        <item quantity="other">"JIJ EN %1$s HEBBEN %2$d FOTO'S OPGESLAGEN VAN %3$s"</item>
+        <item quantity="one">JIJ EN %1$s HEBBEN EEN FOTO OPGESLAGEN VAN %3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_yes_media_item_sharer_you_not">
+        <item quantity="other">JIJ EN %1$s HEBBEN %2$d ITEMS OPGESLAGEN VAN %3$s</item>
+        <item quantity="one">JIJ EN %1$s HEBBEN EEN ITEM OPGESLAGEN VAN %3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_yes_media_video_sharer_you_not">
+        <item quantity="other">"JIJ EN %1$s HEBBEN %2$d VIDEO'S OPGESLAGEN VAN %3$s"</item>
+        <item quantity="one">JIJ EN %1$s HEBBEN EEN VIDEO OPGESLAGEN VAN %3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_image_sharer_you_not">
+        <item quantity="other">"%1$s EN %2$s HEBBEN %3$d FOTO'S OPGESLAGEN VAN %4$s"</item>
+        <item quantity="one">%1$s EN %2$s HEBBEN EEN FOTO OPGESLAGEN VAN %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_image_sharer_you_yes">
+        <item quantity="other">"%1$s EN %2$s HEBBEN %3$d FOTO'S DIE JE HEBT VERSTUURD, OPGESLAGEN"</item>
+        <item quantity="one">%1$s EN %2$s HEBBEN JE FOTO OPGESLAGEN</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_item__sharer_you_not">
+        <item quantity="other">%1$s EN %2$s HEBBEN %3$d ITEMS OPGESLAGEN VAN %4$s</item>
+        <item quantity="one">%1$s EN %2$s HEBBEN EEN ITEM OPGESLAGEN VAN %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_item__sharer_you_yes">
+        <item quantity="other">%1$s EN %2$s HEBBEN %3$d ITEMS DIE JE HEBT VERSTUURD, OPGESLAGEN</item>
+        <item quantity="one">%1$s EN %2$s HEBBEN JE ITEM OPGESLAGEN</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_video_sharer_you_not">
+        <item quantity="other">"%1$s EN %2$s HEBBEN %3$d VIDEO'S OPGESLAGEN VAN %4$s"</item>
+        <item quantity="one">%1$s EN %2$s HEBBEN EEN VIDEO OPGESLAGEN VAN %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_video_sharer_you_yes">
+        <item quantity="other">"%1$s EN %2$s HEBBEN %3$d VIDEO'S DIE JE HEBT VERSTUURD, OPGESLAGEN"</item>
+        <item quantity="one">%1$s EN %2$s HEBBEN JE VIDEO OPGESLAGEN</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_yes_media_image_sharer_you_not">
+        <item quantity="other">"JIJ, %1$s EN %2$s HEBBEN %3$d FOTO'S OPGESLAGEN VAN %4$s"</item>
+        <item quantity="one">JIJ, %1$s EN %2$s HEBBEN EEN FOTO OPGESLAGEN VAN %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_yes_media_item_sharer_you_not">
+        <item quantity="other">JIJ, %1$s EN %2$s HEBBEN %3$d ITEMS OPGESLAGEN VAN %4$s</item>
+        <item quantity="one">JIJ, %1$s EN %2$s HEBBEN EEN ITEM OPGESLAGEN VAN %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_yes_media_video_sharer_you_not">
+        <item quantity="other">"JIJ, %1$s EN %2$s HEBBEN %3$d VIDEO'S OPGESLAGEN VAN %4$s"</item>
+        <item quantity="one">JIJ, %1$s EN %2$s HEBBEN EEN VIDEO OPGESLAGEN VAN %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_image_sharer_you_not">
+        <item quantity="other">"%1$s HEEFT %2$d FOTO'S OPGESLAGEN VAN %3$s"</item>
+        <item quantity="one">%1$s HEEFT EEN FOTO OPGESLAGEN VAN %3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_image_sharer_you_yes">
+        <item quantity="other">"%1$s HEEFT %2$d FOTO'S DIE JE HEBT VERSTUURD, OPGESLAGEN"</item>
+        <item quantity="one">%1$s HEEFT JE FOTO OPGESLAGEN</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_item_sharer_you_not">
+        <item quantity="other">%1$s HEEFT %2$d ITEMS OPGESLAGEN VAN %3$s</item>
+        <item quantity="one">%1$s HEEFT EEN ITEM OPGESLAGEN VAN %3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_item_sharer_you_yes">
+        <item quantity="other">%1$s HEEFT %2$d ITEMS DIE JE HEBT VERSTUURD, OPGESLAGEN</item>
+        <item quantity="one">%1$s HEEFT JE ITEM OPGESLAGEN</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_video_sharer_you_not">
+        <item quantity="other">"%1$s HEEFT %2$d VIDEO'S OPGESLAGEN VAN %3$s"</item>
+        <item quantity="one">%1$s HEEFT EEN VIDEO OPGESLAGEN VAN %3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_video_sharer_you_yes">
+        <item quantity="other">"%1$s HEEFT %2$d VIDEO'S DIE JE HEBT VERSTUURD, OPGESLAGEN"</item>
+        <item quantity="one">%1$s HEEFT JE VIDEO OPGESLAGEN</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_yes_media_image_sharer_you_not">
+        <item quantity="other">"JE HEBT %1$d FOTO'S OPGESLAGEN VAN %2$s"</item>
+        <item quantity="one">JE HEBT EEN FOTO OPGESLAGEN VAN %2$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_yes_media_item__sharer_you_not">
+        <item quantity="other">JE HEBT %1$d ITEMS OPGESLAGEN VAN %2$s</item>
+        <item quantity="one">JE HEBT EEN ITEM OPGESLAGEN VAN %2$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_yes_media_video_sharer_you_not">
+        <item quantity="other">"JE HEBT %1$d VIDEO'S OPGESLAGEN VAN %2$s"</item>
+        <item quantity="one">JE HEBT EEN VIDEO OPGESLAGEN VAN %2$s</item>
+    </plurals>
+    <plurals name="cannot_add_custom_story_snap_recipients">
+        <item quantity="other">Je kunt maar aan %1$d Persoonlijke Verhalen tegelijk bijdragen.</item>
+        <item quantity="one">Je kunt maar aan %1$d Persoonlijk Verhaal tegelijk bijdragen.</item>
+    </plurals>
+    <plurals name="capture_settings_distance_value_text_feet">
+        <item quantity="other">%1$d voet</item>
+        <item quantity="one">%1$d voet</item>
+    </plurals>
+    <plurals name="capture_settings_duration_value_text_orbits">
+        <item quantity="other">%1$d cirkels</item>
+        <item quantity="one">1 cirkel</item>
+    </plurals>
+    <plurals name="chat_header_gifting_birthday_upsell">
+        <item quantity="other">%1$s is over %2$d dagen jarig 🎂. Geef Snapchat+ cadeau.</item>
+        <item quantity="one">%1$s is morgen jarig 🎂. Geef Snapchat+ cadeau.</item>
+    </plurals>
+    <plurals name="cheerios_clean_unpair_cheerios_body">
+        <item quantity="other">Er staan %1$d Snaps op je Pixy. Wil je het apparaat resetten en alle Snaps en gebruikersgegevens verwijderen?</item>
+        <item quantity="one">Er staat een Snap op je Pixy. Wil je het apparaat resetten en alle Snaps en gebruikersgegevens verwijderen?</item>
+    </plurals>
+    <plurals name="cheerios_confirm_delete_body">
+        <item quantity="other">Als je deze Snaps verwijdert, verdwijnen ze van je Cheerios-apparaat.</item>
+        <item quantity="one">Als je deze Snap verwijdert, verdwijnt hij van je Cheerios-apparaat.</item>
+    </plurals>
+    <plurals name="cheerios_deleted">
+        <item quantity="other">%d Snaps verwijderd</item>
+        <item quantity="one">Snap verwijderd</item>
+    </plurals>
+    <plurals name="cheerios_deleting">
+        <item quantity="other">%d Snaps verwijderen…</item>
+        <item quantity="one">1 Snap verwijderen…</item>
+    </plurals>
+    <plurals name="cheerios_memories_tooltip">
+        <item quantity="other">%d nieuwe Snaps</item>
+        <item quantity="one">1 nieuwe Snap</item>
+    </plurals>
+    <plurals name="cheerios_new_snap_to_import">
+        <item quantity="other">%d nieuwe Snaps. Tik om ze te importeren.</item>
+        <item quantity="one">1 nieuwe Snap. Tik om hem te importeren.</item>
+    </plurals>
+    <plurals name="cheerios_status_transfer_complete_title">
+        <item quantity="other">%d Snaps geïmporteerd!</item>
+        <item quantity="one">%d Snap geïmporteerd.</item>
+    </plurals>
+    <plurals name="cheerios_status_transferring_title">
+        <item quantity="other">%d Snaps importeren...</item>
+        <item quantity="one">%d Snap importeren</item>
+    </plurals>
+    <plurals name="cluster_seven_or_more">
+        <item quantity="other">%1$s, %2$s, %3$s, %4$s, %5$s en %6$d anderen</item>
+        <item quantity="one">%1$s, %2$s, %3$s, %4$s, %5$s en %6$d anderen</item>
+    </plurals>
+    <plurals name="cluster_seven_or_more_me">
+        <item quantity="other">%1$s, %2$s, %3$s, %4$s, ik en %5$d anderen</item>
+        <item quantity="one">%1$s, %2$s, %3$s, %4$s, ik en %5$d anderen</item>
+    </plurals>
+    <plurals name="cluster_three_or_more">
+        <item quantity="other">%1$s en %2$d anderen</item>
+        <item quantity="one">%1$s en %2$d anderen</item>
+    </plurals>
+    <plurals name="cluster_three_or_more_me">
+        <item quantity="other">Ik en %1$d anderen</item>
+        <item quantity="one">Ik en %1$d anderen</item>
+    </plurals>
+    <plurals name="cognac_active_playing_game_text_multiple_player">
+        <item quantity="other">%1$s, %2$s + %3$d anderen spelen</item>
+        <item quantity="one">%1$s, %2$s + %3$d anderen spelen</item>
+    </plurals>
+    <plurals name="cognac_active_playing_game_text_multiple_player_shortened">
+        <item quantity="other">%1$s en %2$d anderen spelen</item>
+        <item quantity="one">%1$s en %2$d anderen spelen</item>
+    </plurals>
+    <plurals name="cognac_active_using_cypress_text_multiple_player">
+        <item quantity="other">%1$s, %2$s en %3$d anderen zijn actief</item>
+        <item quantity="one">%1$s, %2$s en %3$d anderen zijn actief</item>
+    </plurals>
+    <plurals name="cognac_active_using_cypress_text_multiple_player_shortened">
+        <item quantity="other">%1$s en %2$d anderen zijn actief</item>
+        <item quantity="one">%1$s en %2$d anderen zijn actief</item>
+    </plurals>
+    <plurals name="cognac_app_profile_multiple_player_text">
+        <item quantity="other">Ondersteunt %1$s-%2$d spelers</item>
+        <item quantity="one">Ondersteunt %1$s-%2$d spelers</item>
+    </plurals>
+    <plurals name="cognac_close_status_message_multiple_player_second_person">
+        <item quantity="other">Jij, %1$s en %2$d anderen hebben %3$s gespeeld</item>
+        <item quantity="one">Jij, %1$s en %2$d anderen hebben %3$s gespeeld</item>
+    </plurals>
+    <plurals name="cognac_close_status_message_multiple_player_third_person">
+        <item quantity="other">%1$s, %2$s en %3$d anderen hebben %4$s gespeeld</item>
+        <item quantity="one">%1$s, %2$s en %3$d anderen hebben %4$s gespeeld</item>
+    </plurals>
+    <plurals name="cognac_close_status_message_text_for_feed_multiple_player_third_person">
+        <item quantity="other">%1$s en %2$d anderen hebben %3$s gespeeld</item>
+        <item quantity="one">%1$s en %2$d anderen hebben %3$s gespeeld</item>
+    </plurals>
+    <plurals name="cognac_cypress_close_status_message_multiple_player_second_person">
+        <item quantity="other">Jij, %1$s en %2$d anderen hebben %3$s gebruikt</item>
+        <item quantity="one">Jij, %1$s en %2$d anderen hebben %3$s gebruikt</item>
+    </plurals>
+    <plurals name="cognac_cypress_close_status_message_multiple_player_third_person">
+        <item quantity="other">%1$s, %2$s en %3$d anderen hebben %4$s gebruikt</item>
+        <item quantity="one">%1$s, %2$s en %3$d anderen hebben %4$s gebruikt</item>
+    </plurals>
+    <plurals name="cognac_cypress_close_status_message_text_for_feed_multiple_player_third_person">
+        <item quantity="other">%1$s en %2$d anderen hebben %3$s gebruikt</item>
+        <item quantity="one">%1$s en %2$d anderen hebben %3$s gebruikt</item>
+    </plurals>
+    <plurals name="cognac_friend_picker_ringing_text_multiple_players">
+        <item quantity="other">Bellen met %1$s en %2$d anderen...</item>
+        <item quantity="one">Bellen met %1$s en %2$d anderen...</item>
+    </plurals>
+    <plurals name="comments_collapse_child_comments">
+        <item quantity="other">Reacties verbergen</item>
+        <item quantity="one">Reactie verbergen</item>
+    </plurals>
+    <plurals name="comments_expand_child_comments">
+        <item quantity="other">%s reacties tonen</item>
+        <item quantity="one">1 reactie tonen</item>
+    </plurals>
+    <plurals name="comments_header_with_live_comment_count">
+        <item quantity="other">%s opmerkingen</item>
+        <item quantity="one">1 opmerking</item>
+    </plurals>
+    <plurals name="content_detail_new_count">
+        <item quantity="other">%1$d nieuwe</item>
+        <item quantity="one">%1$d nieuwe</item>
+    </plurals>
+    <plurals name="content_detail_seen_text">
+        <item quantity="other">%1$d te importeren</item>
+        <item quantity="one">%1$d te importeren</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="other">%d dagen</item>
+        <item quantity="one">%d dag</item>
+    </plurals>
+    <plurals name="days_abbreviated">
+        <item quantity="other">%d d</item>
+        <item quantity="one">%d d</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated">
+        <item quantity="other">%d d geleden</item>
+        <item quantity="one">%d d geleden</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_camera_roll">
+        <item quantity="other">"%1$d d geleden van Foto's"</item>
+        <item quantity="one">"%1$d d geleden van Foto's"</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_chat">
+        <item quantity="other">%1$d d geleden van Chat</item>
+        <item quantity="one">%1$d d geleden van Chat</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_cheerios">
+        <item quantity="other">%1$d d geleden van Pixy</item>
+        <item quantity="one">%1$d d geleden van Pixy</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d d geleden van %2$s</item>
+        <item quantity="one">%1$d d geleden van %2$s</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_memories">
+        <item quantity="other">%1$d d geleden van Herinneringen</item>
+        <item quantity="one">%1$d d geleden van Herinneringen</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_spectacles">
+        <item quantity="other">%1$d d geleden van Spectacles</item>
+        <item quantity="one">%1$d d geleden van Spectacles</item>
+    </plurals>
+    <plurals name="days_ago_update">
+        <item quantity="other">%1$s dagen geleden geüpdatet</item>
+        <item quantity="one">%1$s dag geleden geüpdatet</item>
+    </plurals>
+    <plurals name="discard_batch_capture_description">
+        <item quantity="other">Weet je zeker dat je de Multi-Snap wilt verwijderen? Je %1$d niet-opgeslagen Snaps gaan dan verloren.</item>
+        <item quantity="one">Weet je zeker dat je de Multi-Snap wilt verwijderen? Je niet-opgeslagen Snap gaat dan verloren.</item>
+    </plurals>
+    <plurals name="display_username_explanation_changed_username_too_recently">
+        <item quantity="other">"Je hebt je gebruikersnaam gewijzigd op %1$s.
+Je kunt hem over %2$d dagen weer wijzigen."</item>
+        <item quantity="one">"Je hebt je gebruikersnaam gewijzigd op %1$s.
+Je kunt hem over %2$d dag weer wijzigen."</item>
+    </plurals>
+    <plurals name="failed_to_save_multiple_snaps">
+        <item quantity="other">Opslaan van %1$d Snaps is mislukt</item>
+        <item quantity="one">Opslaan van %1$d Snap is mislukt</item>
+    </plurals>
+    <plurals name="formatted_short_ft">
+        <item quantity="other">%d voet</item>
+        <item quantity="one">%d voet</item>
+    </plurals>
+    <plurals name="formatted_short_km">
+        <item quantity="other">%d km</item>
+        <item quantity="one">%d km</item>
+    </plurals>
+    <plurals name="formatted_short_m">
+        <item quantity="other">%d m</item>
+        <item quantity="one">%d m</item>
+    </plurals>
+    <plurals name="formatted_short_mile">
+        <item quantity="other">%d mi.</item>
+        <item quantity="one">%d mi.</item>
+    </plurals>
+    <plurals name="friending_progress_bar_secondary">
+        <item quantity="other">Stuur nog %1$s vriendschapsverzoeken!</item>
+        <item quantity="one">Stuur nog %1$s vriendschapsverzoek!</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_description_items">
+        <item quantity="other">"Je items zijn toegevoegd aan Alleen voor mij. Wil je de originelen uit Foto's verwijderen?"</item>
+        <item quantity="one">"Je item is toegevoegd aan Alleen voor mij. Wil je het origineel uit Foto's verwijderen?"</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_description_photos">
+        <item quantity="other">"Je foto's zijn toegevoegd aan Alleen voor mij. Wil je de originelen uit Foto's verwijderen?"</item>
+        <item quantity="one">"Je foto is toegevoegd aan Alleen voor mij. Wil je het origineel uit Foto's verwijderen?"</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_description_videos">
+        <item quantity="other">"Je video's zijn toegevoegd aan Alleen voor mij. Wil je de originelen uit Foto's verwijderen?"</item>
+        <item quantity="one">"Je video is toegevoegd aan Alleen voor mij. Wil je het origineel uit Foto's verwijderen?"</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_title">
+        <item quantity="other">Verwijder originelen</item>
+        <item quantity="one">Verwijder origineel</item>
+    </plurals>
+    <plurals name="gallery_private_rate_limit_minutes_time_out">
+        <item quantity="other">"
+Probeer het nog eens over %1$d minuten."</item>
+        <item quantity="one">"
+Probeer het nog eens over %1$d minuut."</item>
+    </plurals>
+    <plurals name="gauge_altitude_unit_feet">
+        <item quantity="other">%d voet</item>
+        <item quantity="one">%d voet</item>
+    </plurals>
+    <plurals name="gauge_altitude_unit_meters">
+        <item quantity="other">%d m</item>
+        <item quantity="one">%d m</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%d uur</item>
+        <item quantity="one">%d uur</item>
+    </plurals>
+    <plurals name="hours_abbreviated">
+        <item quantity="other">%d u</item>
+        <item quantity="one">%d u</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%d u</item>
+        <item quantity="one">%du</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated">
+        <item quantity="other">%d u geleden</item>
+        <item quantity="one">%d u geleden</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_camera_roll">
+        <item quantity="other">"%1$d u geleden van Foto's"</item>
+        <item quantity="one">"%1$d u geleden van Foto's"</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_chat">
+        <item quantity="other">%1$d u geleden van Chat</item>
+        <item quantity="one">%1$d u geleden van Chat</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_cheerios">
+        <item quantity="other">%1$d u geleden van Pixy</item>
+        <item quantity="one">%1$d u geleden van Pixy</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d u geleden van %2$s</item>
+        <item quantity="one">%1$d u geleden van %2$s</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_memories">
+        <item quantity="other">%1$d u geleden van Herinneringen</item>
+        <item quantity="one">%1$d u geleden van Herinneringen</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_spectacles">
+        <item quantity="other">%1$d u geleden van Spectacles</item>
+        <item quantity="one">%1$d u geleden van Spectacles</item>
+    </plurals>
+    <plurals name="hours_ago_update">
+        <item quantity="other">%1$s uur geleden geüpdatet</item>
+        <item quantity="one">%1$s uur geleden geüpdatet</item>
+    </plurals>
+    <plurals name="last_seen_here_hours">
+        <item quantity="other">%du geleden voor het laatst gezien</item>
+        <item quantity="one">%du geleden voor het laatst gezien</item>
+    </plurals>
+    <plurals name="last_seen_here_minutes">
+        <item quantity="other">%dm geleden voor het laatst gezien</item>
+        <item quantity="one">%dm geleden voor het laatst gezien</item>
+    </plurals>
+    <plurals name="live_location_chat_hours_remaining">
+        <item quantity="other">%d uur</item>
+        <item quantity="one">%d uur</item>
+    </plurals>
+    <plurals name="live_location_description_existing_sessions">
+        <item quantity="other">Je gaat je realtime locatie delen met vrienden die momenteel in deze groep zitten. %d vrienden kunnen je live locatie al zien.</item>
+        <item quantity="one">Je gaat je realtime locatie delen met vrienden die momenteel in deze groep zitten. %d vriend kan je live locatie al zien.</item>
+    </plurals>
+    <plurals name="live_location_duration_hr">
+        <item quantity="other">%d uur</item>
+        <item quantity="one">%d uur</item>
+    </plurals>
+    <plurals name="live_location_duration_min">
+        <item quantity="other">%d minuten</item>
+        <item quantity="one">%d minuut</item>
+    </plurals>
+    <plurals name="live_location_share_group_description">
+        <item quantity="other">Je deelt je live locatie met vrienden die momenteel in deze groep zitten. %d leden krijgen je locatie niet omdat je geen vrienden bent met deze personen.</item>
+        <item quantity="one">Je deelt je live locatie met vrienden die momenteel in deze groep zitten. %d lid krijgt je locatie niet omdat je geen vrienden bent met deze persoon.</item>
+    </plurals>
+    <plurals name="live_location_with_friends">
+        <item quantity="other">met %d vrienden</item>
+        <item quantity="one">met %d vriend</item>
+    </plurals>
+    <plurals name="location_upsell_description_specific_friends_more_than_four">
+        <item quantity="other">%1$s, %2$s, %3$s en %4$d van je vrienden zijn zichtbaar op de Kaart!</item>
+        <item quantity="one">%1$s, %2$s, %3$s en %4$d van je vrienden zijn zichtbaar op de Kaart!</item>
+    </plurals>
+    <plurals name="locked_lens_friending_banner_countdown_timer_hours">
+        <item quantity="other">%1$du</item>
+        <item quantity="one">%1$du</item>
+    </plurals>
+    <plurals name="locked_lens_friending_banner_countdown_timer_minutes">
+        <item quantity="other">%1$dm</item>
+        <item quantity="one">%1$dm</item>
+    </plurals>
+    <plurals name="locked_lens_friending_banner_countdown_timer_seconds">
+        <item quantity="other">%1$ds</item>
+        <item quantity="one">%1$ds</item>
+    </plurals>
+    <plurals name="map_group_card_subtext_friend_sharing">
+        <item quantity="other">%1$d vrienden delen</item>
+        <item quantity="one">%1$d vriend deelt</item>
+    </plurals>
+    <plurals name="map_passport_and_other">
+        <item quantity="other">en %d anderen</item>
+        <item quantity="one">en %d andere</item>
+    </plurals>
+    <plurals name="map_passport_bucket_cities_title">
+        <item quantity="other">Steden</item>
+        <item quantity="one">Stad</item>
+    </plurals>
+    <plurals name="map_passport_bucket_countries_title">
+        <item quantity="other">Landen</item>
+        <item quantity="one">Land</item>
+    </plurals>
+    <plurals name="map_passport_bucket_places_title">
+        <item quantity="other">Plaatsen</item>
+        <item quantity="one">Plaats</item>
+    </plurals>
+    <plurals name="map_widget_days_ago">
+        <item quantity="other">%d d</item>
+        <item quantity="one">%d d</item>
+    </plurals>
+    <plurals name="media_export_service_batch_export_failure">
+        <item quantity="other">%1$d van %2$d Snaps zijn geëxporteerd. %3$d Snaps zijn mislukt.</item>
+        <item quantity="one">%1$d van %2$d Snaps zijn geëxporteerd. %3$d Snap is mislukt.</item>
+    </plurals>
+    <plurals name="media_export_service_processing">
+        <item quantity="other">%1$d van %2$d Snaps exporteren…</item>
+        <item quantity="one">Snap exporteren…</item>
+    </plurals>
+    <plurals name="media_export_service_success">
+        <item quantity="other">Je Snaps zijn geëxporteerd.</item>
+        <item quantity="one">Je Snap is geëxporteerd.</item>
+    </plurals>
+    <plurals name="memories_camera_select_limit_error">
+        <item quantity="other">Je kunt maar %d items tegelijk selecteren.</item>
+        <item quantity="one">Je kunt maar %d item tegelijk selecteren.</item>
+    </plurals>
+    <plurals name="memories_delete_camera_roll_image_body">
+        <item quantity="other">Deze afbeeldingen worden van je apparaat verwijderd</item>
+        <item quantity="one">Deze afbeelding wordt van je apparaat verwijderd</item>
+    </plurals>
+    <plurals name="memories_delete_camera_roll_mixed_body">
+        <item quantity="other">Deze items worden van je apparaat verwijderd</item>
+        <item quantity="one">Deze items worden van je apparaat verwijderd</item>
+    </plurals>
+    <plurals name="memories_delete_camera_roll_video_body">
+        <item quantity="other">"Deze video's worden van je apparaat verwijderd"</item>
+        <item quantity="one">Deze video wordt van je apparaat verwijderd</item>
+    </plurals>
+    <plurals name="memories_delete_snap_body">
+        <item quantity="other">Snaps verwijderen?</item>
+        <item quantity="one">Snap verwijderen?</item>
+    </plurals>
+    <plurals name="memories_delete_story_body">
+        <item quantity="other">Verhalen verwijderen?</item>
+        <item quantity="one">Verhaal verwijderen?</item>
+    </plurals>
+    <plurals name="memories_export_error">
+        <item quantity="other">Kan Snaps niet exporteren.</item>
+        <item quantity="one">Kan Snap niet exporteren.</item>
+    </plurals>
+    <plurals name="memories_favorite_snaps_story_added">
+        <item quantity="other">%d Snaps toegevoegd aan je favoriete Verhaal</item>
+        <item quantity="one">Snap toegevoegd aan je favoriete Verhaal</item>
+    </plurals>
+    <plurals name="memories_favorite_snaps_story_removed">
+        <item quantity="other">%d Snaps verwijderd van je favoriete Verhaal</item>
+        <item quantity="one">Snap verwijderd uit je favoriete Verhaal</item>
+    </plurals>
+    <plurals name="memories_featured_story_flashback_diff_date_subtext">
+        <item quantity="other">%1$d jaar geleden</item>
+        <item quantity="one">%1$d jaar geleden</item>
+    </plurals>
+    <plurals name="memories_featured_story_flashback_same_date_subtext">
+        <item quantity="other">Vandaag, %1$d jaar geleden</item>
+        <item quantity="one">Vandaag, %1$d jaar geleden</item>
+    </plurals>
+    <plurals name="memories_featured_story_trip_flashback_chat_prefill_snap">
+        <item quantity="other">%1$s, %2$d jaar geleden</item>
+        <item quantity="one">%1$s, %2$d jaar geleden</item>
+    </plurals>
+    <plurals name="memories_featured_story_trip_flashback_chat_prefill_story">
+        <item quantity="other">Van %1$d jaar geleden</item>
+        <item quantity="one">Van %1$d jaar geleden</item>
+    </plurals>
+    <plurals name="memories_hide_legacy_auto_saves">
+        <item quantity="other">De Snaps uit deze Verhalen zullen nog steeds te vinden zijn op je nieuwe Mijn Verhaal-pagina. Verhalen die je hebt gemaakt of bewerkt, veranderen niet.</item>
+        <item quantity="one">De Snaps uit dit Verhaal zullen nog steeds te vinden zijn op je nieuwe Mijn Verhaal-pagina. Verhalen die je hebt gemaakt of bewerkt, worden niet beïnvloed.</item>
+    </plurals>
+    <plurals name="memories_hide_legacy_auto_saves_title">
+        <item quantity="other">%d oudere automatisch opgeslagen Verhalen verwijderen?</item>
+        <item quantity="one">%d ouder automatisch opgeslagen Verhaal verwijderen?</item>
+    </plurals>
+    <plurals name="memories_print_print_created">
+        <item quantity="other">%d 3D-prints gemaakt</item>
+        <item quantity="one">%d 3D-print gemaakt</item>
+    </plurals>
+    <plurals name="memories_print_processing">
+        <item quantity="other">%d Snaps verwerken voor printen...</item>
+        <item quantity="one">%d Snap verwerken voor printen...</item>
+    </plurals>
+    <plurals name="memories_remove_older_stories_dialog_title">
+        <item quantity="other">Hiermee worden %d oudere automatisch opgeslagen Verhalen verwijderd.</item>
+        <item quantity="one">Hiermee wordt %d ouder automatisch opgeslagen Verhaal verwijderd.</item>
+    </plurals>
+    <plurals name="memories_select_limit_error">
+        <item quantity="other">Je kunt maar %d Snaps tegelijk selecteren.</item>
+        <item quantity="one">Je kunt maar %d Snap tegelijk selecteren.</item>
+    </plurals>
+    <plurals name="memories_status_transfer_complete_in_app_notification_text">
+        <item quantity="other">%1$d Snaps geïmporteerd van %2$s</item>
+        <item quantity="one">%1$d Snap geïmporteerd van %2$s</item>
+    </plurals>
+    <plurals name="memories_status_transfer_complete_title">
+        <item quantity="other">%d Snaps geïmporteerd!</item>
+        <item quantity="one">%d Snap geïmporteerd!</item>
+    </plurals>
+    <plurals name="memories_status_transfer_from_device_complete_title">
+        <item quantity="other">Nieuwe Snaps van %s</item>
+        <item quantity="one">Nieuwe Snap van %s</item>
+    </plurals>
+    <plurals name="memories_status_transferring_title">
+        <item quantity="other">%1$d van %2$d Snaps worden geïmporteerd...</item>
+        <item quantity="one">%1$d van %2$d Snap wordt geïmporteerd...</item>
+    </plurals>
+    <plurals name="memories_story_editor_add_snap_selected">
+        <item quantity="other">%d geselecteerd</item>
+        <item quantity="one">%d geselecteerd</item>
+    </plurals>
+    <plurals name="minutes_abbreviated">
+        <item quantity="other">%d m</item>
+        <item quantity="one">%d m</item>
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="other">%dm</item>
+        <item quantity="one">%d m</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated">
+        <item quantity="other">%d m geleden</item>
+        <item quantity="one">%d m geleden</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_camera_roll">
+        <item quantity="other">"%1$d m geleden van Foto's"</item>
+        <item quantity="one">"%1$d m geleden van Foto's"</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_chat">
+        <item quantity="other">%1$d m geleden van Chat</item>
+        <item quantity="one">%1$d m geleden van Chat</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_cheerios">
+        <item quantity="other">%1$d m geleden van Pixy</item>
+        <item quantity="one">%1$d m geleden van Pixy</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d m geleden van %2$s</item>
+        <item quantity="one">%1$d m geleden van %2$s</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_memories">
+        <item quantity="other">%1$d m geleden van Herinneringen</item>
+        <item quantity="one">%1$d m geleden van Herinneringen</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_spectacles">
+        <item quantity="other">%1$d m geleden van Spectacles</item>
+        <item quantity="one">%1$d m geleden van Spectacles</item>
+    </plurals>
+    <plurals name="minutes_ago_update">
+        <item quantity="other">%1$s minuten geleden geüpdatet</item>
+        <item quantity="one">%1$s minuut geleden geüpdatet</item>
+    </plurals>
+    <plurals name="months_abbreviated">
+        <item quantity="other">%d mnd</item>
+        <item quantity="one">%d mnd</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated">
+        <item quantity="other">%d mnd geleden</item>
+        <item quantity="one">%d mnd geleden</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_camera_roll">
+        <item quantity="other">"%1$d mnd geleden van Foto's"</item>
+        <item quantity="one">"%1$d mnd geleden van Foto's"</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_chat">
+        <item quantity="other">%1$d mnd geleden van Chat</item>
+        <item quantity="one">%1$d mnd geleden van Chat</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_cheerios">
+        <item quantity="other">%1$d mnd geleden van Pixy</item>
+        <item quantity="one">%1$d mnd geleden van Pixy</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d mnd geleden van %2$s</item>
+        <item quantity="one">%1$d mnd geleden van %2$s</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_memories">
+        <item quantity="other">%1$d mnd geleden van Herinneringen</item>
+        <item quantity="one">%1$d mnd geleden van Herinneringen</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_spectacles">
+        <item quantity="other">%1$d mnd geleden van Spectacles</item>
+        <item quantity="one">%1$d mnd geleden van Spectacles</item>
+    </plurals>
+    <plurals name="months_ago_update">
+        <item quantity="other">%1$s maanden geleden geüpdatet</item>
+        <item quantity="one">%1$s maand geleden geüpdatet</item>
+    </plurals>
+    <plurals name="more_stories">
+        <item quantity="other">%d extra Verhalen</item>
+        <item quantity="one">1 extra Verhaal</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nieuwe meldingen</item>
+        <item quantity="one">%d nieuwe melding</item>
+    </plurals>
+    <plurals name="muted_stories">
+        <item quantity="other">%d gedempte Verhalen</item>
+        <item quantity="one">1 gedempt Verhaal</item>
+    </plurals>
+    <plurals name="new_registration_continue_with_n_friends">
+        <item quantity="other">%d vrienden toevoegen</item>
+        <item quantity="one">1 vriend toevoegen</item>
+    </plurals>
+    <plurals name="num_hours">
+        <item quantity="other">%du</item>
+        <item quantity="one">%du</item>
+    </plurals>
+    <plurals name="num_minutes">
+        <item quantity="other">%dm</item>
+        <item quantity="one">%dm</item>
+    </plurals>
+    <plurals name="nyc_audience_many_and_x_others">
+        <item quantity="other">%1$s+%2$d anderen</item>
+        <item quantity="one">%1$s+%2$d andere</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_ft">
+        <item quantity="other">voet</item>
+        <item quantity="one">voet</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_km">
+        <item quantity="other">km</item>
+        <item quantity="one">km</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_m">
+        <item quantity="other">m</item>
+        <item quantity="one">m</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_mile">
+        <item quantity="other">mi.</item>
+        <item quantity="one">mi.</item>
+    </plurals>
+    <plurals name="nyc_friends_many_and_x_others">
+        <item quantity="other">%1$s en %2$s delen de live locatie al met jou</item>
+        <item quantity="one">%1$s deelt de live locatie al met jou</item>
+    </plurals>
+    <plurals name="nyc_sharing_live_location_with_friends">
+        <item quantity="other">"Je deelt je Live locatie met %1$s vrienden. "</item>
+        <item quantity="one">"Je deelt je Live locatie met %1$s vriend. "</item>
+    </plurals>
+    <plurals name="nyc_unhide_live_location_friend_dialog_title">
+        <item quantity="other">Je verbergt je live locatie voor %1$d andere vrienden.</item>
+        <item quantity="one">Je verbergt je live locatie voor 1 andere vriend.</item>
+    </plurals>
+    <plurals name="pairing_validation_description">
+        <item quantity="other">Er staat/staan %d Snap(s) van de vorige gebruiker op je Pixy. Als je met dit apparaat koppelt, wordt het apparaat gereset en zullen alle Snaps en gebruikersgegevens worden verwijderd.</item>
+        <item quantity="one">Er staat 1 Snap van de vorige gebruiker op je Pixy. Als je met dit apparaat koppelt, wordt het apparaat gereset en zullen alle Snaps en gebruikersgegevens worden verwijderd.</item>
+    </plurals>
+    <plurals name="payments_num_purchased_items">
+        <item quantity="other">%d items</item>
+        <item quantity="one">1 item</item>
+    </plurals>
+    <plurals name="pending_syncs_logout_warning">
+        <item quantity="other">%1$d Snaps zijn nog niet geback-upt naar Herinneringen. Als je nu uitlogt, raak je deze Snaps waarschijnlijk kwijt.</item>
+        <item quantity="one">Eén Snap is nog niet geback-upt naar Herinneringen. Als je nu uitlogt, raak je deze Snap waarschijnlijk kwijt.</item>
+    </plurals>
+    <plurals name="perception_lens_collection_scan_card_lenses_count">
+        <item quantity="other">%d Lenzen</item>
+        <item quantity="one">%d Lens</item>
+    </plurals>
+    <plurals name="perception_lenses_scan_card_try_lenses">
+        <item quantity="other">Lenzen uitproberen (%d)</item>
+        <item quantity="one">Lens proberen</item>
+    </plurals>
+    <plurals name="play_with_max_player_alert_text">
+        <item quantity="other">Spel staat maar %1$d spelers toe</item>
+        <item quantity="one">Spel staat maar %1$d spelers toe</item>
+    </plurals>
+    <plurals name="post_pairing_import_title">
+        <item quantity="other">%d nieuwe Snaps</item>
+        <item quantity="one">%d Nieuwe Snap</item>
+    </plurals>
+    <plurals name="registration_continue_with_n_friends">
+        <item quantity="other">+ %d Vrienden toevoegen</item>
+        <item quantity="one">+ 1 Vriend toevoegen</item>
+    </plurals>
+    <plurals name="save_button_tooltip_saved_multiple">
+        <item quantity="other">%1$d Snaps opgeslagen!</item>
+        <item quantity="one">%1$d Snap opgeslagen!</item>
+    </plurals>
+    <plurals name="saved_media_gallery_attribution_media_count">
+        <item quantity="other">%s Snaps</item>
+        <item quantity="one">%s Snap</item>
+    </plurals>
+    <plurals name="seconds_abbreviated">
+        <item quantity="other">%d s</item>
+        <item quantity="one">%d s</item>
+    </plurals>
+    <plurals name="seconds_ago">
+        <item quantity="other">%d s</item>
+        <item quantity="one">%d s</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated">
+        <item quantity="other">%d s geleden</item>
+        <item quantity="one">%d s geleden</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_camera_roll">
+        <item quantity="other">"%1$d s geleden van Foto's"</item>
+        <item quantity="one">"%1$d s geleden van Foto's"</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_chat">
+        <item quantity="other">%1$d s geleden van Chat</item>
+        <item quantity="one">%1$d s geleden van Chat</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_cheerios">
+        <item quantity="other">%1$d s geleden van Pixy</item>
+        <item quantity="one">%1$d s geleden van Pixy</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d s geleden van %2$s</item>
+        <item quantity="one">%1$d s geleden van %2$s</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_memories">
+        <item quantity="other">%1$d s geleden van Herinneringen</item>
+        <item quantity="one">%1$d s geleden van Herinneringen</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_spectacles">
+        <item quantity="other">%1$d s geleden van Spectacles</item>
+        <item quantity="one">%1$d s geleden van Spectacles</item>
+    </plurals>
+    <plurals name="seconds_ago_update">
+        <item quantity="other">%1$s seconden geleden geüpdatet</item>
+        <item quantity="one">%1$s seconde geleden geüpdatet</item>
+    </plurals>
+    <plurals name="select_friend_friend">
+        <item quantity="other">%1$d vrienden</item>
+        <item quantity="one">1 vriend</item>
+    </plurals>
+    <plurals name="select_friend_other">
+        <item quantity="other">%1$s en %2$d anderen</item>
+        <item quantity="one">%1$s en 1 ander</item>
+    </plurals>
+    <plurals name="settings_birthday_update_years_old">
+        <item quantity="other">Ik ben %d jaar.</item>
+        <item quantity="one">Ik ben %d jaar.</item>
+    </plurals>
+    <plurals name="snap_timer_selection_units">
+        <item quantity="other">seconden</item>
+        <item quantity="one">seconde</item>
+    </plurals>
+    <plurals name="snaps_count">
+        <item quantity="other">%1$d Snaps</item>
+        <item quantity="one">%1$d Snap</item>
+    </plurals>
+    <plurals name="spectacles_export_customization_description">
+        <item quantity="other">Hoe wil je je Snaps exporteren?</item>
+        <item quantity="one">Hoe wil je je Snap exporteren?</item>
+    </plurals>
+    <plurals name="spotlight_comments_count_notification_title">
+        <item quantity="other">%d reacties op Spotlight in behandeling!</item>
+        <item quantity="one">1 reactie op Spotlight in behandeling!</item>
+    </plurals>
+    <plurals name="status_views">
+        <item quantity="other">%d weergaven</item>
+        <item quantity="one">%d weergave</item>
+    </plurals>
+    <plurals name="still_sharing_last_active_location_description">
+        <item quantity="other">"Je live locatie is verborgen maar %1$s vrienden kunnen nog steeds zien wat je laatste actieve locatie was.
+
+ Dit kun je aanpassen in de Kaartinstellingen."</item>
+        <item quantity="one">"Je live locatie is verborgen maar %1$s vriend kan nog steeds zien wat je laatste actieve locatie was.
+
+ Dit kun je aanpassen in de Kaartinstellingen."</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_change_audience">
+        <item quantity="other">"Je hebt je locatie-instellingen opgeslagen, maar %1$s vrienden kunnen nog steeds je Live locatie zien. Om die niet meer te delen, tik je op 'Stop' naast hun namen."</item>
+        <item quantity="one">"Je hebt je locatie-instellingen opgeslagen, maar %1$s vriend kan nog steeds je Live locatie zien. Om die niet meer te delen, tik je op 'Stop' naast de naam van je vriend."</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_enter_ghost_mode">
+        <item quantity="other">"Je bent in de Onzichtbare modus, maar %1$s vrienden kunnen nog steeds je Live locatie zien. Om die niet meer te delen, tik je op 'Stop' naast hun namen."</item>
+        <item quantity="one">"Je bent in de Onzichtbare modus, maar %1$s vriend kan nog steeds je Live locatie zien. Om die niet meer te delen, tik je op 'Stop' naast de naam van je vriend."</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_enter_ghost_mode_ghost_trail">
+        <item quantity="other">"Je bent in de Onzichtbare modus, maar %1$s vrienden kunnen nog steeds je Live locatie zien. Om die niet meer te delen, tik je op 'Stop' naast hun namen.
+
+Locaties worden niet aan je Spookpad toegevoegd als je in Onzichtbare modus bent."</item>
+        <item quantity="one">"Je bent in de Onzichtbare modus, maar %1$s vriend kan nog steeds je Live locatie zien. Om die niet meer te delen, tik je op 'Stop' naast de naam.
+
+Locaties worden niet aan je Spookpad toegevoegd als je in Onzichtbare modus bent."</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_enter_ghost_mode_hide_live_location">
+        <item quantity="other">"De Onzichtbare modus is ingeschakeld maar %1$s vrienden kunnen nog steeds je live locatie zien. Tik onderaan op 'Mijn live locatie verbergen' om het delen te pauzeren."</item>
+        <item quantity="one">"De Onzichtbare modus is ingeschakeld maar %1$s vriend kan nog steeds je live locatie zien. Tik onderaan op 'Mijn live locatie verbergen' om het delen te pauzeren."</item>
+    </plurals>
+    <plurals name="story_friend_story_notification_title_update">
+        <item quantity="other">%d vrienden hebben iets toegevoegd aan hun Verhaal</item>
+        <item quantity="one">%d vriend heeft iets toegevoegd aan zijn of haar Verhaal</item>
+    </plurals>
+    <plurals name="story_fullscreen_footer_view_count">
+        <item quantity="other">%d weergaven</item>
+        <item quantity="one">%d weergave</item>
+    </plurals>
+    <plurals name="story_management_viewer_list_more_viewers">
+        <item quantity="other">+ %1$d anderen</item>
+        <item quantity="one">+ %1$d anderen</item>
+    </plurals>
+    <plurals name="story_mob_subtext_more">
+        <item quantity="other">%1$s en %2$d meer…</item>
+        <item quantity="one">%1$s en %2$d meer…</item>
+    </plurals>
+    <plurals name="story_profile_communities_members">
+        <item quantity="other">Geverifieerd • %d leden</item>
+        <item quantity="one">Geverifieerd • %d lid</item>
+    </plurals>
+    <plurals name="story_profile_shared_stories_members">
+        <item quantity="other">%d leden</item>
+        <item quantity="one">%d lid</item>
+    </plurals>
+    <plurals name="story_profile_stories_adding">
+        <item quantity="other">%d Snaps toevoegen…</item>
+        <item quantity="one">%d Snap toevoegen…</item>
+    </plurals>
+    <plurals name="story_profile_stories_failed_to_add">
+        <item quantity="other">Toevoegen van %d Snaps is mislukt</item>
+        <item quantity="one">Toevoegen van %d Snap is mislukt</item>
+    </plurals>
+    <plurals name="story_profile_stories_waiting_to_add">
+        <item quantity="other">Wachten op toevoegen van %d Snaps…</item>
+        <item quantity="one">Wachten op toevoegen van %d Snap…</item>
+    </plurals>
+    <plurals name="story_settings_action_menu_my_story_blocked_number_of_people">
+        <item quantity="other">%d personen</item>
+        <item quantity="one">1 persoon</item>
+    </plurals>
+    <plurals name="streak_restore_dialog_subtitle_free_restore">
+        <item quantity="other">Je hebt %1$d gratis herstellen.</item>
+        <item quantity="one">Je hebt %1$d gratis herstel.</item>
+    </plurals>
+    <plurals name="streak_restore_dialog_subtitle_hours">
+        <item quantity="other">Je hebt nog %2$d uur over om je Snapreeks met %1$s te herstellen voordat deze voorgoed verdwijnt!</item>
+        <item quantity="one">Je hebt nog %2$d uur over om je Snapreeks met %1$s te herstellen voordat deze voorgoed verdwijnt!</item>
+    </plurals>
+    <plurals name="streak_restore_dialog_subtitle_minutes">
+        <item quantity="other">Je hebt nog %2$d minuten over om je Snapreeks met %1$s te herstellen voordat deze voorgoed verdwijnt!</item>
+        <item quantity="one">Je hebt nog %2$d minuut over om je Snapreeks met %1$s te herstellen voordat deze voorgoed verdwijnt!</item>
+    </plurals>
+    <plurals name="subtitle_sharing_custom_friends">
+        <item quantity="other">met %d vrienden</item>
+        <item quantity="one">met %d vriend</item>
+    </plurals>
+    <plurals name="takeover_request_index_and_total">
+        <item quantity="other">%1$d van %2$d nieuwe vrienden toegevoegd</item>
+        <item quantity="one">%1$d van %2$d nieuwe vrienden toegevoegd</item>
+    </plurals>
+    <plurals name="ticketmaster_events_label">
+        <item quantity="other">evenementen</item>
+        <item quantity="one">evenement</item>
+    </plurals>
+    <plurals name="watched_stories">
+        <item quantity="other">%d bekeken Verhalen</item>
+        <item quantity="one">1 bekeken Verhaal</item>
+    </plurals>
+    <plurals name="weeks">
+        <item quantity="other">%d weken</item>
+        <item quantity="one">%d week</item>
+    </plurals>
+    <plurals name="weeks_abbreviated">
+        <item quantity="other">%d w</item>
+        <item quantity="one">%d w</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated">
+        <item quantity="other">%d w geleden</item>
+        <item quantity="one">%d w geleden</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_camera_roll">
+        <item quantity="other">"%1$d w geleden van Foto's"</item>
+        <item quantity="one">"%1$d w geleden van Foto's"</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_chat">
+        <item quantity="other">%1$d w geleden van Chat</item>
+        <item quantity="one">%1$d w geleden van Chat</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_cheerios">
+        <item quantity="other">%1$d w geleden van Pixy</item>
+        <item quantity="one">%1$d w geleden van Pixy</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d w geleden van %2$s</item>
+        <item quantity="one">%1$d w geleden van %2$s</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_memories">
+        <item quantity="other">%1$d w geleden van Herinneringen</item>
+        <item quantity="one">%1$d w geleden van Herinneringen</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_spectacles">
+        <item quantity="other">%1$d w geleden van Spectacles</item>
+        <item quantity="one">%1$d w geleden van Spectacles</item>
+    </plurals>
+    <plurals name="weeks_ago_update">
+        <item quantity="other">%1$s weken geleden geüpdatet</item>
+        <item quantity="one">%1$s week geleden geüpdatet</item>
+    </plurals>
+    <plurals name="years_abbreviated">
+        <item quantity="other">%d j</item>
+        <item quantity="one">%d j</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated">
+        <item quantity="other">%d j geleden</item>
+        <item quantity="one">%d j geleden</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_camera_roll">
+        <item quantity="other">"%1$d j geleden van Foto's"</item>
+        <item quantity="one">"%1$d j geleden van Foto's"</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_chat">
+        <item quantity="other">%1$d j geleden van Chat</item>
+        <item quantity="one">%1$d j geleden van Chat</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_cheerios">
+        <item quantity="other">%1$d j geleden van Pixy</item>
+        <item quantity="one">%1$d j geleden van Pixy</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d j geleden van %2$s</item>
+        <item quantity="one">%1$d j geleden van %2$s</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_memories">
+        <item quantity="other">%1$d j geleden van Herinneringen</item>
+        <item quantity="one">%1$d j geleden van Herinneringen</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_spectacles">
+        <item quantity="other">%1$d j geleden van Spectacles</item>
+        <item quantity="one">%1$d j geleden van Spectacles</item>
+    </plurals>
+    <plurals name="years_ago_update">
+        <item quantity="other">%1$s jaar geleden geüpdatet</item>
+        <item quantity="one">%1$s jaar geleden geüpdatet</item>
+    </plurals>
+</resources>

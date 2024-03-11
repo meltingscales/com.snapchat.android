@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProgressBar xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/featured_story_viewing_progress" android:layout_width="@dimen/memories_featured_story_viewing_progress_width" android:layout_height="@dimen/memories_featured_story_viewing_progress_height" android:progressDrawable="@drawable/memories_featured_story_progress_bar" style="@android:style/Widget.ProgressBar.Horizontal"/>

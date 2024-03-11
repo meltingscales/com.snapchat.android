@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.lenses.arbar.actionbutton.DefaultActionButtonView android:layout_width="@dimen/ar_bar_action_button_size" android:layout_height="@dimen/ar_bar_action_button_size"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.snap.imageloading.view.SnapImageView android:layout_gravity="center" android:id="@id/ar_bar_action_button_icon" android:background="@drawable/ar_bar_action_button_background" android:layout_width="@dimen/ar_bar_action_button_icon_size" android:layout_height="@dimen/ar_bar_action_button_icon_size" android:scaleType="centerInside" />
+</com.snap.lenses.arbar.actionbutton.DefaultActionButtonView>

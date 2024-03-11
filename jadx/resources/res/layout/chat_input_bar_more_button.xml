@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatImageButton xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/chat_input_bar_more" android:padding="@dimen/default_gap" android:visibility="gone" android:src="@drawable/chat_input_bar_left_arrow" android:tint="?attr/sigColorIconSecondary" style="@style/chat_single_row_input_bar_icon"/>

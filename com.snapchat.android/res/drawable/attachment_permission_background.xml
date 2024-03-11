@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/sig_color_base_gray100_any" />
+    <corners android:radius="@dimen/attachment_card_list_round_corner_radius" />
+</shape>

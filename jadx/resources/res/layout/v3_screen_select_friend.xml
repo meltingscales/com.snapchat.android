@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/select_friend_container" android:textDirection="locale" style="@style/subscreen_coordinator_layout_style">
+    <com.snap.component.header.SnapSubscreenHeaderView android:id="@+id/header_bar" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" custom:title_text="@string/nyc_settings_title" custom:top_left_layout="@layout/subscreen_header_top_left_arrow" style="@style/subscreen_header_back"/>
+    <com.snap.component.input.SnapSearchInputView android:id="@+id/friend_search" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/default_gap" custom:hint_text="@string/nyc_select_friends_search_hint"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/recycler_view" android:paddingBottom="@dimen/default_gap_10x" android:clipToPadding="false" android:paddingStart="@dimen/simple_card_elevation" android:paddingEnd="@dimen/simple_card_elevation" android:layout_marginStart="@dimen/add_friends_recycler_view_margin" style="@style/subscreen_recycler_view_style_with_index_scrollbar"/>
+        <com.snap.component.scrollbar.SnapIndexScrollbar android:id="@+id/scrollbar" custom:icons="best_friends,recents" style="@style/index_scrollbar_default_style"/>
+        <com.snap.component.button.SnapButtonView android:layout_gravity="bottom|center_horizontal" android:id="@+id/done_button" android:layout_width="wrap_content" android:layout_height="@dimen/alert_dialog_button_height" android:layout_marginBottom="@dimen/default_gap_2x" custom:button_style="large_button_rectangle_blue" custom:button_text="@string/save"/>
+    </FrameLayout>
+</LinearLayout>

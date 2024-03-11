@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/cognac_action_menu_view_more_container" android:background="@drawable/cognac_action_menu_bottom_round_corners" android:layout_width="match_parent" android:layout_height="44dp">
+    <com.snap.ui.view.SnapFontTextView android:textSize="?attr/v11Subtitle3TextSize" android:textColor="@color/sig_color_flat_pure_white_any" android:id="@+id/cognac_action_menu_view_more_text_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/view_more" android:textAlignment="center" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" app:scFontWeight="1"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

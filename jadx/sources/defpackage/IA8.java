@@ -1,0 +1,83 @@
+package defpackage;
+
+/* renamed from: IA8  reason: default package */
+/* loaded from: classes8.dex */
+public enum IA8 implements I58 {
+    UNSPECIFIED(0),
+    DF_FRIENDS(1),
+    DF_SUBSCRIPTIONS(2),
+    DF_QUICK_ADD(3),
+    DF_FOR_YOU(4),
+    DF_CATEGORICAL(5),
+    DF_BLENDED(32),
+    INTEREST_ONBOARDING(6),
+    INTEREST_SELECTION(7),
+    DF_FOR_YOU_PIVOTS(8),
+    DF_FLOATING_PIVOTS(9),
+    SHOWS_KEEP_WATCHING(10),
+    SHOWS_MORE_SHOWS(11),
+    COMMUNITY_LENSES(12),
+    LENS_STORIES(13),
+    LENS_CHALLENGE_STORIES(14),
+    DFM_LAST_WATCHED(15),
+    DFM_SUBSCRIPTIONS(16),
+    DFM_INTERESTS(17),
+    DFM_HIDDEN_ITEMS(18),
+    DFM_BOOSTS(27),
+    PREMIUM_FEED(19),
+    PF_CONTINUE_WATCHING(20),
+    PF_HAPPENING_NOW(21),
+    PF_HERO_TILE(22),
+    PF_MORE_SHOWS(23),
+    PF_POPULAR(24),
+    PF_SUBSCRIPTIONS(25),
+    SF_SPOTLIGHT(28),
+    SF_TRENDING_TOPIC(29),
+    SF_TRENDING_LENS(30),
+    SF_TRENDING_MUSIC(31),
+    SF_TRENDING_THIRD_PARTY_APP(33),
+    SF_TRENDING_CHALLENGES(34),
+    SUPER_FEED(35),
+    PROFILE_HEADER(36),
+    PROFILE_STORIES(37),
+    HAPPENING_NOW(38),
+    MY_PROFILE_FAVORITES(39),
+    MADE_FOR_US(40),
+    CHAT(41),
+    FF_EVERYWHERE(42),
+    DF_SUGGESTIONS(43),
+    SHARING_DRAWER_SPOTLIGHT(44),
+    MIXED_FEED(45),
+    MIXED_CAROUSEL(46),
+    SF_SPOTLIGHT_MIXED_FEED(47),
+    CHAT_FEED(48),
+    MF_CITY_STORIES(49),
+    MF_HEATMAP_STORIES(50),
+    MF_POI_STORIES(51),
+    MF_PLACE_STORIES(52),
+    DF_FRIENDS_MY(53),
+    DF_FRIENDS_QUICK_ADD(54),
+    DEEPLINK(55),
+    MINI_PROFILE(56),
+    CHAT_HEADER(57),
+    STORY_VIEWERS_ICON(58),
+    NYC(59),
+    STORY_CONTEXT_MENU(60),
+    SEARCH_SF(61),
+    ADD_FRIENDS(62),
+    MY_SPOTLIGHT_SNAPS(63),
+    RECENT_UPDATES(64),
+    MY_STORY(65),
+    STORY_PROFILE(66);
+    
+    public final int a;
+
+    IA8(int i) {
+        this.a = i;
+    }
+
+    @Override // defpackage.I58
+    public final int a() {
+        return this.a;
+    }
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.identity.loginsignup.ui.shared.BasicLoginSignupLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/code_verification" android:background="?attr/sigColorBackgroundMain" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent" custom:useSubmitResendButton="true">
+    <com.snap.ui.view.SnapFontTextView android:id="@+id/verification_title" android:paddingTop="60dp" android:text="@string/code_verification_title" style="@style/LoginSignupPageTitle"/>
+    <com.snap.ui.view.SnapFontTextView android:id="@+id/description" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/IdentityPageDescription"/>
+    <com.snap.identity.api.sharedui.VerificationCodeEditTextView android:textSize="@dimen/text_size_title" android:id="@+id/code_field" style="@style/IdentityPhoneVerifyCodeField"/>
+    <com.snap.ui.view.SnapFontTextView android:id="@+id/code_error_message" android:paddingTop="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/IdentityFieldError"/>
+</com.snap.identity.loginsignup.ui.shared.BasicLoginSignupLayout>

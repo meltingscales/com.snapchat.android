@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="?attr/sigColorBackgroundMain" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.snap.component.header.SnapSubscreenHeaderView android:id="@+id/header" custom:header_background="?attr/sigColorBackgroundMain" custom:header_style="back" custom:title_text="@string/settings_tfa_settings_header" style="@style/subscreen_header_back"/>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/tfa_forget_devices_overlay" android:background="@color/sig_color_flat_pure_white_any_alpha_80" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ProgressBar android:layout_gravity="center" android:layout_width="@dimen/checkbox_size" android:layout_height="@dimen/checkbox_size"/>
+        <com.snap.ui.view.SnapFontTextView android:layout_gravity="center" android:id="@+id/tfa_forget_devices_overlay_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/disabling"/>
+    </LinearLayout>
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:layout_marginStart="@dimen/default_gap_2x" android:layout_marginEnd="@dimen/default_gap_2x">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.snap.ui.view.SnapFontTextView android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/settings_two_fa_forget_device_explanation" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_gap_2x" android:layout_marginBottom="@dimen/default_gap_2x" style="@style/IdentitySettingsCopyText"/>
+            <androidx.recyclerview.widget.RecyclerView android:id="@+id/tfa_settings_forget_devices_item_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:headerDividersEnabled="false" android:footerDividersEnabled="false"/>
+            <com.snap.ui.view.SnapLinkFriendlyTextView android:textSize="?attr/v11Subtitle1TextSize" android:textColor="@color/sig_color_base_blue_dark_any" android:layout_gravity="center" android:id="@+id/tfa_settings_forget_devices_forget_all_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_gap_2x" android:layout_marginBottom="@dimen/default_gap_2x" android:text="@string/settings_tfa_forget_devices_forget_all"/>
+            <com.snap.component.button.SnapButtonView android:layout_gravity="center" android:id="@+id/tfa_settings_get_devices_retry_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_gap_2x" android:layout_marginBottom="@dimen/default_gap_2x" custom:button_style="large_button_rectangle_blue" custom:button_text="@string/settings_tfa_get_verified_devices_failed_button"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/parent_first" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.snap.ui.view.SnapFontTextView android:id="@id/first_option" android:visibility="invisible" android:singleLine="true" app:scFontWeight="bolder" style="@style/PollOptionsStyle" />
+        <com.snap.ui.view.SnapFontTextView android:id="@id/first_option_result_overlay" android:visibility="gone" android:singleLine="true" app:scFontWeight="bolder" style="@style/PollOptionsStyle" />
+        <com.snap.ui.view.PausableLoadingSpinnerView android:layout_gravity="center" android:id="@id/loading_spinner_1" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" app:loading_spinner_color="@color/sig_color_base_faded_black_any" />
+    </FrameLayout>
+    <View android:id="@id/gap" android:layout_width="0.0dip" android:layout_height="1.0dip" />
+    <FrameLayout android:id="@id/parent_second" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.snap.ui.view.SnapFontTextView android:id="@id/second_option" android:visibility="invisible" android:singleLine="true" app:scFontWeight="bolder" style="@style/PollOptionsStyle" />
+        <com.snap.ui.view.SnapFontTextView android:id="@id/second_option_result_overlay" android:visibility="gone" android:singleLine="true" app:scFontWeight="bolder" style="@style/PollOptionsStyle" />
+        <com.snap.ui.view.PausableLoadingSpinnerView android:layout_gravity="center" android:id="@id/loading_spinner_2" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" app:loading_spinner_color="@color/sig_color_base_faded_black_any" />
+    </FrameLayout>
+</LinearLayout>

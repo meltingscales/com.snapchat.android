@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_gap"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="start" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.snap.ui.view.SnapFontTextView android:id="@id/aura_title" android:paddingTop="2.0dip" android:paddingBottom="2.0dip" style="@style/IdentitySettingsItemName" />
+        <com.snap.ui.view.SnapFontTextView android:textSize="@dimen/text_size_fine_print" android:id="@id/aura_content" android:paddingTop="2.0dip" android:paddingBottom="2.0dip" android:layout_height="wrap_content" style="@style/IdentitySettingsItemText" />
+        <com.snap.ui.view.SnapFontTextView android:id="@id/aura_disclaimer" android:paddingTop="2.0dip" android:paddingBottom="2.0dip" style="@style/IdentitySettingsItemSubtext" />
+    </LinearLayout>
+    <com.snap.component.button.SnapButtonView android:layout_gravity="end" android:id="@id/aura_clear" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/default_gap_three_quarters" custom:button_icon="@drawable/svg_x_24x24" custom:button_style="small_button_circle_gray" />
+</LinearLayout>

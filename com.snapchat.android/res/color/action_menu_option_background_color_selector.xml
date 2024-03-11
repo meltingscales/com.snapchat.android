@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:color="?sigColorBackgroundSurfaceDown" />
+    <item android:state_enabled="false" android:color="?sigColorBackgroundDisabled" />
+    <item android:color="@color/sig_exception_color_action_menu_background_color" />
+</selector>

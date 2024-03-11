@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" android:id="@+id/my_friends_page" style="@style/subscreen_coordinator_layout_style">
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/recycler_view" android:layout_marginStart="@dimen/default_gap_2x" style="@style/subscreen_recycler_view_style_with_index_scrollbar"/>
+    <com.snap.component.header.SnapSubscreenHeaderView android:id="@+id/screen_header" android:paddingBottom="@dimen/my_friends_search_bar_pos" custom:input_field_hint_text="@string/my_friends_search" custom:title_text="@string/my_friends" custom:top_right_layout="@layout/subscreen_header_top_right_icon" style="@style/subscreen_header_default_with_search"/>
+    <com.snap.component.scrollbar.SnapIndexScrollbar android:id="@+id/index_scrollbar" custom:icons="best_friends" style="@style/index_scrollbar_default_style"/>
+    <com.snap.identity.api.sharedui.ProgressButton android:layout_gravity="bottom|center_horizontal" android:id="@+id/action_button" android:visibility="gone" android:layout_width="@dimen/my_friends_action_button_width" android:layout_height="@dimen/my_friends_action_button_height" android:layout_marginBottom="@dimen/default_gap_4_5x"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

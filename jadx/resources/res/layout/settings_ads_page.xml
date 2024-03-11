@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/ads_settings_page" android:layout_width="match_parent" android:layout_height="match_parent" android:minHeight="80dp">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/ads_settings_preferences_section" style="@style/new_settings_item_outer">
+        <TextView android:layout_gravity="start|center_vertical" android:paddingTop="4dp" android:paddingBottom="4dp" android:text="@string/ad_preferences" style="@style/new_settings_item_name"/>
+    </LinearLayout>
+    <include android:id="@+id/saving_section_separator" layout="@layout/list_separator"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/ads_settings_lifestyles_section" style="@style/new_settings_item_outer">
+        <TextView android:layout_gravity="start|center_vertical" android:paddingTop="4dp" android:paddingBottom="4dp" android:text="@string/ad_lifestyle_and_interests" style="@style/new_settings_item_name"/>
+    </LinearLayout>
+    <include android:id="@+id/saving_section_separator" layout="@layout/list_separator"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/ads_settings_autofill_section" style="@style/new_settings_item_outer">
+        <TextView android:layout_gravity="start|center_vertical" android:paddingTop="4dp" android:paddingBottom="4dp" android:text="@string/ad_autofill_settings" style="@style/new_settings_item_name"/>
+    </LinearLayout>
+</LinearLayout>

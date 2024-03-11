@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/snap_kit_sticker_tooltip" android:paddingBottom="@dimen/snap_kit_sticker_tooltip_bottom_padding" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.snap.ui.view.SnapFontTextView android:textSize="?v11BadgeTextSize" android:textColor="?colorBlack" android:id="@id/snap_kit_sticker_tooltip_text" android:background="@drawable/creative_kit_tooltip_bg" android:paddingLeft="8.0dip" android:paddingTop="4.0dip" android:paddingRight="8.0dip" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/creative_kit_sticker_tooltip" android:textAlignment="center" android:paddingHorizontal="8.0dip" android:paddingVertical="4.0dip" app:scFontWeight="?v11BadgeFontWeight" />
+    <com.snap.framework.ui.views.TriangleView android:layout_gravity="center_horizontal" android:layout_width="16.0dip" android:layout_height="8.0dip" android:rotation="180.0" />
+</LinearLayout>

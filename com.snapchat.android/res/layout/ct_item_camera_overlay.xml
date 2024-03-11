@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.imageloading.view.SnapImageView android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/ct_item_camera_overlay_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.3"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="ring" android:thicknessRatio="2" android:useLevel="false" android:innerRadius="0dp">
+    <solid android:color="@android:color/transparent"/>
+    <size android:height="@dimen/poster_avatar_size" android:width="@dimen/poster_avatar_size"/>
+    <stroke android:width="2dp" android:color="@color/sig_color_base_brand_yellow_any"/>
+</shape>

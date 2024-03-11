@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="batterymeter_bolt_points">
+        <item>20</item>
+        <item>0</item>
+        <item>16</item>
+        <item>15</item>
+        <item>25</item>
+        <item>15</item>
+        <item>5</item>
+        <item>35</item>
+        <item>9</item>
+        <item>20</item>
+        <item>0</item>
+        <item>20</item>
+    </integer-array>
+    <array name="com_google_android_gms_fonts_certs">
+        <item>@array/com_google_android_gms_fonts_certs_dev</item>
+        <item>@array/com_google_android_gms_fonts_certs_prod</item>
+    </array>
+    <string-array name="com_google_android_gms_fonts_certs_dev">
+        <item>MIIEqDCCA5CgAwIBAgIJANWFuGx90071MA0GCSqGSIb3DQEBBAUAMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTAeFw0wODA0MTUyMzM2NTZaFw0zNTA5MDEyMzM2NTZaMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBANbOLggKv+IxTdGNs8/TGFy0PTP6DHThvbbR24kT9ixcOd9W+EaBPWW+wPPKQmsHxajtWjmQwWfna8mZuSeJS48LIgAZlKkpFeVyxW0qMBujb8X8ETrWy550NaFtI6t9+u7hZeTfHwqNvacKhp1RbE6dBRGWynwMVX8XW8N1+UjFaq6GCJukT4qmpN2afb8sCjUigq0GuMwYXrFVee74bQgLHWGJwPmvmLHC69EH6kWr22ijx4OKXlSIx2xT1AsSHee70w5iDBiK4aph27yH3TxkXy9V89TDdexAcKk/cVHYNnDBapcavl7y0RiQ4biu8ymM8Ga/nmzhRKya6G0cGw8CAQOjgfwwgfkwHQYDVR0OBBYEFI0cxb6VTEM8YYY6FbBMvAPyT+CyMIHJBgNVHSMEgcEwgb6AFI0cxb6VTEM8YYY6FbBMvAPyT+CyoYGapIGXMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbYIJANWFuGx90071MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEEBQADggEBABnTDPEF+3iSP0wNfdIjIz1AlnrPzgAIHVvXxunW7SBrDhEglQZBbKJEk5kT0mtKoOD1JMrSu1xuTKEBahWRbqHsXclaXjoBADb0kkjVEJu/Lh5hgYZnOjvlba8Ld7HCKePCVePoTJBdI4fvugnL8TsgK05aIskyY0hKI9L8KfqfGTl1lzOv2KoWD0KWwtAWPoGChZxmQ+nBli+gwYMzM1vAkP+aayLe0a1EQimlOalO762r0GXO0ks+UeXde2Z4e+8S/pf7pITEI/tP+MxJTALw9QUWEv9lKTk+jkbqxbsh8nfBUapfKqYn0eidpwq2AzVp3juYl7//fKnaPhJD9gs=</item>
+    </string-array>
+    <string-array name="com_google_android_gms_fonts_certs_prod">
+        <item>MIIEQzCCAyugAwIBAgIJAMLgh0ZkSjCNMA0GCSqGSIb3DQEBBAUAMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDAeFw0wODA4MjEyMzEzMzRaFw0zNjAxMDcyMzEzMzRaMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBAKtWLgDYO6IIrgqWbxJOKdoR8qtW0I9Y4sypEwPpt1TTcvZApxsdyxMJZ2JORland2qSGT2y5b+3JKkedxiLDmpHpDsz2WCbdxgxRczfey5YZnTJ4VZbH0xqWVW/8lGmPav5xVwnIiJS6HXk+BVKZF+JcWjAsb/GEuq/eFdpuzSqeYTcfi6idkyugwfYwXFU1+5fZKUaRKYCwkkFQVfcAs1fXA5V+++FGfvjJ/CxURaSxaBvGdGDhfXE28LWuT9ozCl5xw4Yq5OGazvV24mZVSoOO0yZ31j7kYvtwYK6NeADwbSxDdJEqO4k//0zOHKrUiGYXtqw/A0LFFtqoZKFjnkCAQOjgdkwgdYwHQYDVR0OBBYEFMd9jMIhF1Ylmn/Tgt9r45jk14alMIGmBgNVHSMEgZ4wgZuAFMd9jMIhF1Ylmn/Tgt9r45jk14aloXikdjB0MQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLR29vZ2xlIEluYy4xEDAOBgNVBAsTB0FuZHJvaWQxEDAOBgNVBAMTB0FuZHJvaWSCCQDC4IdGZEowjTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBAUAA4IBAQBt0lLO74UwLDYKqs6Tm8/yzKkEu116FmH4rkaymUIE0P9KaMftGlMexFlaYjzmB2OxZyl6euNXEsQH8gjwyxCUKRJNexBiGcCEyj6z+a1fuHHvkiaai+KL8W1EyNmgjmyy8AW7P+LLlkR+ho5zEHatRbM/YAnqGcFh5iZBqpknHf1SKMXFh4dd239FJ1jWYfbMDMy3NS5CTMQ2XFI1MvcyUTdZPErjQfTbQe3aDQsQcafEQPD+nqActifKZ0Np0IS9L9kR/wbNvyz6ENwPiTrjV2KRkEjH78ZMcUQXg0L3BYHJ3lc69Vs5Ddf9uUGGMYldX3WfMBEmh/9iFBDAaTCK</item>
+    </string-array>
+    <string-array name="dialog_menu_items_for_ghost_mode_durations">
+        <item>@string/nyc_ghost_mode_duration_3_hrs</item>
+        <item>@string/nyc_ghost_mode_duration_24_hrs</item>
+        <item>@string/nyc_ghost_mode_duration_forever</item>
+    </string-array>
+    <string-array name="dialog_menu_items_for_ghost_mode_durations_short">
+        <item>@string/nyc_ghost_mode_duration_15_secs</item>
+        <item>@string/nyc_ghost_mode_duration_1_minute</item>
+        <item>@string/nyc_ghost_mode_duration_5_minutes</item>
+        <item>@string/nyc_ghost_mode_duration_forever</item>
+    </string-array>
+    <string-array name="dialog_menu_items_for_map_settings_durations">
+        <item>@string/nyc_map_settings_duration_3_hrs</item>
+        <item>@string/nyc_map_settings_duration_24_hrs</item>
+        <item>@string/nyc_map_settings_duration_forever</item>
+    </string-array>
+    <string-array name="fashion_categories">
+        <item>@string/fashion_category_other</item>
+        <item>@string/fashion_category_top</item>
+        <item>@string/fashion_category_skirt</item>
+        <item>@string/fashion_category_pants</item>
+        <item>@string/fashion_category_dress</item>
+        <item>@string/fashion_category_shorts</item>
+        <item>@string/fashion_category_outerwear</item>
+        <item>@string/fashion_category_jumpsuit</item>
+    </string-array>
+    <string-array name="firebase_safelisted_events">
+        <item>_s</item>
+        <item>_f</item>
+    </string-array>
+    <string-array name="language_ar">
+        <item>@string/language_name_ar</item>
+        <item>العربية</item>
+        <item>ar_AA</item>
+    </string-array>
+    <string-array name="language_bn_rBD">
+        <item>@string/language_name_bn_rBD</item>
+        <item> বাংলা</item>
+        <item>bn_BD</item>
+    </string-array>
+    <string-array name="language_bn_rIN">
+        <item>@string/language_name_bn_rIN</item>
+        <item> বাংলা</item>
+        <item>bn_IN</item>
+    </string-array>
+    <string-array name="language_da">
+        <item>@string/language_name_da</item>
+        <item>Dansk</item>
+        <item>da_DK</item>
+    </string-array>
+    <string-array name="language_de">
+        <item>@string/language_name_de</item>
+        <item>Deutsch</item>
+        <item>de_DE</item>
+    </string-array>
+    <string-array name="language_el">
+        <item>@string/language_name_el</item>
+        <item>Ελληνικά</item>
+        <item>el_GR</item>
+    </string-array>
+    <string-array name="language_en_rGB">
+        <item>@string/language_name_en_rGB</item>
+        <item>English</item>
+        <item>en_GB</item>
+    </string-array>
+    <string-array name="language_en_rUS">
+        <item>@string/language_name_en_rUS</item>
+        <item>English</item>
+        <item>en_US</item>
+    </string-array>
+    <string-array name="language_es">
+        <item>@string/language_name_es</item>
+        <item>Español</item>
+        <item>es_001</item>
+    </string-array>
+    <string-array name="language_es_rAR">
+        <item>@string/language_name_es_rAR</item>
+        <item>Español (AR)</item>
+        <item>es_AR</item>
+    </string-array>
+    <string-array name="language_es_rES">
+        <item>@string/language_name_es_rES</item>
+        <item>Español (ES)</item>
+        <item>es_ES</item>
+    </string-array>
+    <string-array name="language_es_rMX">
+        <item>@string/language_name_es_rMX</item>
+        <item>Español (MX)</item>
+        <item>es_MX</item>
+    </string-array>
+    <string-array name="language_fi">
+        <item>@string/language_name_fi</item>
+        <item>Suomi</item>
+        <item>fi_FI</item>
+    </string-array>
+    <string-array name="language_fil_rPH">
+        <item>@string/language_name_fil_rPH</item>
+        <item>Filipino</item>
+        <item>fil_PH</item>
+    </string-array>
+    <string-array name="language_fr">
+        <item>@string/language_name_fr</item>
+        <item>Français</item>
+        <item>fr_FR</item>
+    </string-array>
+    <string-array name="language_gu_rIN">
+        <item>@string/language_name_gu_rIN</item>
+        <item>ગુજરાતી</item>
+        <item>gu_IN</item>
+    </string-array>
+    <string-array name="language_hi_rIN">
+        <item>@string/language_name_hi_rIN</item>
+        <item>हिंदी</item>
+        <item>hi_IN</item>
+    </string-array>
+    <string-array name="language_in">
+        <item>@string/language_name_in</item>
+        <item>Bahasa Indonesia</item>
+        <item>id_ID</item>
+    </string-array>
+    <string-array name="language_it">
+        <item>@string/language_name_it</item>
+        <item>Italiano</item>
+        <item>it_IT</item>
+    </string-array>
+    <string-array name="language_ja">
+        <item>@string/language_name_ja</item>
+        <item>日本語</item>
+        <item>ja_JP</item>
+    </string-array>
+    <string-array name="language_kn_rIN">
+        <item>@string/language_name_kn_rIN</item>
+        <item>ಕನ್ನಡ</item>
+        <item>kn_IN</item>
+    </string-array>
+    <string-array name="language_ko">
+        <item>@string/language_name_ko</item>
+        <item>한국어</item>
+        <item>ko_KR</item>
+    </string-array>
+    <string-array name="language_ml_rIN">
+        <item>@string/language_name_ml_rIN</item>
+        <item>മലയാളം</item>
+        <item>ml_IN</item>
+    </string-array>
+    <string-array name="language_mr_rIN">
+        <item>@string/language_name_mr_rIN</item>
+        <item>मराठी</item>
+        <item>mr_IN</item>
+    </string-array>
+    <string-array name="language_ms_rMY">
+        <item>@string/language_name_ms_rMY</item>
+        <item>Bahasa Melayu</item>
+        <item>ms_MY</item>
+    </string-array>
+    <string-array name="language_nb">
+        <item>@string/language_name_nb</item>
+        <item>Norsk</item>
+        <item>nb_NO</item>
+    </string-array>
+    <string-array name="language_nl">
+        <item>@string/language_name_nl</item>
+        <item>Nederlands</item>
+        <item>nl_NL</item>
+    </string-array>
+    <string-array name="language_pa_rIN">
+        <item>@string/language_name_pa_rIN</item>
+        <item>ਪੰਜਾਬੀ</item>
+        <item>pa_IN</item>
+    </string-array>
+    <string-array name="language_pl">
+        <item>@string/language_name_pl</item>
+        <item>Polski</item>
+        <item>pl_PL</item>
+    </string-array>
+    <string-array name="language_pt">
+        <item>@string/language_name_pt</item>
+        <item>Português</item>
+        <item>pt_BR</item>
+    </string-array>
+    <string-array name="language_pt_rPT">
+        <item>@string/language_name_pt_rPT</item>
+        <item>Português</item>
+        <item>pt_PT</item>
+    </string-array>
+    <string-array name="language_ro">
+        <item>@string/language_name_ro</item>
+        <item>Română</item>
+        <item>ro_RO</item>
+    </string-array>
+    <string-array name="language_ru">
+        <item>@string/language_name_ru</item>
+        <item>Русский</item>
+        <item>ru_RU</item>
+    </string-array>
+    <string-array name="language_sv">
+        <item>@string/language_name_sv</item>
+        <item>Svenska</item>
+        <item>sv_SE</item>
+    </string-array>
+    <string-array name="language_ta_rIN">
+        <item>@string/language_name_ta_rIN</item>
+        <item>தமிழ்</item>
+        <item>ta_IN</item>
+    </string-array>
+    <string-array name="language_te_rIN">
+        <item>@string/language_name_te_rIN</item>
+        <item>తెలుగు</item>
+        <item>te_IN</item>
+    </string-array>
+    <string-array name="language_th_rTH">
+        <item>@string/language_name_th_rTH</item>
+        <item>ภาษาไทย</item>
+        <item>th_TH</item>
+    </string-array>
+    <string-array name="language_tr">
+        <item>@string/language_name_tr</item>
+        <item>Türkçe</item>
+        <item>tr_TR</item>
+    </string-array>
+    <string-array name="language_ur_rPK">
+        <item>@string/language_name_ur_rPK</item>
+        <item>اردو</item>
+        <item>ur_PK</item>
+    </string-array>
+    <string-array name="language_vi_rVN">
+        <item>@string/language_name_vi_rVN</item>
+        <item>Tiếng Việt</item>
+        <item>vi_VN</item>
+    </string-array>
+    <string-array name="language_zh">
+        <item>@string/language_name_zh</item>
+        <item>简体中文</item>
+        <item>zh_CN</item>
+    </string-array>
+    <string-array name="language_zh_rTW">
+        <item>@string/language_name_zh_rTW</item>
+        <item>繁體中文</item>
+        <item>zh_TW</item>
+    </string-array>
+    <string-array name="lens_tile_stroke_selected_state">
+        <item>android:attr/state_selected</item>
+    </string-array>
+    <array name="lens_tile_stroke_states_ids">
+        <item>@array/lens_tile_stroke_selected_state</item>
+    </array>
+    <array name="lens_tile_stroke_states_size">
+        <item>@dimen/tile_thumbnail_border_selected_width</item>
+    </array>
+    <integer-array name="nyc_settings_durations_ms">
+        <item>10800000</item>
+        <item>86400000</item>
+        <item>0</item>
+    </integer-array>
+    <integer-array name="nyc_settings_durations_ms_short">
+        <item>15000</item>
+        <item>60000</item>
+        <item>300000</item>
+        <item>0</item>
+    </integer-array>
+    <integer-array name="nyc_settings_ghost_mode_durations_ms">
+        <item>10800000</item>
+        <item>86400000</item>
+        <item>0</item>
+    </integer-array>
+    <integer-array name="nyc_settings_ghost_mode_durations_ms_short">
+        <item>15000</item>
+        <item>60000</item>
+        <item>300000</item>
+        <item>0</item>
+    </integer-array>
+    <array name="supported_languages">
+        <item>@array/language_ar</item>
+        <item>@array/language_zh</item>
+        <item>@array/language_zh_rTW</item>
+        <item>@array/language_da</item>
+        <item>@array/language_nl</item>
+        <item>@array/language_en_rGB</item>
+        <item>@array/language_en_rUS</item>
+        <item>@array/language_fil_rPH</item>
+        <item>@array/language_fi</item>
+        <item>@array/language_fr</item>
+        <item>@array/language_de</item>
+        <item>@array/language_el</item>
+        <item>@array/language_gu_rIN</item>
+        <item>@array/language_hi_rIN</item>
+        <item>@array/language_in</item>
+        <item>@array/language_it</item>
+        <item>@array/language_ja</item>
+        <item>@array/language_ko</item>
+        <item>@array/language_ms_rMY</item>
+        <item>@array/language_mr_rIN</item>
+        <item>@array/language_nb</item>
+        <item>@array/language_pl</item>
+        <item>@array/language_pt</item>
+        <item>@array/language_pt_rPT</item>
+        <item>@array/language_pa_rIN</item>
+        <item>@array/language_ro</item>
+        <item>@array/language_ru</item>
+        <item>@array/language_es</item>
+        <item>@array/language_sv</item>
+        <item>@array/language_tr</item>
+        <item>@array/language_ur_rPK</item>
+        <item>@array/language_vi_rVN</item>
+        <item>@array/language_bn_rBD</item>
+        <item>@array/language_bn_rIN</item>
+        <item>@array/language_kn_rIN</item>
+        <item>@array/language_ml_rIN</item>
+        <item>@array/language_ta_rIN</item>
+        <item>@array/language_te_rIN</item>
+        <item>@array/language_th_rTH</item>
+        <item>@array/language_es_rAR</item>
+        <item>@array/language_es_rMX</item>
+        <item>@array/language_es_rES</item>
+    </array>
+    <array name="supported_translate_languages">
+        <item>@array/translate_language_af</item>
+        <item>@array/translate_language_da</item>
+        <item>@array/translate_language_nl</item>
+        <item>@array/translate_language_en</item>
+        <item>@array/translate_language_fi</item>
+        <item>@array/translate_language_fr</item>
+        <item>@array/translate_language_de</item>
+        <item>@array/translate_language_in</item>
+        <item>@array/translate_language_it</item>
+        <item>@array/translate_language_ms</item>
+        <item>@array/translate_language_no</item>
+        <item>@array/translate_language_pl</item>
+        <item>@array/translate_language_pt</item>
+        <item>@array/translate_language_ro</item>
+        <item>@array/translate_language_es</item>
+        <item>@array/translate_language_sv</item>
+        <item>@array/translate_language_tr</item>
+    </array>
+    <array name="tile_background_colors">
+        <item>@color/sig_color_base_red_regular_any</item>
+        <item>@color/sig_color_base_blue_regular_any</item>
+        <item>@color/sig_color_base_success_green_any</item>
+        <item>@color/sig_color_base_purple_regular_any</item>
+        <item>@color/sig_color_base_faded_black_any</item>
+    </array>
+    <string-array name="translate_language_af">
+        <item>Afrikaans</item>
+        <item>Afrikaans</item>
+        <item>af</item>
+    </string-array>
+    <string-array name="translate_language_da">
+        <item>Danish</item>
+        <item>Dansk</item>
+        <item>da</item>
+    </string-array>
+    <string-array name="translate_language_de">
+        <item>German</item>
+        <item>Deutsch</item>
+        <item>de</item>
+    </string-array>
+    <string-array name="translate_language_en">
+        <item>English</item>
+        <item>English</item>
+        <item>en</item>
+    </string-array>
+    <string-array name="translate_language_es">
+        <item>Spanish</item>
+        <item>Español</item>
+        <item>es</item>
+    </string-array>
+    <string-array name="translate_language_fi">
+        <item>Finnish</item>
+        <item>Suomi</item>
+        <item>fi</item>
+    </string-array>
+    <string-array name="translate_language_fr">
+        <item>French</item>
+        <item>Français</item>
+        <item>fr</item>
+    </string-array>
+    <string-array name="translate_language_in">
+        <item>Indonesian</item>
+        <item>Bahasa Indonesia</item>
+        <item>id</item>
+    </string-array>
+    <string-array name="translate_language_it">
+        <item>Italian</item>
+        <item>Italiano</item>
+        <item>it</item>
+    </string-array>
+    <string-array name="translate_language_ms">
+        <item>Malay</item>
+        <item>Bahasa Melayu</item>
+        <item>ms</item>
+    </string-array>
+    <string-array name="translate_language_nl">
+        <item>Dutch</item>
+        <item>Nederlands</item>
+        <item>nl</item>
+    </string-array>
+    <string-array name="translate_language_no">
+        <item>Norwegian</item>
+        <item>Norsk</item>
+        <item>no</item>
+    </string-array>
+    <string-array name="translate_language_pl">
+        <item>Polish</item>
+        <item>Polski</item>
+        <item>pl</item>
+    </string-array>
+    <string-array name="translate_language_pt">
+        <item>Portuguese</item>
+        <item>Português</item>
+        <item>pt</item>
+    </string-array>
+    <string-array name="translate_language_ro">
+        <item>Romanian</item>
+        <item>Română</item>
+        <item>ro</item>
+    </string-array>
+    <string-array name="translate_language_sv">
+        <item>Swedish</item>
+        <item>Svenska</item>
+        <item>sv</item>
+    </string-array>
+    <string-array name="translate_language_tr">
+        <item>Turkish</item>
+        <item>Türkçe</item>
+        <item>tr</item>
+    </string-array>
+</resources>

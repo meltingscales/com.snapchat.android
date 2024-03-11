@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/chat_name_header_icon" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.snap.imageloading.view.SnapImageView android:layout_gravity="center_vertical" android:id="@+id/header_icon_image" android:layout_width="12sp" android:layout_height="12sp" android:layout_marginLeft="2dp" android:layout_marginTop="2dp" android:src="@drawable/svg_sparkles_48x48" android:tint="?attr/sigColorIconTertiary"/>
+</LinearLayout>

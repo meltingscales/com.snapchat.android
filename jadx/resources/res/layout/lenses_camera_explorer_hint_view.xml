@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.lenses.camera.onboarding.explorerhint.DefaultExplorerHintView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:auto="http://schemas.android.com/apk/res-auto" android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/explorer_hint_view" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/explorer_hint_arrow_container" android:layout_width="match_parent" android:layout_height="58dp" android:layout_marginTop="4dp">
+        <ImageView android:layout_gravity="bottom|center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/svg_explorer_hint_arrow"/>
+        <ImageView android:layout_gravity="bottom|center_horizontal" android:id="@+id/explorer_hint_arrow1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/svg_explorer_hint_arrow"/>
+        <ImageView android:layout_gravity="bottom|center_horizontal" android:id="@+id/explorer_hint_arrow2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/svg_explorer_hint_arrow"/>
+    </FrameLayout>
+    <com.snap.ui.view.SnapFontTextView android:textSize="15sp" android:textColor="@color/sig_color_flat_pure_white_any" android:id="@+id/explorer_hint_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/explorer_hint_title" android:textAlignment="center" auto:scFontWeight="2"/>
+    <com.snap.ui.view.SnapFontTextView android:textSize="@dimen/deprecated_v11_subtitle1_text_size" android:textColor="@color/sig_color_flat_pure_white_any_alpha_50" android:id="@+id/explorer_hint_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:text="@string/explorer_hint_subtitle" android:textAlignment="center" auto:scFontWeight="2"/>
+</com.snap.lenses.camera.onboarding.explorerhint.DefaultExplorerHintView>

@@ -1,0 +1,59 @@
+package defpackage;
+
+/* renamed from: XHh  reason: default package */
+/* loaded from: classes8.dex */
+public enum XHh implements I58 {
+    ADD_FRIEND(0),
+    DISCOVER_CHANNEL(1),
+    DISCOVER_EDITION(2),
+    DISCOVER_ARTICLE(3),
+    DISCOVER_ADD_FRIEND(4),
+    DISCOVER_ALREADY_FRIEND(5),
+    BARCODE_PRODUCT(6),
+    QRCODE_URL(7),
+    QRCODE_DATA(8),
+    QRCODE_DEEP_LINK(9),
+    WEB_URL(10),
+    SHAZAM_URL(11),
+    DISCOVER(12),
+    UNLOCK_FILTER(13),
+    UNLOCK_FILTER_ADD_FRIEND(14),
+    UNLOCK_FILTER_ALREADY_FRIEND(15),
+    UNLOCK_LENS(16),
+    UNLOCK_LENS_CREATIVE(17),
+    UNLOCK_LENS_DISCOVERY(18),
+    UNLOCK_LENS_DISCOVERY_FEED(19),
+    UNLOCK_LENS_DISCOVERY_CHALLENGES(20),
+    UNLOCK_LENS_PUBLICPROFILE(21),
+    UNLOCK_LENS_PUSH_NOTIFICATION(22),
+    UNLOCK_LENS_PRIVATEPROFILE(23),
+    UNLOCK_LENS_FAVORITE_CAROUSEL(24),
+    UNLOCK_LENS_FAVORITES_FEED(25),
+    SMART_UNLOCK(26),
+    UNLOCK_STICKER(27),
+    QUICK_ADD_SUGGESTIONS(28),
+    AR_BITMOJI(29),
+    AR_PROFILE_MEDIA(30),
+    LAGUNA_PAIRING(31),
+    LENS_PAIRING(32),
+    MESSAGE(33),
+    CREATIVE_PREVIEW(34),
+    MARCO(35),
+    LENS_STUDIO_PAIRING(36),
+    PROFILE_ADD_FRIENDS(37),
+    SCAN_TO_AUTH(38),
+    MEMORIES_SEARCH(39),
+    GAMES(40),
+    UNLOCK_LENS_SPECTACLES(41);
+    
+    public final int a;
+
+    XHh(int i) {
+        this.a = i;
+    }
+
+    @Override // defpackage.I58
+    public final int a() {
+        return this.a;
+    }
+}

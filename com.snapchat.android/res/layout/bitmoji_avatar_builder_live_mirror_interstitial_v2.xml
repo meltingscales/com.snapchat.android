@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:id="@id/make_edits_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_gap_2x">
+        <ImageView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/svg_live_mirror_interstitial_make_edits" android:alpha="0.4" />
+        <com.snap.ui.view.SnapFontTextView android:textSize="?v11Button1TextSize" android:textColor="@color/sig_color_base_gray70_any" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bitmoji_live_mirror_interstitial_edit_avatar" android:layout_marginStart="@dimen/default_gap" />
+    </LinearLayout>
+    <include layout="@layout/bitmoji_avatar_builder_live_mirror_interstitial_descriptions" />
+    <com.snap.ui.view.SnapFontTextView android:textColor="@color/sig_color_flat_pure_white_any" android:id="@id/action_button" android:background="@drawable/live_mirror_interstitial_action_button_background_blue" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_gap_6x" android:layout_marginBottom="@dimen/default_gap" android:text="@string/bitmoji_live_mirror_interstitial_done" android:layout_marginStart="@dimen/live_mirror_interstitial_button_side_margin" android:layout_marginEnd="@dimen/live_mirror_interstitial_button_side_margin" style="@style/BitmojiLiveMirrorInterstitialActionButton" />
+</LinearLayout>

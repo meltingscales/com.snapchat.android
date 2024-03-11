@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="bottom" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:baselineAligned="false">
+    <FrameLayout android:id="@+id/best_friend_2_spacer_when_2_bg" android:visibility="gone" android:layout_width="0dp" android:layout_height="1dp" android:layout_weight="2"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="4">
+        <FrameLayout style="@style/best_friends_widget_bitmoji_spacer_style"/>
+        <ImageView android:id="@+id/best_friend_2_bg" style="@style/best_friends_widget_bitmoji_style"/>
+    </LinearLayout>
+    <FrameLayout android:id="@+id/best_friend_2_spacer_when_4_bg" android:visibility="gone" android:layout_width="0dp" android:layout_height="1dp" android:layout_weight="1"/>
+    <FrameLayout android:id="@+id/best_friend_2_spacer_when_5_bg" android:visibility="gone" android:layout_width="0dp" android:layout_height="1dp" android:layout_weight="2"/>
+</LinearLayout>

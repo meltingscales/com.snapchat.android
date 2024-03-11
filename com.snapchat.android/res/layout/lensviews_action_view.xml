@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.lenses.lensviews.DefaultLensViewsActionView android:orientation="vertical" android:id="@id/lenses_camera_send_to_action" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <com.snap.imageloading.view.SnapImageView android:id="@id/lenses_lensviews_button_icon" android:background="@drawable/lenses_camera_action_button_background" android:padding="@dimen/lensviews_action_view_icon_padding" android:layout_width="@dimen/lensviews_action_view_size" android:layout_height="@dimen/lensviews_action_view_size" android:src="@drawable/svg_eye_24x24" android:tint="@color/sig_color_flat_pure_white_any" />
+    <com.snap.ui.view.SnapFontTextView android:textSize="@dimen/text_style_caption_text_size" android:textColor="@color/sig_color_flat_pure_white_any" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/lensviews_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/lensviews_action_count_text_top_margin" android:singleLine="true" android:textAllCaps="true" custom:scFontWeight="bolder" />
+</com.snap.lenses.lensviews.DefaultLensViewsActionView>

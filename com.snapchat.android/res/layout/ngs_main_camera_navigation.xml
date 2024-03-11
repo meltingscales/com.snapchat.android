@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/navigation_layer" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/camera_touch_receiver" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:id="@id/camera_mode_dropdown_overlay" style="@style/camera_mode_dropdown_overlay" />
+    <com.snap.camera.ui.takesnapbutton.TakeSnapButton android:layout_gravity="bottom|center" android:id="@id/camera_capture_button" android:padding="@dimen/ngs_hova_nav_larger_camera_button_padding" android:focusable="true" android:clickable="true" android:clipChildren="false" android:clipToPadding="false" android:layout_width="@dimen/ngs_hova_nav_larger_camera_button_size" android:layout_height="@dimen/ngs_hova_nav_larger_camera_button_size" android:layout_marginBottom="@dimen/ngs_hova_nav_default_camera_button_margin_bottom">
+        <ViewStub android:layout_gravity="center" android:id="@id/capture_cool_recording_lens_button_view" android:visibility="gone" android:layout="@layout/capture_cool_recording_lens_button_view_layout" android:inflatedId="@id/capture_cool_recording_lens_button_view" android:layout_width="@dimen/capture_cool_recording_lens_button_size" android:layout_height="@dimen/capture_cool_recording_lens_button_size" />
+        <ViewStub android:layout_gravity="bottom|center" android:id="@id/capture_cool_recording_custom_button_view_stub" android:visibility="gone" android:layout="@layout/capture_cool_recording_custom_button_view_layout" android:inflatedId="@id/capture_cool_recording_custom_button_view" android:layout_width="@dimen/capture_cool_recording_custom_button_size" android:layout_height="@dimen/capture_cool_recording_custom_button_size" />
+    </com.snap.camera.ui.takesnapbutton.TakeSnapButton>
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/capture_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/ngs_hova_nav_larger_camera_button_capture_container_margin_bottom">
+        <ViewStub android:layout_gravity="bottom|center" android:id="@id/camera_hands_free_recording_lock" android:inflatedId="@id/camera_hands_free_recording_lock" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/connected_lens_start_button_view_stub" android:visibility="gone" android:inflatedId="@id/connected_lens_start_button" style="@style/ngs_hova_connected_lens_start_button" />
+        <ViewStub android:id="@id/voiceml_control_button_view_stub" android:visibility="gone" android:inflatedId="@id/voice_control_button" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/ngs_hova_voiceml_lens_control_button" />
+        <ViewStub android:id="@id/lenses_camera_lens_button_view_stub" android:inflatedId="@id/lenses_camera_lens_button_view" style="@style/ngs_hova_lens_button" />
+        <ViewStub android:id="@id/lenses_camera_stub_lens_button_view_stub" style="@style/ngs_hova_lens_button" />
+        <ViewStub android:id="@id/recent_camera_roll_item_container_stub" android:inflatedId="@id/recent_camera_roll_item_container" style="@style/ngs_hova_recent_camera_roll_item" />
+        <ViewStub android:id="@id/shopping_lens_product_assets_loading_indicator_view_stub" android:inflatedId="@id/shopping_lens_product_assets_loading_indicator" style="@style/hova_shopping_lens_product_assets_loading_indicator" />
+        <ViewStub android:layout_gravity="bottom|center" android:id="@id/night_mode_hint_view_stub" android:layout="@layout/night_mode_hint_layout" android:inflatedId="@id/night_mode_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ngs_hova_nav_larger_camera_button_size" />
+        <ViewStub android:layout_gravity="bottom|center" android:id="@id/portrait_mode_hint_view_stub" android:layout="@layout/portrait_mode_hint_layout" android:inflatedId="@id/portrait_mode_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ngs_hova_nav_larger_camera_button_size" />
+        <ViewStub android:layout_gravity="bottom|center" android:id="@id/zoom_view_stub" android:layout_width="@dimen/zoom_view_group_layout_width" android:layout_height="@dimen/zoom_view_group_layout_height" android:layout_marginBottom="@dimen/ngs_hova_nav_larger_camera_button_size" />
+    </FrameLayout>
+    <ViewStub android:id="@id/ar_bar_view_stub" android:inflatedId="@id/ar_bar" style="@style/hova_ar_bar" />
+    <ViewStub android:id="@id/memories_icon_container_stub" android:inflatedId="@id/memories_icon_container" style="@style/ngs_hova_memories_button" />
+    <ViewStub android:id="@id/explorer_button_container_stub" android:inflatedId="@id/explorer_button_container" style="@style/ngs_hova_explorer_button" />
+    <ViewStub android:id="@id/cta_view_stub" android:inflatedId="@id/cta_view" style="@style/hova_cta_view" />
+</FrameLayout>

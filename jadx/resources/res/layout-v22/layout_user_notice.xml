@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.preview.banner.SnapBannerCellView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:theme="@style/banner" android:id="@+id/preview_banner" android:paddingTop="@dimen/padding_vertical_default" android:paddingBottom="@dimen/padding_vertical_default" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingVertical="@dimen/padding_vertical_default"/>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.imageloading.view.SnapImageView android:layout_gravity="bottom|center" android:id="@id/cta_arrow" android:paddingBottom="@dimen/context_cta_margin" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/context_cta_element_height" android:src="@drawable/context_cards_cta_up_arrow"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

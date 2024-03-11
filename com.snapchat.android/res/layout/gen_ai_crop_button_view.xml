@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.component.button.SnapButtonView android:id="@id/gen_ai_crop_button" android:layout_width="wrap_content" android:layout_height="@dimen/crop_tools_action_button_size" app:button_icon="@drawable/svg_crop_tool_extend" app:button_style="large_button_rectangle_ai_crop_tool" app:button_text="@string/gen_ai_crop_tool_extend"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

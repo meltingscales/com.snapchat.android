@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View android:layout_gravity="bottom" android:id="@id/v2_btm_bg_gradient" android:background="@drawable/map_header_footer_gradient" android:layout_width="fill_parent" android:layout_height="150.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

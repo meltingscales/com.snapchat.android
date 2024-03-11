@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/sig_color_button_secondary_light"/>
+    <corners android:radius="14dp"/>
+    <padding android:left="@dimen/suggested_username_pill_left_padding" android:top="@dimen/suggested_username_pill_top_padding" android:right="@dimen/suggested_username_pill_right_padding" android:bottom="@dimen/suggested_username_pill_bottom_padding"/>
+</shape>

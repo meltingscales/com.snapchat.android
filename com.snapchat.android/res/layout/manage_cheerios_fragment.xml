@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?sigColorBackgroundMain" android:layout_width="fill_parent" android:layout_height="fill_parent" android:keepScreenOn="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <com.snap.ui.view.ScHeaderView android:id="@id/spectacles_manage_sc_header" android:layout_width="fill_parent" android:layout_height="wrap_content" custom:headerColorScheme="@color/sig_color_base_success_green_any" custom:headerTitle="@string/laguna_manage_specs" custom:showBackArrow="true" custom:showBottomBorder="true" />
+    <ScrollView android:id="@id/spectacles_manage_page" android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="false" android:layout_weight="1.0">
+        <LinearLayout android:gravity="top" android:orientation="vertical" android:id="@id/laguna_manage_container" android:layout_width="fill_parent" android:layout_height="0.0px">
+            <com.snap.ui.view.SnapFontTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_gap_half" android:text="@string/updates" android:textAllCaps="true" style="@style/new_settings_section_header" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/laguna_check_for_updates" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/new_settings_item_outer">
+                <com.snap.ui.view.SnapFontTextView android:id="@id/laguna_check_for_updates_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/check_for_updates" android:layout_weight="1.0" style="@style/TextAppearance.Title1" />
+                <com.snap.ui.view.LoadingSpinnerView android:id="@id/laguna_check_for_updates_spinner" android:visibility="gone" android:layout_width="@dimen/icon_size" android:layout_height="@dimen/icon_size" android:layout_marginEnd="@dimen/default_gap" />
+                <com.snap.ui.view.SnapFontTextView android:id="@id/laguna_update_available_sign_icon" android:visibility="gone" android:layout_width="5.0dip" android:layout_height="@dimen/default_gap_2x" android:src="@drawable/exclamation_point_update_error" android:layout_marginEnd="@dimen/default_gap" style="@style/new_settings_item_error" />
+                <com.snap.ui.view.SnapFontTextView android:id="@id/laguna_updating_progress_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/default_gap" style="@style/new_settings_item_status" />
+            </LinearLayout>
+            <com.snap.cheerios.view.CheeriosTextInfoCellView android:id="@id/cheerios_firmware_update" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/default_gap" custom:selectable="true" custom:title="@string/cheerios_firmware_update" />
+            <LinearLayout android:orientation="vertical" android:id="@id/cheerios_flight_modes_section_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.snap.ui.view.SnapFontTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_gap_half" android:text="@string/cheerios_running1_modes_header" android:textAllCaps="true" style="@style/new_settings_section_header" />
+                <com.snap.component.cells.SnapInfoCellView android:id="@id/cheerios_flight_mode_cell_hover" android:layout_width="fill_parent" android:layout_height="wrap_content" custom:icon="@drawable/svg_cheerios_flight_mode_hover" custom:selectable="true" custom:title="@string/running1_1_name" />
+                <com.snap.component.cells.SnapInfoCellView android:id="@id/cheerios_flight_mode_cell_reveal" android:layout_width="fill_parent" android:layout_height="wrap_content" custom:icon="@drawable/svg_cheerios_flight_mode_reveal" custom:selectable="true" custom:title="@string/running1_2_name" />
+                <com.snap.component.cells.SnapInfoCellView android:id="@id/cheerios_flight_mode_cell_follow" android:layout_width="fill_parent" android:layout_height="wrap_content" custom:icon="@drawable/svg_cheerios_flight_mode_follow" custom:selectable="true" custom:title="@string/running1_3_name" />
+                <com.snap.component.cells.SnapInfoCellView android:id="@id/cheerios_flight_mode_cell_orbit" android:layout_width="fill_parent" android:layout_height="wrap_content" custom:icon="@drawable/svg_cheerios_flight_mode_orbit" custom:selectable="true" custom:title="@string/running1_4_name" />
+                <com.snap.component.cells.SnapInfoCellView android:id="@id/cheerios_flight_mode_cell_custom" android:layout_width="fill_parent" android:layout_height="wrap_content" custom:icon="@drawable/svg_cheerios_flight_mode_custom" custom:selectable="true" custom:title="@string/running1_5_name" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/spectacles_importing_section_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.snap.ui.view.SnapFontTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_gap_half" android:text="@string/laguna_importing" android:textAllCaps="true" style="@style/new_settings_section_header" />
+                <com.snap.component.cells.SnapSettingsCellView android:id="@id/spectacles_save_to_cell" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/cheerios_settings_sig_cell_margin_start_fix" custom:title="@string/spectacles_save_to" />
+                <com.snap.component.cells.SnapSettingsCellView android:id="@id/cheerios_settings_import_via_usb" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/cheerios_settings_sig_cell_margin_start_fix" custom:title="@string/cheerios_settings_import_via_usb" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/spectacles_device_settings_section_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.snap.ui.view.SnapFontTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_gap_half" android:text="@string/spectacles_device_settings_header" android:textAllCaps="true" style="@style/new_settings_section_header" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/spectacles_notification_cell" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/new_settings_item_outer">
+                    <com.snap.ui.view.SnapFontTextView android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/spectacles_manage_settings_notifications" android:layout_weight="1.0" style="@style/new_settings_item_name" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/spectacles_location_enabled_snaps_cell" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="100.0dip" style="@style/new_settings_item_outer">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <com.snap.ui.view.SnapFontTextView android:id="@id/spectacles_location_enabled_snaps_text" android:paddingTop="2.0dip" android:paddingBottom="2.0dip" android:text="@string/spectacles_enable_location" style="@style/new_settings_item_name" />
+                        <com.snap.ui.view.SnapFontTextView android:id="@id/spectacles_location_data_description" android:paddingTop="2.0dip" android:paddingBottom="2.0dip" android:layout_height="wrap_content" android:text="@string/spectacles_location_data_description" android:layout_marginEnd="@dimen/five_dp_gap" style="@style/new_settings_item_text" />
+                    </LinearLayout>
+                    <com.snap.component.button.SnapCheckBox android:id="@id/spectacles_enable_location_checkbox" android:layout_width="@dimen/checkbox_size" android:layout_height="@dimen/checkbox_size" android:layout_marginEnd="@dimen/default_gap_half" style="@style/new_settings_checkbox" />
+                    <com.snap.ui.view.LoadingSpinnerView android:id="@id/spectacles_enable_location_spinner" android:visibility="gone" android:layout_width="@dimen/checkbox_size" android:layout_height="@dimen/checkbox_size" android:layout_marginStart="@dimen/default_gap" android:layout_marginEnd="@dimen/default_gap_half" />
+                </LinearLayout>
+            </LinearLayout>
+            <com.snap.ui.view.SnapFontTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_gap_half" android:text="@string/actions" android:textAllCaps="true" style="@style/new_settings_section_header" />
+            <com.snap.component.cells.SnapSettingsCellView android:id="@id/cheerios_enable_lost_mode" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/cheerios_settings_sig_cell_margin_start_fix" custom:title="@string/cheerios_enable_lost_mode" />
+            <include layout="@layout/list_separator" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/laguna_clear_content" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/new_settings_item_outer">
+                <com.snap.ui.view.SnapFontTextView android:id="@id/laguna_clear_content_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/laguna_clear_specs_storage" android:layout_weight="1.0" style="@style/new_settings_item_name" />
+                <com.snap.ui.view.LoadingSpinnerView android:id="@id/laguna_clear_content_spinner" android:visibility="gone" android:layout_width="@dimen/icon_size" android:layout_height="@dimen/icon_size" android:layout_marginEnd="@dimen/default_gap" />
+            </LinearLayout>
+            <include layout="@layout/list_separator" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/laguna_restart_specs" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/new_settings_item_outer">
+                <com.snap.ui.view.SnapFontTextView android:id="@id/laguna_restart_specs_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/laguna_restart_specs" android:layout_weight="1.0" style="@style/new_settings_item_name" />
+                <com.snap.ui.view.LoadingSpinnerView android:id="@id/laguna_restart_spinner" android:visibility="gone" android:layout_width="@dimen/icon_size" android:layout_height="@dimen/icon_size" android:layout_marginEnd="@dimen/default_gap" />
+            </LinearLayout>
+            <include layout="@layout/list_separator" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/laguna_forget_spectacles" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/new_settings_item_outer">
+                <com.snap.ui.view.SnapFontTextView android:id="@id/laguna_forget_specs_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/laguna_forget_specs" android:layout_weight="1.0" style="@style/new_settings_item_name" />
+                <com.snap.ui.view.LoadingSpinnerView android:id="@id/laguna_unpair_spinner" android:visibility="gone" android:layout_width="@dimen/icon_size" android:layout_height="@dimen/icon_size" android:layout_marginEnd="@dimen/default_gap" />
+            </LinearLayout>
+            <include android:visibility="gone" layout="@layout/list_separator" />
+            <com.snap.component.cells.SnapSettingsCellView android:id="@id/cheerios_calibrate_sensors" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/cheerios_settings_sig_cell_margin_start_fix" custom:title="@string/cheerios_calibrate_sensors" />
+            <LinearLayout android:orientation="vertical" android:id="@id/cheerios_adb_setting_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include layout="@layout/list_separator" />
+                <com.snap.component.cells.SnapSettingsCellView android:id="@id/cheerios_adb_setting" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/cheerios_settings_sig_cell_margin_start_fix" custom:title="@string/cheerios_adb_setting" />
+            </LinearLayout>
+            <com.snap.ui.view.SnapFontTextView android:textSize="@dimen/default_gap_1_5x" android:textColor="@color/sig_color_text_primary_dark" android:gravity="center" android:id="@id/spectacles_manage_device_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/default_gap_1_5x" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

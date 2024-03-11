@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.snap.ui.view.SnapFontTextView android:textStyle="bold" android:textColor="@color/sig_color_flat_pure_white_any" android:layout_gravity="bottom|center_horizontal" android:id="@+id/unread_hint_button" android:background="@drawable/unread_hint_blue_pill" android:paddingTop="@dimen/ff_unread_hint_padding_top_bottom" android:paddingBottom="@dimen/ff_unread_hint_padding_top_bottom" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/ff_unread_hint_height" android:layout_marginBottom="@dimen/ff_unread_hint_bottom_margin" android:text="@string/ff_unread_hint_text" android:paddingStart="@dimen/ff_unread_hint_padding_left_right" android:paddingEnd="@dimen/ff_unread_hint_padding_left_right"/>
+</merge>

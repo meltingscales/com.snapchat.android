@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="end" android:orientation="horizontal" android:id="@id/discover_info_bar" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:gravity="center" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/chat_discover_share_publisher_logo_margin" android:layout_marginBottom="@dimen/chat_discover_share_publisher_logo_margin" android:layout_marginStart="@dimen/chat_discover_share_thumbnail_left_right_margin" android:layout_marginEnd="@dimen/chat_discover_share_publisher_logo_margin">
+        <com.snap.imageloading.view.SnapImageView android:layout_gravity="center" android:id="@id/discover_publisher_logo" android:layout_width="@dimen/chat_discover_share_publisher_logo_size" android:layout_height="@dimen/chat_discover_share_publisher_logo_size" />
+        <com.snap.ui.view.PausableLoadingSpinnerView android:layout_gravity="center" android:id="@id/discover_publisher_logo_spinner" android:padding="12.0dip" android:layout_width="@dimen/chat_item_loading_spinner_size" android:layout_height="@dimen/chat_item_loading_spinner_size" />
+    </FrameLayout>
+    <com.snap.ui.view.SnapFontTextView android:textSize="?v11Title1TextSize" android:textColor="?sigColorTextPrimary" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/discover_publisher_name" android:visibility="gone" android:layout_width="0.0px" android:layout_height="@dimen/chat_discover_share_info_bar_height" android:layout_marginTop="@dimen/chat_discover_share_thumbnail_top_bottom_margin" android:maxLines="1" android:includeFontPadding="false" android:layout_weight="1.0" android:layout_marginStart="@dimen/chat_discover_share_thumbnail_left_right_margin" />
+</LinearLayout>

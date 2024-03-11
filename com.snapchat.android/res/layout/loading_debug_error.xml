@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="start" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="?v11Title1TextSize" android:textColor="@color/sig_color_base_red_light_any" android:gravity="start" android:id="@id/loading_debug_error_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_gap_2x" android:shadowColor="@color/sig_color_flat_pure_black_any" android:shadowRadius="2.0" />
+    <TextView android:textSize="?v11Title1TextSize" android:textColor="@color/sig_color_base_red_light_any" android:gravity="start" android:id="@id/loading_debug_error_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_gap" android:shadowColor="@color/sig_color_flat_pure_black_any" android:shadowRadius="2.0" />
+</LinearLayout>

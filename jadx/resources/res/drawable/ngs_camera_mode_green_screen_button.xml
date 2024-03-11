@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="false" android:drawable="@drawable/svg_green_screen_18x20"/>
+    <item android:state_selected="true" android:drawable="@drawable/svg_green_screen_selected_40x40"/>
+</selector>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="@dimen/zoom_view_group_layout_width" android:layout_height="@dimen/zoom_view_group_layout_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/zoom_button_image_view" android:background="@drawable/zoom_circle_background" android:padding="@dimen/zoom_view_image_button_padding" android:clickable="true" android:layout_width="@dimen/zoom_view_button_size" android:layout_height="@dimen/zoom_view_button_size" android:layout_marginBottom="@dimen/zoom_view_button_bottom_margin" android:src="@drawable/svg_zoom_ultra_15x15" />
+</FrameLayout>

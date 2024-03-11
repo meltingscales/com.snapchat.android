@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:paddingTop="@dimen/default_gap_2x" android:paddingBottom="@dimen/default_gap" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="locale">
+    <com.snap.ui.view.SnapFontTextView android:textSize="?attr/v11Heading4TextSize" android:textColor="?attr/sigColorTextSecondary" android:id="@+id/section_subheader" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="false" app:scFontWeight="?attr/v11Heading4FontWeight"/>
+</LinearLayout>

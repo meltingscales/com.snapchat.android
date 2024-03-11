@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/one_tap_login_page_container" android:background="@color/sig_color_base_brand_yellow_any" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:layout_gravity="top|center_horizontal" android:id="@+id/logo_view" android:layout_width="@dimen/one_tap_login_ghostface_size" android:layout_height="@dimen/one_tap_login_ghostface_size" android:layout_marginTop="@dimen/default_gap_2_5x" android:src="@drawable/svg_ghostface_32x32" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"/>
+    <ViewStub android:id="@+id/v1_account_view_stub" android:layout="@layout/one_tap_login_single_account_view" android:inflatedId="@+id/v1_account_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+    <ViewStub android:id="@+id/v2_account_view_stub" android:layout="@layout/one_tap_login_account_carousel_view" android:inflatedId="@+id/v2_account_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/bottom_banner" android:layout_below="@+id/logo_view"/>
+    <LinearLayout android:layout_gravity="bottom" android:id="@+id/bottom_banner" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_marginBottom="20dp" android:layout_alignParentBottom="true" android:layout_marginVertical="20dp">
+        <com.snap.ui.view.SnapFontTextView android:id="@+id/signup_button" android:text="@string/sign_up_instead" style="@style/OneTapLoginFooterButton"/>
+        <View android:layout_gravity="center_vertical" android:id="@+id/button_divider" android:background="@color/sig_color_flat_pure_black_any_alpha_10" android:layout_width="1dp" android:layout_height="30dp"/>
+        <com.snap.ui.view.SnapFontTextView android:id="@+id/switch_account_button" android:text="@string/switch_account_instead" style="@style/OneTapLoginFooterButton"/>
+    </LinearLayout>
+</RelativeLayout>

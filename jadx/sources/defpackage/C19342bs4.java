@@ -1,0 +1,99 @@
+package defpackage;
+
+import com.google.protobuf.nano.MessageNano;
+
+/* renamed from: bs4  reason: default package and case insensitive filesystem */
+/* loaded from: classes8.dex */
+public final class C19342bs4 extends AbstractC11592Sh8 {
+    public int a = 0;
+    public C20876cs4 b = null;
+    public C22410ds4 c = null;
+    public double d = 0.0d;
+    public double e = 0.0d;
+
+    public C19342bs4() {
+        this.unknownFieldData = null;
+        this.cachedSize = -1;
+    }
+
+    @Override // defpackage.AbstractC11592Sh8, com.google.protobuf.nano.MessageNano
+    public final int computeSerializedSize() {
+        int computeSerializedSize = super.computeSerializedSize();
+        C20876cs4 c20876cs4 = this.b;
+        if (c20876cs4 != null) {
+            computeSerializedSize += C4316Gu3.l(1, c20876cs4);
+        }
+        C22410ds4 c22410ds4 = this.c;
+        if (c22410ds4 != null) {
+            computeSerializedSize += C4316Gu3.l(2, c22410ds4);
+        }
+        if ((this.a & 1) != 0) {
+            computeSerializedSize += C4316Gu3.c(3);
+        }
+        if ((this.a & 2) != 0) {
+            return computeSerializedSize + C4316Gu3.c(4);
+        }
+        return computeSerializedSize;
+    }
+
+    @Override // com.google.protobuf.nano.MessageNano
+    public final MessageNano mergeFrom(C3683Fu3 c3683Fu3) {
+        MessageNano messageNano;
+        int i;
+        while (true) {
+            int t = c3683Fu3.t();
+            if (t == 0) {
+                break;
+            }
+            if (t != 10) {
+                if (t != 18) {
+                    if (t != 25) {
+                        if (t != 33) {
+                            if (!storeUnknownField(c3683Fu3, t)) {
+                                break;
+                            }
+                        } else {
+                            this.e = c3683Fu3.g();
+                            i = this.a | 2;
+                        }
+                    } else {
+                        this.d = c3683Fu3.g();
+                        i = this.a | 1;
+                    }
+                    this.a = i;
+                } else {
+                    if (this.c == null) {
+                        this.c = new C22410ds4();
+                    }
+                    messageNano = this.c;
+                }
+            } else {
+                if (this.b == null) {
+                    this.b = new C20876cs4();
+                }
+                messageNano = this.b;
+            }
+            c3683Fu3.j(messageNano);
+        }
+        return this;
+    }
+
+    @Override // defpackage.AbstractC11592Sh8, com.google.protobuf.nano.MessageNano
+    public final void writeTo(C4316Gu3 c4316Gu3) {
+        C20876cs4 c20876cs4 = this.b;
+        if (c20876cs4 != null) {
+            c4316Gu3.L(1, c20876cs4);
+        }
+        C22410ds4 c22410ds4 = this.c;
+        if (c22410ds4 != null) {
+            c4316Gu3.L(2, c22410ds4);
+        }
+        if ((this.a & 1) != 0) {
+            c4316Gu3.C(3, this.d);
+        }
+        if ((this.a & 2) != 0) {
+            c4316Gu3.C(4, this.e);
+        }
+        super.writeTo(c4316Gu3);
+    }
+}

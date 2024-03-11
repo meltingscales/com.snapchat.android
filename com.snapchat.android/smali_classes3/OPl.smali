@@ -1,0 +1,101 @@
+.class public final LOPl;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements LTI0;
+
+
+# instance fields
+.field public final a:Landroid/content/Context;
+
+.field public final b:I
+
+.field public final c:LyKn;
+
+.field public final d:Ljava/lang/Long;
+
+
+# direct methods
+.method public constructor <init>(Landroid/content/Context;ILyKn;Ljava/lang/Long;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, LOPl;->a:Landroid/content/Context;
+
+    .line 5
+    .line 6
+    iput p2, p0, LOPl;->b:I
+
+    .line 7
+    .line 8
+    iput-object p3, p0, LOPl;->c:LyKn;
+
+    .line 9
+    .line 10
+    iput-object p4, p0, LOPl;->d:Ljava/lang/Long;
+
+    .line 11
+    .line 12
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a()LyKn;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, LOPl;->c:LyKn;
+
+    .line 2
+    .line 3
+    return-object v0
+.end method
+
+.method public final b()Ljava/lang/Long;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, LOPl;->d:Ljava/lang/Long;
+
+    .line 2
+    .line 3
+    return-object v0
+.end method
+
+.method public final c()Ljava/lang/String;
+    .locals 2
+
+    .line 1
+    iget v0, p0, LOPl;->b:I
+
+    .line 2
+    .line 3
+    invoke-static {v0}, LwHl;->m(I)I
+
+    .line 4
+    .line 5
+    .line 6
+    move-result v0
+
+    .line 7
+    iget-object v1, p0, LOPl;->a:Landroid/content/Context;
+
+    .line 8
+    .line 9
+    invoke-virtual {v1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    .line 10
+    .line 11
+    .line 12
+    move-result-object v0
+
+    .line 13
+    return-object v0
+.end method

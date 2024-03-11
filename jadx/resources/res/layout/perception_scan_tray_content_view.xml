@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.perception.scantray.DefaultScanTrayContentView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/scan_tray_content_view" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.snap.perception.scantray.DefaultScanResultsView android:orientation="vertical" android:id="@+id/scan_tray_scan_results_view" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ViewStub android:id="@+id/perception_scan_tray_header_view_stub" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <ViewStub android:id="@+id/perception_scan_tray_scan_cards_view_stub" android:layout="@layout/perception_scan_tray_cards_view" android:inflatedId="@+id/perception_scan_tray_scan_cards_view" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </com.snap.perception.scantray.DefaultScanResultsView>
+</com.snap.perception.scantray.DefaultScanTrayContentView>

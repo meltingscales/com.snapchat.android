@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.snap.identity.ui.view.ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <LinearLayout android:id="@id/content_holder" style="@style/LoginSignupPageContainer" />
+        </com.snap.identity.ui.view.ScrollView>
+        <include layout="@layout/above_button_one_tap_login_opt_in_checkbox" />
+        <com.snap.identity.api.sharedui.ProgressButton android:id="@id/continue_button" style="@style/LoginSignupButton" />
+        <com.snap.identity.api.sharedui.SubmitResendButton android:id="@id/resend_button" android:visibility="gone" style="@style/LoginSignupButton" />
+    </LinearLayout>
+    <RelativeLayout android:layout_gravity="start|center|top" android:id="@id/top_bar" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.snap.imageloading.view.SnapImageView android:layout_gravity="start|center|top" android:id="@id/back_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_gap" android:src="@drawable/medium_grey_mirrorable_navigation_back_arrow" android:tint="@color/sig_color_base_gray50_any" android:layout_marginStart="@dimen/default_gap" android:layout_alignParentStart="true" android:elevation="1.0dip" />
+        <com.snap.ui.view.SnapFontTextView android:textColor="@color/sig_color_text_primary_light" android:gravity="center" android:id="@id/ngo_signup_title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ngo_signup_create_account" style="@style/TextStyle.Title4" />
+        <com.snap.ui.view.SnapFontTextView android:textColor="@color/sig_color_text_secondary_light" android:gravity="center" android:id="@id/ngo_signup_step_indicator" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ngo_signup_step" android:layout_below="@id/ngo_signup_title" style="@style/TextStyle.Subheadline" />
+    </RelativeLayout>
+</FrameLayout>

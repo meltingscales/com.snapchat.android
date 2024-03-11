@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BloopsBlueButton.EnableTwoPersonCameos" parent="@style/BloopsBlueButton" />
+    <style name="BloopsStickerTwoPersonHintText" parent="@style/BaseBloopsStickerTwoPersonHintText">
+        <item name="android:textSize">?v11BadgeTextSize</item>
+    </style>
+</resources>

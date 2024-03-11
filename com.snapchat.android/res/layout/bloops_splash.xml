@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/bloopsSplashPage" android:background="@color/sig_color_base_brand_yellow_any" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.snap.opera.shared.view.TextureVideoViewPlayer android:id="@id/splashVideo" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintDimensionRatio="2:1" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.5" />
+    <com.snap.bloops.ui.splash.BloopsShimmerFrameLayout android:id="@id/shimmer_view_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" app:layout_constraintBottom_toTopOf="@id/process_progress_text" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_goneMarginBottom="84.0dip">
+        <com.snap.ui.view.SnapFontTextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bloops_onboarding_splash_progress" style="@style/BloopsSplashProgressText" />
+    </com.snap.bloops.ui.splash.BloopsShimmerFrameLayout>
+    <com.snap.ui.view.SnapFontTextView android:id="@id/process_progress_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="71.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" style="@style/BloopsSplashProgressText" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/lens_holder" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.snap.lenses.common.RoundedImageView android:id="@id/lens_thumbnail" android:layout_width="0.0dip" android:layout_height="0.0dip" android:scaleType="centerCrop" app:cornerRadius="@dimen/tile_corner_radius" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintDimensionRatio="@string/preview_only_tile_ratio" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" app:shapeClipMode="corners" app:shapeStrokeColor="@color/explorer_lens_tile_selection_color" app:shapeStrokeDefaultSize="@dimen/tile_thumbnail_border_width" app:shapeStrokeStatesIds="@array/lens_tile_stroke_states_ids" app:shapeStrokeStatesSize="@array/lens_tile_stroke_states_size" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

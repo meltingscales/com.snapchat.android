@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.framework.ui.views.SoftNavAwareFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" android:background="?attr/sigColorBackgroundMain" android:layout_width="match_parent" android:layout_height="match_parent" custom:topPaddingStatusBar="true">
+    <ProgressBar android:id="@+id/debugger_progress_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyle"/>
+    <WebView android:id="@+id/debugger_webview" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/debugger_webview"/>
+    <ImageView android:id="@+id/debugger_dismiss" android:background="@drawable/svg_close_32x32" style="@style/debugger_icon"/>
+</com.snap.framework.ui.views.SoftNavAwareFrameLayout>

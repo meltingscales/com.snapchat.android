@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/memories_search_empty_state" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.snap.ui.view.SnapFontTextView android:gravity="center" android:id="@id/memories_search_empty_state_top_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" style="@style/TextAppearance.Caption" />
+    <com.snap.ui.view.SnapFontTextView android:gravity="center" android:id="@id/memories_search_empty_state_bottom_text" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/TextAppearance.Caption" />
+</LinearLayout>

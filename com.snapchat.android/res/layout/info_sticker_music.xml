@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/story_sticker_container" android:background="@drawable/mention_sticker_background_dark" android:paddingTop="@dimen/default_gap_three_quarters" android:paddingBottom="@dimen/default_gap_three_quarters" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/default_gap_1_25x" android:paddingEnd="@dimen/default_gap_2x"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="start|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_gap_quarter" android:layout_marginStart="@dimen/default_gap_half" android:layout_marginEnd="@dimen/default_gap">
+        <com.snap.imageloading.view.SnapAnimatedImageView android:layout_gravity="center_horizontal" android:id="@id/music_animation" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="@dimen/default_gap_quarter" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="?v11Heading1TextSize" android:id="@id/music_sticker_title" android:paddingTop="@dimen/default_gap_quarter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/info_sticker_max_width" android:minWidth="@dimen/info_sticker_min_width" android:singleLine="true" style="@style/InfoStickerText" />
+        <TextView android:textSize="?v11Heading2TextSize" android:id="@id/music_sticker_artist" android:paddingBottom="@dimen/default_gap_quarter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/info_sticker_max_width" android:minWidth="@dimen/info_sticker_min_width" style="@style/InfoStickerText" />
+    </LinearLayout>
+</LinearLayout>

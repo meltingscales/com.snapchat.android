@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/bitmoji_live_mirror_page" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.snap.bitmoji.ui.avatar.view.LiveMirrorCameraPreview android:id="@+id/live_mirror_camera_preview" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.snap.bitmoji.ui.avatar.view.LiveMirrorFaceCutoutView android:id="@+id/cutout" android:layout_width="match_parent" android:layout_height="match_parent" app:ringColor="@color/sig_color_flat_pure_black_any_alpha_20">
+        <View android:background="@color/sig_color_flat_pure_white_any_alpha_95" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <FrameLayout android:id="@+id/live_mirror_capture_controls_overlay" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+            <include layout="@layout/bitmoji_live_mirror_capture_layout"/>
+        </FrameLayout>
+    </com.snap.bitmoji.ui.avatar.view.LiveMirrorFaceCutoutView>
+    <com.snap.ui.view.SnapFontTextView android:gravity="center" android:layout_gravity="center" android:id="@+id/find_face_prompt" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/live_mirror_face_cutout_clip_spacingTop" android:layout_marginBottom="@dimen/live_mirror_face_cutout_clip_spacingBottom" android:text="@string/bitmoji_live_mirror_center_face" android:layout_marginStart="@dimen/live_mirror_face_cutout_clip_spacingSides" android:layout_marginEnd="@dimen/live_mirror_face_cutout_clip_spacingSides" style="@style/BitmojiLiveMirrorTitleText"/>
+    <com.snap.imageloading.view.SnapImageView android:layout_gravity="end|clip_vertical" android:id="@+id/debug_captured_image_view" android:background="@color/sig_color_flat_pure_black_any" android:padding="1dp" android:visibility="gone" android:layout_width="@dimen/live_mirror_debug_view_width" android:layout_height="@dimen/live_mirror_debug_view_height"/>
+</FrameLayout>

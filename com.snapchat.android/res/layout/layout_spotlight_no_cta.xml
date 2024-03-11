@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="bottom" android:id="@id/spotlight_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/spotlight_ad_title_subtitle_ad_slug_layout" android:layout_width="@dimen/spotlight_cta_pill_width" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spotlight_cta_pill_margin_bottom" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/spotlight_ad_margin_left" layout="@layout/layout_spotlight_title_subtitle_ad_slug" />
+</RelativeLayout>

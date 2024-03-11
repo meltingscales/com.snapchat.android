@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/tooltip_left_stub" android:layout="@layout/text_tooltip_triangle_layout" android:inflatedId="@id/tooltip_left" android:layout_width="@dimen/sig_tooltip_caret_width" android:layout_height="@dimen/sig_tooltip_caret_height" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/tooltip_left_triangle_margin_start" android:layout_alignParentStart="true" />
+    <FrameLayout android:gravity="center" android:id="@id/tooltip_container" android:background="?tooltipBackgroundDrawable" android:paddingTop="@dimen/sig_tooltip_vertical_padding" android:paddingBottom="@dimen/sig_tooltip_vertical_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/tooltip_top" android:paddingStart="@dimen/sig_tooltip_horizontal_padding" android:paddingEnd="@dimen/sig_tooltip_horizontal_padding" android:layout_toEndOf="@id/tooltip_left" android:elevation="@dimen/sig_tooltip_elevation">
+        <ViewStub android:id="@id/tooltip_text" android:layout="@layout/text_only_tooltip_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <com.snap.framework.ui.views.RoundedTriangleView android:id="@id/tooltip_top" android:layout_centerHorizontal="true" style="@style/tooltip_rounded_triangle" />
+    <com.snap.framework.ui.views.RoundedTriangleView android:id="@id/tooltip_bottom" android:layout_below="@id/tooltip_container" android:layout_centerHorizontal="true" android:rotation="180.0" style="@style/tooltip_rounded_triangle" />
+    <ViewStub android:id="@id/tooltip_right_stub" android:layout="@layout/text_tooltip_triangle_layout" android:layout_width="@dimen/sig_tooltip_caret_width" android:layout_height="@dimen/sig_tooltip_caret_height" android:layout_centerVertical="true" android:layout_marginStart="@dimen/tooltip_right_triangle_margin_start" android:layout_toEndOf="@id/tooltip_container" />
+</merge>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="center" android:left="@dimen/spotlight_replies_notification_icon_padding" android:top="@dimen/spotlight_replies_notification_icon_padding" android:right="@dimen/spotlight_replies_notification_icon_padding" android:bottom="@dimen/spotlight_replies_notification_icon_padding">
+        <bitmap android:src="@drawable/svg_spotlight_replies" android:tint="@color/sig_color_base_faded_black_any" />
+    </item>
+</layer-list>

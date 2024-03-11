@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout style="@style/subscreen_coordinator_layout_style"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:layout_marginStart="@dimen/add_friends_recycler_view_margin" style="@style/subscreen_recycler_view_style_with_index_scrollbar" />
+    <com.snap.component.header.SnapSubscreenHeaderView android:id="@id/screen_header" android:paddingBottom="@dimen/my_friends_search_bar_pos" android:visibility="gone" custom:input_field_hint_text="@string/my_friends_search" custom:title_text="@string/friend_card_add_contacts_button" style="@style/subscreen_header_default_with_search" />
+    <com.snap.ui.view.LoadingSpinnerView android:layout_gravity="center" android:id="@id/progress_bar" android:visibility="gone" android:layout_width="@dimen/loading_contacts_spinner_view_size" android:layout_height="@dimen/loading_contacts_spinner_view_size" />
+    <com.snap.component.scrollbar.SnapIndexScrollbar android:id="@id/index_scrollbar" android:visibility="gone" custom:icons="best_friends" style="@style/index_scrollbar_default_style" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

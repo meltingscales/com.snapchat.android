@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@android:color/transparent"/>
+    <stroke android:width="1dp" android:color="@color/sig_color_base_blue_regular_any"/>
+    <corners android:radius="50dp"/>
+    <padding android:left="@dimen/create_mischief_recipient_item_left_padding" android:top="@dimen/create_mischief_recipient_item_top_padding" android:right="@dimen/create_mischief_recipient_item_right_padding" android:bottom="@dimen/create_mischief_recipient_item_bottom_padding"/>
+</shape>

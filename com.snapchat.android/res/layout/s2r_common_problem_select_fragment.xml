@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?colorGray10" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.snap.component.header.SnapSubscreenHeaderView android:id="@id/s2r_common_problem_page_header_view" style="@style/subscreen_header_back" />
+    <ScrollView android:orientation="vertical" android:padding="@dimen/default_gap" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/default_gap">
+            <com.snap.ui.view.SnapFontTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/default_gap" android:text="@string/s2r_select_common_problem" style="@style/TextAppearance.Heading2" />
+            <com.snap.component.cards.SnapCardView android:id="@id/s2r_common_problem_page_card_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/default_gap" />
+            <com.snap.component.button.SnapButtonView android:gravity="center" android:id="@id/s2r_common_problem_page_submit_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/default_gap" app:button_style="large_button_rectangle_blue" app:button_text="@string/s2r_submit" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

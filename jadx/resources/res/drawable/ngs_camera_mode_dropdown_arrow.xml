@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent"/>
+        </shape>
+    </item>
+    <item android:left="@dimen/ngs_hova_header_camera_buttons_dropdown_padding" android:top="@dimen/ngs_hova_header_camera_buttons_dropdown_padding" android:right="@dimen/ngs_hova_header_camera_buttons_dropdown_padding" android:bottom="@dimen/ngs_hova_header_camera_buttons_dropdown_padding">
+        <bitmap android:src="@drawable/svg_down_arrow_16x16"/>
+    </item>
+</layer-list>

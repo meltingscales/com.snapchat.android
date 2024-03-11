@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/category_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/lenses_explorer_lens_feed_main_view_stub" android:inflatedId="@id/lenses_explorer_feed_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.snap.ui.view.LoadingSpinnerView android:layout_gravity="center" android:id="@id/lenses_explorer_category_loading_spinner" android:layout_width="@dimen/lens_explorer_loading_spinner_size" android:layout_height="@dimen/lens_explorer_loading_spinner_size" />
+</FrameLayout>

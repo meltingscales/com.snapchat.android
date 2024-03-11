@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="130.0dip" android:width="200.0dip" android:viewportWidth="360.0" android:viewportHeight="240.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$venuefilter_background__0" android:pathData="M0,0h360v240h-360z" />
+</vector>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:textColor="@color/sig_color_flat_pure_white_any" android:color="@color/sig_color_button_primary_light" />
+            <padding android:left="26.0dip" android:top="12.0dip" android:right="14.0dip" android:bottom="12.0dip" />
+            <stroke android:width="1.0dip" android:color="@color/sig_color_base_gray10_any" />
+            <corners android:radius="25.0dip" />
+        </shape>
+    </item>
+    <item android:left="-20.0dip">
+        <bitmap android:gravity="left" android:src="@drawable/svg_chat_transcription_feedback_option_selected_close_icon" />
+    </item>
+</layer-list>

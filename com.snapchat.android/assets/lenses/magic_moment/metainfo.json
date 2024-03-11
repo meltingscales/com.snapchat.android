@@ -1,0 +1,45 @@
+{
+    "additional_hint_ids": [
+    ],
+    "categories": [
+        "LENS_CATEGORY_SELFIE",
+        "LENS_CATEGORY_SKY",
+        "4e456a9a-c69a-4b48-b087-2bc087c331a1"
+    ],
+    "contains_giphy": false,
+    "context": {
+        "applicability": [
+            "newport",
+            "live_camera",
+            "video_chat",
+            "reply_camera"
+        ],
+        "camera": [
+            "front",
+            "rear"
+        ]
+    },
+    "core_version": 111,
+    "has_retouch_with_auto": false,
+    "has_retouch_without_auto": false,
+    "hint_id": "",
+    "icon_file": "icon.png",
+    "lens_descriptors": [
+        "SNAPPABLE",
+        "SUPPORTS_NEWPORT_DEPTH"
+    ],
+    "lens_name": "MMUpdated",
+    "minimum_sc_android_version": "10.67.0.0",
+    "minimum_sc_ios_version": "10.67.0.0",
+    "studio_version": {
+        "build": "0",
+        "major": "2",
+        "minor": "2",
+        "patch": "0",
+        "type": "Internal"
+    },
+    "third_party": false,
+    "updated_at_timestamp": "1576781561443",
+    "use_snapcode_marker_tracking": false,
+    "video_preview_file": "/Users/dmead/Snapchat/Dev/newport-interactive/Projects/MM-Updated/preview.mp4"
+}

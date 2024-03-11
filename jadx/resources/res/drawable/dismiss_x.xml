@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="center">
+        <shape android:shape="oval">
+            <size android:height="@dimen/tappable_dismiss_x_container_size" android:width="@dimen/tappable_dismiss_x_container_size"/>
+            <solid android:color="@color/sig_color_flat_pure_black_any_alpha_30"/>
+        </shape>
+    </item>
+    <item android:gravity="center">
+        <rotate android:fromDegrees="45">
+            <shape android:shape="rectangle">
+                <size android:height="@dimen/tappable_dismiss_x_thickness" android:width="@dimen/tappable_dismiss_x_length"/>
+                <solid android:color="@color/sig_color_flat_pure_white_any"/>
+                <corners android:radius="3dp"/>
+            </shape>
+        </rotate>
+    </item>
+    <item android:gravity="center">
+        <rotate android:fromDegrees="135">
+            <shape android:shape="rectangle">
+                <size android:height="@dimen/tappable_dismiss_x_thickness" android:width="@dimen/tappable_dismiss_x_length"/>
+                <solid android:color="@color/sig_color_flat_pure_white_any"/>
+                <corners android:radius="3dp"/>
+            </shape>
+        </rotate>
+    </item>
+</layer-list>

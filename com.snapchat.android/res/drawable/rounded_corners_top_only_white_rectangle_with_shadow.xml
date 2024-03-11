@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:bottom="8.0dip">
+        <shape android:shape="rectangle">
+            <gradient android:startColor="@android:color/transparent" android:endColor="@color/sig_color_flat_pure_black_any" android:angle="270.0" android:type="linear" />
+        </shape>
+    </item>
+    <item android:top="@dimen/product_info_bottom_bar_top_shadow_offset">
+        <shape>
+            <solid android:color="?sigColorBackgroundSurface" />
+        </shape>
+    </item>
+</layer-list>

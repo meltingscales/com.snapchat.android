@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.framework.ui.views.RoundedFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/thumbnail_video_container" android:layout_width="match_parent" android:layout_height="match_parent" app:corner_radius="10dp">
+    <com.snap.messaging.renderingplugins.mediasharecommon.sharedui.TopFocusedVideoView android:id="@+id/view_thumbnail_video" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="center"/>
+    <com.snap.imageloading.view.SnapImageView android:id="@+id/chat_video_overlay" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:id="@+id/chat_single_snap_player_container" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</com.snap.framework.ui.views.RoundedFrameLayout>

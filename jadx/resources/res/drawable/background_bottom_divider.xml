@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:bottom="1dp">
+        <shape>
+            <solid android:color="?attr/sigColorBackgroundMain"/>
+        </shape>
+    </item>
+    <item android:gravity="bottom">
+        <shape>
+            <size android:height="1dp"/>
+            <solid android:color="?attr/sigColorLayoutDivider"/>
+        </shape>
+    </item>
+</layer-list>

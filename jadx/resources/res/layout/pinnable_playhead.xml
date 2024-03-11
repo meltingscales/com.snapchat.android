@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/pinnable_playhead_thumb" android:background="@drawable/pinnable_thumb_background" android:padding="8dp" android:layout_width="32dp" android:layout_height="32dp" android:src="@drawable/svg_pinnable_icon"/>
+    <View android:id="@+id/pinnable_playhead_handle" android:background="@color/sig_color_base_brand_yellow_any" android:layout_width="4dp" android:layout_height="wrap_content"/>
+</merge>

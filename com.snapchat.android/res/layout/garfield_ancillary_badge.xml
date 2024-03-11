@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/garfield_badge" android:paddingLeft="@dimen/ancillary_badge_layout_padding" android:paddingRight="@dimen/ancillary_badge_layout_padding" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.snap.imageloading.view.SnapImageView android:id="@id/ancillary_image" android:layout_width="wrap_content" android:layout_height="@dimen/ancillary_image_height" />
+    <com.snap.ui.view.SnapFontTextView android:textSize="?v11Heading3TextSize" android:textColor="?sigColorTextPrimary" android:ellipsize="end" android:id="@id/ancillary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" android:lineSpacingMultiplier="0.8" app:scFontWeight="?v11Heading3FontWeight" />
+</LinearLayout>

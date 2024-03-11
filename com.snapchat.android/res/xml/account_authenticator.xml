@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<account-authenticator android:label="@string/authenticator_app_name" android:icon="@mipmap/icon_v6" android:accountType="@string/snap_account_package_name" android:smallIcon="@mipmap/icon_v6"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

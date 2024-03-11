@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/sig_color_base_brand_yellow_any"/>
+            <corners android:radius="10dp"/>
+        </shape>
+    </item>
+    <item android:drawable="@drawable/svg_memories_hero_player_send_arrow" android:left="11dp" android:top="11dp" android:right="10dp" android:bottom="11dp"/>
+</layer-list>

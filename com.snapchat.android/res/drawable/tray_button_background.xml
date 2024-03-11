@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/sig_color_flat_pure_white_any_alpha_15" />
+    <corners android:topLeftRadius="@dimen/df_cta_context_tray_button_radius" android:topRightRadius="@dimen/df_cta_context_tray_button_radius" android:bottomLeftRadius="@dimen/df_cta_context_tray_button_radius" android:bottomRightRadius="@dimen/df_cta_context_tray_button_radius" />
+</shape>

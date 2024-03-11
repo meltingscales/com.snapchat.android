@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/topic_page_details_favorite_badge_min_height" />
+    <solid android:color="@color/sig_color_flat_pure_white_any_alpha_15" />
+</shape>

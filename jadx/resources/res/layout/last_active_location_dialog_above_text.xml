@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:id="@+id/live_location_pause_dialog_above_text_image" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.snap.imageloading.view.SnapImageView android:id="@+id/last_active_location_icon" android:visibility="visible" android:layout_width="@dimen/live_location_dialog_icon_size" android:layout_height="@dimen/live_location_dialog_icon_size" android:src="@drawable/svg_last_active_location_icon"/>
+</LinearLayout>

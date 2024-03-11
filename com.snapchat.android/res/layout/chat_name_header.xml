@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.messaging.chat.ui.view.SwipeableMessageLinearLayout android:orientation="horizontal" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.snap.messaging.chat.ui.viewbinding.SnapLabelNameView android:id="@id/sender" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/chat_sender_text" />
+    <com.snap.ui.view.SnapFontTextView android:id="@id/edited_label" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/edited_in_parenthesis" style="@style/chat_edited_label" />
+    <ViewStub android:id="@id/chat_name_header_icon_container" android:layout="@layout/chat_name_header_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/contextual_header_holder" android:layout="@layout/chat_contextual_header_container" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/chat_add_button_holder" android:layout="@layout/chat_group_add_button_container" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.snap.messaging.chat.ui.viewbinding.SnapLabelTimeStampView android:gravity="end" android:id="@id/timestamp" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/new_chat_timestamp_margin_top" android:layout_marginEnd="@dimen/new_chat_timestamp_margin_end" style="@style/chat_timestamp_text" />
+</com.snap.messaging.chat.ui.view.SwipeableMessageLinearLayout>

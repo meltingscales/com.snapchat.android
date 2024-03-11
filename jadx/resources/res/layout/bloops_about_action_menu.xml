@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" style="@style/ActionMenuStyle">
+    <ImageView android:layout_gravity="center_vertical" android:id="@+id/action_menu_selfie" android:clickable="false" android:layout_width="@dimen/bloops_context_action_selfie_size" android:layout_height="@dimen/bloops_context_action_selfie_size" android:scaleType="centerInside" android:layout_marginEnd="@dimen/bloops_context_action_view_vertical_margin"/>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <com.snap.ui.view.SnapFontTextView android:textSize="@dimen/v11_action_sheet_label_text_size" android:textColor="?attr/title2ColorBlack" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@+id/action_menu_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" app:scFontWeight="1"/>
+        <com.snap.ui.view.SnapFontTextView android:textSize="@dimen/text_style_subheadline_text_size" android:textColor="?attr/actionSheetHeaderSecondaryTextColor" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@+id/action_menu_subtitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="-5dp" android:maxLines="1"/>
+    </LinearLayout>
+    <ImageView android:layout_gravity="center_vertical" android:id="@+id/action_menu_icon" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</LinearLayout>

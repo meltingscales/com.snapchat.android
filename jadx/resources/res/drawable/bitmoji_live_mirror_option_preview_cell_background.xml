@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="@dimen/live_mirror_option_preview_cell_paddingSides" android:top="@dimen/live_mirror_option_preview_cell_paddingSides" android:right="@dimen/live_mirror_option_preview_cell_paddingSides" android:bottom="@dimen/live_mirror_option_preview_cell_paddingSides">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/live_mirror_option_background_corner_radius"/>
+            <solid android:color="@color/sig_color_flat_pure_black_any_alpha_5"/>
+        </shape>
+    </item>
+</layer-list>

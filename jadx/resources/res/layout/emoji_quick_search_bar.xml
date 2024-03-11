@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.recyclerview.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:background="@color/sig_color_flat_pure_white_any" android:visibility="gone" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:alpha="1" android:paddingStart="@dimen/default_gap_three_quarters" android:paddingEnd="@dimen/default_gap_quarter"/>

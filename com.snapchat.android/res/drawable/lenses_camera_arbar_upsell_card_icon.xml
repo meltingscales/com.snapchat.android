@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="center">
+        <inset android:drawable="@mipmap/icon_neon_background" android:inset="-18.0dip" />
+    </item>
+    <item android:gravity="center" android:drawable="@mipmap/ic_foreground" />
+</layer-list>

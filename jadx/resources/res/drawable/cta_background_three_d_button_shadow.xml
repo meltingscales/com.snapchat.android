@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:tint="@color/sig_color_brand_primary_any">
+    <corners android:topLeftRadius="@dimen/cta_three_d_button_radius" android:topRightRadius="@dimen/cta_three_d_button_radius" android:bottomLeftRadius="@dimen/cta_three_d_button_radius" android:bottomRightRadius="@dimen/cta_three_d_button_radius"/>
+</shape>

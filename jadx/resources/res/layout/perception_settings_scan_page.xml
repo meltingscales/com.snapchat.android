@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/settings_scan_page" android:background="?attr/sigColorBackgroundSubscreen" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.snap.component.header.SnapSubscreenHeaderView android:id="@+id/settings_scan_page_header" app:header_style="back" app:title_text="@string/perception_settings_scan_page_title" style="@style/subscreen_header_back"/>
+</LinearLayout>

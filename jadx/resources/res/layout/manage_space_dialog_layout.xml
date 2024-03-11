@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:id="@+id/dialog_content" style="@style/SigAlertDialog">
+        <com.snap.ui.view.SnapFontTextView android:id="@+id/dialog_title" android:text="@string/manage_space_title" style="@style/alert_dialog_title"/>
+        <com.snap.ui.view.ScrollViewWithMaxHeight app:maxHeight="@dimen/manage_space_dialog_description_scroll_view_height" style="@style/alert_dialog_description_scroll_view">
+            <com.snap.ui.view.SnapFontTextView android:gravity="start" android:id="@+id/alert_dialog_description" android:text="@string/manage_space_description" style="@style/alert_dialog_description"/>
+        </com.snap.ui.view.ScrollViewWithMaxHeight>
+        <com.snap.component.button.SnapButtonView android:id="@+id/manage_space_delete_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sig_alert_dialog_between_button_margin_top" app:button_style="large_button_rectangle_dark_gray" app:button_text="@string/manage_space_button_text_delete"/>
+        <com.snap.ui.view.button.SnapCancelButton android:id="@+id/manage_space_cancel_button" android:layout_marginTop="@dimen/sig_alert_dialog_between_button_margin_top" style="@style/SigAlertDialog.CancelButton"/>
+    </LinearLayout>
+</FrameLayout>

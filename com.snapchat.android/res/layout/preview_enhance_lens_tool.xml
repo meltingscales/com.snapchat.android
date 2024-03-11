@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.preview.tools.view.PreviewToolIconView android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="@string/preview_toggle_lens_tool" custom:custom_horizontal_padding="@dimen/preview_zero_button_padding" custom:custom_vertical_padding="@dimen/preview_zero_button_padding" custom:is_vertical_location="true" custom:tool_id="enhance_lens_tool"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" />

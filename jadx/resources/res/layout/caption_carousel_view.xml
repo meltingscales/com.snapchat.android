@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/caption_carousel_container" android:background="@drawable/caption_carousel_background_gradient" android:layout_width="match_parent" android:layout_height="@dimen/caption_carousel_recycler_view_height">
+    <ViewStub android:id="@+id/user_tagging_stub" android:layout="@layout/caption_user_tagging_view" android:layout_width="match_parent" android:layout_height="@dimen/caption_carousel_recycler_view_height"/>
+    <ViewStub android:id="@+id/location_user_tagging_stub" android:layout="@layout/caption_location_and_user_tagging_view" android:layout_width="match_parent" android:layout_height="@dimen/caption_carousel_recycler_view_height"/>
+    <ViewStub android:id="@+id/interactive_sticker_suggestion_stub" android:layout="@layout/interactive_sticker_suggestion_carousel_view" android:layout_width="match_parent" android:layout_height="@dimen/caption_carousel_recycler_view_height"/>
+</FrameLayout>

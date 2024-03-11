@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="start|bottom" android:layout_width="@dimen/magic_moment_tool_scrubber_width" android:layout_height="@dimen/magic_moment_tool_scrubber_height" android:layout_marginStart="@dimen/magic_moment_tool_scrubber_left_margin">
+    <com.snap.spectacles.sharedui.MagicMomentToolScrubberView android:gravity="top" android:orientation="vertical" android:id="@+id/magic_moment_tool_scrubber" android:paddingTop="@dimen/magic_moment_tool_padding" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</FrameLayout>

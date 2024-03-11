@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="?attr/sigColorBackgroundMain" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <com.snap.ui.view.ScHeaderView android:id="@+id/sc_header" android:layout_width="match_parent" android:layout_height="wrap_content" custom:headerColorScheme="@color/sig_color_base_success_green_any" custom:showBackArrow="true" custom:showBottomBorder="true"/>
+</LinearLayout>

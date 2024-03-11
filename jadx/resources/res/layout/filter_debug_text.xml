@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.snap.ui.view.SnapFontTextView android:textSize="?attr/v11Subtitle1TextSize" android:textColor="@color/sig_color_base_green_medium_any" android:id="@+id/text" android:background="@color/sig_color_flat_pure_black_any_alpha_50" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

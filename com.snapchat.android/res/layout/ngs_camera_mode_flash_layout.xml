@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/ngs_camera_mode_flash_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/v11_hova_header_camera_section"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.snap.ui.view.ShadowTextView android:id="@id/camera_mode_text_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/camera_mode_text" />
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/flash_button_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/camera_flash_button" android:layout_width="@dimen/v11_hova_nav_header_top_right_button_size" android:layout_height="@dimen/v11_hova_nav_header_top_right_button_size" android:contentDescription="@string/camera_flash_switch" style="@style/v11_hova_header_button" />
+    </LinearLayout>
+</LinearLayout>

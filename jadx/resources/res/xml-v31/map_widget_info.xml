@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android" android:updatePeriodMillis="1800000" android:initialLayout="@layout/map_widget" android:configure="com.snap.widgets.core.mapwidget.MapWidgetConfigActivity" android:previewImage="@drawable/map_widget_preview" android:resizeMode="none" android:widgetCategory="home_screen" android:targetCellWidth="2" android:targetCellHeight="2"/>

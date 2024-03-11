@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/tagging_item_view_container_v25" android:layout_width="wrap_content" android:layout_height="@dimen/tagging_carousel_avatar_view_size_v25" style="@style/CarouselItemViewContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/tagging_item_avatar_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/tagging_carousel_avatar_container_right_margin_v25" android:layout_marginEnd="@dimen/caption_carousel_item_view_padding_left_right_v25_mushroom" android:layout_alignParentStart="true">
+        <com.snap.ui.avatar.AvatarView android:id="@id/user_tagging_item_avatar_view" android:background="@color/sig_color_flat_pure_white_any_alpha_5" android:layout_width="@dimen/tagging_carousel_avatar_view_size_v25" android:layout_height="@dimen/tagging_carousel_avatar_view_size_v25" />
+        <com.snap.imageloading.view.SnapImageView android:id="@id/place_caption_item_pin_view" android:visibility="gone" android:layout_width="@dimen/place_caption_carousel_pin_view_size_v25" android:layout_height="@dimen/place_caption_carousel_pin_view_size_v25" android:src="@drawable/svg_pin_location_24x24" />
+    </FrameLayout>
+    <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toEndOf="@id/tagging_item_avatar_container" layout="@layout/carousel_item_text_v2_container" />
+</RelativeLayout>

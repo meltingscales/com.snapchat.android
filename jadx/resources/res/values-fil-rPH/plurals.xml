@@ -1,0 +1,1031 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="action_menu_camera_select">
+        <item quantity="one">%d Item ang Pinili</item>
+        <item quantity="other">%d (na) Items ang Pinili</item>
+    </plurals>
+    <plurals name="action_menu_hide_long">
+        <item quantity="one">@string/memories_opera_action_menu_hide</item>
+        <item quantity="other">Itago ang Snaps (Ako Lang Ang Makakakita)</item>
+    </plurals>
+    <plurals name="action_menu_mute_for_hours">
+        <item quantity="one">Sa loob nang %d oras</item>
+        <item quantity="other">Sa loob nang %d (na) oras</item>
+    </plurals>
+    <plurals name="action_menu_snap_select">
+        <item quantity="one">%d Snap ang Pinili</item>
+        <item quantity="other">%d (na) Snaps ang Pinili</item>
+    </plurals>
+    <plurals name="action_menu_unhide_long">
+        <item quantity="one">@string/memories_opera_action_menu_unhide</item>
+        <item quantity="other">I-unhide ang Snaps</item>
+    </plurals>
+    <plurals name="active_indicator_explainer_active_hour">
+        <item quantity="one">%d oras!</item>
+        <item quantity="other">%d (na) oras!</item>
+    </plurals>
+    <plurals name="activity_indicator_explainer_active_friend_count">
+        <item quantity="one">%d friend ay</item>
+        <item quantity="other">%d friends ay</item>
+    </plurals>
+    <plurals name="add_friend_badge_request_tips">
+        <item quantity="one">%1$s bagong Friend Add</item>
+        <item quantity="other">%1$s (na) bagong Friend Adds</item>
+    </plurals>
+    <plurals name="add_friend_badge_suggestion_tips">
+        <item quantity="one">%1$s bagong Friend Suggestion</item>
+        <item quantity="other">%1$s (na) bagong Friend Suggestions</item>
+    </plurals>
+    <plurals name="add_friends_button_subtext">
+        <item quantity="one">%1$s Snapchatter ang nag-add sa &apos;yo!</item>
+        <item quantity="other">%1$s (na) Snapchatters ang nag-add sa &apos;yo!</item>
+    </plurals>
+    <plurals name="add_friends_button_suggestion_subtext">
+        <item quantity="one">%1$s friend suggestion!</item>
+        <item quantity="other">%1$s (na) friend suggestions!</item>
+    </plurals>
+    <plurals name="batch_capture_save_as_x_snaps">
+        <item quantity="one">I-save as %1$d Snap</item>
+        <item quantity="other">I-save as %1$d (na) Snaps</item>
+    </plurals>
+    <plurals name="bottom_button_text">
+        <item quantity="one">+ Mag-add ng %d Friend</item>
+        <item quantity="other">+ Mag-add ng %d Friends</item>
+    </plurals>
+    <plurals name="camera_mode_batch_capture_limit_reached_description_with_count">
+        <item quantity="one">%1$d Snaps at a time ang pwedeng ma-capure ng Multi Snap!</item>
+        <item quantity="other">%1$d Snaps at a time ang pwedeng ma-capure ng Multi Snap!</item>
+    </plurals>
+    <plurals name="camera_mode_disable_batch_capture_description">
+        <item quantity="one">Sigurado ka bang gusto mong i-off ang Multi-Snap? Mawawala ang Snap mong &apos;di naka-save.</item>
+        <item quantity="other">Sigurado ka bang gusto mong i-off ang Multi-Snap? Mawawala ang &apos;di naka-save na %1$d (na) Snaps mo.</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_image_sharer_you_not">
+        <item quantity="one">NAG-SAVE SILA %1$s &amp; %2$s NG PHOTO MULA KAY %4$s</item>
+        <item quantity="other">NAG-SAVE SILA %1$s &amp; %2$s NG %3$d (NA) PHOTO MULA KAY %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_image_sharer_you_yes">
+        <item quantity="one">NA-SAVE NINA %1$s &amp; %2$s ANG PHOTO MO</item>
+        <item quantity="other">SINAVE NINA %1$s &amp; %2$s ANG %3$d (NA) PHOTOS NA PINADALA MO</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_item_sharer_you_not">
+        <item quantity="one">NAG-SAVE SILA %1$s &amp; %2$s NG ITEM MULA KAY %4$s</item>
+        <item quantity="other">NAG-SAVE SILA %1$s &amp; %2$s NG %3$d (NA) ITEM MULA KAY %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_item_sharer_you_yes">
+        <item quantity="one">NA-SAVE NINA %1$s &amp; %2$s ANG ITEM MO</item>
+        <item quantity="other">NA-SAVE NINA %1$s &amp; %2$s ANG %3$d (NA) ITEM NA PINADALA MO</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_video_sharer_you_not">
+        <item quantity="one">NAG-SAVE SILA %1$s &amp; %2$s NG VIDEO MULA KAY %4$s</item>
+        <item quantity="other">NAG-SAVE SILA %1$s &amp; %2$s NG %3$d (NA) VIDEO MULA KAY %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_video_sharer_you_yes">
+        <item quantity="one">SINAVE NINA %1$s &amp; %2$s ANG VIDEO MO</item>
+        <item quantity="other">NA-SVE NINA %1$s &amp; %2$s ANG %3$d (NA) VIDEO NA PINADALA MO</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_yes_media_image_sharer_you_not">
+        <item quantity="one">NAG-SAVE KAYO NI %1$s NG PHOTO MULA KAY %3$s</item>
+        <item quantity="other">NAG-SAVE KAYO NI %1$s NG %2$d (NA) PHOTOS MULA KAY %3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_yes_media_item_sharer_you_not">
+        <item quantity="one">NAG-SAVE KAYO NI %1$s NG ITEM MULA KAY %3$s</item>
+        <item quantity="other">NAG-SAVE KAYO NI %1$s NG %2$d (NA) ITEM MULA KAY %3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_yes_media_video_sharer_you_not">
+        <item quantity="one">NAG-SAVE KAYO NI %1$s NG VIDEO MULA KAY %3$s</item>
+        <item quantity="other">NAG-SAVE KAYO NI %1$s NG %2$d (NA) VIDEOS MULA KAY %3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_image_sharer_you_not">
+        <item quantity="one">NAG-SAVE SILA %1$s &amp; %2$s NG PHOTO MULA KAY %4$s</item>
+        <item quantity="other">NAG-SAVE SILA %1$s &amp; %2$s NG %3$d (NA) PHOTOS MULA KAY %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_image_sharer_you_yes">
+        <item quantity="one">SINAVE NINA %1$s &amp; %2$s ANG PHOTO MO</item>
+        <item quantity="other">SINAVE NINA %1$s &amp; %2$s ANG %3$d (NA) PHOTOS NA PINADALA MO</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_item__sharer_you_not">
+        <item quantity="one">NAG-SAVE SILA %1$s &amp; %2$s NG ITEM MULA KAY %4$s</item>
+        <item quantity="other">NAG-SAVE SILA %1$s &amp; %2$s NG %3$d (NA) ITEMS MULA KAY %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_item__sharer_you_yes">
+        <item quantity="one">SINAVE NINA %1$s &amp; %2$s ANG ITEM MO</item>
+        <item quantity="other">SINAVE NINA %1$s &amp; %2$s ANG %3$d (NA) ITEMS NA PINADALA MO</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_video_sharer_you_not">
+        <item quantity="one">NAG-SAVE SILA %1$s &amp; %2$s NG VIDEO MULA KAY %4$s</item>
+        <item quantity="other">NAG-SAVE SILA %1$s &amp; %2$s NG %3$d (NA) VIDEOS MULA KAY %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_video_sharer_you_yes">
+        <item quantity="one">SINAVE NINA %1$s &amp; %2$s ANG VIDEO MO</item>
+        <item quantity="other">SINAVE NINA %1$s &amp; %2$s ANG %3$d (NA) VIDEOS NA PINADALA MO</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_yes_media_image_sharer_you_not">
+        <item quantity="one">SINAVE NINYO NINA %1$s &amp; %2$s ANG PHOTO MULA KAY %4$s</item>
+        <item quantity="other">SINAVE NINYO NINA %1$s &amp; %2$s ANG %3$d (NA) PHOTOS MULA KAY %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_yes_media_item_sharer_you_not">
+        <item quantity="one">SINAVE NINYO NINA %1$s &amp; %2$s ANG ITEM MULA KAY %4$s</item>
+        <item quantity="other">NAG-SAVE KAYO NINA %1$s &amp; %2$s NG %3$d (NA) ITEMS MULA KAY %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_yes_media_video_sharer_you_not">
+        <item quantity="one">NAG-SAVE KAYO NINA %1$s &amp; %2$s NG VIDEO MULA KAY %4$s</item>
+        <item quantity="other">NAG-SAVE KAYO NINA %1$s &amp; %2$s NG %3$d (NA) VIDEOS MULA KAY %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_image_sharer_you_not">
+        <item quantity="one">NAG-SAVE SI %1$s NG PHOTO MULA KAY %3$s</item>
+        <item quantity="other">NAG-SAVE SI %1$s NG %2$d (NA) PHOTO MULA KAY %3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_image_sharer_you_yes">
+        <item quantity="one">NA-SAVE NI %1$s ANG PHOTO MO</item>
+        <item quantity="other">NA-SAVE NI %1$s ANG %2$d (NA) PHOTO NA PINADALA MO</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_item_sharer_you_not">
+        <item quantity="one">NAG-SAVE SI %1$s NG ITEM MULA KAY %3$s</item>
+        <item quantity="other">NAG-SAVE SI %1$s NG %2$d (NA) ITEM MULA KAY %3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_item_sharer_you_yes">
+        <item quantity="one">NA-SAVE NI %1$s ANG ITEM MO</item>
+        <item quantity="other">NA-SAVE NI %1$s ANG %2$d (NA) ITEM NA PINADALA MO</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_video_sharer_you_not">
+        <item quantity="one">NAG-SAVE SI %1$s NG VIDEO MULA KAY %3$s</item>
+        <item quantity="other">NAG-SAVE SI %1$s NG %2$d (NA) VIDEO MULA KAY %3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_video_sharer_you_yes">
+        <item quantity="one">NA-SAVE NI %1$s ANG VIDEO MO</item>
+        <item quantity="other">NA-SAVE NI %1$s ANG %2$d (NA) VIDEO NA PINADALA MO</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_yes_media_image_sharer_you_not">
+        <item quantity="one">NAG-SAVE KA NG PHOTO MULA KAY %2$s</item>
+        <item quantity="other">NAG-SAVE KA NG %1$d (NA) PHOTOS MULA KAY %2$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_yes_media_item__sharer_you_not">
+        <item quantity="one">NAG-SAVE KA NG ITEM MULA KAY %2$s</item>
+        <item quantity="other">NAG-SAVE KA NG %1$d (NA) ITEM MULA KAY %2$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_yes_media_video_sharer_you_not">
+        <item quantity="one">NAG-SAVE KA NG VIDEO MULA KAY %2$s</item>
+        <item quantity="other">NAG-SAVE KA NG %1$d (NA) VIDEOS MULA KAY %2$s</item>
+    </plurals>
+    <plurals name="cannot_add_custom_story_snap_recipients">
+        <item quantity="one">Hanggang %1$d lang ang pwede mong i-add na Custom Story nang sabay-sabay</item>
+        <item quantity="other">Hanggang %1$d lang ang pwede mong i-add na Custom Stories nang sabay-sabay</item>
+    </plurals>
+    <plurals name="capture_settings_distance_value_text_feet">
+        <item quantity="one">%1$d ft</item>
+        <item quantity="other">%1$d ft</item>
+    </plurals>
+    <plurals name="capture_settings_duration_value_text_orbits">
+        <item quantity="one">1 orbit</item>
+        <item quantity="other">%1$d orbits</item>
+    </plurals>
+    <plurals name="chat_header_gifting_birthday_upsell">
+        <item quantity="one">Birthday ni %1$s bukas ��. Bigyan siya ng gift sa Snapchat+</item>
+        <item quantity="other">Birthday ni %1$s sa loob ng %2$d araw ��. Bigyan siya ng gift sa Snapchat+</item>
+    </plurals>
+    <plurals name="cheerios_clean_unpair_cheerios_body">
+        <item quantity="one">May Snap sa iyong Pixy. Gusto mo bang i-reset din ang device at i-delete ang lahat ng Snaps at user data?</item>
+        <item quantity="other">May %1$d Snaps sa iyong Pixy. Gusto mo bang i-reset din ang device at i-delete ang lahat ng Snaps at user data?</item>
+    </plurals>
+    <plurals name="cheerios_confirm_delete_body">
+        <item quantity="one">Kapag na-delete ang Snap na ito, maaalis ito sa Cheerio&apos;s device mo.</item>
+        <item quantity="other">Kapag na-delete ang Snaps na ito, maaalis ang mga ito sa Cheerio&apos;s device mo.</item>
+    </plurals>
+    <plurals name="cheerios_deleted">
+        <item quantity="one">Snap ang na-delete</item>
+        <item quantity="other">%d Snaps ang na-delete</item>
+    </plurals>
+    <plurals name="cheerios_deleting">
+        <item quantity="one">Nagde-delete ng 1 Snap…</item>
+        <item quantity="other">Nagde-delete ng %d Snaps…</item>
+    </plurals>
+    <plurals name="cheerios_memories_tooltip">
+        <item quantity="one">1 Bagong Snap</item>
+        <item quantity="other">%d Bagong Snaps</item>
+    </plurals>
+    <plurals name="cheerios_new_snap_to_import">
+        <item quantity="one">1 Bagong Snap. I-tap para I-import.</item>
+        <item quantity="other">%d Bagong Snaps. I-tap para I-import.</item>
+    </plurals>
+    <plurals name="cheerios_status_transfer_complete_title">
+        <item quantity="one">Na-import ang %d Snap!</item>
+        <item quantity="other">Na-import ang %d Snaps!</item>
+    </plurals>
+    <plurals name="cheerios_status_transferring_title">
+        <item quantity="one">Nag-i-import ng %d Snap…</item>
+        <item quantity="other">Nag-i-import ng %d Snaps…</item>
+    </plurals>
+    <plurals name="cluster_seven_or_more">
+        <item quantity="one">%1$s, %2$s, %3$s, %4$s, %5$s at %6$d pa</item>
+        <item quantity="other">%1$s, %2$s, %3$s, %4$s, %5$s at %6$d pa</item>
+    </plurals>
+    <plurals name="cluster_seven_or_more_me">
+        <item quantity="one">%1$s, %2$s, %3$s, %4$s, Ako, at %5$d pa</item>
+        <item quantity="other">%1$s, %2$s, %3$s, %4$s, Ako, at %5$d pa</item>
+    </plurals>
+    <plurals name="cluster_three_or_more">
+        <item quantity="one">%1$s at %2$d pa</item>
+        <item quantity="other">%1$s at %2$d pa</item>
+    </plurals>
+    <plurals name="cluster_three_or_more_me">
+        <item quantity="one">Ako at %1$d pa</item>
+        <item quantity="other">Ako at %1$d pa</item>
+    </plurals>
+    <plurals name="cognac_active_playing_game_text_multiple_player">
+        <item quantity="one">Naglalaro sila %1$s, %2$s + %3$d pa</item>
+        <item quantity="other">Naglalaro sila %1$s, %2$s + %3$d pa</item>
+    </plurals>
+    <plurals name="cognac_active_playing_game_text_multiple_player_shortened">
+        <item quantity="one">Naglalaro si %1$s + %2$d pa</item>
+        <item quantity="other">Naglalaro si %1$s + %2$d pa</item>
+    </plurals>
+    <plurals name="cognac_active_using_cypress_text_multiple_player">
+        <item quantity="one">Active sina %1$s, %2$s + %3$d pa</item>
+        <item quantity="other">Active sina %1$s, %2$s + %3$d pa</item>
+    </plurals>
+    <plurals name="cognac_active_using_cypress_text_multiple_player_shortened">
+        <item quantity="one">Active si %1$s + %2$d pa</item>
+        <item quantity="other">Active si %1$s + %2$d pa</item>
+    </plurals>
+    <plurals name="cognac_app_profile_multiple_player_text">
+        <item quantity="one">Sinusuportahan ang %1$s-%2$d (na) Player</item>
+        <item quantity="other">Sinusuportahan ang %1$s-%2$d (na) Player</item>
+    </plurals>
+    <plurals name="cognac_close_status_message_multiple_player_second_person">
+        <item quantity="one">Naglaro kayo ni %1$s at %2$d pa ng %3$s</item>
+        <item quantity="other">Naglaro kayo ni %1$s at %2$d pa ng %3$s</item>
+    </plurals>
+    <plurals name="cognac_close_status_message_multiple_player_third_person">
+        <item quantity="one">Naglaro sila %1$s, %2$s at %3$d pa ng %4$s</item>
+        <item quantity="other">Naglaro sila %1$s, %2$s at %3$d pa ng %4$s</item>
+    </plurals>
+    <plurals name="cognac_close_status_message_text_for_feed_multiple_player_third_person">
+        <item quantity="one">Naglaro sina %1$s at %2$d pa ng %3$s</item>
+        <item quantity="other">Naglaro sina %1$s at %2$d pa ng %3$s</item>
+    </plurals>
+    <plurals name="cognac_cypress_close_status_message_multiple_player_second_person">
+        <item quantity="one">Ginamit mo, ni %1$s at %2$d pa ang %3$s</item>
+        <item quantity="other">Ginamit mo, ni %1$s at %2$d pa ang %3$s</item>
+    </plurals>
+    <plurals name="cognac_cypress_close_status_message_multiple_player_third_person">
+        <item quantity="one">Ginamit nina %1$s, %2$s at %3$d pa ang %4$s</item>
+        <item quantity="other">Ginamit nina %1$s, %2$s at %3$d pa ang %4$s</item>
+    </plurals>
+    <plurals name="cognac_cypress_close_status_message_text_for_feed_multiple_player_third_person">
+        <item quantity="one">Ginamit ni %1$s at %2$d pa ang %3$s</item>
+        <item quantity="other">Ginamit ni %1$s at %2$d pa ang %3$s</item>
+    </plurals>
+    <plurals name="cognac_friend_picker_ringing_text_multiple_players">
+        <item quantity="one">Tinatawagan sina %1$s at %2$d pa...</item>
+        <item quantity="other">Tinatawagan sina %1$s at %2$d pa...</item>
+    </plurals>
+    <plurals name="comments_collapse_child_comments">
+        <item quantity="one">Itago ang reply</item>
+        <item quantity="other">Itago ang mga reply</item>
+    </plurals>
+    <plurals name="comments_expand_child_comments">
+        <item quantity="one">Ipakita ang 1 reply</item>
+        <item quantity="other">Ipakita ang %s replies</item>
+    </plurals>
+    <plurals name="comments_header_with_live_comment_count">
+        <item quantity="one">1 Comment</item>
+        <item quantity="other">%s (na) Comment</item>
+    </plurals>
+    <plurals name="content_detail_new_count">
+        <item quantity="one">%1$d bago</item>
+        <item quantity="other">%1$d bago</item>
+    </plurals>
+    <plurals name="content_detail_seen_text">
+        <item quantity="one">%1$d ang Ii-import</item>
+        <item quantity="other">%1$d ang Ii-import</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="one">%d day</item>
+        <item quantity="other">%d days</item>
+    </plurals>
+    <plurals name="days_abbreviated">
+        <item quantity="one">%dd</item>
+        <item quantity="other">%dd</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated">
+        <item quantity="one">%dd ago</item>
+        <item quantity="other">%dd ago</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_camera_roll">
+        <item quantity="one">%1$dd ago mula sa Camera Roll</item>
+        <item quantity="other">%1$dd ago mula sa Camera Roll</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_chat">
+        <item quantity="one">%1$dd ago mula sa Chat</item>
+        <item quantity="other">%1$dd ago mula sa Chat</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_cheerios">
+        <item quantity="one">%1$dd ago mula sa Pixy</item>
+        <item quantity="other">%1$dd ago mula sa Pixy</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_creative_kit">
+        <item quantity="one">%1$dd ago mula kay %2$s</item>
+        <item quantity="other">%1$dd ago mula kay %2$s</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_memories">
+        <item quantity="one">%1$dd ago mula sa Memories</item>
+        <item quantity="other">%1$dd ago mula sa Memories</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_spectacles">
+        <item quantity="one">%1$dd ago mula sa Spectacles</item>
+        <item quantity="other">%1$dd ago mula sa Spectacles</item>
+    </plurals>
+    <plurals name="days_ago_update">
+        <item quantity="one">Na-update %1$s day ago</item>
+        <item quantity="other">Na-update %1$s days ago</item>
+    </plurals>
+    <plurals name="discard_batch_capture_description">
+        <item quantity="one">Sigurado ka bang gusto mong burahin ang Multi Snap mo? Mawawala ang Snap mong &apos;di naka-save.</item>
+        <item quantity="other">Sigurado ka bang gusto mong burahin ang Multi Snap mo? Mawawala ang &apos;di naka-save na %1$d (na) Snaps mo.</item>
+    </plurals>
+    <plurals name="display_username_explanation_changed_username_too_recently">
+        <item quantity="one">Pinalitan mo ang username mo noong %1$s.\nPwede mo itong palitan ulit makalipas ang %2$d araw.</item>
+        <item quantity="other">Pinalitan mo ang username mo noong %1$s.\nPwede mo itong palitan ulit makalipas ang %2$d (na) araw.</item>
+    </plurals>
+    <plurals name="failed_to_save_multiple_snaps">
+        <item quantity="one">Failed ang pag-save ng %1$d snap</item>
+        <item quantity="other">Failed ang pag-save ng %1$d (na) snaps</item>
+    </plurals>
+    <plurals name="formatted_short_ft">
+        <item quantity="one">%d ft</item>
+        <item quantity="other">%d ft</item>
+    </plurals>
+    <plurals name="formatted_short_km">
+        <item quantity="one">%d km</item>
+        <item quantity="other">%d km</item>
+    </plurals>
+    <plurals name="formatted_short_m">
+        <item quantity="one">%d m</item>
+        <item quantity="other">%d m</item>
+    </plurals>
+    <plurals name="formatted_short_mile">
+        <item quantity="one">%d mi</item>
+        <item quantity="other">%d mi</item>
+    </plurals>
+    <plurals name="friending_progress_bar_secondary">
+        <item quantity="one">Mag-send ng %1$s pang friend request!</item>
+        <item quantity="other">Mag-send ng %1$s pang friend requests!</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_description_items">
+        <item quantity="one">Successful ang pag-add ng item mo sa Para Sa &apos;Kin Lang. Gusto mo bang burahin ang original mula sa Camera Roll mo?</item>
+        <item quantity="other">Successful ang pag-add ng items mo sa Para Sa &apos;Kin Lang. Gusto mo bang burahin ang originals mula sa Camera Roll mo?</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_description_photos">
+        <item quantity="one">Successful ang pag-add ng photo mo sa Para Sa &apos;Kin Lang. Gusto mo bang burahin ang original mula sa Camera Roll mo?</item>
+        <item quantity="other">Successful ang pag-add ng photos mo sa Para Sa &apos;Kin Lang. Gusto mo bang burahin ang originals mula sa Camera Roll mo?</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_description_videos">
+        <item quantity="one">Successful ang pag-add ng video mo sa Para Sa &apos;Kin Lang. Gusto mo bang burahin ang original mula sa Camera Roll mo?</item>
+        <item quantity="other">Successful ang pag-add ng videos mo sa Para Sa &apos;Kin Lang. Gusto mo bang burahin ang originals mula sa Camera Roll mo?</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_title">
+        <item quantity="one">Burahin ang Original</item>
+        <item quantity="other">Burahin ang Originals</item>
+    </plurals>
+    <plurals name="gallery_private_rate_limit_minutes_time_out">
+        <item quantity="one">\nSubukan ulit pagkatapos ng %1$d minuto.</item>
+        <item quantity="other">\nSubukan ulit pagkatapos ng %1$d (na) minuto.</item>
+    </plurals>
+    <plurals name="gauge_altitude_unit_feet">
+        <item quantity="one">%d ft</item>
+        <item quantity="other">%d ft</item>
+    </plurals>
+    <plurals name="gauge_altitude_unit_meters">
+        <item quantity="one">%d m</item>
+        <item quantity="other">%d m</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="one">%d oras</item>
+        <item quantity="other">%d hours</item>
+    </plurals>
+    <plurals name="hours_abbreviated">
+        <item quantity="one">%dh</item>
+        <item quantity="other">%dh</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="one">%dh</item>
+        <item quantity="other">%dh</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated">
+        <item quantity="one">%dh ago</item>
+        <item quantity="other">%dh ago</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_camera_roll">
+        <item quantity="one">%1$dh ago mula sa Camera Roll</item>
+        <item quantity="other">%1$dh ago mula sa Camera Roll</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_chat">
+        <item quantity="one">%1$dh ago mula sa Chat</item>
+        <item quantity="other">%1$dh ago mula sa Chat</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_cheerios">
+        <item quantity="one">%1$dh ago mula sa Pixy</item>
+        <item quantity="other">%1$dh ago mula sa Pixy</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_creative_kit">
+        <item quantity="one">%1$dh ago mula kay %2$s</item>
+        <item quantity="other">%1$dh ago mula kay %2$s</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_memories">
+        <item quantity="one">%1$dh ago mula sa Memories</item>
+        <item quantity="other">%1$dh ago mula sa Memories</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_spectacles">
+        <item quantity="one">%1$dh ago mula sa Spectacles</item>
+        <item quantity="other">%1$dh ago mula sa Spectacles</item>
+    </plurals>
+    <plurals name="hours_ago_update">
+        <item quantity="one">Na-update %1$s hour ago</item>
+        <item quantity="other">Na-update %1$s hours ago</item>
+    </plurals>
+    <plurals name="last_seen_here_hours">
+        <item quantity="one">Huling nakita rito %dh ago</item>
+        <item quantity="other">Huling nakita rito %dh ago</item>
+    </plurals>
+    <plurals name="last_seen_here_minutes">
+        <item quantity="one">Huling nakita rito %d ago</item>
+        <item quantity="other">Huling nakita rito %dm ago</item>
+    </plurals>
+    <plurals name="live_location_chat_hours_remaining">
+        <item quantity="one">%d oras</item>
+        <item quantity="other">%d oras</item>
+    </plurals>
+    <plurals name="live_location_description_existing_sessions">
+        <item quantity="one">Ishe-share mo ang real-time location mo sa friends na kasalukuyang nasa group na ito. Nakikita na ng %d friend ang Live Location mo.</item>
+        <item quantity="other">Ishe-share mo ang real-time location mo sa friends na kasalukuyang nasa group na ito. Nakikita na ng %d friends ang Live Location mo.</item>
+    </plurals>
+    <plurals name="live_location_duration_hr">
+        <item quantity="one">%d Oras</item>
+        <item quantity="other">%d (na) Oras</item>
+    </plurals>
+    <plurals name="live_location_duration_min">
+        <item quantity="one">%d Minute</item>
+        <item quantity="other">%d Minutes</item>
+    </plurals>
+    <plurals name="live_location_share_group_description">
+        <item quantity="one">Magse-share ka ng Live Location sa friends na kasalukuyang nasa group na ito. Hindi makukuha ng %d member ang location mo dahil hindi kayo friends.</item>
+        <item quantity="other">Magse-share ka ng Live Location sa friends na kasalukuyang nasa group na ito. Hindi makukuha ng %d members ang location mo dahil hindi kayo friends.</item>
+    </plurals>
+    <plurals name="live_location_with_friends">
+        <item quantity="one">kasama ng %d friend</item>
+        <item quantity="other">kasama ng %d (na) friends</item>
+    </plurals>
+    <plurals name="location_upsell_description_specific_friends_more_than_four">
+        <item quantity="one">Nasa Map sina %1$s, %2$s, %3$s, at %4$d mula sa friends mo!</item>
+        <item quantity="other">Nasa Map sina %1$s, %2$s, %3$s, at %4$d mula sa friends mo!</item>
+    </plurals>
+    <plurals name="locked_lens_friending_banner_countdown_timer_hours">
+        <item quantity="one">%1$dh</item>
+        <item quantity="other">%1$dh</item>
+    </plurals>
+    <plurals name="locked_lens_friending_banner_countdown_timer_minutes">
+        <item quantity="one">%1$dm</item>
+        <item quantity="other">%1$dm</item>
+    </plurals>
+    <plurals name="locked_lens_friending_banner_countdown_timer_seconds">
+        <item quantity="one">%1$ds</item>
+        <item quantity="other">%1$ds</item>
+    </plurals>
+    <plurals name="map_group_card_subtext_friend_sharing">
+        <item quantity="one">%1$d friend ang nagbabahagi</item>
+        <item quantity="other">%1$d (na) friend ang nagbabahagi</item>
+    </plurals>
+    <plurals name="map_passport_and_other">
+        <item quantity="one">at %d pa</item>
+        <item quantity="other">at %d pa</item>
+    </plurals>
+    <plurals name="map_passport_bucket_cities_title">
+        <item quantity="one">Lungsod</item>
+        <item quantity="other">Mga Lungsod</item>
+    </plurals>
+    <plurals name="map_passport_bucket_countries_title">
+        <item quantity="one">Country</item>
+        <item quantity="other">Countries</item>
+    </plurals>
+    <plurals name="map_passport_bucket_places_title">
+        <item quantity="one">Lugar</item>
+        <item quantity="other">Places</item>
+    </plurals>
+    <plurals name="map_widget_days_ago">
+        <item quantity="one">%dd</item>
+        <item quantity="other">%dd</item>
+    </plurals>
+    <plurals name="media_export_service_batch_export_failure">
+        <item quantity="one">%1$d sa %2$d Snaps ang na-export. %3$d Snap ang nag-fail.</item>
+        <item quantity="other">%1$d sa %2$d Snaps ang na-export. %3$d Snaps ang nag-fail.</item>
+    </plurals>
+    <plurals name="media_export_service_processing">
+        <item quantity="one">Nag-e-export ng Snap…</item>
+        <item quantity="other">Nag-e-export ng %1$d sa %2$d Snaps…</item>
+    </plurals>
+    <plurals name="media_export_service_success">
+        <item quantity="one">Na-export ang Snap mo!</item>
+        <item quantity="other">Na-export ang Snaps mo!</item>
+    </plurals>
+    <plurals name="memories_camera_select_limit_error">
+        <item quantity="one">Sorry, %d item lang ang pwedeng piliin sa isang pagkakataon.</item>
+        <item quantity="other">Sorry, %d items lang ang pwedeng piliin sa isang pagkakataon.</item>
+    </plurals>
+    <plurals name="memories_delete_camera_roll_image_body">
+        <item quantity="one">Mabubura ang image na &apos;to mula sa device mo</item>
+        <item quantity="other">Mabubura ang images na &apos;to mula sa device mo</item>
+    </plurals>
+    <plurals name="memories_delete_camera_roll_mixed_body">
+        <item quantity="one">Mabubura ang items na &apos;to mula sa device mo</item>
+        <item quantity="other">Mabubura ang items na &apos;to mula sa device mo</item>
+    </plurals>
+    <plurals name="memories_delete_camera_roll_video_body">
+        <item quantity="one">Mabubura ang video na &apos;to mula sa device mo</item>
+        <item quantity="other">Mabubura ang videos na &apos;to mula sa device mo</item>
+    </plurals>
+    <plurals name="memories_delete_snap_body">
+        <item quantity="one">Alisin ang Snap?</item>
+        <item quantity="other">Alisin ang Snaps?</item>
+    </plurals>
+    <plurals name="memories_delete_story_body">
+        <item quantity="one">Burahin ang Story?</item>
+        <item quantity="other">Burahin ang Stories?</item>
+    </plurals>
+    <plurals name="memories_export_error">
+        <item quantity="one">&apos;Di Ma-export ang Snap!</item>
+        <item quantity="other">&apos;Di Ma-export ang Snaps!</item>
+    </plurals>
+    <plurals name="memories_favorite_snaps_story_added">
+        <item quantity="one">Na-add ang Snap sa Favorites Story mo</item>
+        <item quantity="other">%d Snap ang na-add sa Favorites Story mo</item>
+    </plurals>
+    <plurals name="memories_favorite_snaps_story_removed">
+        <item quantity="one">Inalis ang Snap sa Favorites Story mo</item>
+        <item quantity="other">%d Snaps ang inalis sa Favorites Story mo</item>
+    </plurals>
+    <plurals name="memories_featured_story_flashback_diff_date_subtext">
+        <item quantity="one">%1$d Year Ago</item>
+        <item quantity="other">%1$d Years Ago</item>
+    </plurals>
+    <plurals name="memories_featured_story_flashback_same_date_subtext">
+        <item quantity="one">%1$d Year Ago, Ngayong Araw</item>
+        <item quantity="other">%1$d Years Ago, Ngayong Araw</item>
+    </plurals>
+    <plurals name="memories_featured_story_trip_flashback_chat_prefill_snap">
+        <item quantity="one">%1$s, %2$d Year Ago</item>
+        <item quantity="other">%1$s, %2$d Years Ago</item>
+    </plurals>
+    <plurals name="memories_featured_story_trip_flashback_chat_prefill_story">
+        <item quantity="one">Mula %1$d Year Ago</item>
+        <item quantity="other">Mula %1$d Years Ago</item>
+    </plurals>
+    <plurals name="memories_hide_legacy_auto_saves">
+        <item quantity="one">Available pa rin sa bago mong Page ng My Story ang Snaps mula sa Story na &apos;to. &apos;Di maaapektuhan ang Stories na ginawa o na-edit mo.</item>
+        <item quantity="other">Available pa rin sa bago mong Page ng My Story ang Snaps mula sa Stories na &apos;to. &apos;Di maaapektuhan ang Stories na ginawa o na-edit mo.</item>
+    </plurals>
+    <plurals name="memories_hide_legacy_auto_saves_title">
+        <item quantity="one">Alisin ang mas lumang na-auto-save na Story sa %d?</item>
+        <item quantity="other">Alisin ang mas lumang na-auto-save na Stories sa %d?</item>
+    </plurals>
+    <plurals name="memories_print_print_created">
+        <item quantity="one">%d 3D Print ang nagawa</item>
+        <item quantity="other">%d 3D Prints ang nagawa</item>
+    </plurals>
+    <plurals name="memories_print_processing">
+        <item quantity="one">Pino-process ang %d Snap para sa Pag-print...</item>
+        <item quantity="other">Pino-process ang %d Snaps para sa Pag-print...</item>
+    </plurals>
+    <plurals name="memories_remove_older_stories_dialog_title">
+        <item quantity="one">Aalisin nito ang %d mas lumang na-auto-save na Story?</item>
+        <item quantity="other">Aalisin nito ang mas lumang na-auto-save na Stories sa %d?</item>
+    </plurals>
+    <plurals name="memories_select_limit_error">
+        <item quantity="one">Sorry, %d Snap lang ang pwedeng piliin sa isang pagkakataon.</item>
+        <item quantity="other">Sorry, %d Snaps lang ang pwedeng piliin sa isang pagkakataon.</item>
+    </plurals>
+    <plurals name="memories_status_transfer_complete_in_app_notification_text">
+        <item quantity="one">%1$d Imported Snap mula sa %2$s</item>
+        <item quantity="other">%1$d (na) Imported Snaps mula sa %2$s</item>
+    </plurals>
+    <plurals name="memories_status_transfer_complete_title">
+        <item quantity="one">Nag-import ng %d Snap!</item>
+        <item quantity="other">Nag-import ng %d (na) Snaps!</item>
+    </plurals>
+    <plurals name="memories_status_transfer_from_device_complete_title">
+        <item quantity="one">Bagong Snap mula sa %s</item>
+        <item quantity="other">Bagong Snaps mula sa %s</item>
+    </plurals>
+    <plurals name="memories_status_transferring_title">
+        <item quantity="one">Ini-import ang %1$d sa %2$d Snap…</item>
+        <item quantity="other">Ini-import ang %1$d ng %2$d Snaps…</item>
+    </plurals>
+    <plurals name="memories_story_editor_add_snap_selected">
+        <item quantity="one">%d Pinili</item>
+        <item quantity="other">%d Pinili</item>
+    </plurals>
+    <plurals name="minutes_abbreviated">
+        <item quantity="one">%dm</item>
+        <item quantity="other">%dm</item>
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="one">%dm</item>
+        <item quantity="other">%dm</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated">
+        <item quantity="one">%dm ago</item>
+        <item quantity="other">%dm ago</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_camera_roll">
+        <item quantity="one">%1$dm ago mula sa Camera Roll</item>
+        <item quantity="other">%1$dm ago mula sa Camera Roll</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_chat">
+        <item quantity="one">%1$dm ago mula sa Chat</item>
+        <item quantity="other">%1$dm ago mula sa Chat</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_cheerios">
+        <item quantity="one">%1$dm ago mula sa Pixy</item>
+        <item quantity="other">%1$dm ago mula sa Pixy</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_creative_kit">
+        <item quantity="one">%1$dm ago mula kay %2$s</item>
+        <item quantity="other">%1$dm ago mula kay %2$s</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_memories">
+        <item quantity="one">%1$dm ago mula sa Memories</item>
+        <item quantity="other">%1$dm ago mula sa Memories</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_spectacles">
+        <item quantity="one">%1$dm ago mula sa Spectacles</item>
+        <item quantity="other">%1$dm ago mula sa Spectacles</item>
+    </plurals>
+    <plurals name="minutes_ago_update">
+        <item quantity="one">Na-update %1$s minute ago</item>
+        <item quantity="other">Na-update %1$s minutes ago</item>
+    </plurals>
+    <plurals name="months_abbreviated">
+        <item quantity="one">%dmo</item>
+        <item quantity="other">%dmo</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated">
+        <item quantity="one">%dmo ago</item>
+        <item quantity="other">%dmo ago</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_camera_roll">
+        <item quantity="one">%1$dmo ago mula sa Camera Roll</item>
+        <item quantity="other">%1$dmo ago mula sa Camera Roll</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_chat">
+        <item quantity="one">%1$dmo ago mula sa Chat</item>
+        <item quantity="other">%1$dmo ago mula sa Chat</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_cheerios">
+        <item quantity="one">%1$dmo ago mula sa Pixy</item>
+        <item quantity="other">%1$dmo ago mula sa Pixy</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_creative_kit">
+        <item quantity="one">%1$dmo ago mula kay %2$s</item>
+        <item quantity="other">%1$dmo ago mula kay %2$s</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_memories">
+        <item quantity="one">%1$dmo ago mula sa Memories</item>
+        <item quantity="other">%1$dmo ago mula sa Memories</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_spectacles">
+        <item quantity="one">%1$dmo ago mula sa Spectacles</item>
+        <item quantity="other">%1$dmo ago mula sa Spectacles</item>
+    </plurals>
+    <plurals name="months_ago_update">
+        <item quantity="one">Na-update %1$s month ago</item>
+        <item quantity="other">Na-update %1$s months ago</item>
+    </plurals>
+    <plurals name="more_stories">
+        <item quantity="one">1 Pang Story</item>
+        <item quantity="other">%d Pang Stories</item>
+    </plurals>
+    <plurals name="muted_stories">
+        <item quantity="one">1 Naka-mute na Story</item>
+        <item quantity="other">%d Naka-mute na Stories</item>
+    </plurals>
+    <plurals name="new_registration_continue_with_n_friends">
+        <item quantity="one">Mag-add ng 1 Friend</item>
+        <item quantity="other">Mag-add ng %d Friends</item>
+    </plurals>
+    <plurals name="num_hours">
+        <item quantity="one">%dh</item>
+        <item quantity="other">%dh</item>
+    </plurals>
+    <plurals name="num_minutes">
+        <item quantity="one">%dm</item>
+        <item quantity="other">%dm</item>
+    </plurals>
+    <plurals name="nyc_audience_many_and_x_others">
+        <item quantity="one">%1$s+%2$d pang iba</item>
+        <item quantity="other">%1$s+%2$d pang iba</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_ft">
+        <item quantity="one">ft</item>
+        <item quantity="other">ft</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_km">
+        <item quantity="one">km</item>
+        <item quantity="other">km</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_m">
+        <item quantity="one">m</item>
+        <item quantity="other">m</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_mile">
+        <item quantity="one">mi</item>
+        <item quantity="other">mi</item>
+    </plurals>
+    <plurals name="nyc_friends_many_and_x_others">
+        <item quantity="one">Nagse-share na si %1$s ng Live Location sa&apos;yo.</item>
+        <item quantity="other">Nagse-share na si %1$s at %2$s ng Live Location sa&apos;yo.</item>
+    </plurals>
+    <plurals name="nyc_sharing_live_location_with_friends">
+        <item quantity="one">Sine-share mo ang live location mo sa %1$s friend. </item>
+        <item quantity="other">Sine-share mo ang live location mo sa %1$s friends. </item>
+    </plurals>
+    <plurals name="nyc_unhide_live_location_friend_dialog_title">
+        <item quantity="one">Itinatago mo ang Live Location mo sa 1 pang friend.</item>
+        <item quantity="other">Itinatago mo ang Live Location mo sa %1$d pang friends.</item>
+    </plurals>
+    <plurals name="pairing_validation_description">
+        <item quantity="one">May 1 Snap sa iyong Pixy mula sa huling user. Kapag nag-pair sa device na ito, ire-reset ang device at ide-delete ang lahat ng Snaps at data ng user.</item>
+        <item quantity="other">May %d Snaps sa iyong Pixy mula sa huling user. Kapag nag-pair sa device na ito, ire-reset ang device at ide-delete ang lahat ng Snaps at data ng user.</item>
+    </plurals>
+    <plurals name="payments_num_purchased_items">
+        <item quantity="one">1 item</item>
+        <item quantity="other">%d (na) items</item>
+    </plurals>
+    <plurals name="pending_syncs_logout_warning">
+        <item quantity="one">May isang Snap na &apos;di pa na-backup sa Memories. Maaaring mawala ang Snap na &apos;to &apos;pag nag-logout ka ngayon.</item>
+        <item quantity="other">May %1$d (na) Snaps na &apos;di pa na-backup sa Memories. Maaaring mawala ang mga ito &apos;pag nag-logout ka ngayon.</item>
+    </plurals>
+    <plurals name="perception_lens_collection_scan_card_lenses_count">
+        <item quantity="one">%d lens</item>
+        <item quantity="other">%d lenses</item>
+    </plurals>
+    <plurals name="perception_lenses_scan_card_try_lenses">
+        <item quantity="one">Subukan ang Lens</item>
+        <item quantity="other">Subukan ang Lenses (%d)</item>
+    </plurals>
+    <plurals name="play_with_max_player_alert_text">
+        <item quantity="one">Hanggang %1$d (na) players lang ang pwede sa game</item>
+        <item quantity="other">Hanggang %1$d (na) players lang ang pwede sa game</item>
+    </plurals>
+    <plurals name="post_pairing_import_title">
+        <item quantity="one">%d Bagong Snap</item>
+        <item quantity="other">%d Bagong Snaps</item>
+    </plurals>
+    <plurals name="registration_continue_with_n_friends">
+        <item quantity="one">+ Mag-add ng 1 Friend</item>
+        <item quantity="other">+ Mag-add ng %d Friends</item>
+    </plurals>
+    <plurals name="save_button_tooltip_saved_multiple">
+        <item quantity="one">%1$d Snap ang na-save!</item>
+        <item quantity="other">%1$d (na) Snaps ang na-save!</item>
+    </plurals>
+    <plurals name="saved_media_gallery_attribution_media_count">
+        <item quantity="one">%s Snap</item>
+        <item quantity="other">%s (na) Snap</item>
+    </plurals>
+    <plurals name="seconds_abbreviated">
+        <item quantity="one">%ds</item>
+        <item quantity="other">%ds</item>
+    </plurals>
+    <plurals name="seconds_ago">
+        <item quantity="one">%ds</item>
+        <item quantity="other">%ds</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated">
+        <item quantity="one">%ds ago</item>
+        <item quantity="other">%ds ago</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_camera_roll">
+        <item quantity="one">%1$ds ago mula sa Camera Roll</item>
+        <item quantity="other">%1$ds ago mula sa Camera Roll</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_chat">
+        <item quantity="one">%1$ds ago mula sa Chat</item>
+        <item quantity="other">%1$ds ago mula sa Chat</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_cheerios">
+        <item quantity="one">%1$ds ago mula sa Pixy</item>
+        <item quantity="other">%1$ds ago mula sa Pixy</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_creative_kit">
+        <item quantity="one">%1$ds ago mula kay %2$s</item>
+        <item quantity="other">%1$ds ago mula kay %2$s</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_memories">
+        <item quantity="one">%1$ds ago mula sa Memories</item>
+        <item quantity="other">%1$ds ago mula sa Memories</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_spectacles">
+        <item quantity="one">%1$ds ago mula sa Spectacles</item>
+        <item quantity="other">%1$ds ago mula sa Spectacles</item>
+    </plurals>
+    <plurals name="seconds_ago_update">
+        <item quantity="one">Na-update %1$s second ago</item>
+        <item quantity="other">Na-update %1$s seconds ago</item>
+    </plurals>
+    <plurals name="select_friend_friend">
+        <item quantity="one">1 friend</item>
+        <item quantity="other">%1$d friends</item>
+    </plurals>
+    <plurals name="select_friend_other">
+        <item quantity="one">%1$s &amp; 1 pa</item>
+        <item quantity="other">%1$s &amp; %2$d pang iba</item>
+    </plurals>
+    <plurals name="settings_birthday_update_years_old">
+        <item quantity="one">Ako ay %d years old.</item>
+        <item quantity="other">Ako ay %d years old.</item>
+    </plurals>
+    <plurals name="snap_timer_selection_units">
+        <item quantity="one">segundo</item>
+        <item quantity="other">(na) segundo</item>
+    </plurals>
+    <plurals name="snaps_count">
+        <item quantity="one">%1$d Snap</item>
+        <item quantity="other">%1$d (na) Snaps</item>
+    </plurals>
+    <plurals name="spectacles_export_customization_description">
+        <item quantity="one">Paano mo gustong i-export ang Snap mo?</item>
+        <item quantity="other">Paano mo gustong i-export ang Snaps mo?</item>
+    </plurals>
+    <plurals name="spotlight_comments_count_notification_title">
+        <item quantity="one">1 pending na Spotlight comment!</item>
+        <item quantity="other">%d pending na Spotlight comments!</item>
+    </plurals>
+    <plurals name="status_views">
+        <item quantity="one">%d I-view</item>
+        <item quantity="other">%d Views</item>
+    </plurals>
+    <plurals name="still_sharing_last_active_location_description">
+        <item quantity="one">Nakatago ang iyong Live Location pero makikita pa rin ng %1$s friend mo ang iyong Huling Aktibong Location.\n\n Pwede mo itong baguhin sa Map Settings.</item>
+        <item quantity="other">Nakatago ang iyong Live Location pero makikita pa rin ng %1$s friends mo ang iyong Huling Aktibong Location.\n\n Pwede mo itong baguhin sa Map Settings.</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_change_audience">
+        <item quantity="one">Na-save mo ang settings ng location mo, pero makikita pa rin ng %1$s friend ang Live Location mo. Para huminto sa pag-share, i-tap ang &quot;Ihinto&quot; sa tabi ng pangalan niya</item>
+        <item quantity="other">Na-save mo ang settings ng location mo, pero makikita pa rin ng %1$s friends ang Live Location mo. Para huminto sa pag-share, i-tap ang &quot;Ihinto&quot; sa tabi ng pangalan niya</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_enter_ghost_mode">
+        <item quantity="one">Naka-Ghost Mode ka pero makikita pa rin ng %1$s friend ang Live Location mo. Para huminto sa pag-share, i-tap ang “Ihinto” sa tabi ng pangalan niya.</item>
+        <item quantity="other">Naka-Ghost Mode ka pero makikita pa rin ng %1$s friends ang Live Location mo. Para huminto sa pag-share, i-tap ang “Ihinto” sa tabi ng pangalan niya.</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_enter_ghost_mode_ghost_trail">
+        <item quantity="one">Naka-Ghost Mode ka pero makikita pa rin ng %1$s friend ang Live Location mo. Para huminto sa pag-share, i-tap ang “Ihinto” sa tabi ng pangalan niya.\n\nHindi ia-add ang mga location sa iyong Ghost Trail habang nasa Ghost Mode ka.</item>
+        <item quantity="other">Naka-Ghost Mode ka pero makikita pa rin ng %1$s friends ang Live Location mo. Para huminto sa pag-share, i-tap ang “Ihinto” sa tabi ng pangalan niya.\n\nHindi ia-add ang mga location sa iyong Ghost Trail habang nasa Ghost Mode ka.</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_enter_ghost_mode_hide_live_location">
+        <item quantity="one">Nasa Ghost Mode ka pero pwede pa ring makita ng %1$s friend ang Live Location mo. Para i-pause ang pag-share, i-tap ang “Itago Ang Live Location Ko” sa ibaba.</item>
+        <item quantity="other">Nasa Ghost Mode ka pero pwede pa ring makita ng %1$s friends ang Live Location mo. Para i-pause ang pag-share, i-tap ang “Itago Ang Live Location Ko” sa ibaba.</item>
+    </plurals>
+    <plurals name="story_friend_story_notification_title_update">
+        <item quantity="one">%d friend ang nag-add sa Story n&apos;ya</item>
+        <item quantity="other">%d (na) friends ang nag-add sa Story nila</item>
+    </plurals>
+    <plurals name="story_fullscreen_footer_view_count">
+        <item quantity="one">%d View</item>
+        <item quantity="other">%d Views</item>
+    </plurals>
+    <plurals name="story_management_viewer_list_more_viewers">
+        <item quantity="one">+ %1$d pa</item>
+        <item quantity="other">+ %1$d pa</item>
+    </plurals>
+    <plurals name="story_mob_subtext_more">
+        <item quantity="one">%1$s &amp; %2$d pa…</item>
+        <item quantity="other">%1$s &amp; %2$d pa…</item>
+    </plurals>
+    <plurals name="story_profile_communities_members">
+        <item quantity="one">Verified • %d Member</item>
+        <item quantity="other">Verified • %d Members</item>
+    </plurals>
+    <plurals name="story_profile_shared_stories_members">
+        <item quantity="one">%d Member</item>
+        <item quantity="other">%d Members</item>
+    </plurals>
+    <plurals name="story_profile_stories_adding">
+        <item quantity="one">Nag-a-add ng %d Snap…</item>
+        <item quantity="other">Nag-a-add ng %d (na) Snaps…</item>
+    </plurals>
+    <plurals name="story_profile_stories_failed_to_add">
+        <item quantity="one">Failed ang pag-add ng %d Snap</item>
+        <item quantity="other">Failed ang pag-add ng %d (na) Snaps</item>
+    </plurals>
+    <plurals name="story_profile_stories_waiting_to_add">
+        <item quantity="one">Inaantay na mag-add ng %d Snap…</item>
+        <item quantity="other">Inaantay na mag-add ng %d (na) Snaps…</item>
+    </plurals>
+    <plurals name="story_settings_action_menu_my_story_blocked_number_of_people">
+        <item quantity="one">1 Tao</item>
+        <item quantity="other">%d (na) Tao</item>
+    </plurals>
+    <plurals name="streak_restore_dialog_subtitle_free_restore">
+        <item quantity="one">Mayroon kang %1$d libreng restore.</item>
+        <item quantity="other">Mayroon kang %1$d (na) libreng restore.</item>
+    </plurals>
+    <plurals name="streak_restore_dialog_subtitle_hours">
+        <item quantity="one">May natitira kang %2$d hour para ma-restore ang Snapstreak kasama si %1$s bago ito mawala magpakailanman!</item>
+        <item quantity="other">May natitira kang %2$d hours para ma-restore ang Snapstreak kasama si %1$s bago ito mawala magpakailanman!</item>
+    </plurals>
+    <plurals name="streak_restore_dialog_subtitle_minutes">
+        <item quantity="one">May natitira kang %2$d minute para ma-restore ang Snapstreak kasama si %1$s bago ito mawala magpakailanman!</item>
+        <item quantity="other">May natitira kang %2$d minutes para ma-restore ang Snapstreak kasama si %1$s bago ito mawala magpakailanman!</item>
+    </plurals>
+    <plurals name="subtitle_sharing_custom_friends">
+        <item quantity="one">kasama ng %d Friend</item>
+        <item quantity="other">kasama ng %d (na) Friends</item>
+    </plurals>
+    <plurals name="takeover_request_index_and_total">
+        <item quantity="one">%1$d sa %2$d Bagong Friend Adds</item>
+        <item quantity="other">%1$d sa %2$d Bagong Friend Adds</item>
+    </plurals>
+    <plurals name="ticketmaster_events_label">
+        <item quantity="one">event</item>
+        <item quantity="other">events</item>
+    </plurals>
+    <plurals name="watched_stories">
+        <item quantity="one">1 Pinanood na Story</item>
+        <item quantity="other">%d Pinanood na Stories</item>
+    </plurals>
+    <plurals name="weeks">
+        <item quantity="one">%d week</item>
+        <item quantity="other">%d weeks</item>
+    </plurals>
+    <plurals name="weeks_abbreviated">
+        <item quantity="one">%dw</item>
+        <item quantity="other">%dw</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated">
+        <item quantity="one">%dw ago</item>
+        <item quantity="other">%dw ago</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_camera_roll">
+        <item quantity="one">%1$dw ago mula sa Camera Roll</item>
+        <item quantity="other">%1$dw ago mula sa Camera Roll</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_chat">
+        <item quantity="one">%1$dw ago mula sa Chat</item>
+        <item quantity="other">%1$dw ago mula sa Chat</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_cheerios">
+        <item quantity="one">%1$dw ago mula sa Pixy</item>
+        <item quantity="other">%1$dw ago mula sa Pixy</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_creative_kit">
+        <item quantity="one">%1$dw ago mula kay %2$s</item>
+        <item quantity="other">%1$dw ago mula kay %2$s</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_memories">
+        <item quantity="one">%1$dw ago mula sa Memories</item>
+        <item quantity="other">%1$dw ago mula sa Memories</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_spectacles">
+        <item quantity="one">%1$dw ago mula sa Spectacles</item>
+        <item quantity="other">%1$dw ago mula sa Spectacles</item>
+    </plurals>
+    <plurals name="weeks_ago_update">
+        <item quantity="one">Na-update %1$s week ago</item>
+        <item quantity="other">Na-update %1$s weeks ago</item>
+    </plurals>
+    <plurals name="years_abbreviated">
+        <item quantity="one">%dy</item>
+        <item quantity="other">%dy</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated">
+        <item quantity="one">%dy ago</item>
+        <item quantity="other">%dy ago</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_camera_roll">
+        <item quantity="one">%1$dy ago mula sa Camera Roll</item>
+        <item quantity="other">%1$dy ago mula sa Camera Roll</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_chat">
+        <item quantity="one">%1$dy ago mula sa Chat</item>
+        <item quantity="other">%1$dy ago mula sa Chat</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_cheerios">
+        <item quantity="one">%1$dy ago mula sa Pixy</item>
+        <item quantity="other">%1$dy ago mula sa Pixy</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_creative_kit">
+        <item quantity="one">%1$dy ago mula kay %2$s</item>
+        <item quantity="other">%1$dy ago mula kay %2$s</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_memories">
+        <item quantity="one">%1$dy ago mula sa Memories</item>
+        <item quantity="other">%1$dy ago mula sa Memories</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_spectacles">
+        <item quantity="one">%1$dy ago mula sa Spectacles</item>
+        <item quantity="other">%1$dy ago mula sa Spectacles</item>
+    </plurals>
+    <plurals name="years_ago_update">
+        <item quantity="one">Na-update %1$s year ago</item>
+        <item quantity="other">Na-update %1$s years ago</item>
+    </plurals>
+</resources>

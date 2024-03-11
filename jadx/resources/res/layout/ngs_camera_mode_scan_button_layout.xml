@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/camera_button_scan_layout" android:visibility="gone" style="@style/v11_hova_header_camera_section">
+    <ImageView android:id="@+id/camera_mode_image_view" android:src="@drawable/svg_top_level_scan_button" android:tint="@color/sig_color_flat_pure_white_any" android:contentDescription="@string/camera_mode_scan" style="@style/scan_button_style"/>
+</FrameLayout>

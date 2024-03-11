@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="@dimen/default_gap_quarter" android:right="@dimen/default_gap_quarter">
+        <shape android:shape="oval">
+            <solid android:color="@color/sig_color_base_blue_regular_any" />
+            <size android:height="@dimen/icon_size_extra_extra_smaller" android:width="@dimen/icon_size_extra_extra_smaller" />
+        </shape>
+    </item>
+</layer-list>

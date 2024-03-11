@@ -1,0 +1,1045 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="action_menu_camera_select">
+        <item quantity="other">%d Öge Seçildi</item>
+        <item quantity="one">%d Öge Seçildi</item>
+    </plurals>
+    <plurals name="action_menu_hide_long">
+        <item quantity="other">"Snap'leri Gizle (Bana Özel)"</item>
+        <item quantity="one">@string/memories_opera_action_menu_hide</item>
+    </plurals>
+    <plurals name="action_menu_mute_for_hours">
+        <item quantity="other">%d saat boyunca</item>
+        <item quantity="one">%d saat boyunca</item>
+    </plurals>
+    <plurals name="action_menu_snap_select">
+        <item quantity="other">%d Snap Seçildi</item>
+        <item quantity="one">%d Snap Seçildi</item>
+    </plurals>
+    <plurals name="action_menu_unhide_long">
+        <item quantity="other">"Snap'leri Göster"</item>
+        <item quantity="one">@string/memories_opera_action_menu_unhide</item>
+    </plurals>
+    <plurals name="active_indicator_explainer_active_hour">
+        <item quantity="other">%d saat</item>
+        <item quantity="one">%d saat</item>
+    </plurals>
+    <plurals name="activity_indicator_explainer_active_friend_count">
+        <item quantity="other">%d arkadaşın</item>
+        <item quantity="one">%d arkadaşın</item>
+    </plurals>
+    <plurals name="add_friend_badge_request_tips">
+        <item quantity="other">%1$s yeni Arkadaş Ekleme</item>
+        <item quantity="one">%1$s yeni Arkadaş Ekleme</item>
+    </plurals>
+    <plurals name="add_friend_badge_suggestion_tips">
+        <item quantity="other">%1$s yeni Arkadaş Önerisi</item>
+        <item quantity="one">%1$s yeni Arkadaş Önerisi</item>
+    </plurals>
+    <plurals name="add_friends_button_subtext">
+        <item quantity="other">%1$s Snapchat kullanıcısı seni ekledi!</item>
+        <item quantity="one">%1$s Snapchat kullanıcısı seni ekledi!</item>
+    </plurals>
+    <plurals name="add_friends_button_suggestion_subtext">
+        <item quantity="other">%1$s arkadaş önerisi!</item>
+        <item quantity="one">%1$s arkadaş önerisi!</item>
+    </plurals>
+    <plurals name="batch_capture_save_as_x_snaps">
+        <item quantity="other">%1$d Snap Olarak Kaydet</item>
+        <item quantity="one">%1$d Snap Olarak Kaydet</item>
+    </plurals>
+    <plurals name="bottom_button_text">
+        <item quantity="other">+ %d Arkadaş Ekle</item>
+        <item quantity="one">+ %d Arkadaş Ekle</item>
+    </plurals>
+    <plurals name="camera_mode_batch_capture_limit_reached_description_with_count">
+        <item quantity="other">Çoklu Snap tek seferde en fazla %1$d Snap yakalayabilir!</item>
+        <item quantity="one">Çoklu Snap tek seferde en fazla %1$d Snap yakalayabilir!</item>
+    </plurals>
+    <plurals name="camera_mode_disable_batch_capture_description">
+        <item quantity="other">"Çoklu Snap'i kapatmak istediğinden emin misin? Kaydedilmemiş %1$d Snap'in silinecek."</item>
+        <item quantity="one">"Çoklu Snap'i kapatmak istediğinden emin misin? Kaydedilmemiş tüm Snap'lerin silinecek."</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_image_sharer_you_not">
+        <item quantity="other">%1$s VE %2$s, %4$s ADLI KULLANICIDAN %3$d FOTOĞRAF KAYDETTİ</item>
+        <item quantity="one">%1$s VE %2$s, %4$s ADLI KULLANICIDAN BİR FOTOĞRAF KAYDETTİ</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_image_sharer_you_yes">
+        <item quantity="other">%1$s VE %2$s GÖNDERDİĞİN %3$d FOTOĞRAFI KAYDETTİ</item>
+        <item quantity="one">%1$s VE %2$s SENİN FOTOĞRAFINI KAYDETTİ</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_item_sharer_you_not">
+        <item quantity="other">%1$s VE %2$s, %3$d ADLI KULLANICIDAN %4$s İÇERİK KAYDETTİ</item>
+        <item quantity="one">%1$s VE %2$s, %4$s ADLI KULLANICIDAN BİR İÇERİK KAYDETTİ</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_item_sharer_you_yes">
+        <item quantity="other">%1$s VE %2$s GÖNDERDİĞİN %3$d İÇERİĞİ KAYDETTİ</item>
+        <item quantity="one">%1$s VE %2$s SENİN İÇERİĞİNİ KAYDETTİ</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_video_sharer_you_not">
+        <item quantity="other">%1$s VE %2$s, %4$s ADLI KULLANICIDAN %3$d VİDEO KAYDETTİ</item>
+        <item quantity="one">%1$s VE %2$s, %4$s ADLI KULLANICIDAN BİR VİDEO KAYDETTİ</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_video_sharer_you_yes">
+        <item quantity="other">%1$s VE %2$s GÖNDERDİĞİN %3$d VİDEOYU KAYDETTİ</item>
+        <item quantity="one">%1$s VE %2$s VİDEONU KAYDETTİ</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_yes_media_image_sharer_you_not">
+        <item quantity="other">SEN VE %1$s, %3$s ADLI KULLANICIDAN %2$d FOTOĞRAF KAYDETTİNİZ</item>
+        <item quantity="one">SEN VE %1$s, %3$s ADLI KULLANICIDAN BİR FOTOĞRAF KAYDETTİNİZ</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_yes_media_item_sharer_you_not">
+        <item quantity="other">SEN VE %1$s, %2$d ADLI KULLANICIDAN %3$s İÇERİK KAYDETTİNİZ</item>
+        <item quantity="one">SEN VE %1$s, %3$s ADLI KULLANICIDAN BİR İÇERİK KAYDETTİNİZ</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_yes_media_video_sharer_you_not">
+        <item quantity="other">SEN VE %1$s, %3$s ADLI KULLANICIDAN %2$d VİDEO KAYDETTİNİZ</item>
+        <item quantity="one">SEN VE %1$s, %3$s ADLI KULLANICIDAN BİR VİDEO KAYDETTİNİZ</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_image_sharer_you_not">
+        <item quantity="other">%1$s VE %2$s, %4$s ADLI KULLANICIDAN %3$d FOTOĞRAF KAYDETTİ</item>
+        <item quantity="one">%1$s VE %2$s, %4$s ADLI KULLANICIDAN BİR FOTOĞRAF KAYDETTİ</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_image_sharer_you_yes">
+        <item quantity="other">%1$s VE %2$s GÖNDERDİĞİN %3$d FOTOĞRAFI KAYDETTİ</item>
+        <item quantity="one">%1$s VE %2$s SENİN FOTOĞRAFINI KAYDETTİ</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_item__sharer_you_not">
+        <item quantity="other">%1$s VE %2$s, %4$s ADLI KULLANICIDAN %3$d ÖGE KAYDETTİ</item>
+        <item quantity="one">%1$s VE %2$s, %4$s ADLI KULLANICIDAN BİR ÖGE KAYDETTİ</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_item__sharer_you_yes">
+        <item quantity="other">%1$s VE %2$s GÖNDERDİĞİN %3$d ÖGEYİ KAYDETTİ</item>
+        <item quantity="one">%1$s VE %2$s SENİN ÖGENİ KAYDETTİ</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_video_sharer_you_not">
+        <item quantity="other">%1$s VE %2$s, %4$s ADLI KULLANICIDAN %3$d VİDEO KAYDETTİ</item>
+        <item quantity="one">%1$s VE %2$s, %4$s ADLI KULLANICIDAN BİR VİDEO KAYDETTİ</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_video_sharer_you_yes">
+        <item quantity="other">%1$s VE %2$s GÖNDERDİĞİN %3$d VİDEOYU KAYDETTİ</item>
+        <item quantity="one">%1$s VE %2$s SENİN VİDEONU KAYDETTİ</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_yes_media_image_sharer_you_not">
+        <item quantity="other">SEN, %1$s VE %2$s, %4$s ADLI KULLANICIDAN %3$d FOTOĞRAF KAYDETTİNİZ</item>
+        <item quantity="one">SEN, %1$s VE %2$s, %4$s ADLI KULLANICIDAN BİR FOTOĞRAF KAYDETTİNİZ</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_yes_media_item_sharer_you_not">
+        <item quantity="other">SEN, %1$s VE %2$s, %4$s ADLI KULLANICIDAN %3$d ÖGE KAYDETTİNİZ</item>
+        <item quantity="one">SEN, %1$s VE %2$s, %4$s ADLI KULLANICIDAN BİR ÖGE KAYDETTİNİZ</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_yes_media_video_sharer_you_not">
+        <item quantity="other">SEN, %1$s VE %2$s, %4$s ADLI KULLANICIDAN %3$d VİDEO KAYDETTİNİZ</item>
+        <item quantity="one">SEN, %1$s VE %2$s, %4$s ADLI KULLANICIDAN BİR VİDEO KAYDETTİNİZ</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_image_sharer_you_not">
+        <item quantity="other">%1$s, %3$s ADLI KULLANICIDAN %2$d FOTOĞRAF KAYDETTİ</item>
+        <item quantity="one">%1$s, %3$s ADLI KULLANICIDAN BİR FOTOĞRAF KAYDETTİ</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_image_sharer_you_yes">
+        <item quantity="other">%1$s, GÖNDERDİĞİN %2$d FOTOĞRAFI KAYDETTİ</item>
+        <item quantity="one">%1$s SENİN FOTOĞRAFINI KAYDETTİ</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_item_sharer_you_not">
+        <item quantity="other">%1$s, %2$d ADLI KULLANICIDAN %3$s İÇERİK KAYDETTİ</item>
+        <item quantity="one">%1$s, ADLI KULLANICIDAN BİR İÇERİK KAYDETTİ%3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_item_sharer_you_yes">
+        <item quantity="other">%1$s, GÖNDERDİĞİN %2$d İÇERİĞİ KAYDETTİ</item>
+        <item quantity="one">%1$s SENİN İÇERİĞİNİ KAYDETTİ</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_video_sharer_you_not">
+        <item quantity="other">%1$s, %3$s ADLI KULLANICIDAN %2$d VİDEO KAYDETTİ</item>
+        <item quantity="one">%1$s, %3$s ADLI KULLANICIDAN BİR VİDEO KAYDETTİ</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_video_sharer_you_yes">
+        <item quantity="other">%1$s, GÖNDERDİĞİN %2$d VİDEOYU KAYDETTİ</item>
+        <item quantity="one">%1$s SENİN VİDEONU KAYDETTİ</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_yes_media_image_sharer_you_not">
+        <item quantity="other">%2$s ADLI KULLANICIDAN %1$d FOTOĞRAF KAYDETTİN</item>
+        <item quantity="one">%2$s ADLI KULLANICIDAN BİR FOTOĞRAF KAYDETTİN</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_yes_media_item__sharer_you_not">
+        <item quantity="other">%1$d ADLI KULLANICIDAN %2$s İÇERİK KAYDETTİN</item>
+        <item quantity="one">%2$s ADLI KULLANICIDAN BİR İÇERİK KAYDETTİN</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_yes_media_video_sharer_you_not">
+        <item quantity="other">%2$s ADLI KULLANICIDAN %1$d VİDEO KAYDETTİN</item>
+        <item quantity="one">%2$s ADLI KULLANICIDAN BİR VİDEO KAYDETTİN</item>
+    </plurals>
+    <plurals name="cannot_add_custom_story_snap_recipients">
+        <item quantity="other">Aynı anda en fazla %1$d Özel Hikayeye ekleme yapabilirsin</item>
+        <item quantity="one">Aynı anda en fazla %1$d Özel Hikayeye ekleme yapabilirsin</item>
+    </plurals>
+    <plurals name="capture_settings_distance_value_text_feet">
+        <item quantity="other">%1$d fit</item>
+        <item quantity="one">%1$d fit</item>
+    </plurals>
+    <plurals name="capture_settings_duration_value_text_orbits">
+        <item quantity="other">%1$d yörünge</item>
+        <item quantity="one">1 yörünge</item>
+    </plurals>
+    <plurals name="chat_header_gifting_birthday_upsell">
+        <item quantity="other">%1$s adlı kullanıcının Doğum Günü %2$d gün sonra 🎂. Ona Snapchat+ hediye et</item>
+        <item quantity="one">%1$s adlı kullanıcının Doğum Günü yarın 🎂. Ona Snapchat+ hediye et</item>
+    </plurals>
+    <plurals name="cheerios_clean_unpair_cheerios_body">
+        <item quantity="other">"Pixy cihazında %1$d Snap var. Ayrıca cihazı sıfırlamak ve tüm Snap'ler ile kullanıcı verilerini silmek istiyor musun?"</item>
+        <item quantity="one">"Pixy cihazında bir Snap var. Ayrıca cihazı sıfırlamak ve tüm Snap'ler ile kullanıcı verilerini silmek istiyor musun?"</item>
+    </plurals>
+    <plurals name="cheerios_confirm_delete_body">
+        <item quantity="other">"Bu Snap'leri silersen Snap'ler Cheerios cihazından kaldırılır."</item>
+        <item quantity="one">"Bu Snap'i silersen Snap Cheerios cihazından kaldırılır."</item>
+    </plurals>
+    <plurals name="cheerios_deleted">
+        <item quantity="other">%d Snap silindi</item>
+        <item quantity="one">Snap silindi</item>
+    </plurals>
+    <plurals name="cheerios_deleting">
+        <item quantity="other">%d Snap Siliniyor…</item>
+        <item quantity="one">1 Snap Siliniyor…</item>
+    </plurals>
+    <plurals name="cheerios_memories_tooltip">
+        <item quantity="other">%d Yeni Snap</item>
+        <item quantity="one">1 Yeni Snap</item>
+    </plurals>
+    <plurals name="cheerios_new_snap_to_import">
+        <item quantity="other">%d Yeni Snap. İçeri Aktarmak için dokun.</item>
+        <item quantity="one">1 Yeni Snap. İçeri Aktarmak için dokun.</item>
+    </plurals>
+    <plurals name="cheerios_status_transfer_complete_title">
+        <item quantity="other">%d Snap içeri aktarıldı!</item>
+        <item quantity="one">%d Snap içeri aktarıldı!</item>
+    </plurals>
+    <plurals name="cheerios_status_transferring_title">
+        <item quantity="other">%d Snap içeri aktarılıyor…</item>
+        <item quantity="one">%d Snap içeri aktarılıyor…</item>
+    </plurals>
+    <plurals name="cluster_seven_or_more">
+        <item quantity="other">%1$s, %2$s, %3$s, %4$s, %5$s ve %6$d kişi daha</item>
+        <item quantity="one">%1$s, %2$s, %3$s, %4$s, %5$s ve %6$d kişi daha</item>
+    </plurals>
+    <plurals name="cluster_seven_or_more_me">
+        <item quantity="other">%1$s, %2$s, %3$s, %4$s, Ben ve %5$d kişi daha</item>
+        <item quantity="one">%1$s, %2$s, %3$s, %4$s, Ben ve %5$d kişi daha</item>
+    </plurals>
+    <plurals name="cluster_three_or_more">
+        <item quantity="other">%1$s ve %2$d kişi daha</item>
+        <item quantity="one">%1$s ve %2$d kişi daha</item>
+    </plurals>
+    <plurals name="cluster_three_or_more_me">
+        <item quantity="other">Ben ve %1$d kişi daha</item>
+        <item quantity="one">Ben ve %1$d kişi daha</item>
+    </plurals>
+    <plurals name="cognac_active_playing_game_text_multiple_player">
+        <item quantity="other">%1$s, %2$s + %3$d kişi daha oynuyor</item>
+        <item quantity="one">%1$s, %2$s + %3$d kişi daha oynuyor</item>
+    </plurals>
+    <plurals name="cognac_active_playing_game_text_multiple_player_shortened">
+        <item quantity="other">%1$s + %2$d kişi daha oynuyor</item>
+        <item quantity="one">%1$s + %2$d kişi daha oynuyor</item>
+    </plurals>
+    <plurals name="cognac_active_using_cypress_text_multiple_player">
+        <item quantity="other">%1$s, %2$s + %3$d kişi daha aktif</item>
+        <item quantity="one">%1$s, %2$s + %3$d kişi daha aktif</item>
+    </plurals>
+    <plurals name="cognac_active_using_cypress_text_multiple_player_shortened">
+        <item quantity="other">%1$s + %2$d kişi daha aktif</item>
+        <item quantity="one">%1$s + %2$d kişi daha aktif</item>
+    </plurals>
+    <plurals name="cognac_app_profile_multiple_player_text">
+        <item quantity="other">%1$s-%2$d Oyuncuyu Destekler</item>
+        <item quantity="one">%1$s-%2$d Oyuncuyu Destekler</item>
+    </plurals>
+    <plurals name="cognac_close_status_message_multiple_player_second_person">
+        <item quantity="other">Sen, %1$s ve %2$d kişi daha %3$s oynadınız</item>
+        <item quantity="one">Sen, %1$s ve %2$d kişi daha %3$s oynadınız</item>
+    </plurals>
+    <plurals name="cognac_close_status_message_multiple_player_third_person">
+        <item quantity="other">%1$s, %2$s ve %3$d kişi daha %4$s oynadı</item>
+        <item quantity="one">%1$s, %2$s ve %3$d kişi daha %4$s oynadı</item>
+    </plurals>
+    <plurals name="cognac_close_status_message_text_for_feed_multiple_player_third_person">
+        <item quantity="other">%1$s ve %2$d kişi daha %3$s oynadı</item>
+        <item quantity="one">%1$s ve %2$d kişi daha %3$s oynadı</item>
+    </plurals>
+    <plurals name="cognac_cypress_close_status_message_multiple_player_second_person">
+        <item quantity="other">Sen, %1$s ve %2$d kişi daha %3$s kullandınız</item>
+        <item quantity="one">Sen, %1$s ve %2$d kişi daha %3$s kullandınız</item>
+    </plurals>
+    <plurals name="cognac_cypress_close_status_message_multiple_player_third_person">
+        <item quantity="other">%1$s, %2$s ve %3$d kişi daha %4$s kullandı</item>
+        <item quantity="one">%1$s, %2$s ve %3$d kişi daha %4$s kullandı</item>
+    </plurals>
+    <plurals name="cognac_cypress_close_status_message_text_for_feed_multiple_player_third_person">
+        <item quantity="other">%1$s ve %2$d kişi daha %3$s kullandı</item>
+        <item quantity="one">%1$s ve %2$d kişi daha %3$s kullandı</item>
+    </plurals>
+    <plurals name="cognac_friend_picker_ringing_text_multiple_players">
+        <item quantity="other">%1$s ve %2$d kişi daha çaldırılıyor...</item>
+        <item quantity="one">%1$s ve %2$d kişi daha çaldırılıyor...</item>
+    </plurals>
+    <plurals name="comments_collapse_child_comments">
+        <item quantity="other">Yanıtları gizle</item>
+        <item quantity="one">Yanıtı gizle</item>
+    </plurals>
+    <plurals name="comments_expand_child_comments">
+        <item quantity="other">%s yanıtı göster</item>
+        <item quantity="one">1 yanıtı göster</item>
+    </plurals>
+    <plurals name="comments_header_with_live_comment_count">
+        <item quantity="other">%s Yorum</item>
+        <item quantity="one">1 Yorum</item>
+    </plurals>
+    <plurals name="content_detail_new_count">
+        <item quantity="other">%1$d yeni</item>
+        <item quantity="one">%1$d yeni</item>
+    </plurals>
+    <plurals name="content_detail_seen_text">
+        <item quantity="other">%1$d tane İçeri Aktarılacak</item>
+        <item quantity="one">%1$d tane İçeri Aktarılacak</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="other">%d gün</item>
+        <item quantity="one">%d gün</item>
+    </plurals>
+    <plurals name="days_abbreviated">
+        <item quantity="other">%d gün</item>
+        <item quantity="one">%d gün</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated">
+        <item quantity="other">%d gün önce</item>
+        <item quantity="one">%d gün önce</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_camera_roll">
+        <item quantity="other">"%1$d gün önce Film Rulosu'ndan"</item>
+        <item quantity="one">"%1$d gün önce Film Rulosu'ndan"</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_chat">
+        <item quantity="other">"%1$d gün önce Sohbet'ten"</item>
+        <item quantity="one">"%1$d gün önce Sohbet'ten"</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_cheerios">
+        <item quantity="other">"%1$d gün önce Pixy'den"</item>
+        <item quantity="one">"%1$d gün önce Pixy'den"</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d gün önce %2$s kaynağından</item>
+        <item quantity="one">%1$d gün önce %2$s kaynağından</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_memories">
+        <item quantity="other">"%1$d gün önce Anılar'dan"</item>
+        <item quantity="one">"%1$d gün önce Anılar'dan"</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_spectacles">
+        <item quantity="other">"%1$d gün önce Spectacles'tan"</item>
+        <item quantity="one">"%1$d gün önce Spectacles'tan"</item>
+    </plurals>
+    <plurals name="days_ago_update">
+        <item quantity="other">%1$s gün önce güncellendi</item>
+        <item quantity="one">%1$s gün önce güncellendi</item>
+    </plurals>
+    <plurals name="discard_batch_capture_description">
+        <item quantity="other">"Çoklu Snap'ini silmek istediğinden emin misin? Kaydedilmemiş %1$d Snap'in silinecek."</item>
+        <item quantity="one">"Çoklu Snap'ini silmek istediğinden emin misin? Kaydedilmemiş tüm Snap'lerin silinecek."</item>
+    </plurals>
+    <plurals name="display_username_explanation_changed_username_too_recently">
+        <item quantity="other">Kullanıcı adını %1$s tarihinde değiştirdin.%2$d gün içinde tekrar değiştirebilirsin.</item>
+        <item quantity="one">Kullanıcı adını %1$s tarihinde değiştirdin.%2$d gün içinde tekrar değiştirebilirsin.</item>
+    </plurals>
+    <plurals name="failed_to_save_multiple_snaps">
+        <item quantity="other">%1$d Snap kaydedilemedi</item>
+        <item quantity="one">%1$d Snap kaydedilemedi</item>
+    </plurals>
+    <plurals name="formatted_short_ft">
+        <item quantity="other">%d fit</item>
+        <item quantity="one">%d fit</item>
+    </plurals>
+    <plurals name="formatted_short_km">
+        <item quantity="other">%d km</item>
+        <item quantity="one">%d km</item>
+    </plurals>
+    <plurals name="formatted_short_m">
+        <item quantity="other">%d m</item>
+        <item quantity="one">%d m</item>
+    </plurals>
+    <plurals name="formatted_short_mile">
+        <item quantity="other">%d mil</item>
+        <item quantity="one">%d mil</item>
+    </plurals>
+    <plurals name="friending_progress_bar_secondary">
+        <item quantity="other">%1$s arkadaşlık isteği daha gönder!</item>
+        <item quantity="one">%1$s arkadaşlık isteği daha gönder!</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_description_items">
+        <item quantity="other">"Öğelerin Bana Özel'e başarıyla eklendi. Film Rulosu'ndan orijinallerini silmek ister misin?"</item>
+        <item quantity="one">"Öğen Bana Özel'e başarıyla eklendi. Film Rulosu'ndan orijinalini silmek ister misin?"</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_description_photos">
+        <item quantity="other">"Fotoğrafların Bana Özel'e başarıyla eklendi. Film Rulosu'ndan orijinallerini silmek ister misin?"</item>
+        <item quantity="one">"Fotoğrafın Bana Özel'e başarıyla eklendi. Film Rulosu'ndan orijinalini silmek ister misin?"</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_description_videos">
+        <item quantity="other">"Videoların Bana Özel'e başarıyla eklendi. Film Rulosu'ndan orijinallerini silmek ister misin?"</item>
+        <item quantity="one">"Videon Bana Özel'e başarıyla eklendi. Film Rulosu'ndan orijinalini silmek ister misin?"</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_title">
+        <item quantity="other">Orijinalleri Sil</item>
+        <item quantity="one">Orijinali Sil</item>
+    </plurals>
+    <plurals name="gallery_private_rate_limit_minutes_time_out">
+        <item quantity="other">"
+%1$d dakika sonra tekrar dene."</item>
+        <item quantity="one">"
+%1$d dakika sonra tekrar dene."</item>
+    </plurals>
+    <plurals name="gauge_altitude_unit_feet">
+        <item quantity="other">%d fit</item>
+        <item quantity="one">%d fit</item>
+    </plurals>
+    <plurals name="gauge_altitude_unit_meters">
+        <item quantity="other">%d m</item>
+        <item quantity="one">%d m</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%d saat</item>
+        <item quantity="one">%d saat</item>
+    </plurals>
+    <plurals name="hours_abbreviated">
+        <item quantity="other">%d sa</item>
+        <item quantity="one">%d sa</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%d sa</item>
+        <item quantity="one">%d sa</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated">
+        <item quantity="other">%d sa önce</item>
+        <item quantity="one">%d sa önce</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_camera_roll">
+        <item quantity="other">"%1$d sa önce Film Rulosu'ndan"</item>
+        <item quantity="one">"%1$d sa önce Film Rulosu'ndan"</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_chat">
+        <item quantity="other">"%1$d sa önce Sohbet'ten"</item>
+        <item quantity="one">"%1$d sa önce Sohbet'ten"</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_cheerios">
+        <item quantity="other">"%1$d sa önce Pixy'den"</item>
+        <item quantity="one">"%1$d sa önce Pixy'den"</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d sa önce %2$s kaynağından</item>
+        <item quantity="one">%1$d sa önce %2$s kaynağından</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_memories">
+        <item quantity="other">"%1$d sa önce Anılar'dan"</item>
+        <item quantity="one">"%1$d sa önce Anılar'dan"</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_spectacles">
+        <item quantity="other">"%1$d sa önce Spectacles'tan"</item>
+        <item quantity="one">"%1$d sa önce Spectacles'tan"</item>
+    </plurals>
+    <plurals name="hours_ago_update">
+        <item quantity="other">%1$s saat önce güncellendi</item>
+        <item quantity="one">%1$s saat önce güncellendi</item>
+    </plurals>
+    <plurals name="last_seen_here_hours">
+        <item quantity="other">Burada en son %d sa önce görüldü</item>
+        <item quantity="one">Burada en son %d sa önce görüldü</item>
+    </plurals>
+    <plurals name="last_seen_here_minutes">
+        <item quantity="other">Burada en son %d dk önce görüldü</item>
+        <item quantity="one">Burada en son %d dk önce görüldü</item>
+    </plurals>
+    <plurals name="live_location_chat_hours_remaining">
+        <item quantity="other">%d saat</item>
+        <item quantity="one">%d saat</item>
+    </plurals>
+    <plurals name="live_location_description_existing_sessions">
+        <item quantity="other">Gerçek zamanlı konumunu şu anda bu grupta bulunan arkadaşlarınla paylaşacaksın. Canlı Konumunu %d arkadaşın zaten görebiliyor.</item>
+        <item quantity="one">Gerçek zamanlı konumunu şu anda bu grupta bulunan arkadaşlarınla paylaşacaksın. Canlı Konumunu %d arkadaşın zaten görebiliyor.</item>
+    </plurals>
+    <plurals name="live_location_duration_hr">
+        <item quantity="other">%d Saat</item>
+        <item quantity="one">%d Saat</item>
+    </plurals>
+    <plurals name="live_location_duration_min">
+        <item quantity="other">%d Dakika</item>
+        <item quantity="one">%d Dakika</item>
+    </plurals>
+    <plurals name="live_location_share_group_description">
+        <item quantity="other">Canlı Konumunu şu anda bu grupta bulunan arkadaşlarınla paylaşacaksın. %d üye, onlarla arkadaş olmadığın için konumunu göremeyecek.</item>
+        <item quantity="one">Canlı Konumunu şu anda bu grupta bulunan arkadaşlarınla paylaşacaksın. %d üye, onunla arkadaş olmadığın için konumunu göremeyecek.</item>
+    </plurals>
+    <plurals name="live_location_with_friends">
+        <item quantity="other">%d arkadaşımla</item>
+        <item quantity="one">%d arkadaşımla</item>
+    </plurals>
+    <plurals name="location_upsell_description_specific_friends_more_than_four">
+        <item quantity="other">%1$s, %2$s, %3$s ve %4$d arkadaşın Haritada!</item>
+        <item quantity="one">%1$s, %2$s, %3$s ve %4$d arkadaşın Haritada!</item>
+    </plurals>
+    <plurals name="locked_lens_friending_banner_countdown_timer_hours">
+        <item quantity="other">%1$d sa</item>
+        <item quantity="one">%1$d sa</item>
+    </plurals>
+    <plurals name="locked_lens_friending_banner_countdown_timer_minutes">
+        <item quantity="other">%1$d dk</item>
+        <item quantity="one">%1$d dk</item>
+    </plurals>
+    <plurals name="locked_lens_friending_banner_countdown_timer_seconds">
+        <item quantity="other">%1$d sn</item>
+        <item quantity="one">%1$d sn</item>
+    </plurals>
+    <plurals name="map_group_card_subtext_friend_sharing">
+        <item quantity="other">%1$d arkadaşın paylaşıyor</item>
+        <item quantity="one">%1$d arkadaşın paylaşıyor</item>
+    </plurals>
+    <plurals name="map_passport_and_other">
+        <item quantity="other">ve %d kişi daha</item>
+        <item quantity="one">ve %d kişi daha</item>
+    </plurals>
+    <plurals name="map_passport_bucket_cities_title">
+        <item quantity="other">Şehirler</item>
+        <item quantity="one">Şehir</item>
+    </plurals>
+    <plurals name="map_passport_bucket_countries_title">
+        <item quantity="other">Ülkeler</item>
+        <item quantity="one">Ülke</item>
+    </plurals>
+    <plurals name="map_passport_bucket_places_title">
+        <item quantity="other">Yerler</item>
+        <item quantity="one">Yer</item>
+    </plurals>
+    <plurals name="map_widget_days_ago">
+        <item quantity="other">%d g</item>
+        <item quantity="one">%d g</item>
+    </plurals>
+    <plurals name="media_export_service_batch_export_failure">
+        <item quantity="other">%2$d Snap içinden %1$d tanesi dışarı aktarıldı. %3$d Snap dışarı aktarılamadı.</item>
+        <item quantity="one">%2$d Snap içinden %1$d tanesi dışarı aktarıldı. %3$d Snap dışarı aktarılamadı.</item>
+    </plurals>
+    <plurals name="media_export_service_processing">
+        <item quantity="other">%2$d Snap içinden %1$d tanesi dışarı aktarılıyor…</item>
+        <item quantity="one">Snap Dışarı Aktarılıyor…</item>
+    </plurals>
+    <plurals name="media_export_service_success">
+        <item quantity="other">"Snap'lerin dışarı aktarıldı!"</item>
+        <item quantity="one">"Snap'in dışarı aktarıldı!"</item>
+    </plurals>
+    <plurals name="memories_camera_select_limit_error">
+        <item quantity="other">Üzgünüz, aynı anda sadece %d öge seçilebilir.</item>
+        <item quantity="one">Üzgünüz, aynı anda sadece %d öge seçilebilir.</item>
+    </plurals>
+    <plurals name="memories_delete_camera_roll_image_body">
+        <item quantity="other">Bu resimler cihazından silinecek</item>
+        <item quantity="one">Bu resim cihazından silinecek</item>
+    </plurals>
+    <plurals name="memories_delete_camera_roll_mixed_body">
+        <item quantity="other">Bu ögeler cihazından silinecek</item>
+        <item quantity="one">Bu ögeler cihazından silinecek</item>
+    </plurals>
+    <plurals name="memories_delete_camera_roll_video_body">
+        <item quantity="other">Bu videolar cihazından silinecek</item>
+        <item quantity="one">Bu video cihazından silinecek</item>
+    </plurals>
+    <plurals name="memories_delete_snap_body">
+        <item quantity="other">"Snap'ler kaldırılsın mı?"</item>
+        <item quantity="one">Snap kaldırılsın mı?</item>
+    </plurals>
+    <plurals name="memories_delete_story_body">
+        <item quantity="other">Hikayeler silinsin mi?</item>
+        <item quantity="one">Hikaye silinsin mi?</item>
+    </plurals>
+    <plurals name="memories_export_error">
+        <item quantity="other">"Snap'ler Dışarı Aktarılamıyor!"</item>
+        <item quantity="one">Snap Dışarı Aktarılamıyor!</item>
+    </plurals>
+    <plurals name="memories_favorite_snaps_story_added">
+        <item quantity="other">%d Snap En Sevilenler Hikayene eklendi</item>
+        <item quantity="one">Snap En Sevilenler Hikayene eklendi</item>
+    </plurals>
+    <plurals name="memories_favorite_snaps_story_removed">
+        <item quantity="other">%d Snap En Sevilenler Hikayenden kaldırıldı</item>
+        <item quantity="one">Snap En Sevilenler Hikayenden kaldırıldı</item>
+    </plurals>
+    <plurals name="memories_featured_story_flashback_diff_date_subtext">
+        <item quantity="other">%1$d Yıl Önce</item>
+        <item quantity="one">%1$d Yıl Önce</item>
+    </plurals>
+    <plurals name="memories_featured_story_flashback_same_date_subtext">
+        <item quantity="other">%1$d Yıl Önce, Bugün</item>
+        <item quantity="one">%1$d Yıl Önce, Bugün</item>
+    </plurals>
+    <plurals name="memories_featured_story_trip_flashback_chat_prefill_snap">
+        <item quantity="other">%1$s, %2$d Yıl Önce</item>
+        <item quantity="one">%1$s, %2$d Yıl Önce</item>
+    </plurals>
+    <plurals name="memories_featured_story_trip_flashback_chat_prefill_story">
+        <item quantity="other">%1$d Yıl Öncesinden</item>
+        <item quantity="one">%1$d Yıl Öncesinden</item>
+    </plurals>
+    <plurals name="memories_hide_legacy_auto_saves">
+        <item quantity="other">"Bu Hikayelerdeki Snap'leri yeni Hikayem Sayfanda görebileceksin. Oluşturduğun veya düzenlediğin Hikayeler bu işlemden etkilenmeyecek."</item>
+        <item quantity="one">"Bu Hikaye'deki Snap'leri yeni Hikayem Sayfanda görebileceksin. Oluşturduğun veya düzenlediğin Hikayeler bu işlemden etkilenmeyecek."</item>
+    </plurals>
+    <plurals name="memories_hide_legacy_auto_saves_title">
+        <item quantity="other">Eskiden otomatik kaydedilmiş %d Hikaye kaldırılsın mı?</item>
+        <item quantity="one">Eskiden otomatik kaydedilmiş %d Hikaye kaldırılsın mı?</item>
+    </plurals>
+    <plurals name="memories_print_print_created">
+        <item quantity="other">%d 3 Boyutlu Baskı oluşturuldu</item>
+        <item quantity="one">%d 3 Boyutlu Baskı oluşturuldu</item>
+    </plurals>
+    <plurals name="memories_print_processing">
+        <item quantity="other">%d Snap Baskı için işleniyor...</item>
+        <item quantity="one">%d Snap Baskı için işleniyor...</item>
+    </plurals>
+    <plurals name="memories_remove_older_stories_dialog_title">
+        <item quantity="other">"Bu işlem eskiden otomatik kaydedilmiş %d Hikaye'yi kaldıracak."</item>
+        <item quantity="one">"Bu işlem eskiden otomatik kaydedilmiş %d Hikaye'yi kaldıracak."</item>
+    </plurals>
+    <plurals name="memories_select_limit_error">
+        <item quantity="other">Üzgünüz, aynı anda sadece %d Snap seçilebilir.</item>
+        <item quantity="one">Üzgünüz, aynı anda sadece %d Snap seçilebilir.</item>
+    </plurals>
+    <plurals name="memories_status_transfer_complete_in_app_notification_text">
+        <item quantity="other">%2$s adlı cihazdan %1$d Snap içeri aktarıldı</item>
+        <item quantity="one">%2$s adlı cihazdan %1$d Snap içeri aktarıldı</item>
+    </plurals>
+    <plurals name="memories_status_transfer_complete_title">
+        <item quantity="other">%d Snap İçeri Aktarıldı!</item>
+        <item quantity="one">%d Snap İçeri Aktarıldı!</item>
+    </plurals>
+    <plurals name="memories_status_transfer_from_device_complete_title">
+        <item quantity="other">"%s adlı cihazdan Yeni Snap'ler"</item>
+        <item quantity="one">%s adlı cihazdan yeni Snap</item>
+    </plurals>
+    <plurals name="memories_status_transferring_title">
+        <item quantity="other">"%2$d Snap'in %1$d tanesi içeri aktarılıyor..."</item>
+        <item quantity="one">"%2$d Snap'in %1$d tanesi içeri aktarılıyor..."</item>
+    </plurals>
+    <plurals name="memories_story_editor_add_snap_selected">
+        <item quantity="other">Seçilen: %d</item>
+        <item quantity="one">Seçilen: %d</item>
+    </plurals>
+    <plurals name="minutes_abbreviated">
+        <item quantity="other">%d dk</item>
+        <item quantity="one">%d dk</item>
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="other">%d dk</item>
+        <item quantity="one">%d dk</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated">
+        <item quantity="other">%d dk önce</item>
+        <item quantity="one">%d dk önce</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_camera_roll">
+        <item quantity="other">"%1$d dk önce Film Rulosu'ndan"</item>
+        <item quantity="one">"%1$d dk önce Film Rulosu'ndan"</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_chat">
+        <item quantity="other">"%1$d dk önce Sohbet'ten"</item>
+        <item quantity="one">"%1$d dk önce Sohbet'ten"</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_cheerios">
+        <item quantity="other">"%1$d dk önce Pixy'den"</item>
+        <item quantity="one">"%1$d dk önce Pixy'den"</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d dk önce %2$s kaynağından</item>
+        <item quantity="one">%1$d dk önce %2$s kaynağından</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_memories">
+        <item quantity="other">"%1$d dk önce Anılar'dan"</item>
+        <item quantity="one">"%1$d dk önce Anılar'dan"</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_spectacles">
+        <item quantity="other">"%1$d dk önce Spectacles'tan"</item>
+        <item quantity="one">"%1$d dk önce Spectacles'tan"</item>
+    </plurals>
+    <plurals name="minutes_ago_update">
+        <item quantity="other">%1$s dakika önce güncellendi</item>
+        <item quantity="one">%1$s dakika önce güncellendi</item>
+    </plurals>
+    <plurals name="months_abbreviated">
+        <item quantity="other">%d ay</item>
+        <item quantity="one">%d ay</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated">
+        <item quantity="other">%d ay önce</item>
+        <item quantity="one">%d ay önce</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_camera_roll">
+        <item quantity="other">"%1$d ay önce Film Rulosu'ndan"</item>
+        <item quantity="one">"%1$d ay önce Film Rulosu'ndan"</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_chat">
+        <item quantity="other">"%1$d ay önce Sohbet'ten"</item>
+        <item quantity="one">"%1$d ay önce Sohbet'ten"</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_cheerios">
+        <item quantity="other">"%1$d ay önce Pixy'den"</item>
+        <item quantity="one">"%1$d ay önce Pixy'den"</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d ay önce %2$s kaynağından</item>
+        <item quantity="one">%1$d ay önce %2$s kaynağından</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_memories">
+        <item quantity="other">"%1$d ay önce Anılar'dan"</item>
+        <item quantity="one">"%1$d ay önce Anılar'dan"</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_spectacles">
+        <item quantity="other">"%1$d ay önce Spectacles'tan"</item>
+        <item quantity="one">"%1$d ay önce Spectacles'tan"</item>
+    </plurals>
+    <plurals name="months_ago_update">
+        <item quantity="other">%1$s ay önce güncellendi</item>
+        <item quantity="one">%1$s ay önce güncellendi</item>
+    </plurals>
+    <plurals name="more_stories">
+        <item quantity="other">%d Hikaye Daha</item>
+        <item quantity="one">1 Hikaye Daha</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d yeni bildirim</item>
+        <item quantity="one">%d yeni bildirim</item>
+    </plurals>
+    <plurals name="muted_stories">
+        <item quantity="other">%d Hikaye Sessize Alındı</item>
+        <item quantity="one">1 Hikaye Sessize Alındı</item>
+    </plurals>
+    <plurals name="new_registration_continue_with_n_friends">
+        <item quantity="other">%d Arkadaşı Ekle</item>
+        <item quantity="one">1 Arkadaşı Ekle</item>
+    </plurals>
+    <plurals name="num_hours">
+        <item quantity="other">%d sa</item>
+        <item quantity="one">%d sa</item>
+    </plurals>
+    <plurals name="num_minutes">
+        <item quantity="other">%d dk</item>
+        <item quantity="one">%d dk</item>
+    </plurals>
+    <plurals name="nyc_audience_many_and_x_others">
+        <item quantity="other">%1$s+%2$d kişi daha</item>
+        <item quantity="one">%1$s+%2$d kişi daha</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_ft">
+        <item quantity="other">fit</item>
+        <item quantity="one">fit</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_km">
+        <item quantity="other">km</item>
+        <item quantity="one">km</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_m">
+        <item quantity="other">m</item>
+        <item quantity="one">m</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_mile">
+        <item quantity="other">mil</item>
+        <item quantity="one">mil</item>
+    </plurals>
+    <plurals name="nyc_friends_many_and_x_others">
+        <item quantity="other">%1$s ve %2$s seninle zaten Canlı Konum paylaşıyor</item>
+        <item quantity="one">%1$s seninle zaten Canlı Konum paylaşıyor</item>
+    </plurals>
+    <plurals name="nyc_sharing_live_location_with_friends">
+        <item quantity="other">"Canlı konumunu %1$s arkadaşın ile paylaşıyorsun. "</item>
+        <item quantity="one">"Canlı konumunu %1$s arkadaşın ile paylaşıyorsun. "</item>
+    </plurals>
+    <plurals name="nyc_unhide_live_location_friend_dialog_title">
+        <item quantity="other">Canlı Konumunu %1$d arkadaşından daha gizliyorsun.</item>
+        <item quantity="one">Canlı Konumunu 1 arkadaşından daha gizliyorsun.</item>
+    </plurals>
+    <plurals name="pairing_validation_description">
+        <item quantity="other">"Pixy cihazında son kullanıcıdan kalmış %d Snap var. Bu cihazla eşleştirme yaptığında cihaz sıfırlanacak ve tüm Snap'ler ile kullanıcı verileri silinecek."</item>
+        <item quantity="one">"Pixy cihazında son kullanıcıdan kalmış 1 Snap var. Bu cihazla eşleştirme yaptığında cihaz sıfırlanacak ve tüm Snap'ler ile kullanıcı verileri silinecek."</item>
+    </plurals>
+    <plurals name="payments_num_purchased_items">
+        <item quantity="other">%d adet</item>
+        <item quantity="one">1 adet</item>
+    </plurals>
+    <plurals name="pending_syncs_logout_warning">
+        <item quantity="other">"Anılar'a yedeklenmesi tamamlanmayan %1$d Snap var. Eğer şimdi oturumu kapatırsan, bu Snap'ler kaybolabilir."</item>
+        <item quantity="one">"Anılar'a yedeklenmesi tamamlanmayan bir Snap var. Eğer şimdi oturumu kapatırsan, bu Snap kaybolabilir."</item>
+    </plurals>
+    <plurals name="perception_lens_collection_scan_card_lenses_count">
+        <item quantity="other">%d lens</item>
+        <item quantity="one">%d lens</item>
+    </plurals>
+    <plurals name="perception_lenses_scan_card_try_lenses">
+        <item quantity="other">Lensleri Dene (%d)</item>
+        <item quantity="one">Lensi Dene</item>
+    </plurals>
+    <plurals name="play_with_max_player_alert_text">
+        <item quantity="other">Oyun en fazla %1$d kişiyle oynanabilir</item>
+        <item quantity="one">Oyun yalnızca %1$d kişiyle oynanabilir</item>
+    </plurals>
+    <plurals name="post_pairing_import_title">
+        <item quantity="other">%d Yeni Snap</item>
+        <item quantity="one">%d Yeni Snap</item>
+    </plurals>
+    <plurals name="registration_continue_with_n_friends">
+        <item quantity="other">+ %d Arkadaş Ekle</item>
+        <item quantity="one">+ 1 Arkadaş Ekle</item>
+    </plurals>
+    <plurals name="save_button_tooltip_saved_multiple">
+        <item quantity="other">%1$d Snap kaydedildi!</item>
+        <item quantity="one">%1$d Snap kaydedildi!</item>
+    </plurals>
+    <plurals name="saved_media_gallery_attribution_media_count">
+        <item quantity="other">%s Snap</item>
+        <item quantity="one">%s Snap</item>
+    </plurals>
+    <plurals name="seconds_abbreviated">
+        <item quantity="other">%d sn</item>
+        <item quantity="one">%d sn</item>
+    </plurals>
+    <plurals name="seconds_ago">
+        <item quantity="other">%d sn</item>
+        <item quantity="one">%d sn</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated">
+        <item quantity="other">%d sn önce</item>
+        <item quantity="one">%d sn önce</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_camera_roll">
+        <item quantity="other">"%1$d sn önce Film Rulosu'ndan"</item>
+        <item quantity="one">"%1$d sn önce Film Rulosu'ndan"</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_chat">
+        <item quantity="other">"%1$d sn önce Sohbet'ten"</item>
+        <item quantity="one">"%1$d sn önce Sohbet'ten"</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_cheerios">
+        <item quantity="other">"%1$d sn önce Pixy'den"</item>
+        <item quantity="one">"%1$d sn önce Pixy'den"</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d sn önce %2$s kaynağından</item>
+        <item quantity="one">%1$d sn önce %2$s kaynağından</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_memories">
+        <item quantity="other">"%1$d sn önce Anılar'dan"</item>
+        <item quantity="one">"%1$d sn önce Anılar'dan"</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_spectacles">
+        <item quantity="other">"%1$d sn önce Spectacles'tan"</item>
+        <item quantity="one">"%1$d sn önce Spectacles'tan"</item>
+    </plurals>
+    <plurals name="seconds_ago_update">
+        <item quantity="other">%1$s saniye önce güncellendi</item>
+        <item quantity="one">%1$s saniye önce güncellendi</item>
+    </plurals>
+    <plurals name="select_friend_friend">
+        <item quantity="other">%1$d arkadaş</item>
+        <item quantity="one">1 arkadaş</item>
+    </plurals>
+    <plurals name="select_friend_other">
+        <item quantity="other">%1$s ve %2$d kişi daha</item>
+        <item quantity="one">%1$s ve 1 kişi daha</item>
+    </plurals>
+    <plurals name="settings_birthday_update_years_old">
+        <item quantity="other">%d yaşındayım.</item>
+        <item quantity="one">%d yaşındayım.</item>
+    </plurals>
+    <plurals name="snap_timer_selection_units">
+        <item quantity="other">saniye</item>
+        <item quantity="one">saniye</item>
+    </plurals>
+    <plurals name="snaps_count">
+        <item quantity="other">%1$d Snap</item>
+        <item quantity="one">%1$d Snap</item>
+    </plurals>
+    <plurals name="spectacles_export_customization_description">
+        <item quantity="other">"Snap'lerinin dışarı nasıl aktarılmasını istersin?"</item>
+        <item quantity="one">"Snap'inin dışarı nasıl aktarılmasını istersin?"</item>
+    </plurals>
+    <plurals name="spotlight_comments_count_notification_title">
+        <item quantity="other">Bekleyen %d Sahne Işığı yorumu!</item>
+        <item quantity="one">Bekleyen 1 Sahne Işığı yorumu!</item>
+    </plurals>
+    <plurals name="status_views">
+        <item quantity="other">%d Görüntüleme</item>
+        <item quantity="one">%d Görüntüleme</item>
+    </plurals>
+    <plurals name="still_sharing_last_active_location_description">
+        <item quantity="other">"Canlı Konumun gizli ama %1$s arkadaşın yine de Son Aktif Konumunu görebilir.
+
+ Bunu Harita Ayarları'ndan değiştirebilirsin."</item>
+        <item quantity="one">"Canlı Konumun gizli ama %1$s arkadaşın yine de Son Aktif Konumunu görebilir.
+
+ Bunu Harita Ayarları'ndan değiştirebilirsin."</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_change_audience">
+        <item quantity="other">Konum ayarlarını kaydettin ama %1$s arkadaşın yine de Canlı Konumunu görebilir. Paylaşımı sonlandırmak için bu arkadaşlarının adlarının yanında görünen \"Durdur\" seçeneğine dokun.</item>
+        <item quantity="one">Konum ayarlarını kaydettin ama %1$s arkadaşın yine de Canlı Konumunu görebilir. Paylaşımı sonlandırmak için bu arkadaşının adının yanında görünen \"Durdur\" seçeneğine dokun.</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_enter_ghost_mode">
+        <item quantity="other">"Hayalet Modu'ndasın ama %1$s arkadaşın yine de Canlı Konumunu görebilir. Paylaşımı sonlandırmak için bu arkadaşlarının adlarının yanında görünen \"Durdur\" seçeneğine dokun."</item>
+        <item quantity="one">"Hayalet Modu'ndasın ama %1$s arkadaşın yine de Canlı Konumunu görebilir. Paylaşımı sonlandırmak için bu arkadaşının adının yanında görünen \"Durdur\" seçeneğine dokun."</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_enter_ghost_mode_ghost_trail">
+        <item quantity="other">"Hayalet Modu'ndasın ama %1$s arkadaşın yine de senin Canlı Konumunu görebilir. Paylaşımı sonlandırmak için bu arkadaşlarının adlarının yanında görünen \"Durdur\" seçeneğine dokun.
+
+Konumlar, sen Hayalet Modu'ndayken Hayalet Yoluna eklenmez."</item>
+        <item quantity="one">"Hayalet Modu'ndasın ama %1$s arkadaşın yine de Canlı Konumunu görebilir. Paylaşımı sonlandırmak için bu arkadaşının adının yanında görünen \"Durdur\" seçeneğine dokun.
+
+Konumlar, sen Hayalet Modu'ndayken Hayalet Yoluna eklenmez."</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_enter_ghost_mode_hide_live_location">
+        <item quantity="other">"Hayalet Modu'ndasın ama %1$s arkadaşın yine de Canlı Konumunu görebilir. Paylaşımı sonlandırmak için aşağıdaki \"Canlı Konumumu Gizle\" seçeneğine dokun."</item>
+        <item quantity="one">"Hayalet Modu'ndasın ama %1$s arkadaşın yine de Canlı Konumunu görebilir. Paylaşımı sonlandırmak için aşağıdaki \"Canlı Konumumu Gizle\" seçeneğine dokun."</item>
+    </plurals>
+    <plurals name="story_friend_story_notification_title_update">
+        <item quantity="other">%d arkadaşın Hikayesine ekleme yaptı</item>
+        <item quantity="one">%d arkadaşın Hikayesine ekleme yaptı</item>
+    </plurals>
+    <plurals name="story_fullscreen_footer_view_count">
+        <item quantity="other">%d Görüntüleme</item>
+        <item quantity="one">%d Görüntüleme</item>
+    </plurals>
+    <plurals name="story_management_viewer_list_more_viewers">
+        <item quantity="other">+ %1$d kişi daha</item>
+        <item quantity="one">+ %1$d kişi daha</item>
+    </plurals>
+    <plurals name="story_mob_subtext_more">
+        <item quantity="other">%1$s ve %2$d kişi daha…</item>
+        <item quantity="one">%1$s ve %2$d kişi daha…</item>
+    </plurals>
+    <plurals name="story_profile_communities_members">
+        <item quantity="other">Doğrulandı • %d Üye</item>
+        <item quantity="one">Doğrulandı • %d Üye</item>
+    </plurals>
+    <plurals name="story_profile_shared_stories_members">
+        <item quantity="other">%d Üye</item>
+        <item quantity="one">%d Üye</item>
+    </plurals>
+    <plurals name="story_profile_stories_adding">
+        <item quantity="other">%d Snap ekleniyor...</item>
+        <item quantity="one">%d Snap ekleniyor...</item>
+    </plurals>
+    <plurals name="story_profile_stories_failed_to_add">
+        <item quantity="other">%d Snap eklenemedi</item>
+        <item quantity="one">%d Snap eklenemedi</item>
+    </plurals>
+    <plurals name="story_profile_stories_waiting_to_add">
+        <item quantity="other">"%d Snap'i eklemek için bekleniyor..."</item>
+        <item quantity="one">"%d Snap'i eklemek için bekleniyor..."</item>
+    </plurals>
+    <plurals name="story_settings_action_menu_my_story_blocked_number_of_people">
+        <item quantity="other">%d Kişi</item>
+        <item quantity="one">1 Kişi</item>
+    </plurals>
+    <plurals name="streak_restore_dialog_subtitle_free_restore">
+        <item quantity="other">%1$d ücretsiz geri yükleme hakkın var.</item>
+        <item quantity="one">%1$d ücretsiz geri yükleme hakkın var.</item>
+    </plurals>
+    <plurals name="streak_restore_dialog_subtitle_hours">
+        <item quantity="other">%1$s ile Snap Serini sonsuza dek kaybolmadan önce geri yükleyebilmen için %2$d saat kaldı.</item>
+        <item quantity="one">%1$s ile Snap Serini sonsuza dek kaybolmadan önce geri yükleyebilmen için %2$d saat kaldı.</item>
+    </plurals>
+    <plurals name="streak_restore_dialog_subtitle_minutes">
+        <item quantity="other">%1$s ile Snap Serini sonsuza dek kaybolmadan önce geri yükleyebilmen için %2$d dakika kaldı.</item>
+        <item quantity="one">%1$s ile Snap Serini sonsuza dek kaybolmadan önce geri yükleyebilmen için %2$d dakika kaldı.</item>
+    </plurals>
+    <plurals name="subtitle_sharing_custom_friends">
+        <item quantity="other">%d Arkadaşımla</item>
+        <item quantity="one">%d Arkadaşımla</item>
+    </plurals>
+    <plurals name="takeover_request_index_and_total">
+        <item quantity="other">%1$d / %2$d Yeni Arkadaş Eklendi</item>
+        <item quantity="one">%1$d / %2$d Yeni Arkadaş Eklendi</item>
+    </plurals>
+    <plurals name="ticketmaster_events_label">
+        <item quantity="other">etkinlik</item>
+        <item quantity="one">etkinlik</item>
+    </plurals>
+    <plurals name="watched_stories">
+        <item quantity="other">%d Hikaye İzlendi</item>
+        <item quantity="one">1 Hikaye İzlendi</item>
+    </plurals>
+    <plurals name="weeks">
+        <item quantity="other">%d hafta</item>
+        <item quantity="one">%d hafta</item>
+    </plurals>
+    <plurals name="weeks_abbreviated">
+        <item quantity="other">%d hf</item>
+        <item quantity="one">%d hf</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated">
+        <item quantity="other">%d hf önce</item>
+        <item quantity="one">%d hf önce</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_camera_roll">
+        <item quantity="other">"%1$d hf önce Film Rulosu'ndan"</item>
+        <item quantity="one">"%1$d hf önce Film Rulosu'ndan"</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_chat">
+        <item quantity="other">"%1$d hf önce Sohbet'ten"</item>
+        <item quantity="one">"%1$d hf önce Sohbet'ten"</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_cheerios">
+        <item quantity="other">"%1$d hf önce Pixy'den"</item>
+        <item quantity="one">"%1$d hf önce Pixy'den"</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d hf önce %2$s kaynağından</item>
+        <item quantity="one">%1$d hf önce %2$s kaynağından</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_memories">
+        <item quantity="other">"%1$d hf önce Anılar'dan"</item>
+        <item quantity="one">"%1$d hf önce Anılar'dan"</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_spectacles">
+        <item quantity="other">"%1$d hf önce Spectacles'tan"</item>
+        <item quantity="one">"%1$d hf önce Spectacles'tan"</item>
+    </plurals>
+    <plurals name="weeks_ago_update">
+        <item quantity="other">%1$s hafta önce güncellendi</item>
+        <item quantity="one">%1$s hafta önce güncellendi</item>
+    </plurals>
+    <plurals name="years_abbreviated">
+        <item quantity="other">%d yıl</item>
+        <item quantity="one">%d yıl</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated">
+        <item quantity="other">%d yıl önce</item>
+        <item quantity="one">%d yıl önce</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_camera_roll">
+        <item quantity="other">"%1$d yıl önce Film Rulosu'ndan"</item>
+        <item quantity="one">"%1$d yıl önce Film Rulosu'ndan"</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_chat">
+        <item quantity="other">"%1$d yıl önce Sohbet'ten"</item>
+        <item quantity="one">"%1$d yıl önce Sohbet'ten"</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_cheerios">
+        <item quantity="other">"%1$d yıl önce Pixy'den"</item>
+        <item quantity="one">"%1$d yıl önce Pixy'den"</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d yıl önce %2$s kaynağından</item>
+        <item quantity="one">%1$d yıl önce %2$s kaynağından</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_memories">
+        <item quantity="other">"%1$d yıl önce Anılar'dan"</item>
+        <item quantity="one">"%1$d yıl önce Anılar'dan"</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_spectacles">
+        <item quantity="other">"%1$d yıl önce Spectacles'tan"</item>
+        <item quantity="one">"%1$d yıl önce Spectacles'tan"</item>
+    </plurals>
+    <plurals name="years_ago_update">
+        <item quantity="other">%1$s yıl önce güncellendi</item>
+        <item quantity="one">%1$s yıl önce güncellendi</item>
+    </plurals>
+</resources>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.overlayrender.caption.ui.CaptionEditTextView xmlns:android="http://schemas.android.com/apk/res/android" android:textColor="@color/sig_color_flat_pure_white_any" android:gravity="center" android:id="@+id/caption_text_view" android:focusable="false" android:visibility="invisible" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLength="250" android:lineSpacingMultiplier="1.2" android:inputType="textNoSuggestions"/>

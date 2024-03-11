@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.ui.view.RoundedCornerAspectRatioFrameLayout android:id="@id/memories_draft_grid_view" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" app:aspect_ratio="match_display"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.snap.imageloading.view.SnapImageView android:id="@id/memories_draft_grid_view_thumbnail" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:background="@color/sig_color_flat_pure_black_any_alpha_60" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.snap.component.SnapLabelView android:id="@id/memories_draft_grid_view_title" app:layout_constraintBottom_toTopOf="@id/memories_draft_grid_view_count" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_chainStyle="packed" style="@style/MemoriesDraftsGridViewText" />
+        <com.snap.component.SnapLabelView android:id="@id/memories_draft_grid_view_count" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/memories_draft_grid_view_title" app:layout_constraintVertical_chainStyle="packed" style="@style/MemoriesDraftsGridViewText" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.snap.ui.view.RoundedCornerAspectRatioFrameLayout>

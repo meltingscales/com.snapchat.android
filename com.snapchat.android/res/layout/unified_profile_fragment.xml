@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="bottom" android:id="@id/profile_root" android:background="@drawable/unified_profile_page_background" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:gravity="top" android:id="@id/profile_recycler_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+    <include android:layout_gravity="center|top" android:id="@id/profile_header_bar" android:layout_width="fill_parent" android:layout_height="@dimen/header_bar_height" layout="@layout/unified_profile_header" />
+    <ViewStub android:layout_gravity="bottom|center" android:id="@id/bottom_bar_view_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

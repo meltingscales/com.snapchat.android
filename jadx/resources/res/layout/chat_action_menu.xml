@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/chat_action_menu_container" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/chat_action_menu" android:paddingTop="@dimen/default_gap" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/chat_reaction_selection_menu" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/default_gap" android:layout_marginStart="@dimen/chat_action_menu_item_margin" android:layout_marginEnd="@dimen/chat_action_menu_item_margin"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/action_menu_chat_container" android:background="@drawable/chat_action_menu_background_round_corner" android:paddingTop="@dimen/default_gap" android:paddingBottom="@dimen/default_gap" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/default_gap" android:layout_marginStart="@dimen/chat_action_menu_item_margin" android:layout_marginEnd="@dimen/chat_action_menu_item_margin">
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/default_gap_1_75x">
+                <com.snap.ui.view.SnapFontTextView android:layout_gravity="start" android:id="@+id/action_menu_chat_sender" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/chat_sender_text"/>
+                <View android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+                <com.snap.ui.view.SnapFontTextView android:textSize="?attr/v11Subtitle1TextSize" android:textColor="@color/sig_color_base_gray50_any" android:layout_gravity="end" android:id="@+id/timestamp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <com.snap.messaging.chat.features.actionmenu.ActionMenuChatItemContainer android:id="@+id/action_menu_chat_item_container" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <com.snap.ui.view.SnapFontTextView android:textSize="@dimen/action_menu_subtitle_subtext_size" android:textColor="@color/sig_color_base_gray50_any" android:id="@+id/chat_viewers" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/default_gap"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="bottom" android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/chat_reaction_list_container" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,1311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="action_menu_camera_select">
+        <item quantity="other">%d articole selectate</item>
+        <item quantity="one">%d articol selectat</item>
+        <item quantity="few">%d articole selectate</item>
+    </plurals>
+    <plurals name="action_menu_hide_long">
+        <item quantity="other">Ascunde Snap-urile (Doar pentru mine)</item>
+        <item quantity="one">@string/memories_opera_action_menu_hide</item>
+        <item quantity="few">Ascunde Snap-urile (Doar pentru mine)</item>
+    </plurals>
+    <plurals name="action_menu_mute_for_hours">
+        <item quantity="other">Timp de %d de ore</item>
+        <item quantity="one">Timp de %d oră</item>
+        <item quantity="few">Timp de %d ore</item>
+    </plurals>
+    <plurals name="action_menu_snap_select">
+        <item quantity="other">%d Snap-uri selectate</item>
+        <item quantity="one">%d Snap selectat</item>
+        <item quantity="few">%d Snap-uri selectate</item>
+    </plurals>
+    <plurals name="action_menu_unhide_long">
+        <item quantity="other">Afișează Snap-urile</item>
+        <item quantity="one">@string/memories_opera_action_menu_unhide</item>
+        <item quantity="few">Afișează Snap-urile</item>
+    </plurals>
+    <plurals name="active_indicator_explainer_active_hour">
+        <item quantity="other">%d de ore!</item>
+        <item quantity="one">%d oră!</item>
+        <item quantity="few">%d ore!</item>
+    </plurals>
+    <plurals name="activity_indicator_explainer_active_friend_count">
+        <item quantity="other">%d de prieteni au fost</item>
+        <item quantity="one">%d prieten a fost</item>
+        <item quantity="few">%d prieteni au fost</item>
+    </plurals>
+    <plurals name="add_friend_badge_request_tips">
+        <item quantity="other">%1$s adăugări prieten nou</item>
+        <item quantity="one">%1$s adăugare prieten nou</item>
+        <item quantity="few">%1$s adăugări Prieten nou</item>
+    </plurals>
+    <plurals name="add_friend_badge_suggestion_tips">
+        <item quantity="other">%1$s sugestii prieteni noi</item>
+        <item quantity="one">%1$s sugestie prieten nou</item>
+        <item quantity="few">%1$s sugestii prieteni noi</item>
+    </plurals>
+    <plurals name="add_friends_button_subtext">
+        <item quantity="other">%1$s Snapchatteri te-au adăugat!</item>
+        <item quantity="one">%1$s Snapchatter te-a adăugat!</item>
+        <item quantity="few">%1$s Snapchatteri te-au adăugat!</item>
+    </plurals>
+    <plurals name="add_friends_button_suggestion_subtext">
+        <item quantity="other">%1$s sugestii de prietenie!</item>
+        <item quantity="one">%1$s sugestie de prietenie!</item>
+        <item quantity="few">%1$s sugestii de prietenie!</item>
+    </plurals>
+    <plurals name="batch_capture_save_as_x_snaps">
+        <item quantity="other">Salvează ca %1$d de Snap-uri</item>
+        <item quantity="one">Salvează ca %1$d Snap</item>
+        <item quantity="few">Salvează ca %1$d Snap-uri</item>
+    </plurals>
+    <plurals name="bottom_button_text">
+        <item quantity="other">+ Adaugă %d de prieteni</item>
+        <item quantity="one">+ Adaugă %d prieten</item>
+        <item quantity="few">+ Adaugă %d prieteni</item>
+    </plurals>
+    <plurals name="camera_mode_batch_capture_limit_reached_description_with_count">
+        <item quantity="other">Multi-Snap poate captura până la %1$d de Snap-uri odată!</item>
+        <item quantity="one">Multi-Snap poate captura până la %1$d Snap odată!</item>
+        <item quantity="few">Multi-Snap poate captura până la %1$d Snap-uri odată!</item>
+    </plurals>
+    <plurals name="camera_mode_disable_batch_capture_description">
+        <item quantity="other">Sigur vrei să dezactivezi Multi-Snap? Toate cele %1$d de Snap-uri nesalvate se vor pierde.</item>
+        <item quantity="one">Sigur vrei să dezactivezi Multi-Snap? Toate Snap-urile nesalvate se vor pierde.</item>
+        <item quantity="few">Sigur vrei să dezactivezi Multi-Snap? Toate cele %1$d Snap-uri nesalvate se vor pierde.</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_image_sharer_you_not">
+        <item quantity="other">%1$s ȘI %2$s AU SALVAT %3$d DE FOTOGRAFII DE LA %4$s</item>
+        <item quantity="one">%1$s ȘI %2$s AU SALVAT O FOTOGRAFIE DE LA %4$s</item>
+        <item quantity="few">%1$s ȘI %2$s AU SALVAT %3$d FOTOGRAFII DE LA %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_image_sharer_you_yes">
+        <item quantity="other">%1$s ȘI %2$s AU SALVAT %3$d DE FOTOGRAFII PE CARE LE-AI TRIMIS</item>
+        <item quantity="one">%1$s ȘI %2$s AU SALVAT FOTOGRAFIA TA</item>
+        <item quantity="few">%1$s ȘI %2$s AU SALVAT %3$d FOTOGRAFII PE CARE LE-AI TRIMIS</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_item_sharer_you_not">
+        <item quantity="other">%1$s ȘI %2$s AU SALVAT %3$d DE ARTICOLE DE LA %4$s</item>
+        <item quantity="one">%1$s ȘI %2$s AU SALVAT UN ARTICOL DE LA %4$s</item>
+        <item quantity="few">%1$s ȘI %2$s AU SALVAT %3$d ARTICOLE DE LA %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_item_sharer_you_yes">
+        <item quantity="other">%1$s ȘI %2$s AU SALVAT %3$d DE ARTICOLE PE CARE LE-AI TRIMIS</item>
+        <item quantity="one">%1$s ȘI %2$s AU SALVAT ARTICOLUL TĂU</item>
+        <item quantity="few">%1$s ȘI %2$s AU SALVAT %3$d ARTICOLE PE CARE LE-AI TRIMIS</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_video_sharer_you_not">
+        <item quantity="other">%1$s ȘI %2$s AU SALVAT %3$d DE VIDEOCLIPURI DE LA %4$s</item>
+        <item quantity="one">%1$s ȘI %2$s AU SALVAT UN VIDEOCLIP DE LA %4$s</item>
+        <item quantity="few">%1$s ȘI %2$s AU SALVAT %3$d VIDEOCLIPURI DE LA %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_video_sharer_you_yes">
+        <item quantity="other">%1$s ȘI %2$s AU SALVAT %3$d DE VIDEOCLIPURI PE CARE LE-AI TRIMIS</item>
+        <item quantity="one">%1$s &amp; %2$s AU SALVAT VIDEOCLIPUL TĂU</item>
+        <item quantity="few">%1$s ȘI %2$s AU SALVAT %3$d VIDEOCLIPURI PE CARE LE-AI TRIMIS</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_yes_media_image_sharer_you_not">
+        <item quantity="other">TU ȘI %1$s AȚI SALVAT %2$d DE FOTOGRAFII DE LA %3$s</item>
+        <item quantity="one">TU ȘI %1$s AȚI SALVAT O FOTOGRAFIE DE LA %3$s</item>
+        <item quantity="few">TU ȘI %1$s AȚI SALVAT %2$d FOTOGRAFII DE LA %3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_yes_media_item_sharer_you_not">
+        <item quantity="other">TU ȘI %1$s AȚI SALVAT %2$d DE ARTICOLE DE LA %3$s</item>
+        <item quantity="one">TU &amp; %1$s AȚI SALVAT UN ARTICOL DIN %3$s</item>
+        <item quantity="few">TU ȘI %1$s AȚI SALVAT %2$d ARTICOLE DE LA %3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_yes_media_video_sharer_you_not">
+        <item quantity="other">TU ȘI %1$s AȚI SALVAT %2$d DE VIDEOCLIPURI DE LA %3$s</item>
+        <item quantity="one">TU &amp; %1$s AȚI SALVAT UN VIDEOCLIP DIN %3$s</item>
+        <item quantity="few">TU ȘI %1$s AȚI SALVAT %2$d VIDEOCLIPURI DE LA %3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_image_sharer_you_not">
+        <item quantity="other">%1$s ȘI %2$s AU SALVAT %3$d DE FOTOGRAFII DE LA %4$s</item>
+        <item quantity="one">%1$s ȘI %2$s AU SALVAT O FOTOGRAFIE DE LA %4$s</item>
+        <item quantity="few">%1$s ȘI %2$s AU SALVAT %3$d FOTOGRAFII DE LA %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_image_sharer_you_yes">
+        <item quantity="other">%1$s ȘI %2$s AU SALVAT %3$d DE FOTOGRAFII PE CARE LE-AI TRIMIS</item>
+        <item quantity="one">%1$s ȘI %2$s AU SALVAT FOTOGRAFIA TA</item>
+        <item quantity="few">%1$s ȘI %2$s AU SALVAT %3$d FOTOGRAFII PE CARE LE-AI TRIMIS</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_item__sharer_you_not">
+        <item quantity="other">%1$s ȘI %2$s AU SALVAT %3$d DE ARTICOLE DE LA %4$s</item>
+        <item quantity="one">%1$s ȘI %2$s AU SALVAT UN ARTICOL DE LA %4$s</item>
+        <item quantity="few">%1$s ȘI %2$s AU SALVAT %3$d ARTICOLE DE LA %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_item__sharer_you_yes">
+        <item quantity="other">%1$s ȘI %2$s AU SALVAT %3$d DE ARTICOLE PE CARE LE-AI TRIMIS</item>
+        <item quantity="one">%1$s ȘI %2$s AU SALVAT ARTICOLUL TĂU</item>
+        <item quantity="few">%1$s ȘI %2$s AU SALVAT %3$d ARTICOLE PE CARE LE-AI TRIMIS</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_video_sharer_you_not">
+        <item quantity="other">%1$s ȘI %2$s AU SALVAT %3$d DE VIDEOCLIPURI DE LA %4$s</item>
+        <item quantity="one">%1$s ȘI %2$s AU SALVAT UN VIDEOCLIP DE LA %4$s</item>
+        <item quantity="few">%1$s ȘI %2$s AU SALVAT %3$d VIDEOCLIPURI DE LA %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_video_sharer_you_yes">
+        <item quantity="other">%1$s ȘI %2$s AU SALVAT %3$d DE VIDEOCLIPURI PE CARE LE-AI TRIMIS</item>
+        <item quantity="one">%1$s ȘI %2$s AU SALVAT VIDEOCLIPUL TĂU</item>
+        <item quantity="few">%1$s ȘI %2$s AU SALVAT %3$d VIDEOCLIPURI PE CARE LE-AI TRIMIS</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_yes_media_image_sharer_you_not">
+        <item quantity="other">TU, %1$s ȘI %2$s AȚI SALVAT %3$d DE FOTOGRAFII DE LA %4$s</item>
+        <item quantity="one">TU, %1$s ȘI %2$s AȚI SALVAT O FOTOGRAFIE DE LA %4$s</item>
+        <item quantity="few">TU, %1$s ȘI %2$s AȚI SALVAT %3$d FOTOGRAFII DE LA %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_yes_media_item_sharer_you_not">
+        <item quantity="other">TU, %1$s ȘI %2$s AȚI SALVAT %3$d DE ARTICOLE DE LA %4$s</item>
+        <item quantity="one">TU, %1$s, &amp; %2$s AȚI SALVAT UN ARTICOL DE LA %4$s</item>
+        <item quantity="few">TU, %1$s ȘI %2$s AȚI SALVAT %3$d ARTICOLE DE LA %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_yes_media_video_sharer_you_not">
+        <item quantity="other">TU, %1$s ȘI %2$s AȚI SALVAT %3$d DE VIDEOCLIPURI DE LA %4$s</item>
+        <item quantity="one">TU, %1$s, &amp; %2$s AȚI SALVAT UN VIDEOCLIP DE LA %4$s</item>
+        <item quantity="few">TU, %1$s ȘI %2$s AȚI SALVAT %3$d VIDEOCLIPURI DE LA %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_image_sharer_you_not">
+        <item quantity="other">%1$s A SALVAT %2$d DE FOTOGRAFII DE LA %3$s</item>
+        <item quantity="one">%1$s A SALVAT O FOTOGRAFIE DIN %3$s</item>
+        <item quantity="few">%1$s A SALVAT %2$d FOTOGRAFII DE LA %3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_image_sharer_you_yes">
+        <item quantity="other">%1$s A SALVAT %2$d DE FOTOGRAFII PE CARE LE-AI TRIMIS</item>
+        <item quantity="one">%1$s A SALVAT FOTOGRAFIA TA</item>
+        <item quantity="few">%1$s A SALVAT %2$d FOTOGRAFII PE CARE LE-AI TRIMIS</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_item_sharer_you_not">
+        <item quantity="other">%1$s A SALVAT %2$d DE ARTICOLE DE LA %3$s</item>
+        <item quantity="one">%1$s A SALVAT UN ARTICOL DE LA %3$s</item>
+        <item quantity="few">%1$s A SALVAT %2$d ARTICOLE DE LA %3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_item_sharer_you_yes">
+        <item quantity="other">%1$s A SALVAT %2$d DE ARTICOLE PE CARE LE-AI TRIMIS</item>
+        <item quantity="one">%1$s A SALVAT ARTICOLUL TĂU</item>
+        <item quantity="few">%1$s A SALVAT %2$d ARTICOLE PE CARE LE-AI TRIMIS</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_video_sharer_you_not">
+        <item quantity="other">%1$s A SALVAT %2$d DE VIDEOCLIPURI DE LA %3$s</item>
+        <item quantity="one">%1$s A SALVAT UN VIDEOCLIP DIN %3$s</item>
+        <item quantity="few">%1$s A SALVAT %2$d VIDEOCLIPURI DE LA %3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_video_sharer_you_yes">
+        <item quantity="other">%1$s A SALVAT %2$d DE VIDEOCLIPURI PE CARE LE-AI TRIMIS</item>
+        <item quantity="one">%1$s A SALVAT VIDEOCLIPUL TĂU</item>
+        <item quantity="few">%1$s A SALVAT %2$d VIDEOCLIPURI PE CARE LE-AI TRIMIS</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_yes_media_image_sharer_you_not">
+        <item quantity="other">AI SALVAT %1$d DE FOTOGRAFII DE LA %2$s</item>
+        <item quantity="one">AI SALVAT O FOTOGRAFIE DIN %2$s</item>
+        <item quantity="few">AI SALVAT %1$d FOTOGRAFII DE LA %2$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_yes_media_item__sharer_you_not">
+        <item quantity="other">AI SALVAT %1$d DE ARTICOLE DE LA %2$s</item>
+        <item quantity="one">AI SALVAT UN ARTICOL DIN %2$s</item>
+        <item quantity="few">AI SALVAT %1$d ARTICOLE DE LA %2$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_yes_media_video_sharer_you_not">
+        <item quantity="other">AI SALVAT %1$d DE VIDEOURI DE LA %2$s</item>
+        <item quantity="one">AI SALVAT UN VIDEOCLIP DIN %2$s</item>
+        <item quantity="few">AI SALVAT %1$d VIDEOURI DE LA %2$s</item>
+    </plurals>
+    <plurals name="cannot_add_custom_story_snap_recipients">
+        <item quantity="other">Poți adăuga doar la %1$d de Povești personalizate odată</item>
+        <item quantity="one">Poți adăuga doar la %1$d Poveste personalizată odată</item>
+        <item quantity="few">Poți adăuga doar la %1$d Povești personalizate odată</item>
+    </plurals>
+    <plurals name="capture_settings_distance_value_text_feet">
+        <item quantity="other">%1$d ft</item>
+        <item quantity="one">%1$d ft</item>
+        <item quantity="few">%1$d ft</item>
+    </plurals>
+    <plurals name="capture_settings_duration_value_text_orbits">
+        <item quantity="other">%1$d de orbite</item>
+        <item quantity="one">1 orbită</item>
+        <item quantity="few">%1$d orbite</item>
+    </plurals>
+    <plurals name="chat_header_gifting_birthday_upsell">
+        <item quantity="other">Peste %2$d de zile este ziua lui %1$s 🎂. Oferă-i în dar Snapchat+</item>
+        <item quantity="one">Mâine este ziua lui %1$s 🎂. Oferă-i în dar Snapchat+</item>
+        <item quantity="few">Peste %2$d zile este ziua lui %1$s 🎂. Oferă-i în dar Snapchat+</item>
+    </plurals>
+    <plurals name="cheerios_clean_unpair_cheerios_body">
+        <item quantity="other">Ai %1$d Snap-uri pe dispozitivul Pixy. Dorești, de asemenea, să resetezi dispozitivul și să ștergi toate Snap-urile și datele utilizatorului?</item>
+        <item quantity="one">Ai un Snap pe dispozitivul Pixy. Dorești, de asemenea, să resetezi dispozitivul și să ștergi toate Snap-urile și datele utilizatorului?</item>
+        <item quantity="few">Ai %1$d Snap-uri pe dispozitivul Pixy. Dorești, de asemenea, să resetezi dispozitivul și să ștergi toate Snap-urile și datele utilizatorului?</item>
+    </plurals>
+    <plurals name="cheerios_confirm_delete_body">
+        <item quantity="other">Dacă ștergi aceste Snap-uri, le vei elimina de pe dispozitivul tău Cheerios.</item>
+        <item quantity="one">Dacă ștergi acest Snap, îl vei elimina de pe dispozitivul tău Cheerios.</item>
+        <item quantity="few">Dacă ștergi aceste Snap-uri, le vei elimina de pe dispozitivul tău Cheerios.</item>
+    </plurals>
+    <plurals name="cheerios_deleted">
+        <item quantity="other">%d de Snap-uri au fost șterse</item>
+        <item quantity="one">Snap-ul a fost șters</item>
+        <item quantity="few">%d Snap-uri au fost șterse</item>
+    </plurals>
+    <plurals name="cheerios_deleting">
+        <item quantity="other">Se șterg %d de Snap-uri…</item>
+        <item quantity="one">Se șterge 1 Snap…</item>
+        <item quantity="few">Se șterg %d Snap-uri…</item>
+    </plurals>
+    <plurals name="cheerios_memories_tooltip">
+        <item quantity="other">%d de Snap-uri noi</item>
+        <item quantity="one">1 Snap nou</item>
+        <item quantity="few">%d Snap-uri noi</item>
+    </plurals>
+    <plurals name="cheerios_new_snap_to_import">
+        <item quantity="other">%d de Snap-uri noi. Atinge pentru a transfera.</item>
+        <item quantity="one">1 Snap nou. Atinge pentru a transfera.</item>
+        <item quantity="few">%d Snap-uri noi. Atinge pentru a transfera.</item>
+    </plurals>
+    <plurals name="cheerios_status_transfer_complete_title">
+        <item quantity="other">Au fost transferate %d de Snap-uri!</item>
+        <item quantity="one">%d Snap importat!</item>
+        <item quantity="few">Au fost transferate %d Snap-uri!</item>
+    </plurals>
+    <plurals name="cheerios_status_transferring_title">
+        <item quantity="other">Se importă %d de Snap-uri…</item>
+        <item quantity="one">Se importă %d Snap…</item>
+        <item quantity="few">Se importă %d Snap-uri…</item>
+    </plurals>
+    <plurals name="cluster_seven_or_more">
+        <item quantity="other">%1$s, %2$s, %3$s, %4$s, %5$s și încă %6$d</item>
+        <item quantity="one">%1$s, %2$s, %3$s, %4$s, %5$s și încă %6$d</item>
+        <item quantity="few">%1$s, %2$s, %3$s, %4$s, %5$s și încă %6$d</item>
+    </plurals>
+    <plurals name="cluster_seven_or_more_me">
+        <item quantity="other">%1$s, %2$s, %3$s, %4$s, eu și încă %5$d</item>
+        <item quantity="one">%1$s, %2$s, %3$s, %4$s, eu și încă %5$d</item>
+        <item quantity="few">%1$s, %2$s, %3$s, %4$s, eu și încă %5$d</item>
+    </plurals>
+    <plurals name="cluster_three_or_more">
+        <item quantity="other">%1$s și încă %2$d</item>
+        <item quantity="one">%1$s și încă %2$d</item>
+        <item quantity="few">%1$s și încă %2$d</item>
+    </plurals>
+    <plurals name="cluster_three_or_more_me">
+        <item quantity="other">Eu și încă %1$d</item>
+        <item quantity="one">Eu și încă %1$d</item>
+        <item quantity="few">Eu și încă %1$d</item>
+    </plurals>
+    <plurals name="cognac_active_playing_game_text_multiple_player">
+        <item quantity="other">%1$s, %2$s și încă %3$d de prieteni se joacă</item>
+        <item quantity="one">%1$s, %2$s și încă %3$d prieten se joacă</item>
+        <item quantity="few">%1$s, %2$s și încă %3$d prieteni se joacă</item>
+    </plurals>
+    <plurals name="cognac_active_playing_game_text_multiple_player_shortened">
+        <item quantity="other">%1$s și încă %2$d se joacă</item>
+        <item quantity="one">%1$s și încă %2$d se joacă</item>
+        <item quantity="few">%1$s și încă %2$d se joacă</item>
+    </plurals>
+    <plurals name="cognac_active_using_cypress_text_multiple_player">
+        <item quantity="other">%1$s, %2$s și încă %3$d de prieteni sunt activi</item>
+        <item quantity="one">%1$s, %2$s și încă %3$d prieten sunt activi</item>
+        <item quantity="few">%1$s, %2$s și încă %3$d prieteni sunt activi</item>
+    </plurals>
+    <plurals name="cognac_active_using_cypress_text_multiple_player_shortened">
+        <item quantity="other">%1$s și încă %2$d de persoane sunt activi</item>
+        <item quantity="one">%1$s și încă %2$d persoană sunt activi</item>
+        <item quantity="few">%1$s și încă %2$d persoane sunt activi</item>
+    </plurals>
+    <plurals name="cognac_app_profile_multiple_player_text">
+        <item quantity="other">Acceptă %1$s-%2$d de jucători</item>
+        <item quantity="one">Acceptă %1$s-%2$d jucător</item>
+        <item quantity="few">Acceptă %1$s-%2$d jucători</item>
+    </plurals>
+    <plurals name="cognac_close_status_message_multiple_player_second_person">
+        <item quantity="other">Tu, %1$s și încă %2$d ați jucat %3$s</item>
+        <item quantity="one">Tu, %1$s și încă %2$d ați jucat %3$s</item>
+        <item quantity="few">Tu, %1$s și încă %2$d ați jucat %3$s</item>
+    </plurals>
+    <plurals name="cognac_close_status_message_multiple_player_third_person">
+        <item quantity="other">%1$s, %2$s și încă %3$d de prieteni au jucat %4$s</item>
+        <item quantity="one">%1$s, %2$s și încă %3$d prieten au jucat %4$s</item>
+        <item quantity="few">%1$s, %2$s și încă %3$d prieteni au jucat %4$s</item>
+    </plurals>
+    <plurals name="cognac_close_status_message_text_for_feed_multiple_player_third_person">
+        <item quantity="other">%1$s și încă %2$d de persoane au jucat %3$s</item>
+        <item quantity="one">%1$s și încă %2$d persoană au jucat %3$s</item>
+        <item quantity="few">%1$s și încă %2$d persoane au jucat %3$s</item>
+    </plurals>
+    <plurals name="cognac_cypress_close_status_message_multiple_player_second_person">
+        <item quantity="other">Tu, %1$s și încă %2$d de persoane ați folosit %3$s</item>
+        <item quantity="one">Tu, %1$s și încă %2$d persoană ați folosit %3$s</item>
+        <item quantity="few">Tu, %1$s și încă %2$d persoane ați folosit %3$s</item>
+    </plurals>
+    <plurals name="cognac_cypress_close_status_message_multiple_player_third_person">
+        <item quantity="other">%1$s, %2$s și încă %3$d au folosit %4$s</item>
+        <item quantity="one">%1$s, %2$s și încă %3$d au folosit %4$s</item>
+        <item quantity="few">%1$s, %2$s și încă %3$d au folosit %4$s</item>
+    </plurals>
+    <plurals name="cognac_cypress_close_status_message_text_for_feed_multiple_player_third_person">
+        <item quantity="other">%1$s și încă %2$d de persoane au folosit %3$s</item>
+        <item quantity="one">%1$s și încă %2$d persoană au folosit %3$s</item>
+        <item quantity="few">%1$s și încă %2$d persoane au folosit %3$s</item>
+    </plurals>
+    <plurals name="cognac_friend_picker_ringing_text_multiple_players">
+        <item quantity="other">Se apelează %1$s și încă %2$d de jucători...</item>
+        <item quantity="one">Se apelează %1$s și încă %2$d jucător...</item>
+        <item quantity="few">Se apelează %1$s și încă %2$d jucători...</item>
+    </plurals>
+    <plurals name="comments_collapse_child_comments">
+        <item quantity="other">Ascunde răspunsurile</item>
+        <item quantity="one">Ascunde răspunsul</item>
+        <item quantity="few">Ascunde răspunsurile</item>
+    </plurals>
+    <plurals name="comments_expand_child_comments">
+        <item quantity="other">Afișează %s de răspunsuri</item>
+        <item quantity="one">Afișează 1 răspuns</item>
+        <item quantity="few">Afișează %s răspunsuri</item>
+    </plurals>
+    <plurals name="comments_header_with_live_comment_count">
+        <item quantity="other">%s de comentarii</item>
+        <item quantity="one">1 comentariu</item>
+        <item quantity="few">%s comentarii</item>
+    </plurals>
+    <plurals name="content_detail_new_count">
+        <item quantity="other">%1$d noi</item>
+        <item quantity="one">%1$d nou</item>
+        <item quantity="few">%1$d noi</item>
+    </plurals>
+    <plurals name="content_detail_seen_text">
+        <item quantity="other">%1$d de transferat</item>
+        <item quantity="one">%1$d de transferat</item>
+        <item quantity="few">%1$d de transferat</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="other">%d de zile</item>
+        <item quantity="one">%d zi</item>
+        <item quantity="few">%d zile</item>
+    </plurals>
+    <plurals name="days_abbreviated">
+        <item quantity="other">%d z</item>
+        <item quantity="one">%d z</item>
+        <item quantity="few">%d z</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated">
+        <item quantity="other">acum %d z</item>
+        <item quantity="one">acum %d z</item>
+        <item quantity="few">acum %d z</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_camera_roll">
+        <item quantity="other">Acum %1$d z din Galerie</item>
+        <item quantity="one">Acum %1$d z din Galerie</item>
+        <item quantity="few">Acum %1$d z din Galerie</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_chat">
+        <item quantity="other">Acum %1$d z</item>
+        <item quantity="one">Acum %1$d z</item>
+        <item quantity="few">Acum %1$d z</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_cheerios">
+        <item quantity="other">Acum %1$d z din Pixy</item>
+        <item quantity="one">Acum %1$d z din Pixy</item>
+        <item quantity="few">Acum %1$d z din Pixy</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_creative_kit">
+        <item quantity="other">Acum %1$d z de la %2$s</item>
+        <item quantity="one">Acum %1$d z de la %2$s</item>
+        <item quantity="few">Acum %1$d z de la %2$s</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_memories">
+        <item quantity="other">Acum %1$d z din Amintiri</item>
+        <item quantity="one">Acum %1$d z din Amintiri</item>
+        <item quantity="few">Acum %1$d z din Amintiri</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_spectacles">
+        <item quantity="other">Acum %1$d z din Spectacles</item>
+        <item quantity="one">Acum %1$d z din Spectacles</item>
+        <item quantity="few">Acum %1$d z din Spectacles</item>
+    </plurals>
+    <plurals name="days_ago_update">
+        <item quantity="other">S-a actualizat acum %1$s de zile</item>
+        <item quantity="one">S-a actualizat acum %1$s zi</item>
+        <item quantity="few">S-a actualizat acum %1$s zile</item>
+    </plurals>
+    <plurals name="discard_batch_capture_description">
+        <item quantity="other">Sigur vrei să renunți la Multi-Snap? Toate cele %1$d de Snap-uri nesalvate se vor pierde.</item>
+        <item quantity="one">Sigur vrei să dezactivezi Multi-Snap? Toate Snap-urile nesalvate se vor pierde.</item>
+        <item quantity="few">Sigur vrei să renunți la Multi-Snap? Toate cele %1$d Snap-uri nesalvate se vor pierde.</item>
+    </plurals>
+    <plurals name="display_username_explanation_changed_username_too_recently">
+        <item quantity="other">"Ți-ai schimbat numele de utilizator pe %1$s.
+Îl poți schimba din nou peste %2$d de zile."</item>
+        <item quantity="one">"Ți-ai schimbat numele de utilizator pe %1$s.
+Îl poți schimba din nou peste %2$d zi."</item>
+        <item quantity="few">"Ți-ai schimbat numele de utilizator pe %1$s.
+Îl poți schimba din nou peste %2$d zile."</item>
+    </plurals>
+    <plurals name="failed_to_save_multiple_snaps">
+        <item quantity="other">Salvare %1$d snap-uri nereușită</item>
+        <item quantity="one">Salvare %1$d Snap nereușită</item>
+        <item quantity="few">Salvare %1$d snap-uri nereușită</item>
+    </plurals>
+    <plurals name="formatted_short_ft">
+        <item quantity="other">%d ft</item>
+        <item quantity="one">%d ft</item>
+        <item quantity="few">%d ft</item>
+    </plurals>
+    <plurals name="formatted_short_km">
+        <item quantity="other">%d km</item>
+        <item quantity="one">%d km</item>
+        <item quantity="few">%d km</item>
+    </plurals>
+    <plurals name="formatted_short_m">
+        <item quantity="other">%d m</item>
+        <item quantity="one">%d m</item>
+        <item quantity="few">%d m</item>
+    </plurals>
+    <plurals name="formatted_short_mile">
+        <item quantity="other">%d mi</item>
+        <item quantity="one">%d mi</item>
+        <item quantity="few">%d mi</item>
+    </plurals>
+    <plurals name="friending_progress_bar_secondary">
+        <item quantity="other">Trimite încă %1$s cereri de prietenie!</item>
+        <item quantity="one">Trimite încă %1$s cereri de prietenie!</item>
+        <item quantity="few">Trimite încă %1$s cereri de prietenie!</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_description_items">
+        <item quantity="other">Articolele tale au fost salvate cu succes în Doar pentru mine. Vrei să ștergi articolele originale din Galerie?</item>
+        <item quantity="one">Articolul tău a fost salvat cu succes în Doar pentru mine. Vrei să ștergi articolul original din Galerie?</item>
+        <item quantity="few">Articolele tale au fost salvate cu succes în Doar pentru mine. Vrei să ștergi articolele originale din Galerie?</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_description_photos">
+        <item quantity="other">Fotografiile tale au fost salvate cu succes în Doar pentru mine. Vrei să ștergi fotografiile originale din Galerie?</item>
+        <item quantity="one">Fotografia ta a fost salvată cu succes în Doar pentru mine. Vrei să ștergi fotografia originală din Galerie?</item>
+        <item quantity="few">Fotografiile tale au fost salvate cu succes în Doar pentru mine. Vrei să ștergi fotografiile originale din Galerie?</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_description_videos">
+        <item quantity="other">Video-urile tale au fost salvate cu succes în Doar pentru mine. Vrei să ștergi video-urile originale din Galerie?</item>
+        <item quantity="one">Videoclipul tău a fost salvat cu succes în Doar pentru mine. Vrei să ștergi video-ul original din Galerie?</item>
+        <item quantity="few">Video-urile tale au fost salvate cu succes în Doar pentru mine. Vrei să ștergi video-urile originale din Galerie?</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_title">
+        <item quantity="other">Șterge articolele originale</item>
+        <item quantity="one">Șterge articolul original</item>
+        <item quantity="few">Șterge articolele originale</item>
+    </plurals>
+    <plurals name="gallery_private_rate_limit_minutes_time_out">
+        <item quantity="other">"
+Încearcă din nou în %1$d minute."</item>
+        <item quantity="one">"
+Încearcă din nou în %1$d minut."</item>
+        <item quantity="few">"
+Încearcă din nou în %1$d minute."</item>
+    </plurals>
+    <plurals name="gauge_altitude_unit_feet">
+        <item quantity="other">%d ft</item>
+        <item quantity="one">%d ft</item>
+        <item quantity="few">%d ft</item>
+    </plurals>
+    <plurals name="gauge_altitude_unit_meters">
+        <item quantity="other">%d m</item>
+        <item quantity="one">%d m</item>
+        <item quantity="few">%d m</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%d de ore</item>
+        <item quantity="one">%d oră</item>
+        <item quantity="few">%d ore</item>
+    </plurals>
+    <plurals name="hours_abbreviated">
+        <item quantity="other">%d h</item>
+        <item quantity="one">%d h</item>
+        <item quantity="few">%d h</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%d h</item>
+        <item quantity="one">%d h</item>
+        <item quantity="few">%d h</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated">
+        <item quantity="other">acum %d h</item>
+        <item quantity="one">acum %d h</item>
+        <item quantity="few">acum %d h</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_camera_roll">
+        <item quantity="other">Acum %1$d h din Galerie</item>
+        <item quantity="one">Acum %1$d h din Galerie</item>
+        <item quantity="few">Acum %1$d h din Galerie</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_chat">
+        <item quantity="other">Acum %1$d h din Conversație</item>
+        <item quantity="one">Acum %1$d h din Conversație</item>
+        <item quantity="few">Acum %1$d h din Conversație</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_cheerios">
+        <item quantity="other">Acum %1$d h din Pixy</item>
+        <item quantity="one">Acum %1$d h din Pixy</item>
+        <item quantity="few">Acum %1$d h din Pixy</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_creative_kit">
+        <item quantity="other">Acum %1$d de ore de la %2$s</item>
+        <item quantity="one">Acum %1$d oră de la %2$s</item>
+        <item quantity="few">Acum %1$d ore de la %2$s</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_memories">
+        <item quantity="other">Acum %1$d h din Amintiri</item>
+        <item quantity="one">Acum %1$d h din Amintiri</item>
+        <item quantity="few">Acum %1$d h din Amintiri</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_spectacles">
+        <item quantity="other">Acum %1$d h din Spectacles</item>
+        <item quantity="one">Acum %1$d h din Spectacles</item>
+        <item quantity="few">Acum %1$d h din Spectacles</item>
+    </plurals>
+    <plurals name="hours_ago_update">
+        <item quantity="other">S-a actualizat acum %1$s de ore</item>
+        <item quantity="one">S-a actualizat acum %1$s oră</item>
+        <item quantity="few">S-a actualizat acum %1$s ore</item>
+    </plurals>
+    <plurals name="last_seen_here_hours">
+        <item quantity="other">Văzut ultima oară aici în urmă cu %d h</item>
+        <item quantity="one">Văzut ultima oară aici în urmă cu %d h</item>
+        <item quantity="few">Văzut ultima oară aici în urmă cu %d h</item>
+    </plurals>
+    <plurals name="last_seen_here_minutes">
+        <item quantity="other">Văzut ultima oară aici în urmă cu %d m</item>
+        <item quantity="one">Văzut ultima oară aici în urmă cu %d m</item>
+        <item quantity="few">Văzut ultima oară aici în urmă cu %d m</item>
+    </plurals>
+    <plurals name="live_location_chat_hours_remaining">
+        <item quantity="other">%d ore</item>
+        <item quantity="one">%d oră</item>
+        <item quantity="few">%d ore</item>
+    </plurals>
+    <plurals name="live_location_description_existing_sessions">
+        <item quantity="other">Îți vei afișa locația în timp real pentru prietenii care fac parte din acest grup. %d de prieteni îți pot vedea deja locația live.</item>
+        <item quantity="one">Îți vei afișa locația în timp real pentru prietenii care fac parte din acest grup. %d prieten îți poate vedea deja locația live.</item>
+        <item quantity="few">Îți vei afișa locația în timp real pentru prietenii care fac parte din acest grup. %d prieteni îți pot vedea deja locația live.</item>
+    </plurals>
+    <plurals name="live_location_duration_hr">
+        <item quantity="other">%d ore</item>
+        <item quantity="one">%d oră</item>
+        <item quantity="few">%d ore</item>
+    </plurals>
+    <plurals name="live_location_duration_min">
+        <item quantity="other">%d de minute</item>
+        <item quantity="one">%d minut</item>
+        <item quantity="few">%d minute</item>
+    </plurals>
+    <plurals name="live_location_share_group_description">
+        <item quantity="other">Îți vei afișa locația live pentru prietenii care se află în acest grup. %d de membri nu-ți vor vedea locația pentru că nu sunteți prieteni.</item>
+        <item quantity="one">Îți vei afișa locația live pentru prietenii care se află în acest grup. %d membru nu-ți va vedea locația pentru că nu sunteți prieteni.</item>
+        <item quantity="few">Îți vei afișa locația live pentru prietenii care se află în acest grup. %d membri nu-ți vor vedea locația pentru că nu sunteți prieteni.</item>
+    </plurals>
+    <plurals name="live_location_with_friends">
+        <item quantity="other">cu %d de prieteni</item>
+        <item quantity="one">cu %d prieten</item>
+        <item quantity="few">cu %d prieteni</item>
+    </plurals>
+    <plurals name="location_upsell_description_specific_friends_more_than_four">
+        <item quantity="other">%1$s, %2$s, %3$s și %4$d dintre prietenii tăi sunt pe hartă!</item>
+        <item quantity="one">%1$s, %2$s, %3$s și %4$d dintre prietenii tăi sunt pe hartă!</item>
+        <item quantity="few">%1$s, %2$s, %3$s și %4$d dintre prietenii tăi sunt pe hartă!</item>
+    </plurals>
+    <plurals name="locked_lens_friending_banner_countdown_timer_hours">
+        <item quantity="other">%1$d h</item>
+        <item quantity="one">%1$d h</item>
+        <item quantity="few">%1$d h</item>
+    </plurals>
+    <plurals name="locked_lens_friending_banner_countdown_timer_minutes">
+        <item quantity="other">%1$d m</item>
+        <item quantity="one">%1$d m</item>
+        <item quantity="few">%1$d m</item>
+    </plurals>
+    <plurals name="locked_lens_friending_banner_countdown_timer_seconds">
+        <item quantity="other">%1$d s</item>
+        <item quantity="one">%1$d s</item>
+        <item quantity="few">%1$d s</item>
+    </plurals>
+    <plurals name="map_group_card_subtext_friend_sharing">
+        <item quantity="other">distribuire către %1$d de prieteni</item>
+        <item quantity="one">distribuire către %1$d prieten</item>
+        <item quantity="few">distribuire către %1$d prieteni</item>
+    </plurals>
+    <plurals name="map_passport_and_other">
+        <item quantity="other">și %d alții</item>
+        <item quantity="one">și %d altul</item>
+        <item quantity="few">și %d alții</item>
+    </plurals>
+    <plurals name="map_passport_bucket_cities_title">
+        <item quantity="other">Orașe</item>
+        <item quantity="one">Oraș</item>
+        <item quantity="few">Orașe</item>
+    </plurals>
+    <plurals name="map_passport_bucket_countries_title">
+        <item quantity="other">Țări</item>
+        <item quantity="one">Țară</item>
+        <item quantity="few">Țări</item>
+    </plurals>
+    <plurals name="map_passport_bucket_places_title">
+        <item quantity="other">Locuri</item>
+        <item quantity="one">Loc</item>
+        <item quantity="few">Locuri</item>
+    </plurals>
+    <plurals name="map_widget_days_ago">
+        <item quantity="other">%d z</item>
+        <item quantity="one">%d z</item>
+        <item quantity="few">%d z</item>
+    </plurals>
+    <plurals name="media_export_service_batch_export_failure">
+        <item quantity="other">%1$d din %2$d Snap-uri au fost exportate. %3$d de Snap-uri nu au fost exportate.</item>
+        <item quantity="one">%1$d din %2$d Snap-uri au fost exportate. %3$d Snap nu a fost exportat.</item>
+        <item quantity="few">%1$d din %2$d Snap-uri au fost exportate. %3$d Snap-uri nu au fost exportate.</item>
+    </plurals>
+    <plurals name="media_export_service_processing">
+        <item quantity="other">Se exportă %1$d din %2$d de Snap-uri…</item>
+        <item quantity="one">Se exportă Snap-ul…</item>
+        <item quantity="few">Se exportă %1$d din %2$d Snap-uri…</item>
+    </plurals>
+    <plurals name="media_export_service_success">
+        <item quantity="other">Snap-urile au fost exportate!</item>
+        <item quantity="one">Snap-ul a fost exportat!</item>
+        <item quantity="few">Snap-urile au fost exportate!</item>
+    </plurals>
+    <plurals name="memories_camera_select_limit_error">
+        <item quantity="other">Numai %d de elemente pot fi selectate odată.</item>
+        <item quantity="one">Numai %d element poate fi selectat odată.</item>
+        <item quantity="few">Numai %d elemente pot fi selectate odată.</item>
+    </plurals>
+    <plurals name="memories_delete_camera_roll_image_body">
+        <item quantity="other">Aceste imagini vor fi șterse din dispozitivul tău</item>
+        <item quantity="one">Această imagine va fi ștearsă din dispozitivul tău</item>
+        <item quantity="few">Aceste imagini vor fi șterse din dispozitivul tău</item>
+    </plurals>
+    <plurals name="memories_delete_camera_roll_mixed_body">
+        <item quantity="other">Aceste articole vor fi șterse din dispozitivul tău</item>
+        <item quantity="one">Aceste articole vor fi șterse din dispozitivul tău</item>
+        <item quantity="few">Aceste articole vor fi șterse din dispozitivul tău</item>
+    </plurals>
+    <plurals name="memories_delete_camera_roll_video_body">
+        <item quantity="other">Aceste videoclipuri vor fi șterse din dispozitivul tău</item>
+        <item quantity="one">Acest videoclip va fi șters din dispozitivul tău</item>
+        <item quantity="few">Aceste videoclipuri vor fi șterse din dispozitivul tău</item>
+    </plurals>
+    <plurals name="memories_delete_snap_body">
+        <item quantity="other">Elimini snap-uri?</item>
+        <item quantity="one">Elimini snap?</item>
+        <item quantity="few">Elimini snap-uri?</item>
+    </plurals>
+    <plurals name="memories_delete_story_body">
+        <item quantity="other">Ștergi „Poveștile”?</item>
+        <item quantity="one">Ștergi „Povestea”?</item>
+        <item quantity="few">Ștergi „Poveștile”?</item>
+    </plurals>
+    <plurals name="memories_export_error">
+        <item quantity="other">Snap-urile nu pot fi exportate!</item>
+        <item quantity="one">Snap-ul nu poate fi exportat!</item>
+        <item quantity="few">Snap-urile nu pot fi exportate!</item>
+    </plurals>
+    <plurals name="memories_favorite_snaps_story_added">
+        <item quantity="other">%d de Snap-uri au fost adăugate în Povestea ta din Favorite</item>
+        <item quantity="one">Snap-ul a fost adăugat în Povestea ta din Favorite</item>
+        <item quantity="few">%d Snap-uri au fost adăugate în Povestea ta din Favorite</item>
+    </plurals>
+    <plurals name="memories_favorite_snaps_story_removed">
+        <item quantity="other">%d de Snap-uri au fost eliminate din Povestea ta din Favorite</item>
+        <item quantity="one">Snap-ul a fost eliminat din Povestea ta din Favorite</item>
+        <item quantity="few">%d Snap-uri au fost eliminate din Povestea ta din Favorite</item>
+    </plurals>
+    <plurals name="memories_featured_story_flashback_diff_date_subtext">
+        <item quantity="other">Acum %1$d de ani</item>
+        <item quantity="one">Acum %1$d an</item>
+        <item quantity="few">Acum %1$d ani</item>
+    </plurals>
+    <plurals name="memories_featured_story_flashback_same_date_subtext">
+        <item quantity="other">Astăzi, acum %1$d ani</item>
+        <item quantity="one">Astăzi, acum %1$d an</item>
+        <item quantity="few">Astăzi, acum %1$d ani</item>
+    </plurals>
+    <plurals name="memories_featured_story_trip_flashback_chat_prefill_snap">
+        <item quantity="other">%1$s, acum %2$d de ani</item>
+        <item quantity="one">%1$s, acum %2$d an</item>
+        <item quantity="few">%1$s, acum %2$d ani</item>
+    </plurals>
+    <plurals name="memories_featured_story_trip_flashback_chat_prefill_story">
+        <item quantity="other">De acum %1$d de ani</item>
+        <item quantity="one">De acum %1$d an</item>
+        <item quantity="few">De acum %1$d ani</item>
+    </plurals>
+    <plurals name="memories_hide_legacy_auto_saves">
+        <item quantity="other">Snap-urile din aceste Povești vor fi disponibile în continuare în noua pagină Povestea mea. Poveștile pe care le-ai creat sau le-ai modificat nu vor fi afectate.</item>
+        <item quantity="one">Snap-urile din această Poveste vor fi disponibile în continuare în noua pagină Povestea mea. Poveștile pe care le-ai creat sau le-ai modificat nu vor fi afectate.</item>
+        <item quantity="few">Snap-urile din aceste Povești vor fi disponibile în continuare în noua pagină Povestea mea. Poveștile pe care le-ai creat sau le-ai modificat nu vor fi afectate.</item>
+    </plurals>
+    <plurals name="memories_hide_legacy_auto_saves_title">
+        <item quantity="other">Elimini %d de Povești mai vechi salvate automat?</item>
+        <item quantity="one">Elimini %d Poveste mai veche salvată automat?</item>
+        <item quantity="few">Elimini %d Povești mai vechi salvate automat?</item>
+    </plurals>
+    <plurals name="memories_print_print_created">
+        <item quantity="other">S-au creat %d de printări 3D.</item>
+        <item quantity="one">S-a creat %d printare 3D</item>
+        <item quantity="few">S-au creat %d printări 3D.</item>
+    </plurals>
+    <plurals name="memories_print_processing">
+        <item quantity="other">Se procesează %d de Snap-uri pentru printare...</item>
+        <item quantity="one">Se procesează %d Snap pentru printare...</item>
+        <item quantity="few">Se procesează %d Snap-uri pentru printare...</item>
+    </plurals>
+    <plurals name="memories_remove_older_stories_dialog_title">
+        <item quantity="other">Astfel, vor fi eliminate %d de Povești mai vechi salvate automat.</item>
+        <item quantity="one">Astfel, va fi eliminată %d Poveste mai veche salvată automat.</item>
+        <item quantity="few">Astfel, vor fi eliminate %d Povești mai vechi salvate automat.</item>
+    </plurals>
+    <plurals name="memories_select_limit_error">
+        <item quantity="other">Numai %d de Snap-uri pot fi selectate odată.</item>
+        <item quantity="one">Numai %d Snap poate fi selectat odată.</item>
+        <item quantity="few">Numai %d Snap-uri pot fi selectate odată.</item>
+    </plurals>
+    <plurals name="memories_status_transfer_complete_in_app_notification_text">
+        <item quantity="other">%1$d Snap-uri transferate din %2$s</item>
+        <item quantity="one">%1$d Snap transferat din %2$s</item>
+        <item quantity="few">%1$d Snap-uri transferate din %2$s</item>
+    </plurals>
+    <plurals name="memories_status_transfer_complete_title">
+        <item quantity="other">%d Snap-uri transferate!</item>
+        <item quantity="one">%d Snap transferat!</item>
+        <item quantity="few">%d Snap-uri transferate!</item>
+    </plurals>
+    <plurals name="memories_status_transfer_from_device_complete_title">
+        <item quantity="other">Snap-uri noi din %s</item>
+        <item quantity="one">Snap nou de la %s</item>
+        <item quantity="few">Snap-uri noi din %s</item>
+    </plurals>
+    <plurals name="memories_status_transferring_title">
+        <item quantity="other">Se importă %1$d din %2$d de Snap-uri…</item>
+        <item quantity="one">Se importă %1$d din %2$d…</item>
+        <item quantity="few">Se importă %1$d din %2$d Snap-uri…</item>
+    </plurals>
+    <plurals name="memories_story_editor_add_snap_selected">
+        <item quantity="other">%d selectate</item>
+        <item quantity="one">%d selectat</item>
+        <item quantity="few">%d selectate</item>
+    </plurals>
+    <plurals name="minutes_abbreviated">
+        <item quantity="other">%d m</item>
+        <item quantity="one">%d m</item>
+        <item quantity="few">%d m</item>
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="other">%d m</item>
+        <item quantity="one">%d m</item>
+        <item quantity="few">%d m</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated">
+        <item quantity="other">acum %d m</item>
+        <item quantity="one">acum %d m</item>
+        <item quantity="few">acum %d m</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_camera_roll">
+        <item quantity="other">acum %1$d m din Galerie</item>
+        <item quantity="one">acum %1$d m din Galerie</item>
+        <item quantity="few">acum %1$d m din Galerie</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_chat">
+        <item quantity="other">Acum %1$d m din Conversație</item>
+        <item quantity="one">Acum %1$d m din Conversație</item>
+        <item quantity="few">Acum %1$d m din Conversație</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_cheerios">
+        <item quantity="other">Acum %1$d m din Pixy</item>
+        <item quantity="one">Acum %1$d m din Pixy</item>
+        <item quantity="few">Acum %1$d m din Pixy</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_creative_kit">
+        <item quantity="other">Acum %1$d min de la %2$s</item>
+        <item quantity="one">Acum %1$d min de la %2$s</item>
+        <item quantity="few">Acum %1$d min de la %2$s</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_memories">
+        <item quantity="other">Acum %1$d m din Amintiri</item>
+        <item quantity="one">Acum %1$d m din Amintiri</item>
+        <item quantity="few">Acum %1$d m din Amintiri</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_spectacles">
+        <item quantity="other">Acum %1$d m din Spectacles</item>
+        <item quantity="one">Acum %1$d m din Spectacles</item>
+        <item quantity="few">Acum %1$d m din Spectacles</item>
+    </plurals>
+    <plurals name="minutes_ago_update">
+        <item quantity="other">S-a actualizat acum %1$s de minute</item>
+        <item quantity="one">S-a actualizat acum %1$s minut</item>
+        <item quantity="few">S-a actualizat acum %1$s minute</item>
+    </plurals>
+    <plurals name="months_abbreviated">
+        <item quantity="other">%d de luni</item>
+        <item quantity="one">%d lună</item>
+        <item quantity="few">%d luni</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated">
+        <item quantity="other">acum %d de luni</item>
+        <item quantity="one">acum %d lună</item>
+        <item quantity="few">acum %d luni</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_camera_roll">
+        <item quantity="other">Acum %1$d de luni din Galerie</item>
+        <item quantity="one">Acum %1$d lună din Galerie</item>
+        <item quantity="few">Acum %1$d luni din Galerie</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_chat">
+        <item quantity="other">Acum %1$d de luni din Conversație</item>
+        <item quantity="one">Acum %1$d lună din Conversație</item>
+        <item quantity="few">Acum %1$d luni din Conversație</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_cheerios">
+        <item quantity="other">Acum %1$d de luni din Pixy</item>
+        <item quantity="one">Acum %1$d lună din Pixy</item>
+        <item quantity="few">Acum %1$d luni din Pixy</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_creative_kit">
+        <item quantity="other">Acum %1$d de luni de la %2$s</item>
+        <item quantity="one">Acum %1$d lună de la %2$s</item>
+        <item quantity="few">Acum %1$d luni de la %2$s</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_memories">
+        <item quantity="other">Acum %1$d de luni din Amintiri</item>
+        <item quantity="one">Acum %1$d lună din Amintiri</item>
+        <item quantity="few">Acum %1$d luni din Amintiri</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_spectacles">
+        <item quantity="other">Acum %1$d de luni din Spectacles</item>
+        <item quantity="one">Acum %1$d lună din Spectacles</item>
+        <item quantity="few">Acum %1$d luni din Spectacles</item>
+    </plurals>
+    <plurals name="months_ago_update">
+        <item quantity="other">S-a actualizat acum %1$s de luni</item>
+        <item quantity="one">S-a actualizat acum %1$s lună</item>
+        <item quantity="few">S-a actualizat acum %1$s luni</item>
+    </plurals>
+    <plurals name="more_stories">
+        <item quantity="other">Încă %d de Povești</item>
+        <item quantity="one">Încă o Poveste</item>
+        <item quantity="few">Încă %d Povești</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d de notificări noi</item>
+        <item quantity="one">%d notificare nouă</item>
+        <item quantity="few">%d notificări noi</item>
+    </plurals>
+    <plurals name="muted_stories">
+        <item quantity="other">%d de Povești ignorate</item>
+        <item quantity="one">O Poveste ignorată</item>
+        <item quantity="few">%d Povești ignorate</item>
+    </plurals>
+    <plurals name="new_registration_continue_with_n_friends">
+        <item quantity="other">Adaugă %d de prieteni</item>
+        <item quantity="one">Adaugă 1 prieten</item>
+        <item quantity="few">Adaugă %d prieteni</item>
+    </plurals>
+    <plurals name="num_hours">
+        <item quantity="other">%d h</item>
+        <item quantity="one">%d h</item>
+        <item quantity="few">%d h</item>
+    </plurals>
+    <plurals name="num_minutes">
+        <item quantity="other">%d m</item>
+        <item quantity="one">%d m</item>
+        <item quantity="few">%d m</item>
+    </plurals>
+    <plurals name="nyc_audience_many_and_x_others">
+        <item quantity="other">%1$s și încă %2$d de utilizatori</item>
+        <item quantity="one">%1$s și încă %2$d utilizator</item>
+        <item quantity="few">%1$s și încă %2$d utilizatori</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_ft">
+        <item quantity="other">ft</item>
+        <item quantity="one">ft</item>
+        <item quantity="few">ft</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_km">
+        <item quantity="other">km</item>
+        <item quantity="one">km</item>
+        <item quantity="few">km</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_m">
+        <item quantity="other">mil</item>
+        <item quantity="one">mil</item>
+        <item quantity="few">mil</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_mile">
+        <item quantity="other">mi</item>
+        <item quantity="one">mi</item>
+        <item quantity="few">mi</item>
+    </plurals>
+    <plurals name="nyc_friends_many_and_x_others">
+        <item quantity="other">%1$s și %2$s își afișează deja Locația live pentru tine</item>
+        <item quantity="one">%1$s își afișează deja Locația live pentru tine</item>
+        <item quantity="few">%1$s și %2$s își afișează deja Locația live pentru tine</item>
+    </plurals>
+    <plurals name="nyc_sharing_live_location_with_friends">
+        <item quantity="other">"Îți afișezi locația live pentru %1$s de prieteni. "</item>
+        <item quantity="one">"Îți afișezi locația live pentru %1$s prieten. "</item>
+        <item quantity="few">"Îți afișezi locația live pentru %1$s prieteni. "</item>
+    </plurals>
+    <plurals name="nyc_unhide_live_location_friend_dialog_title">
+        <item quantity="other">Îți ascunzi locația live de alți %1$d de prieteni.</item>
+        <item quantity="one">Îți ascunzi locația live de încă un prieten.</item>
+        <item quantity="few">Îți ascunzi locația live de alți %1$d prieteni.</item>
+    </plurals>
+    <plurals name="pairing_validation_description">
+        <item quantity="other">Există %d de Snap-uri pe dispozitivul tău Pixy de la utilizatorul anterior. Dacă împerechezi acest dispozitiv, îl vei reseta și vei șterge toate Snap-urile și datele utilizatorului.</item>
+        <item quantity="one">Există un Snap pe dispozitivul tău Pixy de la utilizatorul anterior. Dacă împerechezi acest dispozitiv, îl vei reseta și vei șterge toate Snap-urile și datele utilizatorului.</item>
+        <item quantity="few">Există %d de Snap-uri pe dispozitivul tău Pixy de la utilizatorul anterior. Dacă împerechezi acest dispozitiv, îl vei reseta și vei șterge toate Snap-urile și datele utilizatorului.</item>
+    </plurals>
+    <plurals name="payments_num_purchased_items">
+        <item quantity="other">%d articole</item>
+        <item quantity="one">1 articol</item>
+        <item quantity="few">%d articole</item>
+    </plurals>
+    <plurals name="pending_syncs_logout_warning">
+        <item quantity="other">%1$d Snap-uri (nu) au deocamdată copii de rezervă în Amintiri. Dacă te deconectezi acum, aceste Snap-uri s-ar putea pierde.</item>
+        <item quantity="one">Un Snap (nu) are deocamdată copie de rezervă în Amintiri. Dacă te deconectezi acum, acest Snap s-ar putea pierde.</item>
+        <item quantity="few">%1$d Snap-uri (nu) au deocamdată copii de rezervă în Amintiri. Dacă te deconectezi acum, aceste Snap-uri s-ar putea pierde.</item>
+    </plurals>
+    <plurals name="perception_lens_collection_scan_card_lenses_count">
+        <item quantity="other">%d de lentile</item>
+        <item quantity="one">%d lentilă</item>
+        <item quantity="few">%d lentile</item>
+    </plurals>
+    <plurals name="perception_lenses_scan_card_try_lenses">
+        <item quantity="other">Încearcă Lentile (%d)</item>
+        <item quantity="one">Încearcă lentila</item>
+        <item quantity="few">Încearcă Lentile (%d)</item>
+    </plurals>
+    <plurals name="play_with_max_player_alert_text">
+        <item quantity="other">Jocul acceptă maximum %1$d de jucători</item>
+        <item quantity="one">Jocul acceptă maximum %1$d jucător</item>
+        <item quantity="few">Jocul acceptă maximum %1$d jucători</item>
+    </plurals>
+    <plurals name="post_pairing_import_title">
+        <item quantity="other">%d de Snap-uri noi</item>
+        <item quantity="one">%d Snap nou</item>
+        <item quantity="few">%d Snap-uri noi</item>
+    </plurals>
+    <plurals name="registration_continue_with_n_friends">
+        <item quantity="other">+ Adaugă %d de prieteni</item>
+        <item quantity="one">+ Adaugă 1 prieten</item>
+        <item quantity="few">+ Adaugă %d prieteni</item>
+    </plurals>
+    <plurals name="save_button_tooltip_saved_multiple">
+        <item quantity="other">%1$d Snap-uri salvate!</item>
+        <item quantity="one">%1$d Snap salvat!</item>
+        <item quantity="few">%1$d Snap-uri salvate!</item>
+    </plurals>
+    <plurals name="saved_media_gallery_attribution_media_count">
+        <item quantity="other">%s de Snap-uri</item>
+        <item quantity="one">%s Snap</item>
+        <item quantity="few">%s Snap-uri</item>
+    </plurals>
+    <plurals name="seconds_abbreviated">
+        <item quantity="other">%d s</item>
+        <item quantity="one">%d s</item>
+        <item quantity="few">%d s</item>
+    </plurals>
+    <plurals name="seconds_ago">
+        <item quantity="other">%d s</item>
+        <item quantity="one">%d s</item>
+        <item quantity="few">%d s</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated">
+        <item quantity="other">acum %d s</item>
+        <item quantity="one">acum %d s</item>
+        <item quantity="few">acum %d s</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_camera_roll">
+        <item quantity="other">acum %1$d s din Galerie</item>
+        <item quantity="one">acum %1$d s din Galerie</item>
+        <item quantity="few">acum %1$d s din Galerie</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_chat">
+        <item quantity="other">Acum %1$d s din Conversație</item>
+        <item quantity="one">Acum %1$d s din Conversație</item>
+        <item quantity="few">Acum %1$d s din Conversație</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_cheerios">
+        <item quantity="other">Acum %1$d s din Pixy</item>
+        <item quantity="one">Acum %1$d s din Pixy</item>
+        <item quantity="few">Acum %1$d s din Pixy</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_creative_kit">
+        <item quantity="other">Acum %1$d s de la %2$s</item>
+        <item quantity="one">Acum %1$d s de la %2$s</item>
+        <item quantity="few">Acum %1$d s de la %2$s</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_memories">
+        <item quantity="other">Acum %1$d s din Amintiri</item>
+        <item quantity="one">Acum %1$d s din Amintiri</item>
+        <item quantity="few">Acum %1$d s din Amintiri</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_spectacles">
+        <item quantity="other">Acum %1$d s din Spectacles</item>
+        <item quantity="one">Acum %1$d s din Spectacles</item>
+        <item quantity="few">Acum %1$d s din Spectacles</item>
+    </plurals>
+    <plurals name="seconds_ago_update">
+        <item quantity="other">S-a actualizat acum %1$s de secunde</item>
+        <item quantity="one">S-a actualizat acum %1$s secundă</item>
+        <item quantity="few">S-a actualizat acum %1$s secunde</item>
+    </plurals>
+    <plurals name="select_friend_friend">
+        <item quantity="other">%1$d de prieteni</item>
+        <item quantity="one">1 prieten</item>
+        <item quantity="few">%1$d prieteni</item>
+    </plurals>
+    <plurals name="select_friend_other">
+        <item quantity="other">%1$s și încă %2$d</item>
+        <item quantity="one">%1$s și încă unul</item>
+        <item quantity="few">%1$s și încă %2$d</item>
+    </plurals>
+    <plurals name="settings_birthday_update_years_old">
+        <item quantity="other">Am %d de ani.</item>
+        <item quantity="one">Am %d an.</item>
+        <item quantity="few">Am %d ani.</item>
+    </plurals>
+    <plurals name="snap_timer_selection_units">
+        <item quantity="other">secunde</item>
+        <item quantity="one">secundă</item>
+        <item quantity="few">secunde</item>
+    </plurals>
+    <plurals name="snaps_count">
+        <item quantity="other">%1$d Snap-uri</item>
+        <item quantity="one">%1$d Snap</item>
+        <item quantity="few">%1$d Snap-uri</item>
+    </plurals>
+    <plurals name="spectacles_export_customization_description">
+        <item quantity="other">Cum vrei să transferi Snap-urile?</item>
+        <item quantity="one">Cum vrei să transferi Snap-ul?</item>
+        <item quantity="few">Cum vrei să transferi Snap-urile?</item>
+    </plurals>
+    <plurals name="spotlight_comments_count_notification_title">
+        <item quantity="other">%d de comentarii Spotlight în așteptare</item>
+        <item quantity="one">1 comentariu Spotlight în așteptare</item>
+        <item quantity="few">%d comentarii Spotlight în așteptare</item>
+    </plurals>
+    <plurals name="status_views">
+        <item quantity="other">%d Vizualizări</item>
+        <item quantity="one">%d Vizualizare</item>
+        <item quantity="few">%d Vizualizări</item>
+    </plurals>
+    <plurals name="still_sharing_last_active_location_description">
+        <item quantity="other">"Locația ta live este ascunsă, dar %1$s de prieteni îți pot vedea în continuare ultima locație activă.
+
+ Poți schimba acest lucru din setările pentru hartă."</item>
+        <item quantity="one">"Locația ta live este ascunsă, dar %1$s prieten îți poate vedea în continuare ultima locație activă.
+
+ Poți schimba acest lucru din setările pentru hartă."</item>
+        <item quantity="few">"Locația ta live este ascunsă, dar %1$s prieteni îți pot vedea în continuare ultima locație activă.
+
+ Poți schimba acest lucru din setările pentru hartă."</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_change_audience">
+        <item quantity="other">Ți-ai salvat setările pentru locație, însă %1$s de prieteni îți pot vedea în continuare locația live. Pentru a nu o mai afișa, atinge „Oprește” lângă numele acestora.</item>
+        <item quantity="one">Ți-ai salvat setările pentru locație, însă %1$s prieten îți poate vedea în continuare locația live. Pentru a nu o mai afișa, atinge „Oprește” lângă numele acestora.</item>
+        <item quantity="few">Ți-ai salvat setările pentru locație, însă %1$s prieteni îți pot vedea în continuare locația live. Pentru a nu o mai afișa, atinge „Oprește” lângă numele acestora.</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_enter_ghost_mode">
+        <item quantity="other">Ești în Modul Fantomă, însă %1$s de prieteni îți pot vedea în continuare locația live. Pentru a nu o mai afișa, atinge „Oprește” lângă numele acestora.</item>
+        <item quantity="one">Ești în Modul Fantomă, însă %1$s prieten îți poate vedea în continuare locația live. Pentru a nu o mai afișa, atinge „Oprește” lângă numele acestora.</item>
+        <item quantity="few">Ești în Modul Fantomă, însă %1$s prieteni îți pot vedea în continuare locația live. Pentru a nu o mai afișa, atinge „Oprește” lângă numele acestora.</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_enter_ghost_mode_ghost_trail">
+        <item quantity="other">"Ești în Modul Fantomă, însă %1$s de prieteni îți pot vedea în continuare locația live. Pentru a nu o mai afișa, atinge „Oprește” lângă numele acestora.
+
+Locațiile nu vor fi adăugate în Traseul tău fantomă în timp ce te afli în Modul Fantomă."</item>
+        <item quantity="one">"Ești în Modul Fantomă, însă %1$s prieten îți pot vedea în continuare locația live. Pentru a nu o mai afișa, atinge „Oprește” lângă numele acestora.
+
+Locațiile nu vor fi adăugate în Traseul tău fantomă în timp ce te afli în Modul Fantomă."</item>
+        <item quantity="few">"Ești în Modul Fantomă, însă %1$s prieteni îți pot vedea în continuare locația live. Pentru a nu o mai afișa, atinge „Oprește” lângă numele acestora.
+
+Locațiile nu vor fi adăugate în Traseul tău fantomă în timp ce te afli în Modul Fantomă."</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_enter_ghost_mode_hide_live_location">
+        <item quantity="other">Ești în Modul Fantomă, dar %1$s de prieteni îți pot vedea în continuare locația live. Pentru a întrerupe afișarea, atinge „Ascunde locația live” dedesubt.</item>
+        <item quantity="one">Ești în Modul Fantomă, dar %1$s prieten îți poate vedea în continuare locația live. Pentru a întrerupe afișarea, atinge „Ascunde locația live” dedesubt.</item>
+        <item quantity="few">Ești în Modul Fantomă, dar %1$s prieteni îți pot vedea în continuare locația live. Pentru a întrerupe afișarea, atinge „Ascunde locația live” dedesubt.</item>
+    </plurals>
+    <plurals name="story_friend_story_notification_title_update">
+        <item quantity="other">%d de prieteni au adăugat în Povestea lor</item>
+        <item quantity="one">%d prieten a adăugat în Povestea sa</item>
+        <item quantity="few">%d prieteni au adăugat în Povestea lor</item>
+    </plurals>
+    <plurals name="story_fullscreen_footer_view_count">
+        <item quantity="other">%d de vizualizări</item>
+        <item quantity="one">%d vizualizare</item>
+        <item quantity="few">%d Vizualizări</item>
+    </plurals>
+    <plurals name="story_management_viewer_list_more_viewers">
+        <item quantity="other">+ încă %1$d</item>
+        <item quantity="one">+ încă %1$d</item>
+        <item quantity="few">+ încă %1$d</item>
+    </plurals>
+    <plurals name="story_mob_subtext_more">
+        <item quantity="other">%1$s și încă %2$d…</item>
+        <item quantity="one">%1$s și încă %2$d…</item>
+        <item quantity="few">%1$s și încă %2$d…</item>
+    </plurals>
+    <plurals name="story_profile_communities_members">
+        <item quantity="other">Verificat • %d de membri</item>
+        <item quantity="one">Verificat • %d membru</item>
+        <item quantity="few">Verificat • %d membri</item>
+    </plurals>
+    <plurals name="story_profile_shared_stories_members">
+        <item quantity="other">%d de membri</item>
+        <item quantity="one">%d membru</item>
+        <item quantity="few">%d membri</item>
+    </plurals>
+    <plurals name="story_profile_stories_adding">
+        <item quantity="other">Se adaugă %d Snap-uri…</item>
+        <item quantity="one">Se adaugă %d Snap…</item>
+        <item quantity="few">Se adaugă %d Snap-uri…</item>
+    </plurals>
+    <plurals name="story_profile_stories_failed_to_add">
+        <item quantity="other">%d Snap-uri nu au putut fi adăugate</item>
+        <item quantity="one">%d Snap nu a putut fi adăugat</item>
+        <item quantity="few">%d Snap-uri nu au putut fi adăugate</item>
+    </plurals>
+    <plurals name="story_profile_stories_waiting_to_add">
+        <item quantity="other">Adăugare în așteptare %d Snap-uri…</item>
+        <item quantity="one">Adăugare în așteptare %d Snap…</item>
+        <item quantity="few">Adăugare în așteptare %d Snap-uri…</item>
+    </plurals>
+    <plurals name="story_settings_action_menu_my_story_blocked_number_of_people">
+        <item quantity="other">%d de persoane</item>
+        <item quantity="one">O persoană</item>
+        <item quantity="few">%d persoane</item>
+    </plurals>
+    <plurals name="streak_restore_dialog_subtitle_free_restore">
+        <item quantity="other">Ai %1$d de restabiliri gratuite.</item>
+        <item quantity="one">Ai %1$d restabilire gratuită.</item>
+        <item quantity="few">Ai %1$d restabiliri gratuite.</item>
+    </plurals>
+    <plurals name="streak_restore_dialog_subtitle_hours">
+        <item quantity="other">Mai ai %2$d de ore să restabilești Linia fierbinte Snap cu %1$s înainte să dispară definitiv!</item>
+        <item quantity="one">Mai ai %2$d oră să restabilești Linia fierbinte Snap cu %1$s înainte să dispară definitiv!</item>
+        <item quantity="few">Mai ai %2$d ore să restabilești Linia fierbinte Snap cu %1$s înainte să dispară definitiv!</item>
+    </plurals>
+    <plurals name="streak_restore_dialog_subtitle_minutes">
+        <item quantity="other">Mai ai %2$d de minute să restabilești Linia fierbinte Snap cu %1$s înainte să dispară definitiv!</item>
+        <item quantity="one">Mai ai %2$d minut să restabilești Linia fierbinte Snap cu %1$s înainte să dispară definitiv!</item>
+        <item quantity="few">Mai ai %2$d minute să restabilești Linia fierbinte Snap cu %1$s înainte să dispară definitiv!</item>
+    </plurals>
+    <plurals name="subtitle_sharing_custom_friends">
+        <item quantity="other">cu %d prieteni</item>
+        <item quantity="one">cu %d prieten</item>
+        <item quantity="few">cu %d prieteni</item>
+    </plurals>
+    <plurals name="takeover_request_index_and_total">
+        <item quantity="other">%1$d din %2$d de adăugări de prieteni noi</item>
+        <item quantity="one">%1$d din %2$d adăugare de prieteni nouă</item>
+        <item quantity="few">%1$d din %2$d adăugări de prieteni noi</item>
+    </plurals>
+    <plurals name="ticketmaster_events_label">
+        <item quantity="other">de evenimente</item>
+        <item quantity="one">eveniment</item>
+        <item quantity="few">evenimente</item>
+    </plurals>
+    <plurals name="watched_stories">
+        <item quantity="other">%d de Povești vizionate</item>
+        <item quantity="one">O Poveste vizionată</item>
+        <item quantity="few">%d Povești vizionate</item>
+    </plurals>
+    <plurals name="weeks">
+        <item quantity="other">%d de săptămâni</item>
+        <item quantity="one">%d săptămână</item>
+        <item quantity="few">%d săptămâni</item>
+    </plurals>
+    <plurals name="weeks_abbreviated">
+        <item quantity="other">%d săpt.</item>
+        <item quantity="one">%d săpt.</item>
+        <item quantity="few">%d săpt.</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated">
+        <item quantity="other">acum %d săpt.</item>
+        <item quantity="one">acum %d săpt.</item>
+        <item quantity="few">acum %d săpt.</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_camera_roll">
+        <item quantity="other">Acum %1$d săpt. din Galerie</item>
+        <item quantity="one">Acum %1$d săpt. din Galerie</item>
+        <item quantity="few">Acum %1$d săpt. din Galerie</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_chat">
+        <item quantity="other">Acum %1$d săpt. din Conversație</item>
+        <item quantity="one">Acum %1$d săpt. din Conversație</item>
+        <item quantity="few">Acum %1$d săpt. din Conversație</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_cheerios">
+        <item quantity="other">Acum %1$d de săpt. din Pixy</item>
+        <item quantity="one">Acum %1$d săpt. din Pixy</item>
+        <item quantity="few">Acum %1$d săpt. din Pixy</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_creative_kit">
+        <item quantity="other">Acum %1$d săpt. de la %2$s</item>
+        <item quantity="one">Acum %1$d săpt. de la %2$s</item>
+        <item quantity="few">Acum %1$d săpt. de la %2$s</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_memories">
+        <item quantity="other">Acum %1$d săpt. din Amintiri</item>
+        <item quantity="one">Acum %1$d săpt. din Amintiri</item>
+        <item quantity="few">Acum %1$d săpt. din Amintiri</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_spectacles">
+        <item quantity="other">Acum %1$d săpt. din Spectacles</item>
+        <item quantity="one">Acum %1$d săpt. din Spectacles</item>
+        <item quantity="few">Acum %1$d săpt. din Spectacles</item>
+    </plurals>
+    <plurals name="weeks_ago_update">
+        <item quantity="other">S-a actualizat acum %1$s de săptămâni</item>
+        <item quantity="one">S-a actualizat acum %1$s săptămână</item>
+        <item quantity="few">S-a actualizat acum %1$s săptămâni</item>
+    </plurals>
+    <plurals name="years_abbreviated">
+        <item quantity="other">%d de ani</item>
+        <item quantity="one">%d an</item>
+        <item quantity="few">%d ani</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated">
+        <item quantity="other">acum %d de ani</item>
+        <item quantity="one">acum %d an</item>
+        <item quantity="few">acum %d ani</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_camera_roll">
+        <item quantity="other">Acum %1$d de ani din Galerie</item>
+        <item quantity="one">Acum %1$d an din Galerie</item>
+        <item quantity="few">Acum %1$d ani din Galerie</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_chat">
+        <item quantity="other">Acum %1$d de ani din Conversație</item>
+        <item quantity="one">Acum %1$d an din Conversație</item>
+        <item quantity="few">Acum %1$d ani din Conversație</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_cheerios">
+        <item quantity="other">Acum %1$d de ani din Pixy</item>
+        <item quantity="one">Acum %1$d an din Pixy</item>
+        <item quantity="few">Acum %1$d ani din Pixy</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_creative_kit">
+        <item quantity="other">Acum %1$d de ani de la %2$s</item>
+        <item quantity="one">Acum %1$d an de la %2$s</item>
+        <item quantity="few">Acum %1$d ani de la %2$s</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_memories">
+        <item quantity="other">Acum %1$d de ani din Amintiri</item>
+        <item quantity="one">Acum %1$d an din Amintiri</item>
+        <item quantity="few">Acum %1$d ani din Amintiri</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_spectacles">
+        <item quantity="other">Acum %1$d de ani din Spectacles</item>
+        <item quantity="one">Acum %1$d an din Spectacles</item>
+        <item quantity="few">Acum %1$d ani din Spectacles</item>
+    </plurals>
+    <plurals name="years_ago_update">
+        <item quantity="other">S-a actualizat acum %1$s de ani</item>
+        <item quantity="one">S-a actualizat acum %1$s an</item>
+        <item quantity="few">S-a actualizat acum %1$s ani</item>
+    </plurals>
+</resources>

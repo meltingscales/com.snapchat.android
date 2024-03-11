@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.snap.lenses.videoeditor.FramesContainer android:orientation="horizontal" android:id="@id/frames_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:layout_marginStart="@dimen/lenses_camera_video_edit_tool_frames_container_margin" android:layout_marginEnd="@dimen/lenses_camera_video_edit_tool_frames_container_margin" />
+    <View android:id="@id/foreground_border_view" android:background="@drawable/lenses_camera_video_edit_tool_border" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:layout_marginStart="@dimen/lenses_camera_video_edit_tool_frames_container_margin" android:layout_marginEnd="@dimen/lenses_camera_video_edit_tool_frames_container_margin" />
+    <ImageView android:layout_gravity="center|right" android:id="@id/cursor" android:layout_width="30.0dip" android:layout_height="fill_parent" android:src="@drawable/svg_playback_cursor" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/start_control" android:layout_width="@dimen/lenses_camera_video_edit_tool_handle_width" android:layout_height="@dimen/lenses_camera_video_edit_tool_handle_height" android:src="@drawable/svg_video_edit_tool_handle" />
+    <ImageView android:layout_gravity="center|right" android:id="@id/end_control" android:layout_width="@dimen/lenses_camera_video_edit_tool_handle_width" android:layout_height="@dimen/lenses_camera_video_edit_tool_handle_height" android:src="@drawable/svg_video_edit_tool_handle" />
+</merge>

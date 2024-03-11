@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@android:color/transparent" android:backgroundTint="@color/sig_color_background_top_surface_dark"/>
+    <stroke android:width="@dimen/face_view_highlight_width" android:color="@color/sig_color_layout_input_border_light" android:backgroundTint="@color/sig_color_flat_pure_white_any"/>
+    <corners android:radius="@dimen/face_view_corner_radius"/>
+</shape>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.AppCompat" parent="@style/Base.V22.Theme.AppCompat">
+    </style>
+    <style name="Base.Theme.AppCompat.Light" parent="@style/Base.V22.Theme.AppCompat.Light">
+    </style>
+    <style name="Base.V22.Theme.AppCompat" parent="@style/Base.V21.Theme.AppCompat">
+        <item name="actionModeShareDrawable">?android:attr/actionModeShareDrawable</item>
+        <item name="editTextBackground">?android:attr/editTextBackground</item>
+    </style>
+    <style name="Base.V22.Theme.AppCompat.Light" parent="@style/Base.V21.Theme.AppCompat.Light">
+        <item name="actionModeShareDrawable">?android:attr/actionModeShareDrawable</item>
+        <item name="editTextBackground">?android:attr/editTextBackground</item>
+    </style>
+    <style name="ConfirmationBarText.NewGroupButton" parent="@style/ConfirmationBarText">
+        <item name="android:background">@drawable/confirmation_new_group_button</item>
+        <item name="android:drawablePadding">@dimen/five_dp_gap</item>
+        <item name="android:drawableEnd">@android:color/transparent</item>
+        <item name="android:paddingStart">@dimen/default_gap_1_5x</item>
+        <item name="android:paddingEnd">@dimen/default_gap</item>
+        <item name="android:drawableTint">@color/sig_color_flat_pure_white_any</item>
+    </style>
+    <style name="ConfirmationBarText.WithIcon" parent="@style/ConfirmationBarText">
+        <item name="android:background">@drawable/confirmation_item_light_background</item>
+        <item name="android:drawablePadding">@dimen/default_gap_half</item>
+        <item name="android:drawableEnd">@android:color/transparent</item>
+        <item name="android:paddingStart">@dimen/default_gap</item>
+        <item name="android:paddingEnd">@dimen/default_gap_2x</item>
+        <item name="android:drawableTint">@color/sig_color_flat_pure_white_any</item>
+    </style>
+</resources>

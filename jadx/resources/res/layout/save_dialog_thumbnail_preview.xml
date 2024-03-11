@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.ui.view.RoundedCornerAspectRatioFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/save_dialog_thumbnail_preview" android:clipChildren="false" android:layout_width="@dimen/memories_saving_after_send_dialog_thumbnail_width" android:layout_height="@dimen/memories_saving_after_send_dialog_thumbnail_height" app:aspect_ratio="match_display">
+    <com.snap.imageloading.view.SnapImageView android:id="@+id/snap_image_view" android:background="@color/sig_color_base_gray50_any" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+</com.snap.ui.view.RoundedCornerAspectRatioFrameLayout>

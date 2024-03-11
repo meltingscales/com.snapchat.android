@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:focusable="false" android:layout_width="match_parent" android:layout_height="@dimen/v11_input_field_height">
+    <com.snap.ui.view.SnapFontTextView android:gravity="start|center_vertical" android:layout_gravity="start|center_vertical" android:id="@+id/input_field_edit_text" android:focusable="false" android:hint="@string/input_field_search_hint" android:drawablePadding="@dimen/v11_input_field_left_icon_padding_right" style="@style/InputField.Search.DynamicType"/>
+</merge>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.component.cards.SnapCardView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/action_sheet_error_view" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="@dimen/action_sheet_default_cell_height" android:layout_marginBottom="@dimen/action_sheet_middle_card_bottom_margin" android:layout_marginStart="@dimen/action_sheet_spacing" android:layout_marginEnd="@dimen/action_sheet_spacing">
+    <com.snap.ui.view.SnapFontTextView android:textSize="@dimen/v11_action_sheet_error_text_size" android:textColor="?attr/colorGray60" android:gravity="center" android:layout_gravity="center" android:id="@+id/error_text" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</com.snap.component.cards.SnapCardView>

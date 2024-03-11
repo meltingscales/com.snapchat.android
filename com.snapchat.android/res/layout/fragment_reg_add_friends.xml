@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/reg_add_friend_page" android:background="@drawable/add_friend_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.snap.component.header.SnapSubscreenHeaderView android:id="@id/add_friends_header" android:layout_alignParentTop="true" app:dismiss_text="@string/skip_add_friends" app:header_background="?colorGray10" app:title_text="@string/signup_add_friends_title" style="@style/subscreen_header_skip" />
+    <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/description_or_active_text_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/default_gap_4x" android:layout_marginRight="@dimen/default_gap_4x" android:layout_below="@id/add_friends_header">
+        <com.snap.ui.view.SnapFontTextView android:id="@id/add_friends_description" android:text="@string/signup_find_your_friends_description" style="@style/signup_page_description_v11" />
+        <com.snap.ui.view.SnapFontTextView android:id="@id/active_status_text" android:visibility="gone" style="@style/active_status_text" />
+        <com.snap.ui.view.SnapFontTextView android:id="@id/active_status_text_new" android:visibility="gone" style="@style/active_status_text_new" />
+    </FrameLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/add_friends_recycler_view" android:layout_below="@id/description_or_active_text_container" style="@style/signup_single_recyclerview" />
+    <com.snap.identity.api.sharedui.ProgressButton android:id="@id/continue_button" android:visibility="gone" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/LoginSignupButton" />
+    <com.snap.identity.api.sharedui.ProgressButton android:id="@id/continue_button_refresh" android:visibility="gone" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layout_marginStart="@dimen/default_gap_3x" android:layout_marginEnd="@dimen/default_gap_3x" style="@style/LoginSignupButtonRegRefresh" />
+</RelativeLayout>

@@ -1,0 +1,17 @@
+package com.snapchat.addlive.shared_metrics;
+
+/* loaded from: classes7.dex */
+public enum CallSetupPhase {
+    NONE,
+    CALL_INITIATED,
+    REQUEST_RECEIVED,
+    LOCAL_CONNECTED,
+    REMOTE_REJECTED,
+    REMOTE_ACCEPTED,
+    LOCAL_ACCEPTED_WHILE_CONNECTING,
+    LOCAL_ACCEPTED_CONNECTED,
+    LOCAL_REJECTED_WHILE_CONNECTING,
+    LOCAL_REJECTED_CONNECTED,
+    CALL_MATURED,
+    CALL_ABORTED_NO_NETWORK
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="@dimen/v11_input_field_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr">
+        <com.snap.ui.view.SnapFontTextView android:id="@id/input_field_country_code" android:focusable="false" android:focusableInTouchMode="false" style="@style/InputField.Form.CountryCode.DynamicType" />
+        <View android:background="?colorGray50" android:layout_width="@dimen/v11_input_field_form_phone_number_divider_width" android:layout_height="@dimen/v11_input_field_form_phone_number_divider_height" />
+        <com.snap.ui.view.SnapFontEditText android:id="@id/input_field_edit_text" android:inputType="phone" style="@style/InputField.Form.PhoneNumber.DynamicType" />
+    </LinearLayout>
+</merge>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/effect_item_margin_start">
+    <RelativeLayout android:id="@+id/venue_anchor_view" android:layout_width="@dimen/effect_item_image_width" android:layout_height="@dimen/effect_item_image_height">
+        <com.snap.component.cards.SnapCardView android:id="@+id/effect_card_view" android:layout_width="match_parent" android:layout_height="match_parent" app:cardBackgroundColor="@color/sig_color_background_subscreen_dark" app:cardCornerRadius="@dimen/supercut_effect_image_radius" app:cardElevation="0dp">
+            <com.snap.imageloading.view.SnapAnimatedImageView android:id="@+id/effect_gif" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </com.snap.component.cards.SnapCardView>
+        <ImageView android:id="@+id/selected_image" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/selected_effect_background"/>
+        <ImageView android:id="@+id/inactive_image" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/inactive_effect_background"/>
+    </RelativeLayout>
+    <com.snap.ui.view.SnapFontTextView android:textSize="?attr/v11Heading4TextSize" android:textColor="@color/sig_color_text_primary_dark" android:id="@+id/effect_text" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</LinearLayout>

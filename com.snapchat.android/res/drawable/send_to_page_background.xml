@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/send_to_page_background_inactive" />
+    <item>
+        <selector android:enterFadeDuration="200" android:exitFadeDuration="200">
+            <item android:drawable="@drawable/send_to_page_background_active" android:state_activated="true" />
+        </selector>
+    </item>
+</layer-list>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.ui.view.SnapFontTextView android:textSize="@dimen/v11_very_tiny_text_size" android:textColor="@color/sig_color_base_faded_black_any" android:background="@drawable/topic_page_snap_thumbnail_badge_background" android:paddingLeft="@dimen/default_gap_half" android:paddingRight="@dimen/default_gap_half" android:layout_width="wrap_content" android:layout_height="wrap_content" app:scFontWeight="bolder"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

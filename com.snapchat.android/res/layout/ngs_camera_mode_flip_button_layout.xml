@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/ngs_camera_mode_flip_button_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/v11_hova_header_camera_section"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.snap.ui.view.ShadowTextView android:id="@id/camera_mode_text_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/camera_mode_text" />
+    <ImageView android:id="@id/camera_flip_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/svg_flip_camera_32x32" android:tint="@color/sig_color_flat_pure_white_any" android:contentDescription="@string/flip_camera" style="@style/v11_hova_header_button" />
+</LinearLayout>

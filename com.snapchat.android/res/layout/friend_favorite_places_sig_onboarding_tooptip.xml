@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.snap.ui.view.SnapFontTextView android:textSize="?v11CaptionTextSize" android:textColor="?sigColorTextOnPrimaryButton" android:gravity="end|center" android:background="@drawable/visual_tray_tooltip_callout_background" android:paddingTop="2.0dip" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/discover_places_callout_new" android:singleLine="true" android:includeFontPadding="false" android:paddingStart="4.0dip" android:paddingEnd="4.0dip" android:layout_marginEnd="4.0dip" />
+    <com.snap.ui.view.SnapFontTextView android:textSize="?v11CaptionTextSize" android:textColor="?sigColorTextPrimary" android:gravity="end|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/friend_favorite_places_notification" android:singleLine="true" app:scFontWeight="regular" />
+</LinearLayout>

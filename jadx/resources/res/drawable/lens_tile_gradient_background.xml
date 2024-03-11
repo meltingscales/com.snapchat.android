@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient android:dither="true" android:startColor="@color/sig_color_flat_clear_any" android:endColor="@color/sig_color_background_surface_translucent_dark" android:angle="270" android:centerColor="@color/sig_color_flat_clear_any"/>
+</shape>

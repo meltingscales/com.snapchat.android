@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/sig_color_base_gray10_any"/>
+            <corners android:radius="@dimen/default_gap"/>
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <gradient android:startColor="@color/chat_drawer_background_start_color" android:endColor="@color/chat_drawer_background_end_color" android:angle="180" android:centerX="0.96" android:centerColor="@color/chat_drawer_background_start_color"/>
+            <corners android:radius="@dimen/default_gap"/>
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <gradient android:startColor="@color/chat_drawer_background_start_color" android:endColor="@color/chat_drawer_background_end_color" android:angle="360" android:centerX="0.96" android:centerColor="@color/chat_drawer_background_start_color"/>
+            <corners android:radius="@dimen/default_gap"/>
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <gradient android:startColor="@color/chat_drawer_background_end_color" android:endColor="@color/chat_drawer_background_start_color" android:angle="-90" android:type="linear" android:centerY="0.04" android:centerColor="@color/chat_drawer_background_start_color"/>
+            <corners android:radius="@dimen/default_gap"/>
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <gradient android:startColor="@color/chat_drawer_background_end_color" android:endColor="@color/chat_drawer_background_start_color" android:angle="90" android:type="linear" android:centerY="0.04" android:centerColor="@color/chat_drawer_background_start_color"/>
+            <corners android:radius="@dimen/default_gap"/>
+        </shape>
+    </item>
+</layer-list>

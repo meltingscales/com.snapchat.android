@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="right" android:orientation="vertical" android:id="@id/ai_mode_tool_buttons_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/vertical_ai_mode_tools_top_margin" android:layout_marginEnd="@dimen/vertical_ai_mode_tools_end_margin" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageButton android:id="@id/ai_mode_flag_button" android:background="@null" android:padding="@dimen/default_gap_quarter" android:visibility="gone" android:layout_width="@dimen/ai_mode_tools_toolbar_icon_size" android:layout_height="@dimen/ai_mode_tools_toolbar_icon_size" android:src="@drawable/svg_ai_mode_flag" android:scaleType="centerInside" />
+        <ImageButton android:id="@id/ai_mode_trash_button" android:background="@null" android:padding="@dimen/default_gap_quarter" android:visibility="gone" android:layout_width="@dimen/ai_mode_tools_toolbar_icon_size" android:layout_height="@dimen/ai_mode_tools_toolbar_icon_size" android:src="@drawable/svg_ai_mode_trash" android:scaleType="centerInside" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="action_menu_camera_select">
+        <item quantity="other">เลือก %d รายการแล้ว</item>
+    </plurals>
+    <plurals name="action_menu_hide_long">
+        <item quantity="other">ซ่อน Snap (ฉันมองเพียงคนเดียว)</item>
+    </plurals>
+    <plurals name="action_menu_mute_for_hours">
+        <item quantity="other">เป็นเวลา %d ชั่วโมง</item>
+    </plurals>
+    <plurals name="action_menu_snap_select">
+        <item quantity="other">เลือก Snap %d รายการแล้ว</item>
+    </plurals>
+    <plurals name="action_menu_unhide_long">
+        <item quantity="other">ยกเลิกการซ่อน Snap</item>
+    </plurals>
+    <plurals name="active_indicator_explainer_active_hour">
+        <item quantity="other">%d ชั่วโมง</item>
+    </plurals>
+    <plurals name="activity_indicator_explainer_active_friend_count">
+        <item quantity="other">เพื่อน %d คน</item>
+    </plurals>
+    <plurals name="add_friend_badge_request_tips">
+        <item quantity="other">เพิ่มเพื่อนใหม่ %1$s คน</item>
+    </plurals>
+    <plurals name="add_friend_badge_suggestion_tips">
+        <item quantity="other">แนะนำเพื่อนใหม่ %1$s คน</item>
+    </plurals>
+    <plurals name="add_friends_button_subtext">
+        <item quantity="other">Snappchatter %1$s รายเพิ่มคุณแล้ว!</item>
+    </plurals>
+    <plurals name="add_friends_button_suggestion_subtext">
+        <item quantity="other">%1$s การแนะนำเพื่อน!</item>
+    </plurals>
+    <plurals name="batch_capture_save_as_x_snaps">
+        <item quantity="other">บันทึกเป็น Snap %1$d รายการ</item>
+    </plurals>
+    <plurals name="bottom_button_text">
+        <item quantity="other">+ เพิ่มเพื่อน %d คน</item>
+    </plurals>
+    <plurals name="camera_mode_batch_capture_limit_reached_description_with_count">
+        <item quantity="other">Snap แบบหลายรายการสามารถจับภาพ Snap ได้ถึง %1$d ภาพในหนึ่งครั้ง!</item>
+    </plurals>
+    <plurals name="camera_mode_disable_batch_capture_description">
+        <item quantity="other">คุณแน่ใจหรือไม่ว่าคุณต้องการปิด Snap แบบหลายรายการ? %1$d Snap ที่ยังไม่ได้บันทึกไว้ของคุณจะหายไป</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_image_sharer_you_not">
+        <item quantity="other">%1$s และ %2$s บันทึกภาพถ่าย %3$d รายการจาก %4$s แล้ว</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_image_sharer_you_yes">
+        <item quantity="other">%1$s และ %2$s บันทึกภาพถ่าย %3$d รายการที่คุณส่งแล้ว</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_item_sharer_you_not">
+        <item quantity="other">%1$s และ %2$s บันทึก %3$d รายการจาก %4$s แล้ว</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_item_sharer_you_yes">
+        <item quantity="other">%1$s และ %2$s บันทึก %3$d รายการที่คุณส่งแล้ว</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_video_sharer_you_not">
+        <item quantity="other">%1$s และ %2$s บันทึกวิดีโอ %3$d รายการจาก %4$s แล้ว</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_video_sharer_you_yes">
+        <item quantity="other">%1$s และ %2$s บันทึกวิดีโอ %3$d รายการที่คุณส่งแล้ว</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_yes_media_image_sharer_you_not">
+        <item quantity="other">คุณและ %1$s บันทึกภาพถ่าย %2$d รายการจาก %3$s แล้ว</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_yes_media_item_sharer_you_not">
+        <item quantity="other">คุณและ %1$s บันทึก %2$d รายการจาก %3$s แล้ว</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_yes_media_video_sharer_you_not">
+        <item quantity="other">คุณและ %1$s บันทึกวิดีโอ %2$d รายการจาก %3$s แล้ว</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_image_sharer_you_not">
+        <item quantity="other">%1$s และ %2$s บันทึกภาพถ่าย %3$d รายการจาก %4$s แล้ว</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_image_sharer_you_yes">
+        <item quantity="other">%1$s และ %2$s บันทึกภาพถ่าย %3$d รายการที่คุณส่งแล้ว</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_item__sharer_you_not">
+        <item quantity="other">%1$s และ %2$s บันทึก %3$d รายการจาก %4$s แล้ว</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_item__sharer_you_yes">
+        <item quantity="other">%1$s และ %2$s บันทึก %3$d รายการที่คุณส่งแล้ว</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_video_sharer_you_not">
+        <item quantity="other">%1$s และ %2$s บันทึกวิดีโอ %3$d รายการจาก %4$s แล้ว</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_video_sharer_you_yes">
+        <item quantity="other">%1$s และ %2$s บันทึกวิดีโอ %3$d รายการที่คุณส่งแล้ว</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_yes_media_image_sharer_you_not">
+        <item quantity="other">คุณ %1$s และ %2$s บันทึกภาพถ่าย %3$d รายการจาก %4$s แล้ว</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_yes_media_item_sharer_you_not">
+        <item quantity="other">คุณ %1$s และ %2$s บันทึก %3$d รายการจาก %4$s แล้ว</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_yes_media_video_sharer_you_not">
+        <item quantity="other">คุณ %1$s และ %2$s บันทึกวิดีโอ %3$d รายการจาก %4$s แล้ว</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_image_sharer_you_not">
+        <item quantity="other">%1$s บันทึกภาพถ่าย %2$d รายการจาก %3$s แล้ว</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_image_sharer_you_yes">
+        <item quantity="other">%1$s บันทึกภาพถ่าย %2$d รายการที่คุณส่งแล้ว</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_item_sharer_you_not">
+        <item quantity="other">%1$s บันทึก %2$d รายการจาก %3$s แล้ว</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_item_sharer_you_yes">
+        <item quantity="other">%1$s บันทึก %2$d รายการที่คุณส่งแล้ว</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_video_sharer_you_not">
+        <item quantity="other">%1$s บันทึกวิดีโอ %2$d รายการจาก %3$s แล้ว</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_video_sharer_you_yes">
+        <item quantity="other">%1$s บันทึกวิดีโอ %2$d รายการที่คุณส่งแล้ว</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_yes_media_image_sharer_you_not">
+        <item quantity="other">คุณบันทึกภาพถ่าย %1$d รายการจาก %2$s แล้ว</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_yes_media_item__sharer_you_not">
+        <item quantity="other">คุณบันทึก %1$d รายการจาก %2$s แล้ว</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_yes_media_video_sharer_you_not">
+        <item quantity="other">คุณบันทึกวิดีโอ %1$d รายการจาก %2$s แล้ว</item>
+    </plurals>
+    <plurals name="cannot_add_custom_story_snap_recipients">
+        <item quantity="other">คุณสามารถเพิ่มไปยัง %1$d สตอรี่ที่กำหนดเองเพียงครั้งเดียวเท่านั้น</item>
+    </plurals>
+    <plurals name="capture_settings_distance_value_text_feet">
+        <item quantity="other">%1$d ฟุต</item>
+    </plurals>
+    <plurals name="capture_settings_duration_value_text_orbits">
+        <item quantity="other">%1$d วงโคจร</item>
+    </plurals>
+    <plurals name="chat_header_gifting_birthday_upsell">
+        <item quantity="other">วันเกิดของ%1$sกำลังจะมาถึงในอีก %2$d วัน �� มอบ Snapchat+ เป็นของขวัญให้เขา</item>
+    </plurals>
+    <plurals name="cheerios_clean_unpair_cheerios_body">
+        <item quantity="other">มี Snap %1$d รายการใน Pixy ของคุณ คุณต้องการตั้งค่าอุปกรณ์อีกครั้งและลบ Snap และข้อมูลผู้ใช้ทั้งหมดด้วยหรือไม่?</item>
+    </plurals>
+    <plurals name="cheerios_confirm_delete_body">
+        <item quantity="other">การลบ Snap เหล่านี้จะเป็นการลบ Snap ดังกล่าวออกจากอุปกรณ์ Cheerio ของคุณ</item>
+    </plurals>
+    <plurals name="cheerios_deleted">
+        <item quantity="other">ลบ Snap แล้ว %d รายการ</item>
+    </plurals>
+    <plurals name="cheerios_deleting">
+        <item quantity="other">กำลังลบ Snap %d รายการ…</item>
+    </plurals>
+    <plurals name="cheerios_memories_tooltip">
+        <item quantity="other">มี Snap ใหม่ %d รายการ</item>
+    </plurals>
+    <plurals name="cheerios_new_snap_to_import">
+        <item quantity="other">Snap ใหม่ %d รายการ แตะเพื่อนำเข้า</item>
+    </plurals>
+    <plurals name="cheerios_status_transfer_complete_title">
+        <item quantity="other">นำเข้า Snap %d รายการแล้ว!</item>
+    </plurals>
+    <plurals name="cheerios_status_transferring_title">
+        <item quantity="other">กำลังนำเข้า Snap %d…</item>
+    </plurals>
+    <plurals name="cluster_seven_or_more">
+        <item quantity="other">%1$s, %2$s, %3$s, %4$s, %5$s และอีก %6$d คน</item>
+    </plurals>
+    <plurals name="cluster_seven_or_more_me">
+        <item quantity="other">%1$s, %2$s, %3$s, %4$s, ฉัน และอีก %5$d คน</item>
+    </plurals>
+    <plurals name="cluster_three_or_more">
+        <item quantity="other">%1$s และอีก %2$d คน</item>
+    </plurals>
+    <plurals name="cluster_three_or_more_me">
+        <item quantity="other">ฉันและอีก %1$d คน</item>
+    </plurals>
+    <plurals name="cognac_active_playing_game_text_multiple_player">
+        <item quantity="other">%1$s %2$s + อีก %3$d คนกำลังเล่น</item>
+    </plurals>
+    <plurals name="cognac_active_playing_game_text_multiple_player_shortened">
+        <item quantity="other">%1$s + อีก %2$d คนกำลังเล่น</item>
+    </plurals>
+    <plurals name="cognac_active_using_cypress_text_multiple_player">
+        <item quantity="other">%1$s %2$s + อีก %3$d คนกำลังใช้งานอยู่</item>
+    </plurals>
+    <plurals name="cognac_active_using_cypress_text_multiple_player_shortened">
+        <item quantity="other">%1$s + อีก %2$d คนกำลังใช้งานอยู่</item>
+    </plurals>
+    <plurals name="cognac_app_profile_multiple_player_text">
+        <item quantity="other">รองรับผู้เล่น %1$s-%2$d คน</item>
+    </plurals>
+    <plurals name="cognac_close_status_message_multiple_player_second_person">
+        <item quantity="other">คุณ %1$s และอีก %2$d คนเล่น %3$s</item>
+    </plurals>
+    <plurals name="cognac_close_status_message_multiple_player_third_person">
+        <item quantity="other">%1$s %2$s และอีก %3$d คนเล่น %4$s</item>
+    </plurals>
+    <plurals name="cognac_close_status_message_text_for_feed_multiple_player_third_person">
+        <item quantity="other">%1$s และอีก %2$d คนเล่น %3$s</item>
+    </plurals>
+    <plurals name="cognac_cypress_close_status_message_multiple_player_second_person">
+        <item quantity="other">คุณ %1$s และอีก %2$d คนได้ใช้ %3$s</item>
+    </plurals>
+    <plurals name="cognac_cypress_close_status_message_multiple_player_third_person">
+        <item quantity="other">%1$s %2$s และอีก %3$d คนได้ใช้ %4$s</item>
+    </plurals>
+    <plurals name="cognac_cypress_close_status_message_text_for_feed_multiple_player_third_person">
+        <item quantity="other">%1$s และอีก %2$d คนได้ใช้ %3$s</item>
+    </plurals>
+    <plurals name="cognac_friend_picker_ringing_text_multiple_players">
+        <item quantity="other">กำลังสั่นกระดิ่งไปยัง %1$s และอีก %2$d คน...</item>
+    </plurals>
+    <plurals name="comments_collapse_child_comments">
+        <item quantity="other">ซ่อนการตอบกลับ</item>
+    </plurals>
+    <plurals name="comments_expand_child_comments">
+        <item quantity="other">แสดงการตอบกลับ %s รายการ</item>
+    </plurals>
+    <plurals name="comments_header_with_live_comment_count">
+        <item quantity="other">ความคิดเห็น %s รายการ</item>
+    </plurals>
+    <plurals name="content_detail_new_count">
+        <item quantity="other">%1$d รายการใหม่</item>
+    </plurals>
+    <plurals name="content_detail_seen_text">
+        <item quantity="other">%1$d ที่จะนำเข้า</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="other">%d วัน</item>
+    </plurals>
+    <plurals name="days_abbreviated">
+        <item quantity="other">%d วัน</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated">
+        <item quantity="other">%d วันที่ผ่านมา</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_camera_roll">
+        <item quantity="other">%1$d วันที่ผ่านมาจากคลังภาพ</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_chat">
+        <item quantity="other">%1$d วันที่ผ่านมาจากการแชท</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_cheerios">
+        <item quantity="other">%1$d วันที่ผ่านมาจาก Pixy</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d วันที่ผ่านมาจาก %2$s</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_memories">
+        <item quantity="other">%1$d วันที่ผ่านมาจาก Memories</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_spectacles">
+        <item quantity="other">%1$d วันที่ผ่านมาจาก Spectacles</item>
+    </plurals>
+    <plurals name="days_ago_update">
+        <item quantity="other">อัปเดตเมื่อ %1$s วันที่ผ่านมา</item>
+    </plurals>
+    <plurals name="discard_batch_capture_description">
+        <item quantity="other">คุณแน่ใจหรือไม่ว่าคุณต้องการทิ้ง Snap แบบหลายรายการของคุณ? Snap %1$d รายการที่ยังไม่ได้บันทึกไว้ของคุณจะหายไป</item>
+    </plurals>
+    <plurals name="display_username_explanation_changed_username_too_recently">
+        <item quantity="other">คุณเปลี่ยนชื่อผู้ใช้เมื่อ %1$s\nคุณสามารถเปลี่ยนชื่อผู้ใช้ได้อีกครั้งในอีก %2$d วัน</item>
+    </plurals>
+    <plurals name="failed_to_save_multiple_snaps">
+        <item quantity="other">การบันทึก Snap %1$d รายการล้มเหลว!</item>
+    </plurals>
+    <plurals name="formatted_short_ft">
+        <item quantity="other">%d ฟุต</item>
+    </plurals>
+    <plurals name="formatted_short_km">
+        <item quantity="other">%d กม.</item>
+    </plurals>
+    <plurals name="formatted_short_m">
+        <item quantity="other">%d ม.</item>
+    </plurals>
+    <plurals name="formatted_short_mile">
+        <item quantity="other">%d ไมล์</item>
+    </plurals>
+    <plurals name="friending_progress_bar_secondary">
+        <item quantity="other">ส่งเพิ่มอีก %1$s คำขอเพื่อน!</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_description_items">
+        <item quantity="other">เพิ่มรายการของคุณในฉันมองเพียงคนเดียวสำเร็จแล้ว คุณต้องการลบต้นฉบับจากคลังภาพของคุณหรือไม่</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_description_photos">
+        <item quantity="other">เพิ่มภาพถ่ายของคุณในฉันมองเพียงคนเดียวสำเร็จแล้ว คุณต้องการลบต้นฉบับจากคลังภาพของคุณหรือไม่</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_description_videos">
+        <item quantity="other">เพิ่มวิดีโอของคุณในฉันมองเพียงคนเดียวสำเร็จแล้ว คุณต้องการลบต้นฉบับจากคลังภาพของคุณหรือไม่</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_title">
+        <item quantity="other">ลบต้นฉบับ</item>
+    </plurals>
+    <plurals name="gallery_private_rate_limit_minutes_time_out">
+        <item quantity="other">\nลองอีกครั้งใน %1$d นาที</item>
+    </plurals>
+    <plurals name="gauge_altitude_unit_feet">
+        <item quantity="other">%d ฟุต</item>
+    </plurals>
+    <plurals name="gauge_altitude_unit_meters">
+        <item quantity="other">%d เมตร</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%d ชั่วโมง</item>
+    </plurals>
+    <plurals name="hours_abbreviated">
+        <item quantity="other">%d ชั่วโมง</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%d ชั่วโมง</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated">
+        <item quantity="other">%d ชั่วโมงที่ผ่านมา</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_camera_roll">
+        <item quantity="other">%1$d ชั่วโมงที่ผ่านมาจากคลังภาพ</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_chat">
+        <item quantity="other">%1$d ชั่วโมงที่ผ่านมาจากการแชท</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_cheerios">
+        <item quantity="other">%1$d ชั่วโมงที่ผ่านมาจาก Pixy</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d ชั่วโมงที่ผ่านมาจาก %2$s</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_memories">
+        <item quantity="other">%1$d ชั่วโมงที่ผ่านมาจาก Memories</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_spectacles">
+        <item quantity="other">%1$d ชั่วโมงที่ผ่านมาจาก Spectacles</item>
+    </plurals>
+    <plurals name="hours_ago_update">
+        <item quantity="other">อัปเดตเมื่อ %1$s ปีที่ผ่านมา</item>
+    </plurals>
+    <plurals name="last_seen_here_hours">
+        <item quantity="other">เจอครั้งล่าสุดที่นี่เมื่อ %d ชั่วโมงที่ผ่านมา</item>
+    </plurals>
+    <plurals name="last_seen_here_minutes">
+        <item quantity="other">เจอครั้งล่าสุดที่นี่เมื่อ %d นาทีที่ผ่านมา</item>
+    </plurals>
+    <plurals name="live_location_chat_hours_remaining">
+        <item quantity="other">%d ชั่วโมง</item>
+    </plurals>
+    <plurals name="live_location_description_existing_sessions">
+        <item quantity="other">คุณจะแชร์ตำแหน่งที่ตั้งแบบเรียลไทม์กับเพื่อน ๆ ที่อยู่ในกลุ่มนี้ในขณะปัจจุบัน เพื่อน %d คนสามารถดูตำแหน่งที่ตั้งปัจจุบันของคุณได้แล้ว</item>
+    </plurals>
+    <plurals name="live_location_duration_hr">
+        <item quantity="other">%d ชั่วโมง</item>
+    </plurals>
+    <plurals name="live_location_duration_min">
+        <item quantity="other">%d นาที</item>
+    </plurals>
+    <plurals name="live_location_share_group_description">
+        <item quantity="other">คุณจะแชร์ตำแหน่งที่ตั้งปัจจุบันกับเพื่อนที่อยู่ในกลุ่มนี้ในขณะปัจจุบัน สมาชิก %d คนจะไม่ทราบตำแหน่งที่ตั้งของคุณ เพราะคุณไม่ได้เป็นเพื่อนกับพวกเขา</item>
+    </plurals>
+    <plurals name="live_location_with_friends">
+        <item quantity="other">กับเพื่อน %d คน</item>
+    </plurals>
+    <plurals name="location_upsell_description_specific_friends_more_than_four">
+        <item quantity="other">%1$s, %2$s, %3$s และเพื่อนของคุณอีก %4$d คนอยู่บนแผนที่!</item>
+    </plurals>
+    <plurals name="locked_lens_friending_banner_countdown_timer_hours">
+        <item quantity="other">%1$d ชั่วโมง</item>
+    </plurals>
+    <plurals name="locked_lens_friending_banner_countdown_timer_minutes">
+        <item quantity="other">%1$d นาที</item>
+    </plurals>
+    <plurals name="locked_lens_friending_banner_countdown_timer_seconds">
+        <item quantity="other">%1$d วินาที</item>
+    </plurals>
+    <plurals name="map_group_card_subtext_friend_sharing">
+        <item quantity="other">การแชร์กับเพื่อน %1$d ราย</item>
+    </plurals>
+    <plurals name="map_passport_and_other">
+        <item quantity="other">และอีก %d คน</item>
+    </plurals>
+    <plurals name="map_passport_bucket_cities_title">
+        <item quantity="other">เมือง</item>
+    </plurals>
+    <plurals name="map_passport_bucket_countries_title">
+        <item quantity="other">ประเทศ</item>
+    </plurals>
+    <plurals name="map_passport_bucket_places_title">
+        <item quantity="other">สถานที่</item>
+    </plurals>
+    <plurals name="map_widget_days_ago">
+        <item quantity="other">%d วัน</item>
+    </plurals>
+    <plurals name="media_export_service_batch_export_failure">
+        <item quantity="other">เราส่งออก Snap %1$d จาก %2$d รายการแล้ว มี Snap %3$d รายการที่ไม่สามารถส่งออกได้</item>
+    </plurals>
+    <plurals name="media_export_service_processing">
+        <item quantity="other">กำลังส่งออก Snap %1$d จาก %2$d รายการ...</item>
+    </plurals>
+    <plurals name="media_export_service_success">
+        <item quantity="other">เราส่งออก Snap ของคุณแล้ว!</item>
+    </plurals>
+    <plurals name="memories_camera_select_limit_error">
+        <item quantity="other">ขออภัย คุณสามารถเลือกได้ครั้งละ %d รายการเท่านั้น</item>
+    </plurals>
+    <plurals name="memories_delete_camera_roll_image_body">
+        <item quantity="other">ภาพเหล่านี้จะถูกลบออกจากอุปกรณ์ของคุณ</item>
+    </plurals>
+    <plurals name="memories_delete_camera_roll_mixed_body">
+        <item quantity="other">รายการเหล่านี้จะถูกลบออกจากอุปกรณ์ของคุณ</item>
+    </plurals>
+    <plurals name="memories_delete_camera_roll_video_body">
+        <item quantity="other">วิดีโอเหล่านี้จะถูกลบออกจากอุปกรณ์ของคุณ</item>
+    </plurals>
+    <plurals name="memories_delete_snap_body">
+        <item quantity="other">ลบ Snap ออกหรือไม่</item>
+    </plurals>
+    <plurals name="memories_delete_story_body">
+        <item quantity="other">ลบสตอรี่หรือไม่</item>
+    </plurals>
+    <plurals name="memories_export_error">
+        <item quantity="other">ไม่สามารถส่งออก Snap ได้!</item>
+    </plurals>
+    <plurals name="memories_favorite_snaps_story_added">
+        <item quantity="other">เพิ่ม %d Snap ไปยังสตอรี่ที่ชื่นชอบของคุณแล้ว</item>
+    </plurals>
+    <plurals name="memories_favorite_snaps_story_removed">
+        <item quantity="other">ลบ %d Snap ออกจากสตอรี่ที่ชื่นชอบของคุณแล้ว</item>
+    </plurals>
+    <plurals name="memories_featured_story_flashback_diff_date_subtext">
+        <item quantity="other">%1$d ปีที่ผ่านมา</item>
+    </plurals>
+    <plurals name="memories_featured_story_flashback_same_date_subtext">
+        <item quantity="other">%1$d ปีที่ผ่านมา วันนี้</item>
+    </plurals>
+    <plurals name="memories_featured_story_trip_flashback_chat_prefill_snap">
+        <item quantity="other">%1$s, %2$d ปีที่ผ่านมา</item>
+    </plurals>
+    <plurals name="memories_featured_story_trip_flashback_chat_prefill_story">
+        <item quantity="other">ตั้งแต่ %1$d ปีที่ผ่านมา</item>
+    </plurals>
+    <plurals name="memories_hide_legacy_auto_saves">
+        <item quantity="other">Snap จากสตอรี่เหล่านี้จะยังคงอยู่ในหน้าสตอรี่ของฉันหน้าใหม่ โดยจะไม่มีผลต่อสตอรี่ที่คุณสร้างขึ้นหรือแก้ไข</item>
+    </plurals>
+    <plurals name="memories_hide_legacy_auto_saves_title">
+        <item quantity="other">ลบ %d สตอรี่ที่บันทึกโดยอัตโนมัติที่เก่ากว่าออกหรือไม่?</item>
+    </plurals>
+    <plurals name="memories_print_print_created">
+        <item quantity="other">สร้างการพิมพ์แบบ 3D %d รายการแล้ว</item>
+    </plurals>
+    <plurals name="memories_print_processing">
+        <item quantity="other">กำลังประมวลผล Snap %d เพื่อพิมพ์...</item>
+    </plurals>
+    <plurals name="memories_remove_older_stories_dialog_title">
+        <item quantity="other">การทำเช่นนี้จะลบ %d สตอรี่ที่บันทึกโดยอัตโนมัติที่เก่ากว่า</item>
+    </plurals>
+    <plurals name="memories_select_limit_error">
+        <item quantity="other">ขออภัย คุณสามารถเลือก Snap ได้ครั้งละ %d รายการเท่านั้น</item>
+    </plurals>
+    <plurals name="memories_status_transfer_complete_in_app_notification_text">
+        <item quantity="other">%1$d นำเข้า Snap จาก %2$s</item>
+    </plurals>
+    <plurals name="memories_status_transfer_complete_title">
+        <item quantity="other">นำเข้า Snap แล้ว %d รายการ</item>
+    </plurals>
+    <plurals name="memories_status_transfer_from_device_complete_title">
+        <item quantity="other">Snap ใหม่จาก %s</item>
+    </plurals>
+    <plurals name="memories_status_transferring_title">
+        <item quantity="other">กำลังนำเข้า Snap %1$d จาก %2$d รายการ...</item>
+    </plurals>
+    <plurals name="memories_story_editor_add_snap_selected">
+        <item quantity="other">%d ที่เลือก</item>
+    </plurals>
+    <plurals name="minutes_abbreviated">
+        <item quantity="other">%d นาที</item>
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="other">%d นาที</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated">
+        <item quantity="other">%d นาทีที่ผ่านมา</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_camera_roll">
+        <item quantity="other">%1$d นาทีที่ผ่านมาจากคลังภาพ</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_chat">
+        <item quantity="other">%1$d นาทีที่ผ่านมาจากการแชท</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_cheerios">
+        <item quantity="other">%1$d นาทีที่ผ่านมาจาก Pixy</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d นาทีที่ผ่านมาจาก %2$s</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_memories">
+        <item quantity="other">%1$d นาทีที่ผ่านมาจาก Memories</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_spectacles">
+        <item quantity="other">%1$d นาทีที่ผ่านมาจาก Spectacles</item>
+    </plurals>
+    <plurals name="minutes_ago_update">
+        <item quantity="other">อัปเดตเมื่อ %1$s นาทีที่ผ่านมา</item>
+    </plurals>
+    <plurals name="months_abbreviated">
+        <item quantity="other">%d เดือน</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated">
+        <item quantity="other">%d เดือนที่ผ่านมา</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_camera_roll">
+        <item quantity="other">%1$d เดือนที่ผ่านมาจากคลังภาพ</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_chat">
+        <item quantity="other">%1$d เดือนที่ผ่านมาจากการแชท</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_cheerios">
+        <item quantity="other">%1$d เดือนที่ผ่านมาจาก Pixy</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d เดือนที่ผ่านมาจาก %2$s</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_memories">
+        <item quantity="other">%1$d เดือนที่ผ่านมาจาก Memories</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_spectacles">
+        <item quantity="other">%1$d เดือนที่ผ่านมาจาก Spectacles</item>
+    </plurals>
+    <plurals name="months_ago_update">
+        <item quantity="other">อัปเดตเมื่อ %1$s เดือนที่ผ่านมา</item>
+    </plurals>
+    <plurals name="more_stories">
+        <item quantity="other">%d สตอรี่เพิ่มเติม</item>
+    </plurals>
+    <plurals name="muted_stories">
+        <item quantity="other">%d สตอรี่ที่ปิดเสียง</item>
+    </plurals>
+    <plurals name="new_registration_continue_with_n_friends">
+        <item quantity="other">เพิ่มเพื่อน %d คน</item>
+    </plurals>
+    <plurals name="num_hours">
+        <item quantity="other">%d ชั่วโมง</item>
+    </plurals>
+    <plurals name="num_minutes">
+        <item quantity="other">%d นาที</item>
+    </plurals>
+    <plurals name="nyc_audience_many_and_x_others">
+        <item quantity="other">%1$s+อีก %2$d คน</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_ft">
+        <item quantity="other">ฟุต</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_km">
+        <item quantity="other">กม.</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_m">
+        <item quantity="other">ม.</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_mile">
+        <item quantity="other">ไมล์</item>
+    </plurals>
+    <plurals name="nyc_friends_many_and_x_others">
+        <item quantity="other">%1$s และ %2$s แชร์ตำแหน่งที่ตั้งปัจจุบันกับคุณอยู่แล้ว</item>
+    </plurals>
+    <plurals name="nyc_sharing_live_location_with_friends">
+        <item quantity="other">คุณกำลังแชร์ตำแหน่งที่ตั้งปัจจุบันของคุณกับเพื่อน %1$s คน </item>
+    </plurals>
+    <plurals name="nyc_unhide_live_location_friend_dialog_title">
+        <item quantity="other">คุณกำลังซ่อนไม่ให้เพื่อนอีก %1$d คนเห็นตำแหน่งที่ตั้งปัจจุบันของคุณ</item>
+    </plurals>
+    <plurals name="pairing_validation_description">
+        <item quantity="other">มี Snap %d รายการใน Pixy ของคุณที่มาจากผู้ใช้งานคนล่าสุด การจับคู่กับอุปกรณ์นี้จะเป็นการตั้งค่าใหม่ให้อุปกรณ์ ตลอดจนลบ Snap และข้อมูลผู้ใช้งานทั้งหมด</item>
+    </plurals>
+    <plurals name="payments_num_purchased_items">
+        <item quantity="other">%d รายการ</item>
+    </plurals>
+    <plurals name="pending_syncs_logout_warning">
+        <item quantity="other">คุณยังไม่ได้สำรองข้อมูล Snap %1$d รายการไปยัง Memories หากคุณออกจากระบบตอนนี้ Snap เหล่านี้อาจหายไป</item>
+    </plurals>
+    <plurals name="perception_lens_collection_scan_card_lenses_count">
+        <item quantity="other">เลนส์ %d รายการ</item>
+    </plurals>
+    <plurals name="perception_lenses_scan_card_try_lenses">
+        <item quantity="other">ลองเลนส์ (%d)</item>
+    </plurals>
+    <plurals name="play_with_max_player_alert_text">
+        <item quantity="other">เกมอนุญาตเฉพาะผู้เล่นสูงสุด %1$d คน</item>
+    </plurals>
+    <plurals name="post_pairing_import_title">
+        <item quantity="other">มี Snap ใหม่ %d รายการ</item>
+    </plurals>
+    <plurals name="registration_continue_with_n_friends">
+        <item quantity="other">+ เพิ่มเพื่อน %d คน</item>
+    </plurals>
+    <plurals name="save_button_tooltip_saved_multiple">
+        <item quantity="other">บันทึก Snap %1$d รายการแล้ว</item>
+    </plurals>
+    <plurals name="saved_media_gallery_attribution_media_count">
+        <item quantity="other">%s Snap</item>
+    </plurals>
+    <plurals name="seconds_abbreviated">
+        <item quantity="other">%d วินาที</item>
+    </plurals>
+    <plurals name="seconds_ago">
+        <item quantity="other">%d วินาที</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated">
+        <item quantity="other">%d วินาทีที่ผ่านมา</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_camera_roll">
+        <item quantity="other">%1$d วินาทีที่ผ่านมาจากคลังภาพ</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_chat">
+        <item quantity="other">%1$d วินาทีที่ผ่านมาจากการแชท</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_cheerios">
+        <item quantity="other">%1$d วินาทีที่ผ่านมาจาก Pixy</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d วินาทีที่ผ่านมาจาก %2$s</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_memories">
+        <item quantity="other">%1$d วินาทีที่ผ่านมาจาก Memories</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_spectacles">
+        <item quantity="other">%1$d วินาทีที่ผ่านมาจาก Spectacles</item>
+    </plurals>
+    <plurals name="seconds_ago_update">
+        <item quantity="other">อัปเดตเมื่อ %1$s วินาทีที่ผ่านมา</item>
+    </plurals>
+    <plurals name="select_friend_friend">
+        <item quantity="other">เพื่อน %1$d คน</item>
+    </plurals>
+    <plurals name="select_friend_other">
+        <item quantity="other">%1$s และอีก %2$d คน</item>
+    </plurals>
+    <plurals name="settings_birthday_update_years_old">
+        <item quantity="other">ฉันอายุ %d ปี</item>
+    </plurals>
+    <plurals name="snap_timer_selection_units">
+        <item quantity="other">วินาที</item>
+    </plurals>
+    <plurals name="snaps_count">
+        <item quantity="other">Snap %1$d รายการ</item>
+    </plurals>
+    <plurals name="spectacles_export_customization_description">
+        <item quantity="other">คุณต้องการส่งออก Snap ของคุณอย่างไร</item>
+    </plurals>
+    <plurals name="spotlight_comments_count_notification_title">
+        <item quantity="other">ความคิดเห็น Spotlight %d รายการอยู่ระหว่างดำเนินการ</item>
+    </plurals>
+    <plurals name="status_views">
+        <item quantity="other">%d ครั้งที่มีการดู</item>
+    </plurals>
+    <plurals name="still_sharing_last_active_location_description">
+        <item quantity="other">มีการซ่อนตำแหน่งที่ตั้งปัจจุบันของคุณ แต่เพื่อน %1$s คนจะยังคงเห็นตำแหน่งที่ตั้งที่ใช้งานล่าสุดของคุณต่อไป\n\n คุณสามารถเปลี่ยนแปลงสิ่งนี้ได้ในการตั้งค่าแผนที่</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_change_audience">
+        <item quantity="other">คุณบันทึกการตั้งค่าตำแหน่งที่ตั้งของคุณแล้ว แต่เพื่อน %1$s คนอาจยังคงเห็นตำแหน่งที่ตั้งปัจจุบันของคุณต่อไป หากต้องการหยุดแชร์ ให้แตะ &quot;STOP&quot; ซึ่งอยู่ถัดจากชื่อของพวกเขา</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_enter_ghost_mode">
+        <item quantity="other">คุณอยู่ในโหมดโกสต์ แต่เพื่อน %1$s คนอาจยังคงเห็นตำแหน่งที่ตั้งปัจจุบันของคุณต่อไป หากต้องการหยุดแชร์ ให้แตะ &quot;STOP&quot; ซึ่งอยู่ถัดจากชื่อของพวกเขา</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_enter_ghost_mode_ghost_trail">
+        <item quantity="other">คุณอยู่ในโหมด Ghost แต่เพื่อน %1$s คนจะยังคงสามารถเห็นตำแหน่งที่ตั้งปัจจุบันของคุณต่อไป หากต้องการหยุดแชร์ ให้แตะ &quot;STOP&quot; ซึ่งอยู่ถัดจากชื่อของเขา\n\nจะไม่มีการเพิ่มตำแหน่งที่ตั้งลงในเส้นทางตามหาผีของคุณขณะที่คุณอยู่ในโหมด Ghost</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_enter_ghost_mode_hide_live_location">
+        <item quantity="other">คุณอยู่ในโหมด Ghost แต่เพื่อน %1$s คนจะยังคงเห็นตำแหน่งที่ตั้งปัจจุบันของคุณต่อไป หากต้องการหยุดการแชร์ ให้แตะ “ซ่อนตำแหน่งที่ตั้งปัจจุบันของฉัน” ที่ด้านล่าง</item>
+    </plurals>
+    <plurals name="story_friend_story_notification_title_update">
+        <item quantity="other">เพิ่มเพื่อน %d คนไปยังสตอรี่ของพวกเขาแล้ว</item>
+    </plurals>
+    <plurals name="story_fullscreen_footer_view_count">
+        <item quantity="other">%d ครั้งที่มีการดู</item>
+    </plurals>
+    <plurals name="story_management_viewer_list_more_viewers">
+        <item quantity="other">+ %1$d เพิ่มเติม</item>
+    </plurals>
+    <plurals name="story_mob_subtext_more">
+        <item quantity="other">%1$s และอีก %2$d…</item>
+    </plurals>
+    <plurals name="story_profile_communities_members">
+        <item quantity="other">ตรวจสอบยืนยันสมาชิกแล้ว • %d คน</item>
+    </plurals>
+    <plurals name="story_profile_shared_stories_members">
+        <item quantity="other">สมาชิก %d คน</item>
+    </plurals>
+    <plurals name="story_profile_stories_adding">
+        <item quantity="other">กำลังเพิ่ม %d Snap...</item>
+    </plurals>
+    <plurals name="story_profile_stories_failed_to_add">
+        <item quantity="other">การเพิ่ม Snap %d การล้มเหลว</item>
+    </plurals>
+    <plurals name="story_profile_stories_waiting_to_add">
+        <item quantity="other">กำลังรอเพิ่ม %d Snap...</item>
+    </plurals>
+    <plurals name="story_settings_action_menu_my_story_blocked_number_of_people">
+        <item quantity="other">%d คน</item>
+    </plurals>
+    <plurals name="streak_restore_dialog_subtitle_free_restore">
+        <item quantity="other">คุณมีการกู้คืนฟรี %1$d ครั้ง</item>
+    </plurals>
+    <plurals name="streak_restore_dialog_subtitle_hours">
+        <item quantity="other">คุณมีเวลาเหลืออีก %2$d ชั่วโมงที่จะกู้คืน Snapstreak โดยใช้ %1$s ก่อนที่ Snapstreak นี้จะหายไปอย่างถาวร!</item>
+    </plurals>
+    <plurals name="streak_restore_dialog_subtitle_minutes">
+        <item quantity="other">คุณมีเวลาเหลืออีก %2$d นาทีที่จะกู้คืน Snapstreak โดยใช้ %1$s ก่อนที่ Snapstreak นี้จะหายไปอย่างถาวร!</item>
+    </plurals>
+    <plurals name="subtitle_sharing_custom_friends">
+        <item quantity="other">กับเพื่อน %d คน</item>
+    </plurals>
+    <plurals name="takeover_request_index_and_total">
+        <item quantity="other">การเพิ่มเพื่อนใหม่ %1$d คนจากทั้งหมด %2$d คน</item>
+    </plurals>
+    <plurals name="ticketmaster_events_label">
+        <item quantity="other">งานอีเวนต์</item>
+    </plurals>
+    <plurals name="watched_stories">
+        <item quantity="other">%d สตอรี่ที่ดูแล้ว</item>
+    </plurals>
+    <plurals name="weeks">
+        <item quantity="other">%d สัปดาห์</item>
+    </plurals>
+    <plurals name="weeks_abbreviated">
+        <item quantity="other">%d สัปดาห์</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated">
+        <item quantity="other">%d สัปดาห์ที่ผ่านมา</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_camera_roll">
+        <item quantity="other">%1$d สัปดาห์ที่ผ่านมาจากคลังภาพ</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_chat">
+        <item quantity="other">%1$d สัปดาห์ที่ผ่านมาจากการแชท</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_cheerios">
+        <item quantity="other">%1$d สัปดาห์ที่ผ่านมาจาก Pixy</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d สัปดาห์ที่ผ่านมาจาก %2$s</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_memories">
+        <item quantity="other">%1$d สัปดาห์ที่ผ่านมาจาก Memories</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_spectacles">
+        <item quantity="other">%1$d สัปดาห์ที่ผ่านมาจาก Spectacles</item>
+    </plurals>
+    <plurals name="weeks_ago_update">
+        <item quantity="other">อัปเดตเมื่อ %1$s สัปดาห์ที่ผ่านมา</item>
+    </plurals>
+    <plurals name="years_abbreviated">
+        <item quantity="other">%d ปี</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated">
+        <item quantity="other">%d ปีที่ผ่านมา</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_camera_roll">
+        <item quantity="other">%1$d ปีที่ผ่านมาจากคลังภาพ</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_chat">
+        <item quantity="other">%1$d ปีที่ผ่านมาจากการแชท</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_cheerios">
+        <item quantity="other">%1$d ปีที่ผ่านมาจาก Pixy</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d ปีที่ผ่านมาจาก %2$s</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_memories">
+        <item quantity="other">%1$d ปีที่ผ่านมาจาก Memories</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_spectacles">
+        <item quantity="other">%1$d ปีที่ผ่านมาจาก Spectacles</item>
+    </plurals>
+    <plurals name="years_ago_update">
+        <item quantity="other">อัปเดตเมื่อ %1$s ปีที่ผ่านมา</item>
+    </plurals>
+</resources>

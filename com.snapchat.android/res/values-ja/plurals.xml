@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="action_menu_camera_select">
+        <item quantity="other">%d個のアイテムを選択中</item>
+    </plurals>
+    <plurals name="action_menu_hide_long">
+        <item quantity="other">Snapを非表示にする (ヒミツのエリア)</item>
+    </plurals>
+    <plurals name="action_menu_mute_for_hours">
+        <item quantity="other">%d時間</item>
+    </plurals>
+    <plurals name="action_menu_snap_select">
+        <item quantity="other">%d件のSnapが選択されています</item>
+    </plurals>
+    <plurals name="action_menu_unhide_long">
+        <item quantity="other">Snapを表示</item>
+    </plurals>
+    <plurals name="active_indicator_explainer_active_hour">
+        <item quantity="other">%d時間！</item>
+    </plurals>
+    <plurals name="activity_indicator_explainer_active_friend_count">
+        <item quantity="other">%d人のフレンドが</item>
+    </plurals>
+    <plurals name="add_friend_badge_request_tips">
+        <item quantity="other">新しく追加されたフレンド -%1$s人</item>
+    </plurals>
+    <plurals name="add_friend_badge_suggestion_tips">
+        <item quantity="other">%1$s 人の新しいフレンド候補</item>
+    </plurals>
+    <plurals name="add_friends_button_subtext">
+        <item quantity="other">%1$s人のSnap ユーザーがあなたをフレンド追加！</item>
+    </plurals>
+    <plurals name="add_friends_button_suggestion_subtext">
+        <item quantity="other">%1$s 人のフレンド候補！</item>
+    </plurals>
+    <plurals name="batch_capture_save_as_x_snaps">
+        <item quantity="other">%1$dのSnapとして保存する</item>
+    </plurals>
+    <plurals name="bottom_button_text">
+        <item quantity="other">+%d人のフレンドを追加</item>
+    </plurals>
+    <plurals name="camera_mode_batch_capture_limit_reached_description_with_count">
+        <item quantity="other">マルチSnapで1回に撮影できるSnapは%1$d件です！</item>
+    </plurals>
+    <plurals name="camera_mode_disable_batch_capture_description">
+        <item quantity="other">マルチSnapを本当にオフに設定しますか？%1$dつの未保存のSnapはすべて削除されます。</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_image_sharer_you_not">
+        <item quantity="other">%1$sと%2$sが%4$sの写真を%3$d件保存しました</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_image_sharer_you_yes">
+        <item quantity="other">%1$sと%2$sが、あなたが送信した%3$d件の写真を保存しました</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_item_sharer_you_not">
+        <item quantity="other">%1$sと%2$sが%4$sのアイテムを%3$d件保存しました</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_item_sharer_you_yes">
+        <item quantity="other">%1$s と %2$s が、あなたが送信した %3$d 件のアイテムを保存しました</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_video_sharer_you_not">
+        <item quantity="other">%1$sと%2$sが%3$dのビデオを%4$s件保存しました</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_video_sharer_you_yes">
+        <item quantity="other">%1$sと%2$sが、あなたが送信した%3$d件のビデオを保存しました</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_yes_media_image_sharer_you_not">
+        <item quantity="other">あなたと%1$sが%3$sの写真を%2$d件保存しました</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_yes_media_item_sharer_you_not">
+        <item quantity="other">あなたと%1$sが、%3$sのアイテムを%2$d件保存しました</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_yes_media_video_sharer_you_not">
+        <item quantity="other">あなたと%1$sが%2$dのビデオを%3$s件保存しました</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_image_sharer_you_not">
+        <item quantity="other">%1$sと%2$sが%4$sの写真を%3$d件保存しました</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_image_sharer_you_yes">
+        <item quantity="other">%1$sと%2$sが、あなたが送信した%3$d件の写真を保存しました</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_item__sharer_you_not">
+        <item quantity="other">%1$sと%2$sが%4$sのアイテムを%3$d件保存しました</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_item__sharer_you_yes">
+        <item quantity="other">%1$s と %2$s が、あなたが送信した %3$d 件のアイテムを保存しました</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_video_sharer_you_not">
+        <item quantity="other">%1$sと%2$sが、%4$sのビデオを%3$d件保存しました</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_video_sharer_you_yes">
+        <item quantity="other">%1$s と %2$s が、あなたが送信した %3$d 件のビデオを保存しました</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_yes_media_image_sharer_you_not">
+        <item quantity="other">あなた、%1$s、%2$sが、%4$sの写真を%3$d件保存しました</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_yes_media_item_sharer_you_not">
+        <item quantity="other">あなた、%1$s、%2$sが%4$sのアイテムを%3$d件保存しました</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_yes_media_video_sharer_you_not">
+        <item quantity="other">あなた、%1$s、%2$sが、%4$sのビデオを%3$d件保存しました</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_image_sharer_you_not">
+        <item quantity="other">%1$sが%2$dの写真を%3$s件保存しました</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_image_sharer_you_yes">
+        <item quantity="other">%1$sがあなたが送信した%2$d件の写真を保存しました</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_item_sharer_you_not">
+        <item quantity="other">%1$sが%3$sのアイテムを%2$d件保存しました</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_item_sharer_you_yes">
+        <item quantity="other">%1$sがあなたが送信した %2$d 件のアイテムを保存しました</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_video_sharer_you_not">
+        <item quantity="other">%1$sが%2$dのビデオを%3$s件保存しました</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_video_sharer_you_yes">
+        <item quantity="other">%1$s があなたが送信した %2$d 件のビデオを保存しました</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_yes_media_image_sharer_you_not">
+        <item quantity="other">%2$sの写真を%1$d件保存しました</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_yes_media_item__sharer_you_not">
+        <item quantity="other">%2$sのアイテムを%1$d件保存しました</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_yes_media_video_sharer_you_not">
+        <item quantity="other">%1$dのビデオを%2$s件保存しました</item>
+    </plurals>
+    <plurals name="cannot_add_custom_story_snap_recipients">
+        <item quantity="other">一度に追加できるカスタムストーリーは%1$d件までです。</item>
+    </plurals>
+    <plurals name="capture_settings_distance_value_text_feet">
+        <item quantity="other">%1$dフィート</item>
+    </plurals>
+    <plurals name="capture_settings_duration_value_text_orbits">
+        <item quantity="other">%1$d軌道</item>
+    </plurals>
+    <plurals name="chat_header_gifting_birthday_upsell">
+        <item quantity="other">%1$sの誕生日は%2$d日後です 🎂。Snapchat+を贈りましょう</item>
+    </plurals>
+    <plurals name="cheerios_clean_unpair_cheerios_body">
+        <item quantity="other">Pixyに%1$d個のSnapがあります。デバイスをリセットして、すべてのSnapとユーザーデータも削除しますか？</item>
+    </plurals>
+    <plurals name="cheerios_confirm_delete_body">
+        <item quantity="other">これらのSnapを削除すると、お使いのCheerioのデバイスからも削除されます。</item>
+    </plurals>
+    <plurals name="cheerios_deleted">
+        <item quantity="other">%d件のSnapを削除しました</item>
+    </plurals>
+    <plurals name="cheerios_deleting">
+        <item quantity="other">%d件のSnapを削除しています...</item>
+    </plurals>
+    <plurals name="cheerios_memories_tooltip">
+        <item quantity="other">%d件の新着Snap</item>
+    </plurals>
+    <plurals name="cheerios_new_snap_to_import">
+        <item quantity="other">%d個の新しいSnapがあります。タップしてインポートします。</item>
+    </plurals>
+    <plurals name="cheerios_status_transfer_complete_title">
+        <item quantity="other">%d件のSnapがインポートされました！</item>
+    </plurals>
+    <plurals name="cheerios_status_transferring_title">
+        <item quantity="other">%d件のSnapをインポート中...</item>
+    </plurals>
+    <plurals name="cluster_seven_or_more">
+        <item quantity="other">%1$s、%2$s、%3$s、%4$s、%5$s &amp; %6$d 他</item>
+    </plurals>
+    <plurals name="cluster_seven_or_more_me">
+        <item quantity="other">%1$s、%2$s、%3$s、%4$s、自分 &amp; %5$d 他</item>
+    </plurals>
+    <plurals name="cluster_three_or_more">
+        <item quantity="other">%1$s &amp; %2$d 他</item>
+    </plurals>
+    <plurals name="cluster_three_or_more_me">
+        <item quantity="other">自分 &amp; %1$d 他</item>
+    </plurals>
+    <plurals name="cognac_active_playing_game_text_multiple_player">
+        <item quantity="other">%1$s、%2$s＆他%3$d名がプレイしています</item>
+    </plurals>
+    <plurals name="cognac_active_playing_game_text_multiple_player_shortened">
+        <item quantity="other">%1$s他%2$d名がプレイしています</item>
+    </plurals>
+    <plurals name="cognac_active_using_cypress_text_multiple_player">
+        <item quantity="other">%1$s、%2$s+%3$dなどがアクティブです</item>
+    </plurals>
+    <plurals name="cognac_active_using_cypress_text_multiple_player_shortened">
+        <item quantity="other">%1$s+%2$dなどがアクティブです</item>
+    </plurals>
+    <plurals name="cognac_app_profile_multiple_player_text">
+        <item quantity="other">%1$s〜%2$d人のプレイヤーに対応</item>
+    </plurals>
+    <plurals name="cognac_close_status_message_multiple_player_second_person">
+        <item quantity="other">あなた、%1$s他%2$d名が%3$sをプレイしました</item>
+    </plurals>
+    <plurals name="cognac_close_status_message_multiple_player_third_person">
+        <item quantity="other">%1$s、%2$s他%3$d名が%4$sをプレイしました</item>
+    </plurals>
+    <plurals name="cognac_close_status_message_text_for_feed_multiple_player_third_person">
+        <item quantity="other">%1$sと%2$dその他の人が%3$sをプレイしました</item>
+    </plurals>
+    <plurals name="cognac_cypress_close_status_message_multiple_player_second_person">
+        <item quantity="other">あなた、%1$s、%2$dなどが%3$sを使用</item>
+    </plurals>
+    <plurals name="cognac_cypress_close_status_message_multiple_player_third_person">
+        <item quantity="other">%1$s、%2$s、%3$dなどが%4$sを使用</item>
+    </plurals>
+    <plurals name="cognac_cypress_close_status_message_text_for_feed_multiple_player_third_person">
+        <item quantity="other">%1$sと%2$dなどが%3$sを使用</item>
+    </plurals>
+    <plurals name="cognac_friend_picker_ringing_text_multiple_players">
+        <item quantity="other">%1$s、他%2$dに通知中…</item>
+    </plurals>
+    <plurals name="comments_collapse_child_comments">
+        <item quantity="other">返信を非表示</item>
+    </plurals>
+    <plurals name="comments_expand_child_comments">
+        <item quantity="other">%sの返信を表示</item>
+    </plurals>
+    <plurals name="comments_header_with_live_comment_count">
+        <item quantity="other">%s件のコメント</item>
+    </plurals>
+    <plurals name="content_detail_new_count">
+        <item quantity="other">新着%1$d件</item>
+    </plurals>
+    <plurals name="content_detail_seen_text">
+        <item quantity="other">%1$d件をインポート</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="other">%d日</item>
+    </plurals>
+    <plurals name="days_abbreviated">
+        <item quantity="other">%d日</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated">
+        <item quantity="other">%d日前</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_camera_roll">
+        <item quantity="other">%1$d日前 - カメラロールから</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_chat">
+        <item quantity="other">%1$d日前 - チャットから</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_cheerios">
+        <item quantity="other">%1$d日前 - Pixyから</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d日前 - %2$sから</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_memories">
+        <item quantity="other">%1$d日前 - メモリーズから</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_spectacles">
+        <item quantity="other">%1$d日前 - Spectaclesから</item>
+    </plurals>
+    <plurals name="days_ago_update">
+        <item quantity="other">%1$s 日前にアップデート済み</item>
+    </plurals>
+    <plurals name="discard_batch_capture_description">
+        <item quantity="other">マルチSnapを本当に削除しますか？%1$d件の未保存のSnapはすべて削除されます。</item>
+    </plurals>
+    <plurals name="display_username_explanation_changed_username_too_recently">
+        <item quantity="other">"%1$sにユーザーIDを変更しています。
+再び変更できるのは%2$d日後です。"</item>
+    </plurals>
+    <plurals name="failed_to_save_multiple_snaps">
+        <item quantity="other">%1$d件のSnapを保存できませんでした</item>
+    </plurals>
+    <plurals name="formatted_short_ft">
+        <item quantity="other">%dフィート</item>
+    </plurals>
+    <plurals name="formatted_short_km">
+        <item quantity="other">%dキロメートル</item>
+    </plurals>
+    <plurals name="formatted_short_m">
+        <item quantity="other">%dメートル</item>
+    </plurals>
+    <plurals name="formatted_short_mile">
+        <item quantity="other">%dマイル</item>
+    </plurals>
+    <plurals name="friending_progress_bar_secondary">
+        <item quantity="other">さらに%1$s人にフレンドリクエストを送信しよう！</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_description_items">
+        <item quantity="other">ヒミツのエリアにアイテムが追加されました。カメラロールから元のアイテムを削除しますか？</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_description_photos">
+        <item quantity="other">ヒミツのエリアに写真が追加されました。 カメラロールから元の写真を削除しますか？</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_description_videos">
+        <item quantity="other">ヒミツのエリアにビデオが追加されました。 カメラロールから元のビデオを削除しますか？</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_title">
+        <item quantity="other">元のアイテムを削除する</item>
+    </plurals>
+    <plurals name="gallery_private_rate_limit_minutes_time_out">
+        <item quantity="other">"
+ %1$d分おいてから、もう一度お試しください。"</item>
+    </plurals>
+    <plurals name="gauge_altitude_unit_feet">
+        <item quantity="other">%dフィート</item>
+    </plurals>
+    <plurals name="gauge_altitude_unit_meters">
+        <item quantity="other">%dメートル</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%d時間</item>
+    </plurals>
+    <plurals name="hours_abbreviated">
+        <item quantity="other">%d時間</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%d時間</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated">
+        <item quantity="other">%d時間前</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_camera_roll">
+        <item quantity="other">%1$d時間前 - カメラロールから</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_chat">
+        <item quantity="other">%1$d時間前 - チャットから</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_cheerios">
+        <item quantity="other">%1$d時間前 - Pixyから</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d時間前 - %2$sから</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_memories">
+        <item quantity="other">%1$d時間前 - メモリーズから</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_spectacles">
+        <item quantity="other">%1$d時間前 - Spectaclesから</item>
+    </plurals>
+    <plurals name="hours_ago_update">
+        <item quantity="other">%1$s時間前にアップデート済み</item>
+    </plurals>
+    <plurals name="last_seen_here_hours">
+        <item quantity="other">%d時間前にここにいました</item>
+    </plurals>
+    <plurals name="last_seen_here_minutes">
+        <item quantity="other">%d分前にここにいました</item>
+    </plurals>
+    <plurals name="live_location_chat_hours_remaining">
+        <item quantity="other">%d時間</item>
+    </plurals>
+    <plurals name="live_location_description_existing_sessions">
+        <item quantity="other">現時点でこのグループにいるフレンドと現在地をリアルタイムで共有することになります。すでに%d人のフレンドはあなたの現在地を確認することができます。</item>
+    </plurals>
+    <plurals name="live_location_duration_hr">
+        <item quantity="other">%d時間</item>
+    </plurals>
+    <plurals name="live_location_duration_min">
+        <item quantity="other">%d分</item>
+    </plurals>
+    <plurals name="live_location_share_group_description">
+        <item quantity="other">現時点でこのグループにいるフレンドと現在地を共有することになります。%dのメンバーは、フレンドではないためあなたの現在地を取得しません。</item>
+    </plurals>
+    <plurals name="live_location_with_friends">
+        <item quantity="other">%d人のフレンド</item>
+    </plurals>
+    <plurals name="location_upsell_description_specific_friends_more_than_four">
+        <item quantity="other">フレンドの%1$s、%2$s、%3$s、%4$dがマップに表示されました！</item>
+    </plurals>
+    <plurals name="locked_lens_friending_banner_countdown_timer_hours">
+        <item quantity="other">%1$d時間</item>
+    </plurals>
+    <plurals name="locked_lens_friending_banner_countdown_timer_minutes">
+        <item quantity="other">%1$d分</item>
+    </plurals>
+    <plurals name="locked_lens_friending_banner_countdown_timer_seconds">
+        <item quantity="other">%1$d秒</item>
+    </plurals>
+    <plurals name="map_group_card_subtext_friend_sharing">
+        <item quantity="other">%1$d名のフレンドがシェア</item>
+    </plurals>
+    <plurals name="map_passport_and_other">
+        <item quantity="other">と他%d名</item>
+    </plurals>
+    <plurals name="map_passport_bucket_cities_title">
+        <item quantity="other">都市</item>
+    </plurals>
+    <plurals name="map_passport_bucket_countries_title">
+        <item quantity="other">続行</item>
+    </plurals>
+    <plurals name="map_passport_bucket_places_title">
+        <item quantity="other">場所</item>
+    </plurals>
+    <plurals name="map_widget_days_ago">
+        <item quantity="other">%d日</item>
+    </plurals>
+    <plurals name="media_export_service_batch_export_failure">
+        <item quantity="other">%2$d件中%1$d件のSnapがエクスポートされました。%3$d件のSnapはエクスポートできませんでした。</item>
+    </plurals>
+    <plurals name="media_export_service_processing">
+        <item quantity="other">%2$d件中%1$d件のSnapをエクスポート中…</item>
+    </plurals>
+    <plurals name="media_export_service_success">
+        <item quantity="other">Snapがエクスポートされました！</item>
+    </plurals>
+    <plurals name="memories_camera_select_limit_error">
+        <item quantity="other">申し訳ありませんが、一度に選択できるアイテムは%d件のみです。</item>
+    </plurals>
+    <plurals name="memories_delete_camera_roll_image_body">
+        <item quantity="other">これらの画像は、お使いのデバイスから削除されます</item>
+    </plurals>
+    <plurals name="memories_delete_camera_roll_mixed_body">
+        <item quantity="other">これらのアイテムは、お使いのデバイスから削除されます</item>
+    </plurals>
+    <plurals name="memories_delete_camera_roll_video_body">
+        <item quantity="other">これらのビデオは、あなたのデバイスから削除されます</item>
+    </plurals>
+    <plurals name="memories_delete_snap_body">
+        <item quantity="other">Snapを削除しますか？</item>
+    </plurals>
+    <plurals name="memories_delete_story_body">
+        <item quantity="other">ストーリーを削除しますか？</item>
+    </plurals>
+    <plurals name="memories_export_error">
+        <item quantity="other">Snap をエクスポートできません！</item>
+    </plurals>
+    <plurals name="memories_favorite_snaps_story_added">
+        <item quantity="other">%d 個のSnapがお気に入りのストーリーに追加されました</item>
+    </plurals>
+    <plurals name="memories_favorite_snaps_story_removed">
+        <item quantity="other">%d 個のSnapがお気に入りのストーリーから削除されました</item>
+    </plurals>
+    <plurals name="memories_featured_story_flashback_diff_date_subtext">
+        <item quantity="other">%1$d 年前</item>
+    </plurals>
+    <plurals name="memories_featured_story_flashback_same_date_subtext">
+        <item quantity="other">%1$d年前の今日</item>
+    </plurals>
+    <plurals name="memories_featured_story_trip_flashback_chat_prefill_snap">
+        <item quantity="other">%1$s, %2$d 年前</item>
+    </plurals>
+    <plurals name="memories_featured_story_trip_flashback_chat_prefill_story">
+        <item quantity="other">%1$d 年前から</item>
+    </plurals>
+    <plurals name="memories_hide_legacy_auto_saves">
+        <item quantity="other">これらのストーリーのSnapは、引き続き新しいマイストーリーページで利用できます。作成または編集したストーリーには影響ありません。</item>
+    </plurals>
+    <plurals name="memories_hide_legacy_auto_saves_title">
+        <item quantity="other">%d自動保存された古いストーリーを削除しますか？</item>
+    </plurals>
+    <plurals name="memories_print_print_created">
+        <item quantity="other">3Dプリント%d件が作成されました</item>
+    </plurals>
+    <plurals name="memories_print_processing">
+        <item quantity="other">Snap%d件を印刷処理中...</item>
+    </plurals>
+    <plurals name="memories_remove_older_stories_dialog_title">
+        <item quantity="other">これで %d 自動保存された古いストーリーを削除します。</item>
+    </plurals>
+    <plurals name="memories_select_limit_error">
+        <item quantity="other">申し訳ありませんが、一度に選択できるSnapは%d件のみです。</item>
+    </plurals>
+    <plurals name="memories_status_transfer_complete_in_app_notification_text">
+        <item quantity="other">%1$d%2$sからのSnapのインポート完了</item>
+    </plurals>
+    <plurals name="memories_status_transfer_complete_title">
+        <item quantity="other">%d件のSnapのインポート完了</item>
+    </plurals>
+    <plurals name="memories_status_transfer_from_device_complete_title">
+        <item quantity="other">%sからの新着Snap</item>
+    </plurals>
+    <plurals name="memories_status_transferring_title">
+        <item quantity="other">%2$d件中%1$d件のSnapをインポート中…</item>
+    </plurals>
+    <plurals name="memories_story_editor_add_snap_selected">
+        <item quantity="other">%d選択済み</item>
+    </plurals>
+    <plurals name="minutes_abbreviated">
+        <item quantity="other">%d分</item>
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="other">%d分</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated">
+        <item quantity="other">%d分前</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_camera_roll">
+        <item quantity="other">%1$d分前 - カメラロールから</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_chat">
+        <item quantity="other">%1$d分前 - チャットから</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_cheerios">
+        <item quantity="other">%1$d分前 - Pixyから</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d分前 - %2$sから</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_memories">
+        <item quantity="other">%1$d分前 - メモリーズから</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_spectacles">
+        <item quantity="other">%1$d分前 - Spectaclesから</item>
+    </plurals>
+    <plurals name="minutes_ago_update">
+        <item quantity="other">%1$s分前にアップデート済み</item>
+    </plurals>
+    <plurals name="months_abbreviated">
+        <item quantity="other">%dヶ月</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated">
+        <item quantity="other">%dヶ月前</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_camera_roll">
+        <item quantity="other">%1$dヶ月前 - カメラロールから</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_chat">
+        <item quantity="other">%1$dヶ月前 - チャットから</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_cheerios">
+        <item quantity="other">%1$dヶ月前 - Pixyから</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$dヶ月前 - %2$sから</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_memories">
+        <item quantity="other">%1$dヶ月前 - メモリーズから</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_spectacles">
+        <item quantity="other">%1$dヶ月前 - Spectaclesから</item>
+    </plurals>
+    <plurals name="months_ago_update">
+        <item quantity="other">%1$sヶ月前にアップデート済み</item>
+    </plurals>
+    <plurals name="more_stories">
+        <item quantity="other">%d ストーリーをさらに表示</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d 件の新しい通知</item>
+        <item quantity="one">%d 件の新しい通知</item>
+    </plurals>
+    <plurals name="muted_stories">
+        <item quantity="other">%d ミュート済みのストーリー</item>
+    </plurals>
+    <plurals name="new_registration_continue_with_n_friends">
+        <item quantity="other">%d人のフレンド追加</item>
+    </plurals>
+    <plurals name="num_hours">
+        <item quantity="other">%d時間</item>
+    </plurals>
+    <plurals name="num_minutes">
+        <item quantity="other">%d分</item>
+    </plurals>
+    <plurals name="nyc_audience_many_and_x_others">
+        <item quantity="other">%1$s+%2$d他</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_ft">
+        <item quantity="other">フィート</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_km">
+        <item quantity="other">km</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_m">
+        <item quantity="other">m</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_mile">
+        <item quantity="other">マイル</item>
+    </plurals>
+    <plurals name="nyc_friends_many_and_x_others">
+        <item quantity="other">%1$sと%2$sはすでにあなたと現在地を共有しています</item>
+    </plurals>
+    <plurals name="nyc_sharing_live_location_with_friends">
+        <item quantity="other">"%1$s人のフレンドと現在地を共有中です。 "</item>
+    </plurals>
+    <plurals name="nyc_unhide_live_location_friend_dialog_title">
+        <item quantity="other">その他%1$d人のフレンドには現在地を非表示にしています。</item>
+    </plurals>
+    <plurals name="pairing_validation_description">
+        <item quantity="other">Pixyに以前のユーザーからのSnapが%d個あります。このデバイスとペアリングするとデバイスはリセットされ、すべてのSnapとユーザーデータは消去されます。</item>
+    </plurals>
+    <plurals name="payments_num_purchased_items">
+        <item quantity="other">%dアイテム</item>
+    </plurals>
+    <plurals name="pending_syncs_logout_warning">
+        <item quantity="other">%1$d件のSnapがまだメモリーズにバックアップされていません。このままログアウトすると、Snapが消去される場合があります。</item>
+    </plurals>
+    <plurals name="perception_lens_collection_scan_card_lenses_count">
+        <item quantity="other">%dレンズ</item>
+    </plurals>
+    <plurals name="perception_lenses_scan_card_try_lenses">
+        <item quantity="other">レンズを試す(%d)</item>
+    </plurals>
+    <plurals name="play_with_max_player_alert_text">
+        <item quantity="other">このゲームのプレイ人数は最大%1$d人です</item>
+    </plurals>
+    <plurals name="post_pairing_import_title">
+        <item quantity="other">%d件の新着Snap</item>
+    </plurals>
+    <plurals name="registration_continue_with_n_friends">
+        <item quantity="other">+%d人のフレンドを追加</item>
+    </plurals>
+    <plurals name="save_button_tooltip_saved_multiple">
+        <item quantity="other">%1$d 個のSnapを保存しました！</item>
+    </plurals>
+    <plurals name="saved_media_gallery_attribution_media_count">
+        <item quantity="other">Snap%s件</item>
+    </plurals>
+    <plurals name="seconds_abbreviated">
+        <item quantity="other">%d秒</item>
+    </plurals>
+    <plurals name="seconds_ago">
+        <item quantity="other">%d秒</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated">
+        <item quantity="other">%d秒前</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_camera_roll">
+        <item quantity="other">%1$d秒前 - カメラロールから</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_chat">
+        <item quantity="other">%1$d秒前 - チャットから</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_cheerios">
+        <item quantity="other">%1$d秒前 - Pixyから</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d秒前 - %2$sから</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_memories">
+        <item quantity="other">%1$d秒前 - メモリーズから</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_spectacles">
+        <item quantity="other">%1$d秒前 - Spectaclesから</item>
+    </plurals>
+    <plurals name="seconds_ago_update">
+        <item quantity="other">%1$s 秒前にアップデート済み</item>
+    </plurals>
+    <plurals name="select_friend_friend">
+        <item quantity="other">%1$d人のフレンド</item>
+    </plurals>
+    <plurals name="select_friend_other">
+        <item quantity="other">%1$s＆他%2$d名</item>
+    </plurals>
+    <plurals name="settings_birthday_update_years_old">
+        <item quantity="other">私は%d歳です。</item>
+    </plurals>
+    <plurals name="snap_timer_selection_units">
+        <item quantity="other">秒</item>
+    </plurals>
+    <plurals name="snaps_count">
+        <item quantity="other">%1$d件のSnap</item>
+    </plurals>
+    <plurals name="spectacles_export_customization_description">
+        <item quantity="other">Snapのエクスポート形式を選択してください。</item>
+    </plurals>
+    <plurals name="spotlight_comments_count_notification_title">
+        <item quantity="other">スポットライトで保留中のコメントが%d件あります</item>
+    </plurals>
+    <plurals name="status_views">
+        <item quantity="other">%d閲覧回数</item>
+    </plurals>
+    <plurals name="still_sharing_last_active_location_description">
+        <item quantity="other">"現在地は非表示ですが、%1$s人のフレンドがまだ直近の位置情報を見ることができます。
+
+ これはマップの設定から変更が可能です"</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_change_audience">
+        <item quantity="other">位置情報の設定を保存しましたが、%1$s人のフレンドにはあなたの現在地がまだ見えています。共有を停止するには、名前の横にある「停止」をタップしてください。</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_enter_ghost_mode">
+        <item quantity="other">現在ゴーストモードになっていますが、%1$s人のフレンドにはあなたの現在地がまだ見えています。共有を停止するには、名前の横にある「停止」をタップしてください。</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_enter_ghost_mode_ghost_trail">
+        <item quantity="other">"現在ゴーストモードになっていますが、%1$s人のフレンドにはあなたの現在地がまだ見えています。共有を停止するには、名前の横にある「停止」をタップしてください。
+
+ゴーストモード中は、あなたの位置情報はゴーストトレイルに追加されません。"</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_enter_ghost_mode_hide_live_location">
+        <item quantity="other">現在ゴーストモードになっていますが、%1$s人のフレンドにはあなたの現在地がまだ見えています。共有を一時停止するには、下の「現在地を非表示」をタップしてください。</item>
+    </plurals>
+    <plurals name="story_friend_story_notification_title_update">
+        <item quantity="other">%d人のフレンドがストーリーを投稿しました</item>
+    </plurals>
+    <plurals name="story_fullscreen_footer_view_count">
+        <item quantity="other">閲覧数：%d</item>
+    </plurals>
+    <plurals name="story_management_viewer_list_more_viewers">
+        <item quantity="other">+%1$d人</item>
+    </plurals>
+    <plurals name="story_mob_subtext_more">
+        <item quantity="other">%1$s、他%2$d人...</item>
+    </plurals>
+    <plurals name="story_profile_communities_members">
+        <item quantity="other">認証済み・メンバー%d人</item>
+    </plurals>
+    <plurals name="story_profile_shared_stories_members">
+        <item quantity="other">メンバー%d人</item>
+    </plurals>
+    <plurals name="story_profile_stories_adding">
+        <item quantity="other">%d件のSnapを追加中...</item>
+    </plurals>
+    <plurals name="story_profile_stories_failed_to_add">
+        <item quantity="other">Snap%d件を投稿できませんでした</item>
+    </plurals>
+    <plurals name="story_profile_stories_waiting_to_add">
+        <item quantity="other">Snap%d件を投稿中...</item>
+    </plurals>
+    <plurals name="story_settings_action_menu_my_story_blocked_number_of_people">
+        <item quantity="other">%d人</item>
+    </plurals>
+    <plurals name="streak_restore_dialog_subtitle_free_restore">
+        <item quantity="other">%1$d回無料で回復できます。</item>
+    </plurals>
+    <plurals name="streak_restore_dialog_subtitle_hours">
+        <item quantity="other">ストリークが完全に消える前に%1$sとのストリークを回復できるのはあと%2$d時間です！</item>
+    </plurals>
+    <plurals name="streak_restore_dialog_subtitle_minutes">
+        <item quantity="other">ストリークが完全に消える前に%1$sとのストリークを回復できるのはあと%2$d分です！</item>
+    </plurals>
+    <plurals name="subtitle_sharing_custom_friends">
+        <item quantity="other">%d人のフレンドと</item>
+    </plurals>
+    <plurals name="takeover_request_index_and_total">
+        <item quantity="other">%1$d の %2$d 新しく追加されたフレンド</item>
+    </plurals>
+    <plurals name="ticketmaster_events_label">
+        <item quantity="other">イベント</item>
+    </plurals>
+    <plurals name="watched_stories">
+        <item quantity="other">%d閲覧したストーリー</item>
+    </plurals>
+    <plurals name="weeks">
+        <item quantity="other">%d週</item>
+    </plurals>
+    <plurals name="weeks_abbreviated">
+        <item quantity="other">%d週間</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated">
+        <item quantity="other">%d週間前</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_camera_roll">
+        <item quantity="other">%1$d週間前 - カメラロールから</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_chat">
+        <item quantity="other">%1$d週間前 - チャットから</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_cheerios">
+        <item quantity="other">%1$d週間前 - Pixyから</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d週間前 - %2$sから</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_memories">
+        <item quantity="other">%1$d週間前 - メモリーズから</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_spectacles">
+        <item quantity="other">%1$d週間前 - Spectaclesから</item>
+    </plurals>
+    <plurals name="weeks_ago_update">
+        <item quantity="other">%1$s 週間前にアップデート済み</item>
+    </plurals>
+    <plurals name="years_abbreviated">
+        <item quantity="other">%d年</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated">
+        <item quantity="other">%d年前</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_camera_roll">
+        <item quantity="other">%1$d年前 - カメラロールから</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_chat">
+        <item quantity="other">%1$d年前- チャットから</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_cheerios">
+        <item quantity="other">%1$d年前 - Pixyから</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d年前 - %2$sから</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_memories">
+        <item quantity="other">%1$d年前 - メモリーズから</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_spectacles">
+        <item quantity="other">%1$d年前 - Spectaclesから</item>
+    </plurals>
+    <plurals name="years_ago_update">
+        <item quantity="other">%1$s 年前にアップデート済み</item>
+    </plurals>
+</resources>

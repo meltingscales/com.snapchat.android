@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="start|center_vertical" android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/cognac_conversation_info_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.snap.ui.avatar.AvatarView android:id="@+id/cognac_conversation_info_avatar" android:layout_width="@dimen/cognac_status_bar_item_thumbnail_size" android:layout_height="@dimen/cognac_status_bar_item_thumbnail_size" android:layout_marginStart="@dimen/default_gap" app:isCircular="true"/>
+    <com.snap.ui.view.SnapFontTextView android:textSize="?attr/v11Subtitle3TextSize" android:textColor="@color/sig_color_flat_pure_white_any_alpha_80" android:ellipsize="end" android:id="@+id/cognac_conversation_info_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="@dimen/default_gap_1_5x" app:scFontWeight="1"/>
+</LinearLayout>

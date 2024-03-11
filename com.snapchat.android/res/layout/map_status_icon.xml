@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/map_status_container" style="@style/map_tray_button_style"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:layout_width="@dimen/map_tray_button_background_size" android:layout_height="@dimen/map_tray_button_background_size" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/map_status_icon_view" />
+    <com.snap.ui.view.SnapFontTextView android:id="@id/map_status_text" android:text="@string/map_bitmoji_button_title" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/map_status_icon" app:scFontWeight="bolder" style="@style/map_tray_button_text_style" />
+    <com.snap.ui.view.SnapFontTextView android:id="@id/ngs_map_status_text" android:visibility="gone" android:text="@string/map_bitmoji_button_title" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/map_status_icon" app:scFontWeight="bolder" style="@style/map_tray_button_ngs_text_style" />
+</androidx.constraintlayout.widget.ConstraintLayout>

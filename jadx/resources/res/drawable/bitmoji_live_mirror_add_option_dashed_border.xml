@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="@dimen/live_mirror_option_dashed_border_inset" android:top="@dimen/live_mirror_option_dashed_border_inset" android:right="@dimen/live_mirror_option_dashed_border_inset" android:bottom="@dimen/live_mirror_option_dashed_border_inset">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/action_menu_background_corner_radius"/>
+            <stroke android:width="@dimen/live_mirror_option_border_width" android:color="@color/sig_color_flat_pure_black_any_alpha_5" android:dashWidth="@dimen/live_mirror_option_border_dash_width" android:dashGap="@dimen/live_mirror_option_border_dash_width"/>
+        </shape>
+    </item>
+</layer-list>

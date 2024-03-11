@@ -1,0 +1,19 @@
+{
+  "id": "30973717251",
+  "code": "happy_birthday",
+  "type": "BUNDLED_METADATA",
+  "icon_link": "https://lens-storage.storage.googleapis.com/png/c4a78a3c-1b49-46ae-9b2f-98297dff0508",
+  "hint_id": "",
+  "mLensLink": "https://lens-storage.storage.googleapis.com/zip/536af58e-b18c-4907-b8af-9c9520f86aff",
+  "mSignature": "MGUCMQC0ispDOQoQlA2XuAybihzaSn5PbixosoVzLA46nyn0aELPiDjR6eZL9y4cKn8ykHkCMGE7Tm/nbkhmeJqMOv5kgvipU1F2BP3vjoRt3ohM7WyQ42lHG0CYaUVas/bM0pShsA==",
+  "lensContext": {
+      "cameraContexts": ["FRONT_FACING", "REAR_FACING"],
+      "applicableContexts": ["LIVE_CAMERA", "VIDEO_CHAT"]
+  },
+  "categories": [{
+    "id": "LENS_CATEGORY_SELFIE",
+    "activator": "SELFIE",
+    "additional_carousel_categories": ["LENS_CATEGORY_SKY"]
+  }],
+  "enabled": true
+}

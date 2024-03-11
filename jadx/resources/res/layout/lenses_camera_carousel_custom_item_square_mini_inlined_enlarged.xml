@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.lenses.carousel.DefaultCarouselItemView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/lenses_camera_carousel_item_view" android:layout_width="@dimen/lens_camera_carousel_item_size_mini_enlarged" android:layout_height="@dimen/lens_camera_carousel_item_size_mini_inlined_height" android:layout_marginLeft="7dp" android:layout_marginRight="7dp">
+    <com.snap.lenses.common.RoundedImageView android:layout_gravity="center" android:id="@+id/item_image" android:layout_width="@dimen/lens_camera_carousel_item_size_mini_enlarged" android:layout_height="@dimen/lens_camera_carousel_item_size_mini_inlined_height" android:contentDescription="@null" android:elevation="@dimen/lens_camera_mini_carousel_item_elevation"/>
+</com.snap.lenses.carousel.DefaultCarouselItemView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="@dimen/timeline_thumbnail_border_width" android:color="@color/sig_color_flat_pure_white_any" />
+    <corners android:radius="@dimen/director_mode_thumbnail_border_radius" />
+</shape>

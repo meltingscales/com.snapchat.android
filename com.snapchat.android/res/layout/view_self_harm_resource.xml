@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.snap.component.button.SnapButtonView android:textColor="?sigColorTextPrimary" android:id="@id/self_harm_resource_button" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" app:button_style="small_button_rectangle_gray" app:scButtonTextSize="13.0sp" app:scFontWeight="bold" />
+    <com.snap.ui.view.SnapFontTextView android:textSize="?v11Subtitle3TextSize" android:textColor="?sigColorTextPrimary" android:textColorLink="@color/sig_color_base_blue_regular_any" android:gravity="center" android:id="@id/self_harm_resource_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" />
+</merge>

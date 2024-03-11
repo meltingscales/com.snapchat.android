@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="bottom" android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/action_menu_container" android:background="@drawable/reply_bar_gradient" android:paddingBottom="@dimen/default_gap_1_5x" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="1">
+    <FrameLayout android:id="@+id/scoller_container" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/cta_container" android:paddingLeft="@dimen/default_gap_2x" android:paddingTop="8dp" android:paddingRight="@dimen/default_gap_2x" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:divider="@drawable/context_cta_divider" android:showDividers="middle">
+        <LinearLayout android:id="@+id/primary_btn" android:background="@drawable/story_gray_button_background" android:visibility="gone" style="@style/WideCtaButtonStyle">
+            <ImageView android:layout_width="@dimen/context_my_story_memory_size" android:layout_height="@dimen/context_my_story_memory_size" android:src="@drawable/preview_story" android:tint="@color/sig_color_flat_pure_white_any" style="@style/WideCtaIcon"/>
+            <com.snap.ui.view.SnapFontTextView android:textColor="@color/sig_color_flat_pure_white_any" android:id="@+id/primary_btn_text" android:layout_marginStart="@dimen/default_gap" style="@style/WideCtaTextStyle"/>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/context_send_btn" android:background="@drawable/v11_blue_button_background" android:visibility="gone" style="@style/WideCtaButtonStyle">
+            <com.snap.ui.view.SnapFontTextView android:textColor="@color/sig_color_flat_pure_white_any" android:id="@+id/send_btn_text" android:text="@string/send_to" android:layout_marginEnd="@dimen/default_gap" style="@style/WideCtaTextStyle"/>
+            <ImageView android:id="@+id/send_btn_arrow" android:src="@drawable/svg_ngs_preview_send_15x15_auto_mirror" android:tint="@color/sig_color_flat_pure_white_any" style="@style/WideCtaIcon"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

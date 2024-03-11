@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/spinner_container_top" android:layout_width="fill_parent" android:layout_height="@dimen/loading_spinner_waiting_for_mda_horizontal_container_height">
+        <com.snap.ui.view.LoadingSpinnerView android:layout_gravity="center" android:layout_width="@dimen/icon_size_larger" android:layout_height="@dimen/icon_size_larger" app:loading_spinner_color="@color/sig_color_flat_pure_white_any" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/spinner_container_bottom" android:layout_width="fill_parent" android:layout_height="@dimen/loading_spinner_waiting_for_mda_horizontal_container_height">
+        <com.snap.ui.view.LoadingSpinnerView android:layout_gravity="center" android:layout_width="@dimen/icon_size_larger" android:layout_height="@dimen/icon_size_larger" app:loading_spinner_color="@color/sig_color_flat_pure_white_any" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="start" android:id="@id/spinner_container_left" android:layout_width="@dimen/loading_spinner_waiting_for_mda_vertical_container_width" android:layout_height="fill_parent">
+        <com.snap.ui.view.LoadingSpinnerView android:layout_gravity="center" android:layout_width="@dimen/icon_size_larger" android:layout_height="@dimen/icon_size_larger" app:loading_spinner_color="@color/sig_color_flat_pure_white_any" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="end" android:id="@id/spinner_container_right" android:layout_width="@dimen/loading_spinner_waiting_for_mda_vertical_container_width" android:layout_height="fill_parent">
+        <com.snap.ui.view.LoadingSpinnerView android:layout_gravity="center" android:layout_width="@dimen/icon_size_larger" android:layout_height="@dimen/icon_size_larger" app:loading_spinner_color="@color/sig_color_flat_pure_white_any" />
+    </FrameLayout>
+</FrameLayout>

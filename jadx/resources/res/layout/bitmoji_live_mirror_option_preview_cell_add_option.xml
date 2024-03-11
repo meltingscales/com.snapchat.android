@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/item" android:background="@drawable/bitmoji_live_mirror_add_option_dashed_border" android:layout_width="@dimen/live_mirror_option_preview_cell_width" android:layout_height="match_parent" android:layout_marginStart="@dimen/live_mirror_option_preview_cell_paddingSides" android:layout_marginEnd="@dimen/live_mirror_option_preview_cell_paddingSides">
+    <com.snap.imageloading.view.SnapImageView android:layout_gravity="center" android:id="@+id/preview_image" android:layout_width="50dp" android:layout_height="50dp" android:src="@drawable/bitmoji_live_mirror_option_preview_cell_add_option_button" android:scaleType="fitXY"/>
+</FrameLayout>

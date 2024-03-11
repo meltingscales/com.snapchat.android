@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.imageloading.view.SnapImageView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="@dimen/capture_cool_recording_lens_button_size" android:layout_height="@dimen/capture_cool_recording_lens_button_size"/>

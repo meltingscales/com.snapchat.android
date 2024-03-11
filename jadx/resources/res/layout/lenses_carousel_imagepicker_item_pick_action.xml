@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.imageloading.view.SnapImageView xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/lenses_carousel_imagepicker_pick_gallery_item_bg" android:layout_width="@dimen/lenses_carousel_imagepicker_item_size" android:layout_height="@dimen/lenses_carousel_imagepicker_item_size" android:src="@drawable/svg_image_picker_plus_sign" android:scaleType="center"/>

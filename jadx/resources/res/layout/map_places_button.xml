@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/map_places_button" android:visibility="gone" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" style="@style/map_tray_button_style">
+    <include android:layout_width="@dimen/map_tray_button_background_size" android:layout_height="@dimen/map_tray_button_background_size" app:layout_constraintEnd_toEndOf="0" app:layout_constraintHorizontal_bias="0.5" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" layout="@layout/places_icon"/>
+    <com.snap.ui.view.SnapFontTextView android:id="@+id/ngs_map_places_text" android:text="@string/map_places" app:layout_constraintEnd_toEndOf="0" app:layout_constraintHorizontal_bias="0.5" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="@+id/map_places_icon" app:scFontWeight="2" style="@style/map_tray_button_ngs_text_style"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

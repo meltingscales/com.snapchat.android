@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="?attr/sigColorBackgroundSubscreen" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/custom_emoji_header_min_height">
+    <TextView android:gravity="center_horizontal" android:id="@+id/friendmoji_picker_info" android:padding="@dimen/default_gap" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/custom_emoji_header_detail_margin" style="@style/FriendmojiPickerTextStyle"/>
+</FrameLayout>

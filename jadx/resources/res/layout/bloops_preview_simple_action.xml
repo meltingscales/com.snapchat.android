@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/action_block" android:background="@drawable/bloops_action_menu_item_selector" android:layout_width="match_parent" android:layout_height="@dimen/bloops_preview_actions_item_height" android:layout_marginLeft="@dimen/bloops_preview_actions_margin" android:layout_marginRight="@dimen/bloops_preview_actions_margin" android:layout_marginBottom="@dimen/bloops_preview_actions_margin">
+    <com.snap.ui.view.SnapFontTextView android:textSize="?attr/v11Title1TextSize" android:textColor="?attr/sigColorTextPrimary" android:layout_gravity="center" android:id="@+id/text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" app:scFontWeight="2"/>
+</FrameLayout>

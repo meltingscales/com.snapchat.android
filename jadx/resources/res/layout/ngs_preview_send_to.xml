@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:layout_gravity="bottom|right" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="@dimen/preview_action_bar_send_button_height" android:layout_marginTop="@dimen/preview_action_bar_vertical_margin" android:layout_marginRight="@dimen/preview_action_bar_send_button_right_margin" android:layout_marginBottom="@dimen/preview_action_bar_vertical_margin" layout="@layout/ngs_send_to_button"/>
+</FrameLayout>

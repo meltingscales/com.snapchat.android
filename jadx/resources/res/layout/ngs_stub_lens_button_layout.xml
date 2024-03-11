@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr">
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="bottom|center_horizontal" android:id="@+id/stub_lens_button" android:background="@drawable/ngs_memories_gray_background" android:layout_width="@dimen/ngs_stub_lens_button_size" android:layout_height="@dimen/ngs_stub_lens_button_size" android:layout_marginBottom="@dimen/ngs_stub_lens_button_margin_bottom" android:src="@drawable/svg_lens_button" android:layout_marginStart="@dimen/ngs_stub_lens_button_margin_left"/>
+</FrameLayout>

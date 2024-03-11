@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.snap.bloops.camera.view.BloopsCameraPreview android:id="@+id/camera_camera_preview" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.snap.imageloading.view.SnapImageView android:id="@+id/bloops_selfie_placeholder" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.snap.bloops.camera.view.BloopsCameraFaceMaskView android:id="@+id/bloops_camera_face_mask" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <include layout="@layout/bloops_camera_capture_layout"/>
+</FrameLayout>

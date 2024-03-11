@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:top="@dimen/section_card_border_padding">
+        <shape android:shape="rectangle">
+            <solid android:color="?attr/sigColorBackgroundSurface"/>
+            <corners android:bottomLeftRadius="@dimen/v11_card_border_radius"/>
+        </shape>
+    </item>
+</layer-list>

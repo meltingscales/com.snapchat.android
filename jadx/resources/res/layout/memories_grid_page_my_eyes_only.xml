@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ViewStub android:id="@+id/memories_grid_page_meo_unlock_view_stub" android:layout="@layout/memories_grid_page_meo_unlock" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ViewStub android:id="@+id/memories_grid_page_snaps_view_stub" android:layout="@layout/memories_grid_new_snaps_tab" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ViewStub android:id="@+id/memories_grid_page_meo_setup_stub" android:layout="@layout/memories_empty_state_snap_tab" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <ViewStub android:id="@+id/memories_grid_page_meo_empty_state_stub" android:layout="@layout/memories_empty_state_snap_tab" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</FrameLayout>

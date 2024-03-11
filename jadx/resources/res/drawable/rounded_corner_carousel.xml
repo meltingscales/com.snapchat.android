@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="false">
+        <shape>
+            <corners android:radius="@dimen/carousel_item_radius"/>
+            <solid android:color="@color/sig_color_flat_pure_white_any_alpha_10"/>
+        </shape>
+    </item>
+    <item android:state_selected="true">
+        <shape>
+            <corners android:radius="@dimen/carousel_item_radius"/>
+            <solid android:color="@color/sig_color_base_blue_regular_any"/>
+        </shape>
+    </item>
+</selector>

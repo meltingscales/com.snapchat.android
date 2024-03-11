@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.lenses.app.camera.sendto.DefaultSendToActionView android:id="@id/lenses_camera_send_to_action" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.snap.imageloading.view.SnapImageView android:id="@id/lenses_send_to_button_icon" android:background="@drawable/lenses_camera_action_button_background" android:padding="@dimen/lens_camera_action_view_icon_padding" android:layout_width="@dimen/lens_camera_action_view_size" android:layout_height="@dimen/lens_camera_action_view_size" android:src="@drawable/svg_export_24x24" android:tint="@color/sig_color_flat_pure_white_any" />
+</com.snap.lenses.app.camera.sendto.DefaultSendToActionView>

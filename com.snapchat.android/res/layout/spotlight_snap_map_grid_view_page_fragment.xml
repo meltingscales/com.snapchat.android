@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/spotlight_snap_map_grid_view_page" android:background="?sigColorBackgroundSubscreen" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/spotlight_snap_map_grid_view_page_recycler_view" android:paddingTop="@dimen/v11_subscreen_header_height" android:paddingBottom="@dimen/default_gap_6x" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+    <com.snap.component.header.SnapSubscreenHeaderView android:id="@id/spotlight_snap_map_grid_view_page_header" style="@style/subscreen_header_default" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

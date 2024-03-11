@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <files-path name="media_package_directory" path="file_manager/media" />
+    <external-path name="snapchat_album" path="Snapchat" />
+    <external-path name="spectacles_album" path="Spectacles" />
+    <external-files-path name="images" path="Pictures" />
+    <files-path name="friend_location_widget_background" path="mapwidget.oplus.OplusFileSharer" />
+    <files-path name="non_user_scoped_native_content_directory" path="native_content_manager/com.snap.file_manager_4_SCContent_" />
+    <files-path name="bitmoji_avatars" path="file_manager/bitmoji_avatar" />
+</paths>

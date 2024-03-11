@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/lenses_explorer_feed_section_parent" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/Parent.NonClipping">
+    <ViewStub android:id="@+id/lenses_explorer_feed_section_stub" android:inflatedId="@+id/lenses_explorer_feed_section" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</FrameLayout>

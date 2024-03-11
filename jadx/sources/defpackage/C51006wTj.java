@@ -1,0 +1,62 @@
+package defpackage;
+
+import java.util.Map;
+import java.util.Set;
+
+/* renamed from: wTj  reason: default package and case insensitive filesystem */
+/* loaded from: classes8.dex */
+public final class C51006wTj extends AbstractC29625iZj {
+    public String k;
+    public EnumC49474vTj l;
+    public Double m;
+
+    public C51006wTj() {
+        super("SPECTACLES_HERMOSA_PROXY_STOPPED", EnumC45985tCg.BUSINESS, 1.0d, 1.0d);
+    }
+
+    @Override // defpackage.InterfaceC42467qug
+    public final int b() {
+        return 2882;
+    }
+
+    @Override // defpackage.InterfaceC42467qug
+    public final void c(C38303oC7 c38303oC7, Set set) {
+        byte[] bArr = new byte[1];
+        AbstractC39604p2m.O0(c38303oC7, 2, bArr, this.f, set);
+        AbstractC39604p2m.O0(c38303oC7, 3, bArr, this.g, set);
+        AbstractC39604p2m.L0(c38303oC7, 4, bArr, this.i, set);
+        AbstractC39604p2m.O0(c38303oC7, 5, bArr, this.h, set);
+        AbstractC39604p2m.K0(c38303oC7, 6, bArr, this.m, set);
+        AbstractC39604p2m.O0(c38303oC7, 7, bArr, this.k, set);
+        AbstractC39604p2m.L0(c38303oC7, 8, bArr, this.l, set);
+        AbstractC39604p2m.O0(c38303oC7, 9, bArr, this.j, set);
+        c38303oC7.j(bArr);
+    }
+
+    @Override // defpackage.AbstractC29625iZj, defpackage.AbstractC13793Vtm, defpackage.AbstractC55051z78, defpackage.InterfaceC33853lIc
+    public final int d(Map map) {
+        EnumC49474vTj enumC49474vTj;
+        int d = super.d(map);
+        Double d2 = (Double) map.get("proxy_session_duration_in_sec");
+        this.m = d2;
+        if (d2 != null) {
+            d++;
+        }
+        String str = (String) map.get("proxy_session_id");
+        this.k = str;
+        if (str != null) {
+            d++;
+        }
+        if (map.containsKey("stop_reason")) {
+            Object obj = map.get("stop_reason");
+            if (obj instanceof String) {
+                enumC49474vTj = EnumC49474vTj.valueOf((String) obj);
+            } else {
+                enumC49474vTj = (EnumC49474vTj) obj;
+            }
+            this.l = enumC49474vTj;
+            return d + 1;
+        }
+        return d;
+    }
+}

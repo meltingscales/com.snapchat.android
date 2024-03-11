@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="?attr/sigColorBackgroundSubscreen"/>
+    <corners android:topLeftRadius="@dimen/v11_subscreen_bacgkround_corner_radius" android:topRightRadius="@dimen/v11_subscreen_bacgkround_corner_radius"/>
+</shape>

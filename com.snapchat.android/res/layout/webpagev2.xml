@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/webpage_frame_layout" android:background="@android:color/transparent" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.snap.web.core.lib.webview.URLBar android:layout_gravity="top" android:id="@id/webpage_url_bar" android:layout_width="fill_parent" android:layout_height="@dimen/web_page_url_bar_v2_height" />
+    <com.snap.openview.viewgroup.OpenLayout android:id="@id/webview_container_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:background="?sigColorBackgroundMain" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.snap.openview.viewgroup.OpenLayout>
+    <ImageButton android:layout_gravity="bottom|center|right" android:id="@id/webview_share_button" android:background="@drawable/opera_webview_share_button" android:visibility="gone" android:layout_width="@dimen/in_app_webview_share_button_size" android:layout_height="@dimen/in_app_webview_share_button_size" android:layout_margin="@dimen/in_app_webview_share_button_margin" android:scaleType="fitXY" android:contentDescription="@string/share_web_url" />
+    <include layout="@layout/remote_webpage_safebrowsing_warning" />
+</FrameLayout>

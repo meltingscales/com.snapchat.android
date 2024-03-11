@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/set_phone_page" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/default_gap">
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/default_gap_5x" android:layout_marginEnd="@dimen/default_gap_5x">
+            <com.snap.ui.view.SnapFontTextView android:textSize="?attr/v11Subtitle3TextSize" android:textStyle="bold" android:textColor="?attr/sigColorTextPrimary" android:gravity="center_horizontal" android:id="@+id/set_phone_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/phone_number_verification_title"/>
+            <com.snap.ui.view.SnapFontTextView android:textColor="?attr/sigColorTextSecondary" android:gravity="center_horizontal" android:id="@+id/phone_in_app_verification_explanation" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/phone_verification_need_phone_number_post_verification_explanation"/>
+            <com.snap.ui.view.SnapFontTextView android:id="@+id/phone_form_hint" android:text="@string/set_phone_hint" style="@style/IdentityFieldHint"/>
+            <com.snap.identity.ui.shared.phonenumber.PhonePickerView android:id="@+id/phone_picker" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <com.snap.ui.view.SnapFontTextView android:textColor="?attr/sigColorTextPrimary" android:id="@+id/send_sms_explanation" android:text="@string/we_will_send_notice" android:textAllCaps="false" style="@style/IdentityFieldSubtext"/>
+            <com.snap.ui.view.SnapFontTextView android:id="@+id/phone_error_message" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/IdentityFieldSubtextError"/>
+            <View android:layout_width="match_parent" android:layout_height="@dimen/default_gap_2x"/>
+        </LinearLayout>
+    </ScrollView>
+    <com.snap.identity.api.sharedui.ProgressButton android:layout_gravity="center_horizontal" android:id="@+id/next_button" android:background="@drawable/progress_button_background" android:layout_width="@dimen/registration_continue_button_width" android:layout_height="@dimen/registration_continue_button_height" android:layout_marginBottom="@dimen/default_gap_2x" custom:buttonColorOfEnableState="@color/sig_color_base_blue_regular_any" custom:buttonColorOfEnableStatePressed="@color/sig_color_base_blue_regular_any" custom:buttonText="@string/continue_next"/>
+</LinearLayout>

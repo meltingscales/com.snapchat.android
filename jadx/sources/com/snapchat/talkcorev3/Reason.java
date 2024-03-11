@@ -1,0 +1,15 @@
+package com.snapchat.talkcorev3;
+
+/* loaded from: classes8.dex */
+public enum Reason {
+    NORMAL,
+    CALLING_REJECTED_AUDIO,
+    CALLING_REJECTED_VIDEO,
+    RINGING_ENDED,
+    REMOTE_HUNG_UP,
+    CONNECTION_FAILED,
+    CONNECTION_FAILED_UNREACHABLE,
+    CALLING_TIMED_OUT,
+    HANDLED_ON_ANOTHER_DEVICE,
+    PARTICIPANT_UPDATE
+}

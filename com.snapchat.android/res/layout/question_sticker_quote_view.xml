@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.snap.ui.view.SnapFontTextView android:textColor="@color/sig_color_flat_pure_white_any" android:gravity="center" android:id="@id/question_sticker_quote_question" android:background="@drawable/quote_sticker_top" android:padding="@dimen/default_gap" android:layout_width="fill_parent" android:layout_height="wrap_content" app:scFontWeight="bold" style="@style/TextAppearance.Body" />
+    <com.snap.ui.view.SnapFontTextView android:textColor="@color/sig_color_flat_pure_white_any" android:ellipsize="end" android:gravity="center" android:id="@id/question_sticker_quote_response" android:background="@drawable/quote_sticker_bottom" android:padding="@dimen/default_gap" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="12" app:scFontWeight="bold" style="@style/TextAppearance.Body" />
+</merge>

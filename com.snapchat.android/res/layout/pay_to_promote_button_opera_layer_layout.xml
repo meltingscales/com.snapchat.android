@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="end|center|top" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/pay_to_promote_clickable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pay_to_promote_button_margin_top_clickable_layout">
+        <com.snap.component.button.SnapButtonView android:id="@id/pay_to_promote_v2_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pay_to_promote_button_margin_top_blue_button" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bloops_onboarding_clear_in_settings_hint_margin_bottom">12dp</dimen>
+    <dimen name="bloops_onboarding_description_margin_top">16dp</dimen>
+    <dimen name="bloops_onboarding_description_padding">36dp</dimen>
+    <dimen name="bloops_onboarding_negative_button_margin_bottom">12dp</dimen>
+    <dimen name="bloops_onboarding_negative_button_margin_top">12dp</dimen>
+    <dimen name="bloops_onboarding_preview_margin_top">0dp</dimen>
+    <dimen name="bloops_onboarding_title_margin_top">30dp</dimen>
+</resources>

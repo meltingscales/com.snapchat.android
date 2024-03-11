@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/scan_card_msg_details" android:background="@drawable/scan_content_card_with_image_offset" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="50dp" android:layout_marginStart="@dimen/default_gap_2_5x" android:layout_marginEnd="@dimen/default_gap_2_5x">
+    <com.snap.imageloading.view.SnapImageView android:layout_gravity="top|center_horizontal" android:id="@+id/scan_card_game_icon" android:background="@drawable/white_circle" android:padding="@dimen/default_gap_half" android:layout_width="@dimen/scan_card_item_bitmoji_width_height" android:layout_height="@dimen/scan_card_item_bitmoji_width_height" android:scaleType="fitCenter"/>
+    <com.snap.ui.view.SnapFontTextView android:ellipsize="end" android:layout_gravity="center" android:id="@+id/scan_card_game_title" style="@style/alert_dialog_title"/>
+    <com.snap.component.button.SnapButtonView android:layout_gravity="center" android:id="@+id/scan_card_game_button_play" app:button_style="large_button_rectangle_dark_gray" style="@style/alert_dialog_default_button"/>
+    <com.snap.ui.view.button.SnapCancelButton android:layout_gravity="center" android:id="@+id/scan_card_game_button_cancel" android:text="@string/scan_cancel_card" style="@style/alert_dialog_cancel_button"/>
+</LinearLayout>

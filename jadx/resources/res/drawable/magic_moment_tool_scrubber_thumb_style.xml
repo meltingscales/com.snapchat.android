@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="ring" android:thicknessRatio="@dimen/magic_moment_tool_scrubber_thumb_thickness_ratio" android:useLevel="false" android:innerRadius="@dimen/magic_moment_tool_scrubber_thumb_inner_radius">
+    <solid android:color="@color/sig_color_flat_pure_white_any"/>
+    <size android:height="@dimen/magic_moment_tool_scrubber_thumb_size" android:width="@dimen/magic_moment_tool_scrubber_thumb_size"/>
+    <stroke android:width="@dimen/magic_moment_tool_scrubber_thumb_padding" android:color="@android:color/transparent"/>
+</shape>

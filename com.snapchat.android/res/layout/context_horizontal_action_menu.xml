@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/HorizontalActionMenuStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/action_menu_icon" android:background="@drawable/horizontal_menu_icon_background" android:clickable="false" android:layout_width="@dimen/horizontal_action_menu_icon_size" android:layout_height="@dimen/horizontal_action_menu_icon_size" android:layout_marginBottom="2.0dip" android:scaleType="center" />
+    <com.snap.ui.view.SnapFontTextView android:textSize="?v11TinyTextSize" android:textColor="?title2ColorBlack" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/action_menu_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/horizontal_action_menu_max_width" android:maxLines="2" android:textAllCaps="true" app:scFontWeight="?v11TinyFontWeight" />
+</LinearLayout>

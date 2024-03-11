@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <com.snap.imageloading.view.SnapImageView android:id="@id/cognac_leaderboard_header_app_logo" android:layout_width="@dimen/cognac_leaderboard_header_logo_size" android:layout_height="@dimen/cognac_leaderboard_header_logo_size" android:layout_marginBottom="@dimen/cognac_leaderboard_header_logo_bottom_margin" android:scaleType="centerCrop" custom:isCircular="true" />
+    <com.snap.ui.view.SnapFontTextView android:textSize="?v11Heading1TextSize" android:textColor="@color/sig_color_base_off_black_any" android:id="@id/cognac_leaderboard_header_app_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/cognac_leaderboard_header_app_name_bottom_margin" custom:scFontWeight="?v11Heading1FontWeight" />
+    <com.snap.ui.view.SnapFontTextView android:textSize="@dimen/cognac_leaderboard_header_subtext_size" android:textColor="@color/sig_color_base_gray70_any" android:id="@id/cognac_leaderboard_header_subtext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/cognac_leaderboard_header_subtext_bottom_margin" custom:scFontWeight="bold" />
+</LinearLayout>

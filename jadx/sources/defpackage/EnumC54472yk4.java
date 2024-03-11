@@ -1,0 +1,47 @@
+package defpackage;
+
+/* renamed from: yk4  reason: default package and case insensitive filesystem */
+/* loaded from: classes8.dex */
+public enum EnumC54472yk4 implements I58 {
+    CREATE_COMMENT(0),
+    SEND_COMMENT(1),
+    REPORT_COMMENT(2),
+    APPROVE_COMMENT(3),
+    REJECT_COMMENT(4),
+    DELETE_COMMENT(5),
+    REACT_TO_COMMENT(6),
+    UNREACT_TO_COMMENT(7),
+    APPROVE_ALL_COMMENTS(8),
+    REJECT_ALL_COMMENTS(9),
+    OPEN_LIVE_COMMENTS(10),
+    DISMISS_LIVE_COMMENTS(11),
+    OPEN_COMMENTS_MANAGEMENT_LIVE(12),
+    OPEN_COMMENTS_MANAGEMENT_PENDING(13),
+    DISMISS_COMMENTS_MANAGEMENT_LIVE(14),
+    DISMISS_COMMENTS_MANAGEMENT_PENDING(15),
+    SCROLL(16),
+    PIN_TOP_COMMENT(17),
+    UNPIN_TOP_COMMENT(18),
+    OPEN_COMMENT_POSTER_PROFILE(19),
+    OPEN_COMMENT_SETTINGS_FROM_PENDING_TAB(20),
+    OPEN_COMMENT_POSTER_FRIEND_PROFILE(21),
+    QUOTE_COMMENT(22),
+    SHARE_COMMENT(23),
+    VIEW_THREADED_REPLIES(24),
+    HIDE_THREADED_REPLIES(25),
+    SHOW_MORE_THREADED_REPLIES(26),
+    BLOCK_USER(27),
+    OPEN_COMMENT_MENTION_PUBLIC_PROFILE(28),
+    OPEN_COMMENT_MENTION_FRIEND_PROFILE(29);
+    
+    public final int a;
+
+    EnumC54472yk4(int i) {
+        this.a = i;
+    }
+
+    @Override // defpackage.I58
+    public final int a() {
+        return this.a;
+    }
+}

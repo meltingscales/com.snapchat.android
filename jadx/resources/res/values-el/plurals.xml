@@ -1,0 +1,1035 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="action_menu_camera_select">
+        <item quantity="one">%d αρχείο επιλεγμένο</item>
+        <item quantity="other">%d αρχεία επιλεγμένα</item>
+    </plurals>
+    <plurals name="action_menu_hide_long">
+        <item quantity="one">@string/memories_opera_action_menu_hide</item>
+        <item quantity="other">Απόκρυψη των Snap (Μόνο για μένα)</item>
+    </plurals>
+    <plurals name="action_menu_mute_for_hours">
+        <item quantity="one">Για %d ώρα</item>
+        <item quantity="other">Για %d ώρες</item>
+    </plurals>
+    <plurals name="action_menu_snap_select">
+        <item quantity="one">%d Snap επιλεγμένο</item>
+        <item quantity="other">%d Snap επιλεγμένα</item>
+    </plurals>
+    <plurals name="action_menu_unhide_long">
+        <item quantity="one">@string/memories_opera_action_menu_unhide</item>
+        <item quantity="other">Κατάργηση απόκρυψης των Snap</item>
+    </plurals>
+    <plurals name="active_indicator_explainer_active_hour">
+        <item quantity="one">%d ώρα!</item>
+        <item quantity="other">%d ώρες!</item>
+    </plurals>
+    <plurals name="activity_indicator_explainer_active_friend_count">
+        <item quantity="one">%d φίλος ήταν</item>
+        <item quantity="other">%d φίλοι ήταν</item>
+    </plurals>
+    <plurals name="add_friend_badge_request_tips">
+        <item quantity="one">%1$s προσθήκη νέου φίλου</item>
+        <item quantity="other">%1$s προσθήκες νέων φίλων</item>
+    </plurals>
+    <plurals name="add_friend_badge_suggestion_tips">
+        <item quantity="one">%1$s νέα πρόταση φίλου</item>
+        <item quantity="other">%1$s νέες προτάσεις φίλων</item>
+    </plurals>
+    <plurals name="add_friends_button_subtext">
+        <item quantity="one">%1$s Snapchatter σε πρόσθεσε!</item>
+        <item quantity="other">%1$s Snapchatter σε πρόσθεσαν!</item>
+    </plurals>
+    <plurals name="add_friends_button_suggestion_subtext">
+        <item quantity="one">%1$s πρόταση φίλου!</item>
+        <item quantity="other">%1$s προτάσεις φίλων!</item>
+    </plurals>
+    <plurals name="batch_capture_save_as_x_snaps">
+        <item quantity="one">Αποθήκευση ως %1$d Snap</item>
+        <item quantity="other">Αποθήκευση ως %1$d Snap</item>
+    </plurals>
+    <plurals name="bottom_button_text">
+        <item quantity="one">+ Προσθήκη %d φίλου</item>
+        <item quantity="other">+ Προσθήκη %d φίλων</item>
+    </plurals>
+    <plurals name="camera_mode_batch_capture_limit_reached_description_with_count">
+        <item quantity="one">Το Multi Snap μπορεί να κάνει λήψη %1$d Snaps κάθε φορά!</item>
+        <item quantity="other">Το Multi Snap μπορεί να κάνει λήψη %1$d Snaps κάθε φορά!</item>
+    </plurals>
+    <plurals name="camera_mode_disable_batch_capture_description">
+        <item quantity="one">Θέλεις σίγουρα να απενεργοποιήσεις τη λήψη Multi-Snap; Το μη αποθηκευμένο σου Snap θα χαθεί.</item>
+        <item quantity="other">Θέλεις σίγουρα να απενεργοποιήσεις τη λήψη Multi-Snap; Όλα τα %1$d μη αποθηκευμένα Snaps θα χαθούν.</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_image_sharer_you_not">
+        <item quantity="one">ΟΙ ΧΡΗΣΤΕΣ %1$s ΚΑΙ %2$s ΑΠΟΘΗΚΕΥΣΑΝ ΜΙΑ ΦΩΤΟΓΡΑΦΙΑ ΑΠΟ ΤΟΝ ΧΡΗΣΤΗ %4$s</item>
+        <item quantity="other">ΟΙ ΧΡΗΣΤΕΣ %1$s ΚΑΙ %2$s ΑΠΟΘΗΚΕΥΣΑΝ %3$d ΦΩΤΟΓΡΑΦΙΕΣ ΑΠΟ ΤΟΝ ΧΡΗΣΤΗ %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_image_sharer_you_yes">
+        <item quantity="one">ΟΙ ΧΡΗΣΤΕΣ %1$s ΚΑΙ %2$s ΑΠΟΘΗΚΕΥΣΑΝ ΤΗ ΦΩΤΟΓΡΑΦΙΑ ΣΟΥ</item>
+        <item quantity="other">ΟΙ ΧΡΗΣΤΕΣ %1$s &amp; %2$sΑΠΟΘΗΚΕΥΣΑΝ %3$d ΦΩΤΟΓΡΑΦΙΕΣ ΠΟΥ ΕΣΤΕΙΛΕΣ</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_item_sharer_you_not">
+        <item quantity="one">ΟΙ ΧΡΗΣΤΕΣ %1$s ΚΑΙ %2$s ΑΠΟΘΗΚΕΥΣΑΝ ΕΝΑ ΑΡΧΕΙΟ ΑΠΟ ΤΟΝ ΧΡΗΣΤΗ %4$s</item>
+        <item quantity="other">ΟΙ ΧΡΗΣΤΕΣ %1$s ΚΑΙ %2$s ΑΠΟΘΗΚΕΥΣΑΝ %3$d ΑΡΧΕΙΑ ΑΠΟ ΤΟΝ ΧΡΗΣΤΗ %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_item_sharer_you_yes">
+        <item quantity="one">ΟΙ ΧΡΗΣΤΕΣ %1$s ΚΑΙ %2$s ΑΠΟΘΗΚΕΥΣΑΝ ΤΟ ΑΡΧΕΙΟ ΣΟΥ</item>
+        <item quantity="other">ΟΙ ΧΡΗΣΤΕΣ %1$s ΚΑΙ %2$s ΑΠΟΘΗΚΕΥΣΑΝ %3$d ΑΡΧΕΙΑ ΠΟΥ ΕΣΤΕΙΛΕΣ</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_video_sharer_you_not">
+        <item quantity="one">ΟΙ ΧΡΗΣΤΕΣ %1$s ΚΑΙ %2$s ΑΠΟΘΗΚΕΥΣΑΝ ΕΝΑ ΒΙΝΤΕΟ ΑΠΟ ΤΟΝ ΧΡΗΣΤΗ %4$s</item>
+        <item quantity="other">ΟΙ ΧΡΗΣΤΕΣ %1$s ΚΑΙ %2$s ΑΠΟΘΗΚΕΥΣΑΝ %3$d ΒΙΝΤΕΟ ΑΠΟ ΤΟΝ ΧΡΗΣΤΗ %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_video_sharer_you_yes">
+        <item quantity="one">ΟΙ ΧΡΗΣΤΕΣ %1$s &amp; %2$s ΑΠΟΘΗΚΕΥΣΑΝ ΤΟ ΒΙΝΤΕΟ ΣΟΥ</item>
+        <item quantity="other">ΟΙ ΧΡΗΣΤΕΣ %1$s ΚΑΙ %2$s ΑΠΟΘΗΚΕΥΣΑΝ %3$d ΒΙΝΤΕΟ ΠΟΥ ΕΣΤΕΙΛΕΣ</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_yes_media_image_sharer_you_not">
+        <item quantity="one">ΕΣΥ ΚΑΙ Ο ΧΡΗΣΤΗΣ %1$s ΑΠΟΘΗΚΕΥΣΑΤΕ ΜΙΑ ΦΩΤΟΓΡΑΦΙΑ ΑΠΟ ΤΟΝ ΧΡΗΣΤΗ %3$s</item>
+        <item quantity="other">ΕΣΥ &amp; Ο ΧΡΗΣΤΗΣ %1$s ΑΠΟΘΗΚΕΥΣΑΤΕ %2$d ΦΩΤΟΓΡΑΦΙΕΣ ΑΠΟ ΤΟΝ ΧΡΗΣΤΗ %3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_yes_media_item_sharer_you_not">
+        <item quantity="one">ΕΣΥ &amp; Ο ΧΡΗΣΤΗΣ %1$s ΑΠΟΘΗΚΕΥΣΑΤΕ ΕΝΑ ΑΡΧΕΙΟ ΑΠΟ ΤΟΝ ΧΡΗΣΤΗ %3$s</item>
+        <item quantity="other">ΕΣΥ ΚΑΙ Ο ΧΡΗΣΤΗΣ %1$s ΑΠΟΘΗΚΕΥΣΑΤΕ %2$d ΑΡΧΕΙΑ ΑΠΟ ΤΟΝ ΧΡΗΣΤΗ %3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_yes_media_video_sharer_you_not">
+        <item quantity="one">ΕΣΥ &amp; Ο ΧΡΗΣΤΗΣ %1$s ΑΠΟΘΗΚΕΥΣΑΤΕ ΕΝΑ ΒΙΝΤΕΟ ΑΠΟ ΤΟΝ ΧΡΗΣΤΗ %3$s</item>
+        <item quantity="other">ΕΣΥ &amp; Ο ΧΡΗΣΤΗΣ %1$s ΑΠΟΘΗΚΕΥΣΑΤΕ %2$d ΒΙΝΤΕΟ ΑΠΟ ΤΟΝ ΧΡΗΣΤΗ %3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_image_sharer_you_not">
+        <item quantity="one">ΟΙ ΧΡΗΣΤΕΣ %1$s ΚΑΙ %2$s ΑΠΟΘΗΚΕΥΣΑΝ ΜΙΑ ΦΩΤΟΓΡΑΦΙΑ ΑΠΟ ΤΟΝ ΧΡΗΣΤΗ %4$s</item>
+        <item quantity="other">ΟΙ ΧΡΗΣΤΕΣ %1$s ΚΑΙ %2$s ΑΠΟΘΗΚΕΥΣΑΝ %3$d ΦΩΤΟΓΡΑΦΙΕΣ ΑΠΟ ΤΟΝ ΧΡΗΣΤΗ %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_image_sharer_you_yes">
+        <item quantity="one">ΟΙ ΧΡΗΣΤΕΣ %1$s ΚΑΙ %2$s ΑΠΟΘΗΚΕΥΣΑΝ ΤΗ ΦΩΤΟΓΡΑΦΙΑ ΣΟΥ</item>
+        <item quantity="other">ΟΙ ΧΡΗΣΤΕΣ %1$s ΚΑΙ %2$sΑΠΟΘΗΚΕΥΣΑΝ %3$d ΦΩΤΟΓΡΑΦΙΕΣ ΠΟΥ ΕΣΤΕΙΛΕΣ</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_item__sharer_you_not">
+        <item quantity="one">ΟΙ ΧΡΗΣΤΕΣ %1$s ΚΑΙ %2$s ΑΠΟΘΗΚΕΥΣΑΝ ΕΝΑ ΑΡΧΕΙΟ ΑΠΟ ΤΟΝ ΧΡΗΣΤΗ %4$s</item>
+        <item quantity="other">ΟΙ ΧΡΗΣΤΕΣ %1$s ΚΑΙ %2$s ΑΠΟΘΗΚΕΥΣΑΝ %3$d ΑΡΧΕΙΑ ΑΠΟ ΤΟΝ ΧΡΗΣΤΗ %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_item__sharer_you_yes">
+        <item quantity="one">ΟΙ ΧΡΗΣΤΕΣ %1$s ΚΑΙ %2$s ΑΠΟΘΗΚΕΥΣΑΝ ΤΟ ΑΡΧΕΙΟ ΣΟΥ</item>
+        <item quantity="other">ΟΙ ΧΡΗΣΤΕΣ %1$s ΚΑΙ %2$s ΑΠΟΘΗΚΕΥΣΑΝ %3$d ΑΡΧΕΙΑ ΠΟΥ ΕΣΤΕΙΛΕΣ</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_video_sharer_you_not">
+        <item quantity="one">ΟΙ ΧΡΗΣΤΕΣ %1$s ΚΑΙ %2$s ΑΠΟΘΗΚΕΥΣΑΝ ΕΝΑ ΒΙΝΤΕΟ ΑΠΟ ΤΟΝ ΧΡΗΣΤΗ %4$s</item>
+        <item quantity="other">ΟΙ ΧΡΗΣΤΕΣ %1$s ΚΑΙ %2$s ΑΠΟΘΗΚΕΥΣΑΝ %3$d ΒΙΝΤΕΟ ΑΠΟ ΤΟΝ ΧΡΗΣΤΗ %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_video_sharer_you_yes">
+        <item quantity="one">ΟΙ ΧΡΗΣΤΕΣ %1$s ΚΑΙ %2$s ΑΠΟΘΗΚΕΥΣΑΝ ΤΟ ΒΙΝΤΕΟ ΣΟΥ</item>
+        <item quantity="other">ΟΙ ΧΡΗΣΤΕΣ %1$s ΚΑΙ %2$s ΑΠΟΘΗΚΕΥΣΑΝ %3$d ΒΙΝΤΕΟ ΠΟΥ ΕΣΤΕΙΛΕΣ</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_yes_media_image_sharer_you_not">
+        <item quantity="one">ΕΣΥ ΚΑΙ ΟΙ ΧΡΗΣΤΕΣ %1$s ΚΑΙ %2$s ΑΠΟΘΗΚΕΥΣΑΤΕ ΜΙΑ ΦΩΤΟΓΡΑΦΙΑ ΑΠΟ ΤΟΝ ΧΡΗΣΤΗ %4$s</item>
+        <item quantity="other">ΕΣΥ &amp; ΟΙ ΧΡΗΣΤΕΣ %1$s &amp; %2$s ΑΠΟΘΗΚΕΥΣΑΤΕ %3$d ΦΩΤΟΓΡΑΦΙΕΣ ΑΠΟ ΤΟΝ ΧΡΗΣΤΗ %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_yes_media_item_sharer_you_not">
+        <item quantity="one">ΕΣΥ &amp; ΟΙ ΧΡΗΣΤΕΣ %1$s &amp; %2$s ΑΠΟΘΗΚΕΥΣΑΤΕ ΕΝΑ ΑΡΧΕΙΟ ΑΠΟ ΤΟΝ ΧΡΗΣΤΗ %4$s</item>
+        <item quantity="other">ΕΣΥ ΚΑΙ ΟΙ ΧΡΗΣΤΕΣ %1$s ΚΑΙ %2$s ΑΠΟΘΗΚΕΥΣΑΤΕ %3$d ΑΡΧΕΙΑ ΑΠΟ ΤΟΝ ΧΡΗΣΤΗ %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_yes_media_video_sharer_you_not">
+        <item quantity="one">ΕΣΥ &amp; ΟΙ ΧΡΗΣΤΕΣ %1$s &amp; %2$s ΑΠΟΘΗΚΕΥΣΑΤΕ ΕΝΑ ΒΙΝΤΕΟ ΑΠΟ ΤΟΝ ΧΡΗΣΤΗ %4$s</item>
+        <item quantity="other">ΕΣΥ &amp; ΟΙ ΧΡΗΣΤΕΣ %1$s &amp; %2$s ΑΠΟΘΗΚΕΥΣΑΤΕ %3$d ΒΙΝΤΕΟ ΑΠΟ ΤΟΝ ΧΡΗΣΤΗ %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_image_sharer_you_not">
+        <item quantity="one">Ο ΧΡΗΣΤΗΣ %1$s ΑΠΟΘΗΚΕΥΣΕ ΜΙΑ ΦΩΤΟΓΡΑΦΙΑ ΑΠΟ ΤΟΝ ΧΡΗΣΤΗ %3$s</item>
+        <item quantity="other">Ο ΧΡΗΣΤΗΣ %1$s ΑΠΟΘΗΚΕΥΣΕ %2$d ΦΩΤΟΓΡΑΦΙΕΣ ΑΠΟ ΤΟΝ ΧΡΗΣΤΗ %3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_image_sharer_you_yes">
+        <item quantity="one">Ο ΧΡΗΣΤΗΣ %1$s ΑΠΟΘΗΚΕΥΣΕ ΤΗ ΦΩΤΟΓΡΑΦΙΑ ΣΟΥ</item>
+        <item quantity="other">Ο ΧΡΗΣΤΗΣ %1$s ΑΠΟΘΗΚΕΥΣΕ %2$d ΦΩΤΟΓΡΑΦΙΕΣ ΠΟΥ ΕΣΤΕΙΛΕΣ</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_item_sharer_you_not">
+        <item quantity="one">ΟΙ ΧΡΗΣΤΕΣ %1$s ΑΠΟΘΗΚΕΥΣΑΝ ΕΝΑ ΑΡΧΕΙΟ ΑΠΟ ΤΟΝ ΧΡΗΣΤΗ %3$s</item>
+        <item quantity="other">Ο ΧΡΗΣΤΗΣ %1$s ΑΠΟΘΗΚΕΥΣΕ %2$d ΑΡΧΕΙΑ ΑΠΟ ΤΟΝ ΧΡΗΣΤΗ %3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_item_sharer_you_yes">
+        <item quantity="one">Ο ΧΡΗΣΤΗΣ %1$s ΑΠΟΘΗΚΕΥΣΕ ΤΟ ΑΡΧΕΙΟ ΣΟΥ</item>
+        <item quantity="other">ΟΙ ΧΡΗΣΤΕΣ %1$s ΑΠΟΘΗΚΕΥΣΑΝ %2$d ΑΡΧΕΙΑ ΠΟΥ ΕΣΤΕΙΛΕΣ</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_video_sharer_you_not">
+        <item quantity="one">Ο ΧΡΗΣΤΗΣ %1$s ΑΠΟΘΗΚΕΥΣΕ ΕΝΑ ΒΙΝΤΕΟ ΑΠΟ ΤΟΝ ΧΡΗΣΤΗ %3$s</item>
+        <item quantity="other">Ο ΧΡΗΣΤΗΣ %1$s ΑΠΟΘΗΚΕΥΣΕ %2$d ΒΙΝΤΕΟ ΑΠΟ ΤΟΝ ΧΡΗΣΤΗ %3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_video_sharer_you_yes">
+        <item quantity="one">Ο ΧΡΗΣΤΗΣ %1$s ΑΠΟΘΗΚΕΥΣΕ ΤΟ ΒΙΝΤΕΟ ΣΟΥ</item>
+        <item quantity="other">ΟΙ ΧΡΗΣΤΕΣ %1$s ΑΠΟΘΗΚΕΥΣΑΝ %2$d ΒΙΝΤΕΟ ΠΟΥ ΕΣΤΕΙΛΕΣ</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_yes_media_image_sharer_you_not">
+        <item quantity="one">ΑΠΟΘΗΚΕΥΣΕΣ ΜΙΑ ΦΩΤΟΓΡΑΦΙΑ ΑΠΟ ΤΟΝ ΧΡΗΣΤΗ %2$s</item>
+        <item quantity="other">ΑΠΟΘΗΚΕΥΣΕΣ %1$d ΦΩΤΟΓΡΑΦΙΕΣ ΑΠΟ ΤΟΝ ΧΡΗΣΤΗ %2$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_yes_media_item__sharer_you_not">
+        <item quantity="one">ΑΠΟΘΗΚΕΥΣΕΣ ΕΝΑ ΑΡΧΕΙΟ ΑΠΟ ΤΟΝ ΧΡΗΣΤΗ %2$s</item>
+        <item quantity="other">ΑΠΟΘΗΚΕΥΣΕΣ %1$d ΑΡΧΕΙΑ ΑΠΟ ΤΟΝ ΧΡΗΣΤΗ %2$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_yes_media_video_sharer_you_not">
+        <item quantity="one">ΑΠΟΘΗΚΕΥΣΕΣ ΕΝΑ ΒΙΝΤΕΟ ΑΠΟ ΤΟΝ ΧΡΗΣΤΗ %2$s</item>
+        <item quantity="other">ΑΠΟΘΗΚΕΥΣΕΣ %1$d ΒΙΝΤΕΟ ΑΠΟ ΤΟΝ ΧΡΗΣΤΗ %2$s</item>
+    </plurals>
+    <plurals name="cannot_add_custom_story_snap_recipients">
+        <item quantity="one">Μπορείς να προσθέσεις μόνο σε %1$d Εξατομικευμένη Ιστορία κάθε φορά</item>
+        <item quantity="other">Μπορείς να προσθέσεις μόνο σε %1$d Προσαρμοσμένες Ιστορίες κάθε φορά</item>
+    </plurals>
+    <plurals name="capture_settings_distance_value_text_feet">
+        <item quantity="one">%1$d πόδι</item>
+        <item quantity="other">%1$d πόδι</item>
+    </plurals>
+    <plurals name="capture_settings_duration_value_text_orbits">
+        <item quantity="one">1 τροχιά</item>
+        <item quantity="other">%1$d τροχιές</item>
+    </plurals>
+    <plurals name="chat_header_gifting_birthday_upsell">
+        <item quantity="one">Αύριο έχει γενέθλια ο/η %1$s��. Κάνε του/της δώρο το Snapchat+</item>
+        <item quantity="other">Ο/η %1$s έχει γενέθλια σε %2$d μέρες ��. Κάνε του/της δώρο το Snapchat+</item>
+    </plurals>
+    <plurals name="cheerios_clean_unpair_cheerios_body">
+        <item quantity="one">Υπάρχει ένα Snap στο Pixy σου. Θέλεις επίσης να επαναφέρεις τη συσκευή και να διαγράψεις όλα τα Snap και τα δεδομένα χρήστη;</item>
+        <item quantity="other">Υπάρχουν %1$d Snap στο Pixy σου. Θέλεις επίσης να επαναφέρεις τη συσκευή και να διαγράψεις όλα τα Snap και τα δεδομένα χρήστη;</item>
+    </plurals>
+    <plurals name="cheerios_confirm_delete_body">
+        <item quantity="one">Η διαγραφή αυτού του Snap θα το αφαιρέσει από τη συσκευή του Cheerio σου.</item>
+        <item quantity="other">Η διαγραφή αυτών των Snap θα τα αφαιρέσει από τη συσκευή του Cheerio σου.</item>
+    </plurals>
+    <plurals name="cheerios_deleted">
+        <item quantity="one">Το Snap διαγράφηκε</item>
+        <item quantity="other">%d Snap διαγράφηκαν</item>
+    </plurals>
+    <plurals name="cheerios_deleting">
+        <item quantity="one">Διαγραφή ενός Snap…</item>
+        <item quantity="other">Διαγραφή %d Snap…</item>
+    </plurals>
+    <plurals name="cheerios_memories_tooltip">
+        <item quantity="one">1 νέο Snap</item>
+        <item quantity="other">%d Νέα Snap</item>
+    </plurals>
+    <plurals name="cheerios_new_snap_to_import">
+        <item quantity="one">1 Νέο Snap. Άγγιξε για εισαγωγή.</item>
+        <item quantity="other">%d Νέα Snap. Άγγιξε για εισαγωγή.</item>
+    </plurals>
+    <plurals name="cheerios_status_transfer_complete_title">
+        <item quantity="one">%d Snap εισήχθη!</item>
+        <item quantity="other">%d Snap εισήχθησαν!</item>
+    </plurals>
+    <plurals name="cheerios_status_transferring_title">
+        <item quantity="one">Εισαγωγή %d Snap…</item>
+        <item quantity="other">Εισαγωγή %d Snap…</item>
+    </plurals>
+    <plurals name="cluster_seven_or_more">
+        <item quantity="one">%1$s, %2$s, %3$s, %4$s, %5$s &amp; %6$d άλλοι</item>
+        <item quantity="other">%1$s, %2$s, %3$s, %4$s, %5$s &amp; %6$d άλλοι</item>
+    </plurals>
+    <plurals name="cluster_seven_or_more_me">
+        <item quantity="one">%1$s, %2$s, %3$s, %4$s, Εγώ &amp; %5$d άλλοι</item>
+        <item quantity="other">%1$s, %2$s, %3$s, %4$s, Εγώ &amp; %5$d άλλοι</item>
+    </plurals>
+    <plurals name="cluster_three_or_more">
+        <item quantity="one">%1$s &amp; %2$d άλλοι</item>
+        <item quantity="other">%1$s &amp; %2$d άλλοι</item>
+    </plurals>
+    <plurals name="cluster_three_or_more_me">
+        <item quantity="one">Εγώ &amp; %1$d άλλοι</item>
+        <item quantity="other">Εγώ &amp; %1$d άλλοι</item>
+    </plurals>
+    <plurals name="cognac_active_playing_game_text_multiple_player">
+        <item quantity="one">Οι %1$s, %2$s + %3$d ακόμα παίζουν</item>
+        <item quantity="other">Οι %1$s, %2$s + %3$d ακόμα παίζουν</item>
+    </plurals>
+    <plurals name="cognac_active_playing_game_text_multiple_player_shortened">
+        <item quantity="one">Ο χρήστης %1$s + %2$d ακόμα παίζουν</item>
+        <item quantity="other">Ο χρήστης %1$s + %2$d ακόμα παίζουν</item>
+    </plurals>
+    <plurals name="cognac_active_using_cypress_text_multiple_player">
+        <item quantity="one">Οι χρήστες %1$s, %2$s + %3$d ακόμα είναι ενεργοί</item>
+        <item quantity="other">Οι χρήστες %1$s, %2$s + %3$d ακόμα είναι ενεργοί</item>
+    </plurals>
+    <plurals name="cognac_active_using_cypress_text_multiple_player_shortened">
+        <item quantity="one">Οι χρήστες %1$s + %2$d ακόμα είναι ενεργοί</item>
+        <item quantity="other">Οι χρήστες %1$s + %2$d ακόμα είναι ενεργοί</item>
+    </plurals>
+    <plurals name="cognac_app_profile_multiple_player_text">
+        <item quantity="one">Υποστηρίζει %1$s - %2$d παίκτες</item>
+        <item quantity="other">Υποστηρίζει %1$s - %2$d παίκτες</item>
+    </plurals>
+    <plurals name="cognac_close_status_message_multiple_player_second_person">
+        <item quantity="one">Εσύ, ο χρήστης %1$s και %2$d ακόμα παίξατε %3$s</item>
+        <item quantity="other">Εσύ, ο χρήστης %1$s και %2$d ακόμα παίξατε %3$s</item>
+    </plurals>
+    <plurals name="cognac_close_status_message_multiple_player_third_person">
+        <item quantity="one">Οι %1$s, %2$s και %3$d ακόμα έπαιξαν %4$s</item>
+        <item quantity="other">Οι %1$s, %2$s και %3$d ακόμα έπαιξαν %4$s</item>
+    </plurals>
+    <plurals name="cognac_close_status_message_text_for_feed_multiple_player_third_person">
+        <item quantity="one">Οι %1$s και %2$d ακόμα έπαιξαν %3$s</item>
+        <item quantity="other">Οι %1$s και %2$d ακόμα έπαιξαν %3$s</item>
+    </plurals>
+    <plurals name="cognac_cypress_close_status_message_multiple_player_second_person">
+        <item quantity="one">Εσύ, ο χρήστης %1$s και %2$d ακόμα χρησιμοποιήσατε το %3$s</item>
+        <item quantity="other">Εσύ, ο χρήστης %1$s και %2$d ακόμα χρησιμοποιήσατε το %3$s</item>
+    </plurals>
+    <plurals name="cognac_cypress_close_status_message_multiple_player_third_person">
+        <item quantity="one">Οι %1$s, %2$s και %3$d ακόμα χρησιμοποιήσατε το %4$s</item>
+        <item quantity="other">Οι %1$s, %2$s και %3$d ακόμα χρησιμοποιήσατε το %4$s</item>
+    </plurals>
+    <plurals name="cognac_cypress_close_status_message_text_for_feed_multiple_player_third_person">
+        <item quantity="one">Ο χρήστης %1$s και %2$d ακόμα χρησιμοποιήσατε το %3$s</item>
+        <item quantity="other">Ο χρήστης %1$s και %2$d ακόμα χρησιμοποιήσατε το %3$s</item>
+    </plurals>
+    <plurals name="cognac_friend_picker_ringing_text_multiple_players">
+        <item quantity="one">Κλήση προς %1$s και %2$d ακόμα...</item>
+        <item quantity="other">Κλήση προς %1$s και %2$d ακόμα...</item>
+    </plurals>
+    <plurals name="comments_collapse_child_comments">
+        <item quantity="one">Απόκρυψη απάντησης</item>
+        <item quantity="other">Απόκρυψη απαντήσεων</item>
+    </plurals>
+    <plurals name="comments_expand_child_comments">
+        <item quantity="one">Προβολή 1 απάντησης</item>
+        <item quantity="other">Εμφάνιση %s απαντήσεων</item>
+    </plurals>
+    <plurals name="comments_header_with_live_comment_count">
+        <item quantity="one">1 σχόλιο</item>
+        <item quantity="other">%s σχόλια</item>
+    </plurals>
+    <plurals name="content_detail_new_count">
+        <item quantity="one">%1$d νέο</item>
+        <item quantity="other">%1$d νέο</item>
+    </plurals>
+    <plurals name="content_detail_seen_text">
+        <item quantity="one">%1$d για εισαγωγή</item>
+        <item quantity="other">%1$d για εισαγωγή</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="one">%d ημέρα</item>
+        <item quantity="other">%d ημέρες</item>
+    </plurals>
+    <plurals name="days_abbreviated">
+        <item quantity="one">%d ημ.</item>
+        <item quantity="other">%d ημ.</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated">
+        <item quantity="one">%d ημ. πριν</item>
+        <item quantity="other">%d ημ. πριν</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_camera_roll">
+        <item quantity="one">%1$d η. πριν από το Άλμπουμ Κάμερας</item>
+        <item quantity="other">%1$d η. πριν από το Άλμπουμ Κάμερας</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_chat">
+        <item quantity="one">%1$d η. πριν από Chat</item>
+        <item quantity="other">%1$d η. πριν από Chat</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_cheerios">
+        <item quantity="one">%1$dμ. πριν από το Pixy</item>
+        <item quantity="other">%1$dμ. πριν από το Pixy</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_creative_kit">
+        <item quantity="one">%1$d ημ. πριν από %2$s</item>
+        <item quantity="other">%1$d ημ. πριν από %2$s</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_memories">
+        <item quantity="one">%1$d ημ. πριν από Αναμνήσεις</item>
+        <item quantity="other">%1$d ημ. πριν από Αναμνήσεις</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_spectacles">
+        <item quantity="one">%1$d ημ. πριν από τα Spectacles</item>
+        <item quantity="other">%1$d ημ. πριν από τα Spectacles</item>
+    </plurals>
+    <plurals name="days_ago_update">
+        <item quantity="one">Ενημερώθηκε %1$s ημέρα πριν</item>
+        <item quantity="other">Ενημερώθηκε %1$s ημέρες πριν</item>
+    </plurals>
+    <plurals name="discard_batch_capture_description">
+        <item quantity="one">Θέλεις σίγουρα να ακυρώσεις τη λήψη Multi-Snap; To μη αποθηκευμένo σου Snap θα χαθεί.</item>
+        <item quantity="other">Θέλεις σίγουρα να ακυρώσεις τη λήψη Multi-Snap; %1$d μη αποθηκευμένα Snaps θα χαθούν.</item>
+    </plurals>
+    <plurals name="display_username_explanation_changed_username_too_recently">
+        <item quantity="one">Άλλαξες το όνομα χρήστη σου στις %1$s.\nΜπορείς να το αλλάξεις ξανά σε %2$d μέρα.</item>
+        <item quantity="other">Άλλαξες το όνομα χρήστη σου στις %1$s.\nΜπορείς να το αλλάξεις ξανά σε %2$d μέρες.</item>
+    </plurals>
+    <plurals name="failed_to_save_multiple_snaps">
+        <item quantity="one">Αποτυχία αποθήκευσης %1$d snap</item>
+        <item quantity="other">Αποτυχία αποθήκευσης %1$d snaps</item>
+    </plurals>
+    <plurals name="formatted_short_ft">
+        <item quantity="one">%d πόδι</item>
+        <item quantity="other">%d πόδια</item>
+    </plurals>
+    <plurals name="formatted_short_km">
+        <item quantity="one">%d χλμ</item>
+        <item quantity="other">%d χλμ</item>
+    </plurals>
+    <plurals name="formatted_short_m">
+        <item quantity="one">%d λ.</item>
+        <item quantity="other">%d λ.</item>
+    </plurals>
+    <plurals name="formatted_short_mile">
+        <item quantity="one">%d μίλια</item>
+        <item quantity="other">%d μίλια</item>
+    </plurals>
+    <plurals name="friending_progress_bar_secondary">
+        <item quantity="one">Στείλε %1$s ακόμα αίτημα φιλίας!</item>
+        <item quantity="other">Στείλε %1$s ακόμα αιτήματα φιλίας!</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_description_items">
+        <item quantity="one">Το αρχείο σου προστέθηκε επιτυχώς στο Μόνο Για Μένα. Θα ήθελες να διαγράψεις το πρωτότυπο από το Άλμπουμ Κάμεράς σου;</item>
+        <item quantity="other">Τα αρχεία σου προστέθηκαν επιτυχώς στο Μόνο Για Μένα. Θα ήθελες να διαγράψεις τα πρωτότυπα από το Άλμπουμ Κάμεράς σου;</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_description_photos">
+        <item quantity="one">Η φωτογραφία σου προστέθηκε επιτυχώς στο Μόνο Για Μένα. Θα ήθελες να διαγράψεις το πρωτότυπο από το Άλμπουμ Κάμεράς σου;</item>
+        <item quantity="other">Οι φωτογραφίες σου προστέθηκαν επιτυχώς στο Μόνο Για Μένα. Θα ήθελες να διαγράψεις τα πρωτότυπα από το Άλμπουμ Κάμεράς σου;</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_description_videos">
+        <item quantity="one">Το βίντεό σου προστέθηκε επιτυχώς στο Μόνο Για Μένα. Θα ήθελες να διαγράψεις το πρωτότυπο από το Άλμπουμ Κάμεράς σου;</item>
+        <item quantity="other">Τα βίντεό σου προστέθηκαν επιτυχώς στο Μόνο Για Μένα. Θα ήθελες να διαγράψεις τα πρωτότυπα από το Άλμπουμ Κάμεράς σου;</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_title">
+        <item quantity="one">Διαγραφή πρωτότυπου</item>
+        <item quantity="other">Διαγραφή πρωτότυπων</item>
+    </plurals>
+    <plurals name="gallery_private_rate_limit_minutes_time_out">
+        <item quantity="one">\nΔοκίμασε ξανά σε %1$d λεπτό.</item>
+        <item quantity="other">\nΔοκίμασε ξανά σε %1$d λεπτά.</item>
+    </plurals>
+    <plurals name="gauge_altitude_unit_feet">
+        <item quantity="one">%d πόδι</item>
+        <item quantity="other">%d πόδια</item>
+    </plurals>
+    <plurals name="gauge_altitude_unit_meters">
+        <item quantity="one">%d λ.</item>
+        <item quantity="other">%d μ.</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="one">%d ώρα</item>
+        <item quantity="other">%d ώρες</item>
+    </plurals>
+    <plurals name="hours_abbreviated">
+        <item quantity="one">%d ώ.</item>
+        <item quantity="other">%d ώ.</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="one">%d ώ.</item>
+        <item quantity="other">%d ώ.</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated">
+        <item quantity="one">%d ώ. πριν</item>
+        <item quantity="other">%d ώ. πριν</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_camera_roll">
+        <item quantity="one">%1$d ώ. πριν από το Άλμπουμ Κάμερας</item>
+        <item quantity="other">%1$d ώ. πριν από το Άλμπουμ Κάμερας</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_chat">
+        <item quantity="one">%1$d ώ. πριν από Chat</item>
+        <item quantity="other">%1$d ώ. πριν από Chat</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_cheerios">
+        <item quantity="one">%1$dώ. πριν από το Pixy</item>
+        <item quantity="other">%1$dώ. πριν από το Pixy</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_creative_kit">
+        <item quantity="one">%1$d ώ. πριν από %2$s</item>
+        <item quantity="other">%1$d ώ. πριν από %2$s</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_memories">
+        <item quantity="one">%1$d ώ. πριν από Αναμνήσεις</item>
+        <item quantity="other">%1$d ώ. πριν από Αναμνήσεις</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_spectacles">
+        <item quantity="one">%1$d ώ. πριν από Spectacles</item>
+        <item quantity="other">%1$d ώ. πριν από Spectacles</item>
+    </plurals>
+    <plurals name="hours_ago_update">
+        <item quantity="one">Ενημερώθηκε %1$s ώρα πριν</item>
+        <item quantity="other">Ενημερώθηκε %1$s ώρες πριν</item>
+    </plurals>
+    <plurals name="last_seen_here_hours">
+        <item quantity="one">Τελευταία φορά εδώ πριν από %d ώ.</item>
+        <item quantity="other">Τελευταία φορά εδώ πριν από %d ώ.</item>
+    </plurals>
+    <plurals name="last_seen_here_minutes">
+        <item quantity="one">Τελευταία φορά εδώ πριν από %d λ.</item>
+        <item quantity="other">Τελευταία φορά εδώ πριν από %d μ.</item>
+    </plurals>
+    <plurals name="live_location_chat_hours_remaining">
+        <item quantity="one">%d ώρα</item>
+        <item quantity="other">%d ώρες</item>
+    </plurals>
+    <plurals name="live_location_description_existing_sessions">
+        <item quantity="one">Θα μοιραστείς την τοποθεσία σου σε αληθινό χρόνο με φίλους που βρίσκονται αυτήν τη στιγμή σε αυτό το γκρουπ. %d φίλος μπορεί να δει ήδη τη Ζωντανή τοποθεσία σου.</item>
+        <item quantity="other">Θα μοιραστείς την τοποθεσία σου σε αληθινό χρόνο με φίλους που βρίσκονται αυτήν τη στιγμή σε αυτό το γκρουπ. %d φίλοι μπορούν να δουν ήδη τη Ζωντανή τοποθεσία σου.</item>
+    </plurals>
+    <plurals name="live_location_duration_hr">
+        <item quantity="one">%d Ώρα</item>
+        <item quantity="other">%d Ώρες</item>
+    </plurals>
+    <plurals name="live_location_duration_min">
+        <item quantity="one">%d Λεπτό</item>
+        <item quantity="other">%d Λεπτά</item>
+    </plurals>
+    <plurals name="live_location_share_group_description">
+        <item quantity="one">Θα μοιραστείς τη Ζωντανή τοποθεσία σου με φίλους που βρίσκονται αυτήν τη στιγμή στο γκρουπ. %d μέλος δεν θα λάβει την τοποθεσία σου, επειδή δεν είστε φίλοι.</item>
+        <item quantity="other">Θα μοιραστείς τη Ζωντανή τοποθεσία σου με φίλους που βρίσκονται αυτήν τη στιγμή στο γκρουπ. %d μέλη δεν θα λάβουν την τοποθεσία σου, επειδή δεν είστε φίλοι.</item>
+    </plurals>
+    <plurals name="live_location_with_friends">
+        <item quantity="one">με %d φίλο</item>
+        <item quantity="other">με %d φίλους</item>
+    </plurals>
+    <plurals name="location_upsell_description_specific_friends_more_than_four">
+        <item quantity="one">Οι χρήστες %1$s, %2$s, %3$s και %4$d ακόμη φίλοι σου βρίσκονται στον Χάρτη!</item>
+        <item quantity="other">Οι χρήστες %1$s, %2$s, %3$s και %4$d ακόμη φίλοι σου βρίσκονται στον Χάρτη!</item>
+    </plurals>
+    <plurals name="locked_lens_friending_banner_countdown_timer_hours">
+        <item quantity="one">%1$d ώ.</item>
+        <item quantity="other">%1$d ώ.</item>
+    </plurals>
+    <plurals name="locked_lens_friending_banner_countdown_timer_minutes">
+        <item quantity="one">%1$d λ.</item>
+        <item quantity="other">%1$d λ.</item>
+    </plurals>
+    <plurals name="locked_lens_friending_banner_countdown_timer_seconds">
+        <item quantity="one">%1$d δ.</item>
+        <item quantity="other">%1$d δ.</item>
+    </plurals>
+    <plurals name="map_group_card_subtext_friend_sharing">
+        <item quantity="one">%1$d φίλος κάνει κοινή χρήση</item>
+        <item quantity="other">%1$d φίλοι κάνουν κοινή χρήση</item>
+    </plurals>
+    <plurals name="map_passport_and_other">
+        <item quantity="one">και %d ακόμα</item>
+        <item quantity="other">και %d ακόμα</item>
+    </plurals>
+    <plurals name="map_passport_bucket_cities_title">
+        <item quantity="one">Πόλη</item>
+        <item quantity="other">Πόλεις</item>
+    </plurals>
+    <plurals name="map_passport_bucket_countries_title">
+        <item quantity="one">Χώρα</item>
+        <item quantity="other">Χώρες</item>
+    </plurals>
+    <plurals name="map_passport_bucket_places_title">
+        <item quantity="one">Τόπος</item>
+        <item quantity="other">Μέρη</item>
+    </plurals>
+    <plurals name="map_widget_days_ago">
+        <item quantity="one">%d ημ.</item>
+        <item quantity="other">%d ημ.</item>
+    </plurals>
+    <plurals name="media_export_service_batch_export_failure">
+        <item quantity="one">Έγινε εξαγωγή %1$d από %2$d Snap. %3$d Snap απέτυχε.</item>
+        <item quantity="other">Έγινε εξαγωγή %1$d από %2$d Snap. %3$d Snap απέτυχαν.</item>
+    </plurals>
+    <plurals name="media_export_service_processing">
+        <item quantity="one">Εξαγωγή Snap...</item>
+        <item quantity="other">Εξαγωγή %1$d από %2$d Snap…</item>
+    </plurals>
+    <plurals name="media_export_service_success">
+        <item quantity="one">Έγινε εξαγωγή του Snap σου!</item>
+        <item quantity="other">Έγινε εξαγωγή των Snap σου!</item>
+    </plurals>
+    <plurals name="memories_camera_select_limit_error">
+        <item quantity="one">Συγγνώμη, μπορεί να επιλέγεται μόνο %d Snap κάθε φορά.</item>
+        <item quantity="other">Συγγνώμη, μπορεί να επιλέγεται μόνο %d Snap κάθε φορά.</item>
+    </plurals>
+    <plurals name="memories_delete_camera_roll_image_body">
+        <item quantity="one">Αυτή η εικόνα θα διαγραφεί από τη συσκευή σου</item>
+        <item quantity="other">Αυτές οι εικόνες θα διαγραφούν από τη συσκευή σου</item>
+    </plurals>
+    <plurals name="memories_delete_camera_roll_mixed_body">
+        <item quantity="one">Αυτά τα αρχεία θα διαγραφούν από τη συσκευή σου</item>
+        <item quantity="other">Αυτά τα αρχεία θα διαγραφούν από τη συσκευή σου</item>
+    </plurals>
+    <plurals name="memories_delete_camera_roll_video_body">
+        <item quantity="one">Αυτό το βίντεο θα διαγραφεί από τη συσκευή σου</item>
+        <item quantity="other">Αυτά τα βίντεο θα διαγραφούν από τη συσκευή σου</item>
+    </plurals>
+    <plurals name="memories_delete_snap_body">
+        <item quantity="one">Αφαίρεση Snap;</item>
+        <item quantity="other">Αφαίρεση Snaps;</item>
+    </plurals>
+    <plurals name="memories_delete_story_body">
+        <item quantity="one">Διαγραφή Ιστορίας;</item>
+        <item quantity="other">Διαγραφή Ιστοριών;</item>
+    </plurals>
+    <plurals name="memories_export_error">
+        <item quantity="one">Αδύνατη η εξαγωγή Snap!</item>
+        <item quantity="other">Αδύνατη η εξαγωγή Snaps!</item>
+    </plurals>
+    <plurals name="memories_favorite_snaps_story_added">
+        <item quantity="one">Προστέθηκε Snap στην Ιστορία αγαπημένων σου</item>
+        <item quantity="other">%d Snap προστέθηκαν στην Ιστορία αγαπημένων σου</item>
+    </plurals>
+    <plurals name="memories_favorite_snaps_story_removed">
+        <item quantity="one">Snap αφαιρέθηκε από την Ιστορία αγαπημένων σου</item>
+        <item quantity="other">%d Snap αφαιρέθηκαν από την Ιστορία αγαπημένων σου</item>
+    </plurals>
+    <plurals name="memories_featured_story_flashback_diff_date_subtext">
+        <item quantity="one">%1$d χρόνο πριν</item>
+        <item quantity="other">%1$d χρόνια πριν</item>
+    </plurals>
+    <plurals name="memories_featured_story_flashback_same_date_subtext">
+        <item quantity="one">Πριν %1$d χρόνο, σαν σήμερα</item>
+        <item quantity="other">Πριν %1$d χρόνια, σαν σήμερα</item>
+    </plurals>
+    <plurals name="memories_featured_story_trip_flashback_chat_prefill_snap">
+        <item quantity="one">%1$s, %2$d χρόνο πριν</item>
+        <item quantity="other">%1$s, %2$d χρόνια πριν</item>
+    </plurals>
+    <plurals name="memories_featured_story_trip_flashback_chat_prefill_story">
+        <item quantity="one">Από %1$d χρόνο πριν</item>
+        <item quantity="other">Από %1$d χρόνια πριν</item>
+    </plurals>
+    <plurals name="memories_hide_legacy_auto_saves">
+        <item quantity="one">Τα Snap από αυτήν την Ιστορία θα εξακολουθούν να είναι διαθέσιμα στη νέα σου Σελίδα Η ιστορία μου. Δεν θα επηρεαστούν Ιστορίες που έχεις δημιουργήσει ή επεξεργαστεί.</item>
+        <item quantity="other">Τα Snap από αυτές τις Ιστορίες θα εξακολουθούν να είναι διαθέσιμα στη νέα σου Σελίδα Η ιστορία μου. Δεν θα επηρεαστούν Ιστορίες που έχεις δημιουργήσει ή επεξεργαστεί.</item>
+    </plurals>
+    <plurals name="memories_hide_legacy_auto_saves_title">
+        <item quantity="one">Αφαίρεση %d παλαιότερης αυτόματα αποθηκευμένης Ιστορίας;</item>
+        <item quantity="other">Αφαίρεση %d παλαιότερων αυτόματα αποθηκευμένων Ιστοριών;</item>
+    </plurals>
+    <plurals name="memories_print_print_created">
+        <item quantity="one">%d 3D εκτύπωση δημιουργήθηκε</item>
+        <item quantity="other">%d 3D εκτυπώσεις δημιουργήθηκαν</item>
+    </plurals>
+    <plurals name="memories_print_processing">
+        <item quantity="one">Επεξεργασία %d Snap για εκτύπωση...</item>
+        <item quantity="other">Επεξεργασία %d Snap για εκτύπωση...</item>
+    </plurals>
+    <plurals name="memories_remove_older_stories_dialog_title">
+        <item quantity="one">Αυτό θα αφαιρέσει %d παλαιότερη αυτόματα αποθηκευμένη Ιστορία.</item>
+        <item quantity="other">Αυτό θα αφαιρέσει %d παλαιότερες αυτόματα αποθηκευμένες Ιστορίες.</item>
+    </plurals>
+    <plurals name="memories_select_limit_error">
+        <item quantity="one">Συγγνώμη, μπορεί να επιλέγεται μόνο %d Snap κάθε φορά.</item>
+        <item quantity="other">Συγγνώμη, μπορεί να επιλέγεται μόνο %d Snap κάθε φορά.</item>
+    </plurals>
+    <plurals name="memories_status_transfer_complete_in_app_notification_text">
+        <item quantity="one">Εισαγωγή %1$d Snap από %2$s</item>
+        <item quantity="other">Εισαγωγή %1$d Snaps από %2$s</item>
+    </plurals>
+    <plurals name="memories_status_transfer_complete_title">
+        <item quantity="one">Εισαγωγή %d Snap!</item>
+        <item quantity="other">Εισαγωγή %d Snaps!</item>
+    </plurals>
+    <plurals name="memories_status_transfer_from_device_complete_title">
+        <item quantity="one">Νέο Snap από %s</item>
+        <item quantity="other">Νέα Snaps από %s</item>
+    </plurals>
+    <plurals name="memories_status_transferring_title">
+        <item quantity="one">Εισαγωγή %1$d από %2$d Snap...</item>
+        <item quantity="other">Εισαγωγή %1$d από %2$d Snap...</item>
+    </plurals>
+    <plurals name="memories_story_editor_add_snap_selected">
+        <item quantity="one">%d Επιλεγμένη</item>
+        <item quantity="other">%d Επιλεγμένη</item>
+    </plurals>
+    <plurals name="minutes_abbreviated">
+        <item quantity="one">%d λ.</item>
+        <item quantity="other">%d λ.</item>
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="one">%d λ.</item>
+        <item quantity="other">%d λ.</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated">
+        <item quantity="one">%d λ. πριν</item>
+        <item quantity="other">%d λ. πριν</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_camera_roll">
+        <item quantity="one">%1$d λ. πριν από το Άλμπουμ Κάμερας</item>
+        <item quantity="other">%1$d λ. πριν από το Άλμπουμ Κάμερας</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_chat">
+        <item quantity="one">%1$d λ. πριν από Chat</item>
+        <item quantity="other">%1$d λ. πριν από Chat</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_cheerios">
+        <item quantity="one">%1$dλ. πριν από το Pixy</item>
+        <item quantity="other">%1$dλ. πριν από το Pixy</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_creative_kit">
+        <item quantity="one">%1$d λ. πριν από %2$s</item>
+        <item quantity="other">%1$d λ. πριν από %2$s</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_memories">
+        <item quantity="one">%1$d λ. πριν από Αναμνήσεις</item>
+        <item quantity="other">%1$d λ. πριν από Αναμνήσεις</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_spectacles">
+        <item quantity="one">%1$d λ. πριν από Spectacles</item>
+        <item quantity="other">%1$d λ. πριν από Spectacles</item>
+    </plurals>
+    <plurals name="minutes_ago_update">
+        <item quantity="one">Ενημερώθηκε %1$s λεπτό πριν</item>
+        <item quantity="other">Ενημερώθηκε %1$s λεπτά πριν</item>
+    </plurals>
+    <plurals name="months_abbreviated">
+        <item quantity="one">%d μ.</item>
+        <item quantity="other">%d μ.</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated">
+        <item quantity="one">%d μ. πριν</item>
+        <item quantity="other">%d μ. πριν</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_camera_roll">
+        <item quantity="one">%1$d μ. πριν από το Άλμπουμ Κάμερας</item>
+        <item quantity="other">%1$d μ. πριν από το Άλμπουμ Κάμερας</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_chat">
+        <item quantity="one">%1$d μ. πριν από Chat</item>
+        <item quantity="other">%1$d μ. πριν από Chat</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_cheerios">
+        <item quantity="one">%1$dμη. πριν από το Pixy</item>
+        <item quantity="other">%1$dμη. πριν από το Pixy</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_creative_kit">
+        <item quantity="one">%1$d μ. πριν από %2$s</item>
+        <item quantity="other">%1$d μ. πριν από %2$s</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_memories">
+        <item quantity="one">%1$d μ. πριν από Αναμνήσεις</item>
+        <item quantity="other">%1$d μ. πριν από Αναμνήσεις</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_spectacles">
+        <item quantity="one">%1$d μ. πριν από Spectacles</item>
+        <item quantity="other">%1$d μ. πριν από Spectacles</item>
+    </plurals>
+    <plurals name="months_ago_update">
+        <item quantity="one">Ενημερώθηκε %1$s μήνα πριν</item>
+        <item quantity="other">Ενημερώθηκε %1$s μήνες πριν</item>
+    </plurals>
+    <plurals name="more_stories">
+        <item quantity="one">1 ακόμη Ιστορία</item>
+        <item quantity="other">%d ακόμη Ιστορίες</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d νέα ειδοποίηση</item>
+        <item quantity="other">%d νέες ειδοποιήσεις</item>
+    </plurals>
+    <plurals name="muted_stories">
+        <item quantity="one">1 Ιστορία σε σίγαση</item>
+        <item quantity="other">%d Ιστορίες σε σίγαση</item>
+    </plurals>
+    <plurals name="new_registration_continue_with_n_friends">
+        <item quantity="one">Προσθήκη ενός φίλου</item>
+        <item quantity="other">Προσθήκη %d φίλων</item>
+    </plurals>
+    <plurals name="num_hours">
+        <item quantity="one">%d ώ.</item>
+        <item quantity="other">%d ώ.</item>
+    </plurals>
+    <plurals name="num_minutes">
+        <item quantity="one">%d λ.</item>
+        <item quantity="other">%d λ.</item>
+    </plurals>
+    <plurals name="nyc_audience_many_and_x_others">
+        <item quantity="one">%1$s+%2$d άλλος</item>
+        <item quantity="other">%1$s+%2$d άλλοι</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_ft">
+        <item quantity="one">πόδια</item>
+        <item quantity="other">πόδια</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_km">
+        <item quantity="one">χλμ</item>
+        <item quantity="other">χλμ</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_m">
+        <item quantity="one">μ.</item>
+        <item quantity="other">μ.</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_mile">
+        <item quantity="one">μίλια</item>
+        <item quantity="other">μίλια</item>
+    </plurals>
+    <plurals name="nyc_friends_many_and_x_others">
+        <item quantity="one">Ο χρήστης %1$s μοιράζεται ήδη τη Ζωντανή τοποθεσία του μαζί σου</item>
+        <item quantity="other">Οι χρήστες %1$s και %2$s μοιράζονται ήδη τη Ζωντανή τοποθεσία τους μαζί σου</item>
+    </plurals>
+    <plurals name="nyc_sharing_live_location_with_friends">
+        <item quantity="one">Κοινή χρήση τοποθεσίας με %1$s φίλο. </item>
+        <item quantity="other">Κοινή χρήση τοποθεσίας με %1$s φίλους. </item>
+    </plurals>
+    <plurals name="nyc_unhide_live_location_friend_dialog_title">
+        <item quantity="one">Κρύβεις τη Ζωντανή τοποθεσία σου από έναν άλλο φίλο.</item>
+        <item quantity="other">Κρύβεις τη Ζωντανή τοποθεσία σου από %1$d άλλους φίλους.</item>
+    </plurals>
+    <plurals name="pairing_validation_description">
+        <item quantity="one">Υπάρχει 1 Snap στο Pixy σου από τον προηγούμενο χρήστη. Η σύνδεση με αυτήν τη συσκευή θα επαναφέρει τη συσκευή και θα διαγράψει όλα τα Snap και τα δεδομένα χρήστη.</item>
+        <item quantity="other">Υπάρχουν %d Snap στο Pixy σου από τον προηγούμενο χρήστη. Η σύνδεση με αυτήν τη συσκευή, θα επαναφέρει τη συσκευή και θα διαγράψει όλα τα Snap και τα δεδομένα χρήστη.</item>
+    </plurals>
+    <plurals name="payments_num_purchased_items">
+        <item quantity="one">1 τεμάχιο</item>
+        <item quantity="other">%d τεμάχια</item>
+    </plurals>
+    <plurals name="pending_syncs_logout_warning">
+        <item quantity="one">Ένα Snap δεν έχει αποθηκευτεί ακόμα στις Αναμνήσεις. Αν αποσυνδεθείς τώρα, αυτό το Snap μπορεί να χαθεί.</item>
+        <item quantity="other">%1$d Snaps δεν έχουν αποθηκευτεί ακόμα στις Αναμνήσεις. Αν αποσυνδεθείς τώρα, αυτά τα Snaps μπορεί να χαθούν.</item>
+    </plurals>
+    <plurals name="perception_lens_collection_scan_card_lenses_count">
+        <item quantity="one">%d φακός</item>
+        <item quantity="other">%d φακοί</item>
+    </plurals>
+    <plurals name="perception_lenses_scan_card_try_lenses">
+        <item quantity="one">Δοκίμασε Φακό</item>
+        <item quantity="other">Δοκίμασε Φακούς (%d)</item>
+    </plurals>
+    <plurals name="play_with_max_player_alert_text">
+        <item quantity="one">Το παιχνίδι επιτρέπει μόνο μέχρι %1$d παίκτες</item>
+        <item quantity="other">Το παιχνίδι επιτρέπει μόνο μέχρι %1$d παίκτες</item>
+    </plurals>
+    <plurals name="post_pairing_import_title">
+        <item quantity="one">%d Νέο Snap</item>
+        <item quantity="other">%d Νέα Snap</item>
+    </plurals>
+    <plurals name="registration_continue_with_n_friends">
+        <item quantity="one">+ Προσθήκη ενός φίλου...</item>
+        <item quantity="other">+ Προσθήκη %d φίλων</item>
+    </plurals>
+    <plurals name="save_button_tooltip_saved_multiple">
+        <item quantity="one">%1$d Snap αποθηκεύτηκε!</item>
+        <item quantity="other">%1$d Snaps αποθηκεύτηκαν!</item>
+    </plurals>
+    <plurals name="saved_media_gallery_attribution_media_count">
+        <item quantity="one">%s Snap</item>
+        <item quantity="other">%s Snaps</item>
+    </plurals>
+    <plurals name="seconds_abbreviated">
+        <item quantity="one">%d δ.</item>
+        <item quantity="other">%d δ.</item>
+    </plurals>
+    <plurals name="seconds_ago">
+        <item quantity="one">%d δ.</item>
+        <item quantity="other">%d δ.</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated">
+        <item quantity="one">%d δ. πριν</item>
+        <item quantity="other">%d δ. πριν</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_camera_roll">
+        <item quantity="one">%1$d δ. πριν από το Άλμπουμ Κάμερας</item>
+        <item quantity="other">%1$d δ. πριν από το Άλμπουμ Κάμερας</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_chat">
+        <item quantity="one">%1$d δ. πριν από Chat</item>
+        <item quantity="other">%1$d δ. πριν από Chat</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_cheerios">
+        <item quantity="one">%1$dδ. πριν από το Pixy</item>
+        <item quantity="other">%1$dδ. πριν από το Pixy</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_creative_kit">
+        <item quantity="one">%1$d δ. πριν από %2$s</item>
+        <item quantity="other">%1$d δ. πριν από %2$s</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_memories">
+        <item quantity="one">%1$d δ. πριν από Αναμνήσεις</item>
+        <item quantity="other">%1$d δ. πριν από Αναμνήσεις</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_spectacles">
+        <item quantity="one">%1$d δ. πριν από Spectacles</item>
+        <item quantity="other">%1$d δ. πριν από Spectacles</item>
+    </plurals>
+    <plurals name="seconds_ago_update">
+        <item quantity="one">Ενημερώθηκε %1$s δευτερόλεπτο πριν</item>
+        <item quantity="other">Ενημερώθηκε %1$s δευτερόλεπτα πριν</item>
+    </plurals>
+    <plurals name="select_friend_friend">
+        <item quantity="one">1 φίλος</item>
+        <item quantity="other">%1$d φίλοι</item>
+    </plurals>
+    <plurals name="select_friend_other">
+        <item quantity="one">τον χρήστη %1$s και 1 ακόμα</item>
+        <item quantity="other">Ο χρήστης %1$s και %2$d ακόμα</item>
+    </plurals>
+    <plurals name="settings_birthday_update_years_old">
+        <item quantity="one">Είμαι %d χρονών.</item>
+        <item quantity="other">Είμαι %d χρονών.</item>
+    </plurals>
+    <plurals name="snap_timer_selection_units">
+        <item quantity="one">δευτ.</item>
+        <item quantity="other">δευτ.</item>
+    </plurals>
+    <plurals name="snaps_count">
+        <item quantity="one">%1$d Snap</item>
+        <item quantity="other">%1$d Snaps</item>
+    </plurals>
+    <plurals name="spectacles_export_customization_description">
+        <item quantity="one">Πώς θέλεις να εξάγεις το Snap σου;</item>
+        <item quantity="other">Πώς θέλεις να εξάγεις τα Snaps σου;</item>
+    </plurals>
+    <plurals name="spotlight_comments_count_notification_title">
+        <item quantity="one">1 σχόλιο Προσκηνίου σε αναμονή!</item>
+        <item quantity="other">%d σχόλια Προσκηνίου σε αναμονή!</item>
+    </plurals>
+    <plurals name="status_views">
+        <item quantity="one">%d Προβολή</item>
+        <item quantity="other">%d Προβολές</item>
+    </plurals>
+    <plurals name="still_sharing_last_active_location_description">
+        <item quantity="one">Η Ζωντανή τοποθεσία σου είναι κρυμμένη, αλλά %1$s φίλος μπορεί να βλέπει ακόμα την Πιο πρόσφατη ενεργή τοποθεσία σου.\n\n Μπορείς να το αλλάξεις αυτό στις Ρυθμίσεις χάρτη.</item>
+        <item quantity="other">Η Ζωντανή τοποθεσία σου είναι κρυμμένη, αλλά %1$s φίλοι μπορούν να βλέπουν ακόμα την Πιο πρόσφατη ενεργή τοποθεσία σου.\n\n Μπορείς να το αλλάξεις αυτό στις Ρυθμίσεις χάρτη.</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_change_audience">
+        <item quantity="one">Έχεις αποθηκεύσει τις ρυθμίσεις τοποθεσίας σου, όμως %1$s φίλος/φίλη σου μπορεί να βλέπει ακόμα τη Ζωντανή τοποθεσία σου. Για να σταματήσεις να τη μοιράζεσαι, πάτησε «Διακοπή» δίπλα στο όνομά του/της.</item>
+        <item quantity="other">Έχεις αποθηκεύσει τις ρυθμίσεις τοποθεσίας σου, όμως %1$s φίλοι σου μπορούν να βλέπουν ακόμα τη Ζωντανή τοποθεσία σου. Για να σταματήσεις να τη μοιράζεσαι, πάτησε «Διακοπή» δίπλα στο όνομά τους.</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_enter_ghost_mode">
+        <item quantity="one">Είσαι σε Λειτουργία φαντάσματος, όμως %1$s φίλος/φίλη σου μπορεί να βλέπει ακόμα την Ζωντανή τοποθεσία σου. Για να σταματήσεις να τη μοιράζεσαι, πάτησε «Διακοπή» δίπλα στο όνομά του/της.</item>
+        <item quantity="other">Είσαι σε Λειτουργία φαντάσματος, όμως %1$s φίλοι σου μπορούν να βλέπουν ακόμα την Ζωντανή τοποθεσία σου. Για να σταματήσεις να τη μοιράζεσαι, πάτησε «Διακοπή» δίπλα στο όνομά τους.</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_enter_ghost_mode_ghost_trail">
+        <item quantity="one">Είσαι σε Λειτουργία φαντάσματος, όμως %1$s φίλος σου μπορεί να βλέπει ακόμα τη Ζωντανή τοποθεσία σου. Για να σταματήσεις να τη μοιράζεσαι, πάτησε «Διακοπή» δίπλα στο όνομά του.\n\nΟι τοποθεσίες δεν θα προστίθενται στο Ίχνος φαντάσματός σου όσο βρίσκεσαι σε Λειτουργία φαντάσματος.</item>
+        <item quantity="other">Είσαι σε Λειτουργία φαντάσματος, όμως %1$s φίλοι σου μπορούν να βλέπουν ακόμα τη Ζωντανή τοποθεσία σου. Για να σταματήσεις να τη μοιράζεσαι, πάτησε «Διακοπή» δίπλα στο όνομά τους.\n\nΟι τοποθεσίες δεν θα προστίθενται στο Ίχνος φαντάσματός σου όσο βρίσκεσαι σε Λειτουργία φαντάσματος.</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_enter_ghost_mode_hide_live_location">
+        <item quantity="one">Είσαι σε Λειτουργία φαντάσματος, αλλά %1$s φίλος μπορεί να βλέπει ακόμα τη Ζωντανή τοποθεσία σου. Για να σταματήσεις να τη μοιράζεσαι, πάτησε «Απόκρυψη της ζωντανής τοποθεσίας μου» παρακάτω.</item>
+        <item quantity="other">Είσαι σε Λειτουργία φαντάσματος, αλλά %1$s φίλοι μπορούν να βλέπουν ακόμα τη Ζωντανή τοποθεσία σου. Για να σταματήσεις να τη μοιράζεσαι, πάτησε «Απόκρυψη της ζωντανής τοποθεσίας μου» παρακάτω.</item>
+    </plurals>
+    <plurals name="story_friend_story_notification_title_update">
+        <item quantity="one">%d φίλος πρόσθεσε στην Ιστορία του.</item>
+        <item quantity="other">%d φίλοι πρόσθεσαν στην Ιστορία τους</item>
+    </plurals>
+    <plurals name="story_fullscreen_footer_view_count">
+        <item quantity="one">%d Προβολή</item>
+        <item quantity="other">%d Προβολές</item>
+    </plurals>
+    <plurals name="story_management_viewer_list_more_viewers">
+        <item quantity="one">+ %1$d άλλοι</item>
+        <item quantity="other">+ %1$d άλλοι</item>
+    </plurals>
+    <plurals name="story_mob_subtext_more">
+        <item quantity="one">%1$s &amp; %2$d ακόμα…</item>
+        <item quantity="other">%1$s &amp; %2$d ακόμα…</item>
+    </plurals>
+    <plurals name="story_profile_communities_members">
+        <item quantity="one">Επαληθευμένο • %d Μέλος</item>
+        <item quantity="other">Επαληθευμένο • %d Μέλη</item>
+    </plurals>
+    <plurals name="story_profile_shared_stories_members">
+        <item quantity="one">%d Μέλος</item>
+        <item quantity="other">%d Μέλη</item>
+    </plurals>
+    <plurals name="story_profile_stories_adding">
+        <item quantity="one">Προσθήκη %d Snap...</item>
+        <item quantity="other">Προσθήκη %d Snaps...</item>
+    </plurals>
+    <plurals name="story_profile_stories_failed_to_add">
+        <item quantity="one">Αποτυχία προσθήκης %d Snap</item>
+        <item quantity="other">Αποτυχία προσθήκης %d Snaps</item>
+    </plurals>
+    <plurals name="story_profile_stories_waiting_to_add">
+        <item quantity="one">Αναμονή για προσθήκη %d Snap...</item>
+        <item quantity="other">Αναμονή για προσθήκη %d Snaps...</item>
+    </plurals>
+    <plurals name="story_settings_action_menu_my_story_blocked_number_of_people">
+        <item quantity="one">1 άτομο</item>
+        <item quantity="other">%d άτομα</item>
+    </plurals>
+    <plurals name="streak_restore_dialog_subtitle_free_restore">
+        <item quantity="one">Έχεις %1$d δωρεάν επαναφορά.</item>
+        <item quantity="other">Έχεις %1$d δωρεάν επαναφορές.</item>
+    </plurals>
+    <plurals name="streak_restore_dialog_subtitle_hours">
+        <item quantity="one">Μένει %2$d ώρα για να επαναφέρεις το Snapstreak σου με τον χρήστη %1$s πριν εξαφανιστεί για πάντα!</item>
+        <item quantity="other">Μένουν %2$d ώρες για να επαναφέρεις το Snapstreak σου με τον χρήστη %1$s πριν εξαφανιστεί για πάντα!</item>
+    </plurals>
+    <plurals name="streak_restore_dialog_subtitle_minutes">
+        <item quantity="one">Μένει %2$d λεπτό για να επαναφέρεις το Snapstreak σου με τον χρήστη %1$s πριν εξαφανιστεί για πάντα!</item>
+        <item quantity="other">Μένουν %2$d λεπτά για να επαναφέρεις το Snapstreak σου με τον χρήστη %1$s πριν εξαφανιστεί για πάντα!</item>
+    </plurals>
+    <plurals name="subtitle_sharing_custom_friends">
+        <item quantity="one">με %d Φίλο</item>
+        <item quantity="other">με %d Φίλους</item>
+    </plurals>
+    <plurals name="takeover_request_index_and_total">
+        <item quantity="one">%1$d από %2$d νέες προσθήκες φίλων</item>
+        <item quantity="other">%1$d από %2$d νέες προσθήκες φίλων</item>
+    </plurals>
+    <plurals name="ticketmaster_events_label">
+        <item quantity="one">εκδήλωση</item>
+        <item quantity="other">εκδηλώσεις</item>
+    </plurals>
+    <plurals name="watched_stories">
+        <item quantity="one">1 Ιστορία προβλήθηκε</item>
+        <item quantity="other">%d Ιστορίες προβλήθηκαν</item>
+    </plurals>
+    <plurals name="weeks">
+        <item quantity="one">%d εβδομάδα</item>
+        <item quantity="other">%d εβδομάδες</item>
+    </plurals>
+    <plurals name="weeks_abbreviated">
+        <item quantity="one">%d εβδ.</item>
+        <item quantity="other">%d εβδ.</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated">
+        <item quantity="one">%d εβδ. πριν</item>
+        <item quantity="other">%d εβδ. πριν</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_camera_roll">
+        <item quantity="one">%1$d εβδ. πριν από το Άλμπουμ Κάμερας</item>
+        <item quantity="other">%1$d εβδ. πριν από το Άλμπουμ Κάμερας</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_chat">
+        <item quantity="one">%1$d ε. πριν από Chat</item>
+        <item quantity="other">%1$d ε. πριν από Chat</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_cheerios">
+        <item quantity="one">%1$dβ. πριν από το Pixy</item>
+        <item quantity="other">%1$dβ. πριν από το Pixy</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_creative_kit">
+        <item quantity="one">%1$d εβδ. πριν από %2$s</item>
+        <item quantity="other">%1$d εβδ. πριν από %2$s</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_memories">
+        <item quantity="one">%1$d εβδ. πριν από Αναμνήσεις</item>
+        <item quantity="other">%1$d εβδ. πριν από Αναμνήσεις</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_spectacles">
+        <item quantity="one">%1$d εβδ. πριν από Spectacles</item>
+        <item quantity="other">%1$d εβδ. πριν από Spectacles</item>
+    </plurals>
+    <plurals name="weeks_ago_update">
+        <item quantity="one">Ενημερώθηκε %1$s εβδομάδα πριν</item>
+        <item quantity="other">Ενημερώθηκε %1$s εβδομάδες πριν</item>
+    </plurals>
+    <plurals name="years_abbreviated">
+        <item quantity="one">%d χ.</item>
+        <item quantity="other">%d χ.</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated">
+        <item quantity="one">%d χ. πριν</item>
+        <item quantity="other">%d χ. πριν</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_camera_roll">
+        <item quantity="one">%1$d έ. πριν από το Άλμπουμ Κάμερας</item>
+        <item quantity="other">%1$d έ. πριν από το Άλμπουμ Κάμερας</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_chat">
+        <item quantity="one">%1$d χ. πριν από Chat</item>
+        <item quantity="other">%1$d χ. πριν από Chat</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_cheerios">
+        <item quantity="one">%1$dε. πριν από το Pixy</item>
+        <item quantity="other">%1$dε. πριν από το Pixy</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_creative_kit">
+        <item quantity="one">%1$d χ. πριν από %2$s</item>
+        <item quantity="other">%1$d χ. πριν από %2$s</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_memories">
+        <item quantity="one">%1$d έ. πριν από Αναμνήσεις</item>
+        <item quantity="other">%1$d έ. πριν από Αναμνήσεις</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_spectacles">
+        <item quantity="one">%1$d έ. πριν από Spectacles</item>
+        <item quantity="other">%1$d έ. πριν από Spectacles</item>
+    </plurals>
+    <plurals name="years_ago_update">
+        <item quantity="one">Ενημερώθηκε %1$s χρόνο πριν</item>
+        <item quantity="other">Ενημερώθηκε %1$s χρόνια πριν</item>
+    </plurals>
+</resources>

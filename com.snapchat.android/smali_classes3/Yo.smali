@@ -1,0 +1,106 @@
+.class public final LYo;
+.super LRdb;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function0;
+
+
+# instance fields
+.field public final synthetic d:I
+
+.field public final synthetic e:LZo;
+
+
+# direct methods
+.method public synthetic constructor <init>(LZo;I)V
+    .locals 0
+
+    .line 1
+    iput p2, p0, LYo;->d:I
+
+    .line 2
+    .line 3
+    iput-object p1, p0, LYo;->e:LZo;
+
+    .line 4
+    .line 5
+    const/4 p1, 0x0
+
+    .line 6
+    invoke-direct {p0, p1}, LRdb;-><init>(I)V
+
+    .line 7
+    .line 8
+    .line 9
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 2
+
+    .line 1
+    iget v0, p0, LYo;->d:I
+
+    .line 2
+    .line 3
+    iget-object v1, p0, LYo;->e:LZo;
+
+    .line 4
+    .line 5
+    packed-switch v0, :pswitch_data_0
+
+    .line 6
+    .line 7
+    .line 8
+    new-instance v0, LEi;
+
+    .line 9
+    .line 10
+    iget-object v1, v1, LZo;->e:LF86;
+
+    .line 11
+    .line 12
+    invoke-direct {v0, v1}, LEi;-><init>(LF86;)V
+
+    .line 13
+    .line 14
+    .line 15
+    return-object v0
+
+    .line 16
+    :pswitch_0
+    iget-object v0, v1, LZo;->s:Lu44;
+
+    .line 17
+    .line 18
+    sget-object v1, Lc5k;->w1:Lc5k;
+
+    .line 19
+    .line 20
+    invoke-interface {v0, v1}, Lu44;->a(Lzb4;)Z
+
+    .line 21
+    .line 22
+    .line 23
+    move-result v0
+
+    .line 24
+    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    .line 25
+    .line 26
+    .line 27
+    move-result-object v0
+
+    .line 28
+    return-object v0
+
+    .line 29
+    :pswitch_data_0
+    .packed-switch 0x0
+        :pswitch_0
+    .end packed-switch
+.end method

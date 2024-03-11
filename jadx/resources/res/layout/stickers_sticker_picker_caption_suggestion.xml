@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/sig_color_base_gray80_any" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentTop="true" android:layoutDirection="ltr">
+    <com.snap.ui.view.SafeViewPager android:id="@+id/sticker_picker_horizontal_view_pager" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/sticker_picker_category_selector_container"/>
+    <com.snap.stickers.ui.views.CategorySelector android:id="@+id/sticker_picker_category_selector_container" android:visibility="visible" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="2dp" android:layout_alignParentBottom="true"/>
+    <com.snap.stickers.ui.views.BloopsProgressBarView android:id="@+id/sticker_picker_bloops_progress_bar" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.snap.stickers.ui.views.BloopsActionBarView android:id="@+id/sticker_picker_bloops_action_bar" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+    <FrameLayout android:layout_gravity="center" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ViewStub android:id="@+id/press_and_hold_tooltip" android:visibility="gone" android:layout="@layout/stickers_snap_preview_tooltip" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <ViewStub android:id="@+id/bitmoji_friend_picker_stub" android:visibility="gone" android:layout="@layout/stickers_bitmoji_friend_picker_view" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </FrameLayout>
+</RelativeLayout>

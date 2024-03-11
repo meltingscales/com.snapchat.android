@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/birthday_page" android:background="?attr/sigColorBackgroundMain" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/ngo_top_bar"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toBottomOf="@+id/top_bar">
+        <com.snap.identity.ui.view.ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:fillViewport="true" android:layout_weight="1">
+            <LinearLayout android:id="@+id/content_holder" style="@style/LoginSignupPageContainer">
+                <View android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+                <com.snap.ui.view.SnapFontTextView android:id="@+id/birthday_form_hint" android:text="@string/signup_birthday_hint" style="@style/NgoIdentityFieldHint"/>
+                <com.snap.ui.view.SnapFontTextView android:id="@+id/birthday_form_field" android:focusable="false" android:layout_marginTop="@dimen/default_gap" style="@style/NgoIdentityField"/>
+                <com.snap.ui.view.SnapFontTextView android:id="@+id/birthday_subtext" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_gap" style="@style/NgoInputUnderlineText"/>
+                <com.snap.ui.view.SnapFontTextView android:id="@+id/birthday_form_error" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/IdentityFieldError"/>
+                <include layout="@layout/signup_legal_terms_checklist"/>
+                <View android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="2"/>
+            </LinearLayout>
+        </com.snap.identity.ui.view.ScrollView>
+        <include layout="@layout/signup_legal_terms_copy"/>
+        <com.snap.identity.api.sharedui.ProgressButton android:id="@+id/continue_button" style="@style/LoginSignupButton"/>
+        <DatePicker android:gravity="center" android:layout_gravity="bottom|center_horizontal" android:id="@+id/birthday_date_picker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minDate="01/01/1900" android:maxDate="12/31/2100" android:calendarViewShown="false" android:datePickerMode="spinner"/>
+        <RelativeLayout android:layout_gravity="bottom|center_horizontal" android:orientation="horizontal" android:id="@+id/uk_birthday_date_picker" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <NumberPicker android:id="@+id/uk_date_picker_day" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/default_gap" android:datePickerMode="spinner"/>
+            <NumberPicker android:id="@+id/uk_date_picker_month" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/default_gap" android:layout_toEndOf="@+id/uk_date_picker_day"/>
+            <NumberPicker android:id="@+id/uk_date_picker_year" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/default_gap" android:layout_toEndOf="@+id/uk_date_picker_month"/>
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

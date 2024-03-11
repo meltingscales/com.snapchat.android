@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <gradient android:startColor="@color/sig_color_flat_pure_black_any_alpha_8" android:endColor="@android:color/transparent" android:angle="90" android:type="linear" android:centerColor="@color/sig_color_flat_pure_black_any_alpha_8"/>
+    <corners android:radius="@dimen/capri_action_bar_shadow_corner_radius"/>
+</shape>

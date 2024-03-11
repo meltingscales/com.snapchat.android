@@ -1,0 +1,27 @@
+package defpackage;
+
+import io.reactivex.rxjava3.functions.Consumer;
+
+/* renamed from: F63  reason: default package */
+/* loaded from: classes6.dex */
+public final class F63 implements Consumer {
+    public static final F63 b = new F63(0);
+    public static final F63 c = new F63(1);
+    public final /* synthetic */ int a;
+
+    public /* synthetic */ F63(int i) {
+        this.a = i;
+    }
+
+    @Override // io.reactivex.rxjava3.functions.Consumer
+    public final /* bridge */ /* synthetic */ void accept(Object obj) {
+        switch (this.a) {
+            case 0:
+                C38218o8m c38218o8m = (C38218o8m) obj;
+                return;
+            default:
+                Throwable th = (Throwable) obj;
+                return;
+        }
+    }
+}

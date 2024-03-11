@@ -1,0 +1,14 @@
+package com.samsung.android.v4.sdk.camera.utils;
+
+/* loaded from: classes2.dex */
+public final class EngineParameter<T> {
+    private String mName;
+
+    public EngineParameter(String str) {
+        this.mName = str;
+    }
+
+    public String getName() {
+        return this.mName;
+    }
+}

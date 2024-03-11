@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" android:height="@dimen/layer_picker_icon_size" android:width="@dimen/layer_picker_icon_size">
+    <item>
+        <shape android:shape="oval">
+            <gradient android:startColor="#f9f278" android:endColor="#a2eaf1" android:angle="0" android:type="radial" android:gradientRadius="@dimen/layer_picker_icon_size_outer_gradient_radius" android:centerColor="#f9f278"/>
+        </shape>
+    </item>
+    <item android:left="8dp" android:top="8dp" android:right="8dp" android:bottom="8dp">
+        <shape android:shape="oval">
+            <gradient android:startColor="#eb573a" android:endColor="#f9f278" android:angle="0" android:type="radial" android:gradientRadius="@dimen/layer_picker_icon_size_inner_gradient_radius"/>
+        </shape>
+    </item>
+</layer-list>

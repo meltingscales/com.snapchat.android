@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.snap.ui.view.SnapFontTextView android:id="@id/primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/PrimaryText" />
+    <com.snap.ui.view.SnapFontTextView android:id="@id/secondary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/primary_text" android:layout_alignStart="@id/primary_text" style="@style/SecondaryText" />
+</RelativeLayout>

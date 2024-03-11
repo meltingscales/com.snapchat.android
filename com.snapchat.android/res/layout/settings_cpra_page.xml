@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/settings_lockscreen_to_snap" android:background="?sigColorBackgroundSubscreen" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.snap.component.header.SnapSubscreenHeaderView android:id="@id/settings_cpra_header" app:header_background="?sigColorBackgroundMain" app:header_style="back" app:title_text="@string/settings_cpra_header" style="@style/subscreen_header_back" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/cpra_settings_section" android:background="?sigColorBackgroundSurface" android:clickable="true" style="@style/new_settings_item_outer">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="5.0">
+                <com.snap.ui.view.SnapFontTextView android:layout_gravity="start" android:paddingTop="4.0dip" android:text="@string/settings_cpra_title" style="@style/new_settings_item_name" />
+                <com.snap.ui.view.SnapFontTextView android:textSize="@dimen/text_size_fine_print" android:textColor="?sigColorTextTertiary" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_cpra_description" />
+            </LinearLayout>
+            <com.snap.component.button.SnapSwitch android:layout_gravity="end|center|top" android:id="@id/settings_cpra_switch" android:paddingTop="4.0dip" android:clickable="true" android:layout_width="0.0dip" android:checked="false" android:layout_weight="1.0" style="@style/new_settings_item_name" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

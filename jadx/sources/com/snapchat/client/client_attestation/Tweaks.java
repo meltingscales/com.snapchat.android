@@ -1,0 +1,12 @@
+package com.snapchat.client.client_attestation;
+
+/* loaded from: classes.dex */
+public enum Tweaks {
+    ARGOSLEGACYMODE,
+    ARGOSROUTETAG,
+    ARGOSPREEMPTIVEREFRESHDELAYSECOND,
+    ARGOSCOLDTOKENSUPPORTED,
+    ARGOSSTORAGEPATH,
+    ARGOSEXPERIMENTID,
+    ARGOSV12ATTESTATIONPAYLOADENABLED
+}

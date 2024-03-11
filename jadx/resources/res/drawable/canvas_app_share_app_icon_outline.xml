@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
+    <solid android:color="@color/sig_color_flat_pure_white_any"/>
+    <stroke android:color="@color/sig_color_flat_pure_white_any"/>
+    <padding android:left="@dimen/chat_canvas_app_share_app_icon_border_width" android:top="@dimen/chat_canvas_app_share_app_icon_border_width" android:right="@dimen/chat_canvas_app_share_app_icon_border_width" android:bottom="@dimen/chat_canvas_app_share_app_icon_border_width"/>
+</shape>

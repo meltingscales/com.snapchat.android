@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.contextcards.lib.cta.views.ClippingFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.snap.imageloading.view.SnapImageView android:layout_gravity="center" android:id="@+id/icon_secondary" android:padding="@dimen/context_primary_cta_icon_padding" android:visibility="gone" android:layout_width="@dimen/context_primary_cta_icon_size" android:layout_height="@dimen/context_primary_cta_icon_size" android:scaleType="centerInside"/>
+    <com.snap.imageloading.view.SnapImageView android:layout_gravity="center" android:id="@+id/icon" android:padding="@dimen/context_primary_cta_icon_padding" android:visibility="gone" android:layout_width="@dimen/context_primary_cta_icon_size" android:layout_height="@dimen/context_primary_cta_icon_size" android:scaleType="centerInside"/>
+</com.snap.contextcards.lib.cta.views.ClippingFrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/camera_mode_selfie_settings_button_layout" style="@style/v11_hova_header_camera_section"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.snap.ui.view.ShadowTextView android:id="@id/camera_mode_text_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="2.0dip" style="@style/camera_mode_text" />
+    <ImageView android:id="@id/camera_mode_image_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/camera_mode_selfie_settings_drawable" android:contentDescription="@string/camera_mode_selfie_settings" style="@style/v11_hova_header_button" />
+</LinearLayout>

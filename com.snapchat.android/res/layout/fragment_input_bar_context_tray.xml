@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.messaging.chat.ui.view.BackButtonInterceptingLinearLayout android:orientation="vertical" android:background="@color/sig_color_flat_pure_black_any_alpha_30" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.snap.ui.view.TouchInterceptorFrameLayout android:id="@id/input_bar_root_touch_interceptor" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <View android:id="@id/chat_message_input_divider" android:layout_width="0.0px" android:layout_height="0.0px" />
+        <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ViewStub android:id="@id/chat_audio_note_recording_view" android:visibility="gone" android:layout="@layout/chat_audio_note_recording_view" android:layout_width="@dimen/chat_audio_note_recording_preview_with_ring_diameter" android:layout_height="@dimen/chat_audio_note_recording_preview_with_ring_diameter" />
+            <ViewStub android:id="@id/chat_reply_disclaimer" android:layout="@layout/chat_reply_disclaimer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/default_gap_4x" android:layout_marginEnd="@dimen/default_gap_4x" />
+            <ViewStub android:layout_gravity="center_horizontal" android:id="@id/quick_reply_view_stub" android:layout="@layout/input_bar_quick_reply" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="vertical" android:background="@drawable/context_tray_background" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <View android:layout_gravity="center_horizontal" android:id="@id/context_tray_pill" android:background="@drawable/context_tray_pill" android:layout_width="@dimen/chat_input_bar_context_tray_pill_width" android:layout_height="@dimen/chat_input_bar_context_tray_pill_height" android:layout_marginTop="@dimen/default_gap" />
+                <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/chat_input_bar_context_tray" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.snap.ui.view.TouchInterceptorFrameLayout>
+    <FrameLayout android:id="@id/chat_drawer_or_keyboard" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/chat_drawer_container" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View android:id="@id/keyboard_placeholder" android:background="@color/sig_color_flat_pure_black_any" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+    </FrameLayout>
+    <View android:id="@id/navbar_inset" android:background="@color/sig_color_flat_pure_black_any" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+</com.snap.messaging.chat.ui.view.BackButtonInterceptingLinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/ngo_input_subtext_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="start" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.snap.imageloading.view.SnapImageView android:id="@+id/icon" android:layout_width="@dimen/default_gap_2x" android:layout_height="@dimen/default_gap_2x"/>
+        <com.snap.ui.view.SnapFontTextView android:id="@+id/text" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/NgoInputUnderlineText"/>
+    </LinearLayout>
+</merge>

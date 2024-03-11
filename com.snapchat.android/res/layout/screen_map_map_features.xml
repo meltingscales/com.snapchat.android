@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/map_features_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/map_zoom_slider" android:layout="@layout/map_zoom_slider" android:layout_width="140.0dip" android:layout_height="fill_parent" android:layout_marginBottom="72.0dip" android:layout_alignParentRight="true" />
+    <ViewStub android:id="@id/map_layer_picker_container" android:layout="@layout/map_layer_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="50.0dip" />
+    <ViewStub android:id="@id/v2_map_compass" android:layout="@layout/v2_map_compass" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <ViewStub android:id="@id/place_discovery_search_stub" android:layout="@layout/place_discovery_search_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/default_gap" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <ViewStub android:id="@id/clear_ghost_trail_button_stub" android:layout="@layout/clear_ghost_trail_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/default_gap" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <ViewStub android:orientation="vertical" android:id="@id/map_status_container_stub" android:layout="@layout/map_status_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+    <ViewStub android:id="@id/map_places_button" android:layout="@layout/map_places_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <ViewStub android:id="@id/map_v2_explore_button" android:layout="@layout/map_v2_explore_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <ViewStub android:id="@id/v2_map_search_bar" android:layout="@layout/v2_map_search_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="locale" />
+    <ViewStub android:id="@id/map_reactions_layout_stub" android:layout="@layout/map_reactions_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/default_gap" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <ViewStub android:id="@id/map_reactions_bubble_stub" android:layout="@layout/map_reaction_bubbles" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true" />
+    <ViewStub android:id="@id/map_notification_container" android:layout="@layout/map_notification_container" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/map_activity_card_stub" android:layout="@layout/map_activity_card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="110.0dip" android:layout_alignParentBottom="true" />
+    <ViewStub android:id="@id/map_spinner_layout" android:layout="@layout/map_spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    <FrameLayout android:id="@id/overlay_container" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr" />
+    <View android:layout_width="1.0dip" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

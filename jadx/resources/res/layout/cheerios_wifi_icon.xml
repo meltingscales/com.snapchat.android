@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/cheerios_wifi_icon" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ViewStub android:id="@+id/cheerios_wifi_connecting_icon_stub" android:layout="@layout/cheerios_wifi_connecting_icon_layout" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ViewStub android:id="@+id/cheerios_wifi_disconnected_icon_stub" android:layout="@layout/cheerios_wifi_disconnected_icon_layout" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

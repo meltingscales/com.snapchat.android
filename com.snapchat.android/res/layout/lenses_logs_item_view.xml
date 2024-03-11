@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.lenses.performance.debug.DefaultLogItemView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/studio_lens_debug_item_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.snap.ui.view.SnapFontTextView android:id="@id/lens_log_time" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.Lenses.Camera.Debug.Studio.Log" />
+    <com.snap.ui.view.SnapFontTextView android:id="@id/lens_log_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/studio_lens_debug_item_padding" android:layout_toEndOf="@id/lens_log_time" style="@style/Widget.Lenses.Camera.Debug.Studio.Log" />
+</com.snap.lenses.performance.debug.DefaultLogItemView>

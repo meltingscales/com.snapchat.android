@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ff_footer_image_uri">NMKc5Q5tAqtwJLeNzo1x6</string>
+    <string name="find_friends_card_v2">uv7dNfiaweeU5mI3Wap7M</string>
+    <string name="flag_alien_right_facing_url">https://cf-st.sc-cdn.net/d/RN2hTdBeW4kkT0mFaqo7l?bo=EhMaABoAMgIEfUgCUAhaAwiYfmAB&amp;uc=8</string>
+    <string name="heart_icon_24">https://cf-st.sc-cdn.net/d/SpTCJe48P9kHGBm7YBFh8?bo=EhMaABoAMgIEfUgCUAhaAwi8BWAB&amp;uc=8</string>
+    <string name="leaderboard_podium">https://cf-st.sc-cdn.net/d/iw1ZzyQEdMEtfIiuTr9bF?bo=EhMaABoAMgIEfUgCUAhaAwjoHWAB&amp;uc=8</string>
+    <string name="login_kit_privacy_explainer">https://cf-st.sc-cdn.net/d/lScKR7hirkYvzYfjXllfL?bo=EhQaABoAMgIEfUgCUAhaBAiT7gRgAQ%3D%3D&amp;uc=8</string>
+    <string name="polls_popup_image">https://cf-st.sc-cdn.net/d/pSBPYPJvXaA29zM8F1yQA?bo=EhMaABoAMgIEfUgCUAhaAwicYmAB&amp;uc=8</string>
+    <string name="profile_2fa_generatecode">MwIxBW6m7onOSVhNQN3lm</string>
+    <string name="settings_tfa_enrollment_splash">rUutOzBDnB7VXKDkm5dWO</string>
+    <string name="static_map_background_url">https://cf-st.sc-cdn.net/d/YZVX0Kg5okxR1tKs9gyfY?bo=EhMaABoAMgIEfUgCUAhaAwjeSGAB&amp;uc=8</string>
+    <string name="supercut_effect">xDPoh4VETmEfbGqKBURno</string>
+    <string name="supercut_no_effect">duRZVjUOynYtMS4i6pCbU</string>
+    <string name="token_icon_24">https://cf-st.sc-cdn.net/d/h6fngwK4HJDISDXiMd4T3?bo=EhMaABoAMgIEfUgCUAhaAwjECWAB&amp;uc=8</string>
+    <string name="winking_ghost">https://cf-st.sc-cdn.net/d/DKjb9FW0SCUWadHtk376g?bo=EhMaABoAMgIEfUgCUAhaAwi6KWAB&amp;uc=8</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/faded_grey" />
+    <stroke android:width="@dimen/lens_cta_button_stroke_width" android:color="@color/sig_color_flat_pure_black_any_alpha_15" />
+    <corners android:radius="@dimen/lenses_carousel_imagepicker_bg_corner_radius" />
+</shape>

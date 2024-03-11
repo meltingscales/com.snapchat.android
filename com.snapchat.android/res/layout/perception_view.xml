@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.perception.DefaultPerceptionView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/scan_from_lens_indicator_view_stub" android:layout="@layout/perception_scan_from_lens_indicator" android:inflatedId="@id/scan_from_lens_indicator_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/scan_tray_background_view_stub" android:layout="@layout/perception_scan_tray_background_view" android:inflatedId="@id/scan_tray_background_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.snap.perception.DefaultPerceptionView>

@@ -1,0 +1,19 @@
+package defpackage;
+
+/* renamed from: rr2  reason: default package and case insensitive filesystem */
+/* loaded from: classes8.dex */
+public enum EnumC43912rr2 implements I58 {
+    PREVIEW(0),
+    SEND_TO(1);
+    
+    public final int a;
+
+    EnumC43912rr2(int i) {
+        this.a = i;
+    }
+
+    @Override // defpackage.I58
+    public final int a() {
+        return this.a;
+    }
+}

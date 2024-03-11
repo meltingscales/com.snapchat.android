@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="action_menu_camera_select">
+        <item quantity="other">已選取 %d 個項目</item>
+    </plurals>
+    <plurals name="action_menu_hide_long">
+        <item quantity="other">隱藏 Snap (私人閱覽)</item>
+    </plurals>
+    <plurals name="action_menu_mute_for_hours">
+        <item quantity="other">%d 小時</item>
+    </plurals>
+    <plurals name="action_menu_snap_select">
+        <item quantity="other">已選取 %d 則 Snap</item>
+    </plurals>
+    <plurals name="action_menu_unhide_long">
+        <item quantity="other">取消隱藏 Snap</item>
+    </plurals>
+    <plurals name="active_indicator_explainer_active_hour">
+        <item quantity="other">%d 小時！</item>
+    </plurals>
+    <plurals name="activity_indicator_explainer_active_friend_count">
+        <item quantity="other">%d 位好友</item>
+    </plurals>
+    <plurals name="add_friend_badge_request_tips">
+        <item quantity="other">加入 %1$s 位新好友</item>
+    </plurals>
+    <plurals name="add_friend_badge_suggestion_tips">
+        <item quantity="other">%1$s 個推薦新好友</item>
+    </plurals>
+    <plurals name="add_friends_button_subtext">
+        <item quantity="other">%1$s 位 Snapchatter 已新增你！</item>
+    </plurals>
+    <plurals name="add_friends_button_suggestion_subtext">
+        <item quantity="other">%1$s 個推薦新好友！</item>
+    </plurals>
+    <plurals name="batch_capture_save_as_x_snaps">
+        <item quantity="other">儲存為 %1$d 則 Snap</item>
+    </plurals>
+    <plurals name="bottom_button_text">
+        <item quantity="other">+ 新增 %d 位好友</item>
+    </plurals>
+    <plurals name="camera_mode_batch_capture_limit_reached_description_with_count">
+        <item quantity="other">多重 Snap 一次可擷取至少 %1$d 則 Snap！</item>
+    </plurals>
+    <plurals name="camera_mode_disable_batch_capture_description">
+        <item quantity="other">確定要關閉多重 Snap 擷取功能嗎？你將遺失 %1$d 則未儲存的 Snap。</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_image_sharer_you_not">
+        <item quantity="other">%1$s 和 %2$s 已儲存來自 %4$s 的 %3$d 張照片</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_image_sharer_you_yes">
+        <item quantity="other">%1$s 和 %2$s 已儲存 %3$d 張你傳送的照片</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_item_sharer_you_not">
+        <item quantity="other">%1$s 和 %2$s 已儲存來自 %4$s 的 %3$d 項內容</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_item_sharer_you_yes">
+        <item quantity="other">%1$s 和 %2$s 已儲存 %3$d 項你傳送的內容</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_video_sharer_you_not">
+        <item quantity="other">%1$s 和 %2$s 已儲存來自 %4$s 的 %3$d 段影片</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_video_sharer_you_yes">
+        <item quantity="other">%1$s 和 %2$s 已儲存 %3$d 段你傳送的影片</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_yes_media_image_sharer_you_not">
+        <item quantity="other">你和 %1$s 已儲存來自 %3$s 的 %2$d 張照片</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_yes_media_item_sharer_you_not">
+        <item quantity="other">你和 %1$s 已儲存來自 %3$s 的 %2$d 項內容</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_yes_media_video_sharer_you_not">
+        <item quantity="other">你和 %1$s 已儲存來自 %3$s 的 %2$d 段影片</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_image_sharer_you_not">
+        <item quantity="other">%1$s 、和 %2$s 已儲存來自 %4$s 的 %3$d 張照片</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_image_sharer_you_yes">
+        <item quantity="other">%1$s 和 %2$s 已儲存 %3$d 張你傳送的照片</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_item__sharer_you_not">
+        <item quantity="other">%1$s 和 %2$s 已儲存來自 %4$s 的 %3$d 項內容</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_item__sharer_you_yes">
+        <item quantity="other">%1$s 、和 %2$s 已儲存 %3$d 項你傳送的內容</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_video_sharer_you_not">
+        <item quantity="other">%1$s 、和 %2$s 已儲存來自 %4$s 的 %3$d 段影片</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_video_sharer_you_yes">
+        <item quantity="other">%1$s 、和 %2$s 已儲存 %3$d 段你傳送的影片</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_yes_media_image_sharer_you_not">
+        <item quantity="other">你、%1$s 和 %2$s 已儲存來自 %4$s 的 %3$d 張照片</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_yes_media_item_sharer_you_not">
+        <item quantity="other">你、%1$s 和 %2$s 已儲存來自 %4$s 的 %3$d 項內容</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_yes_media_video_sharer_you_not">
+        <item quantity="other">你、 %1$s 和 %2$s 已儲存來自 %4$s 的 %3$d 段影片</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_image_sharer_you_not">
+        <item quantity="other">%1$s 已儲存來自 %3$s 的 %2$d 張照片</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_image_sharer_you_yes">
+        <item quantity="other">%1$s 已儲存了 %2$d 張你傳送的照片</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_item_sharer_you_not">
+        <item quantity="other">%1$s 已儲存來自 %3$s 的 %2$d 項內容</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_item_sharer_you_yes">
+        <item quantity="other">%1$s 已儲存了 %2$d 項你傳送的內容</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_video_sharer_you_not">
+        <item quantity="other">%1$s 已儲存來自 %3$s 的 %2$d 段影片</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_video_sharer_you_yes">
+        <item quantity="other">%1$s 已儲存了 %2$d 段你傳送的影片</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_yes_media_image_sharer_you_not">
+        <item quantity="other">你已儲存來自 %2$s 的 %1$d 張照片</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_yes_media_item__sharer_you_not">
+        <item quantity="other">你已儲存來自 %2$s 的 %1$d 項內容</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_yes_media_video_sharer_you_not">
+        <item quantity="other">你已儲存來自 %2$s 的 %1$d 段影片</item>
+    </plurals>
+    <plurals name="cannot_add_custom_story_snap_recipients">
+        <item quantity="other">你一次只能新增到 %1$d 個專屬故事裡</item>
+    </plurals>
+    <plurals name="capture_settings_distance_value_text_feet">
+        <item quantity="other">%1$d 呎</item>
+    </plurals>
+    <plurals name="capture_settings_duration_value_text_orbits">
+        <item quantity="other">%1$d 圈</item>
+    </plurals>
+    <plurals name="chat_header_gifting_birthday_upsell">
+        <item quantity="other">%1$s 的生日再過 %2$d 天就到了 🎂。送他 Snapchat+ 當作生日禮物</item>
+    </plurals>
+    <plurals name="cheerios_clean_unpair_cheerios_body">
+        <item quantity="other">你的 Pixy 有 %1$d 則 Snap。你想要重設裝置並刪除所有 Snap 和使用者資料嗎？</item>
+    </plurals>
+    <plurals name="cheerios_confirm_delete_body">
+        <item quantity="other">刪除這些 Snap，也將從 Cheerio 裝置移除它們。</item>
+    </plurals>
+    <plurals name="cheerios_deleted">
+        <item quantity="other">已刪除 %d 則 Snap</item>
+    </plurals>
+    <plurals name="cheerios_deleting">
+        <item quantity="other">正在刪除 %d 則 Snap…</item>
+    </plurals>
+    <plurals name="cheerios_memories_tooltip">
+        <item quantity="other">%d 則新 Snap</item>
+    </plurals>
+    <plurals name="cheerios_new_snap_to_import">
+        <item quantity="other">%d 則新 Snap。點選以匯入。</item>
+    </plurals>
+    <plurals name="cheerios_status_transfer_complete_title">
+        <item quantity="other">已匯入 %d 則 Snap！</item>
+    </plurals>
+    <plurals name="cheerios_status_transferring_title">
+        <item quantity="other">正在匯入 %d 則 Snap…</item>
+    </plurals>
+    <plurals name="cluster_seven_or_more">
+        <item quantity="other">%1$s、%2$s、%3$s、%4$s、%5$s 和其他 %6$d 人</item>
+    </plurals>
+    <plurals name="cluster_seven_or_more_me">
+        <item quantity="other">%1$s、%2$s、%3$s、%4$s、我和其他 %5$d 人</item>
+    </plurals>
+    <plurals name="cluster_three_or_more">
+        <item quantity="other">%1$s 和其他 %2$d 人</item>
+    </plurals>
+    <plurals name="cluster_three_or_more_me">
+        <item quantity="other">我和其他 %1$d 人</item>
+    </plurals>
+    <plurals name="cognac_active_playing_game_text_multiple_player">
+        <item quantity="other">%1$s、%2$s 和其他 %3$d 位正在玩</item>
+    </plurals>
+    <plurals name="cognac_active_playing_game_text_multiple_player_shortened">
+        <item quantity="other">%1$s 和其他 %2$d 位正在玩</item>
+    </plurals>
+    <plurals name="cognac_active_using_cypress_text_multiple_player">
+        <item quantity="other">%1$s， %2$s 和其他 + %3$d 已開始</item>
+    </plurals>
+    <plurals name="cognac_active_using_cypress_text_multiple_player_shortened">
+        <item quantity="other">%1$s 和 + %2$d 已開始</item>
+    </plurals>
+    <plurals name="cognac_app_profile_multiple_player_text">
+        <item quantity="other">支援 %1$s-%2$d 位玩家</item>
+    </plurals>
+    <plurals name="cognac_close_status_message_multiple_player_second_person">
+        <item quantity="other">你、%1$s 和其他 %2$d 位已玩過 %3$s</item>
+    </plurals>
+    <plurals name="cognac_close_status_message_multiple_player_third_person">
+        <item quantity="other">%1$s、%2$s 和其他 %3$d 位已玩過 %4$s</item>
+    </plurals>
+    <plurals name="cognac_close_status_message_text_for_feed_multiple_player_third_person">
+        <item quantity="other">%1$s 、 和其他 %2$d 位玩過 %3$s</item>
+    </plurals>
+    <plurals name="cognac_cypress_close_status_message_multiple_player_second_person">
+        <item quantity="other">你， %1$s 和其他 %2$d 使用了 %3$s</item>
+    </plurals>
+    <plurals name="cognac_cypress_close_status_message_multiple_player_third_person">
+        <item quantity="other">%1$s， %2$s 和其他 %3$d 使用了 %4$s</item>
+    </plurals>
+    <plurals name="cognac_cypress_close_status_message_text_for_feed_multiple_player_third_person">
+        <item quantity="other">%1$s 和其他 %2$d 使用了 %3$s</item>
+    </plurals>
+    <plurals name="cognac_friend_picker_ringing_text_multiple_players">
+        <item quantity="other">正在用響鈴通知 %1$s 和其他 %2$d 個好友…</item>
+    </plurals>
+    <plurals name="comments_collapse_child_comments">
+        <item quantity="other">隱藏回覆</item>
+    </plurals>
+    <plurals name="comments_expand_child_comments">
+        <item quantity="other">顯示 %s 回覆</item>
+    </plurals>
+    <plurals name="comments_header_with_live_comment_count">
+        <item quantity="other">%s 則評論</item>
+    </plurals>
+    <plurals name="content_detail_new_count">
+        <item quantity="other">%1$d 新增</item>
+    </plurals>
+    <plurals name="content_detail_seen_text">
+        <item quantity="other">%1$d 以匯入</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="other">%d 天</item>
+    </plurals>
+    <plurals name="days_abbreviated">
+        <item quantity="other">%d 天</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated">
+        <item quantity="other">%d 天前</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_camera_roll">
+        <item quantity="other">%1$d 天前來自相機膠卷</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_chat">
+        <item quantity="other">%1$d 天前來自聊天</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_cheerios">
+        <item quantity="other">%1$d 天前來自 Pixy</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d 天前來自 %2$s</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_memories">
+        <item quantity="other">%1$d 天前來自回憶</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_spectacles">
+        <item quantity="other">%1$d 天前來自 Spectacles</item>
+    </plurals>
+    <plurals name="days_ago_update">
+        <item quantity="other">%1$s 天前更新</item>
+    </plurals>
+    <plurals name="discard_batch_capture_description">
+        <item quantity="other">確定要停用多重 Snap 擷取功能嗎？你將遺失 %1$d 則未儲存的 Snap。</item>
+    </plurals>
+    <plurals name="display_username_explanation_changed_username_too_recently">
+        <item quantity="other">"你已在 %1$s 更改了你的用戶名。
+你可以在 %2$d 天後再次更改。"</item>
+    </plurals>
+    <plurals name="failed_to_save_multiple_snaps">
+        <item quantity="other">無法儲存 %1$d 則 Snap</item>
+    </plurals>
+    <plurals name="formatted_short_ft">
+        <item quantity="other">%d 呎</item>
+    </plurals>
+    <plurals name="formatted_short_km">
+        <item quantity="other">%d 公里</item>
+    </plurals>
+    <plurals name="formatted_short_m">
+        <item quantity="other">%d 公尺</item>
+    </plurals>
+    <plurals name="formatted_short_mile">
+        <item quantity="other">%d 英里</item>
+    </plurals>
+    <plurals name="friending_progress_bar_secondary">
+        <item quantity="other">傳送 %1$s 則以上的好友邀請！</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_description_items">
+        <item quantity="other">你的項目已經成功添加到「私人閱覽」。你想刪除相機膠卷中的原始檔案嗎？</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_description_photos">
+        <item quantity="other">你的照片已經成功添加到「私人閱覽」。你想刪除相機膠卷中的原始檔案嗎？</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_description_videos">
+        <item quantity="other">你的影片已經成功添加到「私人閱覽」。你想刪除相機膠卷中的原始檔案嗎？</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_title">
+        <item quantity="other">刪除原始檔案</item>
+    </plurals>
+    <plurals name="gallery_private_rate_limit_minutes_time_out">
+        <item quantity="other">"
+於 %1$d 分鐘後重試。"</item>
+    </plurals>
+    <plurals name="gauge_altitude_unit_feet">
+        <item quantity="other">%d 呎</item>
+    </plurals>
+    <plurals name="gauge_altitude_unit_meters">
+        <item quantity="other">%d 公尺</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%d 小時</item>
+    </plurals>
+    <plurals name="hours_abbreviated">
+        <item quantity="other">%d 小時</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%d 小時</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated">
+        <item quantity="other">%d 小時前</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_camera_roll">
+        <item quantity="other">%1$d 小時前來自相機膠卷</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_chat">
+        <item quantity="other">%1$d 小時前來自聊天</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_cheerios">
+        <item quantity="other">%1$d 小時前來自 Pixy</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d 小時前來自 %2$s</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_memories">
+        <item quantity="other">%1$d 小時前來自回憶</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_spectacles">
+        <item quantity="other">%1$d 小時前來自 Spectacles</item>
+    </plurals>
+    <plurals name="hours_ago_update">
+        <item quantity="other">%1$s 小時前更新</item>
+    </plurals>
+    <plurals name="last_seen_here_hours">
+        <item quantity="other">%d 小時前在這裡上線</item>
+    </plurals>
+    <plurals name="last_seen_here_minutes">
+        <item quantity="other">%d 分鐘前在這裡上線</item>
+    </plurals>
+    <plurals name="live_location_chat_hours_remaining">
+        <item quantity="other">%d 小時</item>
+    </plurals>
+    <plurals name="live_location_description_existing_sessions">
+        <item quantity="other">你將與目前在此群組中的好友分享即時位置。%d 位好友已經可以看到你的即時位置。</item>
+    </plurals>
+    <plurals name="live_location_duration_hr">
+        <item quantity="other">%d 小時</item>
+    </plurals>
+    <plurals name="live_location_duration_min">
+        <item quantity="other">%d 分鐘</item>
+    </plurals>
+    <plurals name="live_location_share_group_description">
+        <item quantity="other">你將與目前在此群組中的好友分享即時位置。其中 %d 位成員無法取得你的位置，因為你們目前不是好友。</item>
+    </plurals>
+    <plurals name="live_location_with_friends">
+        <item quantity="other">和 %d 位好友</item>
+    </plurals>
+    <plurals name="location_upsell_description_specific_friends_more_than_four">
+        <item quantity="other">%1$s、%2$s、%3$s 以及 %4$d 位好友都在地圖上！</item>
+    </plurals>
+    <plurals name="locked_lens_friending_banner_countdown_timer_hours">
+        <item quantity="other">%1$d 小時</item>
+    </plurals>
+    <plurals name="locked_lens_friending_banner_countdown_timer_minutes">
+        <item quantity="other">%1$d 分</item>
+    </plurals>
+    <plurals name="locked_lens_friending_banner_countdown_timer_seconds">
+        <item quantity="other">%1$d 秒</item>
+    </plurals>
+    <plurals name="map_group_card_subtext_friend_sharing">
+        <item quantity="other">%1$d 位好友在分享</item>
+    </plurals>
+    <plurals name="map_passport_and_other">
+        <item quantity="other">和 %d 位其他好友</item>
+    </plurals>
+    <plurals name="map_passport_bucket_cities_title">
+        <item quantity="other">城市</item>
+    </plurals>
+    <plurals name="map_passport_bucket_countries_title">
+        <item quantity="other">國家</item>
+    </plurals>
+    <plurals name="map_passport_bucket_places_title">
+        <item quantity="other">地點</item>
+    </plurals>
+    <plurals name="map_widget_days_ago">
+        <item quantity="other">%d 天</item>
+    </plurals>
+    <plurals name="media_export_service_batch_export_failure">
+        <item quantity="other">%1$d 則 (共 %2$d 則) Snap 已匯出。%3$d 則 Snap 匯出失敗。</item>
+    </plurals>
+    <plurals name="media_export_service_processing">
+        <item quantity="other">正在匯出 %1$d 則 (共 %2$d 則) Snap…</item>
+    </plurals>
+    <plurals name="media_export_service_success">
+        <item quantity="other">你的 Snap 已匯出！</item>
+    </plurals>
+    <plurals name="memories_camera_select_limit_error">
+        <item quantity="other">很抱歉，一次只能選擇 %d 個項目。</item>
+    </plurals>
+    <plurals name="memories_delete_camera_roll_image_body">
+        <item quantity="other">這些圖片將會從你的裝置刪除</item>
+    </plurals>
+    <plurals name="memories_delete_camera_roll_mixed_body">
+        <item quantity="other">這些項目將會從你的裝置刪除</item>
+    </plurals>
+    <plurals name="memories_delete_camera_roll_video_body">
+        <item quantity="other">這些影片將會從你的裝置刪除</item>
+    </plurals>
+    <plurals name="memories_delete_snap_body">
+        <item quantity="other">要移除 Snap 嗎？</item>
+    </plurals>
+    <plurals name="memories_delete_story_body">
+        <item quantity="other">要刪除故事嗎？</item>
+    </plurals>
+    <plurals name="memories_export_error">
+        <item quantity="other">無法匯出 Snap！</item>
+    </plurals>
+    <plurals name="memories_favorite_snaps_story_added">
+        <item quantity="other">%d 則 Snap 已新增到你喜愛的故事</item>
+    </plurals>
+    <plurals name="memories_favorite_snaps_story_removed">
+        <item quantity="other">%d 則 Snap 已從你喜愛的故事中移除</item>
+    </plurals>
+    <plurals name="memories_featured_story_flashback_diff_date_subtext">
+        <item quantity="other">%1$d 年前</item>
+    </plurals>
+    <plurals name="memories_featured_story_flashback_same_date_subtext">
+        <item quantity="other">%1$d 年前的今天</item>
+    </plurals>
+    <plurals name="memories_featured_story_trip_flashback_chat_prefill_snap">
+        <item quantity="other">%1$s，%2$d 年前</item>
+    </plurals>
+    <plurals name="memories_featured_story_trip_flashback_chat_prefill_story">
+        <item quantity="other">%1$d 年前</item>
+    </plurals>
+    <plurals name="memories_hide_legacy_auto_saves">
+        <item quantity="other">這些故事的 Snap 仍然存在於你新的「我的故事」頁面中，已建立或編輯的故事將不受影響。</item>
+    </plurals>
+    <plurals name="memories_hide_legacy_auto_saves_title">
+        <item quantity="other">要移除 %d 則先前自動儲存的故事？</item>
+    </plurals>
+    <plurals name="memories_print_print_created">
+        <item quantity="other">已建立 %d 3D 列印</item>
+    </plurals>
+    <plurals name="memories_print_processing">
+        <item quantity="other">正在對 %d 則 Snap 進行列印處理…</item>
+    </plurals>
+    <plurals name="memories_remove_older_stories_dialog_title">
+        <item quantity="other">這將會移除 %d 則先前自動儲存的故事。</item>
+    </plurals>
+    <plurals name="memories_select_limit_error">
+        <item quantity="other">很抱歉，一次只能選擇 %d 則 Snap。</item>
+    </plurals>
+    <plurals name="memories_status_transfer_complete_in_app_notification_text">
+        <item quantity="other">%1$d 匯入來自 %2$s 的 Snap</item>
+    </plurals>
+    <plurals name="memories_status_transfer_complete_title">
+        <item quantity="other">已匯入 %d 則 Snap！</item>
+    </plurals>
+    <plurals name="memories_status_transfer_from_device_complete_title">
+        <item quantity="other">來自 %s 的新 Snap</item>
+    </plurals>
+    <plurals name="memories_status_transferring_title">
+        <item quantity="other">正在匯入 %2$d Snap 中的 %1$d…</item>
+    </plurals>
+    <plurals name="memories_story_editor_add_snap_selected">
+        <item quantity="other">%d 已選取</item>
+    </plurals>
+    <plurals name="minutes_abbreviated">
+        <item quantity="other">%d 分鐘</item>
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="other">%d 分</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated">
+        <item quantity="other">%d 分鐘前</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_camera_roll">
+        <item quantity="other">%1$d 分鐘前來自相機膠卷</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_chat">
+        <item quantity="other">%1$d 分鐘前來自聊天</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_cheerios">
+        <item quantity="other">%1$d 分鐘前來自 Pixy</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d 分鐘前來自 %2$s</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_memories">
+        <item quantity="other">%1$d 分鐘前來自回憶</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_spectacles">
+        <item quantity="other">%1$d 分鐘前來自 Spectacles</item>
+    </plurals>
+    <plurals name="minutes_ago_update">
+        <item quantity="other">%1$s 分鐘前更新</item>
+    </plurals>
+    <plurals name="months_abbreviated">
+        <item quantity="other">%d個月</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated">
+        <item quantity="other">%d 個月前</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_camera_roll">
+        <item quantity="other">%1$d 個月前來自相機膠卷</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_chat">
+        <item quantity="other">%1$d 月前來自聊天</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_cheerios">
+        <item quantity="other">%1$d 月前來自 Pixy</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d 個月前來自 %2$s</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_memories">
+        <item quantity="other">%1$d 個月前來自回憶</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_spectacles">
+        <item quantity="other">%1$d 個月前來自 Spectacles</item>
+    </plurals>
+    <plurals name="months_ago_update">
+        <item quantity="other">%1$s 個月前更新</item>
+    </plurals>
+    <plurals name="more_stories">
+        <item quantity="other">%d 個更多故事</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d 則新通知</item>
+        <item quantity="one">%d 則新通知</item>
+    </plurals>
+    <plurals name="muted_stories">
+        <item quantity="other">%d 個已關閉故事</item>
+    </plurals>
+    <plurals name="new_registration_continue_with_n_friends">
+        <item quantity="other">新增 %d 位好友</item>
+    </plurals>
+    <plurals name="num_hours">
+        <item quantity="other">%d 小時</item>
+    </plurals>
+    <plurals name="num_minutes">
+        <item quantity="other">%d 分</item>
+    </plurals>
+    <plurals name="nyc_audience_many_and_x_others">
+        <item quantity="other">%1$s+ 其他 %2$d 人</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_ft">
+        <item quantity="other">呎</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_km">
+        <item quantity="other">公里</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_m">
+        <item quantity="other">公尺</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_mile">
+        <item quantity="other">英里</item>
+    </plurals>
+    <plurals name="nyc_friends_many_and_x_others">
+        <item quantity="other">%1$s 和 %2$s 已與你分享即時位置</item>
+    </plurals>
+    <plurals name="nyc_sharing_live_location_with_friends">
+        <item quantity="other">"你正在與 %1$s 好友分享你的即時位置。 "</item>
+    </plurals>
+    <plurals name="nyc_unhide_live_location_friend_dialog_title">
+        <item quantity="other">對 %1$d 位其他好友隱藏你的即時位置。</item>
+    </plurals>
+    <plurals name="pairing_validation_description">
+        <item quantity="other">你的 Pixy 中有 %d 則上一位使用者的 Snap。配對此裝置將重設裝置並刪除所有 Snap 和使用者資料。</item>
+    </plurals>
+    <plurals name="payments_num_purchased_items">
+        <item quantity="other">%d 項</item>
+    </plurals>
+    <plurals name="pending_syncs_logout_warning">
+        <item quantity="other">有 %1$d 則 Snap 尚未備份到「回憶」。如果現在登出，這些 Snap 就會遺失。</item>
+    </plurals>
+    <plurals name="perception_lens_collection_scan_card_lenses_count">
+        <item quantity="other">%d 個特效鏡頭</item>
+    </plurals>
+    <plurals name="perception_lenses_scan_card_try_lenses">
+        <item quantity="other">試用特效鏡頭 (%d)</item>
+    </plurals>
+    <plurals name="play_with_max_player_alert_text">
+        <item quantity="other">遊戲只允許最多 %1$d 位玩家參加</item>
+    </plurals>
+    <plurals name="post_pairing_import_title">
+        <item quantity="other">%d 則新 Snap</item>
+    </plurals>
+    <plurals name="registration_continue_with_n_friends">
+        <item quantity="other">+ 新增 %d 位好友</item>
+    </plurals>
+    <plurals name="save_button_tooltip_saved_multiple">
+        <item quantity="other">%1$d 則 Snap 已儲存！</item>
+    </plurals>
+    <plurals name="saved_media_gallery_attribution_media_count">
+        <item quantity="other">%s 則 Snap</item>
+    </plurals>
+    <plurals name="seconds_abbreviated">
+        <item quantity="other">%d 秒</item>
+    </plurals>
+    <plurals name="seconds_ago">
+        <item quantity="other">%d 秒</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated">
+        <item quantity="other">%d 秒前</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_camera_roll">
+        <item quantity="other">%1$d 秒鐘前來自相機膠卷</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_chat">
+        <item quantity="other">%1$d 秒鐘前來自聊天</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_cheerios">
+        <item quantity="other">%1$d 秒前來自 Pixy</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d 秒前來自 %2$s</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_memories">
+        <item quantity="other">%1$d 秒鐘前來自回憶</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_spectacles">
+        <item quantity="other">%1$d 秒鐘前來自 Spectacles</item>
+    </plurals>
+    <plurals name="seconds_ago_update">
+        <item quantity="other">%1$s 秒前更新</item>
+    </plurals>
+    <plurals name="select_friend_friend">
+        <item quantity="other">%1$d 位好友</item>
+    </plurals>
+    <plurals name="select_friend_other">
+        <item quantity="other">%1$s 和 %2$d 位其他人</item>
+    </plurals>
+    <plurals name="settings_birthday_update_years_old">
+        <item quantity="other">我的年齡是 %d 歲。</item>
+    </plurals>
+    <plurals name="snap_timer_selection_units">
+        <item quantity="other">秒</item>
+    </plurals>
+    <plurals name="snaps_count">
+        <item quantity="other">%1$d 則 Snap</item>
+    </plurals>
+    <plurals name="spectacles_export_customization_description">
+        <item quantity="other">你想用哪種方式匯出 Snap？</item>
+    </plurals>
+    <plurals name="spotlight_comments_count_notification_title">
+        <item quantity="other">%d 則待處理聚光燈評論！</item>
+    </plurals>
+    <plurals name="status_views">
+        <item quantity="other">%d 次瀏覽</item>
+    </plurals>
+    <plurals name="still_sharing_last_active_location_description">
+        <item quantity="other">"你已隱藏即時位置，但仍有 %1$s 位好友可看見你最後顯示的位置。
+
+你可以在地圖設定中更改此設定。"</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_change_audience">
+        <item quantity="other">你已儲存你的位置設定，但仍有 %1$s 位好友可看見你的即時位置。若要停止分享位置，請點選好友名稱旁的「停止」。</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_enter_ghost_mode">
+        <item quantity="other">你現在處於噗噗鬼模式，但仍有 %1$s 位好友可看見你的即時位置。若要停止分享位置，請點選好友名稱旁的「停止」。</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_enter_ghost_mode_ghost_trail">
+        <item quantity="other">"你現在處於噗噗鬼模式，但仍有 %1$s 位好友可看見你的即時位置。若要停止分享位置，請點選好友名稱旁的「停止」。
+
+處於噗噗鬼模式時，隱匿足跡中的位置不會更新。"</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_enter_ghost_mode_hide_live_location">
+        <item quantity="other">你現在處於噗噗鬼模式，但仍有 %1$s 位好友可看見你的即時位置。若要暫停分享位置，請點按下方的「隱藏我的即時位置」。</item>
+    </plurals>
+    <plurals name="story_friend_story_notification_title_update">
+        <item quantity="other">%d 位好友已新增他們的故事</item>
+    </plurals>
+    <plurals name="story_fullscreen_footer_view_count">
+        <item quantity="other">%d 次瀏覽</item>
+    </plurals>
+    <plurals name="story_management_viewer_list_more_viewers">
+        <item quantity="other">+ 其他 %1$d 人</item>
+    </plurals>
+    <plurals name="story_mob_subtext_more">
+        <item quantity="other">%1$s 和其他 %2$d 人…</item>
+    </plurals>
+    <plurals name="story_profile_communities_members">
+        <item quantity="other">已驗證 • %d 位成員</item>
+    </plurals>
+    <plurals name="story_profile_shared_stories_members">
+        <item quantity="other">%d 位成員</item>
+    </plurals>
+    <plurals name="story_profile_stories_adding">
+        <item quantity="other">新增 %d 則 Snap…</item>
+    </plurals>
+    <plurals name="story_profile_stories_failed_to_add">
+        <item quantity="other">無法新增 %d 則 Snap</item>
+    </plurals>
+    <plurals name="story_profile_stories_waiting_to_add">
+        <item quantity="other">等待新增 %d 則 Snap…</item>
+    </plurals>
+    <plurals name="story_settings_action_menu_my_story_blocked_number_of_people">
+        <item quantity="other">%d 人</item>
+    </plurals>
+    <plurals name="streak_restore_dialog_subtitle_free_restore">
+        <item quantity="other">你有 %1$d 次免費重燃。</item>
+    </plurals>
+    <plurals name="streak_restore_dialog_subtitle_hours">
+        <item quantity="other">你還剩 %2$d 小時可重燃你與 %1$s 的 Snap 火花，之後將永遠消失！</item>
+    </plurals>
+    <plurals name="streak_restore_dialog_subtitle_minutes">
+        <item quantity="other">你還剩 %2$d 分鐘可重燃你與 %1$s 的 Snap 火花，之後將永遠消失！</item>
+    </plurals>
+    <plurals name="subtitle_sharing_custom_friends">
+        <item quantity="other">和 %d 位好友</item>
+    </plurals>
+    <plurals name="takeover_request_index_and_total">
+        <item quantity="other">加入 %2$d 的 %1$d 位新好友</item>
+    </plurals>
+    <plurals name="ticketmaster_events_label">
+        <item quantity="other">個活動</item>
+    </plurals>
+    <plurals name="watched_stories">
+        <item quantity="other">%d 個已觀看故事</item>
+    </plurals>
+    <plurals name="weeks">
+        <item quantity="other">%d 週</item>
+    </plurals>
+    <plurals name="weeks_abbreviated">
+        <item quantity="other">%d 週</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated">
+        <item quantity="other">%d 週前</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_camera_roll">
+        <item quantity="other">%1$d 週前來自相機膠卷</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_chat">
+        <item quantity="other">%1$d 週前來自聊天</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_cheerios">
+        <item quantity="other">%1$d 星期前來自 Pixy</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d 週前來自 %2$s</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_memories">
+        <item quantity="other">%1$d 週前來自回憶</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_spectacles">
+        <item quantity="other">%1$d 週前來自 Spectacles</item>
+    </plurals>
+    <plurals name="weeks_ago_update">
+        <item quantity="other">%1$s 個星期前更新</item>
+    </plurals>
+    <plurals name="years_abbreviated">
+        <item quantity="other">%d 年</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated">
+        <item quantity="other">%d 年前</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_camera_roll">
+        <item quantity="other">%1$d 年前來自相機膠卷</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_chat">
+        <item quantity="other">%1$d 年前來自聊天</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_cheerios">
+        <item quantity="other">%1$d 年前來自 Pixy</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d 年前來自 %2$s</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_memories">
+        <item quantity="other">%1$d 年前來自回憶</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_spectacles">
+        <item quantity="other">%1$d 年前來自 Spectacles</item>
+    </plurals>
+    <plurals name="years_ago_update">
+        <item quantity="other">%1$s 年前更新</item>
+    </plurals>
+</resources>

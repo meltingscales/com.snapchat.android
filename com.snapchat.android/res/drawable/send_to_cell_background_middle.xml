@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <selector>
+            <item android:state_enabled="false">
+                <shape>
+                    <solid android:color="?sigColorBackgroundSurfaceDown" />
+                </shape>
+            </item>
+            <item android:state_pressed="true">
+                <shape>
+                    <solid android:color="?sigColorBackgroundSurfaceDown" />
+                </shape>
+            </item>
+            <item>
+                <shape>
+                    <solid android:color="?sigColorBackgroundSurface" />
+                </shape>
+            </item>
+        </selector>
+    </item>
+    <item android:height="@dimen/send_to_item_divider_width">
+        <shape>
+            <solid android:color="?sigColorLayoutDivider" />
+        </shape>
+    </item>
+</layer-list>

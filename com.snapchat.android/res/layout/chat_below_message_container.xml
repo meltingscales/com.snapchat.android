@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:layout_gravity="center_horizontal" android:id="@id/chat_below_message_accessory_container_stub" android:layout="@layout/chat_below_message_accessory_container" android:inflatedId="@id/chat_below_message_accessory_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/chat_below_message_container_top_margin" />
+    <ViewStub android:layout_gravity="center_horizontal" android:id="@id/chat_merlin_inline_feedback_stub" android:layout="@layout/chat_merlin_inline_feedback" android:inflatedId="@id/chat_merlin_inline_feedback" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/chat_below_message_container_top_margin" />
+    <ViewStub android:layout_gravity="center_horizontal" android:id="@id/chat_reply_suggestion_stub" android:layout="@layout/chat_reply_suggestion" android:inflatedId="@id/chat_reply_suggestion" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/chat_below_message_container_top_margin" android:layout_marginEnd="@dimen/chat_below_message_container_end_margin" />
+</merge>

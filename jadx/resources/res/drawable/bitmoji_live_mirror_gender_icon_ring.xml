@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
+    <solid android:color="@android:color/transparent"/>
+    <size android:height="@dimen/live_mirror_gender_picker_icon_container_height" android:width="@dimen/live_mirror_gender_picker_icon_container_height"/>
+    <stroke android:width="@dimen/live_mirror_gender_picker_icon_gender_image_border_width" android:color="@color/sig_color_base_bitmoji_green_any"/>
+</shape>

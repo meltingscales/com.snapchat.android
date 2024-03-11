@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/live_mirror_interstitial_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/card_view" android:background="@drawable/bitmoji_live_mirror_interstitial_background" android:paddingLeft="@dimen/default_gap_2_25x" android:paddingTop="@dimen/default_gap_2_25x" android:paddingRight="@dimen/default_gap_2_25x" android:paddingBottom="@dimen/default_gap_2x" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:layout_gravity="center" android:id="@id/ua_2d_view_wrapper" android:clipChildren="false" android:clipToPadding="false" android:layout_width="@dimen/live_mirror_avatar_background_size" android:layout_height="@dimen/live_mirror_avatar_background_size">
+                <com.snap.imageloading.view.SnapImageView android:layout_gravity="center" android:id="@id/ua_bitmoji_view" android:layout_width="@dimen/live_mirror_pose_size" android:layout_height="@dimen/live_mirror_pose_size" android:scaleType="fitCenter" android:scaleX="@fraction/live_mirror_ua_preview_scale" android:scaleY="@fraction/live_mirror_ua_preview_scale" />
+                <com.snap.imageloading.view.SnapImageView android:id="@id/avatar_background_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" />
+            </FrameLayout>
+            <include android:paddingBottom="@dimen/default_gap_5x" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/bitmoji_avatar_builder_live_mirror_interstitial_v2" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

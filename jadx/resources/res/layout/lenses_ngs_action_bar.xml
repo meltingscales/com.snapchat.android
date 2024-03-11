@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/lenses_ngs_action_bar" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ViewStub android:layout_gravity="center" android:id="@+id/lenses_ngs_action_bar_lenses_status_view_stub" android:inflatedId="@+id/lenses_camera_lenses_status_view" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <ViewStub android:id="@+id/lenses_ngs_action_bar_ar_bar_view_stub" android:inflatedId="@+id/ar_bar" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ViewStub android:layout_gravity="end|center_vertical" android:id="@+id/lenses_ngs_action_bar_explorer_view_stub" android:inflatedId="@+id/lenses_camera_explorer_button_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/lens_ngs_action_bar_item_margin"/>
+    <ViewStub android:layout_gravity="center" android:id="@+id/lenses_ngs_action_bar_close_button_view_stub" android:inflatedId="@+id/lenses_camera_close_button_view" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <ViewStub android:id="@+id/lenses_ngs_action_bar_share_button_center_view_stub" android:inflatedId="@+id/lenses_ngs_action_bar_share_button_center_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/lens_ngs_action_bar_item_margin"/>
+        <ViewStub android:id="@+id/lenses_ngs_action_bar_favorite_badge_center_view_stub" android:inflatedId="@+id/lenses_camera_favorite_badge" android:layout_width="wrap_content" android:layout_height="match_parent"/>
+        <ViewStub android:layout_gravity="center" android:id="@+id/lenses_ngs_action_bar_cta_view_stub" android:inflatedId="@+id/lenses_ngs_action_bar_cta_view" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="start|center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ViewStub android:layout_gravity="start|center_vertical" android:id="@+id/lenses_ngs_action_bar_back_button_view_stub" android:inflatedId="@+id/lenses_ngs_action_bar_back_button_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/lens_ngs_action_bar_item_margin"/>
+        <ViewStub android:id="@+id/lenses_ngs_action_bar_share_button_left_view_stub" android:inflatedId="@+id/lenses_ngs_action_bar_share_button_left_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/lens_ngs_action_bar_item_margin"/>
+        <ViewStub android:id="@+id/lenses_ngs_action_bar_favorite_badge_left_view_stub" android:inflatedId="@+id/lenses_camera_favorite_badge" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginStart="@dimen/lens_ngs_action_bar_item_margin"/>
+    </LinearLayout>
+</FrameLayout>

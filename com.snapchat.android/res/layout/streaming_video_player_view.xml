@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.opera.view.basics.RotateLayout android:gravity="center" android:id="@id/player_rotate_layout" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:gravity="center" android:layout_gravity="center" android:id="@id/player_frame_container_view" android:background="@android:color/transparent" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.snap.framework.ui.views.ScalableCircleMaskFrameLayout android:gravity="center" android:layout_gravity="center" android:id="@id/player_scalable_circle_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/first_frame_image_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </com.snap.framework.ui.views.ScalableCircleMaskFrameLayout>
+        <FrameLayout android:layout_gravity="bottom|center" android:id="@id/captions_anchor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/video_player_subtitles_bottom_margin" />
+        <com.snap.ui.view.PausableLoadingSpinnerView android:gravity="center" android:layout_gravity="center" android:id="@id/loading_spinner_view" android:layout_width="@dimen/video_loading_indicator_size" android:layout_height="@dimen/video_loading_indicator_size" />
+        <include android:id="@id/video_player_controls" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/video_player_controls" />
+    </FrameLayout>
+</com.snap.opera.view.basics.RotateLayout>

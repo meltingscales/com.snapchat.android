@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/bubble_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/location_icon" android:layout_width="33dp" android:layout_height="33dp" android:layout_marginLeft="@dimen/default_gap" android:layout_marginRight="@dimen/default_gap" android:src="@drawable/svg_callout_compass_icon"/>
+        <com.snap.ui.view.SnapFontTextView android:textSize="?attr/v11Subtitle3TextSize" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/permission_text" android:paddingTop="@dimen/default_gap_half" android:paddingBottom="@dimen/default_gap_half" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" custom:scFontWeight="2"/>
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/right_arrow" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="@dimen/default_gap" android:layout_marginRight="@dimen/default_gap" android:src="@drawable/right_arrow"/>
+    </LinearLayout>
+    <ImageView android:id="@+id/bottom_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-16dp" android:src="@drawable/svg_map_bitmoji_bubble_bottom" android:layout_below="@+id/bubble_content" android:layout_centerHorizontal="true"/>
+</RelativeLayout>

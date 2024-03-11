@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/camera_mode_batch_capture_layout" style="@style/v11_hova_header_camera_section"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.snap.ui.view.ShadowTextView android:id="@id/camera_mode_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/camera_mode_text" />
+    <ImageView android:id="@id/camera_mode_image_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ngs_camera_mode_batch_capture" android:tint="@color/sig_color_flat_pure_white_any" android:contentDescription="@string/camera_mode_multi_snap" style="@style/v11_hova_header_button" />
+</LinearLayout>

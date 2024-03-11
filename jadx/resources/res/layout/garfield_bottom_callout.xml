@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@drawable/highlight_label" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.snap.ui.view.SnapFontTextView android:textSize="20sp" android:textColor="?attr/sigColorTextPrimary" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@+id/name" android:paddingTop="2dp" android:paddingBottom="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="300dp" android:maxLines="2" android:includeFontPadding="false" android:lineSpacingMultiplier="0.8" android:paddingStart="0dp" android:paddingEnd="0dp" android:layout_marginStart="8dp" android:layout_marginEnd="8dp" app:scFontWeight="2"/>
+</LinearLayout>

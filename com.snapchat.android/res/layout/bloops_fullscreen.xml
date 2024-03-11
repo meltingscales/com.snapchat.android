@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/fullscreen_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:layout_gravity="center" android:id="@id/loading_error_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/loading_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/loading_screen_spacing" android:layout_marginEnd="@dimen/loading_screen_spacing" />
+    <ViewStub android:id="@id/video_generation_bg" android:layout="@layout/bloops_fullscreen_generation_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:layout_gravity="start|center|top" android:id="@id/debug_overlay_stub" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/nested_action_sheet_title_height" />
+    <ViewStub android:layout_gravity="end|bottom|center" android:id="@id/send_to_button" android:layout="@layout/bloops_fullscreen_send_to_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/sig_medium_button_vertical_padding" android:layout_marginEnd="@dimen/sig_medium_button_vertical_padding" />
+    <ViewStub android:id="@id/create_cameo_button" android:layout="@layout/bloops_create_cameos_button" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:layout_gravity="start|bottom|center" android:id="@id/cameos_ads_banner_stub" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/default_gap_half" android:layout_marginStart="@dimen/default_gap_half" />
+    <ViewStub android:layout_gravity="start|bottom|center" android:id="@id/select_friend_stub" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/default_gap_half" android:layout_marginStart="@dimen/default_gap_half" />
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="@integer/comments_comment_upsell_share_animation_delay_ms" android:drawable="@drawable/comments_arrow_icon" />
+    <item android:duration="@integer/comments_comment_upsell_share_animation_delay_ms" android:drawable="@drawable/comments_arrow_icon_filled" />
+</animation-list>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="0.0dip" android:layout_height="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/memories_onboarding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.snap.imageloading.view.SnapImageView android:id="@id/onboarding_bitmoji" android:layout_width="@dimen/memories_onboarding_bitmoji" android:layout_height="@dimen/memories_onboarding_bitmoji" />
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" layout="@layout/memories_empty_state" />
+    </LinearLayout>
+</ScrollView>

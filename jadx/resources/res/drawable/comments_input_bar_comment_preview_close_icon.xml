@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/comments_gray_circle_background"/>
+    <item android:left="@dimen/comments_input_bar_comment_preview_close_icon_padding" android:top="@dimen/comments_input_bar_comment_preview_close_icon_padding" android:right="@dimen/comments_input_bar_comment_preview_close_icon_padding" android:bottom="@dimen/comments_input_bar_comment_preview_close_icon_padding">
+        <bitmap android:src="@drawable/svg_x_16x16" android:tint="?attr/sigColorButtonQuaternary"/>
+    </item>
+</layer-list>

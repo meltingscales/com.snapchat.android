@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <padding android:left="@dimen/video_player_subtitles_horizontal_padding" android:top="@dimen/video_player_subtitles_vertical_padding" android:right="@dimen/video_player_subtitles_horizontal_padding" android:bottom="@dimen/video_player_subtitles_vertical_padding"/>
+    <solid android:color="@color/sig_color_flat_pure_black_any_alpha_60"/>
+    <corners android:radius="@dimen/video_player_subtitles_border_radius"/>
+</shape>

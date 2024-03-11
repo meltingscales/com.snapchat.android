@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.identity.onboarding.camera.banner.DefaultCameraBannerView android:orientation="horizontal" android:background="@drawable/onboarding_camera_banner_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="10.0dip" android:paddingEnd="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.snap.ui.view.SnapFontTextView android:textSize="@dimen/v11_action_text_size" android:textColor="?sigColorTextPrimary" android:layout_gravity="center_vertical" android:id="@id/onboarding_camera_banner_view_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:includeFontPadding="false" android:layout_weight="1.0" android:layout_marginEnd="8.0dip" app:scFontWeight="bold" />
+    <View android:layout_gravity="center_vertical" android:id="@id/onboarding_camera_banner_view_arrow" android:background="@drawable/svg_onboarding_banner_arrow" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" />
+</com.snap.identity.onboarding.camera.banner.DefaultCameraBannerView>

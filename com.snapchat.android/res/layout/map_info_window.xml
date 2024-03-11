@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/bubble_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+        <com.snap.ui.view.SnapFontTextView android:textSize="11.0sp" android:textColor="?sigColorTextPrimary" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="120.0dip" android:minWidth="43.0dip" android:maxLines="2" android:layout_marginStart="@dimen/default_gap_half" android:layout_marginEnd="@dimen/default_gap_half" custom:scFontWeight="bold" />
+        <com.snap.ui.view.SnapFontTextView android:textSize="?v11TinyTextSize" android:textColor="?colorGray100" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/snippet" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="300.0dip" android:maxLines="1" />
+        <com.snap.ui.view.SnapFontTextView android:textSize="?v11TinyTextSize" android:textColor="@color/sig_color_base_gray50_any" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/accuracy_snippet" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="300.0dip" android:maxLines="1" />
+    </LinearLayout>
+    <ImageView android:id="@id/bottom_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-13.0dip" android:src="@drawable/svg_map_bitmoji_bubble_bottom" android:layout_below="@id/bubble_content" android:layout_centerHorizontal="true" />
+</RelativeLayout>

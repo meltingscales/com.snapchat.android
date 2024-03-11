@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:id="@+id/temperature_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="locale">
+        <TextView android:textSize="80dp" android:textColor="@color/sig_color_flat_pure_white_any" android:gravity="center_vertical" android:layout_gravity="center" android:id="@+id/temperature_numbers" android:layout_width="wrap_content" android:layout_height="136dp" android:layout_weight="1" android:elegantTextHeight="true"/>
+        <TextView android:textSize="40dp" android:textColor="@color/sig_color_flat_pure_white_any" android:gravity="center_vertical" android:layout_gravity="center" android:id="@+id/temperature_unit" android:layout_width="wrap_content" android:layout_height="68dp" android:layout_marginBottom="15dp" android:layout_weight="1" android:elegantTextHeight="true"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <FrameLayout android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <androidx.recyclerview.widget.RecyclerView android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/hourly_forecast_listview" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <androidx.recyclerview.widget.RecyclerView android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/daily_forecast_listview" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </FrameLayout>
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/information_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="15dp" android:textColor="@color/sig_color_flat_pure_white_any" android:id="@+id/location_name" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <ImageView android:layout_width="2dp" android:layout_height="22dp" android:layout_marginLeft="10dp" android:layout_marginRight="6dp" android:src="@drawable/camera_weather_location_divider"/>
+            <TextView android:textSize="15dp" android:textColor="@color/sig_color_flat_pure_white_any" android:id="@+id/bottom_temperature_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/degrees_fahrenheit" custom:scFontWeight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

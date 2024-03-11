@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/notification_settings_creator_notifications_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" style="@style/checkbox_setting_container"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_weight="1.0">
+        <com.snap.ui.view.SnapFontTextView android:id="@id/notification_settings_creator_notifications_textview" android:paddingTop="@dimen/notification_settings_padding_vertical" android:paddingBottom="@dimen/notification_settings_padding_vertical" android:text="@string/settings_notification_creator_notifications_header" style="@style/new_settings_item_name" />
+        <com.snap.ui.view.SnapFontTextView android:id="@id/notification_settings_creator_notifications_description_textview" android:paddingTop="@dimen/notification_settings_padding_vertical" android:paddingBottom="@dimen/notification_settings_padding_vertical" android:text="@string/settings_notification_creator_notifications_body" style="@style/new_settings_item_text" />
+    </LinearLayout>
+</LinearLayout>

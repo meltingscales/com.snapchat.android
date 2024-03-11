@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.ui.view.RoundedCornerAspectRatioFrameLayout android:id="@id/grid_frameable_container" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" app:aspect_ratio="match_display"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.snap.imageloading.view.SnapImageView android:id="@id/snap_image_view" android:background="?sigColorBackgroundDisabled" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <ViewStub android:layout_gravity="end|center|top" android:id="@id/snap_spectacles_icon" android:layout="@layout/profile_saved_media_gallery_item_specs_view" android:layout_width="@dimen/psm_grid_item_top_start_icon_size" android:layout_height="@dimen/psm_grid_item_top_start_icon_size" android:layout_marginTop="@dimen/psm_grid_item_top_start_icon_margin_top" android:layout_marginEnd="@dimen/psm_grid_item_top_start_icon_margin_end" />
+    <LinearLayout android:layout_gravity="start|bottom|center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/psm_grid_item_bottom_start_icon_margin_bottom" android:layout_marginStart="@dimen/psm_grid_item_bottom_start_icon_margin_start">
+        <ViewStub android:id="@id/snap_spectacles_3d_icon" android:layout="@layout/profile_saved_media_gallery_item_3d_view" android:layout_width="@dimen/psm_grid_item_bottom_start_icon_size" android:layout_height="@dimen/psm_grid_item_bottom_start_icon_size" />
+        <ViewStub android:id="@id/attribution_text_wrapper" android:layout="@layout/profile_saved_media_gallery_item_attribution_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ViewStub android:layout_gravity="start|center|top" android:id="@id/user_avatar_view" android:visibility="gone" android:layout="@layout/profile_saved_media_gallery_item_avatar_view" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginTop="@dimen/psm_grid_item_top_start_icon_margin_top" android:layout_marginStart="@dimen/psm_grid_item_top_start_icon_margin_start" />
+</com.snap.ui.view.RoundedCornerAspectRatioFrameLayout>

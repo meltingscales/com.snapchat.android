@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.lenses.camera.cta.DefaultGenAiCtaView android:paddingTop="@dimen/lens_cta_button_tap_zone_padding" android:paddingBottom="@dimen/lens_cta_button_tap_zone_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/lens_cta_button_tap_zone_padding" android:paddingEnd="@dimen/lens_cta_button_tap_zone_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <com.snap.ui.view.SnapFontTextView android:gravity="center" android:id="@id/lens_gen_ai_text" android:background="@drawable/lens_cta_background_white" android:paddingTop="@dimen/lens_cta_button_tap_zone_padding" android:paddingBottom="@dimen/lens_cta_button_tap_zone_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gen_ai_button_txt" android:paddingStart="@dimen/lens_cta_button_text_padding" android:paddingEnd="@dimen/lens_cta_button_text_padding" style="@style/Widget.Lenses.Camera.Cta.DarkText" />
+</com.snap.lenses.camera.cta.DefaultGenAiCtaView>

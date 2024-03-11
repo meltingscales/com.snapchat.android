@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.ui.view.SnapFontTextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:textSize="?attr/v11Subtitle1TextSize" android:textColor="@color/sig_color_flat_pure_white_any" android:id="@+id/cheerios_video_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="@color/sig_color_flat_pure_white_any" android:shadowDx="0" android:shadowDy="1" android:shadowRadius="3" app:scFontWeight="?attr/v11Subtitle1FontWeight"/>

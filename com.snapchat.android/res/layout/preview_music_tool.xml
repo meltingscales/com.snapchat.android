@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.preview.tools.view.PreviewToolIconView android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="@string/preview_music_tool" custom:is_vertical_location="true" custom:tool_icon="@drawable/svg_music" custom:tool_id="music_tool"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" />

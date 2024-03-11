@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="@dimen/text_size_small_default" android:textStyle="bold" android:textColor="@color/sig_color_flat_pure_white_any" android:layout_gravity="center" android:id="@+id/best_friends_widget_single_button" android:background="@drawable/blue_button_background" android:paddingLeft="16dp" android:paddingTop="9dp" android:paddingRight="16dp" android:paddingBottom="9dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/best_friends_widget_loading_button_title"/>
+</merge>

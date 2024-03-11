@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="?sigColorBackgroundMain" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.snap.component.button.SnapButtonView android:id="@id/accept_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/default_gap_2x" android:layout_above="@id/remind_me_later_button" android:layout_centerHorizontal="true" />
+    <com.snap.component.button.SnapButtonView android:id="@id/remind_me_later_button" android:visibility="gone" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/default_gap_2x" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <ScrollView android:paddingTop="@dimen/default_gap_2x" android:paddingBottom="@dimen/default_gap_2x" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/accept_button" android:fadeScrollbars="false">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.snap.ui.view.SnapLinkFriendlyTextView android:text="@string/tos_v14_header" style="@style/LegalTermsOfUseV10BodyText" />
+            <com.snap.ui.view.SnapLinkFriendlyTextView android:text="@string/tos_v14_body" style="@style/LegalTermsOfUseV10BodyText" />
+            <com.snap.ui.view.SnapLinkFriendlyTextView android:text="@string/tos_v14_terms" style="@style/LegalTermsOfUseSubHeadingText" />
+            <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.snap.ui.view.SnapLinkFriendlyTextView style="@style/LegalTermsOfUseBulletPoint" />
+                    <com.snap.ui.view.SnapLinkFriendlyTextView android:text="@string/tos_v14_terms_bp1" style="@style/LegalTermsOfUseBulletPointText" />
+                </TableRow>
+                <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.snap.ui.view.SnapLinkFriendlyTextView style="@style/LegalTermsOfUseBulletPoint" />
+                    <com.snap.ui.view.SnapLinkFriendlyTextView android:text="@string/tos_v14_terms_bp2" style="@style/LegalTermsOfUseBulletPointText" />
+                </TableRow>
+                <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.snap.ui.view.SnapLinkFriendlyTextView style="@style/LegalTermsOfUseBulletPoint" />
+                    <com.snap.ui.view.SnapLinkFriendlyTextView android:text="@string/tos_v14_terms_bp3" style="@style/LegalTermsOfUseBulletPointText" />
+                </TableRow>
+            </TableLayout>
+            <com.snap.ui.view.SnapLinkFriendlyTextView android:text="@string/tos_v14_pp" style="@style/LegalTermsOfUseSubHeadingText" />
+            <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.snap.ui.view.SnapLinkFriendlyTextView style="@style/LegalTermsOfUseBulletPoint" />
+                    <com.snap.ui.view.SnapLinkFriendlyTextView android:text="@string/tos_v14_pp_bp1" style="@style/LegalTermsOfUseBulletPointText" />
+                </TableRow>
+                <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.snap.ui.view.SnapLinkFriendlyTextView style="@style/LegalTermsOfUseBulletPoint" />
+                    <com.snap.ui.view.SnapLinkFriendlyTextView android:text="@string/tos_v14_pp_bp2" style="@style/LegalTermsOfUseBulletPointText" />
+                </TableRow>
+                <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.snap.ui.view.SnapLinkFriendlyTextView style="@style/LegalTermsOfUseBulletPoint" />
+                    <com.snap.ui.view.SnapLinkFriendlyTextView android:text="@string/tos_v14_pp_bp3" style="@style/LegalTermsOfUseBulletPointText" />
+                </TableRow>
+            </TableLayout>
+            <com.snap.ui.view.SnapLinkFriendlyTextView android:id="@id/tos_v14_indian_blurb" android:visibility="gone" android:text="@string/tos_v14_indian_blurb" style="@style/LegalTermsOfUseV10BodyText" />
+            <com.snap.ui.view.SnapLinkFriendlyTextView android:text="@string/tos_v14_acceptance" style="@style/LegalTermsOfUseV10BodyText" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

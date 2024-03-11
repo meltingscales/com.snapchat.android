@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/sig_color_base_gray10_any" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/enhanced_contacts_contacts_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.snap.ui.view.SnapFontTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="@string/enhanced_contacts_fragment_title" style="@style/TextAppearance.HeroTitle"/>
+        <com.snap.ui.view.SnapFontTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40dp" android:layout_marginTop="15dp" android:layout_marginRight="40dp" android:text="@string/enhanced_contacts_fragment_subtitle" style="@style/TextAppearance.Subtitle2.Gray50"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="20dp" android:layout_marginRight="20dp">
+            <com.snap.ui.view.SnapFontTextView android:id="@+id/header_enhance_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/enhanced_contacts_header_relink" style="@style/TextAppearance.Button3"/>
+            <View android:layout_width="0dp" android:layout_height="1dp" android:layout_weight="1"/>
+            <com.snap.ui.view.SnapFontTextView android:id="@+id/header_delete_all_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/enhanced_contacts_header_unlink" style="@style/TextAppearance.Button3"/>
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/enhanced_contacts_recycler_view" android:background="@drawable/contacts_recycler_view_background" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginLeft="20dp" android:layout_marginTop="10dp" android:layout_marginRight="20dp" android:layout_marginBottom="20dp" android:layout_weight="1" android:elevation="4dp"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/other_content_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.snap.ui.view.SnapFontTextView android:gravity="center" android:id="@+id/other_content_container_main_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dp" style="@style/TextAppearance.Heading1"/>
+        <com.snap.ui.view.SnapFontTextView android:gravity="center" android:id="@+id/other_content_container_detailed_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40dp" android:layout_marginTop="20dp" android:layout_marginRight="40dp" style="@style/TextAppearance.Subtitle2.Gray50"/>
+        <com.snap.component.button.SnapButtonView android:id="@+id/other_content_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25dp" app:button_style="large_button_rectangle_blue"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/loading_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ProgressBar android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateTint="@color/sig_color_text_primary_light"/>
+        <com.snap.ui.view.SnapFontTextView android:id="@+id/loading_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:text="@string/enhanced_contacts_loading" style="@style/TextAppearance.Heading1"/>
+    </LinearLayout>
+</FrameLayout>

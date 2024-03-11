@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View xmlns:android="http://schemas.android.com/apk/res/android" android:visibility="invisible" android:layout_width="0dp" android:layout_height="@dimen/memories_grid_item_placeholder_height"/>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatImageButton xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:layout_gravity="center" android:id="@+id/chat_emoji_send_button" android:background="@drawable/chat_emoji_send_button_background" android:padding="@dimen/default_gap_1_5x" android:layout_width="@dimen/chat_emoji_send_button_size" android:layout_height="@dimen/chat_emoji_send_button_size" android:src="@drawable/chat_emoji_send_button_icon"/>

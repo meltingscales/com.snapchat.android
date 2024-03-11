@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <com.snap.lenses.carousel.DefaultCarouselView android:id="@id/lenses_camera_placeholder_carousel_view" android:layout_width="fill_parent" android:layout_height="fill_parent" custom:closeButtonBottomMargin="@dimen/lens_camera_carousel_close_button_margin_bottom">
+        <com.snap.lenses.carousel.CarouselListView android:id="@id/lenses_camera_carousel_list_view" android:paddingTop="@dimen/lens_camera_carousel_top_margin" android:paddingBottom="@dimen/lens_camera_carousel_bottom_padding" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="@dimen/lens_camera_carousel_height" android:layout_alignParentBottom="true" android:overScrollMode="never" android:importantForAccessibility="no" custom:itemSpacing="@dimen/lens_camera_carousel_item_offset" custom:itemWidth="@dimen/lens_camera_carousel_item_size" />
+    </com.snap.lenses.carousel.DefaultCarouselView>
+</FrameLayout>

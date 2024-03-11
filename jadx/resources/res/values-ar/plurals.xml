@@ -1,0 +1,2067 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="action_menu_camera_select">
+        <item quantity="zero">%d تم اختيار العنصر</item>
+        <item quantity="one">%d عناصر محددة</item>
+        <item quantity="two">%d تم اختيار العنصرين</item>
+        <item quantity="few">%d تم اختيار العناصر</item>
+        <item quantity="many">%d تم اختيار العناصر</item>
+        <item quantity="other">%d تم اختيار العناصر</item>
+    </plurals>
+    <plurals name="action_menu_hide_long">
+        <item quantity="zero">إخفاء اللقطات (الخاصة بي فقط)</item>
+        <item quantity="one">@string/memories_opera_action_menu_hide</item>
+        <item quantity="two">إخفاء اللقطات (الخاصة بي فقط)</item>
+        <item quantity="few">إخفاء اللقطات (الخاصة بي فقط)</item>
+        <item quantity="many">إخفاء اللقطات (الخاصة بي فقط)</item>
+        <item quantity="other">إخفاء اللقطات (الخاصة بي فقط)</item>
+    </plurals>
+    <plurals name="action_menu_mute_for_hours">
+        <item quantity="zero">لمدة %d ساعة</item>
+        <item quantity="one">لمدة ساعة واحدة (%d)</item>
+        <item quantity="two">لمدة ساعتين (%d)</item>
+        <item quantity="few">لمدة %d ساعات</item>
+        <item quantity="many">لمدة %d ساعة</item>
+        <item quantity="other">لمدة %d ساعة</item>
+    </plurals>
+    <plurals name="action_menu_snap_select">
+        <item quantity="zero">%d تم اختيار لقطة</item>
+        <item quantity="one">تم اختيار لقطة واحدة %d</item>
+        <item quantity="two">%d تم اختيار مقطعي Snap</item>
+        <item quantity="few">%d تم اختيار اللقطات</item>
+        <item quantity="many">%d تم اختيار اللقطات</item>
+        <item quantity="other">%d تم اختيار اللقطات</item>
+    </plurals>
+    <plurals name="action_menu_unhide_long">
+        <item quantity="zero">إظهار اللقطات</item>
+        <item quantity="one">@string/memories_opera_action_menu_unhide</item>
+        <item quantity="two">إظهار اللقطات</item>
+        <item quantity="few">إظهار اللقطات</item>
+        <item quantity="many">إظهار اللقطات</item>
+        <item quantity="other">إظهار اللقطات</item>
+    </plurals>
+    <plurals name="active_indicator_explainer_active_hour">
+        <item quantity="zero">%d من الساعات</item>
+        <item quantity="one">%d ساعة</item>
+        <item quantity="two">%d من الساعات</item>
+        <item quantity="few">%d من الساعات</item>
+        <item quantity="many">%d من الساعات</item>
+        <item quantity="other">%d من الساعات</item>
+    </plurals>
+    <plurals name="activity_indicator_explainer_active_friend_count">
+        <item quantity="zero">%d من الأصدقاء كانوا</item>
+        <item quantity="one">%d صديق كان</item>
+        <item quantity="two">%d من الأصدقاء كانوا</item>
+        <item quantity="few">%d من الأصدقاء كانوا</item>
+        <item quantity="many">%d من الأصدقاء كانوا</item>
+        <item quantity="other">%d من الأصدقاء كانوا</item>
+    </plurals>
+    <plurals name="add_friend_badge_request_tips">
+        <item quantity="zero">⁦%1$s⁩ إضافات أصدقاء جُدُد</item>
+        <item quantity="one">⁦%1$s⁩ إضافة صديق جديد</item>
+        <item quantity="two">⁦%1$s⁩ إضافات أصدقاء جُدُد</item>
+        <item quantity="few">⁦%1$s⁩ إضافات أصدقاء جُدُد</item>
+        <item quantity="many">⁦%1$s⁩ إضافات أصدقاء جُدُد</item>
+        <item quantity="other">⁦%1$s⁩ إضافات أصدقاء جُدُد</item>
+    </plurals>
+    <plurals name="add_friend_badge_suggestion_tips">
+        <item quantity="zero">⁦%1$s⁩ اقتراحات أصدقاء جُدُد</item>
+        <item quantity="one">⁦%1$s⁩ اقتراح صديق جديد</item>
+        <item quantity="two">⁦%1$s⁩ اقتراحات أصدقاء جُدُد</item>
+        <item quantity="few">⁦%1$s⁩ اقتراحات أصدقاء جُدُد</item>
+        <item quantity="many">⁦%1$s⁩ اقتراحات أصدقاء جُدُد</item>
+        <item quantity="other">⁦%1$s⁩ اقتراحات أصدقاء جُدُد</item>
+    </plurals>
+    <plurals name="add_friends_button_subtext">
+        <item quantity="zero">أضافك ⁦%1$s⁩ من مُستخدمي سناب شات!</item>
+        <item quantity="one">أضافك ⁦%1$s⁩ من مُستخدمي سناب شات!</item>
+        <item quantity="two">أضافك ⁦%1$s⁩ من مُستخدمي سناب شات!</item>
+        <item quantity="few">أضافك ⁦%1$s⁩ من مُستخدمي سناب شات!</item>
+        <item quantity="many">أضافك ⁦%1$s⁩ من مُستخدمي سناب شات!</item>
+        <item quantity="other">أضافك ⁦%1$s⁩ من مُستخدمي سناب شات!</item>
+    </plurals>
+    <plurals name="add_friends_button_suggestion_subtext">
+        <item quantity="zero">⁦%1$s⁩ اقتراحات الأصدقاء</item>
+        <item quantity="one">⁦%1$s⁩ اقتراح الأصدقاء</item>
+        <item quantity="two">⁦%1$s⁩ اقتراحات الأصدقاء</item>
+        <item quantity="few">⁦%1$s⁩ اقتراحات الأصدقاء</item>
+        <item quantity="many">⁦%1$s⁩ اقتراحات الأصدقاء</item>
+        <item quantity="other">⁦%1$s⁩ اقتراحات الأصدقاء</item>
+    </plurals>
+    <plurals name="batch_capture_save_as_x_snaps">
+        <item quantity="zero">حفظ بمثابة ⁦%1$d⁩ Snap</item>
+        <item quantity="one">حفظ بمثابة ⁦%1$d⁩ Snap واحد</item>
+        <item quantity="two">حفظ بمثابة ⁦%1$d⁩ اللقطات اثنين</item>
+        <item quantity="few">حفظ بمثابة ⁦%1$d⁩ اللقطات</item>
+        <item quantity="many">حفظ بمثابة ⁦%1$d⁩ اللقطات</item>
+        <item quantity="other">حفظ بمثابة ⁦%1$d⁩ اللقطات</item>
+    </plurals>
+    <plurals name="bottom_button_text">
+        <item quantity="zero">+ إضافة %d صديق</item>
+        <item quantity="one">+ إضافة صديق واحد (%d)</item>
+        <item quantity="two">+ إضافة صديقين (%d)</item>
+        <item quantity="few">+ إضافة %d صديقًا</item>
+        <item quantity="many">+ إضافة %d صديقًا</item>
+        <item quantity="other">+ إضافة %d صديقًا</item>
+    </plurals>
+    <plurals name="camera_mode_batch_capture_limit_reached_description_with_count">
+        <item quantity="zero">يستطيع Snap المُتعدّد التقاط ما يصل إلى ⁦%1$d⁩ Snap في المرة الواحدة!</item>
+        <item quantity="one">يستطيع Snap المُتعدّد التقاط ما يصل إلى ⁦%1$d⁩ Snap في المرة الواحدة!</item>
+        <item quantity="two">يستطيع Snap المُتعدّد التقاط ما يصل إلى ⁦%1$d⁩ اللقطات في المرة الواحدة!</item>
+        <item quantity="few">يستطيع Snap المُتعدّد التقاط ما يصل إلى ⁦%1$d⁩ اللقطات في المرة الواحدة!</item>
+        <item quantity="many">يستطيع Snap المُتعدّد التقاط ما يصل إلى ⁦%1$d⁩ اللقطات في المرة الواحدة!</item>
+        <item quantity="other">يستطيع Snap المُتعدّد التقاط ما يصل إلى ⁦%1$d⁩ اللقطات في المرة الواحدة!</item>
+    </plurals>
+    <plurals name="camera_mode_disable_batch_capture_description">
+        <item quantity="zero">هل أنت مُتأكّد أنك تُريد إيقاف Snap المُتعدّد؟ سَتفقد ⁦%1$d⁩ اللقطات غير محفوظة.</item>
+        <item quantity="one">هل أنت مُتأكّد أنك تُريد إيقاف Snap المُتعدّد؟ سَتفقد Snap غير المحفوظ.</item>
+        <item quantity="two">هل أنت مُتأكّد أنك تُريد إيقاف Snap المُتعدّد؟ سَتفقد ⁦%1$d⁩ من اللقطات غير المحفوظة.</item>
+        <item quantity="few">هل أنت مُتأكّد أنك تُريد إيقاف Snap المُتعدّد؟ سَتفقد ⁦%1$d⁩ اللقطات غير محفوظة.</item>
+        <item quantity="many">هل أنت مُتأكّد أنك تُريد إيقاف Snap المُتعدّد؟ سَتفقد ⁦%1$d⁩ اللقطات غير محفوظة.</item>
+        <item quantity="other">هل أنت مُتأكّد أنك تُريد إيقاف Snap المُتعدّد؟ سَتفقد ⁦%1$d⁩ اللقطات غير محفوظة.</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_image_sharer_you_not">
+        <item quantity="zero">حفظ %1$s و%2$s %3$d من الصور من %4$s</item>
+        <item quantity="one">حفظ %1$s و%2$s صورة من %4$s</item>
+        <item quantity="two">حفظ %1$s و%2$s %3$d صورتَيْن من %4$s</item>
+        <item quantity="few">حفظ %1$s و%2$s %3$d صور من %4$s</item>
+        <item quantity="many">حفظ %1$s و%2$s %3$d صورة من %4$s</item>
+        <item quantity="other">حفظ %1$s و%2$s %3$d صورة من %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_image_sharer_you_yes">
+        <item quantity="zero">حفظ %1$s و%2$s %3$d من الصور التي أرسلتها</item>
+        <item quantity="one">حفظ %1$s و%2$s صورتك</item>
+        <item quantity="two">حفظ %1$s و%2$s %3$d الصورتَيْن اللتين أرسلتهما</item>
+        <item quantity="few">حفظ %1$s و%2$s %3$d من الصور التي أرسلتها</item>
+        <item quantity="many">حفظ %1$s و%2$s %3$d من الصور التي أرسلتها</item>
+        <item quantity="other">حفظ %1$s و%2$s %3$d من الصور التي أرسلتها</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_item_sharer_you_not">
+        <item quantity="zero">حفظ %1$s و%2$s %3$d من العناصر من %4$s</item>
+        <item quantity="one">حفظ %1$s و%2$s عنصراً من %4$s</item>
+        <item quantity="two">حفظ %1$s و%2$s %3$d عنصرَيْن من %4$s</item>
+        <item quantity="few">حفظ %1$s و%2$s %3$d عناصر من %4$s</item>
+        <item quantity="many">حفظ %1$s و%2$s %3$d عنصرًا من %4$s</item>
+        <item quantity="other">حفظ %1$s و%2$s %3$d عنصرًا من %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_item_sharer_you_yes">
+        <item quantity="zero">حفظ %1$s و%2$s %3$d من العناصر التي أرسلتها</item>
+        <item quantity="one">حفظ %1$s و%2$s العنصر الخاص بك</item>
+        <item quantity="two">حفظ %1$s و%2$s %3$d العنصرَيْن اللذين أرسلتهما</item>
+        <item quantity="few">حفظ %1$s و%2$s %3$d من العناصر التي أرسلتها</item>
+        <item quantity="many">حفظ %1$s و%2$s %3$d من العناصر التي أرسلتها</item>
+        <item quantity="other">حفظ %1$s و%2$s %3$d من العناصر التي أرسلتها</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_video_sharer_you_not">
+        <item quantity="zero">حفظ %1$s و%2$s %3$d من مقاطع الفيديو من %4$s</item>
+        <item quantity="one">حفظ %1$s و%2$s مقطع فيديو من %4$s</item>
+        <item quantity="two">حفظ %1$s و%2$s %3$d مقطعَيْ فيديو من %4$s</item>
+        <item quantity="few">حفظ %1$s و%2$s %3$d مقاطع فيديو من %4$s</item>
+        <item quantity="many">حفظ %1$s و%2$s %3$d مقطع فيديو من %4$s</item>
+        <item quantity="other">حفظ %1$s و%2$s %3$d مقطع فيديو من %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_video_sharer_you_yes">
+        <item quantity="zero">حفظ %1$s و%2$s %3$d من مقاطع الفيديو التي أرسلتها</item>
+        <item quantity="one">حفظ %1$s و%2$s مقطع الفيديو الخاص بك</item>
+        <item quantity="two">حفظ %1$s و%2$s %3$d من مقاطع الفيديو التي أرسلتها</item>
+        <item quantity="few">حفظ %1$s و%2$s %3$d من مقاطع الفيديو التي أرسلتها</item>
+        <item quantity="many">حفظ %1$s و%2$s %3$d من مقاطع الفيديو التي أرسلتها</item>
+        <item quantity="other">حفظ %1$s و%2$s %3$d من مقاطع الفيديو التي أرسلتها</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_yes_media_image_sharer_you_not">
+        <item quantity="zero">لقد حفظتَ أنت و%1$s %2$d من الصور من %3$s</item>
+        <item quantity="one">لقد حفظتَ أنت و%1$s صورة من %3$s</item>
+        <item quantity="two">لقد حفظتَ أنت و%1$s %2$d صورتَيْن من %3$s</item>
+        <item quantity="few">لقد حفظتَ أنت و%1$s %2$d صور من %3$s</item>
+        <item quantity="many">لقد حفظتَ أنت و%1$s %2$d صورًا من %3$s</item>
+        <item quantity="other">لقد حفظتَ أنت و%1$s %2$d صورًا من %3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_yes_media_item_sharer_you_not">
+        <item quantity="zero">لقد حفظتَ أنت و%1$s %2$d من العناصر من %3$s</item>
+        <item quantity="one">لقد حفظتَ أنت و%1$s عنصرًا من %3$s</item>
+        <item quantity="two">لقد حفظتَ أنت و%1$s %2$d عنصرَيْن من %3$s</item>
+        <item quantity="few">لقد حفظتَ أنت و%1$s %2$d عناصر من %3$s</item>
+        <item quantity="many">لقد حفظتَ أنت و%1$s %2$d عنصر من %3$s</item>
+        <item quantity="other">لقد حفظتَ أنت و%1$s %2$d عنصر من %3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_yes_media_video_sharer_you_not">
+        <item quantity="zero">لقد حفظتَ أنت و%1$s %2$d مقاطع فيديو من %3$s</item>
+        <item quantity="one">لقد حفظتَ أنت و%1$s مقطع فيديو من %3$s</item>
+        <item quantity="two">لقد حفظتَ أنت و%1$s %2$d مقطَعيْ فيديو من %3$s</item>
+        <item quantity="few">لقد حفظتَ أنت و%1$s %2$d مقاطع فيديو من %3$s</item>
+        <item quantity="many">لقد حفظتَ أنت و%1$s %2$d مقطع فيديو من %3$s</item>
+        <item quantity="other">لقد حفظتَ أنت و%1$s %2$dمقطع فيديو من %3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_image_sharer_you_not">
+        <item quantity="zero">حفظ %1$s و%2$s %3$d من الصور من %4$s</item>
+        <item quantity="one">حفظ %1$s و%2$s صورة من %4$s</item>
+        <item quantity="two">حفظ %1$s و%2$s %3$d من الصور من %4$s</item>
+        <item quantity="few">حفظ %1$s و%2$s %3$d صور من %4$s</item>
+        <item quantity="many">حفظ %1$s و%2$s %3$d صورًا من %4$s</item>
+        <item quantity="other">حفظ %1$s و%2$s %3$d صور من %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_image_sharer_you_yes">
+        <item quantity="zero">حفظ %1$s و%2$s %3$d من الصور التي أرسلتها</item>
+        <item quantity="one">حفظ %1$s و%2$s صورتك</item>
+        <item quantity="two">حفظ %1$s و%2$s %3$d من الصور التي أرسلتها</item>
+        <item quantity="few">حفظ %1$s و%2$s %3$d صور التي أرسلتها</item>
+        <item quantity="many">حفظ %1$s و%2$s %3$d من الصور التي أرسلتها</item>
+        <item quantity="other">حفظ %1$s و%2$s %3$d من الصور التي أرسلتها</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_item__sharer_you_not">
+        <item quantity="zero">حفظ %1$s و%2$s %3$d من العناصر من %4$s</item>
+        <item quantity="one">حفظ %1$s و%2$s عنصراً من %4$s</item>
+        <item quantity="two">حفظ %1$s و%2$s %3$d من العناصر من %4$s</item>
+        <item quantity="few">حفظ %1$s و%2$s %3$d عناصر من %4$s</item>
+        <item quantity="many">حفظ %1$s و%2$s %3$d عنصرًا من %4$s</item>
+        <item quantity="other">حفظ %1$s و%2$s %3$d عنصر من %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_item__sharer_you_yes">
+        <item quantity="zero">حفظ %1$s و%2$s %3$d من العناصر التي أرسلتها</item>
+        <item quantity="one">حفظ %1$s و%2$s العنصر الخاص بك</item>
+        <item quantity="two">حفظ %1$s و%2$s %3$d من العناصر التي أرسلتها</item>
+        <item quantity="few">حفظ %1$s و%2$s %3$d من العناصر التي أرسلتها</item>
+        <item quantity="many">حفظ %1$s و%2$s %3$d من العناصر التي أرسلتها</item>
+        <item quantity="other">حفظ %1$s و%2$s %3$d من العناصر التي أرسلتها</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_video_sharer_you_not">
+        <item quantity="zero">حفظ %1$s و%2$s %3$d من مقاطع الفيديو من %4$s</item>
+        <item quantity="one">حفظ %1$s و%2$s مقطع فيديو من %4$s</item>
+        <item quantity="two">حفظ %1$s و%2$s %3$d من الفيديوهات من %4$s</item>
+        <item quantity="few">حفظ %1$s و%2$s %3$d فيديو من %4$s</item>
+        <item quantity="many">حفظ %1$s و%2$s %3$d فيديو من %4$s</item>
+        <item quantity="other">حفظ %1$s و%2$s %3$d فيديو من %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_video_sharer_you_yes">
+        <item quantity="zero">حفظ %1$s و%2$s %3$d فيديو الذي أرسلته</item>
+        <item quantity="one">حفظ %1$s و%2$s مقطع الفيديو الخاص بك</item>
+        <item quantity="two">حفظ %1$s و%2$s %3$d من الفيديوهات التي أرسلتها</item>
+        <item quantity="few">حفظ %1$s و%2$s %3$d من مقاطع الفيديو التي أرسلتها</item>
+        <item quantity="many">حفظ %1$s و%2$s %3$d من مقاطع الفيديو التي أرسلتها</item>
+        <item quantity="other">حفظ %1$s و%2$s %3$d من مقاطع الفيديو التي أرسلتها</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_yes_media_image_sharer_you_not">
+        <item quantity="zero">لقد حفظتَ أنت و%1$s و%2$s %3$d من الصور من %4$s</item>
+        <item quantity="one">لقد حفظتَ أنت و%1$s و%2$s صورة من %4$s</item>
+        <item quantity="two">لقد حفظتَ أنت و%1$s و%2$s %3$d من الصور من %4$s</item>
+        <item quantity="few">لقد حفظتَ أنت و%1$s و%2$s %3$d صور من %4$s</item>
+        <item quantity="many">لقد حفظتَ أنت و%1$s و%2$s %3$d من الصور من %4$s</item>
+        <item quantity="other">لقد حفظتَ أنت و%1$s و%2$s %3$d صور من %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_yes_media_item_sharer_you_not">
+        <item quantity="zero">لقد حفظتَ أنت و%1$s و%2$s %3$d من العناصر من %4$s</item>
+        <item quantity="one">لقد حفظتَ أنت و%1$s و%2$s عنصرًا من %4$s</item>
+        <item quantity="two">لقد حفظتَ أنت و%1$s و%2$s %3$d من العناصر من %4$s</item>
+        <item quantity="few">لقد حفظتَ أنت و%1$s و%2$s %3$d من العناصر من %4$s</item>
+        <item quantity="many">لقد حفظتَ أنت و%1$s و%2$s %3$d عناصر من %4$s</item>
+        <item quantity="other">لقد حفظتَ أنت و%1$s و%2$s %3$d عنصر من %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_yes_media_video_sharer_you_not">
+        <item quantity="zero">لقد حفظتَ أنت و%1$s و%2$s %3$d من مقاطع الفيديو من %4$s</item>
+        <item quantity="one">لقد حفظتَ أنت و%1$s و%2$s مقطع فيديو من %4$s</item>
+        <item quantity="two">لقد حفظتَ أنت و%1$s و%2$s %3$d من الفيديوهات من %4$s</item>
+        <item quantity="few">لقد حفظتَ أنت و%1$s و%2$s %3$d فيديوهات من %4$s</item>
+        <item quantity="many">لقد حفظتَ أنت و%1$s و%2$s %3$d فيديو من %4$s</item>
+        <item quantity="other">لقد حفظتَ أنت و%1$s و%2$s %3$d فيديو من %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_image_sharer_you_not">
+        <item quantity="zero">حفظ %1$s %2$d من الصور من %3$s</item>
+        <item quantity="one">حفظ %1$s صورة من %3$s</item>
+        <item quantity="two">حفظ %1$s %2$d صورَتيْن من %3$s</item>
+        <item quantity="few">حفظ %1$s %2$d صور من %3$s</item>
+        <item quantity="many">حفظ %1$s %2$d صورة من %3$s</item>
+        <item quantity="other">حفظ %1$s %2$d صورة من %3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_image_sharer_you_yes">
+        <item quantity="zero">حفظ %1$s %2$d من الصور التي أرسلتها</item>
+        <item quantity="one">حفظ %1$s صورتك</item>
+        <item quantity="two">حفظ %1$s %2$d الصورَتيْن اللتين أرسلتهما</item>
+        <item quantity="few">حفظ %1$s %2$d من الصور التي أرسلتها</item>
+        <item quantity="many">حفظ %1$s %2$d من الصور التي أرسلتها</item>
+        <item quantity="other">حفظ %1$s %2$d من الصور التي أرسلتها</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_item_sharer_you_not">
+        <item quantity="zero">حفظ %1$s %2$d من العناصر من %3$s</item>
+        <item quantity="one">حفظ %1$s عنصراً من %3$s</item>
+        <item quantity="two">حفظ %1$s %2$d عنصرَيْن من %3$s</item>
+        <item quantity="few">حفظ %1$s %2$d عناصر من %3$s</item>
+        <item quantity="many">حفظ %1$s %2$d عنصرًا من %3$s</item>
+        <item quantity="other">حفظ %1$s %2$d عنصرًا من %3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_item_sharer_you_yes">
+        <item quantity="zero">حفظ %1$s %2$d من العناصر التي أرسلتها</item>
+        <item quantity="one">حفظ %1$s العنصر الخاص بك</item>
+        <item quantity="two">حفظ %1$s %2$d العنصرَين اللذين أرسلتهما</item>
+        <item quantity="few">حفظ %1$s %2$d من العناصر التي أرسلتها</item>
+        <item quantity="many">حفظ %1$s %2$d من العناصر التي أرسلتها</item>
+        <item quantity="other">حفظ %1$s %2$d من العناصر التي أرسلتها</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_video_sharer_you_not">
+        <item quantity="zero">حفظ %1$s %2$d من مقاطع الفيديو من %3$s</item>
+        <item quantity="one">حفظ %1$s مقطع فيديو من %3$s</item>
+        <item quantity="two">حفظ %1$s %2$d مقطعَيْ فيديو من %3$s</item>
+        <item quantity="few">حفظ %1$s %2$d مقاطع فيديو من %3$s</item>
+        <item quantity="many">حفظ %1$s %2$d مقطع فيديو من %3$s</item>
+        <item quantity="other">حفظ %1$s %2$d مقطع فيديو من %3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_video_sharer_you_yes">
+        <item quantity="zero">حفظ %1$s %2$d من مقاطع فيديو التي أرسلتها</item>
+        <item quantity="one">حفظ %1$s مقطع الفيديو الخاص بك</item>
+        <item quantity="two">حفظ %1$s %2$d مقطعَيْ الفيديو اللذين أرسلتهما</item>
+        <item quantity="few">حفظ %1$s %2$d من مقاطع الفيديو التي أرسلتها</item>
+        <item quantity="many">حفظ %1$s %2$d من مقاطع الفيديو التي أرسلتها</item>
+        <item quantity="other">حفظ %1$s %2$d من مقاطع الفيديو التي أرسلتها</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_yes_media_image_sharer_you_not">
+        <item quantity="zero">لقد حفظتَ %1$d من الصور من %2$s</item>
+        <item quantity="one">لقد حفظتَ صورة من %2$s</item>
+        <item quantity="two">لقد حفظتَ %1$d صورتين من %2$s</item>
+        <item quantity="few">لقد حفظتَ %1$d صور من %2$s</item>
+        <item quantity="many">لقد حفظتَ %1$d صورة من %2$s</item>
+        <item quantity="other">لقد حفظتَ %1$d صورة من %2$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_yes_media_item__sharer_you_not">
+        <item quantity="zero">لقد حفظتَ %1$d من العناصر من %2$s</item>
+        <item quantity="one">لقد حفظتَ عنصراً من %2$s</item>
+        <item quantity="two">لقد حفظتَ %1$d عنصُرَيْن من %2$s</item>
+        <item quantity="few">لقد حفظتَ %1$d عناصر من %2$s</item>
+        <item quantity="many">لقد حفظتَ %1$d عنصرًا من %2$s</item>
+        <item quantity="other">لقد حفظتَ %1$d عنصرًا من %2$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_yes_media_video_sharer_you_not">
+        <item quantity="zero">لقد حفظتَ %1$d من مقاطع الفيديو من %2$s</item>
+        <item quantity="one">لقد حفظتَ مقطع فيديو من %2$s</item>
+        <item quantity="two">لقد حفظتَ %1$d مقطعَيْ فيديو من %2$s</item>
+        <item quantity="few">لقد حفظتَ %1$d مقاطع فيديو من %2$s</item>
+        <item quantity="many">لقد حفظتَ %1$d مقطع فيديو من %2$s</item>
+        <item quantity="other">لقد حفظتَ %1$d مقطع فيديو من %2$s</item>
+    </plurals>
+    <plurals name="cannot_add_custom_story_snap_recipients">
+        <item quantity="zero">يُمكنك فقط إضافة حتى ⁦%1$d⁩ قصة مُخصصة في آن واحد</item>
+        <item quantity="one">يُمكنك فقط إضافة ⁦%1$d⁩ قصة واحدة مُخصصة في آن واحد</item>
+        <item quantity="two">يُمكنك فقط إضافة حتى ⁦%1$d⁩ قصتين مُخصصتين في آن واحد</item>
+        <item quantity="few">يُمكنك فقط إضافة حتى ⁦%1$d⁩ قصص مُخصصة في آن واحد</item>
+        <item quantity="many">يُمكنك فقط إضافة حتى ⁦%1$d⁩ قصة مُخصصة في آن واحد</item>
+        <item quantity="other">يُمكنك فقط إضافة حتى ⁦%1$d⁩ قصص مُخصصة في آن واحد</item>
+    </plurals>
+    <plurals name="capture_settings_distance_value_text_feet">
+        <item quantity="zero">⁦%1$d⁩ قدم</item>
+        <item quantity="one">⁦%1$d⁩ قدمًا</item>
+        <item quantity="two">⁦%1$d⁩ قدمًا</item>
+        <item quantity="few">⁦%1$d⁩ قدمًا</item>
+        <item quantity="many">⁦%1$d⁩ قدمًا</item>
+        <item quantity="other">⁦%1$d⁩ من الأقدام</item>
+    </plurals>
+    <plurals name="capture_settings_duration_value_text_orbits">
+        <item quantity="zero">⁦%1$d⁩ مدار</item>
+        <item quantity="one">مدار واحد</item>
+        <item quantity="two">مداران (⁦%1$d⁩)</item>
+        <item quantity="few">⁦%1$d⁩ مدارات</item>
+        <item quantity="many">⁦%1$d⁩ مدارًا</item>
+        <item quantity="other">⁦%1$d⁩ مدار</item>
+    </plurals>
+    <plurals name="chat_header_gifting_birthday_upsell">
+        <item quantity="zero">عيد ميلاد ⁦%1$s⁩ بعد ⁦%2$d⁩ من الأيام ��. أهدِ له سناب شات+</item>
+        <item quantity="one">عيد ميلاد ⁦%1$s⁩ غدًا ��. أهدِ له سناب شات+</item>
+        <item quantity="two">عيد ميلاد ⁦%1$s⁩ بعد ⁦%2$d⁩ من الأيام ��. أهدِ له سناب شات+</item>
+        <item quantity="few">عيد ميلاد ⁦%1$s⁩ بعد ⁦%2$d⁩ من الأيام ��. أهدِ له سناب شات+</item>
+        <item quantity="many">عيد ميلاد ⁦%1$s⁩ بعد ⁦%2$d⁩ من الأيام ��. أهدِ له سناب شات+</item>
+        <item quantity="other">عيد ميلاد ⁦%1$s⁩ بعد ⁦%2$d⁩ من الأيام ��. أهدِ له سناب شات+</item>
+    </plurals>
+    <plurals name="cheerios_clean_unpair_cheerios_body">
+        <item quantity="zero">يوجد ⁦%1$d⁩ من اللقطات في Pixy لديك. هل تريد أيضًا إعادة ضبط الجهاز وحذف جميع اللقطات وبيانات المُستخدم؟</item>
+        <item quantity="one">يوجد لقطة واحدة في Pixy لديك. هل تريد أيضًا إعادة ضبط الجهاز وحذف جميع اللقطات وبيانات المُستخدم؟</item>
+        <item quantity="two">يوجد مقطعا Snap (⁦%1$d⁩) في Pixy لديك. هل تريد أيضًا إعادة ضبط الجهاز وحذف جميع اللقطات وبيانات المُستخدم؟</item>
+        <item quantity="few">يوجد ⁦%1$d⁩ اللقطات في Pixy لديك. هل تريد أيضًا إعادة ضبط الجهاز وحذف جميع اللقطات وبيانات المُستخدم؟</item>
+        <item quantity="many">يوجد ⁦%1$d⁩ مقطعًا من اللقطات في Pixy لديك. هل تريد أيضًا إعادة ضبط الجهاز وحذف جميع اللقطات وبيانات المُستخدم؟</item>
+        <item quantity="other">يوجد ⁦%1$d⁩ مقطع من اللقطات في Pixy لديك. هل تريد أيضًا إعادة ضبط الجهاز وحذف جميع اللقطات وبيانات المُستخدم؟</item>
+    </plurals>
+    <plurals name="cheerios_confirm_delete_body">
+        <item quantity="zero">سيؤدي حذف اللقطات هذه إلى إزالتها من جهاز Cheerio الخاص بك.</item>
+        <item quantity="one">سيؤدي حذف لقطة هذا إلى إزالته من جهاز Cheerio الخاص بك.</item>
+        <item quantity="two">سيؤدي حذف اللقطات هذه إلى إزالتها من جهاز Cheerio الخاص بك.</item>
+        <item quantity="few">سيؤدي حذف اللقطات هذه إلى إزالتها من جهاز Cheerio الخاص بك.</item>
+        <item quantity="many">سيؤدي حذف اللقطات هذه إلى إزالتها من جهاز Cheerio الخاص بك.</item>
+        <item quantity="other">سيؤدي حذف اللقطات هذه إلى إزالتها من جهاز Cheerio الخاص بك.</item>
+    </plurals>
+    <plurals name="cheerios_deleted">
+        <item quantity="zero">تم حذف %d لقطة</item>
+        <item quantity="one">حُذف لقطة واحدة</item>
+        <item quantity="two">تم حذف %d مقطعا Snap</item>
+        <item quantity="few">تم حذف %d اللقطات</item>
+        <item quantity="many">تم حذف %d لقطة</item>
+        <item quantity="other">تم حذف %d لقطة</item>
+    </plurals>
+    <plurals name="cheerios_deleting">
+        <item quantity="zero">جارٍ حذف %d اللقطات...</item>
+        <item quantity="one">جارٍ حذف لقطة واحدة...</item>
+        <item quantity="two">جارٍ حذف مقطعي (%d) Snap...</item>
+        <item quantity="few">جارٍ حذف %d اللقطات...</item>
+        <item quantity="many">جارٍ حذف %d لقطة...</item>
+        <item quantity="other">جارٍ حذف %d لقطة...</item>
+    </plurals>
+    <plurals name="cheerios_memories_tooltip">
+        <item quantity="zero">%d لقطة جديد</item>
+        <item quantity="one">لقطة واحدة جديد</item>
+        <item quantity="two">مقطعا Snap (%d) جديدان</item>
+        <item quantity="few">%d مقطع/اللقطات جديد/جديدة</item>
+        <item quantity="many">%d مقطع/اللقطات جديد/جديدة</item>
+        <item quantity="other">%d من اللقطات الجديدة</item>
+    </plurals>
+    <plurals name="cheerios_new_snap_to_import">
+        <item quantity="zero">%d لقطة جديد. المس للاستيراد.</item>
+        <item quantity="one">لقطة جديد واحد. المس للاستيراد.</item>
+        <item quantity="two">مقطعا Snap %d جديدان. المس للاستيراد.</item>
+        <item quantity="few">%d اللقطات جديدة. المس للاستيراد.</item>
+        <item quantity="many">%d لقطة جديدة. المس للاستيراد.</item>
+        <item quantity="other">%d لقطة جديدة. المس للاستيراد.</item>
+    </plurals>
+    <plurals name="cheerios_status_transfer_complete_title">
+        <item quantity="zero">تم استيراد %d لقطة.</item>
+        <item quantity="one">تم استيراد لقطة واحدة %d.</item>
+        <item quantity="two">تم استيراد مقطعي (%d) Snap.</item>
+        <item quantity="few">تم استيراد %d اللقطات.</item>
+        <item quantity="many">تم استيراد %d لقطة.</item>
+        <item quantity="other">تم استيراد %d لقطة.</item>
+    </plurals>
+    <plurals name="cheerios_status_transferring_title">
+        <item quantity="zero">جارٍ استيراد %d لقطة...</item>
+        <item quantity="one">جارٍ استيراد لقطة واحدة %d...</item>
+        <item quantity="two">جارٍ استيراد مقطعي Snap %d...</item>
+        <item quantity="few">جارٍ استيراد %d اللقطات...</item>
+        <item quantity="many">جارٍ استيراد %d لقطة...</item>
+        <item quantity="other">جارٍ استيراد %d لقطة...</item>
+    </plurals>
+    <plurals name="cluster_seven_or_more">
+        <item quantity="zero">⁦%1$s⁩ و⁦%2$s⁩ و⁦%3$s⁩ و⁦%4$s⁩ و⁦%5$s⁩ و⁦%6$d⁩ آخر</item>
+        <item quantity="one">⁦%1$s⁩ و⁦%2$s⁩ و⁦%3$s⁩ و⁦%4$s⁩ و⁦%5$s⁩ و⁦%6$d⁩ آخر</item>
+        <item quantity="two">⁦%1$s⁩ و⁦%2$s⁩ و⁦%3$s⁩ و⁦%4$s⁩ و⁦%5$s⁩ و⁦%6$d⁩ آخران</item>
+        <item quantity="few">⁦%1$s⁩ و⁦%2$s⁩ و⁦%3$s⁩ و⁦%4$s⁩ و⁦%5$s⁩ و⁦%6$d⁩ آخرين</item>
+        <item quantity="many">⁦%1$s⁩ و⁦%2$s⁩ و⁦%3$s⁩ و⁦%4$s⁩ و⁦%5$s⁩ و⁦%6$d⁩ آخرين</item>
+        <item quantity="other">⁦%1$s⁩ و⁦%2$s⁩ و⁦%3$s⁩ و⁦%4$s⁩ و⁦%5$s⁩ و⁦%6$d⁩ آخرين</item>
+    </plurals>
+    <plurals name="cluster_seven_or_more_me">
+        <item quantity="zero">⁦%1$s⁩ و⁦%2$s⁩ و⁦%3$s⁩ و⁦%4$s⁩ وأنا و⁦%5$d⁩ آخر</item>
+        <item quantity="one">⁦%1$s⁩ و⁦%2$s⁩ و⁦%3$s⁩ و⁦%4$s⁩ وأنا و⁦%5$d⁩ آخر</item>
+        <item quantity="two">⁦%1$s⁩ و⁦%2$s⁩ و⁦%3$s⁩ و⁦%4$s⁩ وأنا و⁦%5$d⁩ آخران</item>
+        <item quantity="few">⁦%1$s⁩ و⁦%2$s⁩ و⁦%3$s⁩ و⁦%4$s⁩ وأنا و⁦%5$d⁩ آخرين</item>
+        <item quantity="many">⁦%1$s⁩ و⁦%2$s⁩ و⁦%3$s⁩ و⁦%4$s⁩ وأنا و⁦%5$d⁩ آخرين</item>
+        <item quantity="other">⁦%1$s⁩ و⁦%2$s⁩ و⁦%3$s⁩ و⁦%4$s⁩ وأنا و⁦%5$d⁩ آخرين</item>
+    </plurals>
+    <plurals name="cluster_three_or_more">
+        <item quantity="zero">⁦%1$s⁩ و⁦%2$d⁩ آخر</item>
+        <item quantity="one">⁦%1$s⁩ و⁦%2$d⁩ أخر</item>
+        <item quantity="two">⁦%1$s⁩ و⁦%2$d⁩ آخران</item>
+        <item quantity="few">⁦%1$s⁩ و⁦%2$d⁩ آخرين</item>
+        <item quantity="many">⁦%1$s⁩ و⁦%2$d⁩ آخرين</item>
+        <item quantity="other">⁦%1$s⁩ و⁦%2$d⁩ آخرين</item>
+    </plurals>
+    <plurals name="cluster_three_or_more_me">
+        <item quantity="zero">أنا و⁦%1$d⁩ آخر</item>
+        <item quantity="one">أنا و⁦%1$d⁩ آخر</item>
+        <item quantity="two">أنا و⁦%1$d⁩ آخران</item>
+        <item quantity="few">أنا و⁦%1$d⁩ آخرين</item>
+        <item quantity="many">أنا و⁦%1$d⁩ آخرين</item>
+        <item quantity="other">أنا و⁦%1$d⁩ آخرين</item>
+    </plurals>
+    <plurals name="cognac_active_playing_game_text_multiple_player">
+        <item quantity="zero">%1$sو %2$s + %3$d آخر يلعبون</item>
+        <item quantity="one">%1$sو %2$s + %3$d آخر يلعبون</item>
+        <item quantity="two">%1$sو %2$s + %3$d آخران يلعبون</item>
+        <item quantity="few">%1$sو %2$s + %3$d آخران يلعبون</item>
+        <item quantity="many">%1$sو %2$s + %3$d آخران يلعبون</item>
+        <item quantity="other">%1$s و%2$s + %3$d آخرون يلعبون</item>
+    </plurals>
+    <plurals name="cognac_active_playing_game_text_multiple_player_shortened">
+        <item quantity="zero">%1$s + %2$d آخر يلعب</item>
+        <item quantity="one">%1$s + %2$d آخر يلعبان</item>
+        <item quantity="two">%1$s + %2$d آخران يلعبون</item>
+        <item quantity="few">%1$s + %2$d آخرين يلعبون</item>
+        <item quantity="many">%1$s + %2$d آخر يلعبون</item>
+        <item quantity="other">%1$s + %2$d آخر يلعبون</item>
+    </plurals>
+    <plurals name="cognac_active_using_cypress_text_multiple_player">
+        <item quantity="zero">%1$s و%2$s + %3$d آخرون نشطون</item>
+        <item quantity="one">%1$s و%2$s + %3$d آخرون نشطون</item>
+        <item quantity="two">%1$s و%2$s + %3$d آخرون نشطون</item>
+        <item quantity="few">%1$s و%2$s + %3$d آخرون نشطون</item>
+        <item quantity="many">%1$s و%2$s + %3$d آخرون نشطون</item>
+        <item quantity="other">%1$s و%2$s + %3$d آخرون نشطون</item>
+    </plurals>
+    <plurals name="cognac_active_using_cypress_text_multiple_player_shortened">
+        <item quantity="zero">%1$s + %2$d مُستخدم آخر نشِطون</item>
+        <item quantity="one">%1$s + %2$d مُستخدم واحد آخر نشِطون</item>
+        <item quantity="two">%1$s + %2$d مُستخدمَان آخرَان نشِطون</item>
+        <item quantity="few">%1$s + %2$d مُستخدمِين آخرِين نشِطون</item>
+        <item quantity="many">%1$s + %2$d مُستخدمًا آخر نشِطون</item>
+        <item quantity="other">%1$s + %2$d مُستخدم آخر نشِطون</item>
+    </plurals>
+    <plurals name="cognac_app_profile_multiple_player_text">
+        <item quantity="zero">تدعم %1$s-%2$d من اللاعبين</item>
+        <item quantity="one">تدعم %1$s-%2$d من اللاعبين</item>
+        <item quantity="two">تدعم %1$s-%2$d من اللاعبين</item>
+        <item quantity="few">تدعم %1$s-%2$d من اللاعبين</item>
+        <item quantity="many">تدعم %1$s-%2$d من اللاعبين</item>
+        <item quantity="other">تدعم %1$s-%2$d من اللاعبين</item>
+    </plurals>
+    <plurals name="cognac_close_status_message_multiple_player_second_person">
+        <item quantity="zero">أنت و%1$s و%2$d آخر لعبتم %3$s</item>
+        <item quantity="one">أنت و%1$s و%2$d آخر لعبتم %3$s</item>
+        <item quantity="two">أنت و%1$s و%2$d آخران لعبتم %3$s</item>
+        <item quantity="few">أنت و%1$s و%2$d آخرين لعبتم %3$s</item>
+        <item quantity="many">أنت و%1$s و%2$d آخر لعبتم %3$s</item>
+        <item quantity="other">أنت و%1$s و%2$d آخر لعبتم %3$s</item>
+    </plurals>
+    <plurals name="cognac_close_status_message_multiple_player_third_person">
+        <item quantity="zero">%1$s و%2$s و%3$d آخر لعبوا %4$s</item>
+        <item quantity="one">%1$s و%2$s و%3$d آخر لعبوا %4$s</item>
+        <item quantity="two">%1$s و%2$s و%3$d آخران لعبوا %4$s</item>
+        <item quantity="few">%1$s و%2$s و%3$d آخران لعبوا %4$s</item>
+        <item quantity="many">%1$s و%2$s و%3$d آخران لعبوا %4$s</item>
+        <item quantity="other">%1$s و%2$s و%3$d آخرون لعبوا %4$s</item>
+    </plurals>
+    <plurals name="cognac_close_status_message_text_for_feed_multiple_player_third_person">
+        <item quantity="zero">%1$s و %2$d مُستخدم آخر لعبتم %3$s</item>
+        <item quantity="one">%1$s و %2$d مُستخدم واحد آخر لعبتم %3$s</item>
+        <item quantity="two">%1$s و %2$d مُستخدمَان آخرَان لعبتم %3$s</item>
+        <item quantity="few">%1$s و%2$d مُستخدمِين آخرِين لعبتم %3$s</item>
+        <item quantity="many">%1$s و%2$d مُستخدمًا آخر لعبتم %3$s</item>
+        <item quantity="other">%1$s و %2$d مُستخدم آخر لعبتم %3$s</item>
+    </plurals>
+    <plurals name="cognac_cypress_close_status_message_multiple_player_second_person">
+        <item quantity="zero">أنت و%1$s و%2$d مُستخدم آخر استخدمتم %3$s</item>
+        <item quantity="one">أنت و%1$s و%2$d مُستخدم واحد آخر استخدمتم %3$s</item>
+        <item quantity="two">أنت و%1$s و%2$d مُستخدمَان آخرَان استخدمتم %3$s</item>
+        <item quantity="few">أنت و%1$s و%2$d مُستخدمِين آخرِين استخدمتم %3$s</item>
+        <item quantity="many">أنت و%1$s و%2$d مُستخدمًا آخر استخدمتم %3$s</item>
+        <item quantity="other">أنت و%1$s و%2$d مُستخدم آخر استخدمتم %3$s</item>
+    </plurals>
+    <plurals name="cognac_cypress_close_status_message_multiple_player_third_person">
+        <item quantity="zero">%1$s و%2$s و%3$d آخرون استخدَموا %4$s</item>
+        <item quantity="one">%1$s و%2$s و%3$d آخرون استخدَموا %4$s</item>
+        <item quantity="two">%1$s و%2$s و%3$d آخرون استخدَموا %4$s</item>
+        <item quantity="few">%1$s و%2$s و%3$d آخرون استخدَموا %4$s</item>
+        <item quantity="many">%1$s و%2$s و%3$d آخرون استخدَموا %4$s</item>
+        <item quantity="other">%1$s و%2$s و%3$d آخرون استخدَموا %4$s</item>
+    </plurals>
+    <plurals name="cognac_cypress_close_status_message_text_for_feed_multiple_player_third_person">
+        <item quantity="zero">%1$s و %2$d مُستخدم آخر استخدمتم %3$s</item>
+        <item quantity="one">%1$s و %2$d مُستخدم واحد آخر استخدمتم %3$s</item>
+        <item quantity="two">%1$s و %2$d مُستخدمَان آخرَان استخدمتم %3$s</item>
+        <item quantity="few">%1$s و %2$d مُستخدمِين آخرِين استخدمتم %3$s</item>
+        <item quantity="many">%1$s و %2$d مُستخدمًا آخر استخدمتم %3$s</item>
+        <item quantity="other">%1$s و %2$d مُستخدم آخر استخدمتم %3$s</item>
+    </plurals>
+    <plurals name="cognac_friend_picker_ringing_text_multiple_players">
+        <item quantity="zero">الاتصال بـ %1$s و%2$d آخرين...</item>
+        <item quantity="one">الاتصال بـ %1$s و%2$d آخرين...</item>
+        <item quantity="two">الاتصال بـ %1$s و%2$d آخرين...</item>
+        <item quantity="few">الاتصال بـ %1$s و%2$d آخرين...</item>
+        <item quantity="many">الاتصال بـ %1$s و%2$d آخرين...</item>
+        <item quantity="other">الاتصال بـ %1$s و%2$d آخرين...</item>
+    </plurals>
+    <plurals name="comments_collapse_child_comments">
+        <item quantity="zero">إخفاء الردود</item>
+        <item quantity="one">إخفاء الرد</item>
+        <item quantity="two">إخفاء الردود</item>
+        <item quantity="few">إخفاء الردود</item>
+        <item quantity="many">إخفاء الردود</item>
+        <item quantity="other">إخفاء الردود</item>
+    </plurals>
+    <plurals name="comments_expand_child_comments">
+        <item quantity="zero">إظهار %s من الردود</item>
+        <item quantity="one">إظهار رد واحد</item>
+        <item quantity="two">إظهار %s من الردود</item>
+        <item quantity="few">إظهار %s من الردود</item>
+        <item quantity="many">إظهار %s من الردود</item>
+        <item quantity="other">إظهار %s من الردود</item>
+    </plurals>
+    <plurals name="comments_header_with_live_comment_count">
+        <item quantity="zero">%s تعليق</item>
+        <item quantity="one">تعليق واحد</item>
+        <item quantity="two">تعليقان (%s)</item>
+        <item quantity="few">%s تعليقًا</item>
+        <item quantity="many">%s تعليقًا</item>
+        <item quantity="other">%s تعليق</item>
+    </plurals>
+    <plurals name="content_detail_new_count">
+        <item quantity="zero">⁦%1$d⁩ جديد</item>
+        <item quantity="one">⁦%1$d⁩ جديد</item>
+        <item quantity="two">⁦%1$d⁩ جديدان</item>
+        <item quantity="few">⁦%1$d⁩ جديدة</item>
+        <item quantity="many">⁦%1$d⁩ جديدة</item>
+        <item quantity="other">⁦%1$d⁩ جديدة</item>
+    </plurals>
+    <plurals name="content_detail_seen_text">
+        <item quantity="zero">⁦%1$d⁩ للاستيراد</item>
+        <item quantity="one">⁦%1$d⁩ للاستيراد</item>
+        <item quantity="two">⁦%1$d⁩ للاستيراد</item>
+        <item quantity="few">⁦%1$d⁩ للاستيراد</item>
+        <item quantity="many">⁦%1$d⁩ للاستيراد</item>
+        <item quantity="other">⁦%1$d⁩ للاستيراد</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="zero">%d أيام</item>
+        <item quantity="one">%d يوم</item>
+        <item quantity="two">%d يومين</item>
+        <item quantity="few">%d أيام</item>
+        <item quantity="many">%d أيام</item>
+        <item quantity="other">%d أيام</item>
+    </plurals>
+    <plurals name="days_abbreviated">
+        <item quantity="zero">%d يوم</item>
+        <item quantity="one">%d يوم</item>
+        <item quantity="two">%d يومان</item>
+        <item quantity="few">%d أيام</item>
+        <item quantity="many">%d يومًا</item>
+        <item quantity="other">%d يوم</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated">
+        <item quantity="zero">منذ %d يوم</item>
+        <item quantity="one">منذ %d يوم</item>
+        <item quantity="two">منذ %d أيام</item>
+        <item quantity="few">منذ %d أيام</item>
+        <item quantity="many">منذ %d يومًا</item>
+        <item quantity="other">منذ %d يوم</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_camera_roll">
+        <item quantity="zero">منذ ⁦%1$d⁩ يوم من ألبوم الكاميرا</item>
+        <item quantity="one">منذ ⁦%1$d⁩ يوم من ألبوم الكاميرا</item>
+        <item quantity="two">منذ ⁦%1$d⁩ يومين من ألبوم الكاميرا</item>
+        <item quantity="few">منذ ⁦%1$d⁩ أيام من ألبوم الكاميرا</item>
+        <item quantity="many">منذ ⁦%1$d⁩ يومًا من ألبوم الكاميرا</item>
+        <item quantity="other">منذ ⁦%1$d⁩ يوم من ألبوم الكاميرا</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_chat">
+        <item quantity="zero">منذ ⁦%1$d⁩ يوم من الدردشة</item>
+        <item quantity="one">منذ ⁦%1$d⁩ يوم من الدردشة</item>
+        <item quantity="two">منذ ⁦%1$d⁩ يومين من الدردشة</item>
+        <item quantity="few">منذ ⁦%1$d⁩ أيام من الدردشة</item>
+        <item quantity="many">منذ ⁦%1$d⁩ يومًا من الدردشة</item>
+        <item quantity="other">منذ ⁦%1$d⁩ يوم من الدردشة</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_cheerios">
+        <item quantity="zero">منذ ⁦%1$d⁩ من الأيام من Pixy</item>
+        <item quantity="one">منذ يوم واحد (⁦%1$d⁩) من Pixy</item>
+        <item quantity="two">منذ يومين (⁦%1$d⁩) من Pixy</item>
+        <item quantity="few">منذ ⁦%1$d⁩ أيام من Pixy</item>
+        <item quantity="many">منذ ⁦%1$d⁩ يومًا من Pixy</item>
+        <item quantity="other">منذ ⁦%1$d⁩ يوم من Pixy</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_creative_kit">
+        <item quantity="zero">منذ ⁦%1$d⁩ يوم من ⁦%2$s⁩</item>
+        <item quantity="one">منذ ⁦%1$d⁩ يوم من ⁦%2$s⁩</item>
+        <item quantity="two">منذ ⁦%1$d⁩ يومين من ⁦%2$s⁩</item>
+        <item quantity="few">منذ ⁦%1$d⁩ أيام من ⁦%2$s⁩</item>
+        <item quantity="many">منذ ⁦%1$d⁩ يومًا من ⁦%2$s⁩</item>
+        <item quantity="other">منذ ⁦%1$d⁩ يوم من ⁦%2$s⁩</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_memories">
+        <item quantity="zero">منذ ⁦%1$d⁩ يوم من الذكريات</item>
+        <item quantity="one">منذ ⁦%1$d⁩ يوم من الذكريات</item>
+        <item quantity="two">منذ ⁦%1$d⁩ يومين من الذكريات</item>
+        <item quantity="few">منذ ⁦%1$d⁩ أيام من الذكريات</item>
+        <item quantity="many">منذ ⁦%1$d⁩ يومًا من الذكريات</item>
+        <item quantity="other">منذ ⁦%1$d⁩ يوم من الذكريات</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_spectacles">
+        <item quantity="zero">منذ ⁦%1$d⁩ يوم من نظارة Spectacles</item>
+        <item quantity="one">منذ ⁦%1$d⁩ يوم من نظارة Spectacles</item>
+        <item quantity="two">منذ ⁦%1$d⁩ يومان من نظارة Spectacles</item>
+        <item quantity="few">منذ ⁦%1$d⁩ أيام من نظارة Spectacles</item>
+        <item quantity="many">منذ ⁦%1$d⁩ يومًا من نظارة Spectacles</item>
+        <item quantity="other">منذ ⁦%1$d⁩ يوم من نظارة Spectacles</item>
+    </plurals>
+    <plurals name="days_ago_update">
+        <item quantity="zero">تم التحديث منذ ⁦%1$s⁩ يوم</item>
+        <item quantity="one">تم التحديث منذ يوم واحد (⁦%1$s⁩)</item>
+        <item quantity="two">تم التحديث منذ يومين (⁦%1$s⁩)</item>
+        <item quantity="few">تم التحديث منذ ⁦%1$s⁩ أيام</item>
+        <item quantity="many">تم التحديث منذ ⁦%1$s⁩ يومًا</item>
+        <item quantity="other">تم التحديث منذ ⁦%1$s⁩ يوم</item>
+    </plurals>
+    <plurals name="discard_batch_capture_description">
+        <item quantity="zero">هل أنت مُتأكّد أنك تُريد التخلي عن Snap المُتعدّد؟ سَتفقد ⁦%1$d⁩ من اللقطات غير المحفوظة.</item>
+        <item quantity="one">هل أنت مُتأكّد أنك تُريد التخلي عن Snap المُتعدّد؟ سَتفقد Snap غير المحفوظ.</item>
+        <item quantity="two">هل أنت مُتأكّد أنك تُريد التخلي عن Snap المُتعدّد؟ سَتفقد ⁦%1$d⁩ من اللقطات غير المحفوظة.</item>
+        <item quantity="few">هل أنت مُتأكّد أنك تُريد التخلي عن Snap المُتعدّد؟ سَتفقد ⁦%1$d⁩ اللقطات غير محفوظة.</item>
+        <item quantity="many">هل أنت مُتأكّد أنك تُريد التخلي عن Snap المُتعدّد؟ سَتفقد ⁦%1$d⁩ اللقطات غير محفوظة.</item>
+        <item quantity="other">هل أنت مُتأكّد أنك تُريد التخلي عن Snap المُتعدّد؟ سَتفقد ⁦%1$d⁩ اللقطات غير محفوظة.</item>
+    </plurals>
+    <plurals name="display_username_explanation_changed_username_too_recently">
+        <item quantity="zero">لقد غيرت اسم المستخدم الخاص بك في %1$s.\nيمكنك تغيره مجددًا في غضون %2$d يوم.</item>
+        <item quantity="one">لقد غيرت اسم المستخدم الخاص بك في %1$s.\nيمكنك تغيره مجددًا في غضون %2$d يوم.</item>
+        <item quantity="two">لقد غيرت اسم المستخدم الخاص بك في %1$s.\nيمكنك تغيره مجددًا في غضون يوم واحد %2$d.</item>
+        <item quantity="few">لقد غيرت اسم المستخدم الخاص بك في %1$s.\nيمكنك تغيره مجددًا في غضون يومين %2$d.</item>
+        <item quantity="many">لقد غيرت اسم المستخدم الخاص بك في %1$s.\nيمكنك تغيره مجددًا في غضون %2$d أيام.</item>
+        <item quantity="other">لقد غيرت اسم المستخدم الخاص بك في %1$s.\nيمكنك تغيره مجددًا في غضون %2$d يومًا.</item>
+    </plurals>
+    <plurals name="failed_to_save_multiple_snaps">
+        <item quantity="zero">فشل حفظ ⁦%1$d⁩ اللقطات</item>
+        <item quantity="one">فشل حفظ ⁦%1$d⁩ Snap</item>
+        <item quantity="two">فشل حفظ ⁦%1$d⁩ اللقطات</item>
+        <item quantity="few">فشل حفظ ⁦%1$d⁩ اللقطات</item>
+        <item quantity="many">فشل حفظ ⁦%1$d⁩ اللقطات</item>
+        <item quantity="other">فشل حفظ ⁦%1$d⁩ اللقطات</item>
+    </plurals>
+    <plurals name="formatted_short_ft">
+        <item quantity="zero">%d من الأقدام</item>
+        <item quantity="one">%d قدمًا</item>
+        <item quantity="two">%d قدمًا</item>
+        <item quantity="few">%d قدمًا</item>
+        <item quantity="many">%d قدمًا</item>
+        <item quantity="other">%d قدم</item>
+    </plurals>
+    <plurals name="formatted_short_km">
+        <item quantity="zero">%d كم</item>
+        <item quantity="one">%d كم</item>
+        <item quantity="two">%d كم</item>
+        <item quantity="few">%d كم</item>
+        <item quantity="many">%d كم</item>
+        <item quantity="other">%d كم</item>
+    </plurals>
+    <plurals name="formatted_short_m">
+        <item quantity="zero">%d دقيقة</item>
+        <item quantity="one">%d من الأمتار</item>
+        <item quantity="two">%d من الأمتار</item>
+        <item quantity="few">%d من الأمتار</item>
+        <item quantity="many">%d من الأمتار</item>
+        <item quantity="other">%d من الأمتار</item>
+    </plurals>
+    <plurals name="formatted_short_mile">
+        <item quantity="zero">%d من الأميال</item>
+        <item quantity="one">%d من الأميال</item>
+        <item quantity="two">%d من الأميال</item>
+        <item quantity="few">%d من الأميال</item>
+        <item quantity="many">%d من الأميال</item>
+        <item quantity="other">%d من الأميال</item>
+    </plurals>
+    <plurals name="friending_progress_bar_secondary">
+        <item quantity="zero">ارسل ⁦%1$s⁩ المزيد من طلبات الصداقة!</item>
+        <item quantity="one">ارسل ⁦%1$s⁩ المزيد من طلبات الصداقة!</item>
+        <item quantity="two">ارسل ⁦%1$s⁩ المزيد من طلبات الصداقة!</item>
+        <item quantity="few">ارسل ⁦%1$s⁩ المزيد من طلبات الصداقة!</item>
+        <item quantity="many">ارسل ⁦%1$s⁩ المزيد من طلبات الصداقة!</item>
+        <item quantity="other">ارسل ⁦%1$s⁩ المزيد من طلبات الصداقة!</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_description_items">
+        <item quantity="zero">تمت إضافة العناصر الخاصة بك إلى &apos;خاص بي فقط&apos;. هل ترغب في حذف العناصر الأصلية من ألبوم الكاميرا؟</item>
+        <item quantity="one">تم إضافة العنصر الخاص بك إلى &apos;خاص بي فقط&apos;. هل ترغب في حذف العنصرالأصلي من ألبوم الكاميرا؟</item>
+        <item quantity="two">تمت إضافة العناصر الخاصة بك إلى &apos;خاص بي فقط&apos;. هل ترغب في حذف العناصر الأصلية من ألبوم الكاميرا؟</item>
+        <item quantity="few">تمت إضافة العناصر الخاصة بك إلى &apos;خاص بي فقط&apos;. هل ترغب في حذف العناصر الأصلية من ألبوم الكاميرا؟</item>
+        <item quantity="many">تمت إضافة العناصر الخاصة بك إلى &apos;خاص بي فقط&apos;. هل ترغب في حذف العناصر الأصلية من ألبوم الكاميرا؟</item>
+        <item quantity="other">تم إضافة العناصر الخاصة بك إلى &apos;خاص بي فقط&apos;. هل ترغب في حذف العناصر الأصلية من ألبوم الكاميرا؟</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_description_photos">
+        <item quantity="zero">تم حفظ صورك بنجاح في &apos;خاص بي فقط&apos;. هل ترغب في حذف الصور الأصلية من ألبوم الكاميرا؟</item>
+        <item quantity="one">تم حفظ صورتك بنجاح في &apos;خاص بي فقط&apos;. هل ترغب في حذف الصورة الأصلية من ألبوم الكاميرا؟</item>
+        <item quantity="two">تم حفظ صورك بنجاح في &apos;خاص بي فقط&apos;. هل ترغب في حذف الصور الأصلية من ألبوم الكاميرا؟</item>
+        <item quantity="few">تم حفظ صورك بنجاح في &apos;خاص بي فقط&apos;. هل ترغب في حذف الصور الأصلية من ألبوم الكاميرا؟</item>
+        <item quantity="many">تم حفظ صورك بنجاح في &apos;خاص بي فقط&apos;. هل ترغب في حذف الصور الأصلية من ألبوم الكاميرا؟</item>
+        <item quantity="other">تم حفظ صورك بنجاح في &apos;خاص بي فقط&apos;. هل ترغب في حذف الصور الأصلية من ألبوم الكاميرا؟</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_description_videos">
+        <item quantity="zero">تمت إضافة الفيديوهات الخاصة بك إلى &apos;خاص بي فقط&apos;. هل ترغب في حذف الفيديوهات الأصلية من ألبوم الكاميرا؟</item>
+        <item quantity="one">تم إضافة الفيديو الخاصة بك إلى &apos;خاص بي فقط&apos;. هل ترغب في حذف الفيديو الأصلية من ألبوم الكاميرا؟</item>
+        <item quantity="two">تمت إضافة الفيديوهات الخاصة بك إلى &apos;خاص بي فقط&apos;. هل ترغب في حذف الفيديوهات الأصلية من ألبوم الكاميرا؟</item>
+        <item quantity="few">تمت إضافة الفيديوهات الخاصة بك إلى &apos;خاص بي فقط&apos;. هل ترغب في حذف الفيديوهات الأصلية من ألبوم الكاميرا؟</item>
+        <item quantity="many">تمت إضافة الفيديوهات الخاصة بك إلى &apos;خاص بي فقط&apos;. هل ترغب في حذف الفيديوهات الأصلية من ألبوم الكاميرا؟</item>
+        <item quantity="other">تم إضافة الفيديوهات الخاصة بك إلى &apos;خاص بي فقط&apos;. هل ترغب في حذف الفيديوهات الأصلية من ألبوم الكاميرا؟</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_title">
+        <item quantity="zero">حذف النسخ الأصلية</item>
+        <item quantity="one">حذف النسخة الأصلية</item>
+        <item quantity="two">حذف النسخ الأصلية</item>
+        <item quantity="few">حذف النسخ الأصلية</item>
+        <item quantity="many">حذف النسخ الأصلية</item>
+        <item quantity="other">حذف النسخ الأصلية</item>
+    </plurals>
+    <plurals name="gallery_private_rate_limit_minutes_time_out">
+        <item quantity="zero">حاول مرة أخرى بعد ⁦%1$d⁩ دقيقة/دقائق.</item>
+        <item quantity="one">حاول مرة أخرى بعد ⁦%1$d⁩ دقيقة</item>
+        <item quantity="two">حاول مرة أخرى بعد ⁦%1$d⁩ دقيقة/دقائق.</item>
+        <item quantity="few">حاول مرة أخرى بعد ⁦%1$d⁩ دقيقة/دقائق.</item>
+        <item quantity="many">حاول مرة أخرى بعد ⁦%1$d⁩ دقيقة/دقائق.</item>
+        <item quantity="other">حاول مرة أخرى بعد ⁦%1$d⁩ دقيقة/دقائق.</item>
+    </plurals>
+    <plurals name="gauge_altitude_unit_feet">
+        <item quantity="zero">%d قدم</item>
+        <item quantity="one">قدم واحد (%d)</item>
+        <item quantity="two">قدمان (%d)</item>
+        <item quantity="few">%d أقدام</item>
+        <item quantity="many">%d قدمًا</item>
+        <item quantity="other">%d قدم</item>
+    </plurals>
+    <plurals name="gauge_altitude_unit_meters">
+        <item quantity="zero">%d دقيقة</item>
+        <item quantity="one">دقيقة واحدة (%d)</item>
+        <item quantity="two">دقيقتان (%d)</item>
+        <item quantity="few">%d دقائق</item>
+        <item quantity="many">%d من الأمتار</item>
+        <item quantity="other">%d دقيقة</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="zero">%d ساعات</item>
+        <item quantity="one">عدد الساعات: %d</item>
+        <item quantity="two">عدد الساعات: %d</item>
+        <item quantity="few">عدد الساعات: %d</item>
+        <item quantity="many">عدد الساعات: %d</item>
+        <item quantity="other">%d ساعات</item>
+    </plurals>
+    <plurals name="hours_abbreviated">
+        <item quantity="zero">%d ساعة</item>
+        <item quantity="one">%d ساعة</item>
+        <item quantity="two">%d ساعتين</item>
+        <item quantity="few">%d ساعات</item>
+        <item quantity="many">%d ساعة</item>
+        <item quantity="other">%d ساعة</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="zero">%d ساعة</item>
+        <item quantity="one">%d ساعة</item>
+        <item quantity="two">%d ساعة</item>
+        <item quantity="few">%d ساعة</item>
+        <item quantity="many">%d ساعة</item>
+        <item quantity="other">%d ساعة</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated">
+        <item quantity="zero">منذ %d ساعة</item>
+        <item quantity="one">منذ %d ساعة</item>
+        <item quantity="two">منذ %d ساعتين</item>
+        <item quantity="few">منذ %d ساعات</item>
+        <item quantity="many">منذ %d ساعة</item>
+        <item quantity="other">منذ %d ساعة</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_camera_roll">
+        <item quantity="zero">منذ ⁦%1$d⁩ ساعة من ألبوم الكاميرا</item>
+        <item quantity="one">منذ ⁦%1$d⁩ ساعة من ألبوم الكاميرا</item>
+        <item quantity="two">منذ ⁦%1$d⁩ ساعتين من ألبوم الكاميرا</item>
+        <item quantity="few">منذ ⁦%1$d⁩ ساعات من ألبوم الكاميرا</item>
+        <item quantity="many">منذ ⁦%1$d⁩ ساعة من ألبوم الكاميرا</item>
+        <item quantity="other">منذ ⁦%1$d⁩ ساعة من ألبوم الكاميرا</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_chat">
+        <item quantity="zero">منذ ⁦%1$d⁩ ساعة من الدردشة</item>
+        <item quantity="one">منذ ⁦%1$d⁩ ساعة من الدردشة</item>
+        <item quantity="two">منذ ⁦%1$d⁩ ساعتين من الدردشة</item>
+        <item quantity="few">منذ ⁦%1$d⁩ ساعات من الدردشة</item>
+        <item quantity="many">منذ ⁦%1$d⁩ ساعة من الدردشة</item>
+        <item quantity="other">منذ ⁦%1$d⁩ ساعة من الدردشة</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_cheerios">
+        <item quantity="zero">منذ ⁦%1$d⁩ من الساعات من Pixy</item>
+        <item quantity="one">منذ ساعة واحدة (⁦%1$d⁩) من Pixy</item>
+        <item quantity="two">منذ ساعتين (⁦%1$d⁩) من Pixy</item>
+        <item quantity="few">منذ ⁦%1$d⁩ ساعات من Pixy</item>
+        <item quantity="many">منذ ⁦%1$d⁩ ساعة من Pixy</item>
+        <item quantity="other">منذ ⁦%1$d⁩ ساعة من Pixy</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_creative_kit">
+        <item quantity="zero">منذ ⁦%1$d⁩ ساعة من ⁦%2$s⁩</item>
+        <item quantity="one">منذ ⁦%1$d⁩ ساعة من ⁦%2$s⁩</item>
+        <item quantity="two">منذ ⁦%1$d⁩ ساعتين من ⁦%2$s⁩</item>
+        <item quantity="few">منذ ⁦%1$d⁩ ساعات من ⁦%2$s⁩</item>
+        <item quantity="many">منذ ⁦%1$d⁩ ساعة من ⁦%2$s⁩</item>
+        <item quantity="other">منذ ⁦%1$d⁩ ساعة من ⁦%2$s⁩</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_memories">
+        <item quantity="zero">منذ ⁦%1$d⁩ ساعة من الذكريات</item>
+        <item quantity="one">منذ ⁦%1$d⁩ ساعة من الذكريات</item>
+        <item quantity="two">منذ ⁦%1$d⁩ ساعتين من الذكريات</item>
+        <item quantity="few">منذ ⁦%1$d⁩ ساعات من الذكريات</item>
+        <item quantity="many">منذ ⁦%1$d⁩ ساعة من الذكريات</item>
+        <item quantity="other">منذ ⁦%1$d⁩ ساعة من الذكريات</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_spectacles">
+        <item quantity="zero">منذ ⁦%1$d⁩ ساعة من نظارة Spectacles</item>
+        <item quantity="one">منذ ⁦%1$d⁩ ساعة من نظارة Spectacles</item>
+        <item quantity="two">منذ ⁦%1$d⁩ ساعتين من نظارة Spectacles</item>
+        <item quantity="few">منذ ⁦%1$d⁩ ساعات من نظارة Spectacles</item>
+        <item quantity="many">منذ ⁦%1$d⁩ ساعة من نظارة Spectacles</item>
+        <item quantity="other">منذ ⁦%1$d⁩ ساعة من نظارة Spectacles</item>
+    </plurals>
+    <plurals name="hours_ago_update">
+        <item quantity="zero">تم التحديث منذ ⁦%1$s⁩ ساعة</item>
+        <item quantity="one">تم التحديث منذ ساعة واحدة (⁦%1$s⁩)</item>
+        <item quantity="two">تم التحديث منذ ساعتين (⁦%1$s⁩)</item>
+        <item quantity="few">تم التحديث منذ ⁦%1$s⁩ ساعات</item>
+        <item quantity="many">تم التحديث منذ ⁦%1$s⁩ ساعةً</item>
+        <item quantity="other">تم التحديث منذ ⁦%1$s⁩ ساعة</item>
+    </plurals>
+    <plurals name="last_seen_here_hours">
+        <item quantity="zero">آخر ظهور هنا منذ %d ساعة</item>
+        <item quantity="one">آخر ظهور هنا منذ ساعة واحدة (%d)</item>
+        <item quantity="two">آخر ظهور هنا منذ ساعتين (%d)</item>
+        <item quantity="few">آخر ظهور هنا منذ %d ساعات</item>
+        <item quantity="many">آخر ظهور هنا منذ %d ساعة</item>
+        <item quantity="other">آخر ظهور هنا منذ %d ساعة</item>
+    </plurals>
+    <plurals name="last_seen_here_minutes">
+        <item quantity="zero">آخر ظهور هنا منذ %d دقيقة</item>
+        <item quantity="one">آخر ظهور هنا منذ دقيقة واحدة (%d)</item>
+        <item quantity="two">آخر ظهور هنا منذ دقيقتين (%d)</item>
+        <item quantity="few">آخر ظهور هنا منذ %d دقائق</item>
+        <item quantity="many">آخر ظهور هنا منذ %d دقيقة</item>
+        <item quantity="other">آخر ظهور هنا منذ %d دقيقة</item>
+    </plurals>
+    <plurals name="live_location_chat_hours_remaining">
+        <item quantity="zero">عدد الساعات: %d</item>
+        <item quantity="one">عدد الساعات: %d</item>
+        <item quantity="two">عدد الساعات: %d</item>
+        <item quantity="few">عدد الساعات: %d</item>
+        <item quantity="many">عدد الساعات: %d</item>
+        <item quantity="other">عدد الساعات: %d</item>
+    </plurals>
+    <plurals name="live_location_description_existing_sessions">
+        <item quantity="zero">سوف تشارك موقعك المباشر مع الأصدقاء الموجودين حاليًا في هذه المجموعة. يستطيع %d صديق رؤية موقعك المباشر.</item>
+        <item quantity="one">سوف تشارك موقعك المباشر مع الأصدقاء الموجودين حاليًا في هذه المجموعة. يستطيع صديق (%d) رؤية موقعك المباشر.</item>
+        <item quantity="two">سوف تشارك موقعك المباشر مع الأصدقاء الموجودين حاليًا في هذه المجموعة. يستطيع صديقان (%d) رؤية موقعك المباشر.</item>
+        <item quantity="few">سوف تشارك موقعك المباشر مع الأصدقاء الموجودين حاليًا في هذه المجموعة. يستطيع %d أصدقاء رؤية موقعك المباشر.</item>
+        <item quantity="many">سوف تشارك موقعك المباشر مع الأصدقاء الموجودين حاليًا في هذه المجموعة. يستطيع %d صديقًا رؤية موقعك المباشر.</item>
+        <item quantity="other">سوف تشارك موقعك المباشر مع الأصدقاء الموجودين حاليًا في هذه المجموعة. يستطيع %d صديق رؤية موقعك المباشر.</item>
+    </plurals>
+    <plurals name="live_location_duration_hr">
+        <item quantity="zero">%d ساعة</item>
+        <item quantity="one">%d ساعة</item>
+        <item quantity="two">%d من الساعات</item>
+        <item quantity="few">%d من الساعات</item>
+        <item quantity="many">%d من الساعات</item>
+        <item quantity="other">%d ساعة</item>
+    </plurals>
+    <plurals name="live_location_duration_min">
+        <item quantity="zero">%d دقيقة</item>
+        <item quantity="one">%d دقيقة</item>
+        <item quantity="two">%d دقيقة</item>
+        <item quantity="few">%d دقائق</item>
+        <item quantity="many">%d دقيقة</item>
+        <item quantity="other">%d دقيقة</item>
+    </plurals>
+    <plurals name="live_location_share_group_description">
+        <item quantity="zero">سوف تشارك الموقع المباشر مع الأصدقاء الموجودين حاليًا في هذه المجموعة. لن يحصل %d عضو على موقعك لأنك لم تسجل كصديق معهم.</item>
+        <item quantity="one">سوف تشارك الموقع المباشر مع الأصدقاء الموجودين حاليًا في هذه المجموعة. لن يحصل عضو (%d) على موقعك لأنك لم تسجل كصديق معهم.</item>
+        <item quantity="two">سوف تشارك الموقع المباشر مع الأصدقاء الموجودين حاليًا في هذه المجموعة. لن يحصل عضوان (%d) على موقعك لأنك لم تسجل كصديق معهم.</item>
+        <item quantity="few">سوف تشارك الموقع المباشر مع الأصدقاء الموجودين حاليًا في هذه المجموعة. لن يحصل %d أعضاء على موقعك لأنك لم تسجل كصديق معهم.</item>
+        <item quantity="many">سوف تشارك الموقع المباشر مع الأصدقاء الموجودين حاليًا في هذه المجموعة. لن يحصل %d عضوًا على موقعك لأنك لم تسجل كصديق معهم.</item>
+        <item quantity="other">سوف تشارك الموقع المباشر مع الأصدقاء الموجودين حاليًا في هذه المجموعة. لن يحصل %d عضو على موقعك لأنك لم تسجل كصديق معهم.</item>
+    </plurals>
+    <plurals name="live_location_with_friends">
+        <item quantity="zero">مع %d صديق</item>
+        <item quantity="one">مع صديق (%d)</item>
+        <item quantity="two">مع صديقين (%d)</item>
+        <item quantity="few">مع %d أصدقاء</item>
+        <item quantity="many">مع %d صديقًا</item>
+        <item quantity="other">مع %d صديق</item>
+    </plurals>
+    <plurals name="location_upsell_description_specific_friends_more_than_four">
+        <item quantity="zero">⁦%1$s⁩ و⁦%2$s⁩ و⁦%3$s⁩ و⁦%4$d⁩ من أصدقائك على الخريطة!</item>
+        <item quantity="one">⁦%1$s⁩ و⁦%2$s⁩ و⁦%3$s⁩ و⁦%4$d⁩ من أصدقائك على الخريطة!</item>
+        <item quantity="two">⁦%1$s⁩ و⁦%2$s⁩ و⁦%3$s⁩ و⁦%4$d⁩ من أصدقائك على الخريطة!</item>
+        <item quantity="few">⁦%1$s⁩ و⁦%2$s⁩ و⁦%3$s⁩ و⁦%4$d⁩ من أصدقائك على الخريطة!</item>
+        <item quantity="many">⁦%1$s⁩ و⁦%2$s⁩ و⁦%3$s⁩ و⁦%4$d⁩ من أصدقائك على الخريطة!</item>
+        <item quantity="other">⁦%1$s⁩ و⁦%2$s⁩ و⁦%3$s⁩ و⁦%4$d⁩ من أصدقائك على الخريطة!</item>
+    </plurals>
+    <plurals name="locked_lens_friending_banner_countdown_timer_hours">
+        <item quantity="zero">⁦%1$d⁩ س</item>
+        <item quantity="one">⁦%1$d⁩ ساعة</item>
+        <item quantity="two">⁦%1$d⁩ ساعة</item>
+        <item quantity="few">⁦%1$d⁩ ساعة</item>
+        <item quantity="many">⁦%1$d⁩ ساعة</item>
+        <item quantity="other">⁦%1$d⁩ س</item>
+    </plurals>
+    <plurals name="locked_lens_friending_banner_countdown_timer_minutes">
+        <item quantity="zero">⁦%1$d⁩ د</item>
+        <item quantity="one">⁦%1$d⁩ دقيقة</item>
+        <item quantity="two">⁦%1$d⁩ دقيقة</item>
+        <item quantity="few">⁦%1$d⁩ دقيقة</item>
+        <item quantity="many">⁦%1$d⁩ دقيقة</item>
+        <item quantity="other">⁦%1$d⁩ د</item>
+    </plurals>
+    <plurals name="locked_lens_friending_banner_countdown_timer_seconds">
+        <item quantity="zero">⁦%1$d⁩ ث</item>
+        <item quantity="one">⁦%1$d⁩ ثانية</item>
+        <item quantity="two">⁦%1$d⁩ ثانية</item>
+        <item quantity="few">⁦%1$d⁩ ثانية</item>
+        <item quantity="many">⁦%1$d⁩ ثانية</item>
+        <item quantity="other">⁦%1$d⁩ ث</item>
+    </plurals>
+    <plurals name="map_group_card_subtext_friend_sharing">
+        <item quantity="zero">⁦%1$d⁩ أصدقاء يُشاركون موقعهم</item>
+        <item quantity="one">صديق ⁦%1$d⁩ يُشارك موقعه</item>
+        <item quantity="two">صديقان ⁦%1$d⁩ يُشاركان موقعهما</item>
+        <item quantity="few">⁦%1$d⁩ أصدقاء يُشاركون موقعهم</item>
+        <item quantity="many">⁦%1$d⁩ صديقًا يُشاركون موقعهم</item>
+        <item quantity="other">⁦%1$d⁩ صديق يُشاركون موقعهم</item>
+    </plurals>
+    <plurals name="map_passport_and_other">
+        <item quantity="zero">و%d آخرين</item>
+        <item quantity="one">و%d آخر</item>
+        <item quantity="two">و%d آخرين</item>
+        <item quantity="few">و%d آخرين</item>
+        <item quantity="many">و%d آخرين</item>
+        <item quantity="other">و%d آخرين</item>
+    </plurals>
+    <plurals name="map_passport_bucket_cities_title">
+        <item quantity="zero">المُدن</item>
+        <item quantity="one">المدينة</item>
+        <item quantity="two">المُدن</item>
+        <item quantity="few">المُدن</item>
+        <item quantity="many">المُدن</item>
+        <item quantity="other">المُدن</item>
+    </plurals>
+    <plurals name="map_passport_bucket_countries_title">
+        <item quantity="zero">البلدان</item>
+        <item quantity="one">البلد</item>
+        <item quantity="two">البلدان</item>
+        <item quantity="few">البلدان</item>
+        <item quantity="many">البلدان</item>
+        <item quantity="other">البلدان</item>
+    </plurals>
+    <plurals name="map_passport_bucket_places_title">
+        <item quantity="zero">الأماكن</item>
+        <item quantity="one">المكان</item>
+        <item quantity="two">الأماكن</item>
+        <item quantity="few">الأماكن</item>
+        <item quantity="many">الأماكن</item>
+        <item quantity="other">الأماكن</item>
+    </plurals>
+    <plurals name="map_widget_days_ago">
+        <item quantity="zero">%d يوم</item>
+        <item quantity="one">%d يومًا</item>
+        <item quantity="two">%d يومًا</item>
+        <item quantity="few">%d يومًا</item>
+        <item quantity="many">%d يومًا</item>
+        <item quantity="other">%d يوم</item>
+    </plurals>
+    <plurals name="media_export_service_batch_export_failure">
+        <item quantity="zero">تم تصدير ⁦%1$d⁩ من ⁦%2$d⁩ اللقطات. وتعذّر تصدير ⁦%3$d⁩ اللقطات.</item>
+        <item quantity="one">تم تصدير ⁦%1$d⁩ من ⁦%2$d⁩ اللقطات. وتعذّر تصدير لقطة واحدة (⁦%3$d⁩).</item>
+        <item quantity="two">تم تصدير ⁦%1$d⁩ من ⁦%2$d⁩ اللقطات. وتعذّر تصدير مقطعَي (⁦%3$d⁩) Snap.</item>
+        <item quantity="few">تم تصدير ⁦%1$d⁩ من ⁦%2$d⁩ اللقطات. وتعذّر تصدير ⁦%3$d⁩ اللقطات.</item>
+        <item quantity="many">تم تصدير ⁦%1$d⁩ من ⁦%2$d⁩ اللقطات. وتعذّر تصدير ⁦%3$d⁩ لقطة.</item>
+        <item quantity="other">تم تصدير ⁦%1$d⁩ من ⁦%2$d⁩ اللقطات. وتعذّر تصدير ⁦%3$d⁩ لقطة.</item>
+    </plurals>
+    <plurals name="media_export_service_processing">
+        <item quantity="zero">جارٍ تصدير ⁦%1$d⁩ من ⁦%2$d⁩ اللقطات…</item>
+        <item quantity="one">جارٍ تصدير لقطة…</item>
+        <item quantity="two">جارٍ تصدير ⁦%1$d⁩ من مقطعَي (⁦%2$d⁩) Snap…</item>
+        <item quantity="few">جارٍ تصدير ⁦%1$d⁩ من ⁦%2$d⁩ اللقطات …</item>
+        <item quantity="many">جارٍ تصدير ⁦%1$d⁩ من ⁦%2$d⁩ لقطة…</item>
+        <item quantity="other">جارٍ تصدير ⁦%1$d⁩ من ⁦%2$d⁩ لقطة…</item>
+    </plurals>
+    <plurals name="media_export_service_success">
+        <item quantity="zero">تم تصدير اللقطات.</item>
+        <item quantity="one">تم تصدير لقطة.</item>
+        <item quantity="two">تم تصدير مقطعَي Snap.</item>
+        <item quantity="few">تم تصدير اللقطات.</item>
+        <item quantity="many">تم تصدير اللقطات.</item>
+        <item quantity="other">تم تصدير اللقطات.</item>
+    </plurals>
+    <plurals name="memories_camera_select_limit_error">
+        <item quantity="zero">عذرًا، يمكن تحديد %d من العناصر فقط في كل مرة.</item>
+        <item quantity="one">عذرًا، يمكن تحديد عنصر واحد (%d) فقط في كل مرة.</item>
+        <item quantity="two">عذرًا، يمكن تحديد عنصرين (%d) فقط في كل مرة.</item>
+        <item quantity="few">عذرًا، يمكن تحديد %d عناصر فقط في كل مرة.</item>
+        <item quantity="many">عذرًا، يمكن تحديد %d عنصرًا فقط في كل مرة.</item>
+        <item quantity="other">عذرًا، يمكن تحديد %d عنصر فقط في كل مرة.</item>
+    </plurals>
+    <plurals name="memories_delete_camera_roll_image_body">
+        <item quantity="zero">ستُحذَف هذه الصور من جهازك</item>
+        <item quantity="one">ستُحذَف هذه الصورة من جهازك</item>
+        <item quantity="two">ستُحذَف هذه الصور من جهازك</item>
+        <item quantity="few">ستُحذَف هذه الصور من جهازك</item>
+        <item quantity="many">ستُحذَف هذه الصور من جهازك</item>
+        <item quantity="other">ستُحذَف هذه الصور من جهازك</item>
+    </plurals>
+    <plurals name="memories_delete_camera_roll_mixed_body">
+        <item quantity="zero">ستُحذَف هذه العناصر من جهازك</item>
+        <item quantity="one">ستُحذَف هذه العناصر من جهازك</item>
+        <item quantity="two">ستُحذَف هذه العناصر من جهازك</item>
+        <item quantity="few">ستُحذَف هذه العناصر من جهازك</item>
+        <item quantity="many">ستُحذَف هذه العناصر من جهازك</item>
+        <item quantity="other">ستُحذَف هذه العناصر من جهازك</item>
+    </plurals>
+    <plurals name="memories_delete_camera_roll_video_body">
+        <item quantity="zero">ستُحذَف هذه الفيديوهات من جهازك</item>
+        <item quantity="one">سيُحذَف هذا الفيديو من جهازك</item>
+        <item quantity="two">ستُحذَف هذه الفيديوهات من جهازك</item>
+        <item quantity="few">ستُحذَف هذه الفيديوهات من جهازك</item>
+        <item quantity="many">ستُحذَف هذه الفيديوهات من جهازك</item>
+        <item quantity="other">ستُحذَف هذه الفيديوهات من جهازك</item>
+    </plurals>
+    <plurals name="memories_delete_snap_body">
+        <item quantity="zero">حذف اللقطات؟</item>
+        <item quantity="one">حذف اللقطة؟</item>
+        <item quantity="two">حذف اللقطات؟</item>
+        <item quantity="few">حذف اللقطات؟</item>
+        <item quantity="many">حذف اللقطات؟</item>
+        <item quantity="other">حذف اللقطات؟</item>
+    </plurals>
+    <plurals name="memories_delete_story_body">
+        <item quantity="zero">حذف قصص؟</item>
+        <item quantity="one">حذف القصة؟</item>
+        <item quantity="two">حذف قصص؟</item>
+        <item quantity="few">حذف قصص؟</item>
+        <item quantity="many">حذف قصص؟</item>
+        <item quantity="other">حذف قصص؟</item>
+    </plurals>
+    <plurals name="memories_export_error">
+        <item quantity="zero">لا يمكنني تصدير اللقطات!</item>
+        <item quantity="one">لا يمكنني تصدير Snap!</item>
+        <item quantity="two">لا يمكنني تصدير اللقطات!</item>
+        <item quantity="few">لا يمكنني تصدير اللقطات!</item>
+        <item quantity="many">لا يمكنني تصدير اللقطات!</item>
+        <item quantity="other">لا يمكنني تصدير اللقطات!</item>
+    </plurals>
+    <plurals name="memories_favorite_snaps_story_added">
+        <item quantity="zero">تمت إضافة %d اللقطات إلى قصة العناصر المفضلة!</item>
+        <item quantity="one">تمت إضافة اللقطة إلى قصة العناصر المفضلة!</item>
+        <item quantity="two">تمت إضافة %d اللقطات إلى قصة العناصر المفضلة!</item>
+        <item quantity="few">تمت إضافة %d اللقطات إلى قصة العناصر المفضلة!</item>
+        <item quantity="many">تمت إضافة %d اللقطات إلى قصة العناصر المفضلة!</item>
+        <item quantity="other">تمت إضافة %d اللقطات إلى قصة العناصر المفضلة!</item>
+    </plurals>
+    <plurals name="memories_favorite_snaps_story_removed">
+        <item quantity="zero">تمت إزالة %d اللقطات من قصة العناصر المفضلة!</item>
+        <item quantity="one">تمت إزالة اللقطة من قصة العناصر المفضلة</item>
+        <item quantity="two">تمت إزالة %d اللقطات من قصة العناصر المفضلة!</item>
+        <item quantity="few">تمت إزالة %d اللقطات من قصة العناصر المفضلة!</item>
+        <item quantity="many">تمت إزالة %d اللقطات من قصة العناصر المفضلة!</item>
+        <item quantity="other">تمت إزالة %d اللقطات من قصة العناصر المفضلة!</item>
+    </plurals>
+    <plurals name="memories_featured_story_flashback_diff_date_subtext">
+        <item quantity="zero">منذ ⁦%1$d⁩ من الأعوام</item>
+        <item quantity="one">منذ عام واحد (⁦%1$d⁩)</item>
+        <item quantity="two">منذ ⁦%1$d⁩ من الأعوام</item>
+        <item quantity="few">منذ ⁦%1$d⁩ من الأعوام</item>
+        <item quantity="many">منذ ⁦%1$d⁩ من الأعوام</item>
+        <item quantity="other">قبل ⁦%1$d⁩ من الأعوام</item>
+    </plurals>
+    <plurals name="memories_featured_story_flashback_same_date_subtext">
+        <item quantity="zero">منذ⁦%1$d⁩ عام/أعوام، اليوم</item>
+        <item quantity="one">منذ⁦%1$d⁩ عام، اليوم</item>
+        <item quantity="two">منذ⁦%1$d⁩ عام/أعوام، اليوم</item>
+        <item quantity="few">منذ⁦%1$d⁩ عام/أعوام، اليوم</item>
+        <item quantity="many">منذ⁦%1$d⁩ عام/أعوام، اليوم</item>
+        <item quantity="other">منذ⁦%1$d⁩ عام/أعوام، اليوم</item>
+    </plurals>
+    <plurals name="memories_featured_story_trip_flashback_chat_prefill_snap">
+        <item quantity="zero">%1$s، منذ %2$d عام</item>
+        <item quantity="one">%1$s، منذ عام واحد (%2$d)</item>
+        <item quantity="two">%1$s، منذ %2$d عامين</item>
+        <item quantity="few">%1$s، منذ %2$d أعوام</item>
+        <item quantity="many">%1$s، منذ %2$d عامًا</item>
+        <item quantity="other">%1$s، منذ %2$d عام</item>
+    </plurals>
+    <plurals name="memories_featured_story_trip_flashback_chat_prefill_story">
+        <item quantity="zero">منذ ⁦%1$d⁩ عام</item>
+        <item quantity="one">منذ عام واحد (⁦%1$d⁩)</item>
+        <item quantity="two">منذ ⁦%1$d⁩ عامين</item>
+        <item quantity="few">منذ ⁦%1$d⁩ أعوام</item>
+        <item quantity="many">منذ ⁦%1$d⁩ عامًا</item>
+        <item quantity="other">منذ ⁦%1$d⁩ عام</item>
+    </plurals>
+    <plurals name="memories_hide_legacy_auto_saves">
+        <item quantity="zero">ستظل اللقطات المرتبطة بهذه القصة متوفرة في صفحة قصتي الجديدة. ولن تتأثر القصص التي أنشأتها أو عدّلتها.</item>
+        <item quantity="one">ستظل اللقطات المرتبطة بهذه القصة الواحدة متوفرة في صفحة قصتي. ولن تتأثر القصص التي أنشأتها أو عدّلتها.</item>
+        <item quantity="two">ستظل اللقطات المرتبطة بهاتان القصتان متوفرة في صفحة قصتي الجديدة. ولن تتأثر القصص التي أنشأتها أو عدّلتها.</item>
+        <item quantity="few">ستظل اللقطات المرتبطة بهذه القصص متوفرة في صفحة قصتي. ولن تتأثر القصص التي أنشأتها أو عدّلتها.</item>
+        <item quantity="many">ستظل اللقطات المرتبطة بهذه القصص متوفرة في صفحة قصتي الجديدة. ولن تتأثر القصص التي أنشأتها أو عدّلتها.</item>
+        <item quantity="other">ستظل اللقطات المرتبطة بهذه القصص متوفرة في صفحة قصتي الجديدة. ولن تتأثر القصص التي أنشأتها أو عدّلتها.</item>
+    </plurals>
+    <plurals name="memories_hide_legacy_auto_saves_title">
+        <item quantity="zero">هل تريد إزالة %d قصة قديمة تم حفظها تلقائيًا؟</item>
+        <item quantity="one">هل تريد إزالة قصة واحدة (%d) قديمة تم حفظها تلقائيًا؟</item>
+        <item quantity="two">هل تريد إزالة قصتان (%d) قديمتان تم حفظهما تلقائيًا؟</item>
+        <item quantity="few">هل تريد إزالة %d قصص قديمة تم حفظها تلقائيًا؟</item>
+        <item quantity="many">هل تريد إزالة %d قصةً قديمة تم حفظها تلقائيًا؟</item>
+        <item quantity="other">هل تريد إزالة %d قصة قديمة تم حفظها تلقائيًا؟</item>
+    </plurals>
+    <plurals name="memories_print_print_created">
+        <item quantity="zero">تم إنشاء %d من الطباعات ثلاثية الأبعاد</item>
+        <item quantity="one">تم إنشاء %d طباعة ثلاثية الأبعاد</item>
+        <item quantity="two">تم إنشاء %d من الطباعات ثلاثية الأبعاد</item>
+        <item quantity="few">تم إنشاء %d من الطباعات ثلاثية الأبعاد</item>
+        <item quantity="many">تم إنشاء %d من الطباعات ثلاثية الأبعاد</item>
+        <item quantity="other">تم إنشاء %d من الطباعات ثلاثية الأبعاد</item>
+    </plurals>
+    <plurals name="memories_print_processing">
+        <item quantity="zero">جارٍ معالجة %d من اللقطات للطباعة...</item>
+        <item quantity="one">جارٍ معالجة %d Snap للطباعة...</item>
+        <item quantity="two">جارٍ معالجة %d من اللقطات للطباعة...</item>
+        <item quantity="few">جارٍ معالجة %d من اللقطات للطباعة...</item>
+        <item quantity="many">جارٍ معالجة %d من اللقطات للطباعة...</item>
+        <item quantity="other">جارٍ معالجة %d من اللقطات للطباعة...</item>
+    </plurals>
+    <plurals name="memories_remove_older_stories_dialog_title">
+        <item quantity="zero">سيؤدي ذلك إلى إزالة %d القصص الأقدم التي تم حفظها تلقائيًا.</item>
+        <item quantity="one">سيؤدي ذلك إلى إزالة %d القصة الأقدم التي تم حفظها تلقائيًا.</item>
+        <item quantity="two">سيؤدي ذلك إلى إزالة %d القصص الأقدم التي تم حفظها تلقائيًا.</item>
+        <item quantity="few">سيؤدي ذلك إلى إزالة %d القصص الأقدم التي تم حفظها تلقائيًا.</item>
+        <item quantity="many">سيؤدي ذلك إلى إزالة %d القصص الأقدم التي تم حفظها تلقائيًا.</item>
+        <item quantity="other">سيؤدي ذلك إلى إزالة %d القصص الأقدم التي تم حفظها تلقائيًا.</item>
+    </plurals>
+    <plurals name="memories_select_limit_error">
+        <item quantity="zero">عذرًا، يمكن تحديد %d من اللقطات فقط في كل مرة.</item>
+        <item quantity="one">عذرًا، يمكن تحديد Snap واحدة (%d) فقط في كل مرة.</item>
+        <item quantity="two">عذرًا، يمكن تحديد %d من اللقطات فقط في كل مرة.</item>
+        <item quantity="few">عذرًا، يمكن تحديد %d اللقطات فقط في كل مرة.</item>
+        <item quantity="many">عذرًا، يمكن تحديد %d اللقطات فقط في كل مرة.</item>
+        <item quantity="other">عذرًا، يمكن تحديد %d اللقطات فقط في كل مرة.</item>
+    </plurals>
+    <plurals name="memories_status_transfer_complete_in_app_notification_text">
+        <item quantity="zero">%1$d اللقطات تم استيرادها من قبل %2$s</item>
+        <item quantity="one">%1$d استورد Snap من %2$s</item>
+        <item quantity="two">%1$d اللقطات تم استيرادها من قبل %2$s</item>
+        <item quantity="few">%1$d اللقطات تم استيرادها من قبل %2$s</item>
+        <item quantity="many">%1$d اللقطات تم استيرادها من قبل %2$s</item>
+        <item quantity="other">%1$d تم استيراد اللقطات من %2$s</item>
+    </plurals>
+    <plurals name="memories_status_transfer_complete_title">
+        <item quantity="zero">تم استيراد%d اللقطات!</item>
+        <item quantity="one">تم استيراد %d Snap!</item>
+        <item quantity="two">تم استيراد%d اللقطات!</item>
+        <item quantity="few">تم استيراد%d اللقطات!</item>
+        <item quantity="many">تم استيراد%d اللقطات!</item>
+        <item quantity="other">تم استيراد%d اللقطات!</item>
+    </plurals>
+    <plurals name="memories_status_transfer_from_device_complete_title">
+        <item quantity="zero">اللقطات جديدة من %s</item>
+        <item quantity="one">لقطة جديدة من %s</item>
+        <item quantity="two">اللقطات جديدة من %s</item>
+        <item quantity="few">اللقطات جديدة من %s</item>
+        <item quantity="many">اللقطات جديدة من %s</item>
+        <item quantity="other">اللقطات جديدة من %s</item>
+    </plurals>
+    <plurals name="memories_status_transferring_title">
+        <item quantity="zero">استيراد %1$d من %2$d اللقطات</item>
+        <item quantity="one">استيراد %1$d من Snap واحدة (%2$d)</item>
+        <item quantity="two">استيراد %1$d من %2$d من اللقطات</item>
+        <item quantity="few">استيراد %1$d من %2$d اللقطات</item>
+        <item quantity="many">استيراد %1$d من %2$d اللقطات</item>
+        <item quantity="other">استيراد %1$d من %2$d اللقطات</item>
+    </plurals>
+    <plurals name="memories_story_editor_add_snap_selected">
+        <item quantity="zero">تم تحديد %d</item>
+        <item quantity="one">تم تحديد %d</item>
+        <item quantity="two">تم تحديد %d</item>
+        <item quantity="few">تم تحديد %d</item>
+        <item quantity="many">تم تحديد %d</item>
+        <item quantity="other">تم تحديد %d</item>
+    </plurals>
+    <plurals name="minutes_abbreviated">
+        <item quantity="zero">%d دقيقة</item>
+        <item quantity="one">%d دقيقة</item>
+        <item quantity="two">%d دقيقتين</item>
+        <item quantity="few">%d دقائق</item>
+        <item quantity="many">%d دقيقة</item>
+        <item quantity="other">%d دقيقة</item>
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="zero">%d دقيقة</item>
+        <item quantity="one">%d دقيقة</item>
+        <item quantity="two">%d دقيقة</item>
+        <item quantity="few">%d دقيقة</item>
+        <item quantity="many">%d دقيقة</item>
+        <item quantity="other">%d دقيقة</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated">
+        <item quantity="zero">منذ %d دقيقة</item>
+        <item quantity="one">منذ %d دقيقة</item>
+        <item quantity="two">منذ %d دقيقتين</item>
+        <item quantity="few">منذ %d دقائق</item>
+        <item quantity="many">منذ %d دقيقة</item>
+        <item quantity="other">منذ %d دقيقة</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_camera_roll">
+        <item quantity="zero">منذ ⁦%1$d⁩ دقيقة من ألبوم الكاميرا</item>
+        <item quantity="one">منذ ⁦%1$d⁩ دقيقة من ألبوم الكاميرا</item>
+        <item quantity="two">منذ ⁦%1$d⁩ دقيقتين من ألبوم الكاميرا</item>
+        <item quantity="few">منذ ⁦%1$d⁩ دقائق من ألبوم الكاميرا</item>
+        <item quantity="many">منذ ⁦%1$d⁩ دقيقة من ألبوم الكاميرا</item>
+        <item quantity="other">منذ ⁦%1$d⁩ دقيقة من ألبوم الكاميرا</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_chat">
+        <item quantity="zero">منذ ⁦%1$d⁩ دقيقة من الدردشة</item>
+        <item quantity="one">منذ ⁦%1$d⁩ دقيقة من الدردشة</item>
+        <item quantity="two">منذ ⁦%1$d⁩ دقيقتين من الدردشة</item>
+        <item quantity="few">منذ ⁦%1$d⁩ دقائق من الدردشة</item>
+        <item quantity="many">منذ ⁦%1$d⁩ دقيقة من الدردشة</item>
+        <item quantity="other">منذ ⁦%1$d⁩ دقيقة من الدردشة</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_cheerios">
+        <item quantity="zero">منذ ⁦%1$d⁩ من الدقائق من Pixy</item>
+        <item quantity="one">منذ دقيقة واحدة (⁦%1$d⁩) من Pixy</item>
+        <item quantity="two">منذ دقيقتين (⁦%1$d⁩) من Pixy</item>
+        <item quantity="few">منذ ⁦%1$d⁩ دقائق من Pixy</item>
+        <item quantity="many">منذ ⁦%1$d⁩ دقيقة من Pixy</item>
+        <item quantity="other">منذ ⁦%1$d⁩ دقيقة من Pixy</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_creative_kit">
+        <item quantity="zero">منذ ⁦%1$d⁩ دقيقة من ⁦%2$s⁩</item>
+        <item quantity="one">منذ ⁦%1$d⁩ دقيقة من ⁦%2$s⁩</item>
+        <item quantity="two">منذ ⁦%1$d⁩ دقيقتين من ⁦%2$s⁩</item>
+        <item quantity="few">منذ ⁦%1$d⁩ دقائق من ⁦%2$s⁩</item>
+        <item quantity="many">منذ ⁦%1$d⁩ دقيقة من ⁦%2$s⁩</item>
+        <item quantity="other">منذ ⁦%1$d⁩ دقيقة من ⁦%2$s⁩</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_memories">
+        <item quantity="zero">منذ ⁦%1$d⁩ دقيقة من الذكريات</item>
+        <item quantity="one">منذ ⁦%1$d⁩ دقيقة من الذكريات</item>
+        <item quantity="two">منذ ⁦%1$d⁩ دقيقتين من الذكريات</item>
+        <item quantity="few">منذ ⁦%1$d⁩ دقائق من الذكريات</item>
+        <item quantity="many">منذ ⁦%1$d⁩ دقيقة من الذكريات</item>
+        <item quantity="other">منذ ⁦%1$d⁩ دقيقة من الذكريات</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_spectacles">
+        <item quantity="zero">منذ ⁦%1$d⁩ دقيقة من نظارة Spectacles</item>
+        <item quantity="one">منذ ⁦%1$d⁩ دقيقة من نظارة Spectacles</item>
+        <item quantity="two">منذ ⁦%1$d⁩ دقيقتين من نظارة Spectacles</item>
+        <item quantity="few">منذ ⁦%1$d⁩ دقائق من نظارة Spectacles</item>
+        <item quantity="many">منذ ⁦%1$d⁩ دقيقة من نظارة Spectacles</item>
+        <item quantity="other">منذ ⁦%1$d⁩ دقيقة من نظارة Spectacles</item>
+    </plurals>
+    <plurals name="minutes_ago_update">
+        <item quantity="zero">تم التحديث منذ ⁦%1$s⁩ دقيقة</item>
+        <item quantity="one">تم التحديث منذ دقيقة واحدة (⁦%1$s⁩)</item>
+        <item quantity="two">تم التحديث منذ دقيقتين (⁦%1$s⁩)</item>
+        <item quantity="few">تم التحديث منذ ⁦%1$s⁩ دقائق</item>
+        <item quantity="many">تم التحديث منذ ⁦%1$s⁩ دقيقةً</item>
+        <item quantity="other">تم التحديث منذ ⁦%1$s⁩ دقيقة</item>
+    </plurals>
+    <plurals name="months_abbreviated">
+        <item quantity="zero">%d شهر</item>
+        <item quantity="one">%d شهر</item>
+        <item quantity="two">%d شهران</item>
+        <item quantity="few">%d أشهر</item>
+        <item quantity="many">%d شهرًا</item>
+        <item quantity="other">%d شهر</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated">
+        <item quantity="zero">منذ %d شهر</item>
+        <item quantity="one">منذ %d شهر</item>
+        <item quantity="two">منذ %d شهرين</item>
+        <item quantity="few">منذ %d أشهر</item>
+        <item quantity="many">منذ %d شهرًا</item>
+        <item quantity="other">منذ %d شهر</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_camera_roll">
+        <item quantity="zero">منذ ⁦%1$d⁩ شهر من ألبوم الكاميرا</item>
+        <item quantity="one">منذ ⁦%1$d⁩ شهر من ألبوم الكاميرا</item>
+        <item quantity="two">منذ ⁦%1$d⁩ شهرين من ألبوم الكاميرا</item>
+        <item quantity="few">منذ ⁦%1$d⁩ أشهر من ألبوم الكاميرا</item>
+        <item quantity="many">منذ ⁦%1$d⁩ شهرًا من ألبوم الكاميرا</item>
+        <item quantity="other">منذ ⁦%1$d⁩ شهر من ألبوم الكاميرا</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_chat">
+        <item quantity="zero">منذ ⁦%1$d⁩ شهر من الدردشة</item>
+        <item quantity="one">منذ ⁦%1$d⁩ شهر من الدردشة</item>
+        <item quantity="two">منذ ⁦%1$d⁩ شهرين من الدردشة</item>
+        <item quantity="few">منذ ⁦%1$d⁩ أشهر من الدردشة</item>
+        <item quantity="many">منذ ⁦%1$d⁩ شهرًا من الدردشة</item>
+        <item quantity="other">منذ ⁦%1$d⁩ شهر من الدردشة</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_cheerios">
+        <item quantity="zero">منذ ⁦%1$d⁩ من الشهور من Pixy</item>
+        <item quantity="one">منذ شهر واحد (⁦%1$d⁩) من Pixy</item>
+        <item quantity="two">منذ شهرين (⁦%1$d⁩) من Pixy</item>
+        <item quantity="few">منذ ⁦%1$d⁩ شهور من Pixy</item>
+        <item quantity="many">منذ ⁦%1$d⁩ شهرًا من Pixy</item>
+        <item quantity="other">منذ ⁦%1$d⁩ شهر من Pixy</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_creative_kit">
+        <item quantity="zero">منذ ⁦%1$d⁩ شهر من ⁦%2$s⁩</item>
+        <item quantity="one">منذ ⁦%1$d⁩ شهر من ⁦%2$s⁩</item>
+        <item quantity="two">منذ ⁦%1$d⁩ شهرين من ⁦%2$s⁩</item>
+        <item quantity="few">منذ ⁦%1$d⁩ أشهر من ⁦%2$s⁩</item>
+        <item quantity="many">منذ ⁦%1$d⁩ شهرًا من ⁦%2$s⁩</item>
+        <item quantity="other">منذ ⁦%1$d⁩ شهر من ⁦%2$s⁩</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_memories">
+        <item quantity="zero">منذ ⁦%1$d⁩ شهر من الذكريات</item>
+        <item quantity="one">منذ ⁦%1$d⁩ شهر من الذكريات</item>
+        <item quantity="two">منذ ⁦%1$d⁩ شهرين من الذكريات</item>
+        <item quantity="few">منذ ⁦%1$d⁩ أشهر من الذكريات</item>
+        <item quantity="many">منذ ⁦%1$d⁩ شهرًا من الذكريات</item>
+        <item quantity="other">منذ ⁦%1$d⁩ شهر من الذكريات</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_spectacles">
+        <item quantity="zero">منذ ⁦%1$d⁩ شهر من نظارة Spectacles</item>
+        <item quantity="one">منذ ⁦%1$d⁩ شهر واحد من نظارة Spectacles</item>
+        <item quantity="two">منذ ⁦%1$d⁩ شهرين من نظارة Spectacles</item>
+        <item quantity="few">منذ ⁦%1$d⁩ أشهر من نظارة Spectacles</item>
+        <item quantity="many">منذ ⁦%1$d⁩ شهرًا من نظارة Spectacles</item>
+        <item quantity="other">منذ ⁦%1$d⁩ شهر من نظارة Spectacles</item>
+    </plurals>
+    <plurals name="months_ago_update">
+        <item quantity="zero">تم التحديث منذ ⁦%1$s⁩ شهر</item>
+        <item quantity="one">تم التحديث منذ شهر واحد (⁦%1$s⁩)</item>
+        <item quantity="two">تم التحديث منذ شهرين (⁦%1$s⁩)</item>
+        <item quantity="few">تم التحديث منذ ⁦%1$s⁩ شهور</item>
+        <item quantity="many">تم التحديث منذ ⁦%1$s⁩ شهرًا</item>
+        <item quantity="other">تم التحديث منذ ⁦%1$s⁩ شهر</item>
+    </plurals>
+    <plurals name="more_stories">
+        <item quantity="zero">%d من القصص الأخرى</item>
+        <item quantity="one">قصة واحدة أخرى</item>
+        <item quantity="two">قصتان (%d) أخريان</item>
+        <item quantity="few">%d قصص أخرى</item>
+        <item quantity="many">%d قصة أخرى</item>
+        <item quantity="other">%d قصة أخرى</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="zero">%d إشعار جديد</item>
+        <item quantity="one">إشعار جديد واحد (%d)</item>
+        <item quantity="two">إشعاران جديدان (%d)</item>
+        <item quantity="few">%d إشعارات جديدة</item>
+        <item quantity="many">%d إشعارًا جديدًا</item>
+        <item quantity="other">%d إشعار جديد</item>
+    </plurals>
+    <plurals name="muted_stories">
+        <item quantity="zero">%d قصة تم إلغاء إشعاراتها</item>
+        <item quantity="one">قصة واحدة تم إلغاء إشعاراتها</item>
+        <item quantity="two">قصتان (%d) تم إلغاء إشعاراتهما</item>
+        <item quantity="few">%d قصص تم إلغاء إشعاراتها</item>
+        <item quantity="many">%d قصة تم إلغاء إشعاراتها</item>
+        <item quantity="other">%d قصة تم إلغاء إشعاراتها</item>
+    </plurals>
+    <plurals name="new_registration_continue_with_n_friends">
+        <item quantity="zero">إضافة %d صديق</item>
+        <item quantity="one">إضافة صديق واحد</item>
+        <item quantity="two">إضافة صديقين (%d)</item>
+        <item quantity="few">إضافة %d أصدقاء</item>
+        <item quantity="many">إضافة %d صديقًا</item>
+        <item quantity="other">إضافة %d صديق</item>
+    </plurals>
+    <plurals name="num_hours">
+        <item quantity="zero">%d ساعة</item>
+        <item quantity="one">%d ساعة</item>
+        <item quantity="two">%d ساعتين</item>
+        <item quantity="few">%d ساعات</item>
+        <item quantity="many">%d ساعة</item>
+        <item quantity="other">%d ساعة</item>
+    </plurals>
+    <plurals name="num_minutes">
+        <item quantity="zero">%d دقيقة</item>
+        <item quantity="one">%d دقيقة</item>
+        <item quantity="two">%d دقيقتين</item>
+        <item quantity="few">%d دقائق</item>
+        <item quantity="many">%d دقيقة</item>
+        <item quantity="other">%d دقيقة</item>
+    </plurals>
+    <plurals name="nyc_audience_many_and_x_others">
+        <item quantity="zero">%1$s+⁦%2$d⁩ آخر</item>
+        <item quantity="one">%1$s+⁦%2$d⁩ آخر</item>
+        <item quantity="two">%1$s+⁦%2$d⁩ آخرين</item>
+        <item quantity="few">%1$s+⁦%2$d⁩ آخرين</item>
+        <item quantity="many">%1$s+⁦%2$d⁩ آخرين</item>
+        <item quantity="other">%1$s+⁦%2$d⁩ آخرين</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_ft">
+        <item quantity="zero">من الأقدام</item>
+        <item quantity="one">قدم واحد</item>
+        <item quantity="two">قدمان</item>
+        <item quantity="few">أقدام</item>
+        <item quantity="many">قدمًا</item>
+        <item quantity="other">قدم</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_km">
+        <item quantity="zero">كم</item>
+        <item quantity="one">كم</item>
+        <item quantity="two">كم</item>
+        <item quantity="few">كم</item>
+        <item quantity="many">كم</item>
+        <item quantity="other">كم</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_m">
+        <item quantity="zero">من الأمتار</item>
+        <item quantity="one">متر واحد</item>
+        <item quantity="two">متران</item>
+        <item quantity="few">أمتار</item>
+        <item quantity="many">مترًا</item>
+        <item quantity="other">متر</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_mile">
+        <item quantity="zero">من الأميال</item>
+        <item quantity="one">ميل واحد</item>
+        <item quantity="two">ميلان</item>
+        <item quantity="few">أميال</item>
+        <item quantity="many">ميلاً</item>
+        <item quantity="other">ميل</item>
+    </plurals>
+    <plurals name="nyc_friends_many_and_x_others">
+        <item quantity="zero">يشارك ⁦%1$s⁩ صديقًا و⁦%2$s⁩ صديق آخر الموقع المباشر معك بالفعل</item>
+        <item quantity="one">يشارك صديق واحد (⁦%1$s⁩) الموقع المباشر معك بالفعل</item>
+        <item quantity="two">يشارك ⁦%1$s⁩ صديقًا وصديقان آخران (⁦%2$s⁩) الموقع المباشر معك بالفعل</item>
+        <item quantity="few">يشارك ⁦%1$s⁩ صديقًا و⁦%2$s⁩ أصدقاء آخرين الموقع المباشر معك بالفعل</item>
+        <item quantity="many">يشارك ⁦%1$s⁩ صديقًا و⁦%2$s⁩ صديقًا آخر الموقع المباشر معك بالفعل</item>
+        <item quantity="other">يشارك ⁦%1$s⁩ صديقًا و⁦%2$s⁩ صديق آخر الموقع المباشر معك بالفعل</item>
+    </plurals>
+    <plurals name="nyc_sharing_live_location_with_friends">
+        <item quantity="zero">أنت تشارك موقعك المباشر مع ⁦%1$s⁩ من الأصدقاء. </item>
+        <item quantity="one">أنت تشارك موقعك المباشر مع ⁦%1$s⁩ من الأصدقاء. </item>
+        <item quantity="two">أنت تشارك موقعك المباشر مع ⁦%1$s⁩ من الأصدقاء. </item>
+        <item quantity="few">أنت تشارك موقعك المباشر مع ⁦%1$s⁩ من الأصدقاء. </item>
+        <item quantity="many">أنت تشارك موقعك المباشر مع ⁦%1$s⁩ من الأصدقاء. </item>
+        <item quantity="other">أنت تشارك موقعك المباشر مع ⁦%1$s⁩ من الأصدقاء. </item>
+    </plurals>
+    <plurals name="nyc_unhide_live_location_friend_dialog_title">
+        <item quantity="zero">أنت تخفي موقعك النشط عن ⁦%1$d⁩ صديق آخر.</item>
+        <item quantity="one">أنت تخفي موقعك النشط عن صديق واحد آخر.</item>
+        <item quantity="two">أنت تخفي موقعك النشط عن صديقين (⁦%1$d⁩) آخرين.</item>
+        <item quantity="few">أنت تخفي موقعك النشط عن ⁦%1$d⁩ صديقًا آخر.</item>
+        <item quantity="many">أنت تخفي موقعك النشط عن ⁦%1$d⁩ صديقًا آخر.</item>
+        <item quantity="other">أنت تخفي موقعك المباشر عن ⁦%1$d⁩ من الأصدقاء الآخرين.</item>
+    </plurals>
+    <plurals name="pairing_validation_description">
+        <item quantity="zero">يوجد %d من اللقطات على جهاز Pixy من المُستخدم الأخير. سيؤدي الاقتران بهذا الجهاز إلى إعادة ضبط الجهاز وحذف جميع اللقطات وبيانات المُستخدم.</item>
+        <item quantity="one">يوجد لقطة واحدة على جهاز Pixy من المُستخدم الأخير. سيؤدي الاقتران بهذا الجهاز إلى إعادة ضبط الجهاز وحذف جميع اللقطات وبيانات المُستخدم.</item>
+        <item quantity="two">يوجد مقطعا Snap (%d) على جهاز Pixy من المُستخدم الأخير. سيؤدي الاقتران بهذا الجهاز إلى إعادة ضبط الجهاز وحذف جميع اللقطات وبيانات المُستخدم.</item>
+        <item quantity="few">يوجد %d اللقطات على جهاز Pixy من المُستخدم الأخير. سيؤدي الاقتران بهذا الجهاز إلى إعادة ضبط الجهاز وحذف جميع اللقطات وبيانات المُستخدم.</item>
+        <item quantity="many">يوجد %d مقطعًا من اللقطات على جهاز Pixy من المُستخدم الأخير. سيؤدي الاقتران بهذا الجهاز إلى إعادة ضبط الجهاز وحذف جميع اللقطات وبيانات المُستخدم.</item>
+        <item quantity="other">يوجد %d مقطع من اللقطات على جهاز Pixy من المُستخدم الأخير. سيؤدي الاقتران بهذا الجهاز إلى إعادة ضبط الجهاز وحذف جميع اللقطات وبيانات المُستخدم.</item>
+    </plurals>
+    <plurals name="payments_num_purchased_items">
+        <item quantity="zero">%d عنصر/عناصر</item>
+        <item quantity="one">1 عنصر</item>
+        <item quantity="two">%d العناصر</item>
+        <item quantity="few">%d العناصر</item>
+        <item quantity="many">%d العناصر</item>
+        <item quantity="other">%d عنصر/عناصر</item>
+    </plurals>
+    <plurals name="pending_syncs_logout_warning">
+        <item quantity="zero">⁦%1$d⁩ اللقطات لم يتم عمل نسخة احتياطية منها في &quot;الذكريات&quot; حتى الآن. إذا قمت بتسجيل الخروج الآن، فقد تفقد هذه اللقطات.</item>
+        <item quantity="one">لم يتم عمل نسخة احتياطية من Snap واحد في الذكريات بعد. إذا قمت بتسجيل الخروج الآن، فقد تفقد هذا Snap.</item>
+        <item quantity="two">⁦%1$d⁩ اللقطات لم يتم عمل نسخة احتياطية منها في &quot;الذكريات&quot; حتى الآن. إذا قمت بتسجيل الخروج الآن، فقد تفقد هذه اللقطات.</item>
+        <item quantity="few">⁦%1$d⁩ اللقطات لم يتم عمل نسخة احتياطية منها في &quot;الذكريات&quot; حتى الآن. إذا قمت بتسجيل الخروج الآن، فقد تفقد هذه اللقطات.</item>
+        <item quantity="many">⁦%1$d⁩ اللقطات لم يتم عمل نسخة احتياطية منها في &quot;الذكريات&quot; حتى الآن. إذا قمت بتسجيل الخروج الآن، فقد تفقد هذه اللقطات.</item>
+        <item quantity="other">⁦%1$d⁩ اللقطات لم يتم عمل نسخة احتياطية منها في &quot;الذكريات&quot; حتى الآن. إذا قمت بتسجيل الخروج الآن، فقد تفقد هذه اللقطات.</item>
+    </plurals>
+    <plurals name="perception_lens_collection_scan_card_lenses_count">
+        <item quantity="zero">%d عدسة</item>
+        <item quantity="one">%d عدسة Lens</item>
+        <item quantity="two">%d عدستان</item>
+        <item quantity="few">%d عدسات</item>
+        <item quantity="many">%d عدسة</item>
+        <item quantity="other">%d عدسة</item>
+    </plurals>
+    <plurals name="perception_lenses_scan_card_try_lenses">
+        <item quantity="zero">تجربة عدسات Lens (%d)</item>
+        <item quantity="one">تجربة عدسة Lens</item>
+        <item quantity="two">تجربة عدسات Lens (%d)</item>
+        <item quantity="few">تجربة عدسات Lens (%d)</item>
+        <item quantity="many">تجربة عدسات Lens (%d)</item>
+        <item quantity="other">تجربة عدسات Lens (%d)</item>
+    </plurals>
+    <plurals name="play_with_max_player_alert_text">
+        <item quantity="zero">تسمح اللعبة بـ %1$d من اللاعبين</item>
+        <item quantity="one">تسمح اللعبة بلاعب واحد%1$d</item>
+        <item quantity="two">تسمح اللعبة بلاعبين اثنين%1$d</item>
+        <item quantity="few">تسمح اللعبة بـ %1$d لاعبين</item>
+        <item quantity="many">تسمح اللعبة بـ %1$d لاعبًا</item>
+        <item quantity="other">تسمح اللعبة بـ %1$d لاعبًا</item>
+    </plurals>
+    <plurals name="post_pairing_import_title">
+        <item quantity="zero">%d لقطة جديدة</item>
+        <item quantity="one">لقطة (%d) جديدة</item>
+        <item quantity="two">مقطعا Snap (%d) جديدان</item>
+        <item quantity="few">%d لقطات جديدة</item>
+        <item quantity="many">%d لقطة جديدة</item>
+        <item quantity="other">%d لقطة جديدة</item>
+    </plurals>
+    <plurals name="registration_continue_with_n_friends">
+        <item quantity="zero">+ إضافة %d صديقًا</item>
+        <item quantity="one">+ إضافة صديق واحد</item>
+        <item quantity="two">+ إضافة صديقين (%d)</item>
+        <item quantity="few">+ إضافة %d صديقًا</item>
+        <item quantity="many">+ إضافة %d صديقًا</item>
+        <item quantity="other">+ إضافة %d صديقًا</item>
+    </plurals>
+    <plurals name="save_button_tooltip_saved_multiple">
+        <item quantity="zero">تم حفظ ⁦%1$d⁩ من اللقطات!</item>
+        <item quantity="one">تم حفظ ⁦%1$d⁩ Snap!</item>
+        <item quantity="two">تم حفظ ⁦%1$d⁩ من اللقطات!</item>
+        <item quantity="few">تم حفظ ⁦%1$d⁩ من اللقطات!</item>
+        <item quantity="many">تم حفظ ⁦%1$d⁩ من اللقطات!</item>
+        <item quantity="other">تم حفظ ⁦%1$d⁩ من اللقطات!</item>
+    </plurals>
+    <plurals name="saved_media_gallery_attribution_media_count">
+        <item quantity="zero">%s اللقطات</item>
+        <item quantity="one">%s Snap</item>
+        <item quantity="two">%s من اللقطات</item>
+        <item quantity="few">%s اللقطات</item>
+        <item quantity="many">%s اللقطات</item>
+        <item quantity="other">%s اللقطات</item>
+    </plurals>
+    <plurals name="seconds_abbreviated">
+        <item quantity="zero">%d ثانية</item>
+        <item quantity="one">%d ثانية</item>
+        <item quantity="two">%d ثانيتين</item>
+        <item quantity="few">%d ثوانٍ</item>
+        <item quantity="many">%d ثانية</item>
+        <item quantity="other">%d ثانية</item>
+    </plurals>
+    <plurals name="seconds_ago">
+        <item quantity="zero">%d ثانية</item>
+        <item quantity="one">%d ثانية</item>
+        <item quantity="two">%d ثانية</item>
+        <item quantity="few">%d ثانية</item>
+        <item quantity="many">%d ثانية</item>
+        <item quantity="other">%d ثانية</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated">
+        <item quantity="zero">منذ %d ثانية</item>
+        <item quantity="one">منذ %d ثانية</item>
+        <item quantity="two">منذ %d ثانيتين</item>
+        <item quantity="few">منذ %d ثوانٍ</item>
+        <item quantity="many">منذ %d ثانية</item>
+        <item quantity="other">منذ %d ثانية</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_camera_roll">
+        <item quantity="zero">منذ ⁦%1$d⁩ ثانية من ألبوم الكاميرا</item>
+        <item quantity="one">منذ ⁦%1$d⁩ ثانية من ألبوم الكاميرا</item>
+        <item quantity="two">منذ ⁦%1$d⁩ ثانيتين من ألبوم الكاميرا</item>
+        <item quantity="few">منذ ⁦%1$d⁩ ثوانٍ من ألبوم الكاميرا</item>
+        <item quantity="many">منذ ⁦%1$d⁩ ثانية من ألبوم الكاميرا</item>
+        <item quantity="other">منذ ⁦%1$d⁩ ثانية من ألبوم الكاميرا</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_chat">
+        <item quantity="zero">منذ ⁦%1$d⁩ ثانية من الدردشة</item>
+        <item quantity="one">منذ ⁦%1$d⁩ ثانية من الدردشة</item>
+        <item quantity="two">منذ ⁦%1$d⁩ ثانيتين من الدردشة</item>
+        <item quantity="few">منذ ⁦%1$d⁩ ثوانٍ من الدردشة</item>
+        <item quantity="many">منذ ⁦%1$d⁩ ثانية من الدردشة</item>
+        <item quantity="other">منذ ⁦%1$d⁩ ثانية من الدردشة</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_cheerios">
+        <item quantity="zero">منذ ⁦%1$d⁩ من الثواني من Pixy</item>
+        <item quantity="one">منذ ثانية واحدة (⁦%1$d⁩) من Pixy</item>
+        <item quantity="two">منذ ثانيتين (⁦%1$d⁩) من Pixy</item>
+        <item quantity="few">منذ ⁦%1$d⁩ ثوانٍ من Pixy</item>
+        <item quantity="many">منذ ⁦%1$d⁩ ثانية من Pixy</item>
+        <item quantity="other">منذ ⁦%1$d⁩ ثانية من Pixy</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_creative_kit">
+        <item quantity="zero">منذ ⁦%1$d⁩ ثانية من ⁦%2$s⁩</item>
+        <item quantity="one">منذ ⁦%1$d⁩ ثانية من ⁦%2$s⁩</item>
+        <item quantity="two">منذ ⁦%1$d⁩ ثانيتين من ⁦%2$s⁩</item>
+        <item quantity="few">منذ ⁦%1$d⁩ ثوانٍ من ⁦%2$s⁩</item>
+        <item quantity="many">منذ ⁦%1$d⁩ ثانية من ⁦%2$s⁩</item>
+        <item quantity="other">منذ ⁦%1$d⁩ ثانية من ⁦%2$s⁩</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_memories">
+        <item quantity="zero">منذ ⁦%1$d⁩ ثانية من الذكريات</item>
+        <item quantity="one">منذ ⁦%1$d⁩ ثانية من الذكريات</item>
+        <item quantity="two">منذ ⁦%1$d⁩ ثانيتين من الذكريات</item>
+        <item quantity="few">منذ ⁦%1$d⁩ ثوانٍ من الذكريات</item>
+        <item quantity="many">منذ ⁦%1$d⁩ ثانية من الذكريات</item>
+        <item quantity="other">منذ ⁦%1$d⁩ ثانية من الذكريات</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_spectacles">
+        <item quantity="zero">منذ ⁦%1$d⁩ ثانية من نظارة Spectacles</item>
+        <item quantity="one">منذ ⁦%1$d⁩ ثانية من نظارة Spectacles</item>
+        <item quantity="two">منذ ⁦%1$d⁩ ثانيتين من نظارة Spectacles</item>
+        <item quantity="few">منذ ⁦%1$d⁩ ثوانٍ من نظارة Spectacles</item>
+        <item quantity="many">منذ ⁦%1$d⁩ ثانية من نظارة Spectacles</item>
+        <item quantity="other">منذ ⁦%1$d⁩ ثانية من نظارة Spectacles</item>
+    </plurals>
+    <plurals name="seconds_ago_update">
+        <item quantity="zero">تم التحديث منذ ⁦%1$s⁩ ثانية</item>
+        <item quantity="one">تم التحديث منذ ثانية واحدة (⁦%1$s⁩)</item>
+        <item quantity="two">تم التحديث منذ ثانيتين (⁦%1$s⁩)</item>
+        <item quantity="few">تم التحديث منذ ⁦%1$s⁩ ثوانٍ</item>
+        <item quantity="many">تم التحديث منذ ⁦%1$s⁩ ثانيةً</item>
+        <item quantity="other">تم التحديث منذ ⁦%1$s⁩ ثانية</item>
+    </plurals>
+    <plurals name="select_friend_friend">
+        <item quantity="zero">⁦%1$d⁩ من الأصدقاء</item>
+        <item quantity="one">صديق واحد</item>
+        <item quantity="two">صديقان (⁦%1$d⁩)</item>
+        <item quantity="few">⁦%1$d⁩ أصدقاء</item>
+        <item quantity="many">⁦%1$d⁩ صديق</item>
+        <item quantity="other">⁦%1$d⁩ صديق</item>
+    </plurals>
+    <plurals name="select_friend_other">
+        <item quantity="zero">⁦%1$s⁩ و⁦%2$d⁩ آخرين</item>
+        <item quantity="one">⁦%1$s⁩ و1 آخر</item>
+        <item quantity="two">⁦%1$s⁩ و⁦%2$d⁩ آخرين</item>
+        <item quantity="few">⁦%1$s⁩ و⁦%2$d⁩ آخرين</item>
+        <item quantity="many">⁦%1$s⁩ و⁦%2$d⁩ آخرين</item>
+        <item quantity="other">⁦%1$s⁩ و⁦%2$d⁩ آخرين</item>
+    </plurals>
+    <plurals name="settings_birthday_update_years_old">
+        <item quantity="zero">عمري %d عام.</item>
+        <item quantity="one">عمري %d عام واحد.</item>
+        <item quantity="two">عمري %d عامان.</item>
+        <item quantity="few">عمري %d أعوام.</item>
+        <item quantity="many">عمري %d عامًا.</item>
+        <item quantity="other">عمري %d عام.</item>
+    </plurals>
+    <plurals name="snap_timer_selection_units">
+        <item quantity="zero">ثانية</item>
+        <item quantity="one">ثانية</item>
+        <item quantity="two">ثانيتان</item>
+        <item quantity="few">ثوان</item>
+        <item quantity="many">ثانية</item>
+        <item quantity="other">ثانية</item>
+    </plurals>
+    <plurals name="snaps_count">
+        <item quantity="zero">⁦%1$d⁩ اللقطات</item>
+        <item quantity="one">⁦%1$d⁩ لقطة</item>
+        <item quantity="two">⁦%1$d⁩ اللقطات</item>
+        <item quantity="few">⁦%1$d⁩ اللقطات</item>
+        <item quantity="many">⁦%1$d⁩ اللقطات</item>
+        <item quantity="other">⁦%1$d⁩ اللقطات</item>
+    </plurals>
+    <plurals name="spectacles_export_customization_description">
+        <item quantity="zero">كيف تود تصدير اللقطات؟</item>
+        <item quantity="one">كيف تود تصدير Snap؟</item>
+        <item quantity="two">كيف تود تصدير اللقطات؟</item>
+        <item quantity="few">كيف تود تصدير اللقطات؟</item>
+        <item quantity="many">كيف تود تصدير اللقطات؟</item>
+        <item quantity="other">كيف تود تصدير اللقطات؟</item>
+    </plurals>
+    <plurals name="spotlight_comments_count_notification_title">
+        <item quantity="zero">%d من التعليقات مُعلّقة في منصّة الأضواء!</item>
+        <item quantity="one">تعليق واحد مُعلّق في منصّة الأضواء!</item>
+        <item quantity="two">%d من التعليقات مُعلّقة في منصّة الأضواء!</item>
+        <item quantity="few">%d من التعليقات معلقة في منصّة الأضواء!</item>
+        <item quantity="many">%d من التعليقات معلقة في منصّة الأضواء!</item>
+        <item quantity="other">%d من التعليقات مُعلّقة في منصّة الأضواء!</item>
+    </plurals>
+    <plurals name="status_views">
+        <item quantity="zero">%d مشاهدة</item>
+        <item quantity="one">%d مشاهدة</item>
+        <item quantity="two">%d مشاهدة</item>
+        <item quantity="few">%d مشاهدات</item>
+        <item quantity="many">%d مشاهدة</item>
+        <item quantity="other">%d مشاهدة</item>
+    </plurals>
+    <plurals name="still_sharing_last_active_location_description">
+        <item quantity="zero">تم إخفاء موقعك المباشر، لكن ما زال بإمكان ⁦%1$s⁩ صديق رؤية آخر موقع ظهرت فيه.\n\n يمكنك تغيير هذا في إعدادات الخريطة.</item>
+        <item quantity="one">تم إخفاء موقعك المباشر، لكن ما زال بإمكان صديق (⁦%1$s⁩) رؤية آخر موقع ظهرت فيه.\n\n يمكنك تغيير هذا في إعدادات الخريطة.</item>
+        <item quantity="two">تم إخفاء موقعك المباشر، لكن ما زال بإمكان صديقين (⁦%1$s⁩) رؤية آخر موقع ظهرت فيه.\n\n يمكنك تغيير هذا في إعدادات الخريطة.</item>
+        <item quantity="few">تم إخفاء موقعك المباشر، لكن ما زال بإمكان ⁦%1$s⁩ أصدقاء رؤية آخر موقع ظهرت فيه.\n\n يمكنك تغيير هذا في إعدادات الخريطة.</item>
+        <item quantity="many">تم إخفاء موقعك المباشر، لكن ما زال بإمكان ⁦%1$s⁩ صديقًا رؤية آخر موقع ظهرت فيه.\n\n يمكنك تغيير هذا في إعدادات الخريطة.</item>
+        <item quantity="other">تم إخفاء موقعك المباشر، لكن ما زال بإمكان ⁦%1$s⁩ صديق رؤية آخر موقع ظهرت فيه.\n\n يمكنك تغيير هذا في إعدادات الخريطة.</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_change_audience">
+        <item quantity="zero">لقد حفظت إعدادات موقعك، ولكن ⁦%1$s⁩ صديق ما زال بإمكانه رؤية موقعك المباشر. لإيقاف المشاركة، المس &quot;إيقاف&quot; بجانب اسمه.</item>
+        <item quantity="one">لقد حفظت إعدادات موقعك، ولكن ⁦%1$s⁩ صديق ما زال بإمكانه رؤية موقعك المباشر. لإيقاف المشاركة، المس &quot;إيقاف&quot; بجانب اسمه.</item>
+        <item quantity="two">لقد حفظت إعدادات موقعك، ولكن ⁦%1$s⁩ صديق ما زال بإمكانهما رؤية موقعك المباشر. لإيقاف المشاركة، المس &quot;إيقاف&quot; بجانب اسم كل منهما.</item>
+        <item quantity="few">لقد حفظت إعدادات موقعك، ولكن ⁦%1$s⁩ أصدقاء ما زال بإمكانهم رؤية موقعك المباشر. لإيقاف المشاركة، المس &quot;إيقاف&quot; بجانب اسم كل منهم.</item>
+        <item quantity="many">لقد حفظت إعدادات موقعك، ولكن ⁦%1$s⁩ صديقًا ما زال بإمكانه رؤية موقعك المباشر. لإيقاف المشاركة، المس &quot;إيقاف&quot; بجانب اسم كل منهم.</item>
+        <item quantity="other">لقد حفظت إعدادات موقعك، ولكن ⁦%1$s⁩ صديق ما زال بإمكانه رؤية موقعك المباشر. لإيقاف المشاركة، المس &quot;إيقاف&quot; بجانب اسم كل منهم.</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_enter_ghost_mode">
+        <item quantity="zero">أنت في وضع الشبح ولكن ⁦%1$s⁩ صديق ما زال بإمكانه رؤية موقعك المباشر. لإيقاف المشاركة، المس &quot;إيقاف&quot; بجانب اسمه.</item>
+        <item quantity="one">أنت في وضع الشبح ولكن ⁦%1$s⁩ صديق ما زال بإمكانه رؤية موقعك المباشر. لإيقاف المشاركة، المس &quot;إيقاف&quot; بجانب اسمه.</item>
+        <item quantity="two">أنت في وضع الشبح ولكن ⁦%1$s⁩ صديق ما زال بإمكانهما رؤية موقعك المباشر. لإيقاف المشاركة، المس &quot;إيقاف&quot; بجانب اسم كل منهما.</item>
+        <item quantity="few">أنت في وضع الشبح ولكن ⁦%1$s⁩ أصدقاء ما زال بإمكانهم رؤية موقعك المباشر. لإيقاف المشاركة، المس &quot;إيقاف&quot; بجانب اسم كل منهم.</item>
+        <item quantity="many">أنت في وضع الشبح ولكن ⁦%1$s⁩ صديقًا ما زال بإمكانه رؤية موقعك المباشر. لإيقاف المشاركة، المس &quot;إيقاف&quot; بجانب اسم كل منهم.</item>
+        <item quantity="other">أنت في وضع الشبح ولكن ⁦%1$s⁩ صديق ما زال بإمكانه رؤية موقعك المباشر. لإيقاف المشاركة، المس &quot;إيقاف&quot; بجانب اسم كل منهم.</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_enter_ghost_mode_ghost_trail">
+        <item quantity="zero">أنت الآن في وضع الشبح، لكنّ ما يزال بإمكان ⁦%1$s⁩ من الأصدقاء رؤية موقعك المباشر. لإيقاف المشاركة، المس &quot;إيقاف&quot; بجانب اسم كل منهم. \n\nلن تُضاف المواقع إلى أثر الشبح الخاص بك عندما تكون في وضع الشبح.</item>
+        <item quantity="one">أنت الآن في وضع الشبح، لكنّ ما يزال بإمكان ⁦%1$s⁩ من الأصدقاء رؤية موقعك المباشر. لإيقاف المشاركة، المس &quot;إيقاف&quot; بجانب الاسم. \n\nلن تُضاف المواقع إلى أثر الشبح الخاص بك عندما تكون في وضع الشبح.</item>
+        <item quantity="two">أنت الآن في وضع الشبح، لكنّ ما يزال بإمكان ⁦%1$s⁩ من الأصدقاء رؤية موقعك المباشر. لإيقاف المشاركة، المس &quot;إيقاف&quot; بجانب اسم كل منهما. \n\nلن تُضاف المواقع إلى أثر الشبح الخاص بك عندما تكون في وضع الشبح.</item>
+        <item quantity="few">أنت الآن في وضع الشبح، لكنّ ما يزال بإمكان ⁦%1$s⁩ من الأصدقاء رؤية موقعك المباشر. لإيقاف المشاركة، المس &quot;إيقاف&quot; بجانب اسم كل منهم. \n\nلن تُضاف المواقع إلى أثر الشبح الخاص بك عندما تكون في وضع الشبح.</item>
+        <item quantity="many">أنت الآن في وضع الشبح، لكنّ ما يزال بإمكان ⁦%1$s⁩ من الأصدقاء رؤية موقعك المباشر. لإيقاف المشاركة، المس &quot;إيقاف&quot; بجانب اسم كل منهم. \n\nلن تُضاف المواقع إلى أثر الشبح الخاص بك عندما تكون في وضع الشبح.</item>
+        <item quantity="other">أنت الآن في وضع الشبح، لكنّ لا يزال بإمكان ⁦%1$s⁩ من الأصدقاء رؤية موقعك المباشر. لإيقاف المشاركة، المس &quot;إيقاف&quot; بجانب اسم كل منهم. \n\nلن تُضاف المواقع إلى أثر الشبح الخاص بك عندما تكون في وضع الشبح.</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_enter_ghost_mode_hide_live_location">
+        <item quantity="zero">أنت في وضع الشبح ولكن ما زال بإمكان ⁦%1$s⁩ صديق رؤية موقعك المباشر. لإيقاف المشاركة، المس &quot;إخفاء موقعي المباشر&quot; أدناه.</item>
+        <item quantity="one">أنت في وضع الشبح ولكن ما زال بإمكان صديق (⁦%1$s⁩) رؤية موقعك المباشر. لإيقاف المشاركة، المس &quot;إخفاء موقعي المباشر&quot; أدناه.</item>
+        <item quantity="two">أنت في وضع الشبح ولكن ما زال بإمكان صديقين (⁦%1$s⁩) رؤية موقعك المباشر. لإيقاف المشاركة، المس &quot;إخفاء موقعي المباشر&quot; أدناه.</item>
+        <item quantity="few">أنت في وضع الشبح ولكن ما زال بإمكان ⁦%1$s⁩ أصدقاء رؤية موقعك المباشر. لإيقاف المشاركة، المس &quot;إخفاء موقعي المباشر&quot; أدناه.</item>
+        <item quantity="many">أنت في وضع الشبح ولكن ما زال بإمكان ⁦%1$s⁩ صديقًا رؤية موقعك المباشر. لإيقاف المشاركة، المس &quot;إخفاء موقعي المباشر&quot; أدناه.</item>
+        <item quantity="other">أنت في وضع الشبح ولكن ما زال بإمكان ⁦%1$s⁩ صديق رؤية موقعك المباشر. لإيقاف المشاركة، المس &quot;إخفاء موقعي المباشر&quot; أدناه.</item>
+    </plurals>
+    <plurals name="story_friend_story_notification_title_update">
+        <item quantity="zero">أضاف %d صديق إلى قصته</item>
+        <item quantity="one">أضاف %d صديق واحد إلى قصته</item>
+        <item quantity="two">أضاف %d صديقان إلى قصتهما</item>
+        <item quantity="few">أضاف %d أصدقاء إلى قصتهم</item>
+        <item quantity="many">أضاف %d صديقًا إلى قصتهم</item>
+        <item quantity="other">أضاف %d صديق إلى قصتهم</item>
+    </plurals>
+    <plurals name="story_fullscreen_footer_view_count">
+        <item quantity="zero">%d من المشاهدات</item>
+        <item quantity="one">%d مشاهدة</item>
+        <item quantity="two">%d مشاهدة</item>
+        <item quantity="few">%d مشاهدة</item>
+        <item quantity="many">%d مشاهدة</item>
+        <item quantity="other">%d مشاهدات</item>
+    </plurals>
+    <plurals name="story_management_viewer_list_more_viewers">
+        <item quantity="zero">+ ⁦%1$d⁩ آخر</item>
+        <item quantity="one">+ ⁦%1$d⁩ آخر</item>
+        <item quantity="two">+ ⁦%1$d⁩ آخران</item>
+        <item quantity="few">+ ⁦%1$d⁩ آخرين</item>
+        <item quantity="many">+ ⁦%1$d⁩ آخرين</item>
+        <item quantity="other">+ ⁦%1$d⁩ آخرين</item>
+    </plurals>
+    <plurals name="story_mob_subtext_more">
+        <item quantity="zero">⁦%1$s⁩ و⁦%2$d⁩ آخر…</item>
+        <item quantity="one">⁦%1$s⁩ و⁦%2$d⁩ آخر…</item>
+        <item quantity="two">⁦%1$s⁩ و⁦%2$d⁩ آخران…</item>
+        <item quantity="few">⁦%1$s⁩ و⁦%2$d⁩ آخرين…</item>
+        <item quantity="many">⁦%1$s⁩ و⁦%2$d⁩ آخرين…</item>
+        <item quantity="other">⁦%1$s⁩ و⁦%2$d⁩ آخرين…</item>
+    </plurals>
+    <plurals name="story_profile_communities_members">
+        <item quantity="zero">تم التحقق من عدد %d من ملفات الأعضاء</item>
+        <item quantity="one">تم التحقق من عدد %d من ملفات الأعضاء</item>
+        <item quantity="two">تم التحقق من عدد %d من ملفات الأعضاء</item>
+        <item quantity="few">تم التحقق من عدد %d من ملفات الأعضاء</item>
+        <item quantity="many">تم التحقق من عدد %d من ملفات الأعضاء</item>
+        <item quantity="other">تم التحقق من عدد %d من ملفات الأعضاء</item>
+    </plurals>
+    <plurals name="story_profile_shared_stories_members">
+        <item quantity="zero">%d عضو</item>
+        <item quantity="one">عضو واحد (%d)</item>
+        <item quantity="two">عضوان (%d)</item>
+        <item quantity="few">%d أعضاء</item>
+        <item quantity="many">%d عضوًا</item>
+        <item quantity="other">%d عضو</item>
+    </plurals>
+    <plurals name="story_profile_stories_adding">
+        <item quantity="zero">إضافة %d اللقطات…</item>
+        <item quantity="one">إضافة %d Snap…</item>
+        <item quantity="two">إضافة %d اللقطات…</item>
+        <item quantity="few">إضافة %d اللقطات…</item>
+        <item quantity="many">إضافة %d اللقطات…</item>
+        <item quantity="other">إضافة %d اللقطات…</item>
+    </plurals>
+    <plurals name="story_profile_stories_failed_to_add">
+        <item quantity="zero">فشل إضافة %d اللقطات</item>
+        <item quantity="one">فشل إضافة %d لقطة</item>
+        <item quantity="two">فشل إضافة %d اللقطات</item>
+        <item quantity="few">فشل إضافة %d اللقطات</item>
+        <item quantity="many">فشل إضافة %d اللقطات</item>
+        <item quantity="other">فشل إضافة %d اللقطات</item>
+    </plurals>
+    <plurals name="story_profile_stories_waiting_to_add">
+        <item quantity="zero">بانتظار إضافة %d اللقطات...</item>
+        <item quantity="one">بانتظار إضافة %d لقطة...</item>
+        <item quantity="two">بانتظار إضافة %d اللقطات...</item>
+        <item quantity="few">بانتظار إضافة %d اللقطات...</item>
+        <item quantity="many">بانتظار إضافة %d اللقطات...</item>
+        <item quantity="other">بانتظار إضافة %d اللقطات...</item>
+    </plurals>
+    <plurals name="story_settings_action_menu_my_story_blocked_number_of_people">
+        <item quantity="zero">%d شخص</item>
+        <item quantity="one">شخص واحد</item>
+        <item quantity="two">%d شخصان</item>
+        <item quantity="few">%d أشخاص</item>
+        <item quantity="many">%d شخصًا</item>
+        <item quantity="other">%d شخص</item>
+    </plurals>
+    <plurals name="streak_restore_dialog_subtitle_free_restore">
+        <item quantity="zero">لديك ⁦%1$d⁩ من مرات الاستعادة المجانية.</item>
+        <item quantity="one">لديك ⁦%1$d⁩ من مرات الاستعادة المجانية.</item>
+        <item quantity="two">لديك مرتا (⁦%1$d⁩) استعادة مجانية.</item>
+        <item quantity="few">لديك ⁦%1$d⁩ مرات استعادة مجانية.</item>
+        <item quantity="many">لديك ⁦%1$d⁩ من مرات الاستعادة المجانية.</item>
+        <item quantity="other">لديك ⁦%1$d⁩ من مرات الاستعادة المجانية.</item>
+    </plurals>
+    <plurals name="streak_restore_dialog_subtitle_hours">
+        <item quantity="zero">مُتبقٍّ لديك ⁦%2$d⁩ ساعة لاستعادة سلسلة اللقطات المتتالية باستخدام ⁦%1$s⁩ قبل أن تختفي إلى الأبد!</item>
+        <item quantity="one">مُتبقٍّ لديك ⁦%2$d⁩ ساعة لاستعادة سلسلة اللقطات المتتالية باستخدام ⁦%1$s⁩ قبل أن تختفي إلى الأبد!</item>
+        <item quantity="two">مُتبقٍّ لديك ⁦%2$d⁩ ساعتين لاستعادة سلسلة اللقطات المتتالية باستخدام ⁦%1$s⁩ قبل أن تختفي إلى الأبد!</item>
+        <item quantity="few">مُتبقٍّ لديك ⁦%2$d⁩ ساعات لاستعادة سلسلة اللقطات المتتالية باستخدام ⁦%1$s⁩ قبل أن تختفي إلى الأبد!</item>
+        <item quantity="many">مُتبقٍّ لديك ⁦%2$d⁩ ساعة لاستعادة سلسلة اللقطات المتتالية باستخدام ⁦%1$s⁩ قبل أن تختفي إلى الأبد!</item>
+        <item quantity="other">مُتبقٍّ لديك ⁦%2$d⁩ ساعة لاستعادة سلسلة اللقطات المتتالية باستخدام ⁦%1$s⁩ قبل أن تختفي إلى الأبد!</item>
+    </plurals>
+    <plurals name="streak_restore_dialog_subtitle_minutes">
+        <item quantity="zero">مُتبقٍّ لديك ⁦%2$d⁩ دقيقة لاستعادة سلسلة اللقطات المتتالية باستخدام ⁦%1$s⁩ قبل أن تختفي إلى الأبد!</item>
+        <item quantity="one">مُتبقٍّ لديك ⁦%2$d⁩ دقيقة لاستعادة سلسلة اللقطات المتتالية باستخدام ⁦%1$s⁩ قبل أن تختفي إلى الأبد!</item>
+        <item quantity="two">مُتبقٍّ لديك ⁦%2$d⁩ دقيقتين لاستعادة سلسلة اللقطات المتتالية باستخدام ⁦%1$s⁩ قبل أن تختفي إلى الأبد!</item>
+        <item quantity="few">مُتبقٍّ لديك ⁦%2$d⁩ دقائق لاستعادة سلسلة اللقطات المتتالية باستخدام ⁦%1$s⁩ قبل أن تختفي إلى الأبد!</item>
+        <item quantity="many">مُتبقٍّ لديك ⁦%2$d⁩ دقيقة لاستعادة سلسلة اللقطات المتتالية باستخدام ⁦%1$s⁩ قبل أن تختفي إلى الأبد!</item>
+        <item quantity="other">مُتبقٍّ لديك ⁦%2$d⁩ دقيقة لاستعادة سلسلة اللقطات المتتالية باستخدام ⁦%1$s⁩ قبل أن تختفي إلى الأبد!</item>
+    </plurals>
+    <plurals name="subtitle_sharing_custom_friends">
+        <item quantity="zero">مع %d صديق</item>
+        <item quantity="one">مع %d صديق</item>
+        <item quantity="two">مع %d صديق</item>
+        <item quantity="few">مع %d أصدقاء</item>
+        <item quantity="many">مع %d صديق</item>
+        <item quantity="other">مع %d صديق</item>
+    </plurals>
+    <plurals name="takeover_request_index_and_total">
+        <item quantity="zero">⁦%1$d⁩ من ⁦%2$d⁩ إضافة أصدقاء جُدُد</item>
+        <item quantity="one">⁦%1$d⁩ من إضافة واحدة (⁦%2$d⁩) لأصدقاء جُدُد</item>
+        <item quantity="two">⁦%1$d⁩ من إضافتين (⁦%2$d⁩) لأصدقاء جُدُد</item>
+        <item quantity="few">⁦%1$d⁩ من ⁦%2$d⁩ إضافات لأصدقاء جُدُد</item>
+        <item quantity="many">⁦%1$d⁩ من ⁦%2$d⁩ إضافةً لأصدقاء جُدُد</item>
+        <item quantity="other">⁦%1$d⁩ من ⁦%2$d⁩ إضافة لأصدقاء جُدُد</item>
+    </plurals>
+    <plurals name="ticketmaster_events_label">
+        <item quantity="zero">حدث</item>
+        <item quantity="one">حدث واحد</item>
+        <item quantity="two">حدثان</item>
+        <item quantity="few">أحداث</item>
+        <item quantity="many">حدثًا</item>
+        <item quantity="other">حدث</item>
+    </plurals>
+    <plurals name="watched_stories">
+        <item quantity="zero">%d قصة تمت مشاهدتها</item>
+        <item quantity="one">قصة واحدة تمت مشاهدتها</item>
+        <item quantity="two">قصتان (%d) تمت مشاهدتهما</item>
+        <item quantity="few">%d قصص تمت مشاهدتها</item>
+        <item quantity="many">%d قصة تمت مشاهدتها</item>
+        <item quantity="other">%d قصة تمت مشاهدتها</item>
+    </plurals>
+    <plurals name="weeks">
+        <item quantity="zero">%d أسابيع</item>
+        <item quantity="one">%d أسبوع</item>
+        <item quantity="two">%d أسابيع</item>
+        <item quantity="few">%d أسابيع</item>
+        <item quantity="many">%d أسابيع</item>
+        <item quantity="other">%d أسابيع</item>
+    </plurals>
+    <plurals name="weeks_abbreviated">
+        <item quantity="zero">%d أسابيع</item>
+        <item quantity="one">%d أسابيع</item>
+        <item quantity="two">%d أسابيع</item>
+        <item quantity="few">%dأسابيع</item>
+        <item quantity="many">%dأسابيع</item>
+        <item quantity="other">%dأسابيع</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated">
+        <item quantity="zero">منذ %d من الأسابيع</item>
+        <item quantity="one">منذ %d أسبوع</item>
+        <item quantity="two">منذ %d أسبوعين</item>
+        <item quantity="few">منذ %d أسابيع</item>
+        <item quantity="many">منذ %d أسبوعًا</item>
+        <item quantity="other">منذ %d أسبوع</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_camera_roll">
+        <item quantity="zero">منذ ⁦%1$d⁩ أسبوع من ألبوم الكاميرا</item>
+        <item quantity="one">منذ ⁦%1$d⁩ أسبوع من ألبوم الكاميرا</item>
+        <item quantity="two">منذ ⁦%1$d⁩ أسبوعين من ألبوم الكاميرا</item>
+        <item quantity="few">منذ ⁦%1$d⁩ أسابيع من ألبوم الكاميرا</item>
+        <item quantity="many">منذ ⁦%1$d⁩ أسبوعًا من ألبوم الكاميرا</item>
+        <item quantity="other">منذ ⁦%1$d⁩ أسبوع من ألبوم الكاميرا</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_chat">
+        <item quantity="zero">منذ ⁦%1$d⁩ أسبوع من الدردشة</item>
+        <item quantity="one">منذ ⁦%1$d⁩ أسبوع من الدردشة</item>
+        <item quantity="two">منذ ⁦%1$d⁩ أسبوعين من الدردشة</item>
+        <item quantity="few">منذ ⁦%1$d⁩ أسابيع من الدردشة</item>
+        <item quantity="many">منذ ⁦%1$d⁩ أسبوعًا من الدردشة</item>
+        <item quantity="other">منذ ⁦%1$d⁩ أسبوع من الدردشة</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_cheerios">
+        <item quantity="zero">منذ ⁦%1$d⁩ من الأسابيع من Pixy</item>
+        <item quantity="one">منذ أسبوع واحد (⁦%1$d⁩) من Pixy</item>
+        <item quantity="two">منذ أسبوعين (⁦%1$d⁩) من Pixy</item>
+        <item quantity="few">منذ ⁦%1$d⁩ أسابيع من Pixy</item>
+        <item quantity="many">منذ ⁦%1$d⁩ أسبوعًا من Pixy</item>
+        <item quantity="other">منذ ⁦%1$d⁩ أسبوع من Pixy</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_creative_kit">
+        <item quantity="zero">منذ ⁦%1$d⁩ أسبوع من ⁦%2$s⁩</item>
+        <item quantity="one">منذ ⁦%1$d⁩ أسبوع من ⁦%2$s⁩</item>
+        <item quantity="two">منذ ⁦%1$d⁩ أسبوعين من ⁦%2$s⁩</item>
+        <item quantity="few">منذ ⁦%1$d⁩ أسابيع من ⁦%2$s⁩</item>
+        <item quantity="many">منذ ⁦%1$d⁩ أسبوعًا من ⁦%2$s⁩</item>
+        <item quantity="other">منذ ⁦%1$d⁩ أسبوع من ⁦%2$s⁩</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_memories">
+        <item quantity="zero">منذ ⁦%1$d⁩ أسبوع من الذكريات</item>
+        <item quantity="one">منذ ⁦%1$d⁩ أسبوع من الذكريات</item>
+        <item quantity="two">منذ ⁦%1$d⁩ أسبوعين من الذكريات</item>
+        <item quantity="few">منذ ⁦%1$d⁩ أسابيع من الذكريات</item>
+        <item quantity="many">منذ ⁦%1$d⁩ أسبوعًا من الذكريات</item>
+        <item quantity="other">منذ ⁦%1$d⁩ أسبوع من الذكريات</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_spectacles">
+        <item quantity="zero">منذ ⁦%1$d⁩ أسبوع من نظارة Spectacles</item>
+        <item quantity="one">منذ ⁦%1$d⁩ أسبوع من نظارة Spectacles</item>
+        <item quantity="two">منذ ⁦%1$d⁩ أسبوعين من نظارة Spectacles</item>
+        <item quantity="few">منذ ⁦%1$d⁩ أسابيع من نظارة Spectacles</item>
+        <item quantity="many">منذ ⁦%1$d⁩ أسبوعًا من نظارة Spectacles</item>
+        <item quantity="other">منذ ⁦%1$d⁩ أسبوع من نظارة Spectacles</item>
+    </plurals>
+    <plurals name="weeks_ago_update">
+        <item quantity="zero">تم التحديث منذ ⁦%1$s⁩ أسابيع</item>
+        <item quantity="one">تم التحديث منذ أسبوع واحد (⁦%1$s⁩)</item>
+        <item quantity="two">تم التحديث منذ ⁦%1$s⁩ أسابيع</item>
+        <item quantity="few">تم التحديث منذ ⁦%1$s⁩ أسابيع</item>
+        <item quantity="many">تم التحديث منذ ⁦%1$s⁩ أسابيع</item>
+        <item quantity="other">تم التحديث منذ ⁦%1$s⁩ أسابيع</item>
+    </plurals>
+    <plurals name="years_abbreviated">
+        <item quantity="zero">%dسنة</item>
+        <item quantity="one">%d سنة</item>
+        <item quantity="two">%d سنتان</item>
+        <item quantity="few">%d سنوات</item>
+        <item quantity="many">%d سنة</item>
+        <item quantity="other">%d سنة</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated">
+        <item quantity="zero">منذ %d سنة</item>
+        <item quantity="one">منذ %d سنة</item>
+        <item quantity="two">منذ %d سنتين</item>
+        <item quantity="few">منذ %d سنوات</item>
+        <item quantity="many">منذ %d سنة</item>
+        <item quantity="other">منذ %d سنة</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_camera_roll">
+        <item quantity="zero">منذ ⁦%1$d⁩ سنة من ألبوم الكاميرا</item>
+        <item quantity="one">منذ ⁦%1$d⁩ سنة من ألبوم الكاميرا</item>
+        <item quantity="two">منذ ⁦%1$d⁩ سنتين من ألبوم الكاميرا</item>
+        <item quantity="few">منذ ⁦%1$d⁩ سنوات من ألبوم الكاميرا</item>
+        <item quantity="many">منذ ⁦%1$d⁩ سنة من ألبوم الكاميرا</item>
+        <item quantity="other">منذ ⁦%1$d⁩ سنة من ألبوم الكاميرا</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_chat">
+        <item quantity="zero">منذ ⁦%1$d⁩ سنة من الدردشة</item>
+        <item quantity="one">منذ ⁦%1$d⁩ سنة من الدردشة</item>
+        <item quantity="two">منذ ⁦%1$d⁩ سنتين من الدردشة</item>
+        <item quantity="few">منذ ⁦%1$d⁩ سنوات من الدردشة</item>
+        <item quantity="many">منذ ⁦%1$d⁩ سنة من الدردشة</item>
+        <item quantity="other">منذ ⁦%1$d⁩ سنة من الدردشة</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_cheerios">
+        <item quantity="zero">منذ ⁦%1$d⁩ من السنوات من Pixy</item>
+        <item quantity="one">منذ سنة واحدة (⁦%1$d⁩) من Pixy</item>
+        <item quantity="two">منذ سنتين (⁦%1$d⁩) من Pixy</item>
+        <item quantity="few">منذ ⁦%1$d⁩ سنوات من Pixy</item>
+        <item quantity="many">منذ ⁦%1$d⁩ سنة من Pixy</item>
+        <item quantity="other">منذ ⁦%1$d⁩ سنة من Pixy</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_creative_kit">
+        <item quantity="zero">منذ ⁦%1$d⁩ سنة من ⁦%2$s⁩</item>
+        <item quantity="one">منذ ⁦%1$d⁩ سنة من ⁦%2$s⁩</item>
+        <item quantity="two">منذ ⁦%1$d⁩ سنتين من ⁦%2$s⁩</item>
+        <item quantity="few">منذ ⁦%1$d⁩ سنوات من ⁦%2$s⁩</item>
+        <item quantity="many">منذ ⁦%1$d⁩ سنة من ⁦%2$s⁩</item>
+        <item quantity="other">منذ ⁦%1$d⁩ سنة من ⁦%2$s⁩</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_memories">
+        <item quantity="zero">منذ ⁦%1$d⁩ سنة من الذكريات</item>
+        <item quantity="one">منذ ⁦%1$d⁩ سنة من الذكريات</item>
+        <item quantity="two">منذ ⁦%1$d⁩ سنتين من الذكريات</item>
+        <item quantity="few">منذ ⁦%1$d⁩ سنوات من الذكريات</item>
+        <item quantity="many">منذ ⁦%1$d⁩ سنة من الذكريات</item>
+        <item quantity="other">منذ ⁦%1$d⁩ سنة من الذكريات</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_spectacles">
+        <item quantity="zero">منذ ⁦%1$d⁩ سنة من نظارة Spectacles</item>
+        <item quantity="one">منذ ⁦%1$d⁩ سنة من نظارة Spectacles</item>
+        <item quantity="two">منذ ⁦%1$d⁩ سنتين من نظارة Spectacles</item>
+        <item quantity="few">منذ ⁦%1$d⁩ سنوات من نظارة Spectacles</item>
+        <item quantity="many">منذ ⁦%1$d⁩ سنة من نظارة Spectacles</item>
+        <item quantity="other">منذ ⁦%1$d⁩ سنة من نظارة Spectacles</item>
+    </plurals>
+    <plurals name="years_ago_update">
+        <item quantity="zero">تم التحديث منذ ⁦%1$s⁩ سنة</item>
+        <item quantity="one">تم التحديث منذ سنة واحدة (⁦%1$s⁩)</item>
+        <item quantity="two">تم التحديث منذ سنتين (⁦%1$s⁩)</item>
+        <item quantity="few">تم التحديث منذ ⁦%1$s⁩ سنوات</item>
+        <item quantity="many">تم التحديث منذ ⁦%1$s⁩ سنةً</item>
+        <item quantity="other">تم التحديث منذ ⁦%1$s⁩ سنة</item>
+    </plurals>
+</resources>

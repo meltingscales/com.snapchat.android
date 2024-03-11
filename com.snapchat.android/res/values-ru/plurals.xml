@@ -1,0 +1,1575 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="action_menu_camera_select">
+        <item quantity="other">Выбрано %d объекта</item>
+        <item quantity="one">Выбран %d объект</item>
+        <item quantity="few">Выбрано %d объекта</item>
+        <item quantity="many">Выбрано %d объектов</item>
+    </plurals>
+    <plurals name="action_menu_hide_long">
+        <item quantity="other">Скрыть Snap (личное)</item>
+        <item quantity="one">@string/memories_opera_action_menu_hide</item>
+        <item quantity="few">Скрыть Snap (личное)</item>
+        <item quantity="many">Скрыть Snap (личное)</item>
+    </plurals>
+    <plurals name="action_menu_mute_for_hours">
+        <item quantity="other">На %d часа</item>
+        <item quantity="one">На %d час</item>
+        <item quantity="few">На %d часа</item>
+        <item quantity="many">На %d часов</item>
+    </plurals>
+    <plurals name="action_menu_snap_select">
+        <item quantity="other">Выбрано %d Snap</item>
+        <item quantity="one">Выбран %d Snap</item>
+        <item quantity="few">Выбрано %d Snap</item>
+        <item quantity="many">Выбрано %d Snap</item>
+    </plurals>
+    <plurals name="action_menu_unhide_long">
+        <item quantity="other">Вернуть Snap</item>
+        <item quantity="one">@string/memories_opera_action_menu_unhide</item>
+        <item quantity="few">Вернуть Snap</item>
+        <item quantity="many">Вернуть Snap</item>
+    </plurals>
+    <plurals name="active_indicator_explainer_active_hour">
+        <item quantity="other">последние %d часа</item>
+        <item quantity="one">последний %d час</item>
+        <item quantity="few">последние %d часа</item>
+        <item quantity="many">последние %d часов</item>
+    </plurals>
+    <plurals name="activity_indicator_explainer_active_friend_count">
+        <item quantity="other">%d друга были активны</item>
+        <item quantity="one">%d друг был активен</item>
+        <item quantity="few">%d друга были активны</item>
+        <item quantity="many">%d друзей были активны</item>
+    </plurals>
+    <plurals name="add_friend_badge_request_tips">
+        <item quantity="other">Добавления в друзья: %1$s</item>
+        <item quantity="one">%1$s добавление в друзья</item>
+        <item quantity="few">Добавления в друзья: %1$s</item>
+        <item quantity="many">Добавления в друзья: %1$s</item>
+    </plurals>
+    <plurals name="add_friend_badge_suggestion_tips">
+        <item quantity="other">Новые предложения дружбы: %1$s</item>
+        <item quantity="one">%1$s новое предложение дружбы</item>
+        <item quantity="few">Новые предложения дружбы: %1$s</item>
+        <item quantity="many">Новые предложения дружбы: %1$s</item>
+    </plurals>
+    <plurals name="add_friends_button_subtext">
+        <item quantity="other">Вас добавили %1$s снапчаттеров!</item>
+        <item quantity="one">Вас добавил %1$s снапчаттер!</item>
+        <item quantity="few">Вас добавили %1$s снапчаттера!</item>
+        <item quantity="many">Вас добавили %1$s снапчаттеров!</item>
+    </plurals>
+    <plurals name="add_friends_button_suggestion_subtext">
+        <item quantity="other">%1$s предложений дружбы!</item>
+        <item quantity="one">%1$s предложение дружбы!</item>
+        <item quantity="few">%1$s предложения дружбы!</item>
+        <item quantity="many">%1$s предложений дружбы!</item>
+    </plurals>
+    <plurals name="batch_capture_save_as_x_snaps">
+        <item quantity="other">Сохранить как %1$d Snap</item>
+        <item quantity="one">Сохранить как %1$d Snap</item>
+        <item quantity="few">Сохранить как %1$d Snap</item>
+        <item quantity="many">Сохранить как %1$d Snap</item>
+    </plurals>
+    <plurals name="bottom_button_text">
+        <item quantity="other">+ Добавить %d друга</item>
+        <item quantity="one">+ Добавить %d друга</item>
+        <item quantity="few">+ Добавить %d друзей</item>
+        <item quantity="many">+ Добавить %d друзей</item>
+    </plurals>
+    <plurals name="camera_mode_batch_capture_limit_reached_description_with_count">
+        <item quantity="other">В мульти-Snap может быть не больше %1$d Snap!</item>
+        <item quantity="one">В мульти-Snap может быть не больше %1$d Snap!</item>
+        <item quantity="few">В мульти-Snap может быть не больше %1$d Snap!</item>
+        <item quantity="many">В мульти-Snap может быть не больше %1$d Snap!</item>
+    </plurals>
+    <plurals name="camera_mode_disable_batch_capture_description">
+        <item quantity="other">Вы уверены, что хотите отключить мульти-Snap? %1$d несохранённых Snap будут потеряны.</item>
+        <item quantity="one">Вы уверены, что хотите отключить мульти-Snap? Несохранённый Snap будет потерян.</item>
+        <item quantity="few">Вы уверены, что хотите отключить мульти-Snap? %1$d несохранённый Snap будет потерян.</item>
+        <item quantity="many">Вы уверены, что хотите отключить мульти-Snap? %1$d несохранённых Snap будут потеряны.</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_image_sharer_you_not">
+        <item quantity="other">%1$s И %2$s СОХРАНИЛИ %3$d ФОТО ОТ %4$s</item>
+        <item quantity="one">%1$s И %2$s СОХРАНИЛИ ФОТО ОТ %4$s</item>
+        <item quantity="few">%1$s И %2$s СОХРАНИЛИ %3$d ФОТО ОТ %4$s</item>
+        <item quantity="many">%1$s И %2$s СОХРАНИЛИ %3$d ФОТО ОТ %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_image_sharer_you_yes">
+        <item quantity="other">%1$s И %2$s СОХРАНИЛИ %3$d ВАШИХ ФОТО</item>
+        <item quantity="one">%1$s И %2$s СОХРАНИЛИ ВАШЕ ФОТО</item>
+        <item quantity="few">%1$s И %2$s СОХРАНИЛИ %3$d ВАШИХ ФОТО</item>
+        <item quantity="many">%1$s И %2$s СОХРАНИЛИ %3$d ВАШИХ ФОТО</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_item_sharer_you_not">
+        <item quantity="other">%1$s И %2$s СОХРАНИЛИ ОБЪЕКТЫ (%3$d) ОТ %4$s</item>
+        <item quantity="one">%1$s И %2$s СОХРАНИЛИ ОБЪЕКТ ОТ %4$s</item>
+        <item quantity="few">%1$s И %2$s СОХРАНИЛИ %3$d ОБЪЕКТА ОТ %4$s</item>
+        <item quantity="many">%1$s И %2$s СОХРАНИЛИ %3$d ОБЪЕКТОВ ОТ %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_item_sharer_you_yes">
+        <item quantity="other">%1$s И %2$s СОХРАНИЛИ ВАШИ ОБЪЕКТЫ (%3$d)</item>
+        <item quantity="one">%1$s И %2$s СОХРАНИЛИ ВАШ ОБЪЕКТ</item>
+        <item quantity="few">%1$s И %2$s СОХРАНИЛИ ВАШИ ОБЪЕКТЫ (%3$d)</item>
+        <item quantity="many">%1$s И %2$s СОХРАНИЛИ ВАШИ ОБЪЕКТЫ (%3$d)</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_video_sharer_you_not">
+        <item quantity="other">%1$s И %2$s СОХРАНИЛИ %3$d ВИДЕО ОТ %4$s</item>
+        <item quantity="one">%1$s И %2$s СОХРАНИЛИ ВИДЕО ОТ %4$s</item>
+        <item quantity="few">%1$s И %2$s СОХРАНИЛИ %3$d ВИДЕО ОТ %4$s</item>
+        <item quantity="many">%1$s И %2$s СОХРАНИЛИ %3$d ВИДЕО ОТ %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_video_sharer_you_yes">
+        <item quantity="other">%1$s И %2$s СОХРАНИЛИ %3$d ВАШИХ ВИДЕО</item>
+        <item quantity="one">%1$s И %2$s СОХРАНИЛИ ВАШЕ ВИДЕО</item>
+        <item quantity="few">%1$s И %2$s СОХРАНИЛИ %3$d ВАШИХ ВИДЕО</item>
+        <item quantity="many">%1$s И %2$s СОХРАНИЛИ %3$d ВАШИХ ВИДЕО</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_yes_media_image_sharer_you_not">
+        <item quantity="other">ВЫ И %1$s СОХРАНИЛИ %2$d ФОТО ОТ %3$s</item>
+        <item quantity="one">ВЫ И %1$s СОХРАНИЛИ ФОТО ОТ %3$s</item>
+        <item quantity="few">ВЫ И %1$s СОХРАНИЛИ %2$d ФОТО ОТ %3$s</item>
+        <item quantity="many">ВЫ И %1$s СОХРАНИЛИ %2$d ФОТО ОТ %3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_yes_media_item_sharer_you_not">
+        <item quantity="other">ВЫ И %1$s СОХРАНИЛИ ОБЪЕКТЫ (%2$d) ОТ %3$s</item>
+        <item quantity="one">ВЫ И %1$s СОХРАНИЛИ ОБЪЕКТ ОТ %3$s</item>
+        <item quantity="few">ВЫ И %1$s СОХРАНИЛИ ОБЪЕКТЫ (%2$d) ОТ %3$s</item>
+        <item quantity="many">ВЫ И %1$s СОХРАНИЛИ ОБЪЕКТЫ (%2$d) ОТ %3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_yes_media_video_sharer_you_not">
+        <item quantity="other">ВЫ И %1$s СОХРАНИЛИ %2$d ВИДЕО ОТ %3$s</item>
+        <item quantity="one">ВЫ И %1$s СОХРАНИЛИ ВИДЕО ОТ %3$s</item>
+        <item quantity="few">ВЫ И %1$s СОХРАНИЛИ %2$d ВИДЕО ОТ %3$s</item>
+        <item quantity="many">ВЫ И %1$s СОХРАНИЛИ %2$d ВИДЕО ОТ %3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_image_sharer_you_not">
+        <item quantity="other">%1$s И %2$s СОХРАНИЛИ %3$d ФОТО ОТ %4$s</item>
+        <item quantity="one">%1$s И %2$s СОХРАНИЛИ ФОТО ОТ %4$s</item>
+        <item quantity="few">%1$s И %2$s СОХРАНИЛИ %3$d ФОТО ОТ %4$s</item>
+        <item quantity="many">%1$s И %2$s СОХРАНИЛИ %3$d ФОТО ОТ %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_image_sharer_you_yes">
+        <item quantity="other">%1$s И %2$s СОХРАНИЛИ %3$d ВАШИХ ФОТО</item>
+        <item quantity="one">%1$s И %2$s СОХРАНИЛИ ВАШЕ ФОТО</item>
+        <item quantity="few">%1$s И %2$s СОХРАНИЛИ %3$d ВАШИХ ФОТО</item>
+        <item quantity="many">%1$s И %2$s СОХРАНИЛИ %3$d ВАШИХ ФОТО</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_item__sharer_you_not">
+        <item quantity="other">%1$s И %2$s СОХРАНИЛИ ОБЪЕКТЫ (%3$d) ОТ %4$s</item>
+        <item quantity="one">%1$s И %2$s СОХРАНИЛИ ОБЪЕКТ ОТ %4$s</item>
+        <item quantity="few">%1$s И %2$s СОХРАНИЛИ ОБЪЕКТЫ (%3$d) ОТ %4$s</item>
+        <item quantity="many">%1$s И %2$s СОХРАНИЛИ ОБЪЕКТЫ (%3$d) ОТ %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_item__sharer_you_yes">
+        <item quantity="other">%1$s И %2$s СОХРАНИЛИ ВАШИ ОБЪЕКТЫ (%3$d)</item>
+        <item quantity="one">%1$s И %2$s СОХРАНИЛИ ВАШ ОБЪЕКТ</item>
+        <item quantity="few">%1$s И %2$s СОХРАНИЛИ ВАШИ ОБЪЕКТЫ (%3$d)</item>
+        <item quantity="many">%1$s И %2$s СОХРАНИЛИ ВАШИ ОБЪЕКТЫ (%3$d)</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_video_sharer_you_not">
+        <item quantity="other">%1$s И %2$s СОХРАНИЛИ %3$d ВИДЕО ОТ %4$s</item>
+        <item quantity="one">%1$s И %2$s СОХРАНИЛИ ВИДЕО ОТ %4$s</item>
+        <item quantity="few">%1$s И %2$s СОХРАНИЛИ %3$d ВИДЕО ОТ %4$s</item>
+        <item quantity="many">%1$s И %2$s СОХРАНИЛИ %3$d ВИДЕО ОТ %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_video_sharer_you_yes">
+        <item quantity="other">%1$s И %2$s СОХРАНИЛИ %3$d ВАШИХ ВИДЕО</item>
+        <item quantity="one">%1$s И %2$s СОХРАНИЛИ ВАШЕ ВИДЕО</item>
+        <item quantity="few">%1$s И %2$s СОХРАНИЛИ %3$d ВАШИХ ВИДЕО</item>
+        <item quantity="many">%1$s И %2$s СОХРАНИЛИ %3$d ВАШИХ ВИДЕО</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_yes_media_image_sharer_you_not">
+        <item quantity="other">ВЫ, %1$s И %2$s СОХРАНИЛИ %3$d ФОТО ОТ %4$s</item>
+        <item quantity="one">ВЫ, %1$s И %2$s СОХРАНИЛИ ФОТО ОТ %4$s</item>
+        <item quantity="few">ВЫ, %1$s И %2$s СОХРАНИЛИ %3$d ФОТО ОТ %4$s</item>
+        <item quantity="many">ВЫ, %1$s И %2$s СОХРАНИЛИ %3$d ФОТО ОТ %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_yes_media_item_sharer_you_not">
+        <item quantity="other">ВЫ, %1$s И %2$s СОХРАНИЛИ ОБЪЕКТЫ (%3$d) ОТ %4$s</item>
+        <item quantity="one">ВЫ, %1$s И %2$s СОХРАНИЛИ ОБЪЕКТ ОТ %4$s</item>
+        <item quantity="few">ВЫ, %1$s И %2$s СОХРАНИЛИ ОБЪЕКТЫ (%3$d) ОТ %4$s</item>
+        <item quantity="many">ВЫ, %1$s И %2$s СОХРАНИЛИ ОБЪЕКТЫ (%3$d) ОТ %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_yes_media_video_sharer_you_not">
+        <item quantity="other">ВЫ, %1$s И %2$s СОХРАНИЛИ %3$d ВИДЕО ОТ %4$s</item>
+        <item quantity="one">ВЫ, %1$s И %2$s СОХРАНИЛИ ВИДЕО ОТ %4$s</item>
+        <item quantity="few">ВЫ, %1$s И %2$s СОХРАНИЛИ %3$d ВИДЕО ОТ %4$s</item>
+        <item quantity="many">ВЫ, %1$s И %2$s СОХРАНИЛИ %3$d ВИДЕО ОТ %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_image_sharer_you_not">
+        <item quantity="other">%1$s СОХРАНИЛ(А) %2$d ФОТО ОТ %3$s</item>
+        <item quantity="one">%1$s СОХРАНИЛИ ФОТО ОТ %3$s</item>
+        <item quantity="few">%1$s СОХРАНИЛ(А) %2$d ФОТО ОТ %3$s</item>
+        <item quantity="many">%1$s СОХРАНИЛ(А) %2$d ФОТО ОТ %3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_image_sharer_you_yes">
+        <item quantity="other">%1$s СОХРАНИЛИ ВАШИ ФОТО (%2$d)</item>
+        <item quantity="one">%1$s СОХРАНИЛ(А) ВАШЕ ФОТО</item>
+        <item quantity="few">%1$s СОХРАНИЛИ ВАШИ ФОТО (%2$d)</item>
+        <item quantity="many">%1$s СОХРАНИЛИ ВАШИ ФОТО (%2$d)</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_item_sharer_you_not">
+        <item quantity="other">%1$s СОХРАНИЛ(А) ОБЪЕКТЫ (%2$d) ОТ %3$s</item>
+        <item quantity="one">%1$s СОХРАНИЛИ ОБЪЕКТ ОТ %3$s</item>
+        <item quantity="few">%1$s СОХРАНИЛ(А) ОБЪЕКТЫ (%2$d) ОТ %3$s</item>
+        <item quantity="many">%1$s СОХРАНИЛ(А) ОБЪЕКТЫ (%2$d) ОТ %3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_item_sharer_you_yes">
+        <item quantity="other">%1$s СОХРАНИЛИ ВАШИ ОБЪЕКТЫ (%2$d)</item>
+        <item quantity="one">%1$s СОХРАНИЛ(А) ВАШ ОБЪЕКТ</item>
+        <item quantity="few">%1$s СОХРАНИЛИ ВАШИ ОБЪЕКТЫ (%2$d)</item>
+        <item quantity="many">%1$s СОХРАНИЛИ ВАШИ ОБЪЕКТЫ (%2$d)</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_video_sharer_you_not">
+        <item quantity="other">%1$s СОХРАНИЛ(А) %2$d ВИДЕО ОТ %3$s</item>
+        <item quantity="one">%1$s СОХРАНИЛИ ВИДЕО ОТ %3$s</item>
+        <item quantity="few">%1$s СОХРАНИЛ(А) %2$d ВИДЕО ОТ %3$s</item>
+        <item quantity="many">%1$s СОХРАНИЛ(А) %2$d ВИДЕО ОТ %3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_video_sharer_you_yes">
+        <item quantity="other">%1$s СОХРАНИЛИ ВАШИ ВИДЕО (%2$d)</item>
+        <item quantity="one">%1$s СОХРАНИЛ(А) ВАШЕ ВИДЕО</item>
+        <item quantity="few">%1$s СОХРАНИЛИ ВАШИ ВИДЕО (%2$d)</item>
+        <item quantity="many">%1$s СОХРАНИЛИ ВАШИ ВИДЕО (%2$d)</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_yes_media_image_sharer_you_not">
+        <item quantity="other">ВЫ СОХРАНИЛИ %1$d ФОТО ОТ %2$s</item>
+        <item quantity="one">ВЫ СОХРАНИЛИ ФОТО ОТ %2$s</item>
+        <item quantity="few">ВЫ СОХРАНИЛИ %1$d ФОТО ОТ %2$s</item>
+        <item quantity="many">ВЫ СОХРАНИЛИ %1$d ФОТО ОТ %2$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_yes_media_item__sharer_you_not">
+        <item quantity="other">ВЫ СОХРАНИЛИ %1$d ОБЪЕКТА ОТ %2$s</item>
+        <item quantity="one">ВЫ СОХРАНИЛИ ОБЪЕКТ ОТ %2$s</item>
+        <item quantity="few">ВЫ СОХРАНИЛИ %1$d ОБЪЕКТОВ ОТ %2$s</item>
+        <item quantity="many">ВЫ СОХРАНИЛИ %1$d ОБЪЕКТОВ ОТ %2$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_yes_media_video_sharer_you_not">
+        <item quantity="other">ВЫ СОХРАНИЛИ %1$d ВИДЕО ОТ %2$s</item>
+        <item quantity="one">ВЫ СОХРАНИЛИ ВИДЕО ОТ %2$s</item>
+        <item quantity="few">ВЫ СОХРАНИЛИ %1$d ВИДЕО ОТ %2$s</item>
+        <item quantity="many">ВЫ СОХРАНИЛИ %1$d ВИДЕО ОТ %2$s</item>
+    </plurals>
+    <plurals name="cannot_add_custom_story_snap_recipients">
+        <item quantity="other">Вы можете публиковать только в %1$d авторских историях одновременно.</item>
+        <item quantity="one">Вы можете публиковать только в %1$d авторской истории одновременно.</item>
+        <item quantity="few">Вы можете публиковать только в %1$d авторских историях одновременно.</item>
+        <item quantity="many">Вы можете публиковать только в %1$d авторских историях одновременно.</item>
+    </plurals>
+    <plurals name="capture_settings_distance_value_text_feet">
+        <item quantity="other">%1$d фута</item>
+        <item quantity="one">%1$d фут</item>
+        <item quantity="few">%1$d фута</item>
+        <item quantity="many">%1$d футов</item>
+    </plurals>
+    <plurals name="capture_settings_duration_value_text_orbits">
+        <item quantity="other">%1$d орбиты</item>
+        <item quantity="one">1 орбита</item>
+        <item quantity="few">%1$d орбиты</item>
+        <item quantity="many">%1$d орбит</item>
+    </plurals>
+    <plurals name="chat_header_gifting_birthday_upsell">
+        <item quantity="other">День рождения %1$s через %2$d дня 🎂. Подарите Snapchat+</item>
+        <item quantity="one">Завтра день рождения %1$s 🎂. Подарите Snapchat+</item>
+        <item quantity="few">День рождения %1$s через %2$d дня 🎂. Подарите Snapchat+</item>
+        <item quantity="many">День рождения %1$s через %2$d дней 🎂. Подарите Snapchat+</item>
+    </plurals>
+    <plurals name="cheerios_clean_unpair_cheerios_body">
+        <item quantity="other">В Pixy есть %1$d Snap. Хотите также сбросить настройки устройства и удалить все Snap и данные пользователя?</item>
+        <item quantity="one">В Pixy есть 1 Snap. Хотите также сбросить настройки устройства и удалить все Snap и данные пользователя?</item>
+        <item quantity="few">В Pixy есть %1$d Snap. Хотите также сбросить настройки устройства и удалить все Snap и данные пользователя?</item>
+        <item quantity="many">В Pixy есть %1$d Snap. Хотите также сбросить настройки устройства и удалить все Snap и данные пользователя?</item>
+    </plurals>
+    <plurals name="cheerios_confirm_delete_body">
+        <item quantity="other">Если вы удалите эти Snap, они будут удалены и с устройства Cheerio.</item>
+        <item quantity="one">Если вы удалите этот Snap, он будет удалён и с устройства Cheerio.</item>
+        <item quantity="few">Если вы удалите эти Snap, они будут удалены и с устройства Cheerio.</item>
+        <item quantity="many">Если вы удалите эти Snap, они будут удалены и с устройства Cheerio.</item>
+    </plurals>
+    <plurals name="cheerios_deleted">
+        <item quantity="other">Удалено %d Snap</item>
+        <item quantity="one">Snap удалён</item>
+        <item quantity="few">Удалено %d Snap</item>
+        <item quantity="many">Удалено %d Snap</item>
+    </plurals>
+    <plurals name="cheerios_deleting">
+        <item quantity="other">Удаляю %d Snap…</item>
+        <item quantity="one">Удаляю 1 Snap…</item>
+        <item quantity="few">Удаляю %d Snap…</item>
+        <item quantity="many">Удаляю %d Snap…</item>
+    </plurals>
+    <plurals name="cheerios_memories_tooltip">
+        <item quantity="other">%d новых Snap</item>
+        <item quantity="one">1 новый Snap</item>
+        <item quantity="few">%d новых Snap</item>
+        <item quantity="many">%d новых Snap</item>
+    </plurals>
+    <plurals name="cheerios_new_snap_to_import">
+        <item quantity="other">%d новых Snap. Нажмите, чтобы импортировать.</item>
+        <item quantity="one">1 новый Snap. Нажмите, чтобы импортировать.</item>
+        <item quantity="few">%d новых Snap. Нажмите, чтобы импортировать.</item>
+        <item quantity="many">%d новых Snap. Нажмите, чтобы импортировать.</item>
+    </plurals>
+    <plurals name="cheerios_status_transfer_complete_title">
+        <item quantity="other">Импортировано %d Snap!</item>
+        <item quantity="one">Импортирован %d Snap!</item>
+        <item quantity="few">Импортировано %d Snap!</item>
+        <item quantity="many">Импортировано %d Snap!</item>
+    </plurals>
+    <plurals name="cheerios_status_transferring_title">
+        <item quantity="other">Импортирую %d Snap...</item>
+        <item quantity="one">Импортирую %d Snap...</item>
+        <item quantity="few">Импортирую %d Snap...</item>
+        <item quantity="many">Импортирую %d Snap...</item>
+    </plurals>
+    <plurals name="cluster_seven_or_more">
+        <item quantity="other">%1$s, %2$s, %3$s, %4$s, %5$s и ещё %6$d</item>
+        <item quantity="one">%1$s, %2$s, %3$s, %4$s, %5$s и ещё %6$d</item>
+        <item quantity="few">%1$s, %2$s, %3$s, %4$s, %5$s и ещё %6$d</item>
+        <item quantity="many">%1$s, %2$s, %3$s, %4$s, %5$s и ещё %6$d</item>
+    </plurals>
+    <plurals name="cluster_seven_or_more_me">
+        <item quantity="other">%1$s, %2$s, %3$s, %4$s, я и ещё %5$d</item>
+        <item quantity="one">%1$s, %2$s, %3$s, %4$s, я и ещё %5$d</item>
+        <item quantity="few">%1$s, %2$s, %3$s, %4$s, я и ещё %5$d</item>
+        <item quantity="many">%1$s, %2$s, %3$s, %4$s, я и ещё %5$d</item>
+    </plurals>
+    <plurals name="cluster_three_or_more">
+        <item quantity="other">%1$s и ещё %2$d</item>
+        <item quantity="one">%1$s и ещё %2$d</item>
+        <item quantity="few">%1$s и ещё %2$d</item>
+        <item quantity="many">%1$s и ещё %2$d</item>
+    </plurals>
+    <plurals name="cluster_three_or_more_me">
+        <item quantity="other">Я и ещё %1$d</item>
+        <item quantity="one">Я и ещё %1$d</item>
+        <item quantity="few">Я и ещё %1$d</item>
+        <item quantity="many">Я и ещё %1$d</item>
+    </plurals>
+    <plurals name="cognac_active_playing_game_text_multiple_player">
+        <item quantity="other">%1$s, %2$s и ещё %3$d играют</item>
+        <item quantity="one">%1$s, %2$s и ещё %3$d играют</item>
+        <item quantity="few">%1$s, %2$s и ещё %3$d играют</item>
+        <item quantity="many">%1$s, %2$s и ещё %3$d играют</item>
+    </plurals>
+    <plurals name="cognac_active_playing_game_text_multiple_player_shortened">
+        <item quantity="other">%1$s и ещё %2$d играют</item>
+        <item quantity="one">%1$s и ещё %2$d играют</item>
+        <item quantity="few">%1$s и ещё %2$d играют</item>
+        <item quantity="many">%1$s и ещё %2$d играют</item>
+    </plurals>
+    <plurals name="cognac_active_using_cypress_text_multiple_player">
+        <item quantity="other">%1$s, %2$s и ещё %3$d активны</item>
+        <item quantity="one">%1$s, %2$s и ещё %3$d активны</item>
+        <item quantity="few">%1$s, %2$s и ещё %3$d активны</item>
+        <item quantity="many">%1$s, %2$s и ещё %3$d активны</item>
+    </plurals>
+    <plurals name="cognac_active_using_cypress_text_multiple_player_shortened">
+        <item quantity="other">%1$s и ещё %2$d активны</item>
+        <item quantity="one">%1$s и ещё %2$d активны</item>
+        <item quantity="few">%1$s и ещё %2$d активны</item>
+        <item quantity="many">%1$s и ещё %2$d активны</item>
+    </plurals>
+    <plurals name="cognac_app_profile_multiple_player_text">
+        <item quantity="other">Поддерживает %1$s ― %2$d игроков</item>
+        <item quantity="one">Поддерживает %1$s ― %2$d игроков</item>
+        <item quantity="few">Поддерживает %1$s ― %2$d игроков</item>
+        <item quantity="many">Поддерживает %1$s ― %2$d игроков</item>
+    </plurals>
+    <plurals name="cognac_close_status_message_multiple_player_second_person">
+        <item quantity="other">Вы, %1$s и ещё %2$d играли в %3$s</item>
+        <item quantity="one">Вы, %1$s и ещё %2$d играли в %3$s</item>
+        <item quantity="few">Вы, %1$s и ещё %2$d играли в %3$s</item>
+        <item quantity="many">Вы, %1$s и ещё %2$d играли в %3$s</item>
+    </plurals>
+    <plurals name="cognac_close_status_message_multiple_player_third_person">
+        <item quantity="other">%1$s, %2$s и ещё %3$d играли в %4$s</item>
+        <item quantity="one">%1$s, %2$s и ещё %3$d играли в %4$s</item>
+        <item quantity="few">%1$s, %2$s и ещё %3$d играли в %4$s</item>
+        <item quantity="many">%1$s, %2$s и ещё %3$d играли в %4$s</item>
+    </plurals>
+    <plurals name="cognac_close_status_message_text_for_feed_multiple_player_third_person">
+        <item quantity="other">%1$s и ещё %2$d играли в %3$s</item>
+        <item quantity="one">%1$s и ещё %2$d играли в %3$s</item>
+        <item quantity="few">%1$s и ещё %2$d играли в %3$s</item>
+        <item quantity="many">%1$s и ещё %2$d играли в %3$s</item>
+    </plurals>
+    <plurals name="cognac_cypress_close_status_message_multiple_player_second_person">
+        <item quantity="other">Вы, %1$s и ещё %2$d использовали %3$s</item>
+        <item quantity="one">Вы, %1$s и ещё %2$d использовали %3$s</item>
+        <item quantity="few">Вы, %1$s и ещё %2$d использовали %3$s</item>
+        <item quantity="many">Вы, %1$s и ещё %2$d использовали %3$s</item>
+    </plurals>
+    <plurals name="cognac_cypress_close_status_message_multiple_player_third_person">
+        <item quantity="other">%1$s, %2$s и ещё %3$d использовали %4$s</item>
+        <item quantity="one">%1$s, %2$s и ещё %3$d использовали %4$s</item>
+        <item quantity="few">%1$s, %2$s и ещё %3$d использовали %4$s</item>
+        <item quantity="many">%1$s, %2$s и ещё %3$d использовали %4$s</item>
+    </plurals>
+    <plurals name="cognac_cypress_close_status_message_text_for_feed_multiple_player_third_person">
+        <item quantity="other">%1$s и ещё %2$d использовали %3$s</item>
+        <item quantity="one">%1$s и ещё %2$d использовали %3$s</item>
+        <item quantity="few">%1$s и ещё %2$d использовали %3$s</item>
+        <item quantity="many">%1$s и ещё %2$d использовали %3$s</item>
+    </plurals>
+    <plurals name="cognac_friend_picker_ringing_text_multiple_players">
+        <item quantity="other">Звоню %1$s и ещё %2$d…</item>
+        <item quantity="one">Звоню %1$s и ещё %2$d…</item>
+        <item quantity="few">Звоню %1$s и ещё %2$d…</item>
+        <item quantity="many">Звоню %1$s и ещё %2$d…</item>
+    </plurals>
+    <plurals name="comments_collapse_child_comments">
+        <item quantity="other">Скрыть ответы</item>
+        <item quantity="one">Скрыть ответ</item>
+        <item quantity="few">Скрыть ответы</item>
+        <item quantity="many">Скрыть ответы</item>
+    </plurals>
+    <plurals name="comments_expand_child_comments">
+        <item quantity="other">Показать %s ответа</item>
+        <item quantity="one">Показать 1 ответ</item>
+        <item quantity="few">Показать %s ответа</item>
+        <item quantity="many">Показать %s ответов</item>
+    </plurals>
+    <plurals name="comments_header_with_live_comment_count">
+        <item quantity="other">%s комментария</item>
+        <item quantity="one">1 комментарий</item>
+        <item quantity="few">%s комментария</item>
+        <item quantity="many">%s комментариев</item>
+    </plurals>
+    <plurals name="content_detail_new_count">
+        <item quantity="other">Новых: %1$d</item>
+        <item quantity="one">Новых: %1$d</item>
+        <item quantity="few">Новых: %1$d</item>
+        <item quantity="many">Новых: %1$d</item>
+    </plurals>
+    <plurals name="content_detail_seen_text">
+        <item quantity="other">%1$d для импорта</item>
+        <item quantity="one">%1$d для импорта</item>
+        <item quantity="few">%1$d для импорта</item>
+        <item quantity="many">%1$d для импорта</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="other">%d дня</item>
+        <item quantity="one">%d день</item>
+        <item quantity="few">%d дня</item>
+        <item quantity="many">%d дней</item>
+    </plurals>
+    <plurals name="days_abbreviated">
+        <item quantity="other">%d д.</item>
+        <item quantity="one">%d день</item>
+        <item quantity="few">%d дня</item>
+        <item quantity="many">%d дней</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated">
+        <item quantity="other">%d д. назад</item>
+        <item quantity="one">%d день назад</item>
+        <item quantity="few">%d дня назад</item>
+        <item quantity="many">%d дней назад</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_camera_roll">
+        <item quantity="other">%1$d д. назад из Фотоплёнки</item>
+        <item quantity="one">%1$d день назад из Фотоплёнки</item>
+        <item quantity="few">%1$d дня назад из Фотоплёнки</item>
+        <item quantity="many">%1$d дней назад из Фотоплёнки</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_chat">
+        <item quantity="other">%1$d д. назад из чата</item>
+        <item quantity="one">%1$d день назад из чата</item>
+        <item quantity="few">%1$d дня назад из чата</item>
+        <item quantity="many">%1$d дней назад из чата</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_cheerios">
+        <item quantity="other">%1$d д. назад из Pixy</item>
+        <item quantity="one">%1$d д. назад из Pixy</item>
+        <item quantity="few">%1$d д. назад из Pixy</item>
+        <item quantity="many">%1$d д. назад из Pixy</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d д. назад от %2$s</item>
+        <item quantity="one">%1$d день назад от %2$s</item>
+        <item quantity="few">%1$d дня назад от %2$s</item>
+        <item quantity="many">%1$d дней назад от %2$s</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_memories">
+        <item quantity="other">%1$d д. назад из Воспоминаний</item>
+        <item quantity="one">%1$d день назад из Воспоминаний</item>
+        <item quantity="few">%1$d дня назад из Воспоминаний</item>
+        <item quantity="many">%1$d дней назад из Воспоминаний</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_spectacles">
+        <item quantity="other">%1$d д. назад из Spectacles</item>
+        <item quantity="one">%1$d день назад из Spectacles</item>
+        <item quantity="few">%1$d дня назад из Spectacles</item>
+        <item quantity="many">%1$d дней назад из Spectacles</item>
+    </plurals>
+    <plurals name="days_ago_update">
+        <item quantity="other">Изменено %1$s дней назад</item>
+        <item quantity="one">Изменено %1$s день назад</item>
+        <item quantity="few">Изменено %1$s дня назад</item>
+        <item quantity="many">Изменено %1$s дней назад</item>
+    </plurals>
+    <plurals name="discard_batch_capture_description">
+        <item quantity="other">Вы уверены, что хотите отменить съёмку мульти-Snap? %1$d несохранённых Snap будут потеряны.</item>
+        <item quantity="one">Вы уверены, что хотите отменить съёмку мульти-Snap? Несохранённый Snap будет потерян.</item>
+        <item quantity="few">Вы уверены, что хотите отменить съёмку мульти-Snap? %1$d несохранённый Snap будет потерян.</item>
+        <item quantity="many">Вы уверены, что хотите отменить съёмку мульти-Snap? %1$d несохранённых Snap будет потеряно.</item>
+    </plurals>
+    <plurals name="display_username_explanation_changed_username_too_recently">
+        <item quantity="other">"Вы изменили имя пользователя в %1$s.
+Снова поменять его можно через %2$d дня."</item>
+        <item quantity="one">"Вы изменили имя пользователя в %1$s.
+Снова поменять его можно через %2$d день."</item>
+        <item quantity="few">"Вы изменили имя пользователя в %1$s.
+Снова поменять его можно через %2$d дня."</item>
+        <item quantity="many">"Вы изменили имя пользователя в %1$s.
+Снова поменять его можно через %2$d дней."</item>
+    </plurals>
+    <plurals name="failed_to_save_multiple_snaps">
+        <item quantity="other">Не удалось сохранить %1$d Snap</item>
+        <item quantity="one">Не удалось сохранить %1$d Snap</item>
+        <item quantity="few">Не удалось сохранить %1$d Snap</item>
+        <item quantity="many">Не удалось сохранить %1$d Snap</item>
+    </plurals>
+    <plurals name="formatted_short_ft">
+        <item quantity="other">%d фута</item>
+        <item quantity="one">%d фут</item>
+        <item quantity="few">%d фута</item>
+        <item quantity="many">%d фута</item>
+    </plurals>
+    <plurals name="formatted_short_km">
+        <item quantity="other">%d км</item>
+        <item quantity="one">%d км</item>
+        <item quantity="few">%d км</item>
+        <item quantity="many">%d км</item>
+    </plurals>
+    <plurals name="formatted_short_m">
+        <item quantity="other">%d минуты</item>
+        <item quantity="one">%d минута</item>
+        <item quantity="few">%d минуты</item>
+        <item quantity="many">%d минут</item>
+    </plurals>
+    <plurals name="formatted_short_mile">
+        <item quantity="other">%d мили</item>
+        <item quantity="one">%d миля</item>
+        <item quantity="few">%d мили</item>
+        <item quantity="many">%d миль</item>
+    </plurals>
+    <plurals name="friending_progress_bar_secondary">
+        <item quantity="other">Отправьте ещё %1$s запросов в друзья!</item>
+        <item quantity="one">Отправьте ещё %1$s запрос в друзья!</item>
+        <item quantity="few">Отправьте ещё %1$s запроса в друзья!</item>
+        <item quantity="many">Отправьте ещё %1$s запросов в друзья!</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_description_items">
+        <item quantity="other">Все объекты добавлены в Личное. Удалить оригиналы из Фотоплёнки?</item>
+        <item quantity="one">Объект добавлен в Личное. Удалить оригинал из Фотоплёнки?</item>
+        <item quantity="few">Все объекты добавлены в Личное. Удалить оригиналы из Фотоплёнки?</item>
+        <item quantity="many">Все объекты добавлены в Личное. Удалить оригиналы из Фотоплёнки?</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_description_photos">
+        <item quantity="other">Ваши фото были добавлены в Личное. Удалить оригиналы из Фотоплёнки?</item>
+        <item quantity="one">Ваше фото было добавлено в Личное. Удалить оригинал из Фотоплёнки?</item>
+        <item quantity="few">Ваши фото были добавлены в Личное. Удалить оригиналы из Фотоплёнки?</item>
+        <item quantity="many">Ваши фото были добавлены в Личное. Удалить оригиналы из Фотоплёнки?</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_description_videos">
+        <item quantity="other">Видео добавлены в Личное. Удалить оригиналы из Фотоплёнки?</item>
+        <item quantity="one">Ваше видео было добавлено в Личное. Удалить оригинал из Фотоплёнки?</item>
+        <item quantity="few">Видео добавлены в Личное. Удалить оригиналы из Фотоплёнки?</item>
+        <item quantity="many">Видео добавлены в Личное. Удалить оригиналы из Фотоплёнки?</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_title">
+        <item quantity="other">Удалить оригиналы</item>
+        <item quantity="one">Удалить оригинал</item>
+        <item quantity="few">Удалить оригиналы</item>
+        <item quantity="many">Удалить оригиналы</item>
+    </plurals>
+    <plurals name="gallery_private_rate_limit_minutes_time_out">
+        <item quantity="other">"
+Попробуйте через %1$d минут."</item>
+        <item quantity="one">"
+Попробуйте через %1$d минуту."</item>
+        <item quantity="few">"
+Попробуйте через %1$d минуты."</item>
+        <item quantity="many">"
+Попробуйте через %1$d минут."</item>
+    </plurals>
+    <plurals name="gauge_altitude_unit_feet">
+        <item quantity="other">%d фута</item>
+        <item quantity="one">%d фут</item>
+        <item quantity="few">%d фута</item>
+        <item quantity="many">%d фута</item>
+    </plurals>
+    <plurals name="gauge_altitude_unit_meters">
+        <item quantity="other">%d минут</item>
+        <item quantity="one">%d минута</item>
+        <item quantity="few">%d минут</item>
+        <item quantity="many">%d минут</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%d часа</item>
+        <item quantity="one">%d час</item>
+        <item quantity="few">%d часа</item>
+        <item quantity="many">%d часов</item>
+    </plurals>
+    <plurals name="hours_abbreviated">
+        <item quantity="other">%d ч.</item>
+        <item quantity="one">%d час</item>
+        <item quantity="few">%d часа</item>
+        <item quantity="many">%d часов</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%d ч.</item>
+        <item quantity="one">%d ч.</item>
+        <item quantity="few">%d ч.</item>
+        <item quantity="many">%d ч.</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated">
+        <item quantity="other">%d часа назад</item>
+        <item quantity="one">%d час назад</item>
+        <item quantity="few">%d часа назад</item>
+        <item quantity="many">%d часов назад</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_camera_roll">
+        <item quantity="other">%1$d ч. назад из Фотоплёнки</item>
+        <item quantity="one">%1$d час назад из Фотоплёнки</item>
+        <item quantity="few">%1$d часа назад из Фотоплёнки</item>
+        <item quantity="many">%1$d часов назад из Фотоплёнки</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_chat">
+        <item quantity="other">%1$d ч. назад из чата</item>
+        <item quantity="one">%1$d часа назад из чата</item>
+        <item quantity="few">%1$d часа назад из чата</item>
+        <item quantity="many">%1$d часов назад из чата</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_cheerios">
+        <item quantity="other">%1$d ч. назад из Pixy</item>
+        <item quantity="one">%1$d ч. назад из Pixy</item>
+        <item quantity="few">%1$d ч. назад из Pixy</item>
+        <item quantity="many">%1$d ч. назад из Pixy</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d ч. назад от %2$s</item>
+        <item quantity="one">%1$d час назад от %2$s</item>
+        <item quantity="few">%1$d часа назад от %2$s</item>
+        <item quantity="many">%1$d часов назад от %2$s</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_memories">
+        <item quantity="other">%1$d ч. назад из Воспоминаний</item>
+        <item quantity="one">%1$d часа назад из Воспоминаний</item>
+        <item quantity="few">%1$d часа назад из Воспоминаний</item>
+        <item quantity="many">%1$d часов назад из Воспоминаний</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_spectacles">
+        <item quantity="other">%1$d ч. назад из Spectacles</item>
+        <item quantity="one">%1$d час назад из Spectacles</item>
+        <item quantity="few">%1$d часа назад из Spectacles</item>
+        <item quantity="many">%1$d часов назад из Spectacles</item>
+    </plurals>
+    <plurals name="hours_ago_update">
+        <item quantity="other">Изменено %1$s часов назад</item>
+        <item quantity="one">Изменено %1$s час назад</item>
+        <item quantity="few">Изменено %1$s часа назад</item>
+        <item quantity="many">Изменено %1$s часов назад</item>
+    </plurals>
+    <plurals name="last_seen_here_hours">
+        <item quantity="other">В последний раз видели %d часа назад</item>
+        <item quantity="one">В последний раз видели %d час назад</item>
+        <item quantity="few">В последний раз видели %d часа назад</item>
+        <item quantity="many">В последний раз видели %d часов назад</item>
+    </plurals>
+    <plurals name="last_seen_here_minutes">
+        <item quantity="other">В последний раз видели %d минуты назад</item>
+        <item quantity="one">В последний раз видели %d минуту назад</item>
+        <item quantity="few">В последний раз видели %d минуты назад</item>
+        <item quantity="many">В последний раз видели %d минут назад</item>
+    </plurals>
+    <plurals name="live_location_chat_hours_remaining">
+        <item quantity="other">%d ч.</item>
+        <item quantity="one">%d ч.</item>
+        <item quantity="few">%d ч.</item>
+        <item quantity="many">%d ч.</item>
+    </plurals>
+    <plurals name="live_location_description_existing_sessions">
+        <item quantity="other">Вы будете делиться текущим местоположением с друзьями в этой группе. %d друга уже могут видеть ваше местоположение.</item>
+        <item quantity="one">Вы будете делиться текущим местоположением с друзьями в этой группе. %d друг уже может видеть ваше местоположение.</item>
+        <item quantity="few">Вы будете делиться текущим местоположением с друзьями в этой группе. %d друга уже могут видеть ваше местоположение.</item>
+        <item quantity="many">Вы будете делиться текущим местоположением с друзьями в этой группе. %d друзей уже могут видеть ваше местоположение.</item>
+    </plurals>
+    <plurals name="live_location_duration_hr">
+        <item quantity="other">%d ч.</item>
+        <item quantity="one">%d час</item>
+        <item quantity="few">%d часа</item>
+        <item quantity="many">%d часов</item>
+    </plurals>
+    <plurals name="live_location_duration_min">
+        <item quantity="other">%d мин.</item>
+        <item quantity="one">%d минута</item>
+        <item quantity="few">%d минуты</item>
+        <item quantity="many">%d минут</item>
+    </plurals>
+    <plurals name="live_location_share_group_description">
+        <item quantity="other">Вы будете делиться местоположением с друзьями в этой группе. %d участника не будут видеть его, так как не являются вашими друзьями.</item>
+        <item quantity="one">Вы будете делиться местоположением с друзьями в этой группе. %d участник не будет видеть его, так как не является вашим другом.</item>
+        <item quantity="few">Вы будете делиться местоположением с друзьями в этой группе. %d участника не будут видеть его, так как не являются вашими друзьями.</item>
+        <item quantity="many">Вы будете делиться местоположением с друзьями в этой группе. %d участников не будут видеть его, так как не являются вашими друзьями.</item>
+    </plurals>
+    <plurals name="live_location_with_friends">
+        <item quantity="other">с %d друзьями</item>
+        <item quantity="one">с %d другом</item>
+        <item quantity="few">с %d друзьями</item>
+        <item quantity="many">с %d друзьями</item>
+    </plurals>
+    <plurals name="location_upsell_description_specific_friends_more_than_four">
+        <item quantity="other">%1$s, %2$s, %3$s и ещё %4$d ваших друга на карте!</item>
+        <item quantity="one">%1$s, %2$s, %3$s и ещё %4$d ваш друг на карте!</item>
+        <item quantity="few">%1$s, %2$s, %3$s и ещё %4$d ваших друга на карте!</item>
+        <item quantity="many">%1$s, %2$s, %3$s и ещё %4$d ваших друзей на карте!</item>
+    </plurals>
+    <plurals name="locked_lens_friending_banner_countdown_timer_hours">
+        <item quantity="other">%1$d ч.</item>
+        <item quantity="one">%1$d час</item>
+        <item quantity="few">%1$d часа</item>
+        <item quantity="many">%1$d часов</item>
+    </plurals>
+    <plurals name="locked_lens_friending_banner_countdown_timer_minutes">
+        <item quantity="other">%1$d мин.</item>
+        <item quantity="one">%1$d минуту</item>
+        <item quantity="few">%1$d минуты</item>
+        <item quantity="many">%1$d минут</item>
+    </plurals>
+    <plurals name="locked_lens_friending_banner_countdown_timer_seconds">
+        <item quantity="other">%1$d с.</item>
+        <item quantity="one">%1$d секунду</item>
+        <item quantity="few">%1$d секунды</item>
+        <item quantity="many">%1$d секунд</item>
+    </plurals>
+    <plurals name="map_group_card_subtext_friend_sharing">
+        <item quantity="other">%1$d друг делится своим местоположением</item>
+        <item quantity="one">%1$d друг делится своим местоположением</item>
+        <item quantity="few">%1$d друг делится своим местоположением</item>
+        <item quantity="many">%1$d друзей делятся своим местоположением</item>
+    </plurals>
+    <plurals name="map_passport_and_other">
+        <item quantity="other">и ещё %d</item>
+        <item quantity="one">и ещё %d</item>
+        <item quantity="few">и ещё %d</item>
+        <item quantity="many">и ещё %d</item>
+    </plurals>
+    <plurals name="map_passport_bucket_cities_title">
+        <item quantity="other">Городов</item>
+        <item quantity="one">Город</item>
+        <item quantity="few">Города</item>
+        <item quantity="many">Городов</item>
+    </plurals>
+    <plurals name="map_passport_bucket_countries_title">
+        <item quantity="other">Стран</item>
+        <item quantity="one">Страна</item>
+        <item quantity="few">Страны</item>
+        <item quantity="many">Стран</item>
+    </plurals>
+    <plurals name="map_passport_bucket_places_title">
+        <item quantity="other">Мест</item>
+        <item quantity="one">Место</item>
+        <item quantity="few">Места</item>
+        <item quantity="many">Мест</item>
+    </plurals>
+    <plurals name="map_widget_days_ago">
+        <item quantity="other">%d д.</item>
+        <item quantity="one">%d д.</item>
+        <item quantity="few">%d д.</item>
+        <item quantity="many">%d д.</item>
+    </plurals>
+    <plurals name="media_export_service_batch_export_failure">
+        <item quantity="other">Экспортировано %1$d из %2$d Snap. Не удалось экспортировать %3$d Snap.</item>
+        <item quantity="one">Экспортировано %1$d из %2$d Snap. Не удалось экспортировать %3$d Snap.</item>
+        <item quantity="few">Экспортировано %1$d из %2$d Snap. Не удалось экспортировать %3$d Snap.</item>
+        <item quantity="many">Экспортировано %1$d из %2$d Snap. Не удалось экспортировать %3$d Snap.</item>
+    </plurals>
+    <plurals name="media_export_service_processing">
+        <item quantity="other">Экспортирую %1$d из %2$d Snap…</item>
+        <item quantity="one">Экспортирую Snap...</item>
+        <item quantity="few">Экспортирую %1$d из %2$d Snap…</item>
+        <item quantity="many">Экспортирую %1$d из %2$d Snap…</item>
+    </plurals>
+    <plurals name="media_export_service_success">
+        <item quantity="other">Ваши Snap экспортированы!</item>
+        <item quantity="one">Ваш Snap экспортирован!</item>
+        <item quantity="few">Ваши Snap экспортированы!</item>
+        <item quantity="many">Ваши Snap экспортированы!</item>
+    </plurals>
+    <plurals name="memories_camera_select_limit_error">
+        <item quantity="other">Извините, можно выбрать только %d элементов за раз.</item>
+        <item quantity="one">Извините, можно выбрать только %d элемент за раз.</item>
+        <item quantity="few">Извините, можно выбрать только %d элемента за раз.</item>
+        <item quantity="many">Извините, можно выбрать только %d элементов за раз.</item>
+    </plurals>
+    <plurals name="memories_delete_camera_roll_image_body">
+        <item quantity="other">Эти изображения будут удалены с вашего устройства</item>
+        <item quantity="one">Это изображение будет удалено с вашего устройства</item>
+        <item quantity="few">Эти изображения будут удалены с вашего устройства</item>
+        <item quantity="many">Эти изображения будут удалены с вашего устройства</item>
+    </plurals>
+    <plurals name="memories_delete_camera_roll_mixed_body">
+        <item quantity="other">Эти объекты будут удалены с вашего устройства</item>
+        <item quantity="one">Эти объекты будут удалены с вашего устройства</item>
+        <item quantity="few">Эти объекты будут удалены с вашего устройства</item>
+        <item quantity="many">Эти объекты будут удалены с вашего устройства</item>
+    </plurals>
+    <plurals name="memories_delete_camera_roll_video_body">
+        <item quantity="other">Эти видео будут удалены с вашего устройства</item>
+        <item quantity="one">Это видео будет удалено с вашего устройства</item>
+        <item quantity="few">Эти видео будут удалены с вашего устройства</item>
+        <item quantity="many">Эти видео будут удалены с вашего устройства</item>
+    </plurals>
+    <plurals name="memories_delete_snap_body">
+        <item quantity="other">Удалить Snap?</item>
+        <item quantity="one">Удалить Snap?</item>
+        <item quantity="few">Удалить Snap?</item>
+        <item quantity="many">Удалить Snap?</item>
+    </plurals>
+    <plurals name="memories_delete_story_body">
+        <item quantity="other">Удалить истории?</item>
+        <item quantity="one">Удалить историю?</item>
+        <item quantity="few">Удалить истории?</item>
+        <item quantity="many">Удалить истории?</item>
+    </plurals>
+    <plurals name="memories_export_error">
+        <item quantity="other">Не удалось экспортировать Snap!</item>
+        <item quantity="one">Не удалось экспортировать Snap!</item>
+        <item quantity="few">Не удалось экспортировать Snap!</item>
+        <item quantity="many">Не удалось экспортировать Snap!</item>
+    </plurals>
+    <plurals name="memories_favorite_snaps_story_added">
+        <item quantity="other">%d Snap добавлено в избранную историю</item>
+        <item quantity="one">Snap добавлен в избранную историю</item>
+        <item quantity="few">%d Snap добавлены в избранную историю</item>
+        <item quantity="many">%d Snap добавлено в избранную историю</item>
+    </plurals>
+    <plurals name="memories_favorite_snaps_story_removed">
+        <item quantity="other">%d Snap удалено из избранной истории</item>
+        <item quantity="one">Snap удалён из избранной истории</item>
+        <item quantity="few">%d Snap удалены из избранной истории</item>
+        <item quantity="many">%d Snap удалено из избранной истории</item>
+    </plurals>
+    <plurals name="memories_featured_story_flashback_diff_date_subtext">
+        <item quantity="other">%1$d года назад</item>
+        <item quantity="one">%1$d год назад</item>
+        <item quantity="few">%1$d года назад</item>
+        <item quantity="many">%1$d лет назад</item>
+    </plurals>
+    <plurals name="memories_featured_story_flashback_same_date_subtext">
+        <item quantity="other">В этот день %1$d лет назад</item>
+        <item quantity="one">В этот день %1$d год назад</item>
+        <item quantity="few">В этот день %1$d года назад</item>
+        <item quantity="many">В этот день %1$d лет назад</item>
+    </plurals>
+    <plurals name="memories_featured_story_trip_flashback_chat_prefill_snap">
+        <item quantity="other">%1$s, %2$d лет назад</item>
+        <item quantity="one">%1$s, %2$d год назад</item>
+        <item quantity="few">%1$s, %2$d года назад</item>
+        <item quantity="many">%1$s, %2$d лет назад</item>
+    </plurals>
+    <plurals name="memories_featured_story_trip_flashback_chat_prefill_story">
+        <item quantity="other">%1$d лет назад</item>
+        <item quantity="one">%1$d год назад</item>
+        <item quantity="few">%1$d года назад</item>
+        <item quantity="many">%1$d лет назад</item>
+    </plurals>
+    <plurals name="memories_hide_legacy_auto_saves">
+        <item quantity="other">Snap из этих историй будут доступны на вашей новой странице «Моя история». На истории, которые вы создали или изменили, это не повлияет.</item>
+        <item quantity="one">Snap из этой истории будут доступны на вашей новой странице «Моя история». На истории, которые вы создали или изменили, это не повлияет.</item>
+        <item quantity="few">Snap из этих историй будут доступны на вашей новой странице «Моя история». На истории, которые вы создали или изменили, это не повлияет.</item>
+        <item quantity="many">Snap из этих историй будут доступны на вашей новой странице «Моя история». На истории, которые вы создали или изменили, это не повлияет.</item>
+    </plurals>
+    <plurals name="memories_hide_legacy_auto_saves_title">
+        <item quantity="other">Удалить %d старых автоматически сохранённых историй?</item>
+        <item quantity="one">Удалить %d старую автоматически сохранённую историю?</item>
+        <item quantity="few">Удалить %d старые автоматически сохранённые истории?</item>
+        <item quantity="many">Удалить %d старых автоматически сохранённых историй?</item>
+    </plurals>
+    <plurals name="memories_print_print_created">
+        <item quantity="other">Созданы 3D-принты (%d)</item>
+        <item quantity="one">Создан %d 3D-принт</item>
+        <item quantity="few">Созданы 3D-принты (%d)</item>
+        <item quantity="many">Созданы 3D-принты (%d)</item>
+    </plurals>
+    <plurals name="memories_print_processing">
+        <item quantity="other">Обработка Snap (%d) для печати...</item>
+        <item quantity="one">Обработка %d Snap для печати...</item>
+        <item quantity="few">Обработка Snap (%d) для печати...</item>
+        <item quantity="many">Обработка Snap (%d) для печати...</item>
+    </plurals>
+    <plurals name="memories_remove_older_stories_dialog_title">
+        <item quantity="other">Это приведёт к удалению %d старых автоматически сохранённых историй.</item>
+        <item quantity="one">Это приведёт к удалению %d старой автоматически сохранённой истории.</item>
+        <item quantity="few">Это приведёт к удалению %d старых автоматически сохранённых историй.</item>
+        <item quantity="many">Это приведёт к удалению %d старых автоматически сохранённых историй.</item>
+    </plurals>
+    <plurals name="memories_select_limit_error">
+        <item quantity="other">Извините, можно выбрать только %d Snap за раз.</item>
+        <item quantity="one">Извините, можно выбрать только %d Snap за раз.</item>
+        <item quantity="few">Извините, можно выбрать только %d Snap за раз.</item>
+        <item quantity="many">Извините, можно выбрать только %d Snap за раз.</item>
+    </plurals>
+    <plurals name="memories_status_transfer_complete_in_app_notification_text">
+        <item quantity="other">Импортированы Snap от %1$d: %2$s</item>
+        <item quantity="one">Импортированы Snap из %1$d: %2$s</item>
+        <item quantity="few">Импортировано %1$d Snap из %2$s</item>
+        <item quantity="many">Импортировано %1$d Snap из %2$s</item>
+    </plurals>
+    <plurals name="memories_status_transfer_complete_title">
+        <item quantity="other">Импортировано %d Snap</item>
+        <item quantity="one">Импортирован %d Snap!</item>
+        <item quantity="few">Импортировано %d Snap</item>
+        <item quantity="many">Импортировано %d Snap</item>
+    </plurals>
+    <plurals name="memories_status_transfer_from_device_complete_title">
+        <item quantity="other">Новые Snap из %s</item>
+        <item quantity="one">Новый Snap от %s</item>
+        <item quantity="few">Новые Snap из %s</item>
+        <item quantity="many">Новые Snap из %s</item>
+    </plurals>
+    <plurals name="memories_status_transferring_title">
+        <item quantity="other">Импортирую Snap: %1$d из %2$d...</item>
+        <item quantity="one">Импортирую Snap: %1$d из %2$d...</item>
+        <item quantity="few">Импортирую Snap: %1$d из %2$d...</item>
+        <item quantity="many">Импортирую Snap: %1$d из %2$d...</item>
+    </plurals>
+    <plurals name="memories_story_editor_add_snap_selected">
+        <item quantity="other">Выбрано %d</item>
+        <item quantity="one">Выбран %d</item>
+        <item quantity="few">Выбрано %d</item>
+        <item quantity="many">Выбрано %d</item>
+    </plurals>
+    <plurals name="minutes_abbreviated">
+        <item quantity="other">%d мин.</item>
+        <item quantity="one">%d минута</item>
+        <item quantity="few">%d минуты</item>
+        <item quantity="many">%d минут</item>
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="other">%d мин.</item>
+        <item quantity="one">%d мин.</item>
+        <item quantity="few">%d мин.</item>
+        <item quantity="many">%d мин.</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated">
+        <item quantity="other">%d минуты назад</item>
+        <item quantity="one">%d минуту назад</item>
+        <item quantity="few">%d минуты назад</item>
+        <item quantity="many">%d минут назад</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_camera_roll">
+        <item quantity="other">%1$d мин. назад из Фотоплёнки</item>
+        <item quantity="one">%1$d минуту назад из Фотоплёнки</item>
+        <item quantity="few">%1$d минуты назад из Фотоплёнки</item>
+        <item quantity="many">%1$d минут назад из Фотоплёнки</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_chat">
+        <item quantity="other">%1$d мин. назад из чата</item>
+        <item quantity="one">%1$d минуту назад из чата</item>
+        <item quantity="few">%1$d минуты назад из чата</item>
+        <item quantity="many">%1$d минут назад из чата</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_cheerios">
+        <item quantity="other">%1$d мин. назад из Pixy</item>
+        <item quantity="one">%1$d мин. назад из Pixy</item>
+        <item quantity="few">%1$d мин. назад из Pixy</item>
+        <item quantity="many">%1$d мин. назад из Pixy</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d мин. назад от %2$s</item>
+        <item quantity="one">%1$d минуту назад от %2$s</item>
+        <item quantity="few">%1$d минуты назад от %2$s</item>
+        <item quantity="many">%1$d минут назад от %2$s</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_memories">
+        <item quantity="other">%1$d мин. назад из Воспоминаний</item>
+        <item quantity="one">%1$d минуту назад из Воспоминаний</item>
+        <item quantity="few">%1$d минуты назад из Воспоминаний</item>
+        <item quantity="many">%1$d минут назад из Воспоминаний</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_spectacles">
+        <item quantity="other">%1$d мин. назад из Spectacles</item>
+        <item quantity="one">%1$d минуту назад из Spectacles</item>
+        <item quantity="few">%1$d минуты назад из Spectacles</item>
+        <item quantity="many">%1$d минут назад из Spectacles</item>
+    </plurals>
+    <plurals name="minutes_ago_update">
+        <item quantity="other">Изменено %1$s минут назад</item>
+        <item quantity="one">Изменено %1$s минуту назад</item>
+        <item quantity="few">Изменено %1$s минуты назад</item>
+        <item quantity="many">Изменено %1$s минут назад</item>
+    </plurals>
+    <plurals name="months_abbreviated">
+        <item quantity="other">%d мес.</item>
+        <item quantity="one">%d месяц</item>
+        <item quantity="few">%d месяца</item>
+        <item quantity="many">%d месяцев</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated">
+        <item quantity="other">%d мес. назад</item>
+        <item quantity="one">%d месяц назад</item>
+        <item quantity="few">%d месяца назад</item>
+        <item quantity="many">%d месяцев назад</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_camera_roll">
+        <item quantity="other">%1$d мес. назад из Фотоплёнки</item>
+        <item quantity="one">%1$d месяц назад из Фотоплёнки</item>
+        <item quantity="few">%1$d месяца назад из Фотоплёнки</item>
+        <item quantity="many">%1$d месяцев назад из Фотоплёнки</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_chat">
+        <item quantity="other">%1$d мес. назад из чата</item>
+        <item quantity="one">%1$d месяц назад из чата</item>
+        <item quantity="few">%1$d месяца назад из чата</item>
+        <item quantity="many">%1$d месяцев назад из чата</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_cheerios">
+        <item quantity="other">%1$d мес. назад из Pixy</item>
+        <item quantity="one">%1$d мес. назад из Pixy</item>
+        <item quantity="few">%1$d мес. назад из Pixy</item>
+        <item quantity="many">%1$d мес. назад из Pixy</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d мес. назад от %2$s</item>
+        <item quantity="one">%1$d месяц назад от %2$s</item>
+        <item quantity="few">%1$d месяца назад от %2$s</item>
+        <item quantity="many">%1$d месяцев назад от %2$s</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_memories">
+        <item quantity="other">%1$d мес. назад из Воспоминаний</item>
+        <item quantity="one">%1$d месяц назад из Воспоминаний</item>
+        <item quantity="few">%1$d месяца назад из Воспоминаний</item>
+        <item quantity="many">%1$d месяцев назад из Воспоминаний</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_spectacles">
+        <item quantity="other">%1$d мес. назад из Spectacles</item>
+        <item quantity="one">%1$d мес. назад из Spectacles</item>
+        <item quantity="few">%1$d мес. назад из Spectacles</item>
+        <item quantity="many">%1$d мес. назад из Spectacles</item>
+    </plurals>
+    <plurals name="months_ago_update">
+        <item quantity="other">Изменено %1$s месяцев назад</item>
+        <item quantity="one">Изменено %1$s месяц назад</item>
+        <item quantity="few">Изменено %1$s месяца назад</item>
+        <item quantity="many">Изменено %1$s месяцев назад</item>
+    </plurals>
+    <plurals name="more_stories">
+        <item quantity="other">Ещё %d историй</item>
+        <item quantity="one">Ещё 1 история</item>
+        <item quantity="few">Ещё %d история</item>
+        <item quantity="many">Ещё %d истории</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d нового уведомления</item>
+        <item quantity="one">%d новое уведомление</item>
+        <item quantity="few">%d новых уведомления</item>
+        <item quantity="many">%d новых уведомлений</item>
+    </plurals>
+    <plurals name="muted_stories">
+        <item quantity="other">%d историй без уведомления</item>
+        <item quantity="one">1 история без уведомления</item>
+        <item quantity="few">%d история без уведомления</item>
+        <item quantity="many">%d истории без уведомления</item>
+    </plurals>
+    <plurals name="new_registration_continue_with_n_friends">
+        <item quantity="other">Добавить %d друга</item>
+        <item quantity="one">Добавить 1 друга</item>
+        <item quantity="few">Добавить %d друзей</item>
+        <item quantity="many">Добавить %d друзей</item>
+    </plurals>
+    <plurals name="num_hours">
+        <item quantity="other">%d часа</item>
+        <item quantity="one">%d час</item>
+        <item quantity="few">%d часа</item>
+        <item quantity="many">%d часов</item>
+    </plurals>
+    <plurals name="num_minutes">
+        <item quantity="other">%d минуты</item>
+        <item quantity="one">%d минута</item>
+        <item quantity="few">%d минуты</item>
+        <item quantity="many">%d минут</item>
+    </plurals>
+    <plurals name="nyc_audience_many_and_x_others">
+        <item quantity="other">%1$s+%2$d ещё</item>
+        <item quantity="one">%1$s+%2$d ещё</item>
+        <item quantity="few">%1$s+%2$d ещё</item>
+        <item quantity="many">%1$s+%2$d ещё</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_ft">
+        <item quantity="other">фута</item>
+        <item quantity="one">фут</item>
+        <item quantity="few">фута</item>
+        <item quantity="many">футов</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_km">
+        <item quantity="other">км</item>
+        <item quantity="one">км</item>
+        <item quantity="few">км</item>
+        <item quantity="many">км</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_m">
+        <item quantity="other">м</item>
+        <item quantity="one">м</item>
+        <item quantity="few">м</item>
+        <item quantity="many">м</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_mile">
+        <item quantity="other">мили</item>
+        <item quantity="one">миля</item>
+        <item quantity="few">мили</item>
+        <item quantity="many">миль</item>
+    </plurals>
+    <plurals name="nyc_friends_many_and_x_others">
+        <item quantity="other">%1$s и %2$s уже делятся местоположением с вами</item>
+        <item quantity="one">%1$s уже делится местоположением с вами</item>
+        <item quantity="few">%1$s и %2$s уже делятся местоположением с вами</item>
+        <item quantity="many">%1$s и %2$s уже делятся местоположением с вами</item>
+    </plurals>
+    <plurals name="nyc_sharing_live_location_with_friends">
+        <item quantity="other">"Вы делитесь местоположением с %1$s друзьями. "</item>
+        <item quantity="one">"Вы делитесь местоположением с %1$s другом. "</item>
+        <item quantity="few">"Вы делитесь местоположением с %1$s друзьями. "</item>
+        <item quantity="many">"Вы делитесь местоположением с %1$s друзьями. "</item>
+    </plurals>
+    <plurals name="nyc_unhide_live_location_friend_dialog_title">
+        <item quantity="other">Вы скрываете своё местоположение ещё от %1$d друзей.</item>
+        <item quantity="one">Вы скрываете своё местоположение ещё от 1 друга.</item>
+        <item quantity="few">Вы скрываете своё местоположение ещё от %1$d друзей.</item>
+        <item quantity="many">Вы скрываете своё местоположение ещё от %1$d друзей.</item>
+    </plurals>
+    <plurals name="pairing_validation_description">
+        <item quantity="other">На ваших Pixy хранится %d Snap предыдущего пользователя. Подключение этого устройства приведёт к сбросу настроек и удалению всех Snap и данных пользователя.</item>
+        <item quantity="one">На ваших Pixy хранится 1 Snap предыдущего пользователя. Подключение этого устройства приведёт к сбросу настроек и удалению всех Snap и данных пользователя.</item>
+        <item quantity="few">На ваших Pixy хранится %d Snap предыдущего пользователя. Подключение этого устройства приведёт к сбросу настроек и удалению всех Snap и данных пользователя.</item>
+        <item quantity="many">На ваших Pixy хранится %d Snap предыдущего пользователя. Подключение этого устройства приведёт к сбросу настроек и удалению всех Snap и данных пользователя.</item>
+    </plurals>
+    <plurals name="payments_num_purchased_items">
+        <item quantity="other">%d объектов</item>
+        <item quantity="one">1 объект</item>
+        <item quantity="few">%d объектов</item>
+        <item quantity="many">%d объектов</item>
+    </plurals>
+    <plurals name="pending_syncs_logout_warning">
+        <item quantity="other">Несколько Snap (%1$d) ещё не сохранились в Воспоминаниях. Если вы выйдете сейчас, то можете их потерять.</item>
+        <item quantity="one">1 Snap ещё не сохранился в Воспоминаниях. Если вы выйдете сейчас, то можете его потерять.</item>
+        <item quantity="few">Несколько Snap (%1$d) ещё не сохранились в Воспоминаниях. Если вы выйдете сейчас, то можете их потерять.</item>
+        <item quantity="many">%1$d Snap ещё не сохранились в Воспоминаниях. Если вы выйдете сейчас, то можете их потерять.</item>
+    </plurals>
+    <plurals name="perception_lens_collection_scan_card_lenses_count">
+        <item quantity="other">%d линзы</item>
+        <item quantity="one">%d линза</item>
+        <item quantity="few">%d линзы</item>
+        <item quantity="many">%d линз</item>
+    </plurals>
+    <plurals name="perception_lenses_scan_card_try_lenses">
+        <item quantity="other">Попробовать линзы (%d)</item>
+        <item quantity="one">Попробовать линзу</item>
+        <item quantity="few">Попробовать линзы (%d)</item>
+        <item quantity="many">Попробовать линзы (%d)</item>
+    </plurals>
+    <plurals name="play_with_max_player_alert_text">
+        <item quantity="other">В этой игре не более %1$d игроков</item>
+        <item quantity="one">В этой игре не более %1$d игрока</item>
+        <item quantity="few">В этой игре не более %1$d игроков</item>
+        <item quantity="many">В этой игре не более %1$d игроков</item>
+    </plurals>
+    <plurals name="post_pairing_import_title">
+        <item quantity="other">%d новых Snap</item>
+        <item quantity="one">%d новый Snap</item>
+        <item quantity="few">%d новых Snap</item>
+        <item quantity="many">%d новых Snap</item>
+    </plurals>
+    <plurals name="registration_continue_with_n_friends">
+        <item quantity="other">+Добавить %d друга</item>
+        <item quantity="one">+Добавить 1 друга</item>
+        <item quantity="few">+Добавить %d друзей</item>
+        <item quantity="many">+Добавить %d друзей</item>
+    </plurals>
+    <plurals name="save_button_tooltip_saved_multiple">
+        <item quantity="other">Snap (%1$d) сохранены!</item>
+        <item quantity="one">%1$d Snap сохранён!</item>
+        <item quantity="few">Snap (%1$d) сохранены!</item>
+        <item quantity="many">Snap (%1$d) сохранены!</item>
+    </plurals>
+    <plurals name="saved_media_gallery_attribution_media_count">
+        <item quantity="other">Snap: %s</item>
+        <item quantity="one">%s Snap</item>
+        <item quantity="few">Snap: %s</item>
+        <item quantity="many">Snap: %s</item>
+    </plurals>
+    <plurals name="seconds_abbreviated">
+        <item quantity="other">%d с.</item>
+        <item quantity="one">%d секунда</item>
+        <item quantity="few">%d секунды</item>
+        <item quantity="many">%d секунд</item>
+    </plurals>
+    <plurals name="seconds_ago">
+        <item quantity="other">%d с.</item>
+        <item quantity="one">%d с.</item>
+        <item quantity="few">%d с.</item>
+        <item quantity="many">%d с.</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated">
+        <item quantity="other">%d секунды назад</item>
+        <item quantity="one">%d секунду назад</item>
+        <item quantity="few">%d секунды назад</item>
+        <item quantity="many">%d секунд назад</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_camera_roll">
+        <item quantity="other">%1$d c. назад из Фотоплёнки</item>
+        <item quantity="one">%1$d cекунду назад из Фотоплёнки</item>
+        <item quantity="few">%1$d cекунды назад из Фотоплёнки</item>
+        <item quantity="many">%1$d cекунд назад из Фотоплёнки</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_chat">
+        <item quantity="other">%1$d с. назад из чата</item>
+        <item quantity="one">%1$d секунду назад из чата</item>
+        <item quantity="few">%1$d секунды назад из чата</item>
+        <item quantity="many">%1$d секунд назад из чата</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_cheerios">
+        <item quantity="other">%1$d с. назад из Pixy</item>
+        <item quantity="one">%1$d с. назад из Pixy</item>
+        <item quantity="few">%1$d с. назад из Pixy</item>
+        <item quantity="many">%1$d с. назад из Pixy</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d с. назад от %2$s</item>
+        <item quantity="one">%1$d секунду назад от %2$s</item>
+        <item quantity="few">%1$d секунды назад от %2$s</item>
+        <item quantity="many">%1$d секунд назад от %2$s</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_memories">
+        <item quantity="other">%1$d с. назад из Воспоминаний</item>
+        <item quantity="one">%1$d секунду назад из Воспоминаний</item>
+        <item quantity="few">%1$d секунды назад из Воспоминаний</item>
+        <item quantity="many">%1$d секунд назад из Воспоминаний</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_spectacles">
+        <item quantity="other">%1$d с. назад из Spectacles</item>
+        <item quantity="one">%1$d секунду назад из Spectacles</item>
+        <item quantity="few">%1$d секунды назад из Spectacles</item>
+        <item quantity="many">%1$d секунд назад из Spectacles</item>
+    </plurals>
+    <plurals name="seconds_ago_update">
+        <item quantity="other">Изменено %1$s секунд назад</item>
+        <item quantity="one">Изменено %1$s секунду назад</item>
+        <item quantity="few">Изменено %1$s секунды назад</item>
+        <item quantity="many">Изменено %1$s секунд назад</item>
+    </plurals>
+    <plurals name="select_friend_friend">
+        <item quantity="other">друзья (%1$d)</item>
+        <item quantity="one">1 друг</item>
+        <item quantity="few">друзья (%1$d)</item>
+        <item quantity="many">друзья (%1$d)</item>
+    </plurals>
+    <plurals name="select_friend_other">
+        <item quantity="other">%1$s и ещё %2$d</item>
+        <item quantity="one">%1$s и ещё 1</item>
+        <item quantity="few">%1$s и ещё %2$d</item>
+        <item quantity="many">%1$s и ещё %2$d</item>
+    </plurals>
+    <plurals name="settings_birthday_update_years_old">
+        <item quantity="other">Сейчас мне %d.</item>
+        <item quantity="one">Сейчас мне %d.</item>
+        <item quantity="few">Сейчас мне %d.</item>
+        <item quantity="many">Сейчас мне %d.</item>
+    </plurals>
+    <plurals name="snap_timer_selection_units">
+        <item quantity="other">секунд</item>
+        <item quantity="one">секунда</item>
+        <item quantity="few">секунды</item>
+        <item quantity="many">секунд</item>
+    </plurals>
+    <plurals name="snaps_count">
+        <item quantity="other">%1$d Snap</item>
+        <item quantity="one">%1$d Snap</item>
+        <item quantity="few">%1$d Snap</item>
+        <item quantity="many">%1$d Snap</item>
+    </plurals>
+    <plurals name="spectacles_export_customization_description">
+        <item quantity="other">Как экспортировать Snap?</item>
+        <item quantity="one">Как экспортировать Snap?</item>
+        <item quantity="few">Как экспортировать Snap?</item>
+        <item quantity="many">Как экспортировать Snap?</item>
+    </plurals>
+    <plurals name="spotlight_comments_count_notification_title">
+        <item quantity="other">%d комментария в Spotlight в ожидании!</item>
+        <item quantity="one">1 комментарий в Spotlight в ожидании!</item>
+        <item quantity="few">%d комментария в Spotlight в ожидании!</item>
+        <item quantity="many">%d комментариев в Spotlight в ожидании!</item>
+    </plurals>
+    <plurals name="status_views">
+        <item quantity="other">%d просмотра</item>
+        <item quantity="one">%d просмотр</item>
+        <item quantity="few">%d просмотра</item>
+        <item quantity="many">%d просмотров</item>
+    </plurals>
+    <plurals name="still_sharing_last_active_location_description">
+        <item quantity="other">"Ваше местоположение скрыто, однако несколько друзей (%1$s) по-прежнему могут видеть ваше последнее местоположение.
+
+ Вы можете изменить это в настройках карты."</item>
+        <item quantity="one">"Ваше местоположение скрыто, однако %1$s друг по-прежнему может видеть ваше последнее местоположение.
+
+ Вы можете изменить это в настройках карты."</item>
+        <item quantity="few">"Ваше местоположение скрыто, однако несколько друзей (%1$s) по-прежнему могут видеть ваше последнее местоположение.
+
+ Вы можете изменить это в настройках карты."</item>
+        <item quantity="many">"Ваше местоположение скрыто, однако несколько друзей (%1$s) по-прежнему могут видеть ваше последнее местоположение.
+
+ Вы можете изменить это в настройках карты."</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_change_audience">
+        <item quantity="other">Вы сохранили настройки местоположения, однако несколько (%1$s) друзей всё равно могут видеть ваше местоположение. Чтобы скрыть его, нажмите «Остановить» рядом с именем человека</item>
+        <item quantity="one">Вы сохранили настройки местоположения, однако некоторые друзья (%1$s) всё равно могут видеть ваше местоположение. Чтобы скрыть его, нажмите «Остановить» рядом с именем человека</item>
+        <item quantity="few">Вы сохранили настройки местоположения, однако несколько (%1$s) друзей всё равно могут видеть ваше местоположение. Чтобы скрыть его, нажмите «Остановить» рядом с именем человека</item>
+        <item quantity="many">Вы сохранили настройки местоположения, однако несколько (%1$s) друзей всё равно могут видеть ваше местоположение. Чтобы скрыть его, нажмите «Остановить» рядом с именем человека</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_enter_ghost_mode">
+        <item quantity="other">Вы находитесь в режиме невидимки, однако несколько (%1$s) друзей всё равно могут видеть ваше местоположение. Чтобы скрыть его, нажмите «Остановить» рядом с именем человека.</item>
+        <item quantity="one">Вы находитесь в режиме невидимки, однако некоторые друзья (%1$s) всё равно могут видеть ваше местоположение. Чтобы скрыть его, нажмите «Остановить» рядом с именем человека.</item>
+        <item quantity="few">Вы находитесь в режиме невидимки, однако несколько (%1$s) друзей всё равно могут видеть ваше местоположение. Чтобы скрыть его, нажмите «Остановить» рядом с именем человека.</item>
+        <item quantity="many">Вы находитесь в режиме невидимки, однако несколько (%1$s) друзей всё равно могут видеть ваше местоположение. Чтобы скрыть его, нажмите «Остановить» рядом с именем человека.</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_enter_ghost_mode_ghost_trail">
+        <item quantity="other">"Вы находитесь в режиме невидимки, однако %1$s друзей всё равно могут видеть ваше местоположение. Чтобы скрыть его, нажмите «Остановить» рядом с именем человека.
+
+Пока вы в режиме невидимки, местоположение не будет добавлено к вашим Призрачным тропам."</item>
+        <item quantity="one">"Вы находитесь в режиме невидимки, однако %1$s друг всё равно может видеть ваше местоположение. Чтобы скрыть его, нажмите «Остановить» рядом с именем человека.
+
+Пока вы в режиме невидимки, местоположение не будет добавлено к вашим Призрачным тропам."</item>
+        <item quantity="few">"Вы находитесь в режиме невидимки, однако %1$s друга всё равно могут видеть ваше местоположение. Чтобы скрыть его, нажмите «Остановить» рядом с именем человека.
+
+Пока вы в режиме невидимки, местоположение не будет добавлено к вашим Призрачным тропам."</item>
+        <item quantity="many">"Вы находитесь в режиме невидимки, однако %1$s друзей всё равно могут видеть ваше местоположение. Чтобы скрыть его, нажмите «Остановить» рядом с именем человека.
+
+Пока вы в режиме невидимки, местоположение не будет добавлено к вашим Призрачным тропам."</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_enter_ghost_mode_hide_live_location">
+        <item quantity="other">Вы находитесь в режиме невидимки, однако несколько друзей (%1$s) всё равно могут видеть ваше местоположение. Чтобы приостановить трансляцию местоположения, нажмите «Скрыть моё местоположение» ниже.</item>
+        <item quantity="one">Вы находитесь в режиме невидимки, однако %1$s друг всё равно может видеть ваше местоположение. Чтобы приостановить трансляцию местоположения, нажмите «Скрыть моё местоположение» ниже.</item>
+        <item quantity="few">Вы находитесь в режиме невидимки, однако несколько друзей (%1$s) всё равно могут видеть ваше местоположение. Чтобы приостановить трансляцию местоположения, нажмите «Скрыть моё местоположение» ниже.</item>
+        <item quantity="many">Вы находитесь в режиме невидимки, однако несколько друзей (%1$s) всё равно могут видеть ваше местоположение. Чтобы приостановить трансляцию местоположения, нажмите «Скрыть моё местоположение» ниже.</item>
+    </plurals>
+    <plurals name="story_friend_story_notification_title_update">
+        <item quantity="other">Обновления в историях %d друга</item>
+        <item quantity="one">Обновления в историях %d друга</item>
+        <item quantity="few">Обновления в историях %d друзей</item>
+        <item quantity="many">Обновления в историях %d друзей</item>
+    </plurals>
+    <plurals name="story_fullscreen_footer_view_count">
+        <item quantity="other">Посмотрели: %d</item>
+        <item quantity="one">%d просмотр</item>
+        <item quantity="few">%d просмотра</item>
+        <item quantity="many">%d просмотров</item>
+    </plurals>
+    <plurals name="story_management_viewer_list_more_viewers">
+        <item quantity="other">+ ещё %1$d</item>
+        <item quantity="one">+ ещё %1$d</item>
+        <item quantity="few">+ ещё %1$d</item>
+        <item quantity="many">+ ещё %1$d</item>
+    </plurals>
+    <plurals name="story_mob_subtext_more">
+        <item quantity="other">%1$s и ещё %2$d…</item>
+        <item quantity="one">%1$s и ещё %2$d…</item>
+        <item quantity="few">%1$s и ещё %2$d…</item>
+        <item quantity="many">%1$s и ещё %2$d…</item>
+    </plurals>
+    <plurals name="story_profile_communities_members">
+        <item quantity="other">Подтверждено • %d участника</item>
+        <item quantity="one">Подтверждено • %d участник</item>
+        <item quantity="few">Подтверждено • %d участника</item>
+        <item quantity="many">Подтверждено • %d участников</item>
+    </plurals>
+    <plurals name="story_profile_shared_stories_members">
+        <item quantity="other">%d участника</item>
+        <item quantity="one">%d участник</item>
+        <item quantity="few">%d участника</item>
+        <item quantity="many">%d участников</item>
+    </plurals>
+    <plurals name="story_profile_stories_adding">
+        <item quantity="other">Добавляю %d Snap...</item>
+        <item quantity="one">Добавляю %d Snap…</item>
+        <item quantity="few">Добавляю %d Snap...</item>
+        <item quantity="many">Добавляю %d Snap...</item>
+    </plurals>
+    <plurals name="story_profile_stories_failed_to_add">
+        <item quantity="other">Не удалось добавить %d Snap</item>
+        <item quantity="one">Не удалось добавить %d Snap</item>
+        <item quantity="few">Не удалось добавить %d Snap</item>
+        <item quantity="many">Не удалось добавить %d Snap</item>
+    </plurals>
+    <plurals name="story_profile_stories_waiting_to_add">
+        <item quantity="other">Жду добавления %d Snap...</item>
+        <item quantity="one">Жду добавления %d Snap...</item>
+        <item quantity="few">Жду добавления %d Snap...</item>
+        <item quantity="many">Жду добавления %d Snap...</item>
+    </plurals>
+    <plurals name="story_settings_action_menu_my_story_blocked_number_of_people">
+        <item quantity="other">%d чел.</item>
+        <item quantity="one">1 человек</item>
+        <item quantity="few">%d человека</item>
+        <item quantity="many">%d человек</item>
+    </plurals>
+    <plurals name="streak_restore_dialog_subtitle_free_restore">
+        <item quantity="other">У вас осталось %1$d бесплатных восстановления.</item>
+        <item quantity="one">У вас осталось %1$d бесплатное восстановление.</item>
+        <item quantity="few">У вас осталось %1$d бесплатных восстановления.</item>
+        <item quantity="many">У вас осталось %1$d бесплатных восстановления.</item>
+    </plurals>
+    <plurals name="streak_restore_dialog_subtitle_hours">
+        <item quantity="other">У вас осталось %2$d часа, чтобы восстановить Snap-марафон с %1$s, пока он не исчез навсегда!</item>
+        <item quantity="one">У вас остался %2$d час, чтобы восстановить Snap-марафон с %1$s, пока он не исчез навсегда!</item>
+        <item quantity="few">У вас осталось %2$d часа, чтобы восстановить Snap-марафон с %1$s, пока он не исчез навсегда!</item>
+        <item quantity="many">У вас осталось %2$d часов, чтобы восстановить Snap-марафон с %1$s, пока он не исчез навсегда!</item>
+    </plurals>
+    <plurals name="streak_restore_dialog_subtitle_minutes">
+        <item quantity="other">У вас осталось %2$d минуты, чтобы восстановить Snap-марафон с %1$s, пока он не исчез навсегда!</item>
+        <item quantity="one">У вас осталась %2$d минута, чтобы восстановить Snap-марафон с %1$s, пока он не исчез навсегда!</item>
+        <item quantity="few">У вас осталось %2$d минуты, чтобы восстановить Snap-марафон с %1$s, пока он не исчез навсегда!</item>
+        <item quantity="many">У вас осталось %2$d минут, чтобы восстановить Snap-марафон с %1$s, пока он не исчез навсегда!</item>
+    </plurals>
+    <plurals name="subtitle_sharing_custom_friends">
+        <item quantity="other">с %d друзьями</item>
+        <item quantity="one">с %d другом</item>
+        <item quantity="few">с %d друзьями</item>
+        <item quantity="many">с %d друзьями</item>
+    </plurals>
+    <plurals name="takeover_request_index_and_total">
+        <item quantity="other">%1$d из %2$d добавлений в друзья</item>
+        <item quantity="one">%1$d из %2$d добавлений в друзья</item>
+        <item quantity="few">%1$d из %2$d добавлений в друзья</item>
+        <item quantity="many">%1$d из %2$d добавлений в друзья</item>
+    </plurals>
+    <plurals name="ticketmaster_events_label">
+        <item quantity="other">события</item>
+        <item quantity="one">событие</item>
+        <item quantity="few">события</item>
+        <item quantity="many">событий</item>
+    </plurals>
+    <plurals name="watched_stories">
+        <item quantity="other">Просмотрено %d историй</item>
+        <item quantity="one">1 просмотренная история</item>
+        <item quantity="few">Просмотрена %d история</item>
+        <item quantity="many">Просмотрено %d истории</item>
+    </plurals>
+    <plurals name="weeks">
+        <item quantity="other">%d недели</item>
+        <item quantity="one">%d неделя</item>
+        <item quantity="few">%d недели</item>
+        <item quantity="many">%d недель</item>
+    </plurals>
+    <plurals name="weeks_abbreviated">
+        <item quantity="other">%d нед.</item>
+        <item quantity="one">%d неделя</item>
+        <item quantity="few">%d нед.</item>
+        <item quantity="many">%d недель</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated">
+        <item quantity="other">%d нед. назад</item>
+        <item quantity="one">%d неделю назад</item>
+        <item quantity="few">%d недели назад</item>
+        <item quantity="many">%d недель назад</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_camera_roll">
+        <item quantity="other">%1$d нед. назад из Фотоплёнки</item>
+        <item quantity="one">%1$d неделю назад из Фотоплёнки</item>
+        <item quantity="few">%1$d недели назад из Фотоплёнки</item>
+        <item quantity="many">%1$d недель назад из Фотоплёнки</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_chat">
+        <item quantity="other">%1$d нед. назад из чата</item>
+        <item quantity="one">%1$d неделю назад из чата</item>
+        <item quantity="few">%1$d недели назад из чата</item>
+        <item quantity="many">%1$d недель назад из чата</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_cheerios">
+        <item quantity="other">%1$d нед. назад из Pixy</item>
+        <item quantity="one">%1$d нед. назад из Pixy</item>
+        <item quantity="few">%1$d нед. назад из Pixy</item>
+        <item quantity="many">%1$d нед. назад из Pixy</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d нед. назад от %2$s</item>
+        <item quantity="one">%1$d неделю назад от %2$s</item>
+        <item quantity="few">%1$d недели назад от %2$s</item>
+        <item quantity="many">%1$d недель назад от %2$s</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_memories">
+        <item quantity="other">%1$d нед. назад из Воспоминаний</item>
+        <item quantity="one">%1$d неделю назад из Воспоминаний</item>
+        <item quantity="few">%1$d недели назад из Воспоминаний</item>
+        <item quantity="many">%1$d недель назад из Воспоминаний</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_spectacles">
+        <item quantity="other">%1$d нед. назад из Spectacles</item>
+        <item quantity="one">%1$d неделю назад из Spectacles</item>
+        <item quantity="few">%1$d недели назад из Spectacles</item>
+        <item quantity="many">%1$d недель назад из Spectacles</item>
+    </plurals>
+    <plurals name="weeks_ago_update">
+        <item quantity="other">Изменено %1$s недель назад</item>
+        <item quantity="one">Изменено %1$s неделю назад</item>
+        <item quantity="few">Изменено %1$s недели назад</item>
+        <item quantity="many">Изменено %1$s недель назад</item>
+    </plurals>
+    <plurals name="years_abbreviated">
+        <item quantity="other">%d г.</item>
+        <item quantity="one">%d год</item>
+        <item quantity="few">%d года</item>
+        <item quantity="many">%d лет</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated">
+        <item quantity="other">%d г. назад</item>
+        <item quantity="one">%d год назад</item>
+        <item quantity="few">%d года назад</item>
+        <item quantity="many">%d лет назад</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_camera_roll">
+        <item quantity="other">%1$d г. назад из Фотоплёнки</item>
+        <item quantity="one">%1$d год назад из Фотоплёнки</item>
+        <item quantity="few">%1$d года назад из Фотоплёнки</item>
+        <item quantity="many">%1$d лет назад из Фотоплёнки</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_chat">
+        <item quantity="other">%1$d г. назад из чата</item>
+        <item quantity="one">%1$d год назад из чата</item>
+        <item quantity="few">%1$d года назад из чата</item>
+        <item quantity="many">%1$d лет назад из чата</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_cheerios">
+        <item quantity="other">%1$d г. назад из Pixy</item>
+        <item quantity="one">%1$d год назад из Pixy</item>
+        <item quantity="few">%1$d года назад из Pixy</item>
+        <item quantity="many">%1$d лет назад из Pixy</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d г. назад от %2$s</item>
+        <item quantity="one">%1$d год назад от %2$s</item>
+        <item quantity="few">%1$d года назад от %2$s</item>
+        <item quantity="many">%1$d лет назад от %2$s</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_memories">
+        <item quantity="other">%1$d г. назад из Воспоминаний</item>
+        <item quantity="one">%1$d год назад из Воспоминаний</item>
+        <item quantity="few">%1$d года назад из Воспоминаний</item>
+        <item quantity="many">%1$d лет назад из Воспоминаний</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_spectacles">
+        <item quantity="other">%1$d г. назад из Spectacles</item>
+        <item quantity="one">%1$d год назад из Spectacles</item>
+        <item quantity="few">%1$d года назад из Spectacles</item>
+        <item quantity="many">%1$d лет назад из Spectacles</item>
+    </plurals>
+    <plurals name="years_ago_update">
+        <item quantity="other">Изменено %1$s лет назад</item>
+        <item quantity="one">Изменено %1$s год назад</item>
+        <item quantity="few">Изменено %1$s года назад</item>
+        <item quantity="many">Изменено %1$s лет назад</item>
+    </plurals>
+</resources>

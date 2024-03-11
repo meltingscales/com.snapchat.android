@@ -1,0 +1,39 @@
+{
+  "logQueueDefinitions": [
+    {
+      "name": "s0",
+      "collectorUrls": {
+        "PROD": "https://gcp.api.snapchat.com/streaming-collector/collect",
+        "STAGING": "https://gcp.api.snapchat.com/streaming-collector/collect"
+      },
+      "uploadBatchMax": 1,
+      "uploadInterval": 5000
+    },
+    {
+      "name": "s1",
+      "collectorUrls": {
+        "PROD": "https://gcp.api.snapchat.com/streaming-collector/collect",
+        "STAGING": "https://gcp.api.snapchat.com/streaming-collector/collect"
+      },
+      "uploadBatchMax": 4,
+      "uploadInterval": 10000
+    }
+  ],
+  "qosToLogQueueNameMap": {
+    "TIER0": [
+      "s0"
+    ],
+    "BUSINESS_CRITICAL": [
+      "s1"
+    ],
+    "BUSINESS": [
+      "s1"
+    ],
+    "BEST_EFFORT": [
+      "s1"
+    ],
+    "OPS": [
+      "s1"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.snap.component.cards.SnapCardView android:id="@+id/headerCard" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_gap_1_25x" android:layout_marginBottom="@dimen/default_gap_2_25x" android:layout_marginStart="@dimen/default_gap_2x" android:layout_marginEnd="@dimen/default_gap_2x" app:cardCornerRadius="10dp" app:cardElevation="1dp">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.snap.imageloading.view.SnapImageView android:id="@+id/bloopsBannerBackground" android:layout_width="match_parent" android:layout_height="66dp" android:scaleType="centerCrop"/>
+            <com.snap.imageloading.view.SnapImageView android:layout_gravity="end|center_vertical" android:id="@+id/dismissCard" android:padding="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:tint="@color/sig_color_flat_pure_white_any" android:layout_marginEnd="@dimen/default_gap_2x" app:srcCompat="@drawable/svg_bloops_close_card"/>
+        </FrameLayout>
+    </com.snap.component.cards.SnapCardView>
+</FrameLayout>

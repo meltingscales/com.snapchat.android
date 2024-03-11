@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/profile_card_background">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/v11_card_border_radius"/>
+            <solid android:color="?attr/sigColorBackgroundSurface"/>
+        </shape>
+    </item>
+</layer-list>

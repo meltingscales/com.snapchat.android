@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:color="@color/sig_color_base_success_green_any"/>
+    <item android:color="@color/sig_color_base_success_green_any" android:state_activated="true"/>
+    <item android:state_pressed="false" android:color="?attr/sigColorIconSecondary"/>
+</selector>

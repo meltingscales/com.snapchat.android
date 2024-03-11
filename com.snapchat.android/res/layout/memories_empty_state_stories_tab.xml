@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/memories_empty_state_stories_tab" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/memories_empty_state_top_margin" layout="@layout/memories_empty_state" />
+    <com.snap.memories.lib.grid.view.MemoriesEmptyStateStoryView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/memories_empty_state_story_container_top_margin" />
+</LinearLayout>

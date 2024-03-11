@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.ui.view.SnapFontTextView android:textSize="@dimen/v11_action_text_size" android:textColor="@color/sig_color_base_gray80_any" android:layout_gravity="center_vertical" android:id="@id/action_menu_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="false" app:scFontWeight="bold" style="@style/ActionMenuHeaderStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

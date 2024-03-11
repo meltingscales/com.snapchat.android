@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/send_to_attachment_background" android:padding="@dimen/default_gap" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.snap.ui.view.SnapFontEditText android:id="@id/send_to_preview_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/default_gap" android:hint="@string/add_a_chat" android:layout_marginStart="@dimen/default_gap" android:layout_marginEnd="@dimen/default_gap" style="@style/SendToAttachmentText" />
+    <FrameLayout android:id="@id/send_to_preview_content" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

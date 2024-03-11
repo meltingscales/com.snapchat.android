@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bloopsCornerColor">#000000</color>
+    <color name="chrome_button_selected">@color/sig_color_brand_primary_any</color>
+    <color name="layer_label_surface">@color/sig_color_flat_pure_black_any</color>
+    <color name="layer_label_text">@color/sig_color_flat_pure_white_any</color>
+</resources>

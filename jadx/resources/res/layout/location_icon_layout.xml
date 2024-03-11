@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/location_icon_gradient" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.snap.imageloading.view.SnapImageView android:layout_gravity="end|top" android:id="@+id/spotlight_snap_map_location_icon" android:layout_width="wrap_content" android:layout_height="@dimen/spotlight_snap_map_grid_view_page_thumbnail_location_pin_icon_height" android:layout_marginTop="@dimen/default_gap_half" android:src="@drawable/svg_thumbnail_location_pin_icon" android:adjustViewBounds="true" android:tint="?attr/colorWhite" android:layout_marginEnd="@dimen/default_gap_half"/>
+</FrameLayout>

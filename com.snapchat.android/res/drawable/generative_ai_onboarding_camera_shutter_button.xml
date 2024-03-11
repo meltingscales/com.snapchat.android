@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="ring" android:useLevel="false" android:thickness="6.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/generative_ai_onboarding_camera_capture_button_color" />
+    <size android:height="84.0dip" android:width="84.0dip" />
+</shape>

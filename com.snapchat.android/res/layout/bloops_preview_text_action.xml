@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/text_button" android:background="@drawable/bloops_action_menu_text_item_selector" android:layout_width="fill_parent" android:layout_height="@dimen/bloops_preview_actions_text_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.snap.ui.view.SnapFontTextView android:textSize="?v11Title1TextSize" android:textStyle="bold" android:textColor="?sigColorTextPrimary" android:layout_gravity="center_vertical" android:id="@id/text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bloops_preview_actions_text_horizontal_margin" android:layout_marginRight="@dimen/bloops_preview_actions_text_horizontal_margin" />
+</FrameLayout>

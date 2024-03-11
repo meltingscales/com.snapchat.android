@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.lenses.camera.closebutton.DefaultCloseButtonView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/lenses_camera_close_button_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" android:minWidth="@dimen/lens_camera_carousel_close_button_size" android:minHeight="@dimen/lens_camera_carousel_close_button_size" style="?attr/carouselCloseButtonStyle"/>

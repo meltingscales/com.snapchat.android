@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<app.aifactory.sdk.view.HdLayoutByWidth android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_margin="1.0dip" android:foreground="?android:selectableItemBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/reel_item" />
+</app.aifactory.sdk.view.HdLayoutByWidth>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.lenses.explorer.action.DefaultActionView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:orientation="vertical" android:id="@+id/explorer_action" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.snap.imageloading.view.SnapImageView android:layout_gravity="top|center_horizontal" android:id="@+id/explorer_action_icon" android:layout_width="32dp" android:layout_height="32dp"/>
+</com.snap.lenses.explorer.action.DefaultActionView>

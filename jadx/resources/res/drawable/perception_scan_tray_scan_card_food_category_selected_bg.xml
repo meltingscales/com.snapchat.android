@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <stroke android:width="@dimen/perception_scan_card_food_category_image_selection_border_width" android:color="@color/sig_color_icon_selected_light"/>
+    <corners android:radius="@dimen/perception_scan_cards_thumbnail_corner_radius"/>
+</shape>

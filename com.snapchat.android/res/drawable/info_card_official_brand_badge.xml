@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="start" android:drawable="@drawable/svg_official_brand_star_12x12" />
+    <item android:gravity="start" android:drawable="@drawable/info_card_creator_badge" android:left="12.0dip" android:top="-2.0dip" />
+</layer-list>

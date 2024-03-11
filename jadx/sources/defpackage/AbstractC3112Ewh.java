@@ -1,0 +1,100 @@
+package defpackage;
+
+import com.snapchat.client.mediaengine.SnapMuxer;
+import io.requery.android.database.sqlite.SQLiteDatabase;
+import java.util.HashMap;
+import org.opencv.imgproc.Imgproc;
+
+/* renamed from: Ewh  reason: default package and case insensitive filesystem */
+/* loaded from: classes2.dex */
+public abstract class AbstractC3112Ewh {
+    public static final HashMap a;
+
+    static {
+        HashMap hashMap = new HashMap(47);
+        a = hashMap;
+        AbstractC17373aah.g(15792383, hashMap, "aliceblue", 16444375, "antiquewhite");
+        Integer valueOf = Integer.valueOf((int) SnapMuxer.COMMAND_TARGET_ALL);
+        AbstractC17373aah.h(hashMap, "aqua", valueOf, 8388564, "aquamarine");
+        AbstractC17373aah.g(15794175, hashMap, "azure", 16119260, "beige");
+        AbstractC17373aah.g(16770244, hashMap, "bisque", 0, "black");
+        AbstractC17373aah.g(16772045, hashMap, "blanchedalmond", 255, "blue");
+        AbstractC17373aah.g(9055202, hashMap, "blueviolet", 10824234, "brown");
+        AbstractC17373aah.g(14596231, hashMap, "burlywood", 6266528, "cadetblue");
+        AbstractC17373aah.g(8388352, hashMap, "chartreuse", 13789470, "chocolate");
+        AbstractC17373aah.g(16744272, hashMap, "coral", 6591981, "cornflowerblue");
+        AbstractC17373aah.g(16775388, hashMap, "cornsilk", 14423100, "crimson");
+        AbstractC17373aah.h(hashMap, "cyan", valueOf, Imgproc.COLOR_COLORCVT_MAX, "darkblue");
+        AbstractC17373aah.g(35723, hashMap, "darkcyan", 12092939, "darkgoldenrod");
+        AbstractC17373aah.h(hashMap, "darkgray", 11119017, 25600, "darkgreen");
+        AbstractC17373aah.h(hashMap, "darkgrey", 11119017, 12433259, "darkkhaki");
+        AbstractC17373aah.g(9109643, hashMap, "darkmagenta", 5597999, "darkolivegreen");
+        AbstractC17373aah.g(16747520, hashMap, "darkorange", 10040012, "darkorchid");
+        AbstractC17373aah.g(9109504, hashMap, "darkred", 15308410, "darksalmon");
+        AbstractC17373aah.g(9419919, hashMap, "darkseagreen", 4734347, "darkslateblue");
+        hashMap.put("darkslategray", 3100495);
+        hashMap.put("darkslategrey", 3100495);
+        AbstractC17373aah.h(hashMap, "darkturquoise", 52945, 9699539, "darkviolet");
+        AbstractC17373aah.g(16716947, hashMap, "deeppink", 49151, "deepskyblue");
+        hashMap.put("dimgray", 6908265);
+        hashMap.put("dimgrey", 6908265);
+        AbstractC17373aah.h(hashMap, "dodgerblue", 2003199, 11674146, "firebrick");
+        AbstractC17373aah.g(16775920, hashMap, "floralwhite", 2263842, "forestgreen");
+        AbstractC17373aah.h(hashMap, "fuchsia", 16711935, 14474460, "gainsboro");
+        AbstractC17373aah.g(16316671, hashMap, "ghostwhite", 16766720, "gold");
+        hashMap.put("goldenrod", 14329120);
+        hashMap.put("gray", 8421504);
+        AbstractC17373aah.g(SQLiteDatabase.OPEN_NOMUTEX, hashMap, "green", 11403055, "greenyellow");
+        AbstractC17373aah.h(hashMap, "grey", 8421504, 15794160, "honeydew");
+        AbstractC17373aah.g(16738740, hashMap, "hotpink", 13458524, "indianred");
+        AbstractC17373aah.g(4915330, hashMap, "indigo", 16777200, "ivory");
+        AbstractC17373aah.g(15787660, hashMap, "khaki", 15132410, "lavender");
+        AbstractC17373aah.g(16773365, hashMap, "lavenderblush", 8190976, "lawngreen");
+        AbstractC17373aah.g(16775885, hashMap, "lemonchiffon", 11393254, "lightblue");
+        AbstractC17373aah.g(15761536, hashMap, "lightcoral", 14745599, "lightcyan");
+        hashMap.put("lightgoldenrodyellow", 16448210);
+        hashMap.put("lightgray", 13882323);
+        hashMap.put("lightgreen", 9498256);
+        hashMap.put("lightgrey", 13882323);
+        AbstractC17373aah.g(16758465, hashMap, "lightpink", 16752762, "lightsalmon");
+        AbstractC17373aah.g(2142890, hashMap, "lightseagreen", 8900346, "lightskyblue");
+        hashMap.put("lightslategray", 7833753);
+        hashMap.put("lightslategrey", 7833753);
+        AbstractC17373aah.h(hashMap, "lightsteelblue", 11584734, 16777184, "lightyellow");
+        AbstractC17373aah.g(65280, hashMap, "lime", 3329330, "limegreen");
+        hashMap.put("linen", 16445670);
+        hashMap.put("magenta", 16711935);
+        AbstractC17373aah.g(8388608, hashMap, "maroon", 6737322, "mediumaquamarine");
+        AbstractC17373aah.g(205, hashMap, "mediumblue", 12211667, "mediumorchid");
+        AbstractC17373aah.g(9662683, hashMap, "mediumpurple", 3978097, "mediumseagreen");
+        AbstractC17373aah.g(8087790, hashMap, "mediumslateblue", 64154, "mediumspringgreen");
+        AbstractC17373aah.g(4772300, hashMap, "mediumturquoise", 13047173, "mediumvioletred");
+        AbstractC17373aah.g(1644912, hashMap, "midnightblue", 16121850, "mintcream");
+        AbstractC17373aah.g(16770273, hashMap, "mistyrose", 16770229, "moccasin");
+        AbstractC17373aah.g(16768685, hashMap, "navajowhite", 128, "navy");
+        AbstractC17373aah.g(16643558, hashMap, "oldlace", 8421376, "olive");
+        AbstractC17373aah.g(7048739, hashMap, "olivedrab", 16753920, "orange");
+        AbstractC17373aah.g(16729344, hashMap, "orangered", 14315734, "orchid");
+        AbstractC17373aah.g(15657130, hashMap, "palegoldenrod", 10025880, "palegreen");
+        AbstractC17373aah.g(11529966, hashMap, "paleturquoise", 14381203, "palevioletred");
+        AbstractC17373aah.g(16773077, hashMap, "papayawhip", 16767673, "peachpuff");
+        AbstractC17373aah.g(13468991, hashMap, "peru", 16761035, "pink");
+        AbstractC17373aah.g(14524637, hashMap, "plum", 11591910, "powderblue");
+        AbstractC17373aah.g(8388736, hashMap, "purple", 16711680, "red");
+        AbstractC17373aah.g(12357519, hashMap, "rosybrown", 4286945, "royalblue");
+        AbstractC17373aah.g(9127187, hashMap, "saddlebrown", 16416882, "salmon");
+        AbstractC17373aah.g(16032864, hashMap, "sandybrown", 3050327, "seagreen");
+        AbstractC17373aah.g(16774638, hashMap, "seashell", 10506797, "sienna");
+        AbstractC17373aah.g(12632256, hashMap, "silver", 8900331, "skyblue");
+        hashMap.put("slateblue", 6970061);
+        hashMap.put("slategray", 7372944);
+        AbstractC17373aah.h(hashMap, "slategrey", 7372944, 16775930, "snow");
+        AbstractC17373aah.g(65407, hashMap, "springgreen", 4620980, "steelblue");
+        AbstractC17373aah.g(13808780, hashMap, "tan", 32896, "teal");
+        AbstractC17373aah.g(14204888, hashMap, "thistle", 16737095, "tomato");
+        AbstractC17373aah.g(4251856, hashMap, "turquoise", 15631086, "violet");
+        AbstractC17373aah.g(16113331, hashMap, "wheat", 16777215, "white");
+        AbstractC17373aah.g(16119285, hashMap, "whitesmoke", 16776960, "yellow");
+        hashMap.put("yellowgreen", 10145074);
+    }
+}

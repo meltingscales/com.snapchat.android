@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include android:id="@+id/comments_input_bar_comment_preview" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" layout="@layout/comments_comment_static"/>
+    <ImageView android:id="@+id/comments_input_bar_comment_preview_close_button" android:background="@drawable/comments_input_bar_comment_preview_close_icon" android:layout_width="@dimen/comments_input_bar_comment_preview_close_button_size" android:layout_height="@dimen/comments_input_bar_comment_preview_close_button_size" android:layout_marginStart="@dimen/default_gap"/>
+</LinearLayout>

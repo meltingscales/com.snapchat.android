@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.snap.ui.view.SnapFontTextView android:id="@id/poll_sticker_title_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/PollStickerTitle" />
+    <EditText android:textColorHint="@color/sig_color_flat_pure_white_any" android:id="@id/poll_sticker_edit_text" android:background="@drawable/mention_sticker_background_dark" android:paddingTop="@dimen/default_gap_three_quarters" android:paddingBottom="@dimen/default_gap_three_quarters" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/info_sticker_max_width" android:hint="@string/poll_sticker_view_hint" android:cursorVisible="false" android:maxLines="1" android:inputType="textCapCharacters|textNoSuggestions" android:imeOptions="actionDone" android:paddingStart="@dimen/default_gap_2x" android:paddingEnd="@dimen/default_gap_2x" style="@style/InfoStickerText" />
+</LinearLayout>

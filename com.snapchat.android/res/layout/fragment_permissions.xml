@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.identity.loginsignup.ui.shared.BasicLoginSignupLayout android:orientation="vertical" android:id="@id/permissions_page" android:background="?sigColorBackgroundMain" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.snap.ui.view.SnapFontTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/signup_permissions_title" style="@style/LoginSignupPageTitle" />
+    <com.snap.ui.view.SnapFontTextView android:textSize="@dimen/text_size_small_medium" android:textColor="?colorGray80" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/signup_permissions_description" style="@style/IdentityPageDescription" />
+    <ImageView android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="185.0dip" android:layout_marginTop="90.0dip" android:layout_marginBottom="30.0dip" android:src="@drawable/group_ghosts" />
+    <com.snap.ui.view.SnapFontTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/signup_permissions_subtext" style="@style/IdentityPageDescription" />
+</com.snap.identity.loginsignup.ui.shared.BasicLoginSignupLayout>

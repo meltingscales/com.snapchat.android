@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/story_ad_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/story_ad_progress_bar_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/story_ad_progress_bar_container_vertical_margin" android:layout_marginStart="@dimen/story_ad_progress_bar_container_horizontal_margin" android:layout_marginEnd="@dimen/story_ad_progress_bar_container_horizontal_margin" />
+    <com.snap.component.button.SnapButtonView android:layout_gravity="end" android:id="@id/story_ad_expand_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ad_chrome_content_height" android:layout_marginEnd="@dimen/story_ad_expand_button_margin" app:button_style="small_button_rectangle_yellow" app:button_text="@string/see_more" />
+</FrameLayout>

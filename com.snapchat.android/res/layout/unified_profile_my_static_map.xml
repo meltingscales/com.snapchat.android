@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:gravity="center" android:orientation="vertical" android:id="@id/unified_profile_static_map" android:layout_width="fill_parent" android:layout_height="@dimen/map_height" android:layout_marginTop="4.0dip" android:layout_marginStart="@dimen/default_gap_2x" android:layout_marginEnd="@dimen/default_gap_2x"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.snap.maps.external.staticmap.api.StaticMapView android:id="@id/map_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

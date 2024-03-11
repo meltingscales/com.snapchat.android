@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.lenses.camera.onboarding.explorerhint.DefaultExplorerHintView android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/explorer_hint_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:auto="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/explorer_hint_arrow_container" android:layout_width="fill_parent" android:layout_height="58.0dip" android:layout_marginTop="4.0dip">
+        <ImageView android:layout_gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/svg_explorer_hint_arrow" />
+        <ImageView android:layout_gravity="bottom|center" android:id="@id/explorer_hint_arrow1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/svg_explorer_hint_arrow" />
+        <ImageView android:layout_gravity="bottom|center" android:id="@id/explorer_hint_arrow2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/svg_explorer_hint_arrow" />
+    </FrameLayout>
+    <com.snap.ui.view.SnapFontTextView android:textSize="15.0sp" android:textColor="@color/sig_color_flat_pure_white_any" android:id="@id/explorer_hint_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/explorer_hint_title" android:textAlignment="center" auto:scFontWeight="bolder" />
+    <com.snap.ui.view.SnapFontTextView android:textSize="@dimen/deprecated_v11_subtitle1_text_size" android:textColor="@color/sig_color_flat_pure_white_any_alpha_50" android:id="@id/explorer_hint_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="@string/explorer_hint_subtitle" android:textAlignment="center" auto:scFontWeight="bolder" />
+</com.snap.lenses.camera.onboarding.explorerhint.DefaultExplorerHintView>

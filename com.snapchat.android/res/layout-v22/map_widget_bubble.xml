@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/map_widget_bubble_content" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/map_widget_bubble_icon" android:background="@drawable/map_widget_icon_circle" android:padding="7.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="6.0dip" android:layout_marginBottom="6.0dip" android:scaleType="fitCenter" android:tint="?sigColorIconPrimary" android:layout_marginStart="7.0dip" android:layout_marginEnd="10.0dip" android:layout_marginVertical="6.0dip" />
+        <com.snap.ui.view.SnapFontTextView android:textSize="?v11Heading3TextSize" android:textColor="?sigColorTextPrimary" android:gravity="start" android:layout_gravity="center_vertical" android:id="@id/map_widget_bubble_text" android:layout_width="145.0dip" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="6.0dip" android:scrollHorizontally="false" android:layout_marginVertical="6.0dip" custom:scFontWeight="?v11Heading2FontWeight" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/map_widget_bubble_chevron" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginTop="6.0dip" android:layout_marginBottom="6.0dip" android:layout_marginEnd="7.0dip" android:layout_marginVertical="6.0dip" />
+    </LinearLayout>
+    <ImageView android:id="@id/map_widget_bubble_bottom_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-16.0dip" android:src="@drawable/svg_map_bitmoji_bubble_bottom" android:layout_below="@id/map_widget_bubble_content" android:layout_centerHorizontal="true" />
+</RelativeLayout>

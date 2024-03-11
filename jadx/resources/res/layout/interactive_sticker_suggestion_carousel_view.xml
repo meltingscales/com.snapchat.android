@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/interactive_sticker_suggestion_carousel_view" android:layout_width="match_parent" android:layout_height="@dimen/caption_carousel_recycler_view_height">
+    <com.snap.previewtools.shared.view.CarouselRecyclerView android:id="@+id/interactive_sticker_suggestion_carousel_recycler_view" android:layout_width="match_parent" android:layout_height="@dimen/caption_carousel_recycler_view_height"/>
+    <ImageButton android:layout_gravity="start|center_vertical" android:id="@+id/caption_floating_close_carousel_button" android:background="@drawable/svg_close_carousel_icon" android:visibility="gone" android:layout_width="@dimen/floating_carousel_button_size" android:layout_height="@dimen/floating_carousel_button_size" android:layout_marginStart="@dimen/floating_carousel_button_margin_start"/>
+</FrameLayout>

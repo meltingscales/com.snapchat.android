@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip">
+        <ImageView android:id="@id/bff_story_dialog_icon" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="4.0dip" />
+        <com.snap.ui.view.SnapFontTextView android:layout_gravity="center_vertical" android:id="@id/bff_story_dialog_title" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bff_story_education_dialog_title" android:paddingHorizontal="4.0dip" style="@style/SigAlertDialog.Title" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/bff_story_dialog_recycler_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transition xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/sig_color_flat_pure_white_any"/>
+            <corners android:radius="@dimen/ngs_action_bar_button_corner_radius"/>
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/sig_color_base_brand_yellow_any"/>
+            <corners android:radius="@dimen/ngs_action_bar_button_corner_radius"/>
+        </shape>
+    </item>
+</transition>

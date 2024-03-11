@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/memories_grid_page_loading_spinner_container" android:layout_width="match_parent" android:layout_height="0dp">
+    <com.snap.ui.view.LoadingSpinnerView android:layout_gravity="center" android:id="@+id/memories_grid_page_loading_spinner" android:layout_width="@dimen/memories_grid_loading_spinner_height" android:layout_height="@dimen/memories_grid_loading_spinner_height"/>
+    <ViewStub android:id="@+id/memories_empty_state_snap_tab_stub" android:layout="@layout/memories_empty_state_snap_tab" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <ViewStub android:id="@+id/search_empty_state_stub" android:layout="@layout/memories_search_empty_state" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</FrameLayout>

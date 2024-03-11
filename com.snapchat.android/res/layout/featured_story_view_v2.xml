@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.component.cards.SnapCardView android:layout_width="0.0dip" android:layout_height="@dimen/memories_featured_story_v2_tile_height" app:cardCornerRadius="@dimen/memories_featured_story_v2_tile_corner_radius" app:cardElevation="@dimen/memories_featured_story_v2_tile_elevation"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

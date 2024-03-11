@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <share-target android:targetClass="com.snap.mushroom.MainActivity">
+        <data android:mimeType="image/*" />
+        <category android:name="com.snap.mushroom.category.IMAGE_SHARE_TARGET" />
+    </share-target>
+    <share-target android:targetClass="com.snap.mushroom.MainActivity">
+        <data android:mimeType="video/mp4" />
+        <category android:name="com.snap.mushroom.category.VIDEO_SHARE_TARGET" />
+    </share-target>
+    <share-target android:targetClass="com.snap.mushroom.MainActivity">
+        <data android:mimeType="text/plain" />
+        <category android:name="com.snap.mushroom.category.TEXT_SHARE_TARGET" />
+    </share-target>
+    <shortcut android:icon="@drawable/svg_nav_chat_outline" android:shortcutId="shortcut_chat" android:shortcutShortLabel="@string/ngs_chat_label">
+        <intent android:action="android.intent.action.VIEW" android:data="snapchat://chat_shortcut" />
+    </shortcut>
+    <shortcut android:icon="@drawable/svg_nav_community_outline" android:shortcutId="shortcut_discover" android:shortcutShortLabel="@string/ngs_community_label_stories">
+        <intent android:action="android.intent.action.VIEW" android:data="snapchat://discover_shortcut" />
+    </shortcut>
+    <shortcut android:icon="@drawable/svg_nav_map_outline" android:shortcutId="shortcut_map" android:shortcutShortLabel="@string/ngs_map_label">
+        <intent android:action="android.intent.action.VIEW" android:data="snapchat://map_shortcut" />
+    </shortcut>
+    <shortcut android:icon="@drawable/svg_nav_shows_outline" android:shortcutId="shortcut_spotlight" android:shortcutShortLabel="@string/ngs_spotlight_title">
+        <intent android:action="android.intent.action.VIEW" android:data="snapchat://spotlight_shortcut" />
+    </shortcut>
+</shortcuts>

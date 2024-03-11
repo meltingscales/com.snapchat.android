@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.snap.imageloading.view.SnapImageView android:id="@id/alignment_header_image" android:layout_width="@dimen/width_alignment_avatar_size" android:layout_height="@dimen/width_alignment_avatar_size" android:src="@drawable/svg_profile_32x32" android:layout_marginStart="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textStyle="bold" android:textColor="@color/sig_color_text_on_primary_button_light" android:id="@id/alignment_header_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="5.0dip" app:layout_constraintBottom_toTopOf="@id/alignment_header_subtitle" app:layout_constraintStart_toEndOf="@id/alignment_header_image" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_chainStyle="packed" />
+    <TextView android:textColor="@color/sig_color_text_on_primary_button_light" android:id="@id/alignment_header_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="@id/alignment_header_title" app:layout_constraintTop_toBottomOf="@id/alignment_header_title" app:layout_constraintVertical_chainStyle="packed" />
+</merge>

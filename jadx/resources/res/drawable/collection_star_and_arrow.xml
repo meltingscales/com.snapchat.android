@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/svg_official_creator_star_12x12" android:left="4dp" android:top="5sp" android:right="11dp" android:bottom="2sp"/>
+    <item android:drawable="@drawable/collection_arrow_right" android:left="15dp" android:top="6sp" android:bottom="6sp"/>
+</layer-list>

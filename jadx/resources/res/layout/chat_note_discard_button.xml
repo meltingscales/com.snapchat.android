@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatImageButton xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="start|center_vertical" android:id="@+id/chat_note_discard_button" android:focusable="true" android:visibility="gone" android:clickable="true" android:src="@drawable/chat_note_discard_button_v3" style="@style/chat_input_bar_icon"/>

@@ -1,0 +1,2399 @@
+version: 2.9.3
+apkFileName: com.snapchat.android.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+  tag: null
+sdkInfo:
+  minSdkVersion: 21
+  targetSdkVersion: 33
+packageInfo:
+  forcedPackageId: 127
+  renameManifestPackage: null
+versionInfo:
+  versionCode: 119072
+  versionName: 12.76.0.38
+resourcesAreCompressed: false
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  NOTICE.txt: 8
+  app-update.properties: 8
+  barcode-scanning-common.properties: 8
+  billing-ktx.properties: 8
+  billing.properties: 8
+  common.properties: 8
+  core-common.properties: 8
+  feature-delivery.properties: 8
+  image.properties: 8
+  integrity.properties: 8
+  isoparser-default.properties: 8
+  transport-api.properties: 8
+  transport-backend-cct.properties: 8
+  transport-runtime.properties: 8
+  vision-common.properties: 8
+  vision-interfaces.properties: 8
+  stamp-cert-sha256: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_255: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_27: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_30: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_31: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_34: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_350: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_351: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_352: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_358: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_359: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_36: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_372: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_373: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_375: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_380: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_381: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_385: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_39: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_43: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_44: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_49: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_505: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_506: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_52: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_54: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_55: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_58: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_595: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_61: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_62: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_63: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_64: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_66: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_675: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_676: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_679: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_7: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_81: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_84: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_855: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_856: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_90: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_91: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_94: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_95: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_971: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_972: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_995: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_800: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_808: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_870: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_878: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_881: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_882: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_883: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_888: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_979: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_AC: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_AD: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_AE: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_AF: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_AG: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_AI: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_AL: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_AM: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_AO: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_AR: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_AS: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_AT: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_AU: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_AW: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_AX: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_AZ: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BA: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BB: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BD: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BE: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BF: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BG: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BH: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BI: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BJ: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BL: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BM: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BN: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BO: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BQ: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BR: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BS: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BT: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BW: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BY: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BZ: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_CA: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_CC: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_CD: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_CF: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_CG: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_CH: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_CI: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_CK: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_CL: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_CM: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_CN: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_CO: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_CR: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_CU: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_CV: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_CW: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_CX: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_CY: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_CZ: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_DE: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_DJ: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_DK: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_DM: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_DO: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_DZ: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_EC: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_EE: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_EG: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_EH: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_ER: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_ES: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_ET: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_FI: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_FJ: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_FK: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_FM: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_FO: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_FR: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_GA: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_GB: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_GD: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_GE: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_GF: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_GG: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_GH: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_GI: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_GL: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_GM: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_GN: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_GP: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_GQ: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_GR: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_GT: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_GU: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_GW: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_GY: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_HK: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_HN: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_HR: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_HT: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_HU: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_ID: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_IE: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_IL: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_IM: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_IN: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_IO: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_IQ: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_IR: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_IS: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_IT: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_JE: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_JM: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_JO: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_JP: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_KE: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_KG: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_KH: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_KI: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_KM: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_KN: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_KP: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_KR: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_KW: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_KY: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_KZ: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_LA: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_LB: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_LC: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_LI: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_LK: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_LR: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_LS: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_LT: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_LU: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_LV: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_LY: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MA: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MC: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MD: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_ME: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MF: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MG: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MH: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MK: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_ML: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MM: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MN: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MO: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MP: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MQ: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MR: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MS: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MT: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MU: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MV: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MW: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MX: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MY: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MZ: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_NA: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_NC: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_NE: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_NF: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_NG: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_NI: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_NL: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_NO: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_NP: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_NR: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_NU: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_NZ: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_OM: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_PA: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_PE: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_PF: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_PG: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_PH: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_PK: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_PL: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_PM: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_PR: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_PS: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_PT: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_PW: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_PY: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_QA: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_RE: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_RO: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_RS: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_RU: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_RW: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SA: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SB: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SC: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SD: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SE: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SG: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SH: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SI: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SJ: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SK: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SL: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SM: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SN: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SO: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SR: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SS: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_ST: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SV: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SX: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SY: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SZ: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_TA: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_TC: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_TD: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_TG: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_TH: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_TJ: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_TK: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_TL: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_TM: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_TN: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_TO: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_TR: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_TT: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_TV: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_TW: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_TZ: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_UA: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_UG: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_US: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_UY: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_UZ: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_VA: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_VC: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_VE: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_VG: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_VI: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_VN: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_VU: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_WF: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_WS: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_XK: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_YE: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_YT: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_ZA: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_ZM: 8
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_ZW: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_AC: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_AD: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_AE: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_AF: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_AG: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_AI: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_AL: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_AM: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_AO: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_AR: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_AS: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_AT: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_AU: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_AW: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_AX: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_AZ: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_BA: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_BB: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_BD: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_BE: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_BF: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_BG: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_BH: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_BI: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_BJ: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_BL: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_BM: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_BN: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_BO: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_BQ: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_BR: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_BS: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_BT: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_BW: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_BY: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_BZ: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_CA: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_CC: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_CD: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_CF: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_CG: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_CH: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_CI: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_CK: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_CL: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_CM: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_CN: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_CO: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_CR: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_CU: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_CV: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_CW: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_CX: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_CY: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_CZ: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_DE: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_DJ: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_DK: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_DM: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_DO: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_DZ: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_EC: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_EE: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_EG: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_EH: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_ER: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_ES: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_ET: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_FI: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_FJ: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_FK: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_FM: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_FO: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_FR: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_GA: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_GB: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_GD: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_GE: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_GF: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_GG: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_GH: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_GI: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_GL: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_GM: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_GN: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_GP: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_GR: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_GT: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_GU: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_GW: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_GY: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_HK: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_HN: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_HR: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_HT: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_HU: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_ID: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_IE: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_IL: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_IM: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_IN: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_IQ: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_IR: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_IS: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_IT: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_JE: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_JM: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_JO: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_JP: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_KE: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_KG: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_KH: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_KI: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_KM: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_KN: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_KP: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_KR: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_KW: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_KY: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_KZ: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_LA: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_LB: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_LC: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_LI: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_LK: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_LR: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_LS: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_LT: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_LU: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_LV: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_LY: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MA: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MC: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MD: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_ME: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MF: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MG: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MH: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MK: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_ML: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MM: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MN: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MO: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MP: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MQ: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MR: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MS: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MT: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MU: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MV: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MW: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MX: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MY: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MZ: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_NA: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_NC: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_NE: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_NF: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_NG: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_NI: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_NL: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_NO: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_NP: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_NR: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_NU: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_NZ: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_OM: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_PA: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_PE: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_PF: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_PG: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_PH: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_PK: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_PL: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_PM: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_PR: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_PS: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_PT: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_PW: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_PY: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_QA: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_RE: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_RO: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_RS: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_RU: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_RW: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_SA: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_SB: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_SC: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_SD: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_SE: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_SG: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_SH: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_SI: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_SJ: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_SK: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_SL: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_SM: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_SN: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_SO: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_SR: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_SS: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_ST: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_SV: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_SX: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_SY: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_SZ: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_TC: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_TD: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_TG: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_TH: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_TJ: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_TL: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_TM: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_TN: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_TO: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_TR: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_TT: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_TV: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_TW: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_TZ: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_UA: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_UG: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_US: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_UY: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_UZ: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_VA: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_VC: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_VE: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_VG: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_VI: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_VN: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_VU: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_WF: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_WS: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_XK: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_YE: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_YT: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_ZA: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_ZM: 8
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_ZW: 8
+  javax/annotation/package.html: 8
+  javax/annotation/security/package.html: 8
+  okhttp3/internal/publicsuffix/publicsuffixes.gz: 0
+  org/bouncycastle/x509/CertPathReviewerMessages.properties: 8
+  org/bouncycastle/x509/CertPathReviewerMessages_de.properties: 8
+  org/joda/time/format/messages.properties: 8
+  org/joda/time/format/messages_cs.properties: 8
+  org/joda/time/format/messages_da.properties: 8
+  org/joda/time/format/messages_de.properties: 8
+  org/joda/time/format/messages_en.properties: 0
+  org/joda/time/format/messages_es.properties: 8
+  org/joda/time/format/messages_fr.properties: 8
+  org/joda/time/format/messages_it.properties: 8
+  org/joda/time/format/messages_ja.properties: 8
+  org/joda/time/format/messages_nl.properties: 8
+  org/joda/time/format/messages_no.properties: 8
+  org/joda/time/format/messages_pl.properties: 8
+  org/joda/time/format/messages_pt.properties: 8
+  org/joda/time/format/messages_ru.properties: 8
+  org/joda/time/format/messages_tr.properties: 8
+  org/joda/time/tz/data/CET: 8
+  org/joda/time/tz/data/CST6CDT: 8
+  org/joda/time/tz/data/EET: 8
+  org/joda/time/tz/data/EST: 0
+  org/joda/time/tz/data/EST5EDT: 8
+  org/joda/time/tz/data/HST: 0
+  org/joda/time/tz/data/MET: 8
+  org/joda/time/tz/data/MST: 0
+  org/joda/time/tz/data/MST7MDT: 8
+  org/joda/time/tz/data/PST8PDT: 8
+  org/joda/time/tz/data/WET: 8
+  org/joda/time/tz/data/ZoneInfoMap: 8
+  org/joda/time/tz/data/Africa/Abidjan: 8
+  org/joda/time/tz/data/Africa/Accra: 8
+  org/joda/time/tz/data/Africa/Addis_Ababa: 8
+  org/joda/time/tz/data/Africa/Algiers: 8
+  org/joda/time/tz/data/Africa/Asmara: 8
+  org/joda/time/tz/data/Africa/Bamako: 8
+  org/joda/time/tz/data/Africa/Bangui: 8
+  org/joda/time/tz/data/Africa/Banjul: 8
+  org/joda/time/tz/data/Africa/Bissau: 8
+  org/joda/time/tz/data/Africa/Blantyre: 8
+  org/joda/time/tz/data/Africa/Brazzaville: 8
+  org/joda/time/tz/data/Africa/Bujumbura: 8
+  org/joda/time/tz/data/Africa/Cairo: 8
+  org/joda/time/tz/data/Africa/Casablanca: 8
+  org/joda/time/tz/data/Africa/Ceuta: 8
+  org/joda/time/tz/data/Africa/Conakry: 8
+  org/joda/time/tz/data/Africa/Dakar: 8
+  org/joda/time/tz/data/Africa/Dar_es_Salaam: 8
+  org/joda/time/tz/data/Africa/Djibouti: 8
+  org/joda/time/tz/data/Africa/Douala: 8
+  org/joda/time/tz/data/Africa/El_Aaiun: 8
+  org/joda/time/tz/data/Africa/Freetown: 8
+  org/joda/time/tz/data/Africa/Gaborone: 8
+  org/joda/time/tz/data/Africa/Harare: 8
+  org/joda/time/tz/data/Africa/Johannesburg: 8
+  org/joda/time/tz/data/Africa/Juba: 8
+  org/joda/time/tz/data/Africa/Kampala: 8
+  org/joda/time/tz/data/Africa/Khartoum: 8
+  org/joda/time/tz/data/Africa/Kigali: 8
+  org/joda/time/tz/data/Africa/Kinshasa: 8
+  org/joda/time/tz/data/Africa/Lagos: 8
+  org/joda/time/tz/data/Africa/Libreville: 8
+  org/joda/time/tz/data/Africa/Lome: 8
+  org/joda/time/tz/data/Africa/Luanda: 8
+  org/joda/time/tz/data/Africa/Lubumbashi: 8
+  org/joda/time/tz/data/Africa/Lusaka: 8
+  org/joda/time/tz/data/Africa/Malabo: 8
+  org/joda/time/tz/data/Africa/Maputo: 8
+  org/joda/time/tz/data/Africa/Maseru: 8
+  org/joda/time/tz/data/Africa/Mbabane: 8
+  org/joda/time/tz/data/Africa/Mogadishu: 8
+  org/joda/time/tz/data/Africa/Monrovia: 8
+  org/joda/time/tz/data/Africa/Nairobi: 8
+  org/joda/time/tz/data/Africa/Ndjamena: 8
+  org/joda/time/tz/data/Africa/Niamey: 8
+  org/joda/time/tz/data/Africa/Nouakchott: 8
+  org/joda/time/tz/data/Africa/Ouagadougou: 8
+  org/joda/time/tz/data/Africa/Porto-Novo: 8
+  org/joda/time/tz/data/Africa/Sao_Tome: 8
+  org/joda/time/tz/data/Africa/Tripoli: 8
+  org/joda/time/tz/data/Africa/Tunis: 8
+  org/joda/time/tz/data/Africa/Windhoek: 8
+  org/joda/time/tz/data/America/Adak: 8
+  org/joda/time/tz/data/America/Anchorage: 8
+  org/joda/time/tz/data/America/Anguilla: 8
+  org/joda/time/tz/data/America/Antigua: 8
+  org/joda/time/tz/data/America/Araguaina: 8
+  org/joda/time/tz/data/America/Aruba: 8
+  org/joda/time/tz/data/America/Asuncion: 8
+  org/joda/time/tz/data/America/Atikokan: 8
+  org/joda/time/tz/data/America/Bahia: 8
+  org/joda/time/tz/data/America/Bahia_Banderas: 8
+  org/joda/time/tz/data/America/Barbados: 8
+  org/joda/time/tz/data/America/Belem: 8
+  org/joda/time/tz/data/America/Belize: 8
+  org/joda/time/tz/data/America/Blanc-Sablon: 8
+  org/joda/time/tz/data/America/Boa_Vista: 8
+  org/joda/time/tz/data/America/Bogota: 8
+  org/joda/time/tz/data/America/Boise: 8
+  org/joda/time/tz/data/America/Cambridge_Bay: 8
+  org/joda/time/tz/data/America/Campo_Grande: 8
+  org/joda/time/tz/data/America/Cancun: 8
+  org/joda/time/tz/data/America/Caracas: 8
+  org/joda/time/tz/data/America/Cayenne: 8
+  org/joda/time/tz/data/America/Cayman: 8
+  org/joda/time/tz/data/America/Chicago: 8
+  org/joda/time/tz/data/America/Chihuahua: 8
+  org/joda/time/tz/data/America/Costa_Rica: 8
+  org/joda/time/tz/data/America/Creston: 8
+  org/joda/time/tz/data/America/Cuiaba: 8
+  org/joda/time/tz/data/America/Curacao: 8
+  org/joda/time/tz/data/America/Danmarkshavn: 8
+  org/joda/time/tz/data/America/Dawson: 8
+  org/joda/time/tz/data/America/Dawson_Creek: 8
+  org/joda/time/tz/data/America/Denver: 8
+  org/joda/time/tz/data/America/Detroit: 8
+  org/joda/time/tz/data/America/Dominica: 8
+  org/joda/time/tz/data/America/Edmonton: 8
+  org/joda/time/tz/data/America/Eirunepe: 8
+  org/joda/time/tz/data/America/El_Salvador: 8
+  org/joda/time/tz/data/America/Fort_Nelson: 8
+  org/joda/time/tz/data/America/Fortaleza: 8
+  org/joda/time/tz/data/America/Glace_Bay: 8
+  org/joda/time/tz/data/America/Godthab: 8
+  org/joda/time/tz/data/America/Goose_Bay: 8
+  org/joda/time/tz/data/America/Grand_Turk: 8
+  org/joda/time/tz/data/America/Grenada: 8
+  org/joda/time/tz/data/America/Guadeloupe: 8
+  org/joda/time/tz/data/America/Guatemala: 8
+  org/joda/time/tz/data/America/Guayaquil: 8
+  org/joda/time/tz/data/America/Guyana: 8
+  org/joda/time/tz/data/America/Halifax: 8
+  org/joda/time/tz/data/America/Havana: 8
+  org/joda/time/tz/data/America/Hermosillo: 8
+  org/joda/time/tz/data/America/Inuvik: 8
+  org/joda/time/tz/data/America/Iqaluit: 8
+  org/joda/time/tz/data/America/Jamaica: 8
+  org/joda/time/tz/data/America/Juneau: 8
+  org/joda/time/tz/data/America/Kralendijk: 8
+  org/joda/time/tz/data/America/La_Paz: 8
+  org/joda/time/tz/data/America/Lima: 8
+  org/joda/time/tz/data/America/Los_Angeles: 8
+  org/joda/time/tz/data/America/Lower_Princes: 8
+  org/joda/time/tz/data/America/Maceio: 8
+  org/joda/time/tz/data/America/Managua: 8
+  org/joda/time/tz/data/America/Manaus: 8
+  org/joda/time/tz/data/America/Marigot: 8
+  org/joda/time/tz/data/America/Martinique: 8
+  org/joda/time/tz/data/America/Matamoros: 8
+  org/joda/time/tz/data/America/Mazatlan: 8
+  org/joda/time/tz/data/America/Menominee: 8
+  org/joda/time/tz/data/America/Merida: 8
+  org/joda/time/tz/data/America/Metlakatla: 8
+  org/joda/time/tz/data/America/Mexico_City: 8
+  org/joda/time/tz/data/America/Miquelon: 8
+  org/joda/time/tz/data/America/Moncton: 8
+  org/joda/time/tz/data/America/Monterrey: 8
+  org/joda/time/tz/data/America/Montevideo: 8
+  org/joda/time/tz/data/America/Montserrat: 8
+  org/joda/time/tz/data/America/Nassau: 8
+  org/joda/time/tz/data/America/New_York: 8
+  org/joda/time/tz/data/America/Nipigon: 8
+  org/joda/time/tz/data/America/Nome: 8
+  org/joda/time/tz/data/America/Noronha: 8
+  org/joda/time/tz/data/America/Ojinaga: 8
+  org/joda/time/tz/data/America/Panama: 8
+  org/joda/time/tz/data/America/Pangnirtung: 8
+  org/joda/time/tz/data/America/Paramaribo: 8
+  org/joda/time/tz/data/America/Phoenix: 8
+  org/joda/time/tz/data/America/Port-au-Prince: 8
+  org/joda/time/tz/data/America/Port_of_Spain: 8
+  org/joda/time/tz/data/America/Porto_Velho: 8
+  org/joda/time/tz/data/America/Puerto_Rico: 8
+  org/joda/time/tz/data/America/Rainy_River: 8
+  org/joda/time/tz/data/America/Rankin_Inlet: 8
+  org/joda/time/tz/data/America/Recife: 8
+  org/joda/time/tz/data/America/Regina: 8
+  org/joda/time/tz/data/America/Resolute: 8
+  org/joda/time/tz/data/America/Rio_Branco: 8
+  org/joda/time/tz/data/America/Santarem: 8
+  org/joda/time/tz/data/America/Santiago: 8
+  org/joda/time/tz/data/America/Santo_Domingo: 8
+  org/joda/time/tz/data/America/Sao_Paulo: 8
+  org/joda/time/tz/data/America/Scoresbysund: 8
+  org/joda/time/tz/data/America/Sitka: 8
+  org/joda/time/tz/data/America/St_Barthelemy: 8
+  org/joda/time/tz/data/America/St_Johns: 8
+  org/joda/time/tz/data/America/St_Kitts: 8
+  org/joda/time/tz/data/America/St_Lucia: 8
+  org/joda/time/tz/data/America/St_Thomas: 8
+  org/joda/time/tz/data/America/St_Vincent: 8
+  org/joda/time/tz/data/America/Swift_Current: 8
+  org/joda/time/tz/data/America/Tegucigalpa: 8
+  org/joda/time/tz/data/America/Thule: 8
+  org/joda/time/tz/data/America/Thunder_Bay: 8
+  org/joda/time/tz/data/America/Tijuana: 8
+  org/joda/time/tz/data/America/Toronto: 8
+  org/joda/time/tz/data/America/Tortola: 8
+  org/joda/time/tz/data/America/Vancouver: 8
+  org/joda/time/tz/data/America/Whitehorse: 8
+  org/joda/time/tz/data/America/Winnipeg: 8
+  org/joda/time/tz/data/America/Yakutat: 8
+  org/joda/time/tz/data/America/Yellowknife: 8
+  org/joda/time/tz/data/America/Argentina/Buenos_Aires: 8
+  org/joda/time/tz/data/America/Argentina/Catamarca: 8
+  org/joda/time/tz/data/America/Argentina/Cordoba: 8
+  org/joda/time/tz/data/America/Argentina/Jujuy: 8
+  org/joda/time/tz/data/America/Argentina/La_Rioja: 8
+  org/joda/time/tz/data/America/Argentina/Mendoza: 8
+  org/joda/time/tz/data/America/Argentina/Rio_Gallegos: 8
+  org/joda/time/tz/data/America/Argentina/Salta: 8
+  org/joda/time/tz/data/America/Argentina/San_Juan: 8
+  org/joda/time/tz/data/America/Argentina/San_Luis: 8
+  org/joda/time/tz/data/America/Argentina/Tucuman: 8
+  org/joda/time/tz/data/America/Argentina/Ushuaia: 8
+  org/joda/time/tz/data/America/Indiana/Indianapolis: 8
+  org/joda/time/tz/data/America/Indiana/Knox: 8
+  org/joda/time/tz/data/America/Indiana/Marengo: 8
+  org/joda/time/tz/data/America/Indiana/Petersburg: 8
+  org/joda/time/tz/data/America/Indiana/Tell_City: 8
+  org/joda/time/tz/data/America/Indiana/Vevay: 8
+  org/joda/time/tz/data/America/Indiana/Vincennes: 8
+  org/joda/time/tz/data/America/Indiana/Winamac: 8
+  org/joda/time/tz/data/America/Kentucky/Louisville: 8
+  org/joda/time/tz/data/America/Kentucky/Monticello: 8
+  org/joda/time/tz/data/America/North_Dakota/Beulah: 8
+  org/joda/time/tz/data/America/North_Dakota/Center: 8
+  org/joda/time/tz/data/America/North_Dakota/New_Salem: 8
+  org/joda/time/tz/data/Antarctica/Casey: 8
+  org/joda/time/tz/data/Antarctica/Davis: 8
+  org/joda/time/tz/data/Antarctica/DumontDUrville: 8
+  org/joda/time/tz/data/Antarctica/Macquarie: 8
+  org/joda/time/tz/data/Antarctica/Mawson: 8
+  org/joda/time/tz/data/Antarctica/McMurdo: 8
+  org/joda/time/tz/data/Antarctica/Palmer: 8
+  org/joda/time/tz/data/Antarctica/Rothera: 8
+  org/joda/time/tz/data/Antarctica/Syowa: 8
+  org/joda/time/tz/data/Antarctica/Troll: 8
+  org/joda/time/tz/data/Antarctica/Vostok: 8
+  org/joda/time/tz/data/Arctic/Longyearbyen: 8
+  org/joda/time/tz/data/Asia/Aden: 8
+  org/joda/time/tz/data/Asia/Almaty: 8
+  org/joda/time/tz/data/Asia/Amman: 8
+  org/joda/time/tz/data/Asia/Anadyr: 8
+  org/joda/time/tz/data/Asia/Aqtau: 8
+  org/joda/time/tz/data/Asia/Aqtobe: 8
+  org/joda/time/tz/data/Asia/Ashgabat: 8
+  org/joda/time/tz/data/Asia/Baghdad: 8
+  org/joda/time/tz/data/Asia/Bahrain: 8
+  org/joda/time/tz/data/Asia/Baku: 8
+  org/joda/time/tz/data/Asia/Bangkok: 8
+  org/joda/time/tz/data/Asia/Barnaul: 8
+  org/joda/time/tz/data/Asia/Beirut: 8
+  org/joda/time/tz/data/Asia/Bishkek: 8
+  org/joda/time/tz/data/Asia/Brunei: 8
+  org/joda/time/tz/data/Asia/Chita: 8
+  org/joda/time/tz/data/Asia/Choibalsan: 8
+  org/joda/time/tz/data/Asia/Colombo: 8
+  org/joda/time/tz/data/Asia/Damascus: 8
+  org/joda/time/tz/data/Asia/Dhaka: 8
+  org/joda/time/tz/data/Asia/Dili: 8
+  org/joda/time/tz/data/Asia/Dubai: 8
+  org/joda/time/tz/data/Asia/Dushanbe: 8
+  org/joda/time/tz/data/Asia/Famagusta: 8
+  org/joda/time/tz/data/Asia/Gaza: 8
+  org/joda/time/tz/data/Asia/Hebron: 8
+  org/joda/time/tz/data/Asia/Ho_Chi_Minh: 8
+  org/joda/time/tz/data/Asia/Hong_Kong: 8
+  org/joda/time/tz/data/Asia/Hovd: 8
+  org/joda/time/tz/data/Asia/Irkutsk: 8
+  org/joda/time/tz/data/Asia/Istanbul: 8
+  org/joda/time/tz/data/Asia/Jakarta: 8
+  org/joda/time/tz/data/Asia/Jayapura: 8
+  org/joda/time/tz/data/Asia/Jerusalem: 8
+  org/joda/time/tz/data/Asia/Kabul: 8
+  org/joda/time/tz/data/Asia/Kamchatka: 8
+  org/joda/time/tz/data/Asia/Karachi: 8
+  org/joda/time/tz/data/Asia/Kathmandu: 8
+  org/joda/time/tz/data/Asia/Khandyga: 8
+  org/joda/time/tz/data/Asia/Kolkata: 8
+  org/joda/time/tz/data/Asia/Krasnoyarsk: 8
+  org/joda/time/tz/data/Asia/Kuala_Lumpur: 8
+  org/joda/time/tz/data/Asia/Kuching: 8
+  org/joda/time/tz/data/Asia/Kuwait: 8
+  org/joda/time/tz/data/Asia/Macau: 8
+  org/joda/time/tz/data/Asia/Magadan: 8
+  org/joda/time/tz/data/Asia/Makassar: 8
+  org/joda/time/tz/data/Asia/Manila: 8
+  org/joda/time/tz/data/Asia/Muscat: 8
+  org/joda/time/tz/data/Asia/Nicosia: 8
+  org/joda/time/tz/data/Asia/Novokuznetsk: 8
+  org/joda/time/tz/data/Asia/Novosibirsk: 8
+  org/joda/time/tz/data/Asia/Omsk: 8
+  org/joda/time/tz/data/Asia/Oral: 8
+  org/joda/time/tz/data/Asia/Phnom_Penh: 8
+  org/joda/time/tz/data/Asia/Pontianak: 8
+  org/joda/time/tz/data/Asia/Pyongyang: 8
+  org/joda/time/tz/data/Asia/Qatar: 8
+  org/joda/time/tz/data/Asia/Qyzylorda: 8
+  org/joda/time/tz/data/Asia/Riyadh: 8
+  org/joda/time/tz/data/Asia/Sakhalin: 8
+  org/joda/time/tz/data/Asia/Samarkand: 8
+  org/joda/time/tz/data/Asia/Seoul: 8
+  org/joda/time/tz/data/Asia/Shanghai: 8
+  org/joda/time/tz/data/Asia/Singapore: 8
+  org/joda/time/tz/data/Asia/Srednekolymsk: 8
+  org/joda/time/tz/data/Asia/Taipei: 8
+  org/joda/time/tz/data/Asia/Tashkent: 8
+  org/joda/time/tz/data/Asia/Tbilisi: 8
+  org/joda/time/tz/data/Asia/Tehran: 8
+  org/joda/time/tz/data/Asia/Thimphu: 8
+  org/joda/time/tz/data/Asia/Tokyo: 8
+  org/joda/time/tz/data/Asia/Tomsk: 8
+  org/joda/time/tz/data/Asia/Ulaanbaatar: 8
+  org/joda/time/tz/data/Asia/Urumqi: 8
+  org/joda/time/tz/data/Asia/Ust-Nera: 8
+  org/joda/time/tz/data/Asia/Vientiane: 8
+  org/joda/time/tz/data/Asia/Vladivostok: 8
+  org/joda/time/tz/data/Asia/Yakutsk: 8
+  org/joda/time/tz/data/Asia/Yangon: 8
+  org/joda/time/tz/data/Asia/Yekaterinburg: 8
+  org/joda/time/tz/data/Asia/Yerevan: 8
+  org/joda/time/tz/data/Atlantic/Azores: 8
+  org/joda/time/tz/data/Atlantic/Bermuda: 8
+  org/joda/time/tz/data/Atlantic/Canary: 8
+  org/joda/time/tz/data/Atlantic/Cape_Verde: 8
+  org/joda/time/tz/data/Atlantic/Faroe: 8
+  org/joda/time/tz/data/Atlantic/Madeira: 8
+  org/joda/time/tz/data/Atlantic/Reykjavik: 8
+  org/joda/time/tz/data/Atlantic/South_Georgia: 8
+  org/joda/time/tz/data/Atlantic/St_Helena: 8
+  org/joda/time/tz/data/Atlantic/Stanley: 8
+  org/joda/time/tz/data/Australia/Adelaide: 8
+  org/joda/time/tz/data/Australia/Brisbane: 8
+  org/joda/time/tz/data/Australia/Broken_Hill: 8
+  org/joda/time/tz/data/Australia/Currie: 8
+  org/joda/time/tz/data/Australia/Darwin: 8
+  org/joda/time/tz/data/Australia/Eucla: 8
+  org/joda/time/tz/data/Australia/Hobart: 8
+  org/joda/time/tz/data/Australia/Lindeman: 8
+  org/joda/time/tz/data/Australia/Lord_Howe: 8
+  org/joda/time/tz/data/Australia/Melbourne: 8
+  org/joda/time/tz/data/Australia/Perth: 8
+  org/joda/time/tz/data/Australia/Sydney: 8
+  org/joda/time/tz/data/Etc/GMT: 0
+  org/joda/time/tz/data/Etc/GMT+1: 0
+  org/joda/time/tz/data/Etc/GMT+10: 0
+  org/joda/time/tz/data/Etc/GMT+11: 0
+  org/joda/time/tz/data/Etc/GMT+12: 0
+  org/joda/time/tz/data/Etc/GMT+2: 0
+  org/joda/time/tz/data/Etc/GMT+3: 0
+  org/joda/time/tz/data/Etc/GMT+4: 0
+  org/joda/time/tz/data/Etc/GMT+5: 0
+  org/joda/time/tz/data/Etc/GMT+6: 0
+  org/joda/time/tz/data/Etc/GMT+7: 0
+  org/joda/time/tz/data/Etc/GMT+8: 0
+  org/joda/time/tz/data/Etc/GMT+9: 0
+  org/joda/time/tz/data/Etc/GMT-1: 0
+  org/joda/time/tz/data/Etc/GMT-10: 0
+  org/joda/time/tz/data/Etc/GMT-11: 0
+  org/joda/time/tz/data/Etc/GMT-12: 0
+  org/joda/time/tz/data/Etc/GMT-13: 0
+  org/joda/time/tz/data/Etc/GMT-14: 0
+  org/joda/time/tz/data/Etc/GMT-2: 0
+  org/joda/time/tz/data/Etc/GMT-3: 0
+  org/joda/time/tz/data/Etc/GMT-4: 0
+  org/joda/time/tz/data/Etc/GMT-5: 0
+  org/joda/time/tz/data/Etc/GMT-6: 0
+  org/joda/time/tz/data/Etc/GMT-7: 0
+  org/joda/time/tz/data/Etc/GMT-8: 0
+  org/joda/time/tz/data/Etc/GMT-9: 0
+  org/joda/time/tz/data/Etc/UCT: 0
+  org/joda/time/tz/data/Etc/UTC: 0
+  org/joda/time/tz/data/Europe/Amsterdam: 8
+  org/joda/time/tz/data/Europe/Andorra: 8
+  org/joda/time/tz/data/Europe/Astrakhan: 8
+  org/joda/time/tz/data/Europe/Athens: 8
+  org/joda/time/tz/data/Europe/Belgrade: 8
+  org/joda/time/tz/data/Europe/Berlin: 8
+  org/joda/time/tz/data/Europe/Bratislava: 8
+  org/joda/time/tz/data/Europe/Brussels: 8
+  org/joda/time/tz/data/Europe/Bucharest: 8
+  org/joda/time/tz/data/Europe/Budapest: 8
+  org/joda/time/tz/data/Europe/Busingen: 8
+  org/joda/time/tz/data/Europe/Chisinau: 8
+  org/joda/time/tz/data/Europe/Copenhagen: 8
+  org/joda/time/tz/data/Europe/Dublin: 8
+  org/joda/time/tz/data/Europe/Gibraltar: 8
+  org/joda/time/tz/data/Europe/Guernsey: 8
+  org/joda/time/tz/data/Europe/Helsinki: 8
+  org/joda/time/tz/data/Europe/Isle_of_Man: 8
+  org/joda/time/tz/data/Europe/Istanbul: 8
+  org/joda/time/tz/data/Europe/Jersey: 8
+  org/joda/time/tz/data/Europe/Kaliningrad: 8
+  org/joda/time/tz/data/Europe/Kiev: 8
+  org/joda/time/tz/data/Europe/Kirov: 8
+  org/joda/time/tz/data/Europe/Lisbon: 8
+  org/joda/time/tz/data/Europe/Ljubljana: 8
+  org/joda/time/tz/data/Europe/London: 8
+  org/joda/time/tz/data/Europe/Luxembourg: 8
+  org/joda/time/tz/data/Europe/Madrid: 8
+  org/joda/time/tz/data/Europe/Malta: 8
+  org/joda/time/tz/data/Europe/Mariehamn: 8
+  org/joda/time/tz/data/Europe/Minsk: 8
+  org/joda/time/tz/data/Europe/Monaco: 8
+  org/joda/time/tz/data/Europe/Moscow: 8
+  org/joda/time/tz/data/Europe/Nicosia: 8
+  org/joda/time/tz/data/Europe/Oslo: 8
+  org/joda/time/tz/data/Europe/Paris: 8
+  org/joda/time/tz/data/Europe/Podgorica: 8
+  org/joda/time/tz/data/Europe/Prague: 8
+  org/joda/time/tz/data/Europe/Riga: 8
+  org/joda/time/tz/data/Europe/Rome: 8
+  org/joda/time/tz/data/Europe/Samara: 8
+  org/joda/time/tz/data/Europe/San_Marino: 8
+  org/joda/time/tz/data/Europe/Sarajevo: 8
+  org/joda/time/tz/data/Europe/Simferopol: 8
+  org/joda/time/tz/data/Europe/Skopje: 8
+  org/joda/time/tz/data/Europe/Sofia: 8
+  org/joda/time/tz/data/Europe/Stockholm: 8
+  org/joda/time/tz/data/Europe/Tallinn: 8
+  org/joda/time/tz/data/Europe/Tirane: 8
+  org/joda/time/tz/data/Europe/Ulyanovsk: 8
+  org/joda/time/tz/data/Europe/Uzhgorod: 8
+  org/joda/time/tz/data/Europe/Vaduz: 8
+  org/joda/time/tz/data/Europe/Vatican: 8
+  org/joda/time/tz/data/Europe/Vienna: 8
+  org/joda/time/tz/data/Europe/Vilnius: 8
+  org/joda/time/tz/data/Europe/Volgograd: 8
+  org/joda/time/tz/data/Europe/Warsaw: 8
+  org/joda/time/tz/data/Europe/Zagreb: 8
+  org/joda/time/tz/data/Europe/Zaporozhye: 8
+  org/joda/time/tz/data/Europe/Zurich: 8
+  org/joda/time/tz/data/Indian/Antananarivo: 8
+  org/joda/time/tz/data/Indian/Chagos: 8
+  org/joda/time/tz/data/Indian/Christmas: 8
+  org/joda/time/tz/data/Indian/Cocos: 8
+  org/joda/time/tz/data/Indian/Comoro: 8
+  org/joda/time/tz/data/Indian/Kerguelen: 8
+  org/joda/time/tz/data/Indian/Mahe: 8
+  org/joda/time/tz/data/Indian/Maldives: 8
+  org/joda/time/tz/data/Indian/Mauritius: 8
+  org/joda/time/tz/data/Indian/Mayotte: 8
+  org/joda/time/tz/data/Indian/Reunion: 8
+  org/joda/time/tz/data/Pacific/Apia: 8
+  org/joda/time/tz/data/Pacific/Auckland: 8
+  org/joda/time/tz/data/Pacific/Bougainville: 8
+  org/joda/time/tz/data/Pacific/Chatham: 8
+  org/joda/time/tz/data/Pacific/Chuuk: 8
+  org/joda/time/tz/data/Pacific/Easter: 8
+  org/joda/time/tz/data/Pacific/Efate: 8
+  org/joda/time/tz/data/Pacific/Enderbury: 8
+  org/joda/time/tz/data/Pacific/Fakaofo: 8
+  org/joda/time/tz/data/Pacific/Fiji: 8
+  org/joda/time/tz/data/Pacific/Funafuti: 8
+  org/joda/time/tz/data/Pacific/Galapagos: 8
+  org/joda/time/tz/data/Pacific/Gambier: 8
+  org/joda/time/tz/data/Pacific/Guadalcanal: 8
+  org/joda/time/tz/data/Pacific/Guam: 8
+  org/joda/time/tz/data/Pacific/Honolulu: 8
+  org/joda/time/tz/data/Pacific/Johnston: 8
+  org/joda/time/tz/data/Pacific/Kiritimati: 8
+  org/joda/time/tz/data/Pacific/Kosrae: 8
+  org/joda/time/tz/data/Pacific/Kwajalein: 8
+  org/joda/time/tz/data/Pacific/Majuro: 8
+  org/joda/time/tz/data/Pacific/Marquesas: 8
+  org/joda/time/tz/data/Pacific/Midway: 8
+  org/joda/time/tz/data/Pacific/Nauru: 8
+  org/joda/time/tz/data/Pacific/Niue: 8
+  org/joda/time/tz/data/Pacific/Norfolk: 8
+  org/joda/time/tz/data/Pacific/Noumea: 8
+  org/joda/time/tz/data/Pacific/Pago_Pago: 8
+  org/joda/time/tz/data/Pacific/Palau: 8
+  org/joda/time/tz/data/Pacific/Pitcairn: 8
+  org/joda/time/tz/data/Pacific/Pohnpei: 8
+  org/joda/time/tz/data/Pacific/Port_Moresby: 8
+  org/joda/time/tz/data/Pacific/Rarotonga: 8
+  org/joda/time/tz/data/Pacific/Saipan: 8
+  org/joda/time/tz/data/Pacific/Tahiti: 8
+  org/joda/time/tz/data/Pacific/Tarawa: 8
+  org/joda/time/tz/data/Pacific/Tongatapu: 8
+  org/joda/time/tz/data/Pacific/Wake: 8
+  org/joda/time/tz/data/Pacific/Wallis: 8
+doNotCompress:
+- resources.arsc
+- META-INF/androidx.annotation_annotation-experimental.version
+- META-INF/androidx.appcompat_appcompat-resources.version
+- META-INF/androidx.appcompat_appcompat.version
+- META-INF/androidx.arch.core_core-runtime.version
+- META-INF/androidx.asynclayoutinflater_asynclayoutinflater.version
+- META-INF/androidx.browser_browser.version
+- META-INF/androidx.cardview_cardview.version
+- META-INF/androidx.coordinatorlayout_coordinatorlayout.version
+- META-INF/androidx.core_core-performance.version
+- META-INF/androidx.core_core.version
+- META-INF/androidx.credentials_credentials.version
+- META-INF/androidx.cursoradapter_cursoradapter.version
+- META-INF/androidx.customview_customview.version
+- META-INF/androidx.documentfile_documentfile.version
+- META-INF/androidx.drawerlayout_drawerlayout.version
+- META-INF/androidx.dynamicanimation_dynamicanimation.version
+- META-INF/androidx.emoji_emoji-appcompat.version
+- META-INF/androidx.emoji_emoji.version
+- META-INF/androidx.exifinterface_exifinterface.version
+- META-INF/androidx.fragment_fragment.version
+- META-INF/androidx.interpolator_interpolator.version
+- META-INF/androidx.legacy_legacy-support-core-ui.version
+- META-INF/androidx.legacy_legacy-support-core-utils.version
+- META-INF/androidx.legacy_legacy-support-v4.version
+- META-INF/androidx.lifecycle_lifecycle-extensions.version
+- META-INF/androidx.lifecycle_lifecycle-livedata-core.version
+- META-INF/androidx.lifecycle_lifecycle-livedata.version
+- META-INF/androidx.lifecycle_lifecycle-process.version
+- META-INF/androidx.lifecycle_lifecycle-runtime.version
+- META-INF/androidx.lifecycle_lifecycle-service.version
+- META-INF/androidx.lifecycle_lifecycle-viewmodel.version
+- META-INF/androidx.loader_loader.version
+- META-INF/androidx.localbroadcastmanager_localbroadcastmanager.version
+- META-INF/androidx.media_media.version
+- META-INF/androidx.print_print.version
+- META-INF/androidx.profileinstaller_profileinstaller.version
+- META-INF/androidx.recyclerview_recyclerview.version
+- META-INF/androidx.room_room-runtime.version
+- META-INF/androidx.room_room-rxjava3.version
+- META-INF/androidx.slidingpanelayout_slidingpanelayout.version
+- META-INF/androidx.sqlite_sqlite-framework.version
+- META-INF/androidx.sqlite_sqlite.version
+- META-INF/androidx.startup_startup-runtime.version
+- META-INF/androidx.swiperefreshlayout_swiperefreshlayout.version
+- META-INF/androidx.tracing_tracing.version
+- META-INF/androidx.transition_transition.version
+- META-INF/androidx.vectordrawable_vectordrawable-animated.version
+- META-INF/androidx.vectordrawable_vectordrawable.version
+- META-INF/androidx.versionedparcelable_versionedparcelable.version
+- META-INF/androidx.viewpager2_viewpager2.version
+- META-INF/androidx.viewpager_viewpager.version
+- META-INF/androidx.webkit_webkit.version
+- META-INF/androidx.work_work-runtime.version
+- META-INF/androidx.work_work-rxjava3.version
+- META-INF/com.google.android.material_material.version
+- META-INF/com.google.dagger_dagger-android-support.version
+- META-INF/com.google.dagger_dagger-android.version
+- META-INF/com.google.dagger_dagger.version
+- META-INF/kotlinx_coroutines_core.version
+- META-INF/kotlinx_coroutines_reactive.version
+- META-INF/kotlinx_coroutines_rx3.version
+- META-INF/services/WDc
+- META-INF/services/scc
+- META-INF/services/yge
+- assets/account_challenge.composermodule
+- assets/activity_center_shared.composermodule
+- assets/ad_format.composermodule
+- assets/add_friend_sheet.composermodule
+- assets/add_friends.composermodule
+- assets/add_friends_nearby.composermodule
+- assets/application.composermodule
+- assets/apps_from_snap.composermodule
+- assets/ar_shopping.composermodule
+- assets/attachments.composermodule
+- assets/attribution.composermodule
+- assets/audio_effects.composermodule
+- assets/audio_effects_api.composermodule
+- assets/aura.composermodule
+- assets/auth_takeover.composermodule
+- assets/avatar.composermodule
+- assets/badges.composermodule
+- assets/billboard_prompt.composermodule
+- assets/birthday_page.composermodule
+- assets/bitmoji.composermodule
+- assets/bitmoji_fashion.composermodule
+- assets/bitmoji_live_mirror.composermodule
+- assets/bitmoji_profile.composermodule
+- assets/bitmoji_takeover.composermodule
+- assets/blizzard.composermodule
+- assets/bridge_observables.composermodule
+- assets/business.composermodule
+- assets/business_ad_creation.composermodule
+- assets/business_ads_tab.composermodule
+- assets/business_offer.composermodule
+- assets/business_snap_promote.composermodule
+- assets/business_sponsored.composermodule
+- assets/cameos.composermodule
+- assets/cameos_report_configs.composermodule
+- assets/camera.composermodule
+- assets/camera_control_center.composermodule
+- assets/camera_director_mode.composermodule
+- assets/camera_expandable_progressbar.composermodule
+- assets/camera_mode_shared.composermodule
+- assets/camera_mode_widgets.composermodule
+- assets/camera_shortcut.composermodule
+- assets/camera_timeline_mode.composermodule
+- assets/camera_video_timer_mode.composermodule
+- assets/chat_action_menu.composermodule
+- assets/chat_action_suggestions.composermodule
+- assets/chat_ad_common.composermodule
+- assets/chat_attributed_text.composermodule
+- assets/chat_chat_media.composermodule
+- assets/chat_common.composermodule
+- assets/chat_creative_tools_item.composermodule
+- assets/chat_dweb_upsell.composermodule
+- assets/chat_header.composermodule
+- assets/chat_media.composermodule
+- assets/chat_media_carousel.composermodule
+- assets/chat_media_view.composermodule
+- assets/chat_merlin_feedback.composermodule
+- assets/chat_non_friend.composermodule
+- assets/chat_product_ad.composermodule
+- assets/chat_reactions.composermodule
+- assets/chat_reply.composermodule
+- assets/chat_saved_story.composermodule
+- assets/chat_snap.composermodule
+- assets/chat_status.composermodule
+- assets/chat_stories_common.composermodule
+- assets/chat_suggested_search.composermodule
+- assets/chat_text_ad.composermodule
+- assets/chat_wallpapers.composermodule
+- assets/cof.composermodule
+- assets/cof_tweaks.composermodule
+- assets/cognac.composermodule
+- assets/commerce_attachment_tool.composermodule
+- assets/commerce_blizzard_logging.composermodule
+- assets/commerce_checkout.composermodule
+- assets/commerce_checkout_flow.composermodule
+- assets/commerce_common.composermodule
+- assets/commerce_dynamic_page.composermodule
+- assets/commerce_favorite_product.composermodule
+- assets/commerce_networking.composermodule
+- assets/commerce_payment.composermodule
+- assets/commerce_shopping_hub.composermodule
+- assets/commerce_showcase.composermodule
+- assets/commerce_size_recommendations.composermodule
+- assets/common.composermodule
+- assets/common_profile.composermodule
+- assets/communities.composermodule
+- assets/composer_core.composermodule
+- assets/composer_protobuf.composermodule
+- assets/composer_tsx.composermodule
+- assets/contacts_api.composermodule
+- assets/content_db.composermodule
+- assets/content_discover.composermodule
+- assets/content_models.composermodule
+- assets/content_service.composermodule
+- assets/content_sync.composermodule
+- assets/content_util.composermodule
+- assets/context_action_items.composermodule
+- assets/context_cards.composermodule
+- assets/context_chrome_header.composermodule
+- assets/context_reply_all.composermodule
+- assets/context_vertical_actions.composermodule
+- assets/conversation_retention.composermodule
+- assets/core_action_sheet.composermodule
+- assets/core_alert.composermodule
+- assets/core_notification.composermodule
+- assets/coreui.composermodule
+- assets/coreutils.composermodule
+- assets/countdown.composermodule
+- assets/countdown_in_chat.composermodule
+- assets/countdown_in_profile.composermodule
+- assets/countdown_shared.composermodule
+- assets/create_group_card.composermodule
+- assets/creative_tools_caption_carousel.composermodule
+- assets/creative_tools_item.composermodule
+- assets/creative_tools_platform.composermodule
+- assets/creative_tools_stickers.composermodule
+- assets/data_saver.composermodule
+- assets/deck.composermodule
+- assets/delta_force.composermodule
+- assets/dpa.composermodule
+- assets/dpa_api.composermodule
+- assets/drawing.composermodule
+- assets/dreams.composermodule
+- assets/dreams_api.composermodule
+- assets/dreams_in_memories.composermodule
+- assets/dreams_ui.composermodule
+- assets/dsa.composermodule
+- assets/empty_asset_generated_by_bazel~
+- assets/family_center.composermodule
+- assets/flipper.composermodule
+- assets/forma.composermodule
+- assets/friend_picker.composermodule
+- assets/friending_cell.composermodule
+- assets/friending_client.composermodule
+- assets/friending_models.composermodule
+- assets/friending_section.composermodule
+- assets/friends_feed.composermodule
+- assets/games.composermodule
+- assets/generative_ai_api.composermodule
+- assets/generative_ai_camera_mode.composermodule
+- assets/generative_ai_onboarding.composermodule
+- assets/generative_content.composermodule
+- assets/gift_shop.composermodule
+- assets/graphene.composermodule
+- assets/harmony.composermodule
+- assets/iap_purchase_tray.composermodule
+- assets/identity_takeover.composermodule
+- assets/impala.composermodule
+- assets/impala_post_archive_api.composermodule
+- assets/impala_post_archive_tab.composermodule
+- assets/impression_tracker.composermodule
+- assets/in_app_appeals.composermodule
+- assets/in_app_billing.composermodule
+- assets/in_app_reporting_core.composermodule
+- assets/in_app_support.composermodule
+- assets/in_app_warning.composermodule
+- assets/inclusion_panel_survey.composermodule
+- assets/invite_contacts.composermodule
+- assets/job_scheduler.composermodule
+- assets/lens_activity_center.composermodule
+- assets/lenses.composermodule
+- assets/live_location_share.composermodule
+- assets/location.composermodule
+- assets/location_rx.composermodule
+- assets/logging.composermodule
+- webp
+- assets/map.composermodule
+- assets/map_drop_share.composermodule
+- assets/map_drops.composermodule
+- assets/map_friend_focus_view.composermodule
+- assets/map_input_bar.composermodule
+- assets/map_items_list_takeover.composermodule
+- assets/map_layer_api.composermodule
+- assets/map_layer_ui.composermodule
+- assets/map_layer_venue_profile_bridge.composermodule
+- assets/map_layers.composermodule
+- assets/map_live_upgrade.composermodule
+- assets/map_live_upsell_tray.composermodule
+- assets/map_me_tray.composermodule
+- assets/map_place_suggest_attribute_tray.composermodule
+- assets/map_reactions.composermodule
+- assets/marker_profile.composermodule
+- assets/media.composermodule
+- assets/memories.composermodule
+- assets/memories_api.composermodule
+- assets/memories_backup.composermodule
+- assets/memories_db.composermodule
+- assets/memories_ui.composermodule
+- assets/mention_bar.composermodule
+- assets/merlin.composermodule
+- assets/mini_send_to.composermodule
+- assets/missed_call.composermodule
+- assets/moment.composermodule
+- assets/moment_timezone.composermodule
+- assets/music.composermodule
+- assets/music_api.composermodule
+- assets/music_ui.composermodule
+- assets/navigation.composermodule
+- assets/navigation_internal.composermodule
+- assets/networking.composermodule
+- assets/networking_rx.composermodule
+- assets/new_chats.composermodule
+- assets/observable_view_model.composermodule
+- assets/opera_events.composermodule
+- assets/opera_progressbar.composermodule
+- assets/page_launcher.composermodule
+- assets/people.composermodule
+- assets/people_rx.composermodule
+- assets/persistence.composermodule
+- assets/persistence_rx.composermodule
+- assets/place_discovery_api.composermodule
+- assets/place_picker.composermodule
+- assets/place_search_api.composermodule
+- assets/places_homes.composermodule
+- assets/places_visual_tray.composermodule
+- assets/plus_api.composermodule
+- assets/plus_common.composermodule
+- assets/polls.composermodule
+- assets/preview_chrome_hints_ui.composermodule
+- assets/preview_toolbar.composermodule
+- assets/private_profile.composermodule
+- assets/private_profile_no_bitmoji_asset.composermodule
+- assets/prompt_lens.composermodule
+- assets/recent_friend_operation.composermodule
+- assets/recents_ranking.composermodule
+- assets/registration.composermodule
+- assets/rxjs.composermodule
+- assets/rxjs_extensions.composermodule
+- assets/safety_report_configs.composermodule
+- assets/search_api.composermodule
+- assets/search_api_client.composermodule
+- assets/search_api_ui.composermodule
+- assets/search_history.composermodule
+- assets/search_v2.composermodule
+- assets/send_to_lists.composermodule
+- assets/send_to_suggestions.composermodule
+- assets/session_management.composermodule
+- assets/settings_contact_me.composermodule
+- assets/settings_contact_sync.composermodule
+- assets/settings_recently_active_indicator.composermodule
+- assets/sharable_attachments.composermodule
+- assets/sharable_attachments_api.composermodule
+- assets/sharable_location.composermodule
+- assets/sharable_recents_attachments.composermodule
+- assets/sharable_recents_attachments_api.composermodule
+- assets/sharable_url_recent_attachments.composermodule
+- assets/share_sheet.composermodule
+- assets/sharing.composermodule
+- assets/sharing_api.composermodule
+- assets/shepherd_report_service.composermodule
+- assets/shortcutui.composermodule
+- assets/snap_editor.composermodule
+- assets/snap_editor_api.composermodule
+- assets/snap_editor_caption_tool.composermodule
+- assets/snap_editor_drawing_tool.composermodule
+- assets/snap_editor_export.composermodule
+- assets/snap_editor_lens_tool.composermodule
+- assets/snap_editor_music_tool.composermodule
+- assets/snap_editor_plugin.composermodule
+- assets/snap_editor_save_tool.composermodule
+- assets/snap_editor_send_tool.composermodule
+- assets/snap_editor_shared_tool.composermodule
+- assets/snap_editor_sticker_tool.composermodule
+- assets/snap_editor_ui.composermodule
+- assets/snap_insights.composermodule
+- assets/snap_media_player_api.composermodule
+- assets/snap_playback.composermodule
+- assets/snap_playback_api.composermodule
+- assets/snap_playback_components.composermodule
+- assets/snap_playback_entity_util.composermodule
+- assets/snapchatter_share.composermodule
+- assets/snapcode.composermodule
+- assets/snapdoc.composermodule
+- assets/snapdoc_save_service.composermodule
+- assets/snapdoc_send_service.composermodule
+- assets/snappro_api.composermodule
+- assets/snappro_metrics.composermodule
+- assets/snappro_networking_call.composermodule
+- assets/snapshots.composermodule
+- assets/spotlight_comment_share.composermodule
+- assets/spotlight_place_tags.composermodule
+- assets/spotlight_replies_settings.composermodule
+- assets/sqlite.composermodule
+- assets/stories.composermodule
+- assets/stories_rx.composermodule
+- assets/story_invite.composermodule
+- assets/storyplayer.composermodule
+- assets/streak_restore.composermodule
+- assets/subscriptions.composermodule
+- assets/subscriptions_workflow.composermodule
+- assets/successful_call.composermodule
+- assets/suggestion_takeover.composermodule
+- assets/sup.composermodule
+- assets/suspicious_convo.composermodule
+- assets/takeover.composermodule
+- assets/talk.composermodule
+- assets/talk_core.composermodule
+- assets/templates.composermodule
+- assets/tiny_snaps.composermodule
+- assets/tiv.composermodule
+- assets/token_shop.composermodule
+- assets/topics.composermodule
+- assets/turn_db.composermodule
+- assets/tweaks.composermodule
+- assets/unavailable_message.composermodule
+- assets/unified_public_profile.composermodule
+- assets/url_preview.composermodule
+- assets/user_selection_list.composermodule
+- assets/venue_api.composermodule
+- assets/venue_editor.composermodule
+- assets/venue_profile.composermodule
+- assets/venue_profile_api.composermodule
+- assets/voice_notes.composermodule
+- assets/worker.composermodule
+- assets/xstate.composermodule
+- assets/dexopt/baseline.prof
+- assets/dexopt/baseline.profm
+- assets/looksery/core/shaders/GLES20/common/drawTextureRGBY.glsl
+- assets/looksery/core/shaders/GLES20/common/stereoToMono.glsl
+- assets/looksery/core/shaders/GLES30/common/drawTexture.glsl
+- assets/looksery/core/shaders/GLES30/common/drawTextureRGBA.glsl
+- assets/looksery/core/shaders/GLES30/common/drawTextureRGBY.glsl
+- assets/looksery/core/shaders/GLES30/common/stereoToMono.glsl
+- assets/looksery/core/shaders/common/drawTexture.glsl
+- assets/looksery/core/shaders/common/drawTextureRGBA.glsl
+- assets/looksery/core/shaders/common/drawTextureRGBY.glsl
+- assets/looksery/core/shaders/common/nv21ToRGB.glsl
+- assets/looksery/core/shaders/common/stereoToMono.glsl
+- png
+- assets/sdk_versions/com.mapbox.android.core
+- assets/sdk_versions/com.mapbox.android.telemetry
+- res/drawable/checkout_right_arrow.webp
+- res/drawable/promo_awrrows.webp
+- res/drawable-hdpi/aa_action_bar_up_arrow_green.webp
+- res/drawable-hdpi/aa_search_bar_clear.webp
+- res/drawable-hdpi/action_bar_search_icon_blue.webp
+- res/drawable-hdpi/action_bar_up_arrow_blue.webp
+- res/drawable-hdpi/action_menu_checkmark_checked_icon.webp
+- res/drawable-hdpi/action_menu_specs_icon.webp
+- res/drawable-hdpi/add_friend_plus_button_blue.webp
+- res/drawable-hdpi/add_friends_header_camera.webp
+- res/drawable-hdpi/add_story.webp
+- res/drawable-hdpi/aquarius.webp
+- res/drawable-hdpi/aries.webp
+- res/drawable-hdpi/bitmoji_fashion_icon.webp
+- res/drawable-hdpi/bitmoji_pencil_icon.webp
+- res/drawable-hdpi/bitmoji_selfie_icon.webp
+- res/drawable-hdpi/boxed_checkmark.webp
+- res/drawable-hdpi/calling_chat_input_bar_dismiss.webp
+- res/drawable-hdpi/camera_flash_icon.webp
+- res/drawable-hdpi/camera_flash_off_v2.webp
+- res/drawable-hdpi/camera_flash_on_v2.webp
+- res/drawable-hdpi/camera_flip_icon.webp
+- res/drawable-hdpi/camera_mode_grid_off.webp
+- res/drawable-hdpi/camera_mode_grid_on.webp
+- res/drawable-hdpi/camera_mode_night_mode.webp
+- res/drawable-hdpi/camera_mode_night_mode_off_v2.webp
+- res/drawable-hdpi/cancer.webp
+- res/drawable-hdpi/capricorn.webp
+- res/drawable-hdpi/chat_action_menu_copy.webp
+- res/drawable-hdpi/chat_action_menu_erase.webp
+- res/drawable-hdpi/chat_action_menu_save_to_camera_roll.webp
+- res/drawable-hdpi/chat_media_drawer_edit.webp
+- res/drawable-hdpi/chat_media_drawer_send_with_memories.webp
+- res/drawable-hdpi/chat_media_url_icon.webp
+- res/drawable-hdpi/cognac_chat_bar_close.webp
+- res/drawable-hdpi/cognac_default_avatar.webp
+- res/drawable-hdpi/color_picker_bar.webp
+- res/drawable-hdpi/cta_up_arrow.webp
+- res/drawable-hdpi/feed_button_right_arrow.webp
+- res/drawable-hdpi/ff_feed_reply_button.webp
+- res/drawable-hdpi/ff_snap_reply_button.webp
+- res/drawable-hdpi/ff_svg_ff_feed_restore_icon.webp
+- res/drawable-hdpi/ff_svg_ff_feed_restore_icon_no_camera.webp
+- res/drawable-hdpi/floating_tag_button_selected.webp
+- res/drawable-hdpi/friended_icon.webp
+- res/drawable-hdpi/gemini.webp
+- res/drawable-hdpi/hova_nav_camera_dark_bg.webp
+- res/drawable-hdpi/identity_quick_add_hide.webp
+- res/drawable-hdpi/impala_exclamation.webp
+- res/drawable-hdpi/leo.webp
+- res/drawable-hdpi/libra.webp
+- res/drawable-hdpi/map_status_trash.webp
+- res/drawable-hdpi/miniprofile_placeholder_snapcode.webp
+- res/drawable-hdpi/multi_snap_delete.webp
+- res/drawable-hdpi/multi_snap_handle.webp
+- res/drawable-hdpi/multi_snap_scissors.webp
+- res/drawable-hdpi/navigation_x.webp
+- res/drawable-hdpi/neon_header_gradient.webp
+- res/drawable-hdpi/neon_header_search_stroked.webp
+- res/drawable-hdpi/pisces.webp
+- res/drawable-hdpi/preview_discard_selected.webp
+- res/drawable-hdpi/profile_addedme_ghost12.webp
+- res/drawable-hdpi/profile_insights_icon.webp
+- res/drawable-hdpi/profile_v3_add_friends_icon.webp
+- res/drawable-hdpi/reg_share_icon.webp
+- res/drawable-hdpi/report_ghost.webp
+- res/drawable-hdpi/sagitarius.webp
+- res/drawable-hdpi/save_in_chat.webp
+- res/drawable-hdpi/scorpio.webp
+- res/drawable-hdpi/scroll_down_arrow_dark.webp
+- res/drawable-hdpi/search_bar_clear_blue.webp
+- res/drawable-hdpi/search_bar_cursor_blue.webp
+- res/drawable-hdpi/select_friends_pin.webp
+- res/drawable-hdpi/send_to_button_label_mode_arrow.webp
+- res/drawable-hdpi/send_to_create_group.webp
+- res/drawable-hdpi/send_to_group_icon_cropped.webp
+- res/drawable-hdpi/send_to_x_icon.webp
+- res/drawable-hdpi/serengeti_close_x.webp
+- res/drawable-hdpi/serengeti_generic_error.webp
+- res/drawable-hdpi/share_icon.webp
+- res/drawable-hdpi/shazam_action_button.webp
+- res/drawable-hdpi/shazam_fallback.webp
+- res/drawable-hdpi/shazam_horizontal_icon.webp
+- res/drawable-hdpi/snap_crop_center_crop.webp
+- res/drawable-hdpi/snap_crop_center_inside.webp
+- res/drawable-hdpi/sound_tools_subtool_muted.webp
+- res/drawable-hdpi/sound_tools_subtool_muted_selected.webp
+- res/drawable-hdpi/sound_tools_subtool_standard_selected.webp
+- res/drawable-hdpi/svg_ad_reminder_bell_icon.webp
+- res/drawable-hdpi/svg_amazon_logo.webp
+- res/drawable-hdpi/svg_as_onboarding_reply.webp
+- res/drawable-hdpi/svg_as_onboarding_reply_basic.webp
+- res/drawable-hdpi/svg_birthdays_mini.webp
+- res/drawable-hdpi/svg_bloops_stickers_new_selfie.webp
+- res/drawable-hdpi/svg_camera_roll_icon_small.webp
+- res/drawable-hdpi/svg_carousel_close_button.webp
+- res/drawable-hdpi/svg_cell.webp
+- res/drawable-hdpi/svg_chat_input_bar_plus.webp
+- res/drawable-hdpi/svg_chat_item_game_play_button_icon.webp
+- res/drawable-hdpi/svg_chat_media_link_icon.webp
+- res/drawable-hdpi/svg_chat_media_location_icon.webp
+- res/drawable-hdpi/svg_chat_media_phone_icon.webp
+- res/drawable-hdpi/svg_checkmark_icon.webp
+- res/drawable-hdpi/svg_chevron_back.webp
+- res/drawable-hdpi/svg_chevron_down.webp
+- res/drawable-hdpi/svg_chevron_up.webp
+- res/drawable-hdpi/svg_close_20x20.webp
+- res/drawable-hdpi/svg_close_button.webp
+- res/drawable-hdpi/svg_cognac_auth_exit_icon.webp
+- res/drawable-hdpi/svg_cognac_tile_leaderboard.webp
+- res/drawable-hdpi/svg_cognac_tile_mini.webp
+- res/drawable-hdpi/svg_cognac_tile_multiplayer.webp
+- res/drawable-hdpi/svg_cognac_token_icon.webp
+- res/drawable-hdpi/svg_cognac_tray_trash_can.webp
+- res/drawable-hdpi/svg_compass.webp
+- res/drawable-hdpi/svg_create_bitmoji_asset.webp
+- res/drawable-hdpi/svg_downward_arrow.webp
+- res/drawable-hdpi/svg_error_no_border.webp
+- res/drawable-hdpi/svg_explore_fill.webp
+- res/drawable-hdpi/svg_flip_camera_60x60.webp
+- res/drawable-hdpi/svg_forward_chevron.webp
+- res/drawable-hdpi/svg_ghost_trail_onboarding_dialog_icon.webp
+- res/drawable-hdpi/svg_group_sticker_pill_icon.webp
+- res/drawable-hdpi/svg_gv2_private.webp
+- res/drawable-hdpi/svg_gv2_public.webp
+- res/drawable-hdpi/svg_heart_white_fill.webp
+- res/drawable-hdpi/svg_hermosa_icon.webp
+- res/drawable-hdpi/svg_icon_app_install.webp
+- res/drawable-hdpi/svg_icon_deep_link.webp
+- res/drawable-hdpi/svg_icon_lead_generation.webp
+- res/drawable-hdpi/svg_icon_lead_generation_card_design.webp
+- res/drawable-hdpi/svg_icon_longform_video.webp
+- res/drawable-hdpi/svg_icon_longform_video_card_design.webp
+- res/drawable-hdpi/svg_icon_remote_webpage.webp
+- res/drawable-hdpi/svg_icon_remote_webpage_card_design.webp
+- res/drawable-hdpi/svg_icon_swipe_to_call.webp
+- res/drawable-hdpi/svg_icon_swipe_to_call_card_design.webp
+- res/drawable-hdpi/svg_icon_swipe_to_chat.webp
+- res/drawable-hdpi/svg_icon_swipe_to_chat_card_design.webp
+- res/drawable-hdpi/svg_icon_swipe_to_ext_browser.webp
+- res/drawable-hdpi/svg_icon_swipe_to_lens.webp
+- res/drawable-hdpi/svg_icon_swipe_to_lens_card_design.webp
+- res/drawable-hdpi/svg_icon_swipe_to_place.webp
+- res/drawable-hdpi/svg_icon_swipe_to_place_card_design.webp
+- res/drawable-hdpi/svg_live_location_icon_night.webp
+- res/drawable-hdpi/svg_live_location_pin.webp
+- res/drawable-hdpi/svg_loading_indicator.webp
+- res/drawable-hdpi/svg_location_icon.webp
+- res/drawable-hdpi/svg_map_search_location_pin.webp
+- res/drawable-hdpi/svg_map_update_bitmoji.webp
+- res/drawable-hdpi/svg_marco_polo_chevron_cta_back.webp
+- res/drawable-hdpi/svg_marco_polo_cta_send.webp
+- res/drawable-hdpi/svg_megaphone.webp
+- res/drawable-hdpi/svg_megaphone_disabled.webp
+- res/drawable-hdpi/svg_memories_48x48.webp
+- res/drawable-hdpi/svg_mypayouts.webp
+- res/drawable-hdpi/svg_nav_selector.webp
+- res/drawable-hdpi/svg_new_chat_32x32.webp
+- res/drawable-hdpi/svg_places_favorites.webp
+- res/drawable-hdpi/svg_places_friends.webp
+- res/drawable-hdpi/svg_places_friends_of_friends.webp
+- res/drawable-hdpi/svg_preview_discard.webp
+- res/drawable-hdpi/svg_profile_request_location.webp
+- res/drawable-hdpi/svg_public_privacy.webp
+- res/drawable-hdpi/svg_reload.webp
+- res/drawable-hdpi/svg_request_sticker_snap_me_camera_icon.webp
+- res/drawable-hdpi/svg_run_for_office_mini.webp
+- res/drawable-hdpi/svg_saving_snap_prompt_icon.webp
+- res/drawable-hdpi/svg_selected.webp
+- res/drawable-hdpi/svg_send_checkbox_story.webp
+- res/drawable-hdpi/svg_send_checkbox_story_selected.webp
+- res/drawable-hdpi/svg_share_icon_white.webp
+- res/drawable-hdpi/svg_shop.webp
+- res/drawable-hdpi/svg_spotlight_favorited.webp
+- res/drawable-hdpi/svg_spotlight_icon_24x24.webp
+- res/drawable-hdpi/svg_star_empty_blue.webp
+- res/drawable-hdpi/svg_star_filled_blue.webp
+- res/drawable-hdpi/svg_star_partial_blue.webp
+- res/drawable-hdpi/svg_status_collapsed_read.webp
+- res/drawable-hdpi/svg_status_collapsed_unread.webp
+- res/drawable-hdpi/svg_syncing.webp
+- res/drawable-hdpi/svg_timeline_16x16.webp
+- res/drawable-hdpi/svg_timeline_32x32.webp
+- res/drawable-hdpi/svg_timeline_memories_icon_32x32.webp
+- res/drawable-hdpi/svg_timeline_selected_32x32.webp
+- res/drawable-hdpi/svg_tray_compass_button.webp
+- res/drawable-hdpi/svg_tray_search_button.webp
+- res/drawable-hdpi/svg_unified_profile_bitmoji_merch.webp
+- res/drawable-hdpi/svg_up_arrow_16x16.webp
+- res/drawable-hdpi/svg_white_left_arrow.webp
+- res/drawable-hdpi/taurus.webp
+- res/drawable-hdpi/unsave_in_chat.webp
+- res/drawable-hdpi/virgo.webp
+- res/drawable-hdpi/white_x.webp
+- res/drawable-mdpi/aa_action_bar_up_arrow_green.webp
+- res/drawable-mdpi/aa_search_bar_clear.webp
+- res/drawable-mdpi/action_bar_search_icon_blue.webp
+- res/drawable-mdpi/action_bar_up_arrow_blue.webp
+- res/drawable-mdpi/action_menu_checkmark_checked_icon.webp
+- res/drawable-mdpi/action_menu_specs_icon.webp
+- res/drawable-mdpi/add_friend_plus_button_blue.webp
+- res/drawable-mdpi/add_friends_header_camera.webp
+- res/drawable-mdpi/add_story.webp
+- res/drawable-mdpi/aquarius.webp
+- res/drawable-mdpi/aries.webp
+- res/drawable-mdpi/bitmoji_fashion_icon.webp
+- res/drawable-mdpi/bitmoji_pencil_icon.webp
+- res/drawable-mdpi/bitmoji_selfie_icon.webp
+- res/drawable-mdpi/boxed_checkmark.webp
+- res/drawable-mdpi/calling_chat_input_bar_dismiss.webp
+- res/drawable-mdpi/camera_flash_icon.webp
+- res/drawable-mdpi/camera_flash_off_v2.webp
+- res/drawable-mdpi/camera_flash_on_v2.webp
+- res/drawable-mdpi/camera_flip_icon.webp
+- res/drawable-mdpi/camera_mode_grid_off.webp
+- res/drawable-mdpi/camera_mode_grid_on.webp
+- res/drawable-mdpi/camera_mode_night_mode.webp
+- res/drawable-mdpi/camera_mode_night_mode_off_v2.webp
+- res/drawable-mdpi/cancer.webp
+- res/drawable-mdpi/capricorn.webp
+- res/drawable-mdpi/chat_action_menu_copy.webp
+- res/drawable-mdpi/chat_action_menu_erase.webp
+- res/drawable-mdpi/chat_action_menu_save_to_camera_roll.webp
+- res/drawable-mdpi/chat_media_drawer_edit.webp
+- res/drawable-mdpi/chat_media_drawer_send_with_memories.webp
+- res/drawable-mdpi/chat_media_url_icon.webp
+- res/drawable-mdpi/cognac_chat_bar_close.webp
+- res/drawable-mdpi/cognac_default_avatar.webp
+- res/drawable-mdpi/color_picker_bar.webp
+- res/drawable-mdpi/cta_up_arrow.webp
+- res/drawable-mdpi/feed_button_right_arrow.webp
+- res/drawable-mdpi/ff_feed_reply_button.webp
+- res/drawable-mdpi/ff_snap_reply_button.webp
+- res/drawable-mdpi/ff_svg_ff_feed_restore_icon.webp
+- res/drawable-mdpi/ff_svg_ff_feed_restore_icon_no_camera.webp
+- res/drawable-mdpi/floating_tag_button_selected.webp
+- res/drawable-mdpi/friended_icon.webp
+- res/drawable-mdpi/gemini.webp
+- res/drawable-mdpi/hova_nav_camera_dark_bg.webp
+- res/drawable-mdpi/identity_quick_add_hide.webp
+- res/drawable-mdpi/impala_exclamation.webp
+- res/drawable-mdpi/leo.webp
+- res/drawable-mdpi/libra.webp
+- res/drawable-mdpi/map_status_trash.webp
+- res/drawable-mdpi/miniprofile_placeholder_snapcode.webp
+- res/drawable-mdpi/multi_snap_delete.webp
+- res/drawable-mdpi/multi_snap_handle.webp
+- res/drawable-mdpi/multi_snap_scissors.webp
+- res/drawable-mdpi/navigation_x.webp
+- res/drawable-mdpi/neon_header_gradient.webp
+- res/drawable-mdpi/neon_header_search_stroked.webp
+- res/drawable-mdpi/pisces.webp
+- res/drawable-mdpi/preview_discard_selected.webp
+- res/drawable-mdpi/profile_addedme_ghost12.webp
+- res/drawable-mdpi/profile_insights_icon.webp
+- res/drawable-mdpi/profile_v3_add_friends_icon.webp
+- res/drawable-mdpi/reg_share_icon.webp
+- res/drawable-mdpi/report_ghost.webp
+- res/drawable-mdpi/sagitarius.webp
+- res/drawable-mdpi/save_in_chat.webp
+- res/drawable-mdpi/scorpio.webp
+- res/drawable-mdpi/scroll_down_arrow_dark.webp
+- res/drawable-mdpi/search_bar_clear_blue.webp
+- res/drawable-mdpi/search_bar_cursor_blue.webp
+- res/drawable-mdpi/select_friends_pin.webp
+- res/drawable-mdpi/send_to_button_label_mode_arrow.webp
+- res/drawable-mdpi/send_to_create_group.webp
+- res/drawable-mdpi/send_to_group_icon_cropped.webp
+- res/drawable-mdpi/send_to_x_icon.webp
+- res/drawable-mdpi/serengeti_close_x.webp
+- res/drawable-mdpi/serengeti_generic_error.webp
+- res/drawable-mdpi/share_icon.webp
+- res/drawable-mdpi/shazam_action_button.webp
+- res/drawable-mdpi/shazam_fallback.webp
+- res/drawable-mdpi/shazam_horizontal_icon.webp
+- res/drawable-mdpi/snap_crop_center_crop.webp
+- res/drawable-mdpi/snap_crop_center_inside.webp
+- res/drawable-mdpi/sound_tools_subtool_muted.webp
+- res/drawable-mdpi/sound_tools_subtool_muted_selected.webp
+- res/drawable-mdpi/sound_tools_subtool_standard_selected.webp
+- res/drawable-mdpi/svg_ad_reminder_bell_icon.webp
+- res/drawable-mdpi/svg_amazon_logo.webp
+- res/drawable-mdpi/svg_as_onboarding_reply.webp
+- res/drawable-mdpi/svg_as_onboarding_reply_basic.webp
+- res/drawable-mdpi/svg_birthdays_mini.webp
+- res/drawable-mdpi/svg_bloops_stickers_new_selfie.webp
+- res/drawable-mdpi/svg_camera_roll_icon_small.webp
+- res/drawable-mdpi/svg_carousel_close_button.webp
+- res/drawable-mdpi/svg_cell.webp
+- res/drawable-mdpi/svg_chat_input_bar_plus.webp
+- res/drawable-mdpi/svg_chat_item_game_play_button_icon.webp
+- res/drawable-mdpi/svg_chat_media_link_icon.webp
+- res/drawable-mdpi/svg_chat_media_location_icon.webp
+- res/drawable-mdpi/svg_chat_media_phone_icon.webp
+- res/drawable-mdpi/svg_checkmark_icon.webp
+- res/drawable-mdpi/svg_clock_1.webp
+- res/drawable-mdpi/svg_close_20x20.webp
+- res/drawable-mdpi/svg_close_button.webp
+- res/drawable-mdpi/svg_cognac_auth_exit_icon.webp
+- res/drawable-mdpi/svg_cognac_tile_leaderboard.webp
+- res/drawable-mdpi/svg_cognac_tile_mini.webp
+- res/drawable-mdpi/svg_cognac_tile_multiplayer.webp
+- res/drawable-mdpi/svg_cognac_token_icon.webp
+- res/drawable-mdpi/svg_cognac_tray_trash_can.webp
+- res/drawable-mdpi/svg_compass.webp
+- res/drawable-mdpi/svg_create_bitmoji_asset.webp
+- res/drawable-mdpi/svg_downward_arrow.webp
+- res/drawable-mdpi/svg_error_no_border.webp
+- res/drawable-mdpi/svg_explore_fill.webp
+- res/drawable-mdpi/svg_flip_camera_60x60.webp
+- res/drawable-mdpi/svg_forward_chevron.webp
+- res/drawable-mdpi/svg_ghost_trail_onboarding_dialog_icon.webp
+- res/drawable-mdpi/svg_group_sticker_pill_icon.webp
+- res/drawable-mdpi/svg_gv2_private.webp
+- res/drawable-mdpi/svg_gv2_public.webp
+- res/drawable-mdpi/svg_heart_white_fill.webp
+- res/drawable-mdpi/svg_hermosa_icon.webp
+- res/drawable-mdpi/svg_icon_app_install.webp
+- res/drawable-mdpi/svg_icon_deep_link.webp
+- res/drawable-mdpi/svg_icon_lead_generation.webp
+- res/drawable-mdpi/svg_icon_lead_generation_card_design.webp
+- res/drawable-mdpi/svg_icon_longform_video.webp
+- res/drawable-mdpi/svg_icon_longform_video_card_design.webp
+- res/drawable-mdpi/svg_icon_remote_webpage.webp
+- res/drawable-mdpi/svg_icon_remote_webpage_card_design.webp
+- res/drawable-mdpi/svg_icon_swipe_to_call.webp
+- res/drawable-mdpi/svg_icon_swipe_to_call_card_design.webp
+- res/drawable-mdpi/svg_icon_swipe_to_chat.webp
+- res/drawable-mdpi/svg_icon_swipe_to_chat_card_design.webp
+- res/drawable-mdpi/svg_icon_swipe_to_ext_browser.webp
+- res/drawable-mdpi/svg_icon_swipe_to_lens.webp
+- res/drawable-mdpi/svg_icon_swipe_to_lens_card_design.webp
+- res/drawable-mdpi/svg_icon_swipe_to_place.webp
+- res/drawable-mdpi/svg_icon_swipe_to_place_card_design.webp
+- res/drawable-mdpi/svg_live_location_icon_night.webp
+- res/drawable-mdpi/svg_live_location_pin.webp
+- res/drawable-mdpi/svg_loading_indicator.webp
+- res/drawable-mdpi/svg_location_icon.webp
+- res/drawable-mdpi/svg_map_search_location_pin.webp
+- res/drawable-mdpi/svg_map_update_bitmoji.webp
+- res/drawable-mdpi/svg_megaphone.webp
+- res/drawable-mdpi/svg_megaphone_disabled.webp
+- res/drawable-mdpi/svg_memories_48x48.webp
+- res/drawable-mdpi/svg_mypayouts.webp
+- res/drawable-mdpi/svg_nav_selector.webp
+- res/drawable-mdpi/svg_new_chat_32x32.webp
+- res/drawable-mdpi/svg_places_favorites.webp
+- res/drawable-mdpi/svg_places_friends.webp
+- res/drawable-mdpi/svg_places_friends_of_friends.webp
+- res/drawable-mdpi/svg_preview_discard.webp
+- res/drawable-mdpi/svg_profile_request_location.webp
+- res/drawable-mdpi/svg_public_privacy.webp
+- res/drawable-mdpi/svg_reload.webp
+- res/drawable-mdpi/svg_request_sticker_snap_me_camera_icon.webp
+- res/drawable-mdpi/svg_run_for_office_mini.webp
+- res/drawable-mdpi/svg_saving_snap_prompt_icon.webp
+- res/drawable-mdpi/svg_send_checkbox_story.webp
+- res/drawable-mdpi/svg_send_checkbox_story_selected.webp
+- res/drawable-mdpi/svg_share_icon_white.webp
+- res/drawable-mdpi/svg_spotlight_favorited.webp
+- res/drawable-mdpi/svg_spotlight_icon_24x24.webp
+- res/drawable-mdpi/svg_star_empty_blue.webp
+- res/drawable-mdpi/svg_star_filled_blue.webp
+- res/drawable-mdpi/svg_star_partial_blue.webp
+- res/drawable-mdpi/svg_status_collapsed_read.webp
+- res/drawable-mdpi/svg_status_collapsed_unread.webp
+- res/drawable-mdpi/svg_syncing.webp
+- res/drawable-mdpi/svg_timeline_16x16.webp
+- res/drawable-mdpi/svg_timeline_32x32.webp
+- res/drawable-mdpi/svg_timeline_memories_icon_32x32.webp
+- res/drawable-mdpi/svg_timeline_selected_32x32.webp
+- res/drawable-mdpi/svg_tray_compass_button.webp
+- res/drawable-mdpi/svg_tray_search_button.webp
+- res/drawable-mdpi/svg_unified_profile_bitmoji_merch.webp
+- res/drawable-mdpi/svg_up_arrow_16x16.webp
+- res/drawable-mdpi/svg_white_left_arrow.webp
+- res/drawable-mdpi/taurus.webp
+- res/drawable-mdpi/unsave_in_chat.webp
+- res/drawable-mdpi/virgo.webp
+- res/drawable-mdpi/white_x.webp
+- res/drawable-xhdpi/aa_action_bar_up_arrow_green.webp
+- res/drawable-xhdpi/aa_search_bar_clear.webp
+- res/drawable-xhdpi/action_bar_search_icon_blue.webp
+- res/drawable-xhdpi/action_bar_up_arrow_blue.webp
+- res/drawable-xhdpi/action_menu_checkmark_checked_icon.webp
+- res/drawable-xhdpi/action_menu_specs_icon.webp
+- res/drawable-xhdpi/add_friend_plus_button_blue.webp
+- res/drawable-xhdpi/add_friends_header_camera.webp
+- res/drawable-xhdpi/aquarius.webp
+- res/drawable-xhdpi/aries.webp
+- res/drawable-xhdpi/bitmoji_fashion_icon.webp
+- res/drawable-xhdpi/bitmoji_pencil_icon.webp
+- res/drawable-xhdpi/bitmoji_selfie_icon.webp
+- res/drawable-xhdpi/boxed_checkmark.webp
+- res/drawable-xhdpi/calling_chat_input_bar_dismiss.webp
+- res/drawable-xhdpi/camera_flash_icon.webp
+- res/drawable-xhdpi/camera_flash_off_v2.webp
+- res/drawable-xhdpi/camera_flash_on_v2.webp
+- res/drawable-xhdpi/camera_flip_icon.webp
+- res/drawable-xhdpi/camera_mode_grid_off.webp
+- res/drawable-xhdpi/camera_mode_grid_on.webp
+- res/drawable-xhdpi/camera_mode_night_mode.webp
+- res/drawable-xhdpi/camera_mode_night_mode_off_v2.webp
+- res/drawable-xhdpi/cancer.webp
+- res/drawable-xhdpi/capricorn.webp
+- res/drawable-xhdpi/chat_action_menu_copy.webp
+- res/drawable-xhdpi/chat_action_menu_erase.webp
+- res/drawable-xhdpi/chat_action_menu_save_to_camera_roll.webp
+- res/drawable-xhdpi/chat_media_drawer_edit.webp
+- res/drawable-xhdpi/chat_media_drawer_send_with_memories.webp
+- res/drawable-xhdpi/chat_media_url_icon.webp
+- res/drawable-xhdpi/cognac_chat_bar_close.webp
+- res/drawable-xhdpi/cognac_default_avatar.webp
+- res/drawable-xhdpi/color_picker_bar.webp
+- res/drawable-xhdpi/cta_up_arrow.webp
+- res/drawable-xhdpi/feed_button_right_arrow.webp
+- res/drawable-xhdpi/ff_feed_reply_button.webp
+- res/drawable-xhdpi/ff_snap_reply_button.webp
+- res/drawable-xhdpi/ff_svg_ff_feed_restore_icon.webp
+- res/drawable-xhdpi/ff_svg_ff_feed_restore_icon_no_camera.webp
+- res/drawable-xhdpi/floating_tag_button_selected.webp
+- res/drawable-xhdpi/friended_icon.webp
+- res/drawable-xhdpi/gemini.webp
+- res/drawable-xhdpi/hova_nav_camera_dark_bg.webp
+- res/drawable-xhdpi/identity_quick_add_hide.webp
+- res/drawable-xhdpi/impala_exclamation.webp
+- res/drawable-xhdpi/leo.webp
+- res/drawable-xhdpi/libra.webp
+- res/drawable-xhdpi/map_pulldown_tooltip_arrow.webp
+- res/drawable-xhdpi/map_status_trash.webp
+- res/drawable-xhdpi/miniprofile_placeholder_snapcode.webp
+- res/drawable-xhdpi/multi_snap_delete.webp
+- res/drawable-xhdpi/multi_snap_handle.webp
+- res/drawable-xhdpi/multi_snap_scissors.webp
+- res/drawable-xhdpi/navigation_x.webp
+- res/drawable-xhdpi/neon_header_gradient.webp
+- res/drawable-xhdpi/neon_header_search_stroked.webp
+- res/drawable-xhdpi/pisces.webp
+- res/drawable-xhdpi/preview_discard_selected.webp
+- res/drawable-xhdpi/profile_addedme_ghost12.webp
+- res/drawable-xhdpi/profile_insights_icon.webp
+- res/drawable-xhdpi/profile_v3_add_friends_icon.webp
+- res/drawable-xhdpi/reg_share_icon.webp
+- res/drawable-xhdpi/report_ghost.webp
+- res/drawable-xhdpi/sagitarius.webp
+- res/drawable-xhdpi/save_in_chat.webp
+- res/drawable-xhdpi/scorpio.webp
+- res/drawable-xhdpi/scroll_down_arrow_dark.webp
+- res/drawable-xhdpi/search_bar_clear_blue.webp
+- res/drawable-xhdpi/search_bar_cursor_blue.webp
+- res/drawable-xhdpi/select_friends_pin.webp
+- res/drawable-xhdpi/send_to_button_label_mode_arrow.webp
+- res/drawable-xhdpi/send_to_create_group.webp
+- res/drawable-xhdpi/send_to_group_icon_cropped.webp
+- res/drawable-xhdpi/send_to_x_icon.webp
+- res/drawable-xhdpi/serengeti_close_x.webp
+- res/drawable-xhdpi/serengeti_generic_error.webp
+- res/drawable-xhdpi/share_icon.webp
+- res/drawable-xhdpi/shazam_action_button.webp
+- res/drawable-xhdpi/shazam_fallback.webp
+- res/drawable-xhdpi/shazam_horizontal_icon.webp
+- res/drawable-xhdpi/snap_crop_center_crop.webp
+- res/drawable-xhdpi/snap_crop_center_inside.webp
+- res/drawable-xhdpi/sound_tools_subtool_muted.webp
+- res/drawable-xhdpi/sound_tools_subtool_muted_selected.webp
+- res/drawable-xhdpi/sound_tools_subtool_standard_selected.webp
+- res/drawable-xhdpi/svg_ad_reminder_bell_icon.webp
+- res/drawable-xhdpi/svg_amazon_logo.webp
+- res/drawable-xhdpi/svg_as_onboarding_reply.webp
+- res/drawable-xhdpi/svg_as_onboarding_reply_basic.webp
+- res/drawable-xhdpi/svg_birthdays_mini.webp
+- res/drawable-xhdpi/svg_bloops_stickers_new_selfie.webp
+- res/drawable-xhdpi/svg_camera_roll_icon_small.webp
+- res/drawable-xhdpi/svg_carousel_close_button.webp
+- res/drawable-xhdpi/svg_cell.webp
+- res/drawable-xhdpi/svg_chat_input_bar_plus.webp
+- res/drawable-xhdpi/svg_chat_item_game_play_button_icon.webp
+- res/drawable-xhdpi/svg_chat_media_link_icon.webp
+- res/drawable-xhdpi/svg_chat_media_location_icon.webp
+- res/drawable-xhdpi/svg_chat_media_phone_icon.webp
+- res/drawable-xhdpi/svg_checkmark_icon.webp
+- res/drawable-xhdpi/svg_clock_1.webp
+- res/drawable-xhdpi/svg_close_20x20.webp
+- res/drawable-xhdpi/svg_close_button.webp
+- res/drawable-xhdpi/svg_cognac_auth_exit_icon.webp
+- res/drawable-xhdpi/svg_cognac_tile_leaderboard.webp
+- res/drawable-xhdpi/svg_cognac_tile_mini.webp
+- res/drawable-xhdpi/svg_cognac_tile_multiplayer.webp
+- res/drawable-xhdpi/svg_cognac_token_icon.webp
+- res/drawable-xhdpi/svg_cognac_tray_trash_can.webp
+- res/drawable-xhdpi/svg_compass.webp
+- res/drawable-xhdpi/svg_create_bitmoji_asset.webp
+- res/drawable-xhdpi/svg_downward_arrow.webp
+- res/drawable-xhdpi/svg_error_no_border.webp
+- res/drawable-xhdpi/svg_explore_fill.webp
+- res/drawable-xhdpi/svg_flip_camera_60x60.webp
+- res/drawable-xhdpi/svg_forward_chevron.webp
+- res/drawable-xhdpi/svg_ghost_trail_onboarding_dialog_icon.webp
+- res/drawable-xhdpi/svg_group_sticker_pill_icon.webp
+- res/drawable-xhdpi/svg_gv2_private.webp
+- res/drawable-xhdpi/svg_gv2_public.webp
+- res/drawable-xhdpi/svg_heart_white_fill.webp
+- res/drawable-xhdpi/svg_hermosa_icon.webp
+- res/drawable-xhdpi/svg_icon_app_install.webp
+- res/drawable-xhdpi/svg_icon_deep_link.webp
+- res/drawable-xhdpi/svg_icon_lead_generation.webp
+- res/drawable-xhdpi/svg_icon_lead_generation_card_design.webp
+- res/drawable-xhdpi/svg_icon_longform_video.webp
+- res/drawable-xhdpi/svg_icon_longform_video_card_design.webp
+- res/drawable-xhdpi/svg_icon_remote_webpage.webp
+- res/drawable-xhdpi/svg_icon_remote_webpage_card_design.webp
+- res/drawable-xhdpi/svg_icon_swipe_to_call.webp
+- res/drawable-xhdpi/svg_icon_swipe_to_call_card_design.webp
+- res/drawable-xhdpi/svg_icon_swipe_to_chat.webp
+- res/drawable-xhdpi/svg_icon_swipe_to_chat_card_design.webp
+- res/drawable-xhdpi/svg_icon_swipe_to_ext_browser.webp
+- res/drawable-xhdpi/svg_icon_swipe_to_lens.webp
+- res/drawable-xhdpi/svg_icon_swipe_to_lens_card_design.webp
+- res/drawable-xhdpi/svg_icon_swipe_to_place.webp
+- res/drawable-xhdpi/svg_icon_swipe_to_place_card_design.webp
+- res/drawable-xhdpi/svg_live_location_icon_night.webp
+- res/drawable-xhdpi/svg_live_location_pin.webp
+- res/drawable-xhdpi/svg_loading_indicator.webp
+- res/drawable-xhdpi/svg_location_icon.webp
+- res/drawable-xhdpi/svg_map_search_location_pin.webp
+- res/drawable-xhdpi/svg_map_update_bitmoji.webp
+- res/drawable-xhdpi/svg_megaphone.webp
+- res/drawable-xhdpi/svg_megaphone_disabled.webp
+- res/drawable-xhdpi/svg_memories_48x48.webp
+- res/drawable-xhdpi/svg_mypayouts.webp
+- res/drawable-xhdpi/svg_nav_selector.webp
+- res/drawable-xhdpi/svg_new_chat_32x32.webp
+- res/drawable-xhdpi/svg_places_favorites.webp
+- res/drawable-xhdpi/svg_places_friends.webp
+- res/drawable-xhdpi/svg_places_friends_of_friends.webp
+- res/drawable-xhdpi/svg_preview_discard.webp
+- res/drawable-xhdpi/svg_profile_request_location.webp
+- res/drawable-xhdpi/svg_public_privacy.webp
+- res/drawable-xhdpi/svg_reload.webp
+- res/drawable-xhdpi/svg_request_sticker_snap_me_camera_icon.webp
+- res/drawable-xhdpi/svg_run_for_office_mini.webp
+- res/drawable-xhdpi/svg_saving_snap_prompt_icon.webp
+- res/drawable-xhdpi/svg_send_checkbox_story.webp
+- res/drawable-xhdpi/svg_send_checkbox_story_selected.webp
+- res/drawable-xhdpi/svg_share_icon_white.webp
+- res/drawable-xhdpi/svg_spotlight_favorited.webp
+- res/drawable-xhdpi/svg_spotlight_icon_24x24.webp
+- res/drawable-xhdpi/svg_star_empty_blue.webp
+- res/drawable-xhdpi/svg_star_filled_blue.webp
+- res/drawable-xhdpi/svg_star_partial_blue.webp
+- res/drawable-xhdpi/svg_status_collapsed_read.webp
+- res/drawable-xhdpi/svg_status_collapsed_unread.webp
+- res/drawable-xhdpi/svg_syncing.webp
+- res/drawable-xhdpi/svg_timeline_16x16.webp
+- res/drawable-xhdpi/svg_timeline_32x32.webp
+- res/drawable-xhdpi/svg_timeline_memories_icon_32x32.webp
+- res/drawable-xhdpi/svg_timeline_selected_32x32.webp
+- res/drawable-xhdpi/svg_tray_compass_button.webp
+- res/drawable-xhdpi/svg_tray_search_button.webp
+- res/drawable-xhdpi/svg_unified_profile_bitmoji_merch.webp
+- res/drawable-xhdpi/svg_up_arrow_16x16.webp
+- res/drawable-xhdpi/svg_white_left_arrow.webp
+- res/drawable-xhdpi/taurus.webp
+- res/drawable-xhdpi/unsave_in_chat.webp
+- res/drawable-xhdpi/virgo.webp
+- res/drawable-xhdpi/white_x.webp
+- res/drawable-xxhdpi/action_bar_search_icon_blue.webp
+- res/drawable-xxhdpi/action_bar_up_arrow_blue.webp
+- res/drawable-xxhdpi/action_menu_checkmark_checked_icon.webp
+- res/drawable-xxhdpi/action_menu_specs_icon.webp
+- res/drawable-xxhdpi/add_friend_plus_button_blue.webp
+- res/drawable-xxhdpi/add_friends_header_camera.webp
+- res/drawable-xxhdpi/aquarius.webp
+- res/drawable-xxhdpi/aries.webp
+- res/drawable-xxhdpi/boxed_checkmark.webp
+- res/drawable-xxhdpi/calling_chat_input_bar_dismiss.webp
+- res/drawable-xxhdpi/camera_flash_icon.webp
+- res/drawable-xxhdpi/camera_flash_off_v2.webp
+- res/drawable-xxhdpi/camera_flash_on_v2.webp
+- res/drawable-xxhdpi/camera_flip_icon.webp
+- res/drawable-xxhdpi/camera_mode_grid_off.webp
+- res/drawable-xxhdpi/camera_mode_grid_on.webp
+- res/drawable-xxhdpi/camera_mode_night_mode.webp
+- res/drawable-xxhdpi/camera_mode_night_mode_off_v2.webp
+- res/drawable-xxhdpi/cancer.webp
+- res/drawable-xxhdpi/capricorn.webp
+- res/drawable-xxhdpi/chat_action_menu_copy.webp
+- res/drawable-xxhdpi/chat_action_menu_erase.webp
+- res/drawable-xxhdpi/chat_action_menu_save_to_camera_roll.webp
+- res/drawable-xxhdpi/chat_media_drawer_edit.webp
+- res/drawable-xxhdpi/chat_media_drawer_send_with_memories.webp
+- res/drawable-xxhdpi/chat_media_url_icon.webp
+- res/drawable-xxhdpi/cognac_chat_bar_close.webp
+- res/drawable-xxhdpi/cognac_default_avatar.webp
+- res/drawable-xxhdpi/color_picker_bar.webp
+- res/drawable-xxhdpi/cta_up_arrow.webp
+- res/drawable-xxhdpi/feed_button_right_arrow.webp
+- res/drawable-xxhdpi/ff_feed_reply_button.webp
+- res/drawable-xxhdpi/ff_snap_reply_button.webp
+- res/drawable-xxhdpi/ff_svg_ff_feed_restore_icon.webp
+- res/drawable-xxhdpi/ff_svg_ff_feed_restore_icon_no_camera.webp
+- res/drawable-xxhdpi/floating_tag_button_selected.webp
+- res/drawable-xxhdpi/gemini.webp
+- res/drawable-xxhdpi/hova_nav_camera_dark_bg.webp
+- res/drawable-xxhdpi/identity_quick_add_hide.webp
+- res/drawable-xxhdpi/impala_exclamation.webp
+- res/drawable-xxhdpi/leo.webp
+- res/drawable-xxhdpi/libra.webp
+- res/drawable-xxhdpi/map_pulldown_tooltip_arrow.webp
+- res/drawable-xxhdpi/map_status_trash.webp
+- res/drawable-xxhdpi/miniprofile_placeholder_snapcode.webp
+- res/drawable-xxhdpi/multi_snap_delete.webp
+- res/drawable-xxhdpi/multi_snap_handle.webp
+- res/drawable-xxhdpi/multi_snap_scissors.webp
+- res/drawable-xxhdpi/navigation_x.webp
+- res/drawable-xxhdpi/neon_header_gradient.webp
+- res/drawable-xxhdpi/neon_header_search_stroked.webp
+- res/drawable-xxhdpi/pisces.webp
+- res/drawable-xxhdpi/preview_discard_selected.webp
+- res/drawable-xxhdpi/profile_insights_icon.webp
+- res/drawable-xxhdpi/profile_v3_add_friends_icon.webp
+- res/drawable-xxhdpi/reg_share_icon.webp
+- res/drawable-xxhdpi/report_ghost.webp
+- res/drawable-xxhdpi/sagitarius.webp
+- res/drawable-xxhdpi/save_in_chat.webp
+- res/drawable-xxhdpi/scorpio.webp
+- res/drawable-xxhdpi/scroll_down_arrow_dark.webp
+- res/drawable-xxhdpi/search_bar_clear_blue.webp
+- res/drawable-xxhdpi/select_friends_pin.webp
+- res/drawable-xxhdpi/send_to_button_label_mode_arrow.webp
+- res/drawable-xxhdpi/send_to_create_group.webp
+- res/drawable-xxhdpi/send_to_group_icon_cropped.webp
+- res/drawable-xxhdpi/send_to_x_icon.webp
+- res/drawable-xxhdpi/serengeti_close_x.webp
+- res/drawable-xxhdpi/shazam_action_button.webp
+- res/drawable-xxhdpi/shazam_horizontal_icon.webp
+- res/drawable-xxhdpi/snap_crop_center_crop.webp
+- res/drawable-xxhdpi/snap_crop_center_inside.webp
+- res/drawable-xxhdpi/svg_ad_reminder_bell_icon.webp
+- res/drawable-xxhdpi/svg_amazon_logo.webp
+- res/drawable-xxhdpi/svg_as_onboarding_reply.webp
+- res/drawable-xxhdpi/svg_as_onboarding_reply_basic.webp
+- res/drawable-xxhdpi/svg_birthdays_mini.webp
+- res/drawable-xxhdpi/svg_bloops_stickers_new_selfie.webp
+- res/drawable-xxhdpi/svg_camera_roll_icon_small.webp
+- res/drawable-xxhdpi/svg_carousel_close_button.webp
+- res/drawable-xxhdpi/svg_cell.webp
+- res/drawable-xxhdpi/svg_chat_input_bar_plus.webp
+- res/drawable-xxhdpi/svg_chat_item_game_play_button_icon.webp
+- res/drawable-xxhdpi/svg_chat_media_link_icon.webp
+- res/drawable-xxhdpi/svg_chat_media_location_icon.webp
+- res/drawable-xxhdpi/svg_chat_media_phone_icon.webp
+- res/drawable-xxhdpi/svg_checkmark_icon.webp
+- res/drawable-xxhdpi/svg_clock_1.webp
+- res/drawable-xxhdpi/svg_close_20x20.webp
+- res/drawable-xxhdpi/svg_close_button.webp
+- res/drawable-xxhdpi/svg_cognac_auth_exit_icon.webp
+- res/drawable-xxhdpi/svg_cognac_tile_leaderboard.webp
+- res/drawable-xxhdpi/svg_cognac_tile_mini.webp
+- res/drawable-xxhdpi/svg_cognac_tile_multiplayer.webp
+- res/drawable-xxhdpi/svg_cognac_token_icon.webp
+- res/drawable-xxhdpi/svg_cognac_tray_trash_can.webp
+- res/drawable-xxhdpi/svg_compass.webp
+- res/drawable-xxhdpi/svg_create_bitmoji_asset.webp
+- res/drawable-xxhdpi/svg_downward_arrow.webp
+- res/drawable-xxhdpi/svg_error_no_border.webp
+- res/drawable-xxhdpi/svg_explore_fill.webp
+- res/drawable-xxhdpi/svg_flip_camera_60x60.webp
+- res/drawable-xxhdpi/svg_forward_chevron.webp
+- res/drawable-xxhdpi/svg_ghost_trail_onboarding_dialog_icon.webp
+- res/drawable-xxhdpi/svg_group_sticker_pill_icon.webp
+- res/drawable-xxhdpi/svg_gv2_private.webp
+- res/drawable-xxhdpi/svg_gv2_public.webp
+- res/drawable-xxhdpi/svg_heart_white_fill.webp
+- res/drawable-xxhdpi/svg_hermosa_icon.webp
+- res/drawable-xxhdpi/svg_icon_app_install.webp
+- res/drawable-xxhdpi/svg_icon_deep_link.webp
+- res/drawable-xxhdpi/svg_icon_lead_generation.webp
+- res/drawable-xxhdpi/svg_icon_lead_generation_card_design.webp
+- res/drawable-xxhdpi/svg_icon_longform_video.webp
+- res/drawable-xxhdpi/svg_icon_longform_video_card_design.webp
+- res/drawable-xxhdpi/svg_icon_remote_webpage.webp
+- res/drawable-xxhdpi/svg_icon_remote_webpage_card_design.webp
+- res/drawable-xxhdpi/svg_icon_swipe_to_call.webp
+- res/drawable-xxhdpi/svg_icon_swipe_to_call_card_design.webp
+- res/drawable-xxhdpi/svg_icon_swipe_to_chat.webp
+- res/drawable-xxhdpi/svg_icon_swipe_to_chat_card_design.webp
+- res/drawable-xxhdpi/svg_icon_swipe_to_ext_browser.webp
+- res/drawable-xxhdpi/svg_icon_swipe_to_lens.webp
+- res/drawable-xxhdpi/svg_icon_swipe_to_lens_card_design.webp
+- res/drawable-xxhdpi/svg_icon_swipe_to_place.webp
+- res/drawable-xxhdpi/svg_icon_swipe_to_place_card_design.webp
+- res/drawable-xxhdpi/svg_live_location_icon_night.webp
+- res/drawable-xxhdpi/svg_live_location_pin.webp
+- res/drawable-xxhdpi/svg_loading_indicator.webp
+- res/drawable-xxhdpi/svg_location_icon.webp
+- res/drawable-xxhdpi/svg_map_search_location_pin.webp
+- res/drawable-xxhdpi/svg_map_update_bitmoji.webp
+- res/drawable-xxhdpi/svg_megaphone.webp
+- res/drawable-xxhdpi/svg_megaphone_disabled.webp
+- res/drawable-xxhdpi/svg_memories_48x48.webp
+- res/drawable-xxhdpi/svg_mypayouts.webp
+- res/drawable-xxhdpi/svg_nav_selector.webp
+- res/drawable-xxhdpi/svg_new_chat_32x32.webp
+- res/drawable-xxhdpi/svg_places_favorites.webp
+- res/drawable-xxhdpi/svg_places_friends.webp
+- res/drawable-xxhdpi/svg_places_friends_of_friends.webp
+- res/drawable-xxhdpi/svg_preview_discard.webp
+- res/drawable-xxhdpi/svg_profile_request_location.webp
+- res/drawable-xxhdpi/svg_public_privacy.webp
+- res/drawable-xxhdpi/svg_reload.webp
+- res/drawable-xxhdpi/svg_request_sticker_snap_me_camera_icon.webp
+- res/drawable-xxhdpi/svg_run_for_office_mini.webp
+- res/drawable-xxhdpi/svg_saving_snap_prompt_icon.webp
+- res/drawable-xxhdpi/svg_send_checkbox_story.webp
+- res/drawable-xxhdpi/svg_send_checkbox_story_selected.webp
+- res/drawable-xxhdpi/svg_share_icon_white.webp
+- res/drawable-xxhdpi/svg_spotlight_favorited.webp
+- res/drawable-xxhdpi/svg_spotlight_icon_24x24.webp
+- res/drawable-xxhdpi/svg_star_empty_blue.webp
+- res/drawable-xxhdpi/svg_star_filled_blue.webp
+- res/drawable-xxhdpi/svg_star_partial_blue.webp
+- res/drawable-xxhdpi/svg_status_collapsed_read.webp
+- res/drawable-xxhdpi/svg_status_collapsed_unread.webp
+- res/drawable-xxhdpi/svg_syncing.webp
+- res/drawable-xxhdpi/svg_timeline_16x16.webp
+- res/drawable-xxhdpi/svg_timeline_32x32.webp
+- res/drawable-xxhdpi/svg_timeline_memories_icon_32x32.webp
+- res/drawable-xxhdpi/svg_timeline_selected_32x32.webp
+- res/drawable-xxhdpi/svg_tray_compass_button.webp
+- res/drawable-xxhdpi/svg_tray_search_button.webp
+- res/drawable-xxhdpi/svg_unified_profile_bitmoji_merch.webp
+- res/drawable-xxhdpi/svg_up_arrow_16x16.webp
+- res/drawable-xxhdpi/svg_white_left_arrow.webp
+- res/drawable-xxhdpi/taurus.webp
+- res/drawable-xxhdpi/unsave_in_chat.webp
+- res/drawable-xxhdpi/virgo.webp
+- res/drawable-xxhdpi/white_x.webp
+- res/drawable-xxxhdpi/action_bar_search_icon_blue.webp
+- res/drawable-xxxhdpi/action_bar_up_arrow_blue.webp
+- res/drawable-xxxhdpi/action_menu_checkmark_checked_icon.webp
+- res/drawable-xxxhdpi/action_menu_specs_icon.webp
+- res/drawable-xxxhdpi/add_friend_plus_button_blue.webp
+- res/drawable-xxxhdpi/add_friends_header_camera.webp
+- res/drawable-xxxhdpi/aquarius.webp
+- res/drawable-xxxhdpi/aries.webp
+- res/drawable-xxxhdpi/calling_chat_input_bar_dismiss.webp
+- res/drawable-xxxhdpi/camera_flash_icon.webp
+- res/drawable-xxxhdpi/camera_flash_off_v2.webp
+- res/drawable-xxxhdpi/camera_flash_on_v2.webp
+- res/drawable-xxxhdpi/camera_flip_icon.webp
+- res/drawable-xxxhdpi/camera_mode_grid_off.webp
+- res/drawable-xxxhdpi/camera_mode_grid_on.webp
+- res/drawable-xxxhdpi/camera_mode_night_mode.webp
+- res/drawable-xxxhdpi/camera_mode_night_mode_off_v2.webp
+- res/drawable-xxxhdpi/cancer.webp
+- res/drawable-xxxhdpi/capricorn.webp
+- res/drawable-xxxhdpi/chat_action_menu_copy.webp
+- res/drawable-xxxhdpi/chat_action_menu_erase.webp
+- res/drawable-xxxhdpi/chat_action_menu_save_to_camera_roll.webp
+- res/drawable-xxxhdpi/chat_media_drawer_edit.webp
+- res/drawable-xxxhdpi/chat_media_drawer_send_with_memories.webp
+- res/drawable-xxxhdpi/cognac_chat_bar_close.webp
+- res/drawable-xxxhdpi/cognac_default_avatar.webp
+- res/drawable-xxxhdpi/color_picker_bar.webp
+- res/drawable-xxxhdpi/cta_up_arrow.webp
+- res/drawable-xxxhdpi/ff_feed_reply_button.webp
+- res/drawable-xxxhdpi/ff_snap_reply_button.webp
+- res/drawable-xxxhdpi/ff_svg_ff_feed_restore_icon.webp
+- res/drawable-xxxhdpi/ff_svg_ff_feed_restore_icon_no_camera.webp
+- res/drawable-xxxhdpi/floating_tag_button_selected.webp
+- res/drawable-xxxhdpi/gemini.webp
+- res/drawable-xxxhdpi/hova_nav_camera_dark_bg.webp
+- res/drawable-xxxhdpi/identity_quick_add_hide.webp
+- res/drawable-xxxhdpi/impala_exclamation.webp
+- res/drawable-xxxhdpi/leo.webp
+- res/drawable-xxxhdpi/libra.webp
+- res/drawable-xxxhdpi/neon_header_gradient.webp
+- res/drawable-xxxhdpi/neon_header_search_stroked.webp
+- res/drawable-xxxhdpi/pisces.webp
+- res/drawable-xxxhdpi/preview_discard_selected.webp
+- res/drawable-xxxhdpi/profile_insights_icon.webp
+- res/drawable-xxxhdpi/profile_v3_add_friends_icon.webp
+- res/drawable-xxxhdpi/sagitarius.webp
+- res/drawable-xxxhdpi/save_in_chat.webp
+- res/drawable-xxxhdpi/scorpio.webp
+- res/drawable-xxxhdpi/scroll_down_arrow_dark.webp
+- res/drawable-xxxhdpi/search_bar_clear_blue.webp
+- res/drawable-xxxhdpi/send_to_button_label_mode_arrow.webp
+- res/drawable-xxxhdpi/send_to_create_group.webp
+- res/drawable-xxxhdpi/send_to_group_icon_cropped.webp
+- res/drawable-xxxhdpi/send_to_x_icon.webp
+- res/drawable-xxxhdpi/serengeti_close_x.webp
+- res/drawable-xxxhdpi/shazam_action_button.webp
+- res/drawable-xxxhdpi/shazam_horizontal_icon.webp
+- res/drawable-xxxhdpi/snap_crop_center_crop.webp
+- res/drawable-xxxhdpi/snap_crop_center_inside.webp
+- res/drawable-xxxhdpi/svg_ad_reminder_bell_icon.webp
+- res/drawable-xxxhdpi/svg_amazon_logo.webp
+- res/drawable-xxxhdpi/svg_as_onboarding_reply.webp
+- res/drawable-xxxhdpi/svg_as_onboarding_reply_basic.webp
+- res/drawable-xxxhdpi/svg_birthdays_mini.webp
+- res/drawable-xxxhdpi/svg_bloops_stickers_new_selfie.webp
+- res/drawable-xxxhdpi/svg_camera_roll_icon_small.webp
+- res/drawable-xxxhdpi/svg_carousel_close_button.webp
+- res/drawable-xxxhdpi/svg_cell.webp
+- res/drawable-xxxhdpi/svg_chat_input_bar_plus.webp
+- res/drawable-xxxhdpi/svg_chat_item_game_play_button_icon.webp
+- res/drawable-xxxhdpi/svg_chat_media_link_icon.webp
+- res/drawable-xxxhdpi/svg_chat_media_location_icon.webp
+- res/drawable-xxxhdpi/svg_chat_media_phone_icon.webp
+- res/drawable-xxxhdpi/svg_checkmark_icon.webp
+- res/drawable-xxxhdpi/svg_clock_1.webp
+- res/drawable-xxxhdpi/svg_close_20x20.webp
+- res/drawable-xxxhdpi/svg_close_button.webp
+- res/drawable-xxxhdpi/svg_cognac_auth_exit_icon.webp
+- res/drawable-xxxhdpi/svg_cognac_tile_leaderboard.webp
+- res/drawable-xxxhdpi/svg_cognac_tile_mini.webp
+- res/drawable-xxxhdpi/svg_cognac_tile_multiplayer.webp
+- res/drawable-xxxhdpi/svg_cognac_token_icon.webp
+- res/drawable-xxxhdpi/svg_cognac_tray_trash_can.webp
+- res/drawable-xxxhdpi/svg_compass.webp
+- res/drawable-xxxhdpi/svg_create_bitmoji_asset.webp
+- res/drawable-xxxhdpi/svg_downward_arrow.webp
+- res/drawable-xxxhdpi/svg_error_no_border.webp
+- res/drawable-xxxhdpi/svg_explore_fill.webp
+- res/drawable-xxxhdpi/svg_flip_camera_60x60.webp
+- res/drawable-xxxhdpi/svg_forward_chevron.webp
+- res/drawable-xxxhdpi/svg_ghost_trail_onboarding_dialog_icon.webp
+- res/drawable-xxxhdpi/svg_group_sticker_pill_icon.webp
+- res/drawable-xxxhdpi/svg_gv2_private.webp
+- res/drawable-xxxhdpi/svg_gv2_public.webp
+- res/drawable-xxxhdpi/svg_heart_white_fill.webp
+- res/drawable-xxxhdpi/svg_hermosa_icon.webp
+- res/drawable-xxxhdpi/svg_icon_app_install.webp
+- res/drawable-xxxhdpi/svg_icon_deep_link.webp
+- res/drawable-xxxhdpi/svg_icon_lead_generation.webp
+- res/drawable-xxxhdpi/svg_icon_lead_generation_card_design.webp
+- res/drawable-xxxhdpi/svg_icon_longform_video.webp
+- res/drawable-xxxhdpi/svg_icon_longform_video_card_design.webp
+- res/drawable-xxxhdpi/svg_icon_remote_webpage.webp
+- res/drawable-xxxhdpi/svg_icon_remote_webpage_card_design.webp
+- res/drawable-xxxhdpi/svg_icon_swipe_to_call.webp
+- res/drawable-xxxhdpi/svg_icon_swipe_to_call_card_design.webp
+- res/drawable-xxxhdpi/svg_icon_swipe_to_chat.webp
+- res/drawable-xxxhdpi/svg_icon_swipe_to_chat_card_design.webp
+- res/drawable-xxxhdpi/svg_icon_swipe_to_ext_browser.webp
+- res/drawable-xxxhdpi/svg_icon_swipe_to_lens.webp
+- res/drawable-xxxhdpi/svg_icon_swipe_to_lens_card_design.webp
+- res/drawable-xxxhdpi/svg_icon_swipe_to_place.webp
+- res/drawable-xxxhdpi/svg_icon_swipe_to_place_card_design.webp
+- res/drawable-xxxhdpi/svg_live_location_icon_night.webp
+- res/drawable-xxxhdpi/svg_live_location_pin.webp
+- res/drawable-xxxhdpi/svg_loading_indicator.webp
+- res/drawable-xxxhdpi/svg_location_icon.webp
+- res/drawable-xxxhdpi/svg_map_search_location_pin.webp
+- res/drawable-xxxhdpi/svg_map_update_bitmoji.webp
+- res/drawable-xxxhdpi/svg_megaphone.webp
+- res/drawable-xxxhdpi/svg_megaphone_disabled.webp
+- res/drawable-xxxhdpi/svg_memories_48x48.webp
+- res/drawable-xxxhdpi/svg_mypayouts.webp
+- res/drawable-xxxhdpi/svg_nav_selector.webp
+- res/drawable-xxxhdpi/svg_new_chat_32x32.webp
+- res/drawable-xxxhdpi/svg_places_favorites.webp
+- res/drawable-xxxhdpi/svg_places_friends.webp
+- res/drawable-xxxhdpi/svg_places_friends_of_friends.webp
+- res/drawable-xxxhdpi/svg_preview_discard.webp
+- res/drawable-xxxhdpi/svg_profile_request_location.webp
+- res/drawable-xxxhdpi/svg_public_privacy.webp
+- res/drawable-xxxhdpi/svg_reload.webp
+- res/drawable-xxxhdpi/svg_request_sticker_snap_me_camera_icon.webp
+- res/drawable-xxxhdpi/svg_run_for_office_mini.webp
+- res/drawable-xxxhdpi/svg_saving_snap_prompt_icon.webp
+- res/drawable-xxxhdpi/svg_send_checkbox_story.webp
+- res/drawable-xxxhdpi/svg_send_checkbox_story_selected.webp
+- res/drawable-xxxhdpi/svg_share_icon_white.webp
+- res/drawable-xxxhdpi/svg_spotlight_favorited.webp
+- res/drawable-xxxhdpi/svg_spotlight_icon_24x24.webp
+- res/drawable-xxxhdpi/svg_star_empty_blue.webp
+- res/drawable-xxxhdpi/svg_star_filled_blue.webp
+- res/drawable-xxxhdpi/svg_star_partial_blue.webp
+- res/drawable-xxxhdpi/svg_status_collapsed_read.webp
+- res/drawable-xxxhdpi/svg_status_collapsed_unread.webp
+- res/drawable-xxxhdpi/svg_syncing.webp
+- res/drawable-xxxhdpi/svg_timeline_16x16.webp
+- res/drawable-xxxhdpi/svg_timeline_32x32.webp
+- res/drawable-xxxhdpi/svg_timeline_memories_icon_32x32.webp
+- res/drawable-xxxhdpi/svg_timeline_selected_32x32.webp
+- res/drawable-xxxhdpi/svg_tray_compass_button.webp
+- res/drawable-xxxhdpi/svg_tray_search_button.webp
+- res/drawable-xxxhdpi/svg_unified_profile_bitmoji_merch.webp
+- res/drawable-xxxhdpi/svg_up_arrow_16x16.webp
+- res/drawable-xxxhdpi/svg_white_left_arrow.webp
+- res/drawable-xxxhdpi/taurus.webp
+- res/drawable-xxxhdpi/unsave_in_chat.webp
+- res/drawable-xxxhdpi/virgo.webp
+- res/drawable-xxxhdpi/white_x.webp
+- res/font/menlo_bold.ttf
+- res/font/menlo_regular.ttf
+- res/mipmap-hdpi/mushroom.webp
+- res/mipmap-mdpi/mushroom.webp
+- res/mipmap-xhdpi/icon_color_foreground.webp
+- res/mipmap-xhdpi/icon_yellow_background.webp
+- res/mipmap-xhdpi/mushroom.webp
+- res/mipmap-xxhdpi/ic_delete.webp
+- res/mipmap-xxhdpi/mushroom.webp
+- res/mipmap-xxxhdpi/ic_launcher.webp
+- res/mipmap-xxxhdpi/ic_launcher_round.webp
+- res/mipmap-xxxhdpi/mushroom.webp
+- mp3
+- res/raw/animation_drawable_fragment_shader.glsl
+- mp4
+- res/raw/composer_chat_reactions_keep.xml
+- res/raw/composer_context_cards_keep.xml
+- res/raw/composer_snap_insights_keep.xml
+- res/raw/context_cards_core_keep.xml
+- res/raw/delete_payment_method_mutation.graphql
+- res/raw/df_client_ranking_ast_v34.ast
+- res/raw/frame_to_surface_low_light_fragment_shader.glsl
+- res/raw/frame_to_surface_normal_fragment_shader.glsl
+- res/raw/gaussian_blur_fragment_shader.glsl
+- res/raw/gaussian_blur_horizontal_fragment_shader.glsl
+- res/raw/gaussian_blur_vertical_fragment_shader.glsl
+- res/raw/keep.xml
+- res/raw/keep_arcore.xml
+- res/raw/left_call.mp4
+- res/raw/lenses_resources_keep.xml
+- res/raw/magic_version_dev
+- res/raw/magic_version_prod
+- res/raw/messaging_screen_chat_keep.xml
+- res/raw/mushroom_keep.xml
+- res/raw/pubcert_dev
+- res/raw/sepia_fragment_shader.glsl
+- res/raw/smooth_effect_fragment_shader.glsl
+- res/raw/smooth_effect_vertex_shader.glsl
+- res/raw/verif_pubcert_dev
+- res/raw/verif_pubcert_prod
+- res/raw/verif_pubcert_prod_newport

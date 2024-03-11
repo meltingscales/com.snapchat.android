@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/sig_color_layout_divider_light"/>
+            <size android:height="@dimen/reaction_detail_list_view_header_x_icon_height" android:width="@dimen/reaction_detail_list_view_header_x_icon_height"/>
+        </shape>
+    </item>
+    <item android:gravity="center">
+        <bitmap android:src="@drawable/svg_x_16x16"/>
+    </item>
+</layer-list>

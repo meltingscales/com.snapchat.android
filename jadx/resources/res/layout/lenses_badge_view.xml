@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="horizontal" android:paddingTop="@dimen/default_gap_three_quarters" android:paddingBottom="@dimen/default_gap_three_quarters" android:layout_width="wrap_content" android:layout_height="match_parent" android:paddingStart="@dimen/default_gap_1_25x" android:paddingEnd="@dimen/default_gap_1_25x" android:layout_marginStart="@dimen/default_gap_half" android:layout_marginEnd="@dimen/default_gap_half">
+    <com.snap.imageloading.view.SnapImageView android:id="@+id/badge_icon" android:layout_width="@dimen/info_card_lens_badge_size" android:layout_height="@dimen/info_card_lens_badge_size" android:layout_marginEnd="@dimen/default_gap_half"/>
+    <com.snap.ui.view.SnapFontTextView android:textSize="@dimen/text_style_caption_emphasis_text_size" android:textStyle="bold" android:textColor="?attr/sigColorTextPrimary" android:id="@+id/badge_title" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</LinearLayout>

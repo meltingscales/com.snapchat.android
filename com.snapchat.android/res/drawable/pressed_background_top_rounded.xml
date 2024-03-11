@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:bottom="@dimen/single_dp">
+        <shape>
+            <solid android:color="?sigColorBackgroundSurfaceDown" />
+            <corners android:topLeftRadius="@dimen/quick_add_corner_radius" android:topRightRadius="@dimen/quick_add_corner_radius" android:bottomLeftRadius="0.0dip" android:bottomRightRadius="0.0dip" />
+        </shape>
+    </item>
+    <item android:gravity="bottom">
+        <shape>
+            <size android:height="1.0dip" />
+            <solid android:color="?sigColorLayoutDivider" />
+        </shape>
+    </item>
+</layer-list>

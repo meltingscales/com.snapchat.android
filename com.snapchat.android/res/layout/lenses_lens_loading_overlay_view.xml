@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.lenses.loadingoverlay.DefaultLoadingOverlayView android:textSize="@dimen/lens_loading_overlay_text_size" android:textColor="@color/sig_color_flat_pure_white_any" android:gravity="center" android:id="@id/lens_loading_overlay_view" android:background="@color/sig_color_flat_pure_black_any_alpha_80" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/lens_loading"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

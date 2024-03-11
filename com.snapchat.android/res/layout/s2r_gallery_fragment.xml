@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <com.snap.ui.view.ScHeaderView android:id="@id/s2r_gallery_fragment_header" android:background="@color/sig_color_base_success_green_any" android:padding="@dimen/default_gap" android:layout_width="fill_parent" android:layout_height="wrap_content" custom:headerColorScheme="@color/sig_color_flat_pure_white_any" custom:headerTitle="@string/s2r_add_from_gallery_page_title" custom:includeStatusBarHeight="true" custom:showBackArrow="true" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/s2r_gallery_recycler_view" android:background="?sigColorBackgroundMain" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" android:splitMotionEvents="false" />
+</LinearLayout>

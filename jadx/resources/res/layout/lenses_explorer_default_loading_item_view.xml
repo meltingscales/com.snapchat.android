@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/loading_indicator_holder" android:clickable="true" android:layout_width="match_parent" android:layout_height="0dp" app:layout_constraintDimensionRatio="@string/tile_size_alignment">
+    <com.snap.ui.view.LoadingSpinnerView android:id="@+id/loading_indicator" android:layout_width="24dp" android:layout_height="24dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toTopOf="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

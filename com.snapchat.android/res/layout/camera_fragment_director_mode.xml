@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/camera_page" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.snap.camera.view.CameraGestureDetectionView android:id="@id/gesture_detection_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/camera_opera_host_view_stub" android:layout="@layout/camera_opera_host_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/lenses_feature_container" android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr" />
+    <FrameLayout android:id="@id/ring_flash_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/shortcut_drawer_hints_view_stub" android:layout="@layout/shortcut_drawer_grabber_and_hints" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/autofocus_tapspot_stub" android:layout="@layout/autofocus_tapspot_layout" android:layout_width="@dimen/autofocus_crosshair_square_size" android:layout_height="@dimen/autofocus_crosshair_square_size" />
+    <ViewStub android:layout_gravity="bottom|center" android:id="@id/zoom_view_stub" android:layout_width="@dimen/zoom_view_group_layout_width" android:layout_height="@dimen/zoom_view_group_layout_height" />
+    <ViewStub android:layout_gravity="bottom|center" android:id="@id/sounds_playback_stub" android:layout="@layout/sounds_camera_playback" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/sounds_playback_controller_margin_bottom" />
+    <ViewStub android:id="@id/camera_mode_dropdown_stub" android:visibility="gone" android:layout="@layout/camera_mode_dropdown_layout" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <ViewStub android:layout_gravity="bottom|center" android:id="@id/countdown_animation_view_stub" android:layout="@layout/countdown_animation_layout" android:inflatedId="@id/countdown_animation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/countdown_timer_margin_bottom" />
+    <FrameLayout android:id="@id/capture_progress_bar" style="@style/capture_progress_bar.director_mode" />
+    <ViewStub android:layout_gravity="center|top" android:id="@id/director_mode_music_button_stub" android:layout="@layout/director_mode_music_button_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageView android:id="@id/camera_dismiss_button" android:visibility="gone" android:src="@drawable/svg_unified_dismiss_button_24x24" style="@style/unified_dismiss_button.director_mode" />
+    <FrameLayout android:id="@id/vertical_tool_bar" style="@style/vertical_tool_bar.director_mode" />
+    <FrameLayout android:layout_gravity="start|bottom|center" android:id="@id/undo_button_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/undo_preview_button_margin_default" android:layout_marginStart="@dimen/undo_preview_button_margin_default" />
+    <FrameLayout android:layout_gravity="end|bottom|center" android:id="@id/preview_button_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/undo_preview_button_margin_default" android:layout_marginEnd="@dimen/undo_preview_button_margin_default" />
+    <ViewStub android:layout_gravity="center|top" android:id="@id/spotlight_shortcut_toast" android:layout="@layout/shortcut_toast_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <View android:id="@id/camera_front_facing_flash" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

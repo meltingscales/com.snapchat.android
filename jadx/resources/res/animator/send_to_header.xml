@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_activated="true">
+        <set>
+            <objectAnimator android:duration="200" android:valueFrom="0dp" android:valueTo="@dimen/v11_subscreen_header_elevation" android:valueType="floatType" android:propertyName="elevation"/>
+        </set>
+    </item>
+    <item>
+        <set>
+            <objectAnimator android:duration="200" android:valueFrom="@dimen/v11_subscreen_header_elevation" android:valueTo="0dp" android:valueType="floatType" android:propertyName="elevation"/>
+        </set>
+    </item>
+</selector>

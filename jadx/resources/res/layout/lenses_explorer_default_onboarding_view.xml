@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.lenses.explorer.onboarding.DefaultOnboardingView xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textDirection="locale" style="@style/Parent.NonClipping">
+    <FrameLayout android:id="@+id/explorer_default_hint_icon_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Parent.NonClipping">
+        <com.snap.imageloading.view.SnapImageView android:id="@+id/explorer_default_hint_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-80dp" android:layout_marginBottom="-30dp" android:scaleType="centerCrop"/>
+        <com.snap.ui.view.LoadingSpinnerView android:layout_gravity="center" android:id="@+id/explorer_default_hint_spinner" android:layout_width="@dimen/lens_explorer_loading_spinner_size" android:layout_height="@dimen/lens_explorer_loading_spinner_size"/>
+    </FrameLayout>
+    <com.snap.ui.view.SnapFontTextView android:gravity="center" android:id="@+id/explorer_default_hint_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/explorer_onboarding_margin" android:maxLines="2" style="@style/MultiLineText.Headline"/>
+    <com.snap.ui.view.SnapFontTextView android:gravity="center" android:id="@+id/explorer_default_hint_description" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_gap_three_quarters" style="@style/MultiLineText.Body"/>
+</com.snap.lenses.explorer.onboarding.DefaultOnboardingView>

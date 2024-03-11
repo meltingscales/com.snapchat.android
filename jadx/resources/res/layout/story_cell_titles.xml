@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_gravity="end|center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/memories_story_cell_title_margin_start" android:layout_marginEnd="@dimen/memories_story_cell_title_margin_end">
+    <com.snap.ui.view.SnapFontTextView android:ellipsize="end" android:id="@+id/story_cell_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="2" android:textDirection="locale" app:autoFit="false" app:scFontWeight="0" style="@style/TextAppearance.Heading2.Primary"/>
+    <com.snap.ui.view.SnapFontTextView android:id="@+id/story_cell_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" app:autoFit="true" style="@style/TextAppearance.Subtitle2.Secondary"/>
+</LinearLayout>

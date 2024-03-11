@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transition
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/cognac_audio_button_background_v2" />
+    <item android:drawable="@drawable/cognac_audio_background_v2_selected" />
+</transition>

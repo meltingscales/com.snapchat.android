@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/sig_color_flat_pure_black_any_alpha_5"/>
+            <size android:height="@dimen/v11_user_cell_icon_size" android:width="@dimen/v11_user_cell_icon_size"/>
+        </shape>
+    </item>
+    <item android:gravity="center" android:left="@dimen/default_gap_three_quarters" android:top="@dimen/default_gap_three_quarters" android:right="@dimen/default_gap_three_quarters" android:bottom="@dimen/default_gap_three_quarters">
+        <bitmap android:src="@drawable/svg_clock_32x32" android:tint="@color/sig_color_base_gray100_any"/>
+    </item>
+</layer-list>

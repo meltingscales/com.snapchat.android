@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.snap.lenses.common.RoundedImageView android:id="@id/creator_lens_thumbnail" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <com.snap.lenses.common.RoundedImageView android:layout_gravity="center" android:id="@id/creator_lens_icon" android:visibility="gone" style="@style/Image.LensIcon" />
+</FrameLayout>

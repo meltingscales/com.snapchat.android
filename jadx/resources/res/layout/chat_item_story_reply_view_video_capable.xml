@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/story_reply_container_view" android:background="@color/sig_color_base_gray40_any" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.snap.messaging.chat.ui.view.VideoCapableThumbnailView android:id="@+id/story_reply_media_thumbnail_view" android:layout_width="match_parent" android:layout_height="@dimen/chat_story_reply_video_default_height"/>
+    <com.snap.ui.view.LoadingSpinnerView android:layout_gravity="center_horizontal" android:id="@+id/story_reply_loading_spinner_view" android:layout_width="@dimen/chat_story_reply_spinner_width" android:layout_height="@dimen/chat_story_reply_spinner_height" android:layout_marginTop="@dimen/chat_story_reply_spinner_margin_top"/>
+    <View android:layout_gravity="bottom" android:id="@+id/story_reply_background_layer_view" android:background="?attr/sigColorBackgroundMain" android:layout_width="match_parent" android:layout_height="@dimen/chat_story_reply_background_default_height" android:alpha="0.9"/>
+    <ViewStub android:id="@+id/story_share_message_snap_unavailable" android:layout="@layout/story_share_unavailable" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</FrameLayout>

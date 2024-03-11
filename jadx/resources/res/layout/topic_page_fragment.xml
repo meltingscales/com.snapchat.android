@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:theme="@style/SnapThemeDark" android:id="@+id/topic_page" android:background="?attr/sigColorBackgroundSubscreen" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/topic_page_recycler_view" android:paddingTop="@dimen/v11_subscreen_header_height" android:paddingBottom="@dimen/default_gap_6x" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:overScrollMode="never"/>
+    <com.snap.component.header.SnapSubscreenHeaderView android:id="@+id/topic_page_header" app:header_background="@color/sig_color_flat_pure_black_any" style="@style/subscreen_header_default_dark"/>
+    <com.snap.component.button.SnapButtonView android:layout_gravity="bottom|center_horizontal" android:id="@+id/action_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/default_gap" app:button_style="medium_button_rectangle_gray"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

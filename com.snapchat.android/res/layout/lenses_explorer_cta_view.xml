@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.lenses.explorer.action.DefaultActionView android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/explorer_action" android:background="@drawable/explorer_action_bg" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="46.0dip" android:paddingStart="26.0dip" android:paddingEnd="26.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.snap.imageloading.view.SnapImageView android:id="@id/explorer_action_icon" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginEnd="8.0dip" />
+    <com.snap.ui.view.SnapFontTextView android:textColor="?sigColorFlatPureWhite" android:id="@id/explorer_action_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" style="@style/SingleLineText.Headline" />
+</com.snap.lenses.explorer.action.DefaultActionView>

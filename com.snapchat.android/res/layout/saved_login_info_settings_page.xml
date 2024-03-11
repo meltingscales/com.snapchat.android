@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.identity.onetaplogin.settings.DefaultSavedLoginInfoView android:orientation="vertical" android:id="@id/saved_login_info_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/saved_login_info_settings_empty_view" android:visibility="gone" layout="@layout/saved_login_info_settings_empty_view" />
+    <include android:id="@id/saved_login_info_settings_list_view" android:visibility="gone" layout="@layout/saved_login_info_settings_list_view" />
+</com.snap.identity.onetaplogin.settings.DefaultSavedLoginInfoView>

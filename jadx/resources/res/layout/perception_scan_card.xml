@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.perception.scantray.ScanCardsInnerRecyclerView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/scan_card_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/perception_scan_cards_card_margin" style="@style/alert_dialog_window"/>

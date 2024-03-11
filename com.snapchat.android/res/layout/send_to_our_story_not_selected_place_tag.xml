@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.ui.view.SnapFontTextView android:id="@id/not_selected_place_tag" style="@style/sendto_label_not_selected"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

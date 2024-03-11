@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/signup_verify_phone_page" android:background="?attr/sigColorBackgroundMain" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/ngo_top_bar"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/top" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0">
+        <com.snap.identity.ui.view.ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <LinearLayout android:id="@+id/content_holder" style="@style/LoginSignupPageContainer">
+                <com.snap.ui.view.SnapFontTextView android:textColor="@color/sig_color_text_primary_light" android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ngo_signup_verify_phone_title" style="@style/TextStyle.Title3"/>
+                <com.snap.ui.view.SnapFontTextView android:textColor="@color/sig_color_text_secondary_light" android:gravity="center_horizontal" android:id="@+id/description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_gap" style="@style/TextStyle.Caption"/>
+                <com.snap.ui.view.SnapFontTextView android:id="@+id/alt_text" android:layout_marginTop="@dimen/default_gap" android:text="@string/signup_phone_alt_code_over_call" style="@style/IdentityLinkText"/>
+                <com.snap.identity.api.sharedui.VerificationCodeEditTextView android:textSize="@dimen/text_style_body_text_size" android:id="@+id/code_field" style="@style/NgoIdentityPhoneVerifyCodeField"/>
+                <com.snap.ui.view.SnapLinkFriendlyTextView android:textColor="?attr/sigColorTextPrimary" android:gravity="center_horizontal" android:id="@+id/verify_method_explanation" android:visibility="gone" android:textAllCaps="false" style="@style/IdentityFieldSubtext"/>
+                <com.snap.ui.view.SnapFontTextView android:id="@+id/error_field" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/IdentityFieldSubtextError"/>
+                <com.snap.ui.view.SnapFontTextView android:id="@+id/signup_with_email_instead_v2" android:visibility="gone" android:layout_marginTop="@dimen/default_gap_1_5x" android:text="@string/signup_with_email" style="@style/IdentityLinkText"/>
+            </LinearLayout>
+        </com.snap.identity.ui.view.ScrollView>
+    </LinearLayout>
+    <com.snap.identity.api.sharedui.SubmitResendButton android:id="@+id/continue_button" android:layout_width="0dp" android:layout_marginStart="@dimen/default_gap_3x" android:layout_marginEnd="@dimen/default_gap_3x" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:resendText="@string/verify_resend" style="@style/LoginSignupButton"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

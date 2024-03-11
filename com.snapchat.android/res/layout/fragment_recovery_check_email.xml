@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/v11_light_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.snap.component.header.SnapSubscreenHeaderView android:id="@id/recovery_check_email_header" app:dismiss_text="@string/recovery_email_done" app:header_background="@color/sig_color_flat_pure_white_any" app:header_style="cancel" app:title_text="" style="@style/subscreen_header_cancel" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:layout_marginStart="@dimen/default_gap_3x" android:layout_marginEnd="@dimen/default_gap_3x" style="@style/AccountRecoveryPageContainer">
+            <com.snap.ui.view.SnapFontTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_gap_2x" android:layout_marginBottom="@dimen/default_gap_2x" android:text="@string/recovery_check_email" style="@style/TextAppearance.Heading5" />
+            <com.snap.ui.view.SnapFontTextView android:id="@id/recovery_email_sent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/default_gap_2x" style="@style/TextAppearance.Body" />
+            <com.snap.ui.view.SnapFontTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/default_gap_2x" android:text="@string/recovery_locate_email" style="@style/TextAppearance.Body" />
+            <Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <com.snap.ui.view.SnapFontTextView android:id="@id/resend_error" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/default_gap_2x" style="@style/TextAppearance.Caption.Error" />
+            <com.snap.ui.view.SnapFontTextView android:id="@id/recovery_email_not_received" android:padding="@dimen/default_gap" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/recovery_email_not_received" style="@style/TextAppearance.Action" />
+            <ProgressBar android:id="@id/recover_email_send_progress_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/ui_element_unit" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

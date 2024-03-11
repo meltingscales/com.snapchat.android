@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/spotlight_action_bar_container_view" android:background="@drawable/ngs_action_bar_button_background" android:clickable="true" android:layout_width="@dimen/spotlight_cta_pill_width" android:layout_height="@dimen/spotlight_cta_pill_height" android:layout_centerVertical="true" android:layout_marginStart="@dimen/spotlight_ad_margin_left">
+        <com.snap.ui.view.SnapFontTextView android:textSize="?v11Subtitle3TextSize" android:textColor="@color/sig_color_text_primary_light" android:id="@id/spotlight_action_bar_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" app:scFontWeight="bolder" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/chat_deletion_explainer" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.snap.imageloading.view.SnapImageView android:id="@id/icon" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/neon_feed_icon_received_opened_chat_grey" />
+    <com.snap.ui.view.SnapFontTextView android:id="@id/status_text" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/chat_in_screen_message_text" />
+</LinearLayout>

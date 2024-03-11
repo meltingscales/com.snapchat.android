@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/main_gradient" android:background="@drawable/context_gradient" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:id="@id/gradient_margin" android:background="@color/sig_color_flat_pure_black_any_alpha_60" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</merge>

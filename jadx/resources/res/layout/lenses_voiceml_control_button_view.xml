@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.lenses.voiceml.permissions.DefaultVoiceMlPermissionsView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.snap.ui.view.SnapFontTextView android:textSize="@dimen/text_size_default" android:textColor="@color/sig_color_flat_pure_white_any" android:layout_gravity="bottom|center_horizontal" android:id="@+id/voiceml_control_button_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/lens_camera_voiceml_control_button_margin_bottom" android:text="@string/voiceml_control_button" android:maxLines="2" android:textAlignment="center" app:fontFamily="@font/avenir_next_bold" app:scFontWeight="1"/>
+</com.snap.lenses.voiceml.permissions.DefaultVoiceMlPermissionsView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.lenses.voiceml.animation.DefaultVoiceMlAnimationView android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.snap.lenses.voiceml.animation.DefaultVoiceMlBorderAnimationView android:id="@id/voiceml_border_animation" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.snap.lenses.voiceml.animation.DefaultVoiceMlWaveView android:layout_gravity="bottom" android:id="@id/voiceml_wave_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/lens_camera_voiceml_wave_animation_height" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="1.0" />
+</com.snap.lenses.voiceml.animation.DefaultVoiceMlAnimationView>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="@dimen/story_management_viewer_item_height">
+    <com.snap.ui.view.SnapFontTextView android:textSize="?attr/v11Button1TextSize" android:textColor="?attr/colorWhite" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/display_text" android:layout_width="match_parent" android:layout_height="0dp" android:maxLines="1" android:layout_weight="1" android:layout_marginStart="@dimen/default_gap_1_5x" custom:scFontWeight="?attr/v11Button1FontWeight"/>
+    <View android:layout_gravity="end" android:id="@+id/stories_viewer_list_item_divider" android:background="@color/sig_color_flat_pure_white_any_alpha_15" android:layout_width="match_parent" android:layout_height="@dimen/story_management_divider_height"/>
+</LinearLayout>

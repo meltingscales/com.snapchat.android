@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.lenses.app.camera.memories.DefaultLensesMemoriesButtonView android:gravity="center" android:layout_gravity="start|bottom|center" android:orientation="horizontal" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/lenses_memories_button_height" android:paddingStart="@dimen/lenses_memories_button_margin_padding_start" android:paddingEnd="@dimen/lenses_memories_button_margin_padding_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/lenses_memories_button" android:layout_width="@dimen/lenses_memories_button_icon_size" android:layout_height="@dimen/lenses_memories_button_icon_size" android:src="@drawable/svg_memories_32x32" android:scaleType="fitCenter" />
+    <com.snap.ui.view.SnapFontTextView android:textSize="@dimen/text_size_fine_print" android:textColor="@color/sig_color_flat_pure_white_any" android:gravity="center" android:id="@id/lenses_memories_button_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lenses_camera_memories_button_view_all" android:layout_marginStart="@dimen/lenses_memories_button_text_margin" />
+</com.snap.lenses.app.camera.memories.DefaultLensesMemoriesButtonView>

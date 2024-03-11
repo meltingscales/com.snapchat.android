@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="?attr/sigColorBackgroundSurface" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="10dp" android:paddingEnd="10dp">
+    <com.snap.ui.view.SnapFontTextView android:id="@+id/display_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_alignParentTop="true" android:textAlignment="viewStart" android:layout_toStartOf="@+id/stored_flags" android:layout_alignParentStart="true" style="@style/IdentitySettingsItemName"/>
+    <com.snap.ui.view.SnapFontTextView android:id="@+id/last_update_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4dp" android:layout_above="@+id/list_separator" android:layout_below="@+id/display_name" android:textAlignment="viewStart" android:layout_alignParentStart="true" style="@style/IdentitySettingsItemSubtext"/>
+    <com.snap.ui.view.SnapFontTextView android:id="@+id/stored_flags" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="10dp" android:layout_alignParentEnd="true" style="@style/IdentitySettingsItemSubtext"/>
+    <include android:layout_width="match_parent" android:layout_height="@dimen/single_dp" android:layout_alignParentBottom="true" layout="@layout/list_separator"/>
+</RelativeLayout>

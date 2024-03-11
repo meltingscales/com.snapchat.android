@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:id="@+id/panel" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="1">
+    <com.snap.imageloading.view.SnapImageView android:gravity="center" android:id="@+id/send_btn_reply_camera" android:background="@drawable/rounded_corner_send_to_white" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/svg_ngs_preview_send_15x15" android:scaleType="centerInside" android:adjustViewBounds="true" android:layout_marginStart="8dp" custom:isCircular="true"/>
+</LinearLayout>

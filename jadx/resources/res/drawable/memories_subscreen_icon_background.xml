@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
+    <solid android:color="@color/sig_color_base_off_black_any_alpha_30"/>
+    <size android:height="@dimen/memories_featured_story_v2_hero_player_subscreen_icon_size" android:width="@dimen/memories_featured_story_v2_hero_player_subscreen_icon_size"/>
+</shape>

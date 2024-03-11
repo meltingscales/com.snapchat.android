@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.lenses.voiceml.modal.DefaultVoiceMlPermissionModalView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <View android:id="@+id/voiceml_dialog_outside" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/lens_camera_voiceml_modal_outside_view_margin_bottom"/>
+    <LinearLayout android:id="@+id/voiceml_dialog_content" style="@style/alert_dialog_window">
+        <com.snap.imageloading.view.SnapImageView android:id="@+id/voiceml_dialog_icon" android:paddingTop="@dimen/default_gap_1_25x" android:layout_width="@dimen/lens_camera_voiceml_modal_betmoji_width_height" android:layout_height="@dimen/lens_camera_voiceml_modal_betmoji_width_height"/>
+        <com.snap.ui.view.SnapFontTextView android:id="@+id/voiceml_dialog_title" android:text="@string/voiceml_turn_on_voice_control_dialog" style="@style/alert_dialog_title"/>
+        <com.snap.ui.view.SnapFontTextView android:id="@+id/voiceml_dialog_description" android:text="@string/voiceml_to_use_the_voice_features_in_this_lens_dialog" style="@style/alert_dialog_description"/>
+        <com.snap.component.button.SnapButtonView android:id="@+id/voiceml_dialog_confirm_button" app:button_style="large_button_rectangle_dark_gray" app:button_text="@string/voiceml_ok_dialog_button" style="@style/alert_dialog_default_button"/>
+        <com.snap.ui.view.button.SnapCancelButton android:id="@+id/voiceml_dialog_cancel_button" style="@style/alert_dialog_cancel_button"/>
+    </LinearLayout>
+</com.snap.lenses.voiceml.modal.DefaultVoiceMlPermissionModalView>

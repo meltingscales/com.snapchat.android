@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.component.cells.SnapUserCellView android:id="@id/story_management_send_to_cell" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/story_management_viewers_list_post_to_spotlight_cell_margin" android:layout_marginTop="@dimen/story_management_viewers_list_post_to_spotlight_cell_margin" android:layout_marginRight="@dimen/story_management_viewers_list_post_to_spotlight_cell_margin" style="@style/SendToCell"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

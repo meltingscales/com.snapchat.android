@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/sig_color_flat_pure_black_any" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.snap.component.header.SnapSubscreenHeaderView android:id="@id/trending_page_header" app:header_background="@color/sig_color_flat_pure_black_any" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:title_text="@string/spotlight_trending_page_title" style="@style/subscreen_header_default_dark" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/trending_page_recycler_view" android:background="@color/sig_color_flat_pure_black_any" android:paddingTop="@dimen/default_gap" android:clipToPadding="false" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/trending_page_header" />
+</androidx.constraintlayout.widget.ConstraintLayout>

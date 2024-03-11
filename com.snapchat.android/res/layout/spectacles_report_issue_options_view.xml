@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/white_option_item_selector" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <com.snap.ui.view.SnapFontTextView android:gravity="start|center" android:id="@id/spectacles_report_issue_option_text_view" android:layout_width="wrap_content" android:layout_height="@dimen/reporting_item_height" android:paddingStart="@dimen/default_gap_2x" android:paddingEnd="@dimen/default_gap_2x" custom:layout_constraintStart_toStartOf="parent" custom:layout_constraintVertical_chainStyle="packed" style="@style/new_settings_item_name" />
+    <ImageView android:layout_gravity="end|center" android:layout_width="wrap_content" android:layout_height="@dimen/reporting_item_arrow_height" android:src="@drawable/grey_right_arrow" android:paddingStart="@dimen/default_gap_1_5x" android:paddingEnd="@dimen/default_gap_1_5x" />
+    <View android:layout_gravity="bottom" android:background="@color/sig_color_flat_pure_black_any_alpha_5" android:layout_width="fill_parent" android:layout_height="@dimen/reporting_item_divider_height" />
+</FrameLayout>

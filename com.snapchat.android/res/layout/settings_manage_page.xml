@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/settings_manage_services" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center_vertical" android:id="@id/settings_lens_studio" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight" android:layout_marginLeft="@dimen/default_gap_2x" android:layout_marginRight="@dimen/default_gap_2x" android:text="@string/settings_lens_studio" style="@style/new_settings_item_name" />
+    <LinearLayout android:orientation="vertical" android:id="@id/contacts_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/list_separator" />
+        <TextView android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight" android:layout_marginLeft="@dimen/default_gap_2x" android:layout_marginRight="@dimen/default_gap_2x" android:text="@string/settings_contacts" style="@style/new_settings_item_name" />
+    </LinearLayout>
+</LinearLayout>

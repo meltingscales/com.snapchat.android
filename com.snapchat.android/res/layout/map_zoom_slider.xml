@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/map_zoom_slider" android:paddingTop="100.0dip" android:visibility="invisible" android:layout_width="@dimen/total_slider_width" android:layout_height="fill_parent" android:layout_alignParentRight="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="center_horizontal" android:id="@id/touch_bar_view" android:background="@color/sig_color_flat_pure_white_any_alpha_40" android:clickable="false" android:layout_width="@dimen/touch_bar_view_width" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="5.0dip" android:layout_alignParentRight="true" />
+    <FrameLayout android:id="@id/touch_bar" android:layout_width="48.0dip" android:layout_height="fill_parent" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <com.snap.maps.screen.lib.main.slider.ScalingZoomSliderIndicatorView android:id="@id/emoji_container" android:clickable="false" android:layout_width="@dimen/emoji_container_max_width_with_shadow" android:layout_height="@dimen/emoji_container_height_with_shadow" />
+</RelativeLayout>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.component.sectionheader.SnapSectionHeader xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="@dimen/v11_subscreen_header_section_header_height" android:paddingStart="@dimen/v11_subscreen_header_top_view_margin" android:paddingEnd="@dimen/v11_subscreen_header_top_view_margin" custom:title_text="Snap Section Header" style="@style/SectionHeader.Regular"/>

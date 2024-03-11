@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <solid android:color="@android:color/transparent"/>
+    <corners android:radius="@dimen/comments_input_bar_comment_preview_border_radius"/>
+    <stroke android:width="@dimen/comments_input_bar_comment_preview_border_width" android:color="@color/sig_color_layout_divider_light"/>
+</shape>

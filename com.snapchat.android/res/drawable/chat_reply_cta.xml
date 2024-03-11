@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/chat_reply_cta_bg">
+        <shape android:shape="oval">
+            <solid android:color="@color/sig_color_base_gray100_any" />
+            <size android:height="@dimen/chat_camera_icon_size" android:width="@dimen/chat_camera_icon_size" />
+        </shape>
+    </item>
+    <item android:gravity="center" android:id="@id/chat_reply_cta_icon" android:drawable="@drawable/context_cards_cta_camera" />
+</layer-list>

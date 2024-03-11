@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/tappable_pill_container" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="@dimen/tappable_sticker_size"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:background="@drawable/tappable_sticker_pill" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="@dimen/tappable_sticker_size">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/snap_attachment_clip_icon" android:padding="@dimen/default_gap" android:layout_width="@dimen/tappable_sticker_size" android:layout_height="@dimen/tappable_sticker_size" android:src="@drawable/snap_attachment_clip_icon" />
+        <com.snap.ui.view.SnapFontTextView android:textSize="?v11Button1TextSize" android:textColor="?colorWhite" android:ellipsize="end" android:id="@id/tappable_text_view" android:paddingBottom="@dimen/default_gap_quarter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/info_sticker_max_width" android:maxLines="1" app:scFontWeight="?v11Button1FontWeight" />
+        <ImageView android:layout_width="@dimen/tappable_sticker_arrow_width" android:layout_height="@dimen/tappable_sticker_arrow_height" android:src="@drawable/preview_back" android:scaleType="fitXY" android:scaleX="-1.0" android:layout_marginStart="@dimen/reverse_default_gap" android:layout_marginEnd="@dimen/default_gap_1_5x" />
+    </LinearLayout>
+    <View android:layout_gravity="center" android:id="@id/tappable_center_point" android:background="@android:color/transparent" android:layout_width="@dimen/single_dp" android:layout_height="@dimen/single_dp" />
+</FrameLayout>

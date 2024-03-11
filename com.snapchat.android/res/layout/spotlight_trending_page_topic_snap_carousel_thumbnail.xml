@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.framework.ui.views.RoundedFrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:corner_radius="@dimen/spotlight_trending_page_thumbnail_corner_radius"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.snap.imageloading.view.SnapImageView android:id="@id/trending_page_snap_thumbnail" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <View android:layout_gravity="bottom" android:background="@drawable/spotlight_trending_page_thumbnail_bottom_gradient" android:layout_width="fill_parent" android:layout_height="@dimen/spotlight_trending_page_thumbnail_view_count_gradient_height" />
+    <com.snap.component.SnapLabelView android:layout_gravity="bottom" android:id="@id/trending_page_thumbnail_view_count" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/default_gap_half" style="@style/TextAppearance.Subtitle2.White" />
+</com.snap.framework.ui.views.RoundedFrameLayout>

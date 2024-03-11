@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" android:textColor="@color/sig_color_base_gray60_any" android:gravity="start" android:paddingTop="0dp" android:paddingBottom="@dimen/default_gap_half" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="0dp" android:paddingEnd="@dimen/marco_polo_float_label_right_padding"/>

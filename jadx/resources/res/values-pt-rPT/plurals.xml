@@ -1,0 +1,1035 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="action_menu_camera_select">
+        <item quantity="one">%d item selecionado</item>
+        <item quantity="other">%d itens selecionados</item>
+    </plurals>
+    <plurals name="action_menu_hide_long">
+        <item quantity="one">@string/memories_opera_action_menu_hide</item>
+        <item quantity="other">Ocultar Snaps (Só Para Mim)</item>
+    </plurals>
+    <plurals name="action_menu_mute_for_hours">
+        <item quantity="one">Durante %d hora</item>
+        <item quantity="other">Durante %d horas</item>
+    </plurals>
+    <plurals name="action_menu_snap_select">
+        <item quantity="one">%d Snap selecionado</item>
+        <item quantity="other">%d Snaps selecionados</item>
+    </plurals>
+    <plurals name="action_menu_unhide_long">
+        <item quantity="one">@string/memories_opera_action_menu_unhide</item>
+        <item quantity="other">Mostrar Snaps</item>
+    </plurals>
+    <plurals name="active_indicator_explainer_active_hour">
+        <item quantity="one">%d hora!</item>
+        <item quantity="other">%d horas!</item>
+    </plurals>
+    <plurals name="activity_indicator_explainer_active_friend_count">
+        <item quantity="one">%d amigo esteve</item>
+        <item quantity="other">%d amigos estiveram</item>
+    </plurals>
+    <plurals name="add_friend_badge_request_tips">
+        <item quantity="one">%1$s novo amigo</item>
+        <item quantity="other">%1$s novos amigos</item>
+    </plurals>
+    <plurals name="add_friend_badge_suggestion_tips">
+        <item quantity="one">%1$s nova sugestão de amigo</item>
+        <item quantity="other">%1$s novas sugestões de amigos</item>
+    </plurals>
+    <plurals name="add_friends_button_subtext">
+        <item quantity="one">%1$s Snapchatter adicionou-te!</item>
+        <item quantity="other">%1$s Snapchatters adicionaram-te!</item>
+    </plurals>
+    <plurals name="add_friends_button_suggestion_subtext">
+        <item quantity="one">%1$s sugestão de amigo!</item>
+        <item quantity="other">%1$s sugestões de amigos!</item>
+    </plurals>
+    <plurals name="batch_capture_save_as_x_snaps">
+        <item quantity="one">Guardar como %1$d Snap</item>
+        <item quantity="other">Guardar como %1$d Snaps</item>
+    </plurals>
+    <plurals name="bottom_button_text">
+        <item quantity="one">+ Adicionar %d amigo</item>
+        <item quantity="other">+ Adicionar %d amigos</item>
+    </plurals>
+    <plurals name="camera_mode_batch_capture_limit_reached_description_with_count">
+        <item quantity="one">O Multi-Snap pode capturar até %1$d Snaps de cada vez!</item>
+        <item quantity="other">O Multi-Snap pode capturar até %1$d Snaps de cada vez!</item>
+    </plurals>
+    <plurals name="camera_mode_disable_batch_capture_description">
+        <item quantity="one">Tens a certeza de que queres desligar o teu Multi-Snap? Vais perder o teu Snap não guardado.</item>
+        <item quantity="other">Tens a certeza de que queres desligar o teu Multi-Snap? Vais perder os teus %1$d Snaps não guardados.</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_image_sharer_you_not">
+        <item quantity="one">%1$s E %2$s GUARDARAM UMA FOTO DE %4$s</item>
+        <item quantity="other">%1$s E %2$s GUARDARAM %3$d FOTOS DE %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_image_sharer_you_yes">
+        <item quantity="one">%1$s E %2$s GUARDARAM A TUA FOTO</item>
+        <item quantity="other">%1$s E %2$s GUARDARAM %3$d FOTOS QUE ENVIASTE</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_item_sharer_you_not">
+        <item quantity="one">%1$s E %2$s GUARDARAM UM ITEM DE %4$s</item>
+        <item quantity="other">%1$s E %2$s GUARDARAM %3$d ITENS DE %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_item_sharer_you_yes">
+        <item quantity="one">%1$s E %2$s GUARDARAM O TEU ITEM</item>
+        <item quantity="other">%1$s E %2$s GUARDARAM %3$d ITENS QUE ENVIASTE</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_video_sharer_you_not">
+        <item quantity="one">%1$s E %2$s GUARDARAM UM VÍDEO DE %4$s</item>
+        <item quantity="other">%1$s E %2$s GUARDARAM %3$d VÍDEOS DE %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_video_sharer_you_yes">
+        <item quantity="one">%1$s E %2$s GUARDARAM O TEU VÍDEO</item>
+        <item quantity="other">%1$s E %2$s GUARDARAM %3$d VÍDEOS QUE ENVIASTE</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_yes_media_image_sharer_you_not">
+        <item quantity="one">TU E %1$s GUARDARAM UMA FOTO DE %3$s</item>
+        <item quantity="other">TU E %1$s GUARDARAM %2$d FOTOS DE %3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_yes_media_item_sharer_you_not">
+        <item quantity="one">TU E %1$s GUARDARAM UM ITEM DE %3$s</item>
+        <item quantity="other">TU E %1$s GUARDARAM %2$d ITENS DE %3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_yes_media_video_sharer_you_not">
+        <item quantity="one">TU E %1$s GUARDARAM UM VÍDEO DE %3$s</item>
+        <item quantity="other">TU E %1$s GUARDARAM %2$d VÍDEOS DE %3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_image_sharer_you_not">
+        <item quantity="one">%1$s E %2$s GUARDARAM UMA FOTO DE %4$s</item>
+        <item quantity="other">%1$s E %2$s GUARDARAM %3$d FOTOS DE %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_image_sharer_you_yes">
+        <item quantity="one">%1$s E %2$s GUARDARAM A TUA FOTO</item>
+        <item quantity="other">%1$s E %2$s GUARDARAM %3$d FOTOS QUE ENVIASTE</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_item__sharer_you_not">
+        <item quantity="one">%1$s E %2$s GUARDARAM UM ITEM DE %4$s</item>
+        <item quantity="other">%1$s E %2$s GUARDARAM %3$d ITENS DE %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_item__sharer_you_yes">
+        <item quantity="one">%1$s E %2$s GUARDARAM O TEU ITEM</item>
+        <item quantity="other">%1$s E %2$s GUARDARAM %3$d ITENS QUE ENVIASTE</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_video_sharer_you_not">
+        <item quantity="one">%1$s E %2$s GUARDARAM UM VÍDEO DE %4$s</item>
+        <item quantity="other">%1$s E %2$s GUARDARAM %3$d VÍDEOS DE %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_video_sharer_you_yes">
+        <item quantity="one">%1$s E %2$s GUARDARAM O TEU VÍDEO</item>
+        <item quantity="other">%1$s E %2$s GUARDARAM %3$d VÍDEOS QUE ENVIASTE</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_yes_media_image_sharer_you_not">
+        <item quantity="one">TU, %1$s E %2$s GUARDARAM UMA FOTO DE %4$s</item>
+        <item quantity="other">TU, %1$s E %2$s GUARDARAM %3$d FOTOS DE %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_yes_media_item_sharer_you_not">
+        <item quantity="one">TU, %1$s E %2$s GUARDARAM UM ITEM DE %4$s</item>
+        <item quantity="other">TU, %1$s E %2$s GUARDARAM %3$d ITENS DE %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_yes_media_video_sharer_you_not">
+        <item quantity="one">TU, %1$s E %2$s GUARDARAM UM VÍDEO DE %4$s</item>
+        <item quantity="other">TU, %1$s E %2$s GUARDARAM %3$d VÍDEOS DE %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_image_sharer_you_not">
+        <item quantity="one">%1$s GUARDARAM UMA FOTO DE %3$s</item>
+        <item quantity="other">%1$s GUARDOU %2$d FOTOS DE %3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_image_sharer_you_yes">
+        <item quantity="one">%1$s GUARDOU A TUA FOTO</item>
+        <item quantity="other">%1$s GUARDOU %2$d FOTOS QUE ENVIASTE</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_item_sharer_you_not">
+        <item quantity="one">%1$s GUARDARAM UM ITEM DE %3$s</item>
+        <item quantity="other">%1$s GUARDOU %2$d ITENS DE %3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_item_sharer_you_yes">
+        <item quantity="one">%1$s GUARDOU O TEU ITEM</item>
+        <item quantity="other">%1$s GUARDOU %2$d ITENS QUE ENVIASTE</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_video_sharer_you_not">
+        <item quantity="one">%1$s GUARDARAM UM VÍDEO DE %3$s</item>
+        <item quantity="other">%1$s GUARDOU %2$d VÍDEOS DE %3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_video_sharer_you_yes">
+        <item quantity="one">%1$s GUARDOU O TEU VÍDEO</item>
+        <item quantity="other">%1$s GUARDOU %2$d VÍDEOS QUE ENVIASTE</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_yes_media_image_sharer_you_not">
+        <item quantity="one">GUARDASTE UMA FOTO DE %2$s</item>
+        <item quantity="other">GUARDASTE %1$d FOTOS DE %2$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_yes_media_item__sharer_you_not">
+        <item quantity="one">GUARDASTE UM ITEM DE %2$s</item>
+        <item quantity="other">GUARDASTE %1$d ITENS DE %2$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_yes_media_video_sharer_you_not">
+        <item quantity="one">GUARDASTE UM VÍDEO DE %2$s</item>
+        <item quantity="other">GUARDASTE %1$d VÍDEOS DE %2$s</item>
+    </plurals>
+    <plurals name="cannot_add_custom_story_snap_recipients">
+        <item quantity="one">Só podes adicionar a %1$d História Personalizada de cada vez</item>
+        <item quantity="other">Só podes adicionar a %1$d Histórias Personalizadas de cada vez</item>
+    </plurals>
+    <plurals name="capture_settings_distance_value_text_feet">
+        <item quantity="one">%1$d pé</item>
+        <item quantity="other">%1$d pés</item>
+    </plurals>
+    <plurals name="capture_settings_duration_value_text_orbits">
+        <item quantity="one">1 órbita</item>
+        <item quantity="other">%1$d órbitas</item>
+    </plurals>
+    <plurals name="chat_header_gifting_birthday_upsell">
+        <item quantity="one">O aniversário de %1$s é amanhã ��. Oferece-lhe o Snapchat+</item>
+        <item quantity="other">O aniversário de %1$s é daqui a %2$d dias ��. Oferece-lhe o Snapchat+</item>
+    </plurals>
+    <plurals name="cheerios_clean_unpair_cheerios_body">
+        <item quantity="one">Existe um Snap no teu Pixy. Também queres redefinir o dispositivo e apagar todos os Snaps e dados do utilizador?</item>
+        <item quantity="other">Existem %1$d Snaps no teu Pixy. Também queres redefinir o dispositivo e apagar todos os Snaps e dados do utilizador?</item>
+    </plurals>
+    <plurals name="cheerios_confirm_delete_body">
+        <item quantity="one">Apagar este Snap irá removê-lo do teu dispositivo Cheerios.</item>
+        <item quantity="other">Apagar estes Snaps irá removê-los do teu dispositivo Cheerios.</item>
+    </plurals>
+    <plurals name="cheerios_deleted">
+        <item quantity="one">Snap apagado</item>
+        <item quantity="other">%d Snaps apagados</item>
+    </plurals>
+    <plurals name="cheerios_deleting">
+        <item quantity="one">A apagar 1 Snap…</item>
+        <item quantity="other">A apagar %d Snaps…</item>
+    </plurals>
+    <plurals name="cheerios_memories_tooltip">
+        <item quantity="one">1 Snap novo</item>
+        <item quantity="other">%d Snaps novos</item>
+    </plurals>
+    <plurals name="cheerios_new_snap_to_import">
+        <item quantity="one">1 Snap novo. Toca para importar.</item>
+        <item quantity="other">%d Snaps novos. Toca para importar.</item>
+    </plurals>
+    <plurals name="cheerios_status_transfer_complete_title">
+        <item quantity="one">%d Snap importado!</item>
+        <item quantity="other">%d Snaps importados!</item>
+    </plurals>
+    <plurals name="cheerios_status_transferring_title">
+        <item quantity="one">A importar %d Snap…</item>
+        <item quantity="other">A importar %d Snaps…</item>
+    </plurals>
+    <plurals name="cluster_seven_or_more">
+        <item quantity="one">%1$s, %2$s, %3$s, %4$s, %5$s e mais %6$d</item>
+        <item quantity="other">%1$s, %2$s, %3$s, %4$s, %5$s e mais %6$d</item>
+    </plurals>
+    <plurals name="cluster_seven_or_more_me">
+        <item quantity="one">%1$s, %2$s, %3$s, %4$s, eu e mais %5$d</item>
+        <item quantity="other">%1$s, %2$s, %3$s, %4$s, eu e mais %5$d</item>
+    </plurals>
+    <plurals name="cluster_three_or_more">
+        <item quantity="one">%1$s e mais %2$d</item>
+        <item quantity="other">%1$s e mais %2$d</item>
+    </plurals>
+    <plurals name="cluster_three_or_more_me">
+        <item quantity="one">Eu e mais %1$d</item>
+        <item quantity="other">Eu e mais %1$d</item>
+    </plurals>
+    <plurals name="cognac_active_playing_game_text_multiple_player">
+        <item quantity="one">%1$s, %2$s e mais %3$d estão a jogar</item>
+        <item quantity="other">%1$s, %2$s e mais %3$d estão a jogar</item>
+    </plurals>
+    <plurals name="cognac_active_playing_game_text_multiple_player_shortened">
+        <item quantity="one">%1$s e mais %2$d estão a jogar</item>
+        <item quantity="other">%1$s e mais %2$d estão a jogar</item>
+    </plurals>
+    <plurals name="cognac_active_using_cypress_text_multiple_player">
+        <item quantity="one">%1$s, %2$s + %3$d estão ativos/as</item>
+        <item quantity="other">%1$s, %2$s + %3$d estão ativos/as</item>
+    </plurals>
+    <plurals name="cognac_active_using_cypress_text_multiple_player_shortened">
+        <item quantity="one">%1$s + %2$d estão ativos/as</item>
+        <item quantity="other">%1$s + %2$d estão ativos/as</item>
+    </plurals>
+    <plurals name="cognac_app_profile_multiple_player_text">
+        <item quantity="one">Suporta de %1$s a %2$d jogadores</item>
+        <item quantity="other">Suporta de %1$s a %2$d jogadores</item>
+    </plurals>
+    <plurals name="cognac_close_status_message_multiple_player_second_person">
+        <item quantity="one">Tu, %1$s e mais %2$d jogaram %3$s</item>
+        <item quantity="other">Tu, %1$s e mais %2$d jogaram %3$s</item>
+    </plurals>
+    <plurals name="cognac_close_status_message_multiple_player_third_person">
+        <item quantity="one">%1$s, %2$s e mais %3$d jogaram %4$s</item>
+        <item quantity="other">%1$s, %2$s e mais %3$d jogaram %4$s</item>
+    </plurals>
+    <plurals name="cognac_close_status_message_text_for_feed_multiple_player_third_person">
+        <item quantity="one">%1$s e mais %2$d jogaram %3$s</item>
+        <item quantity="other">%1$s e mais %2$d jogaram %3$s</item>
+    </plurals>
+    <plurals name="cognac_cypress_close_status_message_multiple_player_second_person">
+        <item quantity="one">Tu, %1$s e mais %2$d utilizaram %3$s</item>
+        <item quantity="other">Tu, %1$s e mais %2$d utilizaram %3$s</item>
+    </plurals>
+    <plurals name="cognac_cypress_close_status_message_multiple_player_third_person">
+        <item quantity="one">%1$s, %2$s e mais %3$d utilizaram %4$s</item>
+        <item quantity="other">%1$s, %2$s e mais %3$d utilizaram %4$s</item>
+    </plurals>
+    <plurals name="cognac_cypress_close_status_message_text_for_feed_multiple_player_third_person">
+        <item quantity="one">%1$s e mais %2$d utilizaram %3$s</item>
+        <item quantity="other">%1$s e mais %2$d utilizaram %3$s</item>
+    </plurals>
+    <plurals name="cognac_friend_picker_ringing_text_multiple_players">
+        <item quantity="one">A chamar %1$s e mais %2$d...</item>
+        <item quantity="other">A chamar %1$s e mais %2$d...</item>
+    </plurals>
+    <plurals name="comments_collapse_child_comments">
+        <item quantity="one">Ocultar resposta</item>
+        <item quantity="other">Ocultar respostas</item>
+    </plurals>
+    <plurals name="comments_expand_child_comments">
+        <item quantity="one">Mostrar 1 resposta</item>
+        <item quantity="other">Mostrar %s respostas</item>
+    </plurals>
+    <plurals name="comments_header_with_live_comment_count">
+        <item quantity="one">1 comentário</item>
+        <item quantity="other">%s comentários</item>
+    </plurals>
+    <plurals name="content_detail_new_count">
+        <item quantity="one">%1$d novo</item>
+        <item quantity="other">%1$d novos</item>
+    </plurals>
+    <plurals name="content_detail_seen_text">
+        <item quantity="one">%1$d para importar</item>
+        <item quantity="other">%1$d para importar</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="one">%d dia</item>
+        <item quantity="other">%d dias</item>
+    </plurals>
+    <plurals name="days_abbreviated">
+        <item quantity="one">%d d</item>
+        <item quantity="other">%d d</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated">
+        <item quantity="one">Há %d d</item>
+        <item quantity="other">Há %d d</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_camera_roll">
+        <item quantity="one">Há %1$d d do Rolo da Câmara</item>
+        <item quantity="other">Há %1$d d do Rolo da Câmara</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_chat">
+        <item quantity="one">Há %1$d d a partir do Chat</item>
+        <item quantity="other">Há %1$d d a partir do Chat</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_cheerios">
+        <item quantity="one">Há %1$d dia do Pixy</item>
+        <item quantity="other">Há %1$d dias do Pixy</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_creative_kit">
+        <item quantity="one">Há %1$d d de %2$s</item>
+        <item quantity="other">Há %1$d d de %2$s</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_memories">
+        <item quantity="one">Há %1$d d das Memórias</item>
+        <item quantity="other">Há %1$d d das Memórias</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_spectacles">
+        <item quantity="one">Há %1$d d dos Spectacles</item>
+        <item quantity="other">Há %1$d d dos Spectacles</item>
+    </plurals>
+    <plurals name="days_ago_update">
+        <item quantity="one">Atualizado há %1$s dia</item>
+        <item quantity="other">Atualizado há %1$s dias</item>
+    </plurals>
+    <plurals name="discard_batch_capture_description">
+        <item quantity="one">Tens a certeza de que queres eliminar o teu Multi-Snap? Vais perder o teu Snap não guardado.</item>
+        <item quantity="other">Tens a certeza de que queres eliminar o teu Multi-Snap? Vais perder os teus %1$d Snaps não guardados.</item>
+    </plurals>
+    <plurals name="display_username_explanation_changed_username_too_recently">
+        <item quantity="one">Alteraste o teu nome de utilizador a %1$s.\nPodes alterá-lo novamente dentro de %2$d dia.</item>
+        <item quantity="other">Alteraste o teu nome de utilizador a %1$s.\nPodes alterá-lo novamente dentro de %2$d dias.</item>
+    </plurals>
+    <plurals name="failed_to_save_multiple_snaps">
+        <item quantity="one">Falha ao guardar %1$d Snap</item>
+        <item quantity="other">Falha ao guardar %1$d Snaps</item>
+    </plurals>
+    <plurals name="formatted_short_ft">
+        <item quantity="one">%d pé</item>
+        <item quantity="other">%d ft</item>
+    </plurals>
+    <plurals name="formatted_short_km">
+        <item quantity="one">%d km</item>
+        <item quantity="other">%d km</item>
+    </plurals>
+    <plurals name="formatted_short_m">
+        <item quantity="one">%d m</item>
+        <item quantity="other">%d m</item>
+    </plurals>
+    <plurals name="formatted_short_mile">
+        <item quantity="one">%d mi</item>
+        <item quantity="other">%d mi</item>
+    </plurals>
+    <plurals name="friending_progress_bar_secondary">
+        <item quantity="one">Envia mais %1$s pedido de amizade!</item>
+        <item quantity="other">Envia mais %1$s pedidos de amizade!</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_description_items">
+        <item quantity="one">O teu item foi adicionado ao Só Para Mim com êxito. Gostarias de apagar o original do teu Rolo da Câmara?</item>
+        <item quantity="other">Os teus itens foram adicionados ao Só Para Mim com êxito. Gostarias de apagar os originais do teu Rolo da Câmara?</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_description_photos">
+        <item quantity="one">A tua fotografia foi adicionada ao Só Para Mim com êxito. Gostarias de apagar o original do teu Rolo da Câmara?</item>
+        <item quantity="other">As tuas fotografias foram adicionadas ao Só Para Mim com êxito. Gostarias de apagar os originais do teu Rolo da Câmara?</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_description_videos">
+        <item quantity="one">O teu vídeo foi adicionado ao Só Para Mim com êxito. Gostarias de apagar o original do teu Rolo da Câmara?</item>
+        <item quantity="other">Os teus vídeos foram adicionados ao Só Para Mim com êxito. Gostarias de apagar os originais do teu Rolo da Câmara?</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_title">
+        <item quantity="one">Apagar Original</item>
+        <item quantity="other">Apagar Originais</item>
+    </plurals>
+    <plurals name="gallery_private_rate_limit_minutes_time_out">
+        <item quantity="one">\nTenta novamente dentro de %1$d minuto.</item>
+        <item quantity="other">\nTenta novamente dentro de %1$d minutos.</item>
+    </plurals>
+    <plurals name="gauge_altitude_unit_feet">
+        <item quantity="one">%d ft</item>
+        <item quantity="other">%d ft</item>
+    </plurals>
+    <plurals name="gauge_altitude_unit_meters">
+        <item quantity="one">%d m</item>
+        <item quantity="other">%d m</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="one">%d hora</item>
+        <item quantity="other">%d horas</item>
+    </plurals>
+    <plurals name="hours_abbreviated">
+        <item quantity="one">%d h</item>
+        <item quantity="other">%d h</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="one">%d h</item>
+        <item quantity="other">%d h</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated">
+        <item quantity="one">Há %d h</item>
+        <item quantity="other">Há %d h</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_camera_roll">
+        <item quantity="one">Há %1$d h do Rolo da Câmara</item>
+        <item quantity="other">Há %1$d h do Rolo da Câmara</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_chat">
+        <item quantity="one">Há %1$d h a partir do Chat</item>
+        <item quantity="other">Há %1$d h a partir do Chat</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_cheerios">
+        <item quantity="one">Há %1$d h do Pixy</item>
+        <item quantity="other">Há %1$d h do Pixy</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_creative_kit">
+        <item quantity="one">Há %1$d h de %2$s</item>
+        <item quantity="other">Há %1$d h de %2$s</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_memories">
+        <item quantity="one">Há %1$d h das Memórias</item>
+        <item quantity="other">Há %1$d h das Memórias</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_spectacles">
+        <item quantity="one">Há %1$d h dos Spectacles</item>
+        <item quantity="other">Há %1$d h dos Spectacles</item>
+    </plurals>
+    <plurals name="hours_ago_update">
+        <item quantity="one">Atualizado há %1$s hora</item>
+        <item quantity="other">Atualizado há %1$s horas</item>
+    </plurals>
+    <plurals name="last_seen_here_hours">
+        <item quantity="one">Visto pela última vez aqui há %d h</item>
+        <item quantity="other">Visto pela última vez aqui há %d h</item>
+    </plurals>
+    <plurals name="last_seen_here_minutes">
+        <item quantity="one">Visto pela última vez aqui há %d min</item>
+        <item quantity="other">Visto pela última vez aqui há %d min</item>
+    </plurals>
+    <plurals name="live_location_chat_hours_remaining">
+        <item quantity="one">%d hora</item>
+        <item quantity="other">%d horas</item>
+    </plurals>
+    <plurals name="live_location_description_existing_sessions">
+        <item quantity="one">Vais partilhar a tua localização em direto com os amigos atualmente neste grupo. %d amigo já pode ver a tua localização em direto.</item>
+        <item quantity="other">Vais partilhar a tua localização em direto com os amigos atualmente neste grupo. %d amigos já podem ver a tua localização em direto.</item>
+    </plurals>
+    <plurals name="live_location_duration_hr">
+        <item quantity="one">%d hora</item>
+        <item quantity="other">%d horas</item>
+    </plurals>
+    <plurals name="live_location_duration_min">
+        <item quantity="one">%d minuto</item>
+        <item quantity="other">%d minutos</item>
+    </plurals>
+    <plurals name="live_location_share_group_description">
+        <item quantity="one">Vais partilhar a localização em direto com os amigos atualmente neste grupo. %d membro não poderá ver a tua localização por não serem amigos.</item>
+        <item quantity="other">Vais partilhar a localização em direto com os amigos atualmente neste grupo. %d membros não poderão ver a tua localização por não serem amigos.</item>
+    </plurals>
+    <plurals name="live_location_with_friends">
+        <item quantity="one">com %d amigo</item>
+        <item quantity="other">com %d amigos</item>
+    </plurals>
+    <plurals name="location_upsell_description_specific_friends_more_than_four">
+        <item quantity="one">%1$s, %2$s, %3$s e mais %4$d dos teus amigos estão visíveis no Mapa!</item>
+        <item quantity="other">%1$s, %2$s, %3$s e mais %4$d dos teus amigos estão visíveis no Mapa!</item>
+    </plurals>
+    <plurals name="locked_lens_friending_banner_countdown_timer_hours">
+        <item quantity="one">%1$d h</item>
+        <item quantity="other">%1$d h</item>
+    </plurals>
+    <plurals name="locked_lens_friending_banner_countdown_timer_minutes">
+        <item quantity="one">%1$d min</item>
+        <item quantity="other">%1$d min</item>
+    </plurals>
+    <plurals name="locked_lens_friending_banner_countdown_timer_seconds">
+        <item quantity="one">%1$d s</item>
+        <item quantity="other">%1$d s</item>
+    </plurals>
+    <plurals name="map_group_card_subtext_friend_sharing">
+        <item quantity="one">%1$d amigo a partilhar</item>
+        <item quantity="other">%1$d amigos a partilhar</item>
+    </plurals>
+    <plurals name="map_passport_and_other">
+        <item quantity="one">e mais %d</item>
+        <item quantity="other">e mais %d</item>
+    </plurals>
+    <plurals name="map_passport_bucket_cities_title">
+        <item quantity="one">Cidade</item>
+        <item quantity="other">Cidades</item>
+    </plurals>
+    <plurals name="map_passport_bucket_countries_title">
+        <item quantity="one">País</item>
+        <item quantity="other">Países</item>
+    </plurals>
+    <plurals name="map_passport_bucket_places_title">
+        <item quantity="one">Local</item>
+        <item quantity="other">Locais</item>
+    </plurals>
+    <plurals name="map_widget_days_ago">
+        <item quantity="one">%d d</item>
+        <item quantity="other">%d d</item>
+    </plurals>
+    <plurals name="media_export_service_batch_export_failure">
+        <item quantity="one">%1$d de %2$d Snaps foram exportados. %3$d Snap falhou.</item>
+        <item quantity="other">%1$d de %2$d Snaps foram exportados. %3$d Snaps falharam.</item>
+    </plurals>
+    <plurals name="media_export_service_processing">
+        <item quantity="one">A exportar Snap…</item>
+        <item quantity="other">A exportar %1$d de %2$d Snaps…</item>
+    </plurals>
+    <plurals name="media_export_service_success">
+        <item quantity="one">O teu Snap foi exportado!</item>
+        <item quantity="other">Os teus Snaps foram exportados!</item>
+    </plurals>
+    <plurals name="memories_camera_select_limit_error">
+        <item quantity="one">Desculpa, só é possível selecionar %d item de cada vez.</item>
+        <item quantity="other">Desculpa, só é possível selecionar %d itens de cada vez.</item>
+    </plurals>
+    <plurals name="memories_delete_camera_roll_image_body">
+        <item quantity="one">Esta imagem vai ser apagada do teu dispositivo</item>
+        <item quantity="other">Estas imagens vão ser apagadas do teu dispositivo</item>
+    </plurals>
+    <plurals name="memories_delete_camera_roll_mixed_body">
+        <item quantity="one">Estes itens vão ser apagados do teu dispositivo</item>
+        <item quantity="other">Estes itens vão ser apagados do teu dispositivo</item>
+    </plurals>
+    <plurals name="memories_delete_camera_roll_video_body">
+        <item quantity="one">Este vídeo vai ser apagado do teu dispositivo</item>
+        <item quantity="other">Estes vídeos vão ser apagados do teu dispositivo</item>
+    </plurals>
+    <plurals name="memories_delete_snap_body">
+        <item quantity="one">Remover Snap?</item>
+        <item quantity="other">Apagar Snaps?</item>
+    </plurals>
+    <plurals name="memories_delete_story_body">
+        <item quantity="one">Apagar História?</item>
+        <item quantity="other">Apagar Histórias?</item>
+    </plurals>
+    <plurals name="memories_export_error">
+        <item quantity="one">Não é possível exportar o Snap!</item>
+        <item quantity="other">Não é possível exportar os Snaps!</item>
+    </plurals>
+    <plurals name="memories_favorite_snaps_story_added">
+        <item quantity="one">Snap adicionado à tua História de favoritos</item>
+        <item quantity="other">%d Snaps adicionados à tua História de favoritos</item>
+    </plurals>
+    <plurals name="memories_favorite_snaps_story_removed">
+        <item quantity="one">Snap removido da tua História de favoritos</item>
+        <item quantity="other">%d Snaps removidos da tua História de favoritos</item>
+    </plurals>
+    <plurals name="memories_featured_story_flashback_diff_date_subtext">
+        <item quantity="one">Há %1$d ano</item>
+        <item quantity="other">Há %1$d anos</item>
+    </plurals>
+    <plurals name="memories_featured_story_flashback_same_date_subtext">
+        <item quantity="one">Faz hoje %1$d ano</item>
+        <item quantity="other">Faz hoje %1$d anos</item>
+    </plurals>
+    <plurals name="memories_featured_story_trip_flashback_chat_prefill_snap">
+        <item quantity="one">%1$s, há %2$d ano</item>
+        <item quantity="other">%1$s, há %2$d anos</item>
+    </plurals>
+    <plurals name="memories_featured_story_trip_flashback_chat_prefill_story">
+        <item quantity="one">Há %1$d ano</item>
+        <item quantity="other">Há %1$d anos</item>
+    </plurals>
+    <plurals name="memories_hide_legacy_auto_saves">
+        <item quantity="one">Os Snaps desta História continuarão disponíveis na nova página A Minha História. As Histórias que criaste ou editaste não serão afetadas.</item>
+        <item quantity="other">Os Snaps destas Histórias continuarão disponíveis na nova página A Minha História. As Histórias que criaste ou editaste não serão afetadas.</item>
+    </plurals>
+    <plurals name="memories_hide_legacy_auto_saves_title">
+        <item quantity="one">Remover %d História mais antiga guardada automaticamente?</item>
+        <item quantity="other">Remover %d Histórias mais antigas guardadas automaticamente?</item>
+    </plurals>
+    <plurals name="memories_print_print_created">
+        <item quantity="one">%d Impressão 3D criada</item>
+        <item quantity="other">%d Impressões 3D criadas</item>
+    </plurals>
+    <plurals name="memories_print_processing">
+        <item quantity="one">A processar %d Snap para impressão...</item>
+        <item quantity="other">A processar %d Snaps para impressão...</item>
+    </plurals>
+    <plurals name="memories_remove_older_stories_dialog_title">
+        <item quantity="one">Esta ação vai remover %d História mais antiga guardada automaticamente.</item>
+        <item quantity="other">Esta ação vai remover %d Histórias mais antigas guardadas automaticamente.</item>
+    </plurals>
+    <plurals name="memories_select_limit_error">
+        <item quantity="one">Desculpa, só é possível selecionar %d Snap de cada vez.</item>
+        <item quantity="other">Desculpa, só é possível selecionar %d Snaps de cada vez.</item>
+    </plurals>
+    <plurals name="memories_status_transfer_complete_in_app_notification_text">
+        <item quantity="one">%1$d Snap importado de %2$s</item>
+        <item quantity="other">%1$d Snaps importados de %2$s</item>
+    </plurals>
+    <plurals name="memories_status_transfer_complete_title">
+        <item quantity="one">%d Snap importado!</item>
+        <item quantity="other">%d Snaps importados!</item>
+    </plurals>
+    <plurals name="memories_status_transfer_from_device_complete_title">
+        <item quantity="one">Snap novo de %s</item>
+        <item quantity="other">Snaps novos de %s</item>
+    </plurals>
+    <plurals name="memories_status_transferring_title">
+        <item quantity="one">A importar %1$d de %2$d Snap...</item>
+        <item quantity="other">A importar %1$d de %2$d Snaps...</item>
+    </plurals>
+    <plurals name="memories_story_editor_add_snap_selected">
+        <item quantity="one">%d selecionado(s)</item>
+        <item quantity="other">%d selecionado(s)</item>
+    </plurals>
+    <plurals name="minutes_abbreviated">
+        <item quantity="one">%d min</item>
+        <item quantity="other">%d min</item>
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="one">%d min</item>
+        <item quantity="other">%d min</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated">
+        <item quantity="one">Há %d min</item>
+        <item quantity="other">Há %d min</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_camera_roll">
+        <item quantity="one">Há %1$d min do Rolo da Câmara</item>
+        <item quantity="other">Há %1$d min do Rolo da Câmara</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_chat">
+        <item quantity="one">Há %1$d min a partir do Chat</item>
+        <item quantity="other">Há %1$d min a partir do Chat</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_cheerios">
+        <item quantity="one">Há %1$d min do Pixy</item>
+        <item quantity="other">Há %1$d min do Pixy</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_creative_kit">
+        <item quantity="one">Há %1$d min de %2$s</item>
+        <item quantity="other">Há %1$d min de %2$s</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_memories">
+        <item quantity="one">Há %1$d min das Memórias</item>
+        <item quantity="other">Há %1$d min das Memórias</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_spectacles">
+        <item quantity="one">Há %1$d min dos Spectacles</item>
+        <item quantity="other">Há %1$d min dos Spectacles</item>
+    </plurals>
+    <plurals name="minutes_ago_update">
+        <item quantity="one">Atualizado há %1$s minuto</item>
+        <item quantity="other">Atualizado há %1$s minutos</item>
+    </plurals>
+    <plurals name="months_abbreviated">
+        <item quantity="one">%d mês</item>
+        <item quantity="other">%d meses</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated">
+        <item quantity="one">Há %d mês</item>
+        <item quantity="other">Há %d meses</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_camera_roll">
+        <item quantity="one">Há %1$d mês do Rolo da Câmara</item>
+        <item quantity="other">Há %1$d meses do Rolo da Câmara</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_chat">
+        <item quantity="one">Há %1$d mês a partir do Chat</item>
+        <item quantity="other">Há %1$d meses a partir do Chat</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_cheerios">
+        <item quantity="one">Há %1$d mês do Pixy</item>
+        <item quantity="other">Há %1$d meses do Pixy</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_creative_kit">
+        <item quantity="one">Há %1$d mês de %2$s</item>
+        <item quantity="other">Há %1$d meses de %2$s</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_memories">
+        <item quantity="one">Há %1$d mês das Memórias</item>
+        <item quantity="other">Há %1$d meses das Memórias</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_spectacles">
+        <item quantity="one">Há %1$d mês dos Spectacles</item>
+        <item quantity="other">Há %1$d meses dos Spectacles</item>
+    </plurals>
+    <plurals name="months_ago_update">
+        <item quantity="one">Atualizado há %1$s mês</item>
+        <item quantity="other">Atualizado há %1$s meses</item>
+    </plurals>
+    <plurals name="more_stories">
+        <item quantity="one">Mais 1 História</item>
+        <item quantity="other">Mais %d Histórias</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d nova notificação</item>
+        <item quantity="other">%d novas notificações</item>
+    </plurals>
+    <plurals name="muted_stories">
+        <item quantity="one">1 História silenciada</item>
+        <item quantity="other">%d Histórias silenciadas</item>
+    </plurals>
+    <plurals name="new_registration_continue_with_n_friends">
+        <item quantity="one">Adicionar 1 amigo</item>
+        <item quantity="other">Adicionar %d amigos</item>
+    </plurals>
+    <plurals name="num_hours">
+        <item quantity="one">%d h</item>
+        <item quantity="other">%d h</item>
+    </plurals>
+    <plurals name="num_minutes">
+        <item quantity="one">%d min</item>
+        <item quantity="other">%d min</item>
+    </plurals>
+    <plurals name="nyc_audience_many_and_x_others">
+        <item quantity="one">%1$s+%2$d outro</item>
+        <item quantity="other">%1$s+%2$d outros</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_ft">
+        <item quantity="one">ft</item>
+        <item quantity="other">ft</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_km">
+        <item quantity="one">km</item>
+        <item quantity="other">km</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_m">
+        <item quantity="one">m</item>
+        <item quantity="other">m</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_mile">
+        <item quantity="one">mi</item>
+        <item quantity="other">mi</item>
+    </plurals>
+    <plurals name="nyc_friends_many_and_x_others">
+        <item quantity="one">%1$s já está a partilhar a localização em direto contigo</item>
+        <item quantity="other">%1$s e %2$s já estão a partilhar a localização em direto contigo</item>
+    </plurals>
+    <plurals name="nyc_sharing_live_location_with_friends">
+        <item quantity="one">Estás a partilhar a tua localização em direto com %1$s amigo. </item>
+        <item quantity="other">Estás a partilhar a tua localização em direto com %1$s amigos. </item>
+    </plurals>
+    <plurals name="nyc_unhide_live_location_friend_dialog_title">
+        <item quantity="one">Estás a ocultar a tua localização em direto para mais 1 amigo.</item>
+        <item quantity="other">Estás a ocultar a tua localização em direto para mais %1$d amigos.</item>
+    </plurals>
+    <plurals name="pairing_validation_description">
+        <item quantity="one">Existe 1 Snap no teu Pixy do utilizador anterior. A sincronização com este dispositivo irá redefinir o dispositivo e apagar todos os Snaps e dados do utilizador.</item>
+        <item quantity="other">Existem %d Snaps no teu Pixy do utilizador anterior. A sincronização com este dispositivo irá redefinir o dispositivo e apagar todos os Snaps e dados do utilizador.</item>
+    </plurals>
+    <plurals name="payments_num_purchased_items">
+        <item quantity="one">1 item</item>
+        <item quantity="other">%d itens</item>
+    </plurals>
+    <plurals name="pending_syncs_logout_warning">
+        <item quantity="one">Um Snap ainda não foi guardado nas Memórias. Se terminares a sessão agora, podes perder este Snap.</item>
+        <item quantity="other">%1$d Snaps ainda não foram guardados nas Memórias. Se terminares a sessão agora, podes perder estes Snaps.</item>
+    </plurals>
+    <plurals name="perception_lens_collection_scan_card_lenses_count">
+        <item quantity="one">%d Lente</item>
+        <item quantity="other">%d Lentes</item>
+    </plurals>
+    <plurals name="perception_lenses_scan_card_try_lenses">
+        <item quantity="one">Experimentar Lente</item>
+        <item quantity="other">Experimentar Lentes (%d)</item>
+    </plurals>
+    <plurals name="play_with_max_player_alert_text">
+        <item quantity="one">O jogo só permite %1$d jogadores</item>
+        <item quantity="other">O jogo só permite %1$d jogadores</item>
+    </plurals>
+    <plurals name="post_pairing_import_title">
+        <item quantity="one">%d Snap novo</item>
+        <item quantity="other">%d Snaps novos</item>
+    </plurals>
+    <plurals name="registration_continue_with_n_friends">
+        <item quantity="one">+ Adicionar 1 amigo</item>
+        <item quantity="other">+ Adicionar %d amigos</item>
+    </plurals>
+    <plurals name="save_button_tooltip_saved_multiple">
+        <item quantity="one">%1$d Snap guardado!</item>
+        <item quantity="other">%1$d Snaps guardados!</item>
+    </plurals>
+    <plurals name="saved_media_gallery_attribution_media_count">
+        <item quantity="one">%s Snap</item>
+        <item quantity="other">%s Snaps</item>
+    </plurals>
+    <plurals name="seconds_abbreviated">
+        <item quantity="one">%d s</item>
+        <item quantity="other">%d s</item>
+    </plurals>
+    <plurals name="seconds_ago">
+        <item quantity="one">%d s</item>
+        <item quantity="other">%d s</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated">
+        <item quantity="one">Há %d s</item>
+        <item quantity="other">Há %d s</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_camera_roll">
+        <item quantity="one">Há %1$d s do Rolo da Câmara</item>
+        <item quantity="other">Há %1$d s do Rolo da Câmara</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_chat">
+        <item quantity="one">Há %1$d s a partir do Chat</item>
+        <item quantity="other">Há %1$d s a partir do Chat</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_cheerios">
+        <item quantity="one">Há %1$d s do Pixy</item>
+        <item quantity="other">Há %1$d s do Pixy</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_creative_kit">
+        <item quantity="one">Há %1$d s de %2$s</item>
+        <item quantity="other">Há %1$d s de %2$s</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_memories">
+        <item quantity="one">Há %1$d s das Memórias</item>
+        <item quantity="other">Há %1$d s das Memórias</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_spectacles">
+        <item quantity="one">Há %1$d s dos Spectacles</item>
+        <item quantity="other">Há %1$d s dos Spectacles</item>
+    </plurals>
+    <plurals name="seconds_ago_update">
+        <item quantity="one">Atualizado há %1$s segundo</item>
+        <item quantity="other">Atualizado há %1$s segundos</item>
+    </plurals>
+    <plurals name="select_friend_friend">
+        <item quantity="one">1 amigo</item>
+        <item quantity="other">%1$d amigos</item>
+    </plurals>
+    <plurals name="select_friend_other">
+        <item quantity="one">%1$s e mais 1</item>
+        <item quantity="other">%1$s e mais %2$d</item>
+    </plurals>
+    <plurals name="settings_birthday_update_years_old">
+        <item quantity="one">Tenho %d ano.</item>
+        <item quantity="other">Tenho %d anos.</item>
+    </plurals>
+    <plurals name="snap_timer_selection_units">
+        <item quantity="one">segundo</item>
+        <item quantity="other">segundos</item>
+    </plurals>
+    <plurals name="snaps_count">
+        <item quantity="one">%1$d Snap</item>
+        <item quantity="other">%1$d Snaps</item>
+    </plurals>
+    <plurals name="spectacles_export_customization_description">
+        <item quantity="one">Como gostarias de exportar o teu Snap?</item>
+        <item quantity="other">Como gostarias de exportar os teus Snaps?</item>
+    </plurals>
+    <plurals name="spotlight_comments_count_notification_title">
+        <item quantity="one">1 comentário do Destaque pendente!</item>
+        <item quantity="other">%d comentários do Destaque pendentes!</item>
+    </plurals>
+    <plurals name="status_views">
+        <item quantity="one">%d visualização</item>
+        <item quantity="other">%d visualizações</item>
+    </plurals>
+    <plurals name="still_sharing_last_active_location_description">
+        <item quantity="one">A tua localização em direto está oculta, mas %1$s amigo ainda consegue ver a tua última localização ativa.\n\n Podes alterar esta opção nas Definições do Mapa.</item>
+        <item quantity="other">A tua localização em direto está oculta, mas %1$s amigos ainda conseguem ver a tua última localização ativa.\n\n Podes alterar esta opção nas Definições do Mapa.</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_change_audience">
+        <item quantity="one">Guardaste as tuas definições de localização, mas %1$s amigo ainda consegue ver a tua localização em direto. Para parares de partilhar, toca em &quot;Parar&quot; junto ao respetivo nome.</item>
+        <item quantity="other">Guardaste as tuas definições de localização, mas %1$s amigos ainda conseguem ver a tua localização em direto. Para parares de partilhar, toca em &quot;Parar&quot; junto ao respetivo nome.</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_enter_ghost_mode">
+        <item quantity="one">Estás em Modo Fantasma, mas %1$s amigo ainda consegue ver a tua localização em direto. Para parares de partilhar, toca em &quot;Parar&quot; junto ao respetivo nome.</item>
+        <item quantity="other">Estás em Modo Fantasma, mas %1$s amigos ainda conseguem ver a tua localização em direto. Para parares de partilhar, toca em &quot;Parar&quot; junto ao respetivo nome.</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_enter_ghost_mode_ghost_trail">
+        <item quantity="one">Estás em Modo Fantasma, mas %1$s amigo ainda consegue ver a tua localização em direto. Para parares de partilhar, toca em &quot;Parar&quot; junto ao nome dele.\n\nAs localizações não serão adicionadas ao teu Ghost Trail enquanto estiveres em Modo Fantasma.</item>
+        <item quantity="other">Estás em Modo Fantasma, mas %1$s amigos ainda conseguem ver a tua localização em direto. Para parares de partilhar, toca em &quot;Parar&quot; junto ao nome deles.\n\nAs localizações não serão adicionadas ao teu Ghost Trail enquanto estiveres em Modo Fantasma.</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_enter_ghost_mode_hide_live_location">
+        <item quantity="one">Estás em Modo Fantasma, mas %1$s amigo ainda consegue ver a tua localização em direto. Para fazer uma pausa na partilha, toca em &quot;Ocultar a minha localização em direto&quot; abaixo.</item>
+        <item quantity="other">Estás em Modo Fantasma, mas %1$s amigos ainda conseguem ver a tua localização em direto. Para fazer uma pausa na partilha, toca em &quot;Ocultar a minha localização em direto&quot; abaixo.</item>
+    </plurals>
+    <plurals name="story_friend_story_notification_title_update">
+        <item quantity="one">%d amigo adicionou à sua História</item>
+        <item quantity="other">%d amigos adicionaram às suas Histórias</item>
+    </plurals>
+    <plurals name="story_fullscreen_footer_view_count">
+        <item quantity="one">%d visualização</item>
+        <item quantity="other">%d visualizações</item>
+    </plurals>
+    <plurals name="story_management_viewer_list_more_viewers">
+        <item quantity="one">e mais %1$d</item>
+        <item quantity="other">e mais %1$d</item>
+    </plurals>
+    <plurals name="story_mob_subtext_more">
+        <item quantity="one">%1$s e mais %2$d…</item>
+        <item quantity="other">%1$s e mais %2$d…</item>
+    </plurals>
+    <plurals name="story_profile_communities_members">
+        <item quantity="one">Verificado • %d Membro</item>
+        <item quantity="other">Verificado • %d Membros</item>
+    </plurals>
+    <plurals name="story_profile_shared_stories_members">
+        <item quantity="one">%d membro</item>
+        <item quantity="other">%d membros</item>
+    </plurals>
+    <plurals name="story_profile_stories_adding">
+        <item quantity="one">A adicionar %d Snap…</item>
+        <item quantity="other">A adicionar %d Snaps...</item>
+    </plurals>
+    <plurals name="story_profile_stories_failed_to_add">
+        <item quantity="one">Falha ao adicionar %d Snap</item>
+        <item quantity="other">Falha ao adicionar %d Snaps</item>
+    </plurals>
+    <plurals name="story_profile_stories_waiting_to_add">
+        <item quantity="one">A aguardar para adicionar %d Snap…</item>
+        <item quantity="other">A aguardar para adicionar %d Snaps…</item>
+    </plurals>
+    <plurals name="story_settings_action_menu_my_story_blocked_number_of_people">
+        <item quantity="one">1 pessoa</item>
+        <item quantity="other">%d pessoas</item>
+    </plurals>
+    <plurals name="streak_restore_dialog_subtitle_free_restore">
+        <item quantity="one">Tens %1$d recuperação gratuita.</item>
+        <item quantity="other">Tens %1$d recuperações gratuitas.</item>
+    </plurals>
+    <plurals name="streak_restore_dialog_subtitle_hours">
+        <item quantity="one">Tens %2$d hora para recuperar a tua sequência de Snaps sem parar com %1$s antes que desapareça para sempre!</item>
+        <item quantity="other">Tens %2$d horas para recuperar a tua sequência de Snaps sem parar com %1$s antes que desapareça para sempre!</item>
+    </plurals>
+    <plurals name="streak_restore_dialog_subtitle_minutes">
+        <item quantity="one">Tens %2$d minuto para recuperar a tua sequência de Snaps sem parar com %1$s antes que desapareça para sempre!</item>
+        <item quantity="other">Tens %2$d minutos para recuperar a tua sequência de Snaps sem parar com %1$s antes que desapareça para sempre!</item>
+    </plurals>
+    <plurals name="subtitle_sharing_custom_friends">
+        <item quantity="one">com %d amigo</item>
+        <item quantity="other">com %d amigos</item>
+    </plurals>
+    <plurals name="takeover_request_index_and_total">
+        <item quantity="one">%1$d de %2$d novos amigos</item>
+        <item quantity="other">%1$d de %2$d novos amigos</item>
+    </plurals>
+    <plurals name="ticketmaster_events_label">
+        <item quantity="one">evento</item>
+        <item quantity="other">eventos</item>
+    </plurals>
+    <plurals name="watched_stories">
+        <item quantity="one">1 História vista</item>
+        <item quantity="other">%d Histórias vistas</item>
+    </plurals>
+    <plurals name="weeks">
+        <item quantity="one">%d semana</item>
+        <item quantity="other">%d semanas</item>
+    </plurals>
+    <plurals name="weeks_abbreviated">
+        <item quantity="one">%d sem</item>
+        <item quantity="other">%d sem</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated">
+        <item quantity="one">Há %d sem</item>
+        <item quantity="other">Há %d sem</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_camera_roll">
+        <item quantity="one">Há %1$d sem do Rolo da Câmara</item>
+        <item quantity="other">Há %1$d sem do Rolo da Câmara</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_chat">
+        <item quantity="one">Há %1$d sem a partir do Chat</item>
+        <item quantity="other">Há %1$d sem a partir do Chat</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_cheerios">
+        <item quantity="one">Há %1$d sem do Pixy</item>
+        <item quantity="other">Há %1$d sem do Pixy</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_creative_kit">
+        <item quantity="one">Há %1$d sem de %2$s</item>
+        <item quantity="other">Há %1$d sem de %2$s</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_memories">
+        <item quantity="one">Há %1$d sem das Memórias</item>
+        <item quantity="other">Há %1$d sem das Memórias</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_spectacles">
+        <item quantity="one">Há %1$d sem dos Spectacles</item>
+        <item quantity="other">Há %1$d sem dos Spectacles</item>
+    </plurals>
+    <plurals name="weeks_ago_update">
+        <item quantity="one">Atualizado há %1$s semana</item>
+        <item quantity="other">Atualizado há %1$s semanas</item>
+    </plurals>
+    <plurals name="years_abbreviated">
+        <item quantity="one">%d ano</item>
+        <item quantity="other">%d anos</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated">
+        <item quantity="one">Há %d ano</item>
+        <item quantity="other">Há %d anos</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_camera_roll">
+        <item quantity="one">Há %1$d ano do Rolo da Câmara</item>
+        <item quantity="other">Há %1$d anos do Rolo da Câmara</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_chat">
+        <item quantity="one">Há %1$d ano a partir do Chat</item>
+        <item quantity="other">Há %1$d anos a partir do Chat</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_cheerios">
+        <item quantity="one">Há %1$d ano do Pixy</item>
+        <item quantity="other">Há %1$d anos do Pixy</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_creative_kit">
+        <item quantity="one">Há %1$d ano de %2$s</item>
+        <item quantity="other">Há %1$d anos de %2$s</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_memories">
+        <item quantity="one">Há %1$d ano das Memórias</item>
+        <item quantity="other">Há %1$d anos das Memórias</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_spectacles">
+        <item quantity="one">Há %1$d ano dos Spectacles</item>
+        <item quantity="other">Há %1$d anos dos Spectacles</item>
+    </plurals>
+    <plurals name="years_ago_update">
+        <item quantity="one">Atualizado há %1$s ano</item>
+        <item quantity="other">Atualizado há %1$s anos</item>
+    </plurals>
+</resources>

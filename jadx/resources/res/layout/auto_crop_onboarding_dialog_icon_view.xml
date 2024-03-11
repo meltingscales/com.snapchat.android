@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/svg_auto_crop_onboarding_dialog_icon" android:layout_width="@dimen/auto_crop_onboarding_dialog_icon_size" android:layout_height="@dimen/auto_crop_onboarding_dialog_icon_size"/>

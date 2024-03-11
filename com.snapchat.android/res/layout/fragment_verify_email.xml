@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.identity.loginsignup.ui.shared.BasicLoginSignupLayout android:orientation="vertical" android:id="@id/verify_email" android:background="?sigColorBackgroundMain" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent" custom:buttonText="@string/login_verify_email_send_code"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <com.snap.ui.view.SnapFontTextView android:id="@id/email_title" android:paddingTop="60.0dip" android:paddingBottom="60.0dip" android:text="@string/login_verify_email_title" style="@style/LoginSignupPageTitle" />
+    <com.snap.ui.view.SnapFontEditText android:id="@id/email_field" android:layout_width="fill_parent" android:layout_height="@dimen/ui_element_unit" android:layout_marginTop="@dimen/default_gap" android:hint="you@email.com" android:maxLines="1" android:inputType="textEmailAddress" style="@style/NgoIdentityField" />
+    <com.snap.ui.view.SnapFontTextView android:id="@id/email_error_message" android:paddingTop="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/IdentityFieldError" />
+</com.snap.identity.loginsignup.ui.shared.BasicLoginSignupLayout>

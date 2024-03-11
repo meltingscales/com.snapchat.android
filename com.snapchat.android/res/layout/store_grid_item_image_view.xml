@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/store_grid_item_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/store_grid_background_view_margin" />
+    <com.snap.imageloading.view.SnapImageView android:id="@id/store_grid_item_image" android:layout_width="fill_parent" android:layout_height="@dimen/store_image_height" android:scaleType="fitCenter" />
+    <com.snap.imageloading.view.SnapImageView android:id="@id/store_grid_item_bitmoji_image" android:layout_width="0.0dip" android:layout_height="0.0dip" android:scaleType="fitCenter" />
+</FrameLayout>

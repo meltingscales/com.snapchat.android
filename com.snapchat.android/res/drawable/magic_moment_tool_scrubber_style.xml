@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape>
+            <solid android:color="@color/sig_color_flat_pure_white_any_alpha_40" />
+            <size android:height="@dimen/magic_moment_tool_scrubber_bar_height" android:width="@dimen/magic_moment_tool_scrubber_bar_height" />
+            <corners android:radius="@dimen/magic_moment_tool_scrubber_bar_radius" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.snap.component.cells.SnapUserCellView android:id="@id/send_to_user_start" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/default_gap_half" app:layout_constraintEnd_toStartOf="@id/send_to_user_end" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/SendToCell.BestFriend" />
+    <com.snap.component.cells.SnapUserCellView android:id="@id/send_to_user_end" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/send_to_user_start" app:layout_constraintTop_toTopOf="parent" style="@style/SendToCell.BestFriend" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="top" android:orientation="vertical" android:id="@id/onboarding_view" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.viewpager.widget.ViewPager android:id="@id/onboarding_view_pager" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="0.0dip" />
+    <ImageView android:layout_gravity="start|center|top" android:id="@id/onboarding_back_arrow" android:padding="@dimen/default_gap" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginTop="@dimen/default_gap_3x" android:src="@drawable/svg_left_arrow_32x32" android:layout_marginStart="@dimen/default_gap" />
+</FrameLayout>

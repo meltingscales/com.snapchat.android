@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.component.cards.SnapCardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content" app:cardCornerRadius="@dimen/creator_tile_card_radius" app:contentPadding="@dimen/creator_tile_content_padding">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/creator_holder" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@+id/avatar_container" android:layout_width="@dimen/creator_avatar_size" android:layout_height="@dimen/creator_avatar_size" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+            <ViewStub android:id="@+id/explorer_avatar_view_stub" android:inflatedId="@+id/explorer_avatar_view" android:layout_width="@dimen/creator_avatar_size" android:layout_height="@dimen/creator_avatar_size" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+            <com.snap.lenses.common.RoundedImageView android:id="@+id/profile_avatar_view" android:layout_width="@dimen/creator_avatar_size" android:layout_height="@dimen/creator_avatar_size" android:scaleType="centerCrop" app:shapeClipMode="circle"/>
+        </FrameLayout>
+        <com.snap.ui.view.SnapFontTextView android:id="@+id/creator_full_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableEnd="@drawable/creator_star" android:layout_marginStart="@dimen/creator_tile_content_padding" app:layout_constraintStart_toEndOf="@+id/avatar_container" app:layout_constraintTop_toTopOf="@+id/avatar_container" app:scFontWeight="2" style="@style/SingleLineText.Body"/>
+        <com.snap.ui.view.SnapFontTextView android:id="@+id/creator_user_name" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="@+id/avatar_container" app:layout_constraintStart_toStartOf="@+id/creator_full_name" app:layout_constraintTop_toBottomOf="@+id/creator_full_name" style="@style/SingleLineText.CaptionEmphasis.Secondary"/>
+        <com.snap.ui.view.RoundedCornerFrameLayout android:id="@+id/creator_content_container" android:layout_width="0dp" android:layout_height="0dp" android:layout_marginTop="@dimen/creator_tile_content_padding" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/avatar_container">
+            <com.snap.lenses.common.RoundedImageView android:id="@+id/creator_single_lens_preview" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/creator_created_lenses_container" android:layout_width="match_parent" android:layout_height="match_parent" android:baselineAligned="false" android:weightSum="3">
+                <include android:id="@+id/creator_lens_preview_1" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" layout="@layout/lenses_explorer_feed_creator_lens_view"/>
+                <include android:id="@+id/creator_lens_preview_2" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" layout="@layout/lenses_explorer_feed_creator_lens_view"/>
+                <include android:id="@+id/creator_lens_preview_3" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" layout="@layout/lenses_explorer_feed_creator_lens_view"/>
+            </LinearLayout>
+        </com.snap.ui.view.RoundedCornerFrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.snap.component.cards.SnapCardView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.lenses.explorer.DefaultLensExplorerView xmlns:android="http://schemas.android.com/apk/res/android" android:theme="@style/LensExplorerTheme" android:id="@+id/lenses_explorer_view" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.snap.lenses.explorer.categories.DefaultCategoriesView android:orientation="vertical" android:id="@+id/lenses_explorer_categories_view" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ViewStub android:id="@+id/lenses_explorer_header_view_stub" android:inflatedId="@+id/lenses_explorer_header_view" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <com.snap.lenses.explorer.common.NestedRecyclerView android:id="@+id/lenses_explorer_sections_pager_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <ViewStub android:id="@+id/lenses_explorer_categories_error_view_stub" android:layout="@layout/lenses_explorer_categories_error_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </com.snap.lenses.explorer.categories.DefaultCategoriesView>
+    <com.snap.ui.view.LoadingSpinnerView android:layout_gravity="center" android:id="@+id/lenses_explorer_loading_spinner" android:visibility="gone" android:layout_width="@dimen/lens_explorer_loading_spinner_size" android:layout_height="@dimen/lens_explorer_loading_spinner_size"/>
+    <ViewStub android:layout_gravity="bottom|center_horizontal" android:id="@+id/lenses_explorer_cta_view_stub" android:inflatedId="@+id/lenses_explorer_cta_view" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</com.snap.lenses.explorer.DefaultLensExplorerView>

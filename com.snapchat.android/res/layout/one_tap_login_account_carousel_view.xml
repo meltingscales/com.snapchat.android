@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.identity.loginsignup.ui.pages.onetaplogin.DefaultAccountCarouselView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.snap.identity.loginsignup.ui.pages.onetaplogin.AccountCarouselListView android:id="@id/account_carousel_view" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/account_login_button" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.snap.component.button.SnapButtonView android:enabled="false" android:id="@id/account_login_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/default_gap_2x" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:button_style="large_button_rectangle_blue" app:button_text="@string/log_in_button_text" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+</com.snap.identity.loginsignup.ui.pages.onetaplogin.DefaultAccountCarouselView>

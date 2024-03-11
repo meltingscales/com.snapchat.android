@@ -1,0 +1,38 @@
+package defpackage;
+
+/* renamed from: FWe  reason: default package */
+/* loaded from: classes8.dex */
+public enum FWe implements I58 {
+    UNKNOWN(0),
+    USER_EXIT(1),
+    PAGE_LOADING(2),
+    PAGE_LOADED(3),
+    IOS_PLAYBACK_SEEK_TO_TIME(4),
+    IOS_PLAYBACK_TIME_CHANGED(5),
+    IOS_TIMECONTROLSTATUS_CHANGED(6),
+    IOS_PLAYERSTATE_CHANGED(7),
+    IOS_BUFFERSTATE_CHANGED(8),
+    IOS_PLAYERRATE_CHANGED(9),
+    IOS_PLAYERITEMSTATUS_CHANGED(10),
+    IOS_PLAYERBUFFERSTATUS_CHANGED(11),
+    ANDROID_VIDEO_SPINNER_LAYER_PREPARE(12),
+    ANDROID_START_PLAYBACK_REQUESTED(13),
+    ANDROID_START_MEDIA_BUFFERING(14),
+    ANDROID_VIDEO_SPINNER_LAYER_STOP(15),
+    ANDROID_VIDEO_SPINNER_LAYER_DESTROY(16),
+    ANDROID_MEDIA_BUFFERING_DONE(17),
+    ANDROID_LOADING_SPINNER_ON_PREPARE(18),
+    ANDROID_LOADING_SPINNER_ON_START(19),
+    ANDROID_LOADING_SPINNER_REQUEST_HIDE(20);
+    
+    public final int a;
+
+    FWe(int i) {
+        this.a = i;
+    }
+
+    @Override // defpackage.I58
+    public final int a() {
+        return this.a;
+    }
+}

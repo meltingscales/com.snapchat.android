@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.ui.view.SnapFontTextView xmlns:android="http://schemas.android.com/apk/res/android" android:textSize="?attr/v11Title1TextSize" android:textColor="@color/sig_color_flat_pure_white_any" android:gravity="top|center_horizontal" android:id="@+id/story_share_message_unavailable" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/chat_story_share_media_message_top_margin" android:text="@string/chat_story_snap_unavailable"/>

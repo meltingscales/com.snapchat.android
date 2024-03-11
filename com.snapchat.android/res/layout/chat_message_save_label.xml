@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.ui.view.SnapFontTextView android:textColor="@color/sig_color_base_gray60_any" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/chat_message_save_label" android:visibility="gone" android:layout_width="@dimen/chat_saved_state_width" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="@dimen/chat_saved_state_margin_left"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

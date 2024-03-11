@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.ui.view.RoundedCornerAspectRatioFrameLayout android:id="@id/story_editor_add_snap_grid_container" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" app:aspect_ratio="match_display"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:background="@color/sig_color_base_gray20_any" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.snap.ui.view.SnapFontTextView android:id="@id/story_editor_add_snap_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="@string/memories_story_editor_add_snap" android:textAlignment="center" app:layout_constraintBottom_toTopOf="@id/story_editor_add_snap_icon_view" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_chainStyle="packed" style="@style/TextAppearance.Heading4" />
+        <com.snap.imageloading.view.SnapImageView android:id="@id/story_editor_add_snap_icon_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/svg_memories_story_editor_add_snap" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/story_editor_add_snap_text_view" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.snap.ui.view.RoundedCornerAspectRatioFrameLayout>

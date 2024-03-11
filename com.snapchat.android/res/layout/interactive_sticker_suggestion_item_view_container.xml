@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/interactive_sticker_suggestion_item_view_container" android:layout_width="wrap_content" android:layout_height="@dimen/tagging_carousel_avatar_view_size_v25" style="@style/CarouselItemViewContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="bottom|center" android:id="@id/sticker_suggestion_icon" android:layout_width="@dimen/caption_floating_tag_button_size" android:layout_height="@dimen/caption_floating_tag_button_size" android:layout_marginBottom="@dimen/single_dp" />
+    <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toEndOf="@id/sticker_suggestion_icon" layout="@layout/carousel_item_text_container" />
+</RelativeLayout>

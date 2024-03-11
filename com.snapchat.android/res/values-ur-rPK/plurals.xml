@@ -1,0 +1,1043 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="action_menu_camera_select">
+        <item quantity="other">%d آئٹمز منتخب کیے گئے</item>
+        <item quantity="one">%d آئٹم منتخب کیا گیا</item>
+    </plurals>
+    <plurals name="action_menu_hide_long">
+        <item quantity="other">Snaps کو چھپائیں (صرف میرے لیے)</item>
+        <item quantity="one">@string/memories_opera_action_menu_hide</item>
+    </plurals>
+    <plurals name="action_menu_mute_for_hours">
+        <item quantity="other">%d گھنٹے کیلئے</item>
+        <item quantity="one">%d گھنٹے کیلئے</item>
+    </plurals>
+    <plurals name="action_menu_snap_select">
+        <item quantity="other">%d Snaps منتخب کی گئیں</item>
+        <item quantity="one">%d Snap منتخب ہوئی ہے</item>
+    </plurals>
+    <plurals name="action_menu_unhide_long">
+        <item quantity="other">Snaps کو دکھائیں</item>
+        <item quantity="one">@string/memories_opera_action_menu_unhide</item>
+    </plurals>
+    <plurals name="active_indicator_explainer_active_hour">
+        <item quantity="other">%d گھنٹے!</item>
+        <item quantity="one">%d گھنٹہ!</item>
+    </plurals>
+    <plurals name="activity_indicator_explainer_active_friend_count">
+        <item quantity="other">%d دوست</item>
+        <item quantity="one">%d دوست</item>
+    </plurals>
+    <plurals name="add_friend_badge_request_tips">
+        <item quantity="other">⁦%1$s⁩ نئے دوستوں کے ایڈز</item>
+        <item quantity="one">⁦%1$s⁩ نئے دوست کو ایڈ کریں</item>
+    </plurals>
+    <plurals name="add_friend_badge_suggestion_tips">
+        <item quantity="other">⁦%1$s⁩ نئی دوستی کیلئے تجاویز</item>
+        <item quantity="one">⁦%1$s⁩ نئی دوستی کیلئے تجویز</item>
+    </plurals>
+    <plurals name="add_friends_button_subtext">
+        <item quantity="other">⁦%1$s⁩ سنیپ چیٹرز نے آپ کو ایڈ کیا!</item>
+        <item quantity="one">⁦%1$s⁩ سنیپ چیٹر نے آپ کو ایڈ کیا!</item>
+    </plurals>
+    <plurals name="add_friends_button_suggestion_subtext">
+        <item quantity="other">⁦%1$s⁩ دوستی کیلئے تجاویز</item>
+        <item quantity="one">⁦%1$s⁩ دوستی کی تجویز!</item>
+    </plurals>
+    <plurals name="batch_capture_save_as_x_snaps">
+        <item quantity="other">بطور ⁦%1$d⁩ Snaps محفوظ کریں</item>
+        <item quantity="one">بطور ⁦%1$d⁩ Snap محفوظ کریں</item>
+    </plurals>
+    <plurals name="bottom_button_text">
+        <item quantity="other">+ %d دوست ایڈ کریں</item>
+        <item quantity="one">+ %d دوست ایڈ کریں</item>
+    </plurals>
+    <plurals name="camera_mode_batch_capture_limit_reached_description_with_count">
+        <item quantity="other">Multi-Snap بیک وقت ⁦%1$d⁩ تک Snaps لے سکتی ہے!</item>
+        <item quantity="one">Multi-Snap بیک وقت ⁦%1$d⁩ تک Snaps لے سکتی ہے!</item>
+    </plurals>
+    <plurals name="camera_mode_disable_batch_capture_description">
+        <item quantity="other">کیا آپ واقعی Multi-Snap کو غیرفعال کرنا چاہتے ہیں؟ آپ کی ⁦%1$d⁩ غیر محفوظ شدہ Snaps ضائع ہو جائیں گی۔</item>
+        <item quantity="one">کیا آپ واقعی Multi-Snap کو غیرفعال کرنا چاہتے ہیں؟ آپ کی غیر محفوظ شدہ Snap ضائع ہو جائے گی۔</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_image_sharer_you_not">
+        <item quantity="other">%1$s اور %2$s نے %3$d سے آنے والی %4$s ویڈیوز محفوظ کر لیں</item>
+        <item quantity="one">%1$s اور %2$s نے %4$s سے آنے والی تصویر محفوظ کر لی</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_image_sharer_you_yes">
+        <item quantity="other">%1$s اور %2$s نے آپ کی مرسلہ %3$d تصویریں محفوظ کر لیں</item>
+        <item quantity="one">%1$s اور %2$s نے آپ کی تصویر محفوظ کر لی</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_item_sharer_you_not">
+        <item quantity="other">%1$s اور %2$s نے %3$d سے آنے والے %4$s آئٹمز محفوظ کر لیے</item>
+        <item quantity="one">%1$s اور %2$s نے %4$s سے آنے والے ایک آئٹم کو محفوظ کر لیا</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_item_sharer_you_yes">
+        <item quantity="other">%1$s اور %2$s نے آپ کے بھیجے ہوئے %3$d آئٹمز محفوظ کر لیے</item>
+        <item quantity="one">%1$s اور %2$s نے آپ کا آئٹم محفوظ کر لیا</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_video_sharer_you_not">
+        <item quantity="other">%1$s اور %2$s نے %4$s سے آنے والی %3$d ویڈیوز محفوظ کر لیں</item>
+        <item quantity="one">%1$s اور %2$s نے %4$s سے آنے والی ایک ویڈیو محفوظ کر لی</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_video_sharer_you_yes">
+        <item quantity="other">%1$s اور %2$s نے آپ کی بھیجی ہوئی %3$d ویڈیوز محفوظ کر لیں</item>
+        <item quantity="one">%1$s اور %2$s نے آپ کی ویڈیو کو محفوظ کر لیا</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_yes_media_image_sharer_you_not">
+        <item quantity="other">آپ اور %1$s نے %3$s سے آنے والی %2$d تصویریں محفوظ کر لیں</item>
+        <item quantity="one">آپ اور %1$s نے %3$s سے آنے والی تصویر محفوظ کر لی</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_yes_media_item_sharer_you_not">
+        <item quantity="other">آپ اور %1$s نے %3$s سے آنے والے %2$d آئٹمز محفوظ کیے</item>
+        <item quantity="one">آپ اور %1$s نے %3$s سے آنے والا ایک آئٹم محفوظ کر لیا</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_yes_media_video_sharer_you_not">
+        <item quantity="other">آپ اور %1$s نے %2$d سے %3$s آنے والی ویڈیوز محفوظ کیں</item>
+        <item quantity="one">آپ اور %1$s نے %3$s سے آنے والی ایک ویڈیو محفوظ کر لی</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_image_sharer_you_not">
+        <item quantity="other">%1$s اور %2$s نے %4$s سے موصول ہونے والی %3$d تصاویر محفوظ کر لی ہیں</item>
+        <item quantity="one">%1$s اور %2$s نے %4$s سے موصول ہونے والی تصویر محفوظ کر لی ہے</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_image_sharer_you_yes">
+        <item quantity="other">%1$s اور %2$s نے آپ کی بھیجی ہوئی %3$d تصاویر محفوظ کر لی ہیں</item>
+        <item quantity="one">%1$s اور %2$s نے آپ کی تصویر محفوظ کر لی ہے</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_item__sharer_you_not">
+        <item quantity="other">%1$s اور %2$s نے %4$s سے موصول ہونے والے %3$d آئٹمز محفوظ کر لیے ہیں</item>
+        <item quantity="one">%1$s اور %2$s نے %4$s سے موصول ہونے والے ایک آئٹم کو محفوظ کر لیا ہے</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_item__sharer_you_yes">
+        <item quantity="other">%1$s اور %2$s نے آپ کے بھیجے ہوئے %3$d آئٹمز محفوظ کر لیے ہیں</item>
+        <item quantity="one">%1$s اور %2$s نے آپ کا آئٹم محفوظ کر لیا ہے</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_video_sharer_you_not">
+        <item quantity="other">%1$s اور %2$s نے %4$s سے موصول ہونے والی %3$d ویڈیوز محفوظ کر لی ہیں</item>
+        <item quantity="one">%1$s اور %2$s نے %4$s سے موصول ہونے والی ویڈیو محفوظ کر لی ہے</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_video_sharer_you_yes">
+        <item quantity="other">%1$s اور %2$s نے آپ کی بھیجی ہوئی %3$d ویڈیوز محفوظ کر لی ہیں</item>
+        <item quantity="one">%1$s اور %2$s نے آپ کی ویڈیو محفوظ کر لی ہے</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_yes_media_image_sharer_you_not">
+        <item quantity="other">آپ نے، %1$s نے، اور %2$s نے %4$s سے آنے والی %3$d تصویریں محفوظ کر لیں</item>
+        <item quantity="one">آپ نے، %1$s نے، اور %2$s نے %4$s سے موصول ہونے والی تصویر محفوظ کر لی ہے</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_yes_media_item_sharer_you_not">
+        <item quantity="other">آپ نے، %1$s نے، اور %2$s نے %4$s سے موصول ہونے والے %3$d آئٹمز محفوظ کر لیے ہیں</item>
+        <item quantity="one">آپ نے، %1$s نے، اور %2$s نے %4$s سے آنے والے ایک آئٹم کو محفوظ کر لیا</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_yes_media_video_sharer_you_not">
+        <item quantity="other">آپ نے، %1$s نے، اور %2$s نے %4$s سے آنے والی %3$d ویڈیوز محفوظ کر لیں</item>
+        <item quantity="one">آپ نے، %1$s نے، اور %2$s نے %4$s سے آنے والی ویڈیو محفوظ کر لی</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_image_sharer_you_not">
+        <item quantity="other">%1$s نے %3$s سے آنے والی %2$d تصویریں محفوظ کر لیں</item>
+        <item quantity="one">%1$s نے %3$s سے آنے والی تصویر محفوظ کر لی</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_image_sharer_you_yes">
+        <item quantity="other">%1$s نے آپ کی بھیجی ہوئی %2$d تصویریں محفوظ کر لیں</item>
+        <item quantity="one">%1$s نے آپ کی تصویر محفوظ کر لی</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_item_sharer_you_not">
+        <item quantity="other">%1$s نے %3$s سے آنے والے %2$d آئٹمز محفوظ کر لیے</item>
+        <item quantity="one">%1$s نے %3$s سے آنے والے ایک آئٹم کو محفوظ کر لیا</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_item_sharer_you_yes">
+        <item quantity="other">%1$s نے آپ کے بھیجے ہوئے %2$d آئٹمز محفوظ کر لیے</item>
+        <item quantity="one">%1$s نے آپ کا آئٹم محفوظ کر لیا</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_video_sharer_you_not">
+        <item quantity="other">%1$s نے %3$s سے آنے والی %2$d ویڈیوز محفوظ کر لیں</item>
+        <item quantity="one">%1$s نے %3$s سے آنے والی ویڈیو محفوظ کر لی</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_video_sharer_you_yes">
+        <item quantity="other">%1$s نے آپ کی بھیجی ہوئی %2$d ویڈیوز محفوظ کر لیں</item>
+        <item quantity="one">%1$s نے آپ کی ویڈیو محفوظ کر لی ہے</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_yes_media_image_sharer_you_not">
+        <item quantity="other">آپ نے %2$s سے آنے والی %1$d تصویریں محفوظ کر لیں</item>
+        <item quantity="one">آپ نے %2$s سے آنے والی ایک تصویر محفوظ کر لی</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_yes_media_item__sharer_you_not">
+        <item quantity="other">آپ نے %2$s سے آنے والے %1$d آئٹمز محفوظ کر لیے</item>
+        <item quantity="one">آپ نے %2$s سے آنے والا ایک آئٹم محفوظ کر لیا</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_yes_media_video_sharer_you_not">
+        <item quantity="other">آپ نے %2$s سے آنے والی %1$d ویڈیوز محفوظ کر لیں</item>
+        <item quantity="one">آپ نے %2$s سے آنے والی ایک ویڈیو محفوظ کر لی</item>
+    </plurals>
+    <plurals name="cannot_add_custom_story_snap_recipients">
+        <item quantity="other">آپ ایک وقت میں محض ⁦%1$d⁩ اپنی کسٹم کہانیاں شامل کر سکتے ہیں</item>
+        <item quantity="one">آپ ایک وقت میں محض ⁦%1$d⁩ اپنی کسٹم کہانی شامل کر سکتے ہیں</item>
+    </plurals>
+    <plurals name="capture_settings_distance_value_text_feet">
+        <item quantity="other">⁦%1$d⁩ فٹ</item>
+        <item quantity="one">⁦%1$d⁩ فٹ</item>
+    </plurals>
+    <plurals name="capture_settings_duration_value_text_orbits">
+        <item quantity="other">⁦%1$d⁩ مدار</item>
+        <item quantity="one">1 مدار</item>
+    </plurals>
+    <plurals name="chat_header_gifting_birthday_upsell">
+        <item quantity="other">⁦%2$d⁩ دن بعد ⁦%1$s⁩ کی سالگرہ ہے 🎂۔ انہیں Snapchat+‎ گفٹ کریں</item>
+        <item quantity="one">کل ⁦%1$s⁩ کی سالگرہ ہے 🎂۔ انہیں Snapchat+‎ گفٹ کریں</item>
+    </plurals>
+    <plurals name="cheerios_clean_unpair_cheerios_body">
+        <item quantity="other">آپ کی Pixy پر ⁦%1$d⁩ Snaps ہیں۔ کیا آپ ڈیوائس ری سیٹ کر کے سبھی Snaps اور یوزر ڈیٹا کو ڈیلیٹ بھی کرنا چاہتے ہیں؟</item>
+        <item quantity="one">آپ کی Pixy پر ایک Snap ہے۔ کیا آپ ڈیوائس ری سیٹ کر کے سبھی Snaps اور یوزر ڈیٹا کو ڈیلیٹ بھی کرنا چاہتے ہیں؟</item>
+    </plurals>
+    <plurals name="cheerios_confirm_delete_body">
+        <item quantity="other">اگر آپ ان Snaps کو ڈیلیٹ کریں گے تو یہ آپ کی Cheerio ڈیوائس سے ہٹ جائیں گی۔</item>
+        <item quantity="one">اگر آپ اس Snap کو ڈیلیٹ کریں گے تو یہ آپ کی Cheerio ڈیوائس سے ہٹ جائے گی۔</item>
+    </plurals>
+    <plurals name="cheerios_deleted">
+        <item quantity="other">%d Snaps ڈیلیٹ ہوئی ہیں</item>
+        <item quantity="one">Snap ڈیلیٹ ہوگئی ہے</item>
+    </plurals>
+    <plurals name="cheerios_deleting">
+        <item quantity="other">%d Snaps ڈیلیٹ ہو رہی ہیں…</item>
+        <item quantity="one">1 Snap ڈیلیٹ ہو رہی ہے…</item>
+    </plurals>
+    <plurals name="cheerios_memories_tooltip">
+        <item quantity="other">%d نئی Snaps</item>
+        <item quantity="one">1 نئی Snap</item>
+    </plurals>
+    <plurals name="cheerios_new_snap_to_import">
+        <item quantity="other">%d نئی Snaps ہیں۔ درآمد کرنے کیلئے ٹیپ کریں۔</item>
+        <item quantity="one">1 نئی Snap ہے۔ درآمد کرنے کیلئے ٹیپ کریں۔</item>
+    </plurals>
+    <plurals name="cheerios_status_transfer_complete_title">
+        <item quantity="other">%d Snaps درآمد کی گئی ہیں!</item>
+        <item quantity="one">%d Snap درآمد ہوگئی!</item>
+    </plurals>
+    <plurals name="cheerios_status_transferring_title">
+        <item quantity="other">%d Snaps درآمد ہو رہی ہیں…</item>
+        <item quantity="one">%d Snap درآمد ہو رہی ہے…</item>
+    </plurals>
+    <plurals name="cluster_seven_or_more">
+        <item quantity="other">%1$s، %2$s، %3$s، %4$s، ⁦%5$s⁩ اور ⁦%6$d⁩ مزید</item>
+        <item quantity="one">%1$s، %2$s، %3$s، %4$s، ⁦%5$s⁩ اور ⁦%6$d⁩ مزید</item>
+    </plurals>
+    <plurals name="cluster_seven_or_more_me">
+        <item quantity="other">%1$s، %2$s، %3$s، ⁦%4$s⁩، میں اور ⁦%5$d⁩ مزید</item>
+        <item quantity="one">%1$s، %2$s، %3$s، ⁦%4$s⁩، میں اور ⁦%5$d⁩ مزید</item>
+    </plurals>
+    <plurals name="cluster_three_or_more">
+        <item quantity="other">⁦%1$s⁩ اور ⁦%2$d⁩ مزید</item>
+        <item quantity="one">⁦%1$s⁩ اور ⁦%2$d⁩ مزید</item>
+    </plurals>
+    <plurals name="cluster_three_or_more_me">
+        <item quantity="other">میں اور ⁦%1$d⁩ مزید</item>
+        <item quantity="one">میں اور ⁦%1$d⁩ مزید</item>
+    </plurals>
+    <plurals name="cognac_active_playing_game_text_multiple_player">
+        <item quantity="other">%1$s، %2$s + %3$d مزید کھیل رہے ہیں</item>
+        <item quantity="one">%1$s، %2$s + %3$d مزید کھیل رہے ہیں</item>
+    </plurals>
+    <plurals name="cognac_active_playing_game_text_multiple_player_shortened">
+        <item quantity="other">%1$s + %2$d مزید کھیل رہے ہیں</item>
+        <item quantity="one">%1$s + %2$d مزید کھیل رہے ہیں</item>
+    </plurals>
+    <plurals name="cognac_active_using_cypress_text_multiple_player">
+        <item quantity="other">%1$s، %2$s + %3$d مزید فعال ہیں</item>
+        <item quantity="one">%1$s، %2$s + %3$d مزید فعال ہیں</item>
+    </plurals>
+    <plurals name="cognac_active_using_cypress_text_multiple_player_shortened">
+        <item quantity="other">%1$s + %2$d مزید فعال ہیں</item>
+        <item quantity="one">%1$s + %2$d مزید فعال ہیں</item>
+    </plurals>
+    <plurals name="cognac_app_profile_multiple_player_text">
+        <item quantity="other">%1$s - %2$d پلیئرز کی معاونت کرتی ہے</item>
+        <item quantity="one">%1$s - %2$d پلیئرز کی معاونت کرتی ہے</item>
+    </plurals>
+    <plurals name="cognac_close_status_message_multiple_player_second_person">
+        <item quantity="other">آپ، %1$s اور %2$d مزید نے %3$s کھیلی</item>
+        <item quantity="one">آپ، %1$s اور %2$d مزید نے %3$s کھیلی</item>
+    </plurals>
+    <plurals name="cognac_close_status_message_multiple_player_third_person">
+        <item quantity="other">%1$s، %2$s اور مزید %3$d لوگوں نے %4$s کھیلا</item>
+        <item quantity="one">%1$s، %2$s اور مزید %3$d لوگوں نے %4$s کھیلا</item>
+    </plurals>
+    <plurals name="cognac_close_status_message_text_for_feed_multiple_player_third_person">
+        <item quantity="other">%1$s اور مزید %2$d نے %3$s کھیلا</item>
+        <item quantity="one">%1$s اور مزید %2$d نے %3$s کھیلا</item>
+    </plurals>
+    <plurals name="cognac_cypress_close_status_message_multiple_player_second_person">
+        <item quantity="other">آپ، %1$s اور %2$d مزید دیگر نے %3$s استعمال کیا</item>
+        <item quantity="one">آپ، %1$s اور %2$d مزید دیگر نے %3$s استعمال کیا</item>
+    </plurals>
+    <plurals name="cognac_cypress_close_status_message_multiple_player_third_person">
+        <item quantity="other">%1$s، %2$s اور %3$d مزید نے %4$s استعمال کیا</item>
+        <item quantity="one">%1$s، %2$s اور %3$d مزید نے %4$s استعمال کیا</item>
+    </plurals>
+    <plurals name="cognac_cypress_close_status_message_text_for_feed_multiple_player_third_person">
+        <item quantity="other">%1$s اور %2$d مزید نے %3$s استعمال کیا</item>
+        <item quantity="one">%1$s اور %2$d مزید نے %3$s استعمال کیا</item>
+    </plurals>
+    <plurals name="cognac_friend_picker_ringing_text_multiple_players">
+        <item quantity="other">%1$s اور دیگر %2$d کو کال جا رہی ہے۔۔۔</item>
+        <item quantity="one">%1$s اور دیگر %2$d کو کال جا رہی ہے۔۔۔</item>
+    </plurals>
+    <plurals name="comments_collapse_child_comments">
+        <item quantity="other">جوابات چھپائیں</item>
+        <item quantity="one">جواب چھپائیں</item>
+    </plurals>
+    <plurals name="comments_expand_child_comments">
+        <item quantity="other">%s جوابات دکھائیں</item>
+        <item quantity="one">1 جواب دکھائیں</item>
+    </plurals>
+    <plurals name="comments_header_with_live_comment_count">
+        <item quantity="other">%s تبصرے</item>
+        <item quantity="one">1 تبصرہ</item>
+    </plurals>
+    <plurals name="content_detail_new_count">
+        <item quantity="other">⁦%1$d⁩ نیا ہے</item>
+        <item quantity="one">⁦%1$d⁩ نیا ہے</item>
+    </plurals>
+    <plurals name="content_detail_seen_text">
+        <item quantity="other">⁦%1$d⁩ کو درآمد کرنا ہے</item>
+        <item quantity="one">⁦%1$d⁩ کو درآمد کرنا ہے</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="other">%d دن</item>
+        <item quantity="one">%d دن</item>
+    </plurals>
+    <plurals name="days_abbreviated">
+        <item quantity="other">%d دن</item>
+        <item quantity="one">%d دن</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated">
+        <item quantity="other">%dدن پہلے</item>
+        <item quantity="one">%dدن پہلے</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_camera_roll">
+        <item quantity="other">کیمرہ رول سے⁦%1$d⁩ دن پہلے</item>
+        <item quantity="one">کیمرہ رول سے⁦%1$d⁩ دن پہلے</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_chat">
+        <item quantity="other">چیٹ سے ⁦%1$d⁩ دن پہلے</item>
+        <item quantity="one">چیٹ سے ⁦%1$d⁩ دن پہلے</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_cheerios">
+        <item quantity="other">Pixy کی جانب سے ⁦%1$d⁩ دن پہلے</item>
+        <item quantity="one">Pixy کی جانب سے ⁦%1$d⁩ دن پہلے</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_creative_kit">
+        <item quantity="other">⁦%2$s⁩ سے ⁦%1$d⁩ دن پہلے</item>
+        <item quantity="one">⁦%2$s⁩ سے ⁦%1$d⁩ دن پہلے</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_memories">
+        <item quantity="other">یادوں سے ⁦%1$d⁩ دن پہلے</item>
+        <item quantity="one">یادوں سے ⁦%1$d⁩ دن پہلے</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_spectacles">
+        <item quantity="other">Spectacles سے ⁦%1$d⁩ دن پہلے</item>
+        <item quantity="one">Spectacles سے ⁦%1$d⁩ دن پہلے</item>
+    </plurals>
+    <plurals name="days_ago_update">
+        <item quantity="other">⁦%1$s⁩ دن پہلے اپ ڈیٹ ہوا</item>
+        <item quantity="one">⁦%1$s⁩ دن پہلے اپ ڈیٹ ہوا</item>
+    </plurals>
+    <plurals name="discard_batch_capture_description">
+        <item quantity="other">کیا آپ واقعی اپنی Multi-Snap کو ضائع کرنا چاہتے ہیں؟ آپ کی ⁦%1$d⁩ غیر محفوظ شدہ Snaps ضائع ہو جائیں گی۔</item>
+        <item quantity="one">کیا آپ واقعی اپنی Multi-Snap کو ضائع کرنا چاہتے ہیں؟ آپ کی غیر محفوظ شدہ Snap ضائع ہو جائے گی۔</item>
+    </plurals>
+    <plurals name="display_username_explanation_changed_username_too_recently">
+        <item quantity="other">"آپ نے اپنا یوزر نیم %1$s کو تبدیل کیا تھا۔
+آپ اسے دوبارہ %2$d دن بعد تبدیل کر سکتے ہیں۔"</item>
+        <item quantity="one">"آپ نے اپنا یوزر نیم %1$s کو تبدیل کیا تھا۔
+آپ اسے دوبارہ %2$d دن بعد تبدیل کر سکتے ہیں۔"</item>
+    </plurals>
+    <plurals name="failed_to_save_multiple_snaps">
+        <item quantity="other">snaps ⁦%1$d⁩ محفوظ کرنے میں ناکام رہے</item>
+        <item quantity="one">snap ⁦%1$d⁩ محفوظ کرنے میں ناکام رہے</item>
+    </plurals>
+    <plurals name="formatted_short_ft">
+        <item quantity="other">%d فٹ</item>
+        <item quantity="one">%d فٹ</item>
+    </plurals>
+    <plurals name="formatted_short_km">
+        <item quantity="other">%d کلو میٹر</item>
+        <item quantity="one">%d کلو میٹر</item>
+    </plurals>
+    <plurals name="formatted_short_m">
+        <item quantity="other">%d میٹر</item>
+        <item quantity="one">%d میٹر</item>
+    </plurals>
+    <plurals name="formatted_short_mile">
+        <item quantity="other">%d میل</item>
+        <item quantity="one">%d میل</item>
+    </plurals>
+    <plurals name="friending_progress_bar_secondary">
+        <item quantity="other">⁦%1$s⁩ مزید دوستی کی دعوتیں بھیجیں!</item>
+        <item quantity="one">⁦%1$s⁩ مزید فرینڈ ریکوئیسٹس بھیجیں!</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_description_items">
+        <item quantity="other">آپ کے آئٹمز کو صرف میرے لیے کے فولڈر میں کامیابی سے شامل کر دیا گیا۔ کیا آپ اصل کو اپنے کیمرہ رول سے ڈیلیٹ کرنا چاہیں گے؟</item>
+        <item quantity="one">آپ کے آئٹم کو کامیابی سے صرف میرے لیے کے فولڈر میں شامل کر دیا گیا۔ کیا آپ اصل کو اپنے کیمرہ رول سے ڈیلیٹ کرنا چاہیں گے؟</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_description_photos">
+        <item quantity="other">آپ کی تصویروں کو کامیابی سے صرف میرے لیے کے فولڈر میں شامل کر دیا گیا۔ کیا آپ اصل کو اپنے کیمرہ رول سے کو ڈیلیٹ کرنا چاہیں گے؟</item>
+        <item quantity="one">آپ کی تصویر کو کامیابی سے صرف میرے لیے کے فولڈر میں شامل کر دیا گیا۔ کیا آپ اصل کو اپنے کیمرہ رول سے ڈیلیٹ کرنا چاہیں گے؟</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_description_videos">
+        <item quantity="other">آپ کی ویڈیوز کو کامیابی سے صرف میرے لیے کے فولڈر میں شامل کر دیا گیا۔ کیا آپ اصل کو اپنے کیمرہ رول سے ڈیلیٹ کرنا چاہیں گے؟</item>
+        <item quantity="one">آپ کی ویڈیو کو کامیابی سے صرف میرے لیے کے فولڈر میں شامل کر دیا گیا۔ کیا آپ اصل کو اپنے کیمرہ رول سے ڈیلیٹ کرنا چاہیں گے؟</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_title">
+        <item quantity="other">اصل کو ڈیلیٹ کر دیں</item>
+        <item quantity="one">اصل کو ڈیلیٹ کر دیں</item>
+    </plurals>
+    <plurals name="gallery_private_rate_limit_minutes_time_out">
+        <item quantity="other">"
+ ⁦%1$d⁩ منٹ میں دوبارہ کوشش کریں۔"</item>
+        <item quantity="one">"
+⁦%1$d⁩ منٹ میں دوبارہ کوشش کریں۔"</item>
+    </plurals>
+    <plurals name="gauge_altitude_unit_feet">
+        <item quantity="other">%d فٹ</item>
+        <item quantity="one">%d فٹ</item>
+    </plurals>
+    <plurals name="gauge_altitude_unit_meters">
+        <item quantity="other">%d منٹ</item>
+        <item quantity="one">%d میٹر</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%d گھنٹے</item>
+        <item quantity="one">%d گھنٹہ</item>
+    </plurals>
+    <plurals name="hours_abbreviated">
+        <item quantity="other">%d گھنٹہ</item>
+        <item quantity="one">%d گھنٹہ</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%d گھنٹہ</item>
+        <item quantity="one">%d گھنٹہ</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated">
+        <item quantity="other">%d گھنٹے پہلے</item>
+        <item quantity="one">%d گھنٹے پہلے</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_camera_roll">
+        <item quantity="other">کیمرہ رول سے ⁦%1$d⁩ گھنٹے پہلے</item>
+        <item quantity="one">کیمرہ رول سے ⁦%1$d⁩ گھنٹے پہلے</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_chat">
+        <item quantity="other">چیٹ سے ⁦%1$d⁩ گھنٹہ پہلے</item>
+        <item quantity="one">چیٹ سے ⁦%1$d⁩ گھنٹہ پہلے</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_cheerios">
+        <item quantity="other">Pixy کی جانب سے ⁦%1$d⁩ گھنٹہ پہلے</item>
+        <item quantity="one">Pixy کی جانب سے ⁦%1$d⁩ گھنٹہ پہلے</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_creative_kit">
+        <item quantity="other">⁦%2$s⁩ سے ⁦%1$d⁩ گھنٹے پہلے</item>
+        <item quantity="one">⁦%2$s⁩ سے ⁦%1$d⁩ گھنٹے پہلے</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_memories">
+        <item quantity="other">یادوں سے ⁦%1$d⁩ گھنٹے پہلے</item>
+        <item quantity="one">یادوں سے ⁦%1$d⁩ گھنٹے پہلے</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_spectacles">
+        <item quantity="other">Spectacles سے ⁦%1$d⁩ گھنٹے پہلے</item>
+        <item quantity="one">Spectacles سے ⁦%1$d⁩ گھنٹے پہلے</item>
+    </plurals>
+    <plurals name="hours_ago_update">
+        <item quantity="other">⁦%1$s⁩ گھنٹے پہلے اپ ڈیٹ ہوا</item>
+        <item quantity="one">⁦%1$s⁩ گھنٹہ پہلے اپ ڈیٹ ہوا</item>
+    </plurals>
+    <plurals name="last_seen_here_hours">
+        <item quantity="other">آخری بار %d گھنٹہ پہلے یہاں دیکھا گیا</item>
+        <item quantity="one">آخری بار %d گھنٹہ پہلے یہاں دیکھا گیا</item>
+    </plurals>
+    <plurals name="last_seen_here_minutes">
+        <item quantity="other">آخری بار %d منٹ پہلے یہاں دیکھا گیا</item>
+        <item quantity="one">آخری بار %d منٹ پہلے یہاں دیکھا گیا</item>
+    </plurals>
+    <plurals name="live_location_chat_hours_remaining">
+        <item quantity="other">%d گھنٹے</item>
+        <item quantity="one">%dگھنٹہ</item>
+    </plurals>
+    <plurals name="live_location_description_existing_sessions">
+        <item quantity="other">آپ اس گروپ میں فی الحال موجود دوستوں کے ساتھ اپنی رئیل ٹائم لوکیشن شیئر کریں گے۔ %d دوست پہلے ہی آپ کی لائیو لوکیشن دیکھ سکتے ہیں۔</item>
+        <item quantity="one">آپ اس گروپ میں فی الحال موجود دوستوں کے ساتھ اپنی رئیل ٹائم لوکیشن شیئر کریں گے۔ %d دوست پہلے ہی آپ کی لائیو لوکیشن دیکھ سکتا ہے۔</item>
+    </plurals>
+    <plurals name="live_location_duration_hr">
+        <item quantity="other">%d گھنٹے</item>
+        <item quantity="one">%d گھنٹہ</item>
+    </plurals>
+    <plurals name="live_location_duration_min">
+        <item quantity="other">%d منٹ</item>
+        <item quantity="one">%d منٹ</item>
+    </plurals>
+    <plurals name="live_location_share_group_description">
+        <item quantity="other">آپ اس گروپ میں فی الحال موجود دوستوں کے ساتھ لائیو لوکیشن شیئر کریں گے۔ %d ممبرز کو آپ کی لوکیشن نہیں ملے گی کیونکہ آپ ان کے دوست نہیں ہیں۔</item>
+        <item quantity="one">آپ اس گروپ میں فی الحال موجود دوستوں کے ساتھ لائیو لوکیشن شیئر کریں گے۔ %d ممبر کو آپ کی لوکیشن نہیں ملے گی کیونکہ آپ ان کے دوست نہیں ہیں۔</item>
+    </plurals>
+    <plurals name="live_location_with_friends">
+        <item quantity="other">%d دوستوں کے ساتھ</item>
+        <item quantity="one">%d دوست کے ساتھ</item>
+    </plurals>
+    <plurals name="location_upsell_description_specific_friends_more_than_four">
+        <item quantity="other">آپ کے دوستوں میں سے ⁦%1$s⁩، %2$s، ⁦%3$s⁩ اور ⁦%4$d⁩ نقشے پر موجود ہیں!</item>
+        <item quantity="one">آپ کے دوستوں میں سے ⁦%1$s⁩، %2$s، ⁦%3$s⁩ اور ⁦%4$d⁩ نقشے پر موجود ہیں!</item>
+    </plurals>
+    <plurals name="locked_lens_friending_banner_countdown_timer_hours">
+        <item quantity="other">⁦%1$d⁩ گھنٹہ</item>
+        <item quantity="one">⁦%1$d⁩ گھنٹہ</item>
+    </plurals>
+    <plurals name="locked_lens_friending_banner_countdown_timer_minutes">
+        <item quantity="other">⁦%1$d⁩ منٹ</item>
+        <item quantity="one">⁦%1$d⁩ منٹ</item>
+    </plurals>
+    <plurals name="locked_lens_friending_banner_countdown_timer_seconds">
+        <item quantity="other">⁦%1$d⁩ سیکنڈ</item>
+        <item quantity="one">⁦%1$d⁩ سیکنڈ</item>
+    </plurals>
+    <plurals name="map_group_card_subtext_friend_sharing">
+        <item quantity="other">⁦%1$d⁩ دوست شیئر کر رہے ہیں</item>
+        <item quantity="one">⁦%1$d⁩ دوست شیئر کر رہا ہے</item>
+    </plurals>
+    <plurals name="map_passport_and_other">
+        <item quantity="other">اور %d دیگر</item>
+        <item quantity="one">اور %d دیگر</item>
+    </plurals>
+    <plurals name="map_passport_bucket_cities_title">
+        <item quantity="other">شہر</item>
+        <item quantity="one">شہر</item>
+    </plurals>
+    <plurals name="map_passport_bucket_countries_title">
+        <item quantity="other">ممالک</item>
+        <item quantity="one">ملک</item>
+    </plurals>
+    <plurals name="map_passport_bucket_places_title">
+        <item quantity="other">جگہیں</item>
+        <item quantity="one">جگہ</item>
+    </plurals>
+    <plurals name="map_widget_days_ago">
+        <item quantity="other">%d دن</item>
+        <item quantity="one">%d دن</item>
+    </plurals>
+    <plurals name="media_export_service_batch_export_failure">
+        <item quantity="other">⁦%2$d⁩ میں سے ⁦%1$d⁩ Snaps برآمد ہوگئی ہیں۔ ⁦%3$d⁩ Snaps ناکام ہوگئی ہے۔</item>
+        <item quantity="one">⁦%2$d⁩ میں سے ⁦%1$d⁩ Snap برآمد ہوگئی ہے۔ ⁦%3$d⁩ Snap ناکام ہوگئی ہے۔</item>
+    </plurals>
+    <plurals name="media_export_service_processing">
+        <item quantity="other">⁦%2$d⁩ میں سے ⁦%1$d⁩ Snap برآمد ہو رہی ہے…</item>
+        <item quantity="one">Snap برآمد ہو رہی ہے…</item>
+    </plurals>
+    <plurals name="media_export_service_success">
+        <item quantity="other">آپ کی Snaps برآمد ہو گئی ہیں!</item>
+        <item quantity="one">آپ کی Snap برآمد ہو گئی ہے!</item>
+    </plurals>
+    <plurals name="memories_camera_select_limit_error">
+        <item quantity="other">معذرت، ایک وقت میں صرف %d آئٹمز کو منتخب کیا جا سکتا ہے۔</item>
+        <item quantity="one">معذرت، ایک وقت میں صرف %d آئٹم کو منتخب کیا جا سکتا ہے۔</item>
+    </plurals>
+    <plurals name="memories_delete_camera_roll_image_body">
+        <item quantity="other">یہ تصاویر آپ کی ڈیوائس سے ڈیلیٹ کر دی جائیں گی</item>
+        <item quantity="one">یہ تصویر آپ کی ڈیوائس سے ڈیلیٹ کر دی جائے گی</item>
+    </plurals>
+    <plurals name="memories_delete_camera_roll_mixed_body">
+        <item quantity="other">یہ آئٹمز آپ کی ڈیوائس سے ڈیلیٹ کر دیئے جائیں گے</item>
+        <item quantity="one">یہ آئٹمز آپ کی ڈیوائس سے ڈیلیٹ کر دیئے جائیں گے</item>
+    </plurals>
+    <plurals name="memories_delete_camera_roll_video_body">
+        <item quantity="other">یہ ویڈیوز آپ کی ڈیوائس سے ڈیلیٹ کر دی جائیں گی</item>
+        <item quantity="one">یہ ویڈیو آپ کی ڈیوائس سے ڈیلیٹ کر دی جائے گی</item>
+    </plurals>
+    <plurals name="memories_delete_snap_body">
+        <item quantity="other">Snap ہٹا دیں؟</item>
+        <item quantity="one">Snap ہٹا دیں؟</item>
+    </plurals>
+    <plurals name="memories_delete_story_body">
+        <item quantity="other">کہانی کو ڈیلیٹ کر دیں؟</item>
+        <item quantity="one">کہانی کو ڈیلیٹ کر دیں؟</item>
+    </plurals>
+    <plurals name="memories_export_error">
+        <item quantity="other">Snaps برآمد نہیں کر سکتے!</item>
+        <item quantity="one">Snap برآمد نہیں کر سکتے!</item>
+    </plurals>
+    <plurals name="memories_favorite_snaps_story_added">
+        <item quantity="other">%d Snaps آپ کی پسندیدہ کہانی میں ایڈ ہوگئی ہیں</item>
+        <item quantity="one">Snap آپ کی پسندیدہ کہانی میں ایڈ ہوگئی ہے</item>
+    </plurals>
+    <plurals name="memories_favorite_snaps_story_removed">
+        <item quantity="other">%d Snaps آپ کی پسندیدہ کہانی سے ہٹ گئی ہیں</item>
+        <item quantity="one">Snap آپ کی پسندیدہ کہانی سے ہٹ گئی ہے</item>
+    </plurals>
+    <plurals name="memories_featured_story_flashback_diff_date_subtext">
+        <item quantity="other">⁦%1$d⁩ سال پہلے</item>
+        <item quantity="one">⁦%1$d⁩ سال پہلے</item>
+    </plurals>
+    <plurals name="memories_featured_story_flashback_same_date_subtext">
+        <item quantity="other">آج کے دن ⁦%1$d⁩ سال پہلے</item>
+        <item quantity="one">آج کے دن، ⁦%1$d⁩ سال پہلے</item>
+    </plurals>
+    <plurals name="memories_featured_story_trip_flashback_chat_prefill_snap">
+        <item quantity="other">%1$s، %2$d سال پہلے</item>
+        <item quantity="one">%1$s، %2$d سال پہلے</item>
+    </plurals>
+    <plurals name="memories_featured_story_trip_flashback_chat_prefill_story">
+        <item quantity="other">ٓ⁦%1$d⁩ سال پہلے سے</item>
+        <item quantity="one">⁦%1$d⁩ سال پہلے سے</item>
+    </plurals>
+    <plurals name="memories_hide_legacy_auto_saves">
+        <item quantity="other">ان کہانیوں کی Snaps آپ کے میری کہانی کے نئے صفحے پر دستیاب رہیں گی۔ آپ کی جانب سے تخلیق یا ترمیم کردہ کہانیاں متاثر نہیں ہوں گی۔</item>
+        <item quantity="one">اس کہانی کی Snaps آپ کے میری کہانی کے نئے صفحے پر دستیاب رہیں گی۔ آپ کی جانب سے تخلیق یا ترمیم کردہ کہانیاں متاثر نہیں ہوں گی۔</item>
+    </plurals>
+    <plurals name="memories_hide_legacy_auto_saves_title">
+        <item quantity="other">%d پرانی خودکار محفوظ کردہ کہانیوں کو ہٹا دیں؟</item>
+        <item quantity="one">%d پرانی خودکار محفوظ کردہ کہانی کو ہٹا دیں؟</item>
+    </plurals>
+    <plurals name="memories_print_print_created">
+        <item quantity="other">%d 3D پرنٹس بن گئیں۔</item>
+        <item quantity="one">%d 3D پرنٹ بن گئی۔</item>
+    </plurals>
+    <plurals name="memories_print_processing">
+        <item quantity="other">پرنٹ کرنے کے لیے %d Snaps پر کارروائی ہو رہی ہے…</item>
+        <item quantity="one">پرنٹ کرنے کے لیے Snap پر %d کارروائی ہو رہی ہے…</item>
+    </plurals>
+    <plurals name="memories_remove_older_stories_dialog_title">
+        <item quantity="other">اس سے %d پرانی خودکار طور پر محفوظ کردہ کہانیاں ہٹ جائیں گی۔</item>
+        <item quantity="one">اس سے %d پرانی خودکار طور پر محفوظ کردہ کہانی ہٹ جائے گی۔</item>
+    </plurals>
+    <plurals name="memories_select_limit_error">
+        <item quantity="other">معذرت، ایک وقت میں صرف %d Snaps کو منتخب کیا جا سکتا ہے۔</item>
+        <item quantity="one">معذرت، ایک وقت میں صرف %d Snap کو منتخب کیا جا سکتا ہے۔</item>
+    </plurals>
+    <plurals name="memories_status_transfer_complete_in_app_notification_text">
+        <item quantity="other">%2$s سے %1$d Snap درآمد کی گئیں</item>
+        <item quantity="one">%2$s سے%1$d Snap درآمد کی گئی</item>
+    </plurals>
+    <plurals name="memories_status_transfer_complete_title">
+        <item quantity="other">%d Snaps درآمد کی گئیں!</item>
+        <item quantity="one">%d Snap درآمد کی گئی!</item>
+    </plurals>
+    <plurals name="memories_status_transfer_from_device_complete_title">
+        <item quantity="other">%s کی جانب سے نئی Snaps</item>
+        <item quantity="one">%s کی جانب سے نئی Snap</item>
+    </plurals>
+    <plurals name="memories_status_transferring_title">
+        <item quantity="other">%2$d از %1$d Snaps درآمد کر رہے ہیں…</item>
+        <item quantity="one">%1$d از %2$d Snap در آمد کر رہے ہیں…</item>
+    </plurals>
+    <plurals name="memories_story_editor_add_snap_selected">
+        <item quantity="other">%d منتخب ہو گیا</item>
+        <item quantity="one">%d منتخب ہو گیا</item>
+    </plurals>
+    <plurals name="minutes_abbreviated">
+        <item quantity="other">%d منٹ</item>
+        <item quantity="one">%d منٹ</item>
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="other">%d منٹ</item>
+        <item quantity="one">%d منٹ</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated">
+        <item quantity="other">%d منٹ پہلے</item>
+        <item quantity="one">%d منٹ پہلے</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_camera_roll">
+        <item quantity="other">کیمرہ رول سے ⁦%1$d⁩ منٹ پہلے</item>
+        <item quantity="one">کیمرہ رول سے ⁦%1$d⁩ منٹ پہلے</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_chat">
+        <item quantity="other">چیٹ سے ⁦%1$d⁩ منٹ پہلے</item>
+        <item quantity="one">چیٹ سے ⁦%1$d⁩ منٹ پہلے</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_cheerios">
+        <item quantity="other">Pixy کی جانب سے ⁦%1$d⁩ منٹ پہلے</item>
+        <item quantity="one">Pixy کی جانب سے ⁦%1$d⁩ منٹ پہلے</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_creative_kit">
+        <item quantity="other">⁦%2$s⁩ سے ⁦%1$d⁩ منٹ پہلے</item>
+        <item quantity="one">⁦%2$s⁩ سے ⁦%1$d⁩ منٹ پہلے</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_memories">
+        <item quantity="other">یادوں سے ⁦%1$d⁩ ماہ پہلے</item>
+        <item quantity="one">یادوں سے ⁦%1$d⁩ ماہ پہلے</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_spectacles">
+        <item quantity="other">Spectacles سے ⁦%1$d⁩ منٹ پہلے</item>
+        <item quantity="one">Spectacles سے ⁦%1$d⁩ منٹ پہلے</item>
+    </plurals>
+    <plurals name="minutes_ago_update">
+        <item quantity="other">⁦%1$s⁩ منٹ پہلے اپ ڈیٹ ہوا</item>
+        <item quantity="one">⁦%1$s⁩ منٹ پہلے اپ ڈیٹ ہوا</item>
+    </plurals>
+    <plurals name="months_abbreviated">
+        <item quantity="other">%d ماہ</item>
+        <item quantity="one">%d ماہ</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated">
+        <item quantity="other">%d ماہ پہلے</item>
+        <item quantity="one">%d ماہ پہلے</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_camera_roll">
+        <item quantity="other">کیمرہ رول سے ⁦%1$d⁩ ماہ پہلے</item>
+        <item quantity="one">کیمرہ رول سے ⁦%1$d⁩ ماہ پہلے</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_chat">
+        <item quantity="other">چیٹ سے ⁦%1$d⁩ ماہ پہلے</item>
+        <item quantity="one">چیٹ سے ⁦%1$d⁩ ماہ پہلے</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_cheerios">
+        <item quantity="other">Pixy کی جانب سے ⁦%1$d⁩ ماہ پہلے</item>
+        <item quantity="one">Pixy کی جانب سے ⁦%1$d⁩ ماہ پہلے</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_creative_kit">
+        <item quantity="other">⁦%2$s⁩ سے ⁦%1$d⁩ ماہ پہلے</item>
+        <item quantity="one">⁦%2$s⁩ سے ⁦%1$d⁩ ماہ پہلے</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_memories">
+        <item quantity="other">یادوں سے ⁦%1$d⁩ ماہ پہلے</item>
+        <item quantity="one">یادوں سے ⁦%1$d⁩ ماہ پہلے</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_spectacles">
+        <item quantity="other">Spectacles سے ⁦%1$d⁩ماہ قبل</item>
+        <item quantity="one">Spectacles سے ⁦%1$d⁩ماہ قبل</item>
+    </plurals>
+    <plurals name="months_ago_update">
+        <item quantity="other">⁦%1$s⁩ ماہ پہلے اپ ڈیٹ ہوا</item>
+        <item quantity="one">⁦%1$s⁩ ماہ پہلے اپ ڈیٹ ہوا</item>
+    </plurals>
+    <plurals name="more_stories">
+        <item quantity="other">%d مزید کہانیاں</item>
+        <item quantity="one">1 مزید کہانی</item>
+    </plurals>
+    <plurals name="muted_stories">
+        <item quantity="other">%d خاموش کردہ کہانیاں</item>
+        <item quantity="one">1 خاموش کردہ کہانی</item>
+    </plurals>
+    <plurals name="new_registration_continue_with_n_friends">
+        <item quantity="other">%d دوستوں کو ایڈ کریں</item>
+        <item quantity="one">1 دوست کو ایڈ کریں</item>
+    </plurals>
+    <plurals name="num_hours">
+        <item quantity="other">%d گھنٹہ</item>
+        <item quantity="one">%d گھنٹہ</item>
+    </plurals>
+    <plurals name="num_minutes">
+        <item quantity="other">%d منٹ</item>
+        <item quantity="one">%d منٹ</item>
+    </plurals>
+    <plurals name="nyc_audience_many_and_x_others">
+        <item quantity="other">%1$s+⁦%2$d⁩ دیگر</item>
+        <item quantity="one">%1$s+⁦%2$d⁩ دیگر</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_ft">
+        <item quantity="other">فٹ</item>
+        <item quantity="one">فٹ</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_km">
+        <item quantity="other">کلومیٹر</item>
+        <item quantity="one">کلومیٹر</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_m">
+        <item quantity="other">میٹر</item>
+        <item quantity="one">میٹر</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_mile">
+        <item quantity="other">میل</item>
+        <item quantity="one">میل</item>
+    </plurals>
+    <plurals name="nyc_friends_many_and_x_others">
+        <item quantity="other">⁦%1$s⁩ اور ⁦%2$s⁩ کی جانب سے پہلے ہی آپ کے ساتھ لائیو لوکیشن شیئر کی جا رہی ہے</item>
+        <item quantity="one">⁦%1$s⁩ کی جانب سے پہلے ہی آپ کے ساتھ لائیو لوکیشن شیئر کی جا رہی ہے</item>
+    </plurals>
+    <plurals name="nyc_sharing_live_location_with_friends">
+        <item quantity="other">"آپ ⁦%1$s⁩ دوستوں کے ساتھ اپنی لائیو لوکیشن شیئر کر رہے ہیں۔ "</item>
+        <item quantity="one">"آپ ⁦%1$s⁩ دوست کے ساتھ اپنی لائیو لوکیشن شیئر کر رہے ہیں۔ "</item>
+    </plurals>
+    <plurals name="nyc_unhide_live_location_friend_dialog_title">
+        <item quantity="other">آپ ⁦%1$d⁩ اور دوستوں سے اپنی لائیو لوکیشن چھپا رہے ہیں۔</item>
+        <item quantity="one">آپ 1 اور دوست سے اپنی لائیو لوکیشن چھپا رہے ہیں۔</item>
+    </plurals>
+    <plurals name="pairing_validation_description">
+        <item quantity="other">آپ کی Pixy پر گزشتہ یوزر کی طرف سے %d Snaps ہیں۔ اس ڈیوائس کا جوڑا بنانے سے ڈیوائس ری سیٹ ہو جائے گی اور سبھی Snaps اور یوزر ڈیٹا ڈیلیٹ ہو جائے گا۔</item>
+        <item quantity="one">آپ کی Pixy پر گزشتہ یوزر کی طرف سے 1 Snap ہے۔ اس ڈیوائس کا جوڑا بنانے سے ڈیوائس ری سیٹ ہو جائے گی اور سبھی Snaps اور یوزر ڈیٹا ڈیلیٹ ہو جائے گا۔</item>
+    </plurals>
+    <plurals name="payments_num_purchased_items">
+        <item quantity="other">%d آئٹمز</item>
+        <item quantity="one">1 آئٹم</item>
+    </plurals>
+    <plurals name="pending_syncs_logout_warning">
+        <item quantity="other">%1$d Snaps کو ابھی یادوں میں بیک اپ نہیں کیا گیا۔ اگر آپ ابھی لاگ آؤٹ کرتے ہیں، تو یہSnaps ضائع ہو سکتی ہیں۔</item>
+        <item quantity="one">ایک Snap کا بیک اپ ابھی یادوں میں نہیں بنایا گیا۔ اگر آپ ابھی لاگ آؤٹ کرتے ہیں، تو یہ Snap کھو سکتی ہے۔</item>
+    </plurals>
+    <plurals name="perception_lens_collection_scan_card_lenses_count">
+        <item quantity="other">%d لینزز</item>
+        <item quantity="one">%d لینز</item>
+    </plurals>
+    <plurals name="perception_lenses_scan_card_try_lenses">
+        <item quantity="other">لینزز آزمائیں (%d)</item>
+        <item quantity="one">لینز آزمائیں</item>
+    </plurals>
+    <plurals name="play_with_max_player_alert_text">
+        <item quantity="other">گیم صرف %1$d کھلاڑیوں کی اجازت دیتی ہے</item>
+        <item quantity="one">گیم صرف %1$d کھلاڑیوں کی اجازت دیتی ہے</item>
+    </plurals>
+    <plurals name="post_pairing_import_title">
+        <item quantity="other">%d نئی Snaps</item>
+        <item quantity="one">%d نئی Snap</item>
+    </plurals>
+    <plurals name="registration_continue_with_n_friends">
+        <item quantity="other">+ %d دوست ایڈ کریں</item>
+        <item quantity="one">+ 1 دوست ایڈ کریں</item>
+    </plurals>
+    <plurals name="save_button_tooltip_saved_multiple">
+        <item quantity="other">%1$d Snaps محفوظ ہو گئیں!</item>
+        <item quantity="one">%1$d Snap محفوظ!</item>
+    </plurals>
+    <plurals name="saved_media_gallery_attribution_media_count">
+        <item quantity="other">%s Snaps</item>
+        <item quantity="one">%s Snap</item>
+    </plurals>
+    <plurals name="seconds_abbreviated">
+        <item quantity="other">%d سیکنڈ</item>
+        <item quantity="one">%d سیکنڈ</item>
+    </plurals>
+    <plurals name="seconds_ago">
+        <item quantity="other">%d سیکنڈ</item>
+        <item quantity="one">%d سیکنڈ</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated">
+        <item quantity="other">%d سیکنڈ پہلے</item>
+        <item quantity="one">%d سیکنڈ پہلے</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_camera_roll">
+        <item quantity="other">کیمرہ رول سے ⁦%1$d⁩ سیکنڈ پہلے</item>
+        <item quantity="one">کیمرہ رول سے ⁦%1$d⁩ سیکنڈ پہلے</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_chat">
+        <item quantity="other">چیٹ سے ⁦%1$d⁩ سیکنڈ پہلے</item>
+        <item quantity="one">چیٹ سے ⁦%1$d⁩ سیکنڈ پہلے</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_cheerios">
+        <item quantity="other">Pixy کی جانب سے ⁦%1$d⁩ سیکنڈ پہلے</item>
+        <item quantity="one">Pixy کی جانب سے ⁦%1$d⁩ سیکنڈ پہلے</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_creative_kit">
+        <item quantity="other">⁦%2$s⁩ سے ⁦%1$d⁩ سیکنڈ پہلے</item>
+        <item quantity="one">⁦%2$s⁩ سے ⁦%1$d⁩ سیکنڈ پہلے</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_memories">
+        <item quantity="other">یادوں سے ⁦%1$d⁩ سیکنڈ پہلے</item>
+        <item quantity="one">یادوں سے ⁦%1$d⁩ سیکنڈ پہلے</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_spectacles">
+        <item quantity="other">Spectacles سے ⁦%1$d⁩ سیکنڈ پہلے</item>
+        <item quantity="one">Spectacles سے ⁦%1$d⁩ سیکنڈ پہلے</item>
+    </plurals>
+    <plurals name="seconds_ago_update">
+        <item quantity="other">⁦%1$s⁩ سیکنڈ پہلے اپ ڈیٹ ہوا</item>
+        <item quantity="one">⁦%1$s⁩ سیکنڈ پہلے اپ ڈیٹ ہوا</item>
+    </plurals>
+    <plurals name="select_friend_friend">
+        <item quantity="other">⁦%1$d⁩ دوست</item>
+        <item quantity="one">1 دوست</item>
+    </plurals>
+    <plurals name="select_friend_other">
+        <item quantity="other">⁦%1$s⁩ اور ⁦%2$d⁩ دیگر</item>
+        <item quantity="one">⁦%1$s⁩ اور 1 دیگر</item>
+    </plurals>
+    <plurals name="settings_birthday_update_years_old">
+        <item quantity="other">میری عمر %d سال ہے۔</item>
+        <item quantity="one">میری عمر %d سال ہے۔</item>
+    </plurals>
+    <plurals name="snap_timer_selection_units">
+        <item quantity="other">سیکنڈ</item>
+        <item quantity="one">سیکنڈ</item>
+    </plurals>
+    <plurals name="snaps_count">
+        <item quantity="other">%1$d Snaps</item>
+        <item quantity="one">%1$d Snap</item>
+    </plurals>
+    <plurals name="spectacles_export_customization_description">
+        <item quantity="other">آپ اپنی Snaps کو کیسے برآمد کرنا چاہیں گے؟</item>
+        <item quantity="one">آپ اپنی Snap کو کیسے برآمد کرنا چاہیں گے؟</item>
+    </plurals>
+    <plurals name="spotlight_comments_count_notification_title">
+        <item quantity="other">%d زیر التوا Spotlight تبصرے!</item>
+        <item quantity="one">1 زیر التوا Spotlight تبصرہ!</item>
+    </plurals>
+    <plurals name="status_views">
+        <item quantity="other">%d وئیوز</item>
+        <item quantity="one">%d دیکھیں</item>
+    </plurals>
+    <plurals name="still_sharing_last_active_location_description">
+        <item quantity="other">"آپ کی لوئیو لوکیشن پوشیدہ لیکن ⁦%1$s⁩ دوست اب بھی آپ کی آخری فعال لوکیشن دیکھ سکتے ہیں۔
+
+ آپ نقشہ کی سیٹنگز میں یہ تبدیل کر سکتے ہیں۔"</item>
+        <item quantity="one">"آپ کی لوئیو لوکیشن پوشیدہ لیکن ⁦%1$s⁩ دوست اب بھی آپ کی آخری فعال لوکیشن دیکھ سکتا ہے۔
+
+ آپ نقشہ کی سیٹنگز میں یہ تبدیل کر سکتے ہیں۔"</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_change_audience">
+        <item quantity="other">"آپ نے اپنی لوکیشن کی سیٹنگز محفوظ کر لی ہیں لیکن ⁦%1$s⁩ دوست اب بھی آپ کی لائیو لوکیشن دیکھ سکتے ہیں۔ شیئرنگ روکنے کیلئے ان کے نام کے ساتھ موجود 'روکیں' پر ٹیپ کریں۔"</item>
+        <item quantity="one">"آپ نے اپنی لوکیشن کی سیٹنگز محفوظ کر لی ہیں لیکن ⁦%1$s⁩ دوست اب بھی آپ کی لائیو لوکیشن دیکھ سکتا ہے۔ شیئرنگ روکنے کیلئے اس کے نام کے ساتھ موجود 'روکیں' پر ٹیپ کریں۔"</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_enter_ghost_mode">
+        <item quantity="other">"آپ گھوسٹ موڈ میں ہیں لیکن ⁦%1$s⁩ دوست اب بھی آپ کی لائیو لوکیشن دیکھ سکتے ہیں۔ شیئرنگ روکنے کیلئے ان کے نام کے ساتھ موجود 'روکیں' پر ٹیپ کریں۔"</item>
+        <item quantity="one">"آپ گھوسٹ موڈ میں ہیں لیکن ⁦%1$s⁩ دوست اب بھی آپ کی لائیو لوکیشن دیکھ سکتا ہے۔ شیئرنگ روکنے کیلئے اس کے نام کے ساتھ موجود 'روکیں' پر ٹیپ کریں۔"</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_enter_ghost_mode_ghost_trail">
+        <item quantity="other">"آپ گھوسٹ موڈ میں ہیں لیکن ⁦%1$s⁩ دوست اب بھی آپ کی لائیو لوکیشن دیکھ سکتے ہیں۔ شیئر کرنا روکنے کیلئے، ان کے نام کے ساتھ موجود 'روکیں' پر ٹیپ کریں۔
+
+جب آپ گھوسٹ موڈ میں ہوتے ہیں تو لوکیشنز آپ کے گھوسٹ ٹریل میں شامل نہیں کی جاتی ہیں۔"</item>
+        <item quantity="one">"آپ گھوسٹ موڈ میں ہیں لیکن ⁦%1$s⁩ دوست اب بھی آپ کی لائیو لوکیشن دیکھ سکتا ہے۔ شیئرنگ روکنے کیلئے اس کے نام کے ساتھ موجود 'روکیں' پر ٹیپ کریں۔
+
+جب آپ گھوسٹ موڈ میں ہوتے ہیں تو آپ کے گھوسٹ ٹریل میں لوکیشنز شامل نہیں کی جاتی ہیں۔"</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_enter_ghost_mode_hide_live_location">
+        <item quantity="other">"آپ گھوسٹ موڈ میں ہیں لیکن ⁦%1$s⁩ دوست اب بھی آپ کی لائیو لوکیشن دیکھ سکتے ہیں۔ شیئرنگ موقوف کرنے کیلئے، ذیل میں 'میری لائیو لوکیشن چھپائیں' پر ٹیپ کریں۔"</item>
+        <item quantity="one">"آپ گھوسٹ موڈ میں ہیں لیکن ⁦%1$s⁩ دوست اب بھی آپ کی لائیو لوکیشن دیکھ سکتا ہے۔ شیئرنگ موقوف کرنے کیلئے، ذیل میں 'میری لائیو لوکیشن چھپائیں' پر ٹیپ کریں۔"</item>
+    </plurals>
+    <plurals name="story_friend_story_notification_title_update">
+        <item quantity="other">%d دوست ان کی کہانی میں شامل کیے گئے</item>
+        <item quantity="one">%d دوست ان کی کہانی میں شامل کیا گیا</item>
+    </plurals>
+    <plurals name="story_fullscreen_footer_view_count">
+        <item quantity="other">%d ویوز</item>
+        <item quantity="one">%d ویو</item>
+    </plurals>
+    <plurals name="story_management_viewer_list_more_viewers">
+        <item quantity="other">+ ⁦%1$d⁩ مزید</item>
+        <item quantity="one">+ ⁦%1$d⁩ مزید</item>
+    </plurals>
+    <plurals name="story_mob_subtext_more">
+        <item quantity="other">⁦%1$s⁩ اور ⁦%2$d⁩ مزید…</item>
+        <item quantity="one">⁦%1$s⁩ اور ⁦%2$d⁩ مزید…</item>
+    </plurals>
+    <plurals name="story_profile_communities_members">
+        <item quantity="other">توثیق شدہ • %d ممبرز</item>
+        <item quantity="one">توثیق شدہ • %d ممبر</item>
+    </plurals>
+    <plurals name="story_profile_shared_stories_members">
+        <item quantity="other">%d ممبرز</item>
+        <item quantity="one">%d ممبر</item>
+    </plurals>
+    <plurals name="story_profile_stories_adding">
+        <item quantity="other">%d Snaps شامل ہو رہی ہیں۔۔۔</item>
+        <item quantity="one">%d Snap شامل ہو رہی ہے۔۔۔</item>
+    </plurals>
+    <plurals name="story_profile_stories_failed_to_add">
+        <item quantity="other">%d Snaps شامل کرنے میں ناکام رہے</item>
+        <item quantity="one">%d Snap شامل کرنے میں ناکام رہے</item>
+    </plurals>
+    <plurals name="story_profile_stories_waiting_to_add">
+        <item quantity="other">%d Snaps شامل کرنے کے لیے انتظار کر رہے ہیں۔۔۔</item>
+        <item quantity="one">%d Snap شامل کرنے کے لیے انتظار کر رہے ہیں۔۔۔</item>
+    </plurals>
+    <plurals name="story_settings_action_menu_my_story_blocked_number_of_people">
+        <item quantity="other">%d لوگ</item>
+        <item quantity="one">1 فرد</item>
+    </plurals>
+    <plurals name="streak_restore_dialog_subtitle_free_restore">
+        <item quantity="other">آپ کے پاس ⁦%1$d⁩ مفت بحالیاں ہیں۔</item>
+        <item quantity="one">آپ کے پاس ⁦%1$d⁩ مفت بحالی ہے۔</item>
+    </plurals>
+    <plurals name="streak_restore_dialog_subtitle_hours">
+        <item quantity="other">آپ کے پاس ⁦%1$s⁩ کے ساتھ اپنی Snapstreak بحال کرنے کیلئے ⁦%2$d⁩ گھنٹے باقی ہیں جس کے بعد یہ ہمیشہ کیلئے غائب ہو جائے گی!</item>
+        <item quantity="one">آپ کے پاس ⁦%1$s⁩ کے ساتھ اپنی Snapstreak بحال کرنے کیلئے ⁦%2$d⁩ گھنٹہ باقی ہے جس کے بعد یہ ہمیشہ کیلئے غائب ہو جائے گی!</item>
+    </plurals>
+    <plurals name="streak_restore_dialog_subtitle_minutes">
+        <item quantity="other">آپ کے پاس ⁦%1$s⁩ کے ساتھ اپنی Snapstreak بحال کرنے کیلئے ⁦%2$d⁩ منٹ باقی ہیں جس کے بعد یہ ہمیشہ کیلئے غائب ہو جائے گی!</item>
+        <item quantity="one">آپ کے پاس ⁦%1$s⁩ کے ساتھ اپنی Snapstreak بحال کرنے کیلئے ⁦%2$d⁩ منٹ باقی ہے جس کے بعد یہ ہمیشہ کیلئے غائب ہو جائے گی!</item>
+    </plurals>
+    <plurals name="subtitle_sharing_custom_friends">
+        <item quantity="other">%d دوستوں کے ساتھ</item>
+        <item quantity="one">%d دوست کے ساتھ</item>
+    </plurals>
+    <plurals name="takeover_request_index_and_total">
+        <item quantity="other">⁦%2$d⁩ میں سے ⁦%1$d⁩ نیا دوست شامل کیا ہے</item>
+        <item quantity="one">⁦%2$d⁩ میں سے ⁦%1$d⁩ نیا دوست شامل کیا ہے</item>
+    </plurals>
+    <plurals name="ticketmaster_events_label">
+        <item quantity="other">ایونٹس</item>
+        <item quantity="one">ایونٹ</item>
+    </plurals>
+    <plurals name="watched_stories">
+        <item quantity="other">%d دیکھی ہوئی کہانیاں</item>
+        <item quantity="one">1 دیکھی ہوئی کہانی</item>
+    </plurals>
+    <plurals name="weeks">
+        <item quantity="other">%d ہفتے</item>
+        <item quantity="one">%d ہفتہ</item>
+    </plurals>
+    <plurals name="weeks_abbreviated">
+        <item quantity="other">%d ہفتہ</item>
+        <item quantity="one">%d ہفتہ</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated">
+        <item quantity="other">%d ہفتے پہلے</item>
+        <item quantity="one">%d ہفتے پہلے</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_camera_roll">
+        <item quantity="other">کیمرہ رول سے ⁦%1$d⁩ ہفتے پہلے</item>
+        <item quantity="one">کیمرہ رول سے ⁦%1$d⁩ ہفتے پہلے</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_chat">
+        <item quantity="other">چیٹ سے ⁦%1$d⁩ ہفتے پہلے</item>
+        <item quantity="one">چیٹ سے ⁦%1$d⁩ ہفتے پہلے</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_cheerios">
+        <item quantity="other">Pixy کی جانب سے ⁦%1$d⁩ ہفتہ پہلے</item>
+        <item quantity="one">Pixy کی جانب سے ⁦%1$d⁩ ہفتہ پہلے</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_creative_kit">
+        <item quantity="other">⁦%2$s⁩ سے ⁦%1$d⁩ ہفتے پہلے</item>
+        <item quantity="one">⁦%2$s⁩ سے ⁦%1$d⁩ ہفتے پہلے</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_memories">
+        <item quantity="other">یادوں سے ⁦%1$d⁩ ہفتہ پہلے</item>
+        <item quantity="one">یادوں سے ⁦%1$d⁩ ہفتہ پہلے</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_spectacles">
+        <item quantity="other">Spectacles سے ⁦%1$d⁩ ہفتہ پہلے</item>
+        <item quantity="one">Spectacles سے ⁦%1$d⁩ ہفتہ پہلے</item>
+    </plurals>
+    <plurals name="weeks_ago_update">
+        <item quantity="other">⁦%1$s⁩ ہفتے پہلے اپ ڈیٹ ہوا</item>
+        <item quantity="one">⁦%1$s⁩ ہفتہ پہلے اپ ڈیٹ ہوا</item>
+    </plurals>
+    <plurals name="years_abbreviated">
+        <item quantity="other">%d سال</item>
+        <item quantity="one">%d سال</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated">
+        <item quantity="other">%d سال پہلے</item>
+        <item quantity="one">%d سال پہلے</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_camera_roll">
+        <item quantity="other">کیمرہ رول سے ⁦%1$d⁩ سال پہلے</item>
+        <item quantity="one">کیمرہ رول سے ⁦%1$d⁩ سال پہلے</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_chat">
+        <item quantity="other">چیٹ سے ⁦%1$d⁩ سال پہلے</item>
+        <item quantity="one">چیٹ سے ⁦%1$d⁩ سال پہلے</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_cheerios">
+        <item quantity="other">Pixy کی جانب سے ⁦%1$d⁩ سال پہلے</item>
+        <item quantity="one">Pixy کی جانب سے ⁦%1$d⁩ سال پہلے</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_creative_kit">
+        <item quantity="other">⁦%2$s⁩ سے ⁦%1$d⁩ سال پہلے</item>
+        <item quantity="one">⁦%2$s⁩ سے ⁦%1$d⁩ سال پہلے</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_memories">
+        <item quantity="other">یادوں سے ⁦%1$d⁩ سال پہلے</item>
+        <item quantity="one">یادوں سے ⁦%1$d⁩ سال پہلے</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_spectacles">
+        <item quantity="other">Spectacles سے ⁦%1$d⁩ سال پہلے</item>
+        <item quantity="one">Spectacles سے ⁦%1$d⁩ سال پہلے</item>
+    </plurals>
+    <plurals name="years_ago_update">
+        <item quantity="other">⁦%1$s⁩ سال پہلے اپ ڈیٹ ہوا</item>
+        <item quantity="one">⁦%1$s⁩ سال پہلے اپ ڈیٹ ہوا</item>
+    </plurals>
+</resources>

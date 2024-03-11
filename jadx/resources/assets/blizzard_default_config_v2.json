@@ -1,0 +1,99 @@
+{
+  "blocklistedEvents": [],
+  "logQueueDefinitions": [
+    {
+      "name": "q0",
+      "collectorUrls": {
+        "PROD": "https://app-analytics-v2.snapchat.com/analytics/bz2",
+        "STAGING": "https://app-analytics-dev.snapchat.com/analytics/bz2"
+      },
+      "uploadBatchMax": 1,
+      "uploadInterval": 5000
+    },
+    {
+      "name": "q1",
+      "collectorUrls": {
+        "PROD": "https://app-analytics-v2.snapchat.com/analytics/bz2",
+        "STAGING": "https://app-analytics-dev.snapchat.com/analytics/bz2"
+      },
+      "uploadBatchMax": 8,
+      "uploadInterval": 25000
+    },
+    {
+      "name": "q12",
+      "collectorUrls": {
+        "PROD": "https://app-analytics-v2.snapchat.com/analytics/bz2",
+        "STAGING": "https://app-analytics-dev.snapchat.com/analytics/bz2"
+      },
+      "uploadBatchMax": 8,
+      "uploadInterval": 25000
+    },
+    {
+      "name": "q2",
+      "collectorUrls": {
+        "PROD": "https://app-analytics-v2.snapchat.com/analytics/bz2",
+        "STAGING": "https://app-analytics-dev.snapchat.com/analytics/bz2"
+      },
+      "uploadBatchMax": 10,
+      "uploadInterval": 30000
+    },
+    {
+      "name": "q3",
+      "collectorUrls": {
+        "PROD": "https://app-analytics-v2.snapchat.com/analytics/bz2",
+        "STAGING": "https://app-analytics-dev.snapchat.com/analytics/bz2"
+      },
+      "uploadBatchMax": 75,
+      "uploadInterval": 1800000
+    },
+    {
+      "name": "shadow",
+      "collectorUrls": {
+        "PROD": "https://app-analytics-v2.snapchat.com/analytics/bz2",
+        "STAGING": "https://app-analytics-dev.snapchat.com/analytics/bz2"
+      },
+      "initialProcessingDelay": 10000,
+      "maxInMemoryBufferInterval": 5000,
+      "eventSaveBatchSize": 100,
+      "burstDebounceInterval": 1000,
+      "uploadBatchMax": 10,
+      "uploadInterval": 30000
+    },
+    {
+      "name": "gce_best_effort",
+      "collectorUrls": {
+        "PROD": "https://app-analytics-v2.snapchat.com/analytics/bz2",
+        "STAGING": "https://app-analytics-dev.snapchat.com/analytics/bz2"
+      },
+      "uploadBatchMax": 300,
+      "uploadInterval": 1800000
+    },
+    {
+      "name": "tte",
+      "collectorUrls": {
+        "PROD": "https://app-analytics-v2.snapchat.com/analytics/bz3",
+        "STAGING": "https://app-analytics-dev.snapchat.com/analytics/bz3"
+      },
+      "uploadBatchMax": 5,
+      "uploadInterval": 5000
+    }
+  ],
+  "qosToLogQueueNameMap": {
+    "TIER0": [
+      "q0"
+    ],
+    "BUSINESS_CRITICAL": [
+      "q12"
+    ],
+    "BUSINESS": [
+      "q12"
+    ],
+    "BEST_EFFORT": [
+      "q3"
+    ],
+    "OPS": [
+      "q3"
+    ]
+  },
+  "version": "bzdv2.client"
+}

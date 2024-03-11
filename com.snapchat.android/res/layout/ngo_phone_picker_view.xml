@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.snap.ui.view.SnapFontTextView android:id="@id/ngo_phone_picker_country_field_title" android:text="@string/ngo_country" style="@style/NgoIdentityFieldHint" />
+    <FrameLayout android:id="@id/top_country_code_display" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_gap">
+        <com.snap.ui.view.SnapFontTextView android:id="@id/top_country_code_display_textview" android:clickable="false" android:layout_width="fill_parent" android:text="@string/select_country_code" style="@style/NgoIdentityField" />
+        <ImageView android:layout_gravity="end|center" android:id="@id/top_country_code_display_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/svg_onboarding_country_code_arrow" android:scaleType="fitCenter" android:rotation="90.0" android:layout_marginEnd="@dimen/default_gap_2x" />
+    </FrameLayout>
+    <com.snap.ui.view.SnapFontTextView android:id="@id/ngo_phone_picker_phone_field_title" android:text="@string/ngo_phone_number" style="@style/NgoIdentityFieldHint" />
+    <LinearLayout android:orientation="horizontal" android:layout_marginTop="@dimen/default_gap" style="@style/NgoIdentityField">
+        <com.snap.ui.view.SnapFontEditText android:textSize="@dimen/v11_input_field_header_text_size" android:textColor="@color/sig_color_icon_selected_light" android:id="@id/bottom_phone_country_code_field" android:background="@null" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxLength="4" android:digits="\ 0123456789" android:layout_marginStart="@dimen/default_gap" />
+        <View android:layout_gravity="center_vertical" android:background="@color/sig_color_layout_input_border_light" android:layout_width="1.0dip" android:layout_height="21.0dip" android:layout_marginStart="@dimen/default_gap_2x" android:layout_marginEnd="@dimen/default_gap_2x" />
+        <com.snap.ui.view.SnapFontEditText android:textSize="@dimen/v11_input_field_header_text_size" android:textColor="@color/sig_color_text_primary_light" android:id="@id/bottom_phone_form_field" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:inputType="phone" android:textDirection="ltr" />
+    </LinearLayout>
+    <com.snap.component.formselector.SnapFormSelector android:layout_gravity="center" android:id="@id/phone_method_toggle" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_gap" />
+</LinearLayout>

@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="action_menu_camera_select">
+        <item quantity="other">%d Item Terpilih</item>
+    </plurals>
+    <plurals name="action_menu_hide_long">
+        <item quantity="other">Sembunyikan Snap (Khusus Saya)</item>
+    </plurals>
+    <plurals name="action_menu_mute_for_hours">
+        <item quantity="other">Selama %d jam</item>
+    </plurals>
+    <plurals name="action_menu_snap_select">
+        <item quantity="other">%d Snap Terpilih</item>
+    </plurals>
+    <plurals name="action_menu_unhide_long">
+        <item quantity="other">Tampilkan Snap</item>
+    </plurals>
+    <plurals name="active_indicator_explainer_active_hour">
+        <item quantity="other">%d jam!</item>
+    </plurals>
+    <plurals name="activity_indicator_explainer_active_friend_count">
+        <item quantity="other">%d teman aktif</item>
+    </plurals>
+    <plurals name="add_friend_badge_request_tips">
+        <item quantity="other">%1$s Tambahan Teman baru</item>
+    </plurals>
+    <plurals name="add_friend_badge_suggestion_tips">
+        <item quantity="other">%1$s Saran Teman baru</item>
+    </plurals>
+    <plurals name="add_friends_button_subtext">
+        <item quantity="other">%1$s Snapchatter menambahkan kamu!</item>
+    </plurals>
+    <plurals name="add_friends_button_suggestion_subtext">
+        <item quantity="other">%1$s saran teman!</item>
+    </plurals>
+    <plurals name="batch_capture_save_as_x_snaps">
+        <item quantity="other">Simpan sebagai %1$d Snap</item>
+    </plurals>
+    <plurals name="bottom_button_text">
+        <item quantity="other">+ Tambahkan %d Teman</item>
+    </plurals>
+    <plurals name="camera_mode_batch_capture_limit_reached_description_with_count">
+        <item quantity="other">Multi Snap bisa menangkap hingga %1$d Snap dalam sekali waktu!</item>
+    </plurals>
+    <plurals name="camera_mode_disable_batch_capture_description">
+        <item quantity="other">Yakin ingin menonaktifkan Multi Snap? %1$d Snap yang belum tersimpan akan hilang.</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_image_sharer_you_not">
+        <item quantity="other">%1$s &amp; %2$s MENYIMPAN %3$d FOTO DARI %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_image_sharer_you_yes">
+        <item quantity="other">%1$s &amp; %2$s MENYIMPAN %3$d FOTO YANG KAMU KIRIM</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_item_sharer_you_not">
+        <item quantity="other">%1$s &amp; %2$s MENYIMPAN %3$d ITEM DARI %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_item_sharer_you_yes">
+        <item quantity="other">%1$s &amp; %2$s MENYIMPAN %3$d ITEM YANG KAMU KIRIM</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_video_sharer_you_not">
+        <item quantity="other">%1$s &amp; %2$s MENYIMPAN %3$d VIDEO DARI %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_video_sharer_you_yes">
+        <item quantity="other">%1$s &amp; %2$s MENYIMPAN %3$d VIDEO YANG KAMU KIRIM</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_yes_media_image_sharer_you_not">
+        <item quantity="other">KAMU &amp; %1$s MENYIMPAN %2$d FOTO DARI %3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_yes_media_item_sharer_you_not">
+        <item quantity="other">KAMU &amp; %1$s MENYIMPAN %2$d ITEM DARI %3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_yes_media_video_sharer_you_not">
+        <item quantity="other">KAMU &amp; %1$s MENYIMPAN %2$d VIDEO DARI %3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_image_sharer_you_not">
+        <item quantity="other">%1$s &amp; %2$s MENYIMPAN %3$d FOTO DARI %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_image_sharer_you_yes">
+        <item quantity="other">%1$s &amp; %2$s MENYIMPAN %3$d FOTO YANG KAMU KIRIM</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_item__sharer_you_not">
+        <item quantity="other">%1$s &amp; %2$s MENYIMPAN %3$d ITEM DARI %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_item__sharer_you_yes">
+        <item quantity="other">%1$s &amp; %2$s MENYIMPAN %3$d ITEM YANG KAMU KIRIM</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_video_sharer_you_not">
+        <item quantity="other">%1$s &amp; %2$s MENYIMPAN %3$d VIDEO DARI %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_video_sharer_you_yes">
+        <item quantity="other">%1$s &amp; %2$s MENYIMPAN %3$d VIDEO YANG KAMU KIRIM</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_yes_media_image_sharer_you_not">
+        <item quantity="other">KAMU, %1$s, &amp; %2$s MENYIMPAN %3$d FOTO DARI %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_yes_media_item_sharer_you_not">
+        <item quantity="other">KAMU, %1$s, &amp; %2$s MENYIMPAN %3$d ITEM DARI %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_yes_media_video_sharer_you_not">
+        <item quantity="other">KAMU, %1$s, &amp; %2$s MENYIMPAN %3$d VIDEO DARI %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_image_sharer_you_not">
+        <item quantity="other">%1$s MENYIMPAN %2$d FOTO DARI %3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_image_sharer_you_yes">
+        <item quantity="other">%1$s MENYIMPAN %2$d FOTO YANG KAMU KIRIM</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_item_sharer_you_not">
+        <item quantity="other">%1$s MENYIMPAN %2$d ITEM DARI %3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_item_sharer_you_yes">
+        <item quantity="other">%1$s MENYIMPAN %2$d ITEM YANG KAMU KIRIM</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_video_sharer_you_not">
+        <item quantity="other">%1$s MENYIMPAN %2$d VIDEO DARI %3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_video_sharer_you_yes">
+        <item quantity="other">%1$s MENYIMPAN %2$d VIDEO YANG KAMU KIRIM</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_yes_media_image_sharer_you_not">
+        <item quantity="other">KAMU MENYIMPAN %1$d FOTO DARI %2$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_yes_media_item__sharer_you_not">
+        <item quantity="other">KAMU MENYIMPAN %1$d ITEM DARI %2$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_yes_media_video_sharer_you_not">
+        <item quantity="other">KAMU MENYIMPAN %1$d VIDEO DARI %2$s</item>
+    </plurals>
+    <plurals name="cannot_add_custom_story_snap_recipients">
+        <item quantity="other">Kamu hanya bisa menambahkan ke %1$d Cerita Kustom dalam satu waktu</item>
+    </plurals>
+    <plurals name="capture_settings_distance_value_text_feet">
+        <item quantity="other">%1$d kaki</item>
+    </plurals>
+    <plurals name="capture_settings_duration_value_text_orbits">
+        <item quantity="other">%1$d orbit</item>
+    </plurals>
+    <plurals name="chat_header_gifting_birthday_upsell">
+        <item quantity="other">Ulang tahun %1$s tinggal %2$d hari lagi 🎂. Beri Snapchat+ sebagai kado</item>
+    </plurals>
+    <plurals name="cheerios_clean_unpair_cheerios_body">
+        <item quantity="other">Ada %1$d Snap di Pixy-mu. Apakah kamu juga ingin mengatur ulang perangkat dan menghapus semua Snap dan data pengguna?</item>
+    </plurals>
+    <plurals name="cheerios_confirm_delete_body">
+        <item quantity="other">Menghapus Snap ini akan menghapusnya dari perangkat Cheerio milikmu.</item>
+    </plurals>
+    <plurals name="cheerios_deleted">
+        <item quantity="other">%d Snap dihapus</item>
+    </plurals>
+    <plurals name="cheerios_deleting">
+        <item quantity="other">Menghapus %d Snap...</item>
+    </plurals>
+    <plurals name="cheerios_memories_tooltip">
+        <item quantity="other">%d Snap Baru</item>
+    </plurals>
+    <plurals name="cheerios_new_snap_to_import">
+        <item quantity="other">%d Snap Baru. Ketuk untuk Mengimpor.</item>
+    </plurals>
+    <plurals name="cheerios_status_transfer_complete_title">
+        <item quantity="other">%d Snap Diimpor!</item>
+    </plurals>
+    <plurals name="cheerios_status_transferring_title">
+        <item quantity="other">Mengimpor %d Snap…</item>
+    </plurals>
+    <plurals name="cluster_seven_or_more">
+        <item quantity="other">%1$s, %2$s, %3$s, %4$s, %5$s &amp; %6$d lainnya</item>
+    </plurals>
+    <plurals name="cluster_seven_or_more_me">
+        <item quantity="other">%1$s, %2$s, %3$s, %4$s, Aku &amp; %5$d lainnya</item>
+    </plurals>
+    <plurals name="cluster_three_or_more">
+        <item quantity="other">%1$s &amp; %2$d lainnya</item>
+    </plurals>
+    <plurals name="cluster_three_or_more_me">
+        <item quantity="other">Aku &amp; %1$d lainnya</item>
+    </plurals>
+    <plurals name="cognac_active_playing_game_text_multiple_player">
+        <item quantity="other">%1$s, %2$s, + %3$d orang lainnya sedang bermain</item>
+    </plurals>
+    <plurals name="cognac_active_playing_game_text_multiple_player_shortened">
+        <item quantity="other">%1$s + %2$d orang lainnya sedang bermain</item>
+    </plurals>
+    <plurals name="cognac_active_using_cypress_text_multiple_player">
+        <item quantity="other">%1$s, %2$s, +%3$d lainnya sedang aktif</item>
+    </plurals>
+    <plurals name="cognac_active_using_cypress_text_multiple_player_shortened">
+        <item quantity="other">%1$s + %2$d lainnya sedang aktif</item>
+    </plurals>
+    <plurals name="cognac_app_profile_multiple_player_text">
+        <item quantity="other">Mendukung %1$s-%2$d Pemain</item>
+    </plurals>
+    <plurals name="cognac_close_status_message_multiple_player_second_person">
+        <item quantity="other">Kamu, %1$s dan %2$d orang lainnya bermain %3$s</item>
+    </plurals>
+    <plurals name="cognac_close_status_message_multiple_player_third_person">
+        <item quantity="other">%1$s, %2$s, dan %3$d orang lainnya bermain %4$s</item>
+    </plurals>
+    <plurals name="cognac_close_status_message_text_for_feed_multiple_player_third_person">
+        <item quantity="other">%1$s dan %2$d orang lainnya bermain %3$s</item>
+    </plurals>
+    <plurals name="cognac_cypress_close_status_message_multiple_player_second_person">
+        <item quantity="other">Kamu, %1$s, dan %2$d lainnya menggunakan %3$s</item>
+    </plurals>
+    <plurals name="cognac_cypress_close_status_message_multiple_player_third_person">
+        <item quantity="other">%1$s, %2$s, dan %3$d lainnya menggunakan %4$s</item>
+    </plurals>
+    <plurals name="cognac_cypress_close_status_message_text_for_feed_multiple_player_third_person">
+        <item quantity="other">%1$s dan %2$d lainnya menggunakan %3$s</item>
+    </plurals>
+    <plurals name="cognac_friend_picker_ringing_text_multiple_players">
+        <item quantity="other">Memanggil %1$s dan %2$d lainnya...</item>
+    </plurals>
+    <plurals name="comments_collapse_child_comments">
+        <item quantity="other">Sembunyikan balasan</item>
+    </plurals>
+    <plurals name="comments_expand_child_comments">
+        <item quantity="other">Tampilkan %s balasan</item>
+    </plurals>
+    <plurals name="comments_header_with_live_comment_count">
+        <item quantity="other">%s Komentar</item>
+    </plurals>
+    <plurals name="content_detail_new_count">
+        <item quantity="other">%1$d baru</item>
+    </plurals>
+    <plurals name="content_detail_seen_text">
+        <item quantity="other">%1$d Akan Diimpor</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="other">%d hari</item>
+    </plurals>
+    <plurals name="days_abbreviated">
+        <item quantity="other">%d hari</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated">
+        <item quantity="other">%d hari lalu</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_camera_roll">
+        <item quantity="other">%1$d hari lalu dari Rol Kamera</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_chat">
+        <item quantity="other">%1$d hari lalu dari Obrolan</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_cheerios">
+        <item quantity="other">%1$dh yang lalu dari Pixy</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d hari lalu dari %2$s</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_memories">
+        <item quantity="other">%1$d hari lalu dari Memori</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_spectacles">
+        <item quantity="other">%1$d hari lalu dari Spectacles</item>
+    </plurals>
+    <plurals name="days_ago_update">
+        <item quantity="other">Diperbarui %1$s hari yang lalu</item>
+    </plurals>
+    <plurals name="discard_batch_capture_description">
+        <item quantity="other">Yakin ingin menghapus Multi Snap-mu? %1$d Snap yang belum tersimpan akan hilang.</item>
+    </plurals>
+    <plurals name="display_username_explanation_changed_username_too_recently">
+        <item quantity="other">Kamu menggati nama pengguna pada %1$s.Kamu bisa menggantinya lagi dalam %2$d hari.</item>
+    </plurals>
+    <plurals name="failed_to_save_multiple_snaps">
+        <item quantity="other">Gagal menyimpan %1$d snap</item>
+    </plurals>
+    <plurals name="formatted_short_ft">
+        <item quantity="other">%d kaki</item>
+    </plurals>
+    <plurals name="formatted_short_km">
+        <item quantity="other">%d km</item>
+    </plurals>
+    <plurals name="formatted_short_m">
+        <item quantity="other">%d m</item>
+    </plurals>
+    <plurals name="formatted_short_mile">
+        <item quantity="other">%d mil</item>
+    </plurals>
+    <plurals name="friending_progress_bar_secondary">
+        <item quantity="other">Kirim %1$s permintaan teman lagi!</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_description_items">
+        <item quantity="other">Item kamu berhasil ditambahkan ke Khusus Saya. Apakah kamu ingin menghapus file aslinya dari Rol Kamera?</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_description_photos">
+        <item quantity="other">Foto kamu berhasil ditambahkan ke Khusus Saya. Apakah kamu ingin menghapus file aslinya dari Rol Kamera?</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_description_videos">
+        <item quantity="other">Video kamu berhasil ditambahkan ke Khusus Saya. Apakah kamu ingin menghapus file aslinya dari Rol Kamera?</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_title">
+        <item quantity="other">Hapus yang Asli</item>
+    </plurals>
+    <plurals name="gallery_private_rate_limit_minutes_time_out">
+        <item quantity="other">"
+Coba lagi dalam %1$d menit."</item>
+    </plurals>
+    <plurals name="gauge_altitude_unit_feet">
+        <item quantity="other">%d kaki</item>
+    </plurals>
+    <plurals name="gauge_altitude_unit_meters">
+        <item quantity="other">%d m</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%d jam</item>
+    </plurals>
+    <plurals name="hours_abbreviated">
+        <item quantity="other">%d jam</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%d jam</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated">
+        <item quantity="other">%d jam lalu</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_camera_roll">
+        <item quantity="other">%1$d jam lalu dari Rol Kamera</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_chat">
+        <item quantity="other">%1$d jam lalu dari Obrolan</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_cheerios">
+        <item quantity="other">%1$djam yang lalu dari Pixy</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d jam lalu dari %2$s</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_memories">
+        <item quantity="other">%1$d jam lalu dari Memori</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_spectacles">
+        <item quantity="other">%1$d jam lalu dari Spectacles</item>
+    </plurals>
+    <plurals name="hours_ago_update">
+        <item quantity="other">Diperbarui %1$s jam yang lalu</item>
+    </plurals>
+    <plurals name="last_seen_here_hours">
+        <item quantity="other">Terakhir dilihat di sini %d jam lalu</item>
+    </plurals>
+    <plurals name="last_seen_here_minutes">
+        <item quantity="other">Terakhir dilihat di sini %d menit lalu</item>
+    </plurals>
+    <plurals name="live_location_chat_hours_remaining">
+        <item quantity="other">%d jam</item>
+    </plurals>
+    <plurals name="live_location_description_existing_sessions">
+        <item quantity="other">Kamu akan membagikan lokasi saat ini kepada teman di grup ini. %d teman sudah bisa melihat Lokasi Terkini kamu.</item>
+    </plurals>
+    <plurals name="live_location_duration_hr">
+        <item quantity="other">%d Jam</item>
+    </plurals>
+    <plurals name="live_location_duration_min">
+        <item quantity="other">%d Menit</item>
+    </plurals>
+    <plurals name="live_location_share_group_description">
+        <item quantity="other">Kamu akan membagikan Lokasi Terkini kepada teman di grup ini. %d anggota tidak akan menerima lokasimu karena tidak berteman denganmu.</item>
+    </plurals>
+    <plurals name="live_location_with_friends">
+        <item quantity="other">bersama %d teman</item>
+    </plurals>
+    <plurals name="location_upsell_description_specific_friends_more_than_four">
+        <item quantity="other">%1$s, %2$s, %3$s, dan %4$d temanmu ada di Peta!</item>
+    </plurals>
+    <plurals name="locked_lens_friending_banner_countdown_timer_hours">
+        <item quantity="other">%1$d jam</item>
+    </plurals>
+    <plurals name="locked_lens_friending_banner_countdown_timer_minutes">
+        <item quantity="other">%1$d mnt</item>
+    </plurals>
+    <plurals name="locked_lens_friending_banner_countdown_timer_seconds">
+        <item quantity="other">%1$ddtk</item>
+    </plurals>
+    <plurals name="map_group_card_subtext_friend_sharing">
+        <item quantity="other">%1$d teman berbagi</item>
+    </plurals>
+    <plurals name="map_passport_and_other">
+        <item quantity="other">dan %d lainnya</item>
+    </plurals>
+    <plurals name="map_passport_bucket_cities_title">
+        <item quantity="other">Kota</item>
+    </plurals>
+    <plurals name="map_passport_bucket_countries_title">
+        <item quantity="other">Negara</item>
+    </plurals>
+    <plurals name="map_passport_bucket_places_title">
+        <item quantity="other">Tempat</item>
+    </plurals>
+    <plurals name="map_widget_days_ago">
+        <item quantity="other">%d hari</item>
+    </plurals>
+    <plurals name="media_export_service_batch_export_failure">
+        <item quantity="other">%1$d dari %2$d Snap berhasil diekspor. %3$d Snap gagal diekspor.</item>
+    </plurals>
+    <plurals name="media_export_service_processing">
+        <item quantity="other">Mengekspor %1$d dari %2$d Snap...</item>
+    </plurals>
+    <plurals name="media_export_service_success">
+        <item quantity="other">Snapmu berhasil diekspor!</item>
+    </plurals>
+    <plurals name="memories_camera_select_limit_error">
+        <item quantity="other">Maaf, hanya %d item yang dapat dipilih dalam sekali waktu.</item>
+    </plurals>
+    <plurals name="memories_delete_camera_roll_image_body">
+        <item quantity="other">Gambar ini akan dihapus dari perangkat kamu</item>
+    </plurals>
+    <plurals name="memories_delete_camera_roll_mixed_body">
+        <item quantity="other">Item ini akan dihapus dari perangkat kamu</item>
+    </plurals>
+    <plurals name="memories_delete_camera_roll_video_body">
+        <item quantity="other">Video ini akan dihapus dari perangkat kamu</item>
+    </plurals>
+    <plurals name="memories_delete_snap_body">
+        <item quantity="other">Hapus Snap?</item>
+    </plurals>
+    <plurals name="memories_delete_story_body">
+        <item quantity="other">Hapus Cerita?</item>
+    </plurals>
+    <plurals name="memories_export_error">
+        <item quantity="other">Tidak Dapat Mengekspor Snap!</item>
+    </plurals>
+    <plurals name="memories_favorite_snaps_story_added">
+        <item quantity="other">%d Snap ditambahkan ke Cerita Favoritmu</item>
+    </plurals>
+    <plurals name="memories_favorite_snaps_story_removed">
+        <item quantity="other">%d Snap dihapus dari Cerita Favoritmu</item>
+    </plurals>
+    <plurals name="memories_featured_story_flashback_diff_date_subtext">
+        <item quantity="other">%1$d Tahun Lalu</item>
+    </plurals>
+    <plurals name="memories_featured_story_flashback_same_date_subtext">
+        <item quantity="other">Hari Ini, %1$d Tahun Lalu</item>
+    </plurals>
+    <plurals name="memories_featured_story_trip_flashback_chat_prefill_snap">
+        <item quantity="other">%1$s, %2$d Tahun Lalu</item>
+    </plurals>
+    <plurals name="memories_featured_story_trip_flashback_chat_prefill_story">
+        <item quantity="other">Dari %1$d Tahun Lalu</item>
+    </plurals>
+    <plurals name="memories_hide_legacy_auto_saves">
+        <item quantity="other">Snap dari Cerita ini akan tetap tersedia di Halaman Ceritaku yang baru milikmu. Cerita yang kamu buat dan edit tidak akan terpengaruh.</item>
+    </plurals>
+    <plurals name="memories_hide_legacy_auto_saves_title">
+        <item quantity="other">Hapus %d Cerita otomatis tersimpan yang lama?</item>
+    </plurals>
+    <plurals name="memories_print_print_created">
+        <item quantity="other">%d cetakan 3D berhasil dibuat.</item>
+    </plurals>
+    <plurals name="memories_print_processing">
+        <item quantity="other">Memproses %d Snap untuk Dicetak...</item>
+    </plurals>
+    <plurals name="memories_remove_older_stories_dialog_title">
+        <item quantity="other">Ini akan menghapus %d Cerita lama yang disimpan otomatis.</item>
+    </plurals>
+    <plurals name="memories_select_limit_error">
+        <item quantity="other">Maaf, hanya %d Snap yang dapat dipilih dalam sekali waktu.</item>
+    </plurals>
+    <plurals name="memories_status_transfer_complete_in_app_notification_text">
+        <item quantity="other">%1$d Mengimpor Snap dari %2$s</item>
+    </plurals>
+    <plurals name="memories_status_transfer_complete_title">
+        <item quantity="other">Impor %d Snap!</item>
+    </plurals>
+    <plurals name="memories_status_transfer_from_device_complete_title">
+        <item quantity="other">Snap Baru dari %s</item>
+    </plurals>
+    <plurals name="memories_status_transferring_title">
+        <item quantity="other">Mengimpor %1$d dari %2$d Snap…</item>
+    </plurals>
+    <plurals name="memories_story_editor_add_snap_selected">
+        <item quantity="other">%d Dipilih</item>
+    </plurals>
+    <plurals name="minutes_abbreviated">
+        <item quantity="other">%d mnt</item>
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="other">%d mnt</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated">
+        <item quantity="other">%d menit lalu</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_camera_roll">
+        <item quantity="other">%1$d menit lalu dari Rol Kamera</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_chat">
+        <item quantity="other">%1$dmenit lalu dari Obrolan</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_cheerios">
+        <item quantity="other">%1$dmnt yang lalu dari Pixy</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$dmenit lalu dari %2$s</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_memories">
+        <item quantity="other">%1$d menit lalu dari Memori</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_spectacles">
+        <item quantity="other">%1$d menit lalu dari Spectacles</item>
+    </plurals>
+    <plurals name="minutes_ago_update">
+        <item quantity="other">Diperbarui %1$s menit yang lalu</item>
+    </plurals>
+    <plurals name="months_abbreviated">
+        <item quantity="other">%d bln</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated">
+        <item quantity="other">%d bln lalu</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_camera_roll">
+        <item quantity="other">%1$d bln lalu dari Rol Kamera</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_chat">
+        <item quantity="other">%1$d bln lalu dari Obrolan</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_cheerios">
+        <item quantity="other">%1$db yang lalu dari Pixy</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d bln lalu dari %2$s</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_memories">
+        <item quantity="other">%1$d bln lalu dari Memori</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_spectacles">
+        <item quantity="other">%1$d bln lalu dari Spectacles</item>
+    </plurals>
+    <plurals name="months_ago_update">
+        <item quantity="other">Diperbarui %1$s bulan yang lalu</item>
+    </plurals>
+    <plurals name="more_stories">
+        <item quantity="other">%d Cerita Lainnya</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d notifikasi baru</item>
+        <item quantity="one">%d notifikasi baru</item>
+    </plurals>
+    <plurals name="muted_stories">
+        <item quantity="other">%d Cerita yang Disembunyikan</item>
+    </plurals>
+    <plurals name="new_registration_continue_with_n_friends">
+        <item quantity="other">Tambahkan %d Teman</item>
+    </plurals>
+    <plurals name="num_hours">
+        <item quantity="other">%d jam</item>
+    </plurals>
+    <plurals name="num_minutes">
+        <item quantity="other">%d mnt</item>
+    </plurals>
+    <plurals name="nyc_audience_many_and_x_others">
+        <item quantity="other">%1$s+%2$d lainnya</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_ft">
+        <item quantity="other">kaki</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_km">
+        <item quantity="other">km</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_m">
+        <item quantity="other">m</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_mile">
+        <item quantity="other">mil</item>
+    </plurals>
+    <plurals name="nyc_friends_many_and_x_others">
+        <item quantity="other">%1$s dan %2$s sudah membagikan Lokasi Terkini mereka kepadamu</item>
+    </plurals>
+    <plurals name="nyc_sharing_live_location_with_friends">
+        <item quantity="other">"Kamu berbagi lokasi terkini dengan %1$s teman. "</item>
+    </plurals>
+    <plurals name="nyc_unhide_live_location_friend_dialog_title">
+        <item quantity="other">Kamu menyembunyikan Lokasi Terkini dari %1$d teman lainnya.</item>
+    </plurals>
+    <plurals name="pairing_validation_description">
+        <item quantity="other">Terdapat %d Snap dari pengguna sebelumnya di Pixy-mu. Melakukan pemasangan dengan perangkat ini akan mengatur ulang perangkat serta menghapus semua Snap dan data pengguna.</item>
+    </plurals>
+    <plurals name="payments_num_purchased_items">
+        <item quantity="other">%d item</item>
+    </plurals>
+    <plurals name="pending_syncs_logout_warning">
+        <item quantity="other">%1$d Snap belum dicadangkan ke Memori. Jika kamu keluar sekarang, Snap ini bisa hilang.</item>
+    </plurals>
+    <plurals name="perception_lens_collection_scan_card_lenses_count">
+        <item quantity="other">%d lensa</item>
+    </plurals>
+    <plurals name="perception_lenses_scan_card_try_lenses">
+        <item quantity="other">Coba Lensa (%d)</item>
+    </plurals>
+    <plurals name="play_with_max_player_alert_text">
+        <item quantity="other">Game hanya memperbolehkan %1$d pemain</item>
+    </plurals>
+    <plurals name="post_pairing_import_title">
+        <item quantity="other">%d Snap Baru</item>
+    </plurals>
+    <plurals name="registration_continue_with_n_friends">
+        <item quantity="other">+ Tambahkan %d Teman</item>
+    </plurals>
+    <plurals name="save_button_tooltip_saved_multiple">
+        <item quantity="other">%1$d Snap tersimpan!</item>
+    </plurals>
+    <plurals name="saved_media_gallery_attribution_media_count">
+        <item quantity="other">%s Snap</item>
+    </plurals>
+    <plurals name="seconds_abbreviated">
+        <item quantity="other">%ddtk</item>
+    </plurals>
+    <plurals name="seconds_ago">
+        <item quantity="other">%ddtk</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated">
+        <item quantity="other">%d detik lalu</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_camera_roll">
+        <item quantity="other">%1$d detik lalu dari Rol Kamera</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_chat">
+        <item quantity="other">%1$d detik lalu dari Obrolan</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_cheerios">
+        <item quantity="other">%1$ddtk yang lalu dari Pixy</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d detik lalu dari %2$s</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_memories">
+        <item quantity="other">%1$d detik lalu dari Memori</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_spectacles">
+        <item quantity="other">%1$d detik lalu dari Spectacles</item>
+    </plurals>
+    <plurals name="seconds_ago_update">
+        <item quantity="other">Diperbarui %1$s detik yang lalu</item>
+    </plurals>
+    <plurals name="select_friend_friend">
+        <item quantity="other">%1$d teman</item>
+    </plurals>
+    <plurals name="select_friend_other">
+        <item quantity="other">%1$s &amp; %2$d lainnya</item>
+    </plurals>
+    <plurals name="settings_birthday_update_years_old">
+        <item quantity="other">Umurku %d tahun.</item>
+    </plurals>
+    <plurals name="snap_timer_selection_units">
+        <item quantity="other">detik</item>
+    </plurals>
+    <plurals name="snaps_count">
+        <item quantity="other">%1$d Snap</item>
+    </plurals>
+    <plurals name="spectacles_export_customization_description">
+        <item quantity="other">Bagaimana kamu ingin mengekspor Snapmu?</item>
+    </plurals>
+    <plurals name="spotlight_comments_count_notification_title">
+        <item quantity="other">%d komentar Spotlight tertunda!</item>
+    </plurals>
+    <plurals name="status_views">
+        <item quantity="other">%d kali Dilihat</item>
+    </plurals>
+    <plurals name="still_sharing_last_active_location_description">
+        <item quantity="other">"Lokasi Aktif Saat Ini disembunyikan tetapi %1$s teman masih bisa melihat Lokasi Aktif Terakhir kamu.
+
+ Kamu bisa mengubahnya di Pengaturan Peta."</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_change_audience">
+        <item quantity="other">Pengaturan lokasi sudah tersimpan, tetapi %1$s temanmu masih dapat melihat Lokasi Saat Ini-mu. Untuk berhenti berbagi, ketuk “Hentikan” di samping nama temanmu.</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_enter_ghost_mode">
+        <item quantity="other">Kamu berada dalam Mode Hantu, tetapi %1$s temanmu masih dapat melihat Lokasi Saat Ini-mu. Untuk berhenti berbagi, ketuk “Hentikan” di samping nama temanmu.</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_enter_ghost_mode_ghost_trail">
+        <item quantity="other">"Kamu berada dalam Mode Hantu, tetapi %1$s temanmu masih bisa melihat Lokasimu Saat Ini kamu. Untuk berhenti berbagi, ketuk “Hentikan” di samping namanya.
+
+Lokasimu tidak akan ditambahkan ke Jejak Hantu saat kamu berada dalam Mode Hantu."</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_enter_ghost_mode_hide_live_location">
+        <item quantity="other">Kamu sedang dalam Mode Hantu tetapi %1$s temanmu masih bisa melihat Lokasi Saat Ini-mu. Untuk berhenti berbagi, ketuk “Sembunyikan Lokasi Saya Saat Ini” di bawah ini.</item>
+    </plurals>
+    <plurals name="story_friend_story_notification_title_update">
+        <item quantity="other">%d teman menambahkan ke Cerita mereka</item>
+    </plurals>
+    <plurals name="story_fullscreen_footer_view_count">
+        <item quantity="other">%d kali Dilihat</item>
+    </plurals>
+    <plurals name="story_management_viewer_list_more_viewers">
+        <item quantity="other">+ %1$d lebih banyak</item>
+    </plurals>
+    <plurals name="story_mob_subtext_more">
+        <item quantity="other">%1$s &amp; %2$d lainnya…</item>
+    </plurals>
+    <plurals name="story_profile_communities_members">
+        <item quantity="other">%d Anggota • Terverifikasi</item>
+    </plurals>
+    <plurals name="story_profile_shared_stories_members">
+        <item quantity="other">%d Anggota</item>
+    </plurals>
+    <plurals name="story_profile_stories_adding">
+        <item quantity="other">Menambahkan %d Snap...</item>
+    </plurals>
+    <plurals name="story_profile_stories_failed_to_add">
+        <item quantity="other">Gagal untuk menambahkan %d Snap</item>
+    </plurals>
+    <plurals name="story_profile_stories_waiting_to_add">
+        <item quantity="other">Menunggu untuk menambahkan %d Snap...</item>
+    </plurals>
+    <plurals name="story_settings_action_menu_my_story_blocked_number_of_people">
+        <item quantity="other">%d Orang</item>
+    </plurals>
+    <plurals name="streak_restore_dialog_subtitle_free_restore">
+        <item quantity="other">Kamu punya %1$d pemulihan gratis.</item>
+    </plurals>
+    <plurals name="streak_restore_dialog_subtitle_hours">
+        <item quantity="other">Kamu masih punya waktu %2$d jam untuk memulihkan Snapstreak dengan %1$s sebelum Snapstreak itu hilang secara permanen!</item>
+    </plurals>
+    <plurals name="streak_restore_dialog_subtitle_minutes">
+        <item quantity="other">Kamu masih punya waktu %2$d menit untuk memulihkan Snapstreak dengan %1$s sebelum Snapstreak itu hilang secara permanen!</item>
+    </plurals>
+    <plurals name="subtitle_sharing_custom_friends">
+        <item quantity="other">bersama %d Teman</item>
+    </plurals>
+    <plurals name="takeover_request_index_and_total">
+        <item quantity="other">%1$d dari %2$d Tambahan Teman Baru</item>
+    </plurals>
+    <plurals name="ticketmaster_events_label">
+        <item quantity="other">acara</item>
+    </plurals>
+    <plurals name="watched_stories">
+        <item quantity="other">%d Cerita Ditonton</item>
+    </plurals>
+    <plurals name="weeks">
+        <item quantity="other">%d minggu</item>
+    </plurals>
+    <plurals name="weeks_abbreviated">
+        <item quantity="other">%d minggu</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated">
+        <item quantity="other">%d minggu lalu</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_camera_roll">
+        <item quantity="other">%1$d minggu lalu dari Rol Kamera</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_chat">
+        <item quantity="other">%1$d minggu lalu dari Obrolan</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_cheerios">
+        <item quantity="other">%1$dm yang lalu dari Pixy</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d minggu lalu dari %2$s</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_memories">
+        <item quantity="other">%1$d minggu lalu dari Memori</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_spectacles">
+        <item quantity="other">%1$d minggu lalu dari Spectacles</item>
+    </plurals>
+    <plurals name="weeks_ago_update">
+        <item quantity="other">Diperbarui %1$s minggu yang lalu</item>
+    </plurals>
+    <plurals name="years_abbreviated">
+        <item quantity="other">%d thn</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated">
+        <item quantity="other">%d thn lalu</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_camera_roll">
+        <item quantity="other">%1$d thn lalu dari Rol Kamera</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_chat">
+        <item quantity="other">%1$d thn lalu dari Obrolan</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_cheerios">
+        <item quantity="other">%1$dt yang lalu dari Pixy</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d thn lalu dari %2$s</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_memories">
+        <item quantity="other">%1$d thn lalu dari Memori</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_spectacles">
+        <item quantity="other">%1$d thn lalu dari Spectacles</item>
+    </plurals>
+    <plurals name="years_ago_update">
+        <item quantity="other">Diperbarui %1$s tahun yang lalu</item>
+    </plurals>
+</resources>

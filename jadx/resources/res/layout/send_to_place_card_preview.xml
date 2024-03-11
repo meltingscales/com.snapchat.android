@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/send_to_place_card_preview" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.snap.ui.view.SnapFontEditText android:id="@+id/send_to_preview_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/default_gap" android:hint="@string/add_a_chat" style="@style/SendToAttachmentText"/>
+</LinearLayout>

@@ -1,0 +1,54 @@
+.class public final synthetic LAe0;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lio/reactivex/rxjava3/functions/BiFunction;
+
+
+# static fields
+.field public static final a:LAe0;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    .line 1
+    new-instance v0, LAe0;
+
+    .line 2
+    .line 3
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    sput-object v0, LAe0;->a:LAe0;
+
+    .line 7
+    .line 8
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 1
+
+    .line 1
+    check-cast p1, Ljava/util/HashMap;
+
+    .line 2
+    .line 3
+    new-instance v0, LSaf;
+
+    .line 4
+    .line 5
+    invoke-direct {v0, p1, p2}, LSaf;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+
+    .line 6
+    .line 7
+    .line 8
+    return-object v0
+.end method

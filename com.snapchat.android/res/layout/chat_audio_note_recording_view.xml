@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.ui.messaging.chatitem.VoiceNoteRecordingView android:id="@id/chat_audio_note_recording_view" android:visibility="gone" android:layout_width="@dimen/chat_audio_note_recording_preview_with_ring_diameter" android:layout_height="@dimen/chat_audio_note_recording_preview_with_ring_diameter" android:layout_above="@id/chat_input_bar"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

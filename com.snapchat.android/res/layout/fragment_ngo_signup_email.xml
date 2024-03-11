@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/signup_set_email_page" android:background="?sigColorBackgroundMain" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/ngo_top_bar" />
+    <LinearLayout android:orientation="vertical" android:id="@id/content_holder" android:layout_width="fill_parent" android:layout_height="wrap_content" custom:layout_constraintBottom_toTopOf="@id/continue_button" custom:layout_constraintLeft_toLeftOf="parent" custom:layout_constraintRight_toRightOf="parent" custom:layout_constraintTop_toBottomOf="@id/top_bar">
+        <com.snap.ui.view.SnapFontTextView android:id="@id/email_label" android:text="@string/email_label" style="@style/NgoIdentityFieldHint" />
+        <com.snap.ui.view.SnapEmailEditText android:id="@id/email_field" android:layout_width="fill_parent" android:layout_height="@dimen/ui_element_unit" android:layout_marginTop="@dimen/default_gap" android:maxLines="1" android:inputType="textEmailAddress" style="@style/NgoIdentityField" />
+        <com.snap.ui.view.SnapFontTextView android:id="@id/signup_with_phone_instead" android:layout_marginTop="@dimen/default_gap" android:text="@string/ngo_signup_with_phone" style="@style/NgoIdentityLinkText" />
+        <com.snap.ui.view.SnapFontTextView android:id="@id/email_error_message" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/IdentityFieldError" />
+    </LinearLayout>
+    <com.snap.identity.api.sharedui.ProgressButton android:layout_gravity="center_horizontal" android:id="@id/continue_button" custom:layout_constraintBottom_toTopOf="@id/suggested_email_domains" custom:layout_constraintLeft_toLeftOf="parent" custom:layout_constraintRight_toRightOf="parent" style="@style/LoginSignupButton" />
+    <HorizontalScrollView android:layout_gravity="center_horizontal" android:id="@id/suggested_email_domains" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/default_gap" android:layout_marginStart="@dimen/default_gap" custom:layout_constraintBottom_toBottomOf="parent" custom:layout_constraintLeft_toLeftOf="parent" custom:layout_constraintRight_toRightOf="parent">
+        <LinearLayout android:orientation="horizontal" android:id="@id/suggested_email_domain_list" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </HorizontalScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

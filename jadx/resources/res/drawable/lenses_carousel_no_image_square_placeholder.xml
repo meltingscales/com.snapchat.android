@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/sig_color_flat_pure_white_any_alpha_25"/>
+            <corners android:radius="@dimen/lens_camera_mini_carousel_square_item_corner_radius"/>
+        </shape>
+    </item>
+</layer-list>

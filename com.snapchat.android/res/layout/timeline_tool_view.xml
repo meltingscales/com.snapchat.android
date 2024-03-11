@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/timeline_thumbnail_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/send_to_bottom_panel_height" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    <ImageButton android:layout_gravity="end|bottom|center" android:id="@id/timeline_thumbnail_done_button" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/default_gap_3x" android:src="@drawable/svg_timeline_edit_finish" android:layout_marginEnd="@dimen/default_gap" app:layout_constraintBottom_toBottomOf="@id/timeline_thumbnail_container" app:layout_constraintStart_toEndOf="@id/timeline_thumbnail_container" />
+</androidx.constraintlayout.widget.ConstraintLayout>

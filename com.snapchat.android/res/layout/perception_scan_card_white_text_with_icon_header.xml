@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/scan_card_white_text_and_icon_header_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_gap" android:layout_marginBottom="@dimen/default_gap"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/scan_card_white_header_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/default_gap">
+        <com.snap.imageloading.view.SnapImageView android:layout_gravity="center_vertical" android:id="@id/scan_card_white_header_icon" android:layout_width="wrap_content" android:layout_height="@dimen/perception_scan_cards_header_height" android:scaleType="fitCenter" android:layout_marginEnd="@dimen/default_gap" />
+        <com.snap.ui.view.SnapFontTextView android:layout_gravity="start" android:id="@id/scan_card_white_header_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" style="@style/TextAppearance.Heading2.White" />
+    </LinearLayout>
+    <com.snap.ui.view.SnapFontTextView android:layout_gravity="start" android:id="@id/scan_card_white_subtitle_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextAppearance.Heading4" />
+</LinearLayout>

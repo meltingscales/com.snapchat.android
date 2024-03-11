@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="start" android:id="@id/contextual_header_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.snap.imageloading.view.SnapImageView android:layout_gravity="center" android:id="@id/header_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/icon_size_extra_extra_smaller" android:src="@drawable/chat_action_menu_chat_reply_filled" android:layout_marginStart="@dimen/default_gap_half" />
+    <com.snap.messaging.chat.ui.viewbinding.SnapLabelNameView android:id="@id/context_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/default_gap_half" style="@style/chat_context_text" />
+</LinearLayout>

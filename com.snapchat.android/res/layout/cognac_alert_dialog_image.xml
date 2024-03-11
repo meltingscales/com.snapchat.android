@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.imageloading.view.SnapImageView android:layout_width="@dimen/cognac_alert_dialog_image_size" android:layout_height="@dimen/cognac_alert_dialog_image_size"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

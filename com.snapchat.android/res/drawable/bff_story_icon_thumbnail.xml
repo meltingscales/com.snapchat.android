@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/bff_story_icon_thumbnail_background" />
+    <item android:drawable="@drawable/svg_stories_bff_story_icon" android:left="@dimen/bff_story_icon_padding_left" android:top="@dimen/bff_story_icon_padding_top" android:right="@dimen/bff_story_icon_padding_right" android:bottom="@dimen/bff_story_icon_padding_bottom" />
+</layer-list>

@@ -1,0 +1,6 @@
+package defpackage;
+
+/* renamed from: gN2  reason: default package and case insensitive filesystem */
+/* loaded from: classes5.dex */
+public interface InterfaceC26255gN2 extends InterfaceC34120lTa {
+}

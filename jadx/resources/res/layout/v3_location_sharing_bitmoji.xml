@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" android:background="@drawable/settings_all_round_corners" android:paddingTop="@dimen/default_gap" android:paddingBottom="@dimen/default_gap" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/default_gap_2x" android:paddingEnd="@dimen/default_gap_2x" android:elevation="@dimen/simple_card_elevation">
+    <com.snap.ui.view.SnapFontTextView android:textSize="?attr/v11Title2TextSize" android:textColor="?attr/sigColorTextPrimary" android:layout_gravity="start|center_vertical" android:id="@+id/action_name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/settings_item_name"/>
+    <ImageView android:layout_gravity="end|center_vertical" android:id="@+id/grey_right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</FrameLayout>

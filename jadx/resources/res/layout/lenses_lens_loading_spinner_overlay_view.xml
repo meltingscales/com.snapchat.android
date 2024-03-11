@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.lenses.loadingoverlay.DefaultLoadingSpinnerOverlayView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.snap.ui.view.LoadingSpinnerView android:layout_gravity="center_horizontal" android:id="@+id/lens_loading_spinner_view" android:layout_width="@dimen/default_gap_5x" android:layout_height="@dimen/default_gap_5x" app:loading_spinner_color="@color/sig_color_flat_pure_white_any"/>
+</com.snap.lenses.loadingoverlay.DefaultLoadingSpinnerOverlayView>

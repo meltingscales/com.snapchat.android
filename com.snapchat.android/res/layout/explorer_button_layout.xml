@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="end|bottom|center" android:id="@id/memories_button" android:background="@drawable/explorer_button_background" android:padding="@dimen/hova_nav_explorer_button_icon_padding" android:layout_width="@dimen/hova_nav_explorer_button_size" android:layout_height="@dimen/hova_nav_explorer_button_size" android:layout_marginRight="@dimen/hova_nav_explorer_button_icon_margin_right" android:layout_marginBottom="@dimen/hova_nav_explorer_button_icon_margin_bottom" android:src="@drawable/svg_lens_explorer_stared_entry_point" />
+</FrameLayout>

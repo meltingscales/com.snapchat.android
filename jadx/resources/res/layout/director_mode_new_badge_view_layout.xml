@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="end" android:orientation="vertical" android:id="@+id/director_mode_new_badge_view" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.snap.ui.view.ShadowTextView android:textColor="@color/sig_color_base_faded_black_any" android:background="@drawable/director_mode_new_badge_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/camera_director_mode_new_badge_label" style="@style/camera_mode_text"/>
+    <com.snap.ui.view.ShadowTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/camera_director_mode_new_badge_text" style="@style/camera_mode_text"/>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" android:orientation="vertical" style="@style/avatar_picker_page">
+    <View android:id="@+id/statusbar_inset" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="0dp"/>
+    <com.snap.component.header.SnapSubscreenHeaderView android:id="@+id/screen_header" android:layout_width="match_parent" android:layout_height="wrap_content" custom:input_field_hint_text="@string/avatar_picker_search" style="@style/avatar_picker_page_header_default_with_search"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/avatar_picker_recycler_view" android:paddingBottom="@dimen/default_gap_2x" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginStart="@dimen/default_gap_2x" android:layout_marginEnd="@dimen/default_gap_2x"/>
+        <com.snap.ui.view.scrollbar.SnapScrollBar android:layout_gravity="end" android:id="@+id/scroll_bar" android:paddingTop="@dimen/default_gap_half" android:paddingRight="@dimen/default_gap_half" android:paddingBottom="@dimen/default_gap" android:visibility="gone" android:clickable="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="match_parent"/>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.framework.ui.views.RoundedFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="wrap_content" android:layout_height="wrap_content" app:corner_radius="@dimen/default_gap">
+    <com.snap.imageloading.view.SnapImageView android:id="@+id/snap_thumbnail" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+    <ViewStub android:layout_gravity="start|top" android:id="@+id/snap_thumbnail_badge" android:layout="@layout/topic_page_snap_thumbnail_badge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_gap" android:layout_marginStart="@dimen/default_gap"/>
+</com.snap.framework.ui.views.RoundedFrameLayout>

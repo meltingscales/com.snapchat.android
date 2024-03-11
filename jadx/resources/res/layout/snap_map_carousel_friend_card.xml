@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="start|center_vertical" android:layout_gravity="bottom|center_horizontal" android:orientation="horizontal" android:background="@drawable/carousel_rounded_white_corners" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/map_host_carousel_card_height" android:elevation="1dp">
+    <com.snap.ui.avatar.AvatarView android:id="@+id/friend_bitmoji" android:layout_width="36dp" android:layout_height="36dp" android:layout_marginTop="4dp" android:layout_marginBottom="4dp" android:layout_marginStart="4dp" android:layout_marginEnd="@dimen/default_gap_half"/>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.snap.ui.view.SnapFontTextView android:textSize="?attr/v11Subtitle3TextSize" android:textColor="?attr/sigColorTextPrimary" android:id="@+id/friend_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" app:scFontWeight="1"/>
+        <com.snap.ui.view.SnapFontTextView android:textSize="?attr/v11Subtitle4TextSize" android:textColor="@color/sig_color_base_bitmoji_green_any" android:id="@+id/friend_status" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/standalone_carousel_top_margin" android:singleLine="true"/>
+        <com.snap.ui.view.SnapFontTextView android:textSize="?attr/v11Subtitle4TextSize" android:textColor="?attr/colorGray50" android:id="@+id/friend_timestamp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/standalone_carousel_top_margin" android:singleLine="true"/>
+    </LinearLayout>
+</LinearLayout>

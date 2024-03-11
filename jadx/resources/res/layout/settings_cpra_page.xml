@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/settings_lockscreen_to_snap" android:background="?attr/sigColorBackgroundSubscreen" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.snap.component.header.SnapSubscreenHeaderView android:id="@+id/settings_cpra_header" app:header_background="?attr/sigColorBackgroundMain" app:header_style="back" app:title_text="@string/settings_cpra_header" style="@style/subscreen_header_back"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/cpra_settings_section" android:background="?attr/sigColorBackgroundSurface" android:clickable="true" style="@style/new_settings_item_outer">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="5">
+                <com.snap.ui.view.SnapFontTextView android:layout_gravity="start" android:paddingTop="4dp" android:text="@string/settings_cpra_title" style="@style/new_settings_item_name"/>
+                <com.snap.ui.view.SnapFontTextView android:textSize="@dimen/text_size_fine_print" android:textColor="?attr/sigColorTextTertiary" android:paddingTop="4dp" android:paddingBottom="4dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/settings_cpra_description"/>
+            </LinearLayout>
+            <com.snap.component.button.SnapSwitch android:layout_gravity="end|top" android:id="@+id/settings_cpra_switch" android:paddingTop="4dp" android:clickable="true" android:layout_width="0dp" android:checked="false" android:layout_weight="1" style="@style/new_settings_item_name"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

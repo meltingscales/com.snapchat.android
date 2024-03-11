@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="@dimen/zoom_view_group_layout_width" android:layout_height="@dimen/zoom_view_group_layout_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/zoom_view_text_size" android:textColor="@color/sig_color_flat_pure_white_any" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/zoom_button_text_view" android:background="@drawable/zoom_circle_background" android:layout_width="@dimen/zoom_view_button_size" android:layout_height="@dimen/zoom_view_button_size" android:layout_marginBottom="@dimen/zoom_view_button_bottom_margin" android:text=".5x" app:fontFamily="@string/typeface_avenir_next_bold" />
+</FrameLayout>

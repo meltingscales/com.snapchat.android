@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/poll_result_title" />
+    <FrameLayout android:id="@id/first_option_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_gap_half" app:layout_constraintBottom_toBottomOf="@id/second_option_container" app:layout_constraintEnd_toStartOf="@id/second_option_container" app:layout_constraintHorizontal_bias="0.5" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/second_option_container">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/poll_option_background" />
+        <com.snap.ui.view.emoji.SnapEmojiTextView android:id="@id/first_option_textview" style="@style/PollResultEmojiStyle" />
+        <com.snap.ui.view.SnapFontTextView android:id="@id/first_option_result_textview" style="@style/PollResultLabelStyle" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="center" android:id="@id/second_option_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/default_gap" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.5" app:layout_constraintStart_toEndOf="@id/first_option_container" app:layout_constraintTop_toBottomOf="@id/poll_result_sticker_title_textview">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/poll_option_winner_background" />
+        <com.snap.ui.view.emoji.SnapEmojiTextView android:id="@id/second_option_textview" style="@style/PollResultWinningEmojiStyle" />
+        <com.snap.ui.view.SnapFontTextView android:id="@id/second_option_result_textview" style="@style/PollResultWinningLabelStyle" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

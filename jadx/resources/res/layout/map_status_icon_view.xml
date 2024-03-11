@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/map_status_icon" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <View android:id="@+id/tray_white_circle_background" style="@style/map_tray_white_circle_style"/>
+    <View android:id="@+id/grey_circle_background" style="@style/map_grey_circle_style"/>
+    <com.snap.ui.avatar.AvatarView android:id="@+id/avatar_view" android:layout_width="@dimen/map_tray_buttons_size" android:layout_height="@dimen/map_tray_buttons_size" android:layout_centerInParent="true"/>
+</RelativeLayout>

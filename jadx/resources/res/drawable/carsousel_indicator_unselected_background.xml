@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <gradient android:startColor="@color/sig_color_flat_pure_black_any" android:endColor="@android:color/transparent" android:angle="0" android:type="radial" android:gradientRadius="@dimen/carousel_indicator_radius"/>
+        </shape>
+    </item>
+    <item android:left="@dimen/single_dp" android:right="@dimen/single_dp" android:bottom="@dimen/carousel_indicator_shadow_offset">
+        <shape android:shape="oval">
+            <solid android:color="@color/sig_color_flat_pure_white_any"/>
+        </shape>
+    </item>
+</layer-list>

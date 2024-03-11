@@ -1,0 +1,13 @@
+package defpackage;
+
+import io.reactivex.rxjava3.functions.Action;
+
+/* renamed from: DM0  reason: default package */
+/* loaded from: classes7.dex */
+public final class DM0 implements Action {
+    public static final DM0 a = new Object();
+
+    @Override // io.reactivex.rxjava3.functions.Action
+    public final void run() {
+    }
+}

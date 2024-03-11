@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient android:startColor="@color/bitmoji_gender_picker_background_start" android:endColor="@color/sig_color_base_bitmoji_green_any" android:angle="45"/>
+</shape>

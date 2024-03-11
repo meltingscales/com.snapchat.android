@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/cognac_status_bar_v2_button_container_corner_radius"/>
+            <solid android:color="@color/cognac_invite_friend_item_color"/>
+        </shape>
+    </item>
+    <item android:drawable="@drawable/svg_cognac_mini_menu_button_icon" android:left="18dp" android:top="10dp" android:right="18dp" android:bottom="10dp"/>
+</layer-list>

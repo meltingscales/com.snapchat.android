@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.maps.components.halfsheet.HalfSheetView android:id="@id/half_sheet" android:background="@drawable/half_sheet_bottom_background" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="0.0dip" android:elevation="@dimen/default_gap"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/handle" android:background="@drawable/half_sheet_bottom_background" android:layout_width="0.0dip" android:layout_height="@dimen/map_tray_handle_height" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/rounded_rectangle_top" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_begin="5.0dip" />
+        <View android:gravity="center" android:id="@id/rounded_rectangle" android:background="@drawable/half_sheet_handle_rounded_rectangle_background" android:layout_width="36.0dip" android:layout_height="6.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/rounded_rectangle_top" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.snap.maps.components.halfsheet.HalfSheetView>

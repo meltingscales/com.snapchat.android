@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="107dp" android:layout_height="wrap_content">
+    <include layout="@layout/lenses_explorer_feed_lens_default_contained_view"/>
+</FrameLayout>

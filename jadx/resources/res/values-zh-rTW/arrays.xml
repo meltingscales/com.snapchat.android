@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="dialog_menu_items_for_ghost_mode_durations">
+        <item>@string/nyc_ghost_mode_duration_3_hrs</item>
+        <item>@string/nyc_ghost_mode_duration_24_hrs</item>
+        <item>@string/nyc_ghost_mode_duration_forever</item>
+    </array>
+    <array name="dialog_menu_items_for_ghost_mode_durations_short">
+        <item>@string/nyc_ghost_mode_duration_15_secs</item>
+        <item>@string/nyc_ghost_mode_duration_1_minute</item>
+        <item>@string/nyc_ghost_mode_duration_5_minutes</item>
+        <item>@string/nyc_ghost_mode_duration_forever</item>
+    </array>
+    <array name="dialog_menu_items_for_map_settings_durations">
+        <item>@string/nyc_map_settings_duration_3_hrs</item>
+        <item>@string/nyc_map_settings_duration_24_hrs</item>
+        <item>@string/nyc_map_settings_duration_forever</item>
+    </array>
+    <array name="fashion_categories">
+        <item>@string/fashion_category_other</item>
+        <item>@string/fashion_category_top</item>
+        <item>@string/fashion_category_skirt</item>
+        <item>@string/fashion_category_pants</item>
+        <item>@string/fashion_category_dress</item>
+        <item>@string/fashion_category_shorts</item>
+        <item>@string/fashion_category_outerwear</item>
+        <item>@string/fashion_category_jumpsuit</item>
+    </array>
+</resources>

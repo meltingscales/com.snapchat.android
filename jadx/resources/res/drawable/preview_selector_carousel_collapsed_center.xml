@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
+    <stroke android:width="@dimen/selector_carousel_item_collapsed_stroke_width" android:color="@color/sig_color_base_faded_black_any"/>
+    <solid android:color="@color/sig_color_flat_pure_white_any"/>
+</shape>

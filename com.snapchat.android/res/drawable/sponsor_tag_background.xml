@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/sig_color_background_overlay_light" />
+    <padding android:left="@dimen/spotlight_sponsor_padding_horizontal" android:top="@dimen/spotlight_sponsor_padding_top" android:right="@dimen/spotlight_sponsor_padding_horizontal" android:bottom="@dimen/spotlight_sponsor_padding_bottom" />
+    <corners android:radius="@dimen/spotlight_sponsor_corner_radius" />
+</shape>

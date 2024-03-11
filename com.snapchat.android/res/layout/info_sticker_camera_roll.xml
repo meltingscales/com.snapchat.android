@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:padding="@dimen/camera_roll_sticker_container_padding" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/camera_roll_icon_placeholder" android:layout_width="@dimen/info_sticker_max_height" android:layout_height="@dimen/info_sticker_max_height" android:src="@drawable/svg_camera_roll_sticker_icon" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/camera_roll_icon_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/camera_roll_icon_bg_container" android:background="@drawable/camera_roll_sticker_background" android:layout_width="@dimen/camera_roll_sticker_thumbnail_width" android:layout_height="@dimen/camera_roll_sticker_thumbnail_height" android:rotation="8.0" android:layout_marginStart="@dimen/camera_roll_sticker_thumbnail_margin" app:layout_constraintStart_toStartOf="@id/camera_roll_icon_fg" app:layout_constraintTop_toTopOf="parent">
+            <ImageView android:layout_gravity="center" android:layout_width="@dimen/camera_roll_sticker_thumbnail_icon_size" android:layout_height="@dimen/camera_roll_sticker_thumbnail_icon_size" android:src="@drawable/svg_camera_roll_sticker_condensed" />
+        </FrameLayout>
+        <com.snap.imageloading.view.SnapImageView android:id="@id/camera_roll_icon_bg" android:visibility="gone" android:layout_width="@dimen/camera_roll_sticker_thumbnail_width" android:layout_height="@dimen/camera_roll_sticker_thumbnail_height" android:rotation="8.0" android:layout_marginStart="@dimen/camera_roll_sticker_thumbnail_margin" app:layout_constraintStart_toStartOf="@id/camera_roll_icon_fg" app:layout_constraintTop_toTopOf="parent" />
+        <com.snap.imageloading.view.SnapImageView android:id="@id/camera_roll_icon_fg" android:layout_width="@dimen/camera_roll_sticker_thumbnail_width" android:layout_height="@dimen/camera_roll_sticker_thumbnail_height" android:rotation="-8.0" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

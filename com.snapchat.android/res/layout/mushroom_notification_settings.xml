@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/notification_settings_page" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/enable_system_notifications_view" android:background="?sigColorBackgroundSubscreen" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.snap.ui.view.SnapFontTextView android:textSize="?v11Subtitle1TextSize" android:textColor="?sigColorTextSecondary" android:gravity="center" android:layout_gravity="center" android:id="@id/enable_system_notifications_description" android:background="@android:color/transparent" android:paddingTop="@dimen/default_gap_1_5x" android:paddingBottom="@dimen/default_gap_1_5x" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_notification_system_enable_body" android:paddingStart="@dimen/description_padding_horizontal" android:paddingEnd="@dimen/description_padding_horizontal" />
+        <com.snap.ui.view.button.ScButton android:textSize="@dimen/text_size_small" android:textStyle="bold" android:gravity="center" android:layout_gravity="center" android:id="@id/enable_system_notifications_button" android:paddingLeft="@dimen/default_gap" android:paddingRight="@dimen/default_gap" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:layout_marginBottom="@dimen/default_gap_1_5x" android:minWidth="@dimen/min_button_width" android:minHeight="@dimen/min_button_height" custom:scButtonColor="@color/sig_color_base_success_green_any" custom:scButtonColorPressed="@color/sig_color_base_green_dark_any" custom:scButtonText="@string/settings_notification_system_enable_yes_button" custom:scButtonTextColor="@color/sig_color_flat_pure_white_any" />
+    </LinearLayout>
+    <ScrollView android:id="@id/notification_settings_scrollview" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="4.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:id="@id/notification_options" layout="@layout/mushroom_notification_options" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

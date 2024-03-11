@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:id="@+id/spotlight_circular_background" android:shape="oval">
+            <gradient android:startColor="@android:color/transparent" android:endColor="@color/spotlight_gradient_background" android:angle="90" android:type="radial" android:gradientRadius="@dimen/spotlight_action_icon_size"/>
+            <size android:height="@dimen/spotlight_action_size" android:width="@dimen/spotlight_action_size"/>
+        </shape>
+    </item>
+</layer-list>

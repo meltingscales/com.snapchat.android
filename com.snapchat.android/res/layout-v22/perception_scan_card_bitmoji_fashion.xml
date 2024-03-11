@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.component.cards.SnapCardView android:layout_width="@dimen/perception_scan_card_bitmoji_image_width" android:layout_height="@dimen/perception_scan_card_bitmoji_image_height" android:layout_marginLeft="@dimen/default_gap_quarter" android:layout_marginTop="@dimen/default_gap" android:layout_marginRight="@dimen/default_gap_quarter" android:layout_marginBottom="@dimen/default_gap" android:layout_marginHorizontal="@dimen/default_gap_quarter" android:layout_marginVertical="@dimen/default_gap" app:cardCornerRadius="@dimen/perception_scan_cards_thumbnail_corner_radius"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.snap.imageloading.view.SnapImageView android:id="@id/scan_card_bitmoji_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/default_gap" android:scaleType="fitCenter" />
+</com.snap.component.cards.SnapCardView>

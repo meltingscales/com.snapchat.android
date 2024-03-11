@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.lenses.app.sharing.shareaction.DefaultLensesShareActionView android:padding="@dimen/lens_camera_carousel_share_button_round_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/svg_share_lens_button" android:scaleType="centerInside" android:minWidth="@dimen/lens_camera_carousel_share_button_round_size" android:minHeight="@dimen/lens_camera_carousel_share_button_round_size"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

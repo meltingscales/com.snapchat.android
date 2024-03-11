@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="24dp" android:width="24dp" android:viewportWidth="32" android:viewportHeight="32">
+    <path android:fillColor="@color/sig_color_text_on_primary_button_light" android:pathData="M21.398,7.268a1.75,1.75 0,0 1,2.49 0.003l0.112,0.124c0.566,0.695 0.514,1.707 -0.127,2.348l-5.828,5.826 5.828,5.828c0.641,0.641 0.694,1.653 0.119,2.358l-0.112,0.124c-0.686,0.686 -1.789,0.686 -2.481,-0.006l-5.828,-5.827 -5.827,5.827a1.75,1.75 0,0 1,-2.358 0.118l-0.132,-0.121 -0.112,-0.124c-0.566,-0.695 -0.514,-1.707 0.127,-2.348l5.827,-5.828 -5.827,-5.826c-0.641,-0.641 -0.694,-1.653 -0.119,-2.357l0.112,-0.124c0.686,-0.686 1.789,-0.686 2.481,0.006l5.827,5.827 5.828,-5.827zM21.398,7.268h0,0z" android:strokeColor="@color/sig_color_icon_primary_light" android:strokeWidth="0.5" android:strokeAlpha="0.404"/>
+</vector>

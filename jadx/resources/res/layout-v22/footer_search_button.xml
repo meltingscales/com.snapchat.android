@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginRight="4dp" android:layout_marginHorizontal="4dp">
+    <com.snap.imageloading.view.SnapImageView android:layout_gravity="center" android:id="@+id/footer_search_button" android:background="@drawable/map_footer_item_background" android:paddingLeft="10dp" android:paddingTop="5dp" android:paddingRight="10dp" android:paddingBottom="5dp" android:layout_width="42dp" android:layout_height="42dp" android:src="@drawable/svg_footer_search" android:paddingHorizontal="10dp" android:paddingVertical="5dp"/>
+</FrameLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/sig_color_flat_pure_black_any"/>
+        </shape>
+    </item>
+    <item>
+        <inset android:drawable="@mipmap/icon_plus_black_foreground" android:inset="-8dp"/>
+    </item>
+</layer-list>

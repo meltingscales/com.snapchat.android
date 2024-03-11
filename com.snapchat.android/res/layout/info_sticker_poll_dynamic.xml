@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.snap.ui.view.SnapFontTextView android:id="@id/poll_sticker_title_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/PollStickerTitle" />
+    <FrameLayout android:id="@id/poll_sticker_options_container" android:layout_width="wrap_content" android:layout_height="70.0dip">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="70.0dip">
+            <com.snap.ui.view.emoji.SnapEmojiTextView android:id="@id/poll_sticker_first_option" style="@style/PollOptionsStyle" />
+            <View android:id="@id/gap" android:layout_width="15.0dip" android:layout_height="wrap_content" />
+            <com.snap.ui.view.emoji.SnapEmojiTextView android:id="@id/poll_sticker_second_option" style="@style/PollOptionsStyle" />
+        </LinearLayout>
+        <View android:layout_gravity="center" android:id="@id/polls_options_center_point" android:background="@android:color/transparent" android:layout_width="@dimen/single_dp" android:layout_height="@dimen/single_dp" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/friendmoji_picker_layout" android:background="?attr/sigColorBackgroundSubscreen" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <com.snap.ui.view.ScHeaderView android:id="@+id/sc_header" android:background="?attr/sigColorBackgroundMain" android:layout_width="match_parent" android:layout_height="wrap_content" custom:headerColorScheme="@color/sig_color_base_success_green_any" custom:showBackArrow="true" custom:showBottomBorder="true">
+        <com.snap.ui.view.emoji.SnapEmojiTextView android:textSize="@dimen/neon_header_text_size" android:layout_gravity="center_vertical" android:id="@+id/friendmoji_picker_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/neon_header_back_button_width"/>
+    </com.snap.ui.view.ScHeaderView>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/friendmoji_picker_view" android:background="?attr/sigColorBackgroundSurface" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/sc_header"/>
+</RelativeLayout>

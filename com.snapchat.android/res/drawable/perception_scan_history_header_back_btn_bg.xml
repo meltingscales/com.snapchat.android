@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/sig_color_background_surface_dark" />
+            <size android:height="@dimen/perception_scan_tray_header_btn_height" android:width="@dimen/perception_scan_tray_header_btn_height" />
+        </shape>
+    </item>
+    <item android:gravity="center">
+        <bitmap android:src="@drawable/svg_left_arrow_32x32" android:tint="@color/sig_color_flat_pure_white_any" />
+    </item>
+</layer-list>

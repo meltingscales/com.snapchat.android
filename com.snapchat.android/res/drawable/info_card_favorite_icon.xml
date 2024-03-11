@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/svg_info_card_favorite" android:state_activated="true" />
+    <item android:drawable="@drawable/svg_info_card_not_favorite" android:state_activated="false" />
+</selector>

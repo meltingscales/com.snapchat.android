@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.component.button.SnapButtonView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:ellipsize="middle" android:id="@+id/camera_roll_album_pill_button" android:layout_width="wrap_content" android:layout_height="wrap_content" app:button_style="small_button_circle_blue" app:button_text="" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0"/>

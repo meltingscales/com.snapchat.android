@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/settings_parent_container" style="@style/new_settings_item_outer"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.snap.ui.view.SnapFontTextView android:ellipsize="end" android:gravity="start" android:id="@id/settings_item_header" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="2" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/settings_end_container" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_max="wrap" app:layout_constraintWidth_percent="0.7" style="@style/new_settings_item_name" />
+    <LinearLayout android:gravity="end|center" android:orientation="horizontal" android:id="@id/settings_end_container" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/settings_item_header" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:id="@id/settings_item_icon" android:visibility="gone" style="@style/new_settings_item_icon" />
+        <com.snap.ui.view.stackdraw.StackDrawLayout android:id="@id/settings_item_badge" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.snap.ui.view.SnapFontTextView android:ellipsize="end" android:gravity="end" android:id="@id/settings_item_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:layout_marginStart="@dimen/default_gap_half" style="@style/new_settings_item_text" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

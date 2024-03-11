@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="action_menu_camera_select">
+        <item quantity="other">%d개의 항목 선택됨</item>
+    </plurals>
+    <plurals name="action_menu_hide_long">
+        <item quantity="other">Snap 숨기기(나만 보기)</item>
+    </plurals>
+    <plurals name="action_menu_mute_for_hours">
+        <item quantity="other">%d시간 동안</item>
+    </plurals>
+    <plurals name="action_menu_snap_select">
+        <item quantity="other">%d개의 Snap 선택됨</item>
+    </plurals>
+    <plurals name="action_menu_unhide_long">
+        <item quantity="other">Snap 숨기기 취소</item>
+    </plurals>
+    <plurals name="active_indicator_explainer_active_hour">
+        <item quantity="other">%d시간</item>
+    </plurals>
+    <plurals name="activity_indicator_explainer_active_friend_count">
+        <item quantity="other">%d명의 친구들</item>
+    </plurals>
+    <plurals name="add_friend_badge_request_tips">
+        <item quantity="other">%1$s명의 새 친구 추가</item>
+    </plurals>
+    <plurals name="add_friend_badge_suggestion_tips">
+        <item quantity="other">%1$s명의 새로운 친구 추천</item>
+    </plurals>
+    <plurals name="add_friends_button_subtext">
+        <item quantity="other">%1$s명의 Snapchat 사용자가 회원님을 추가했습니다!</item>
+    </plurals>
+    <plurals name="add_friends_button_suggestion_subtext">
+        <item quantity="other">%1$s명의 친구 추천!</item>
+    </plurals>
+    <plurals name="batch_capture_save_as_x_snaps">
+        <item quantity="other">Snap %1$d개로 저장</item>
+    </plurals>
+    <plurals name="bottom_button_text">
+        <item quantity="other">+ 친구 %d명 추가</item>
+    </plurals>
+    <plurals name="camera_mode_batch_capture_limit_reached_description_with_count">
+        <item quantity="other">멀티 Snap은 한 번에 Snap을 %1$d개까지 캡처할 수 있습니다!</item>
+    </plurals>
+    <plurals name="camera_mode_disable_batch_capture_description">
+        <item quantity="other">멀티 Snap을 비활성화하시겠습니까? 저장하지 않은 Snap %1$d개는 삭제됩니다.</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_image_sharer_you_not">
+        <item quantity="other">%1$s님과 %2$s님이 %4$s님의 사진 %3$d개를 저장했습니다.</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_image_sharer_you_yes">
+        <item quantity="other">%1$s님과 %2$s님이 회원님이 보낸 사진 %3$d개를 저장했습니다.</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_item_sharer_you_not">
+        <item quantity="other">%1$s님과 %2$s님이 %4$s님의 아이템 %3$d개를 저장했습니다.</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_item_sharer_you_yes">
+        <item quantity="other">%1$s님과 %2$s님이 회원님이 보낸 아이템 %3$d개를 저장했습니다.</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_video_sharer_you_not">
+        <item quantity="other">%1$s님과 %2$s님이 %4$s님이 보낸 동영상 %3$d개를 저장했습니다.</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_video_sharer_you_yes">
+        <item quantity="other">%1$s님과 %2$s님이 회원님이 보낸 동영상 %3$d개를 저장했습니다.</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_yes_media_image_sharer_you_not">
+        <item quantity="other">회원님과 %1$s님이 %3$s님의 사진 %2$d개를 저장했습니다.</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_yes_media_item_sharer_you_not">
+        <item quantity="other">회원님과 %1$s님이 %3$s님의 아이템 %2$d개를 저장했습니다.</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_yes_media_video_sharer_you_not">
+        <item quantity="other">회원님과 %1$s님이 %3$s님이 보낸 동영상 %2$d개를 저장했습니다.</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_image_sharer_you_not">
+        <item quantity="other">%1$s님과 %2$s님이 %4$s님이 보낸 사진 %3$d개를 저장했습니다.</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_image_sharer_you_yes">
+        <item quantity="other">%1$s님과 %2$s님이 회원님이 보낸 사진 %3$d개를 저장했습니다.</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_item__sharer_you_not">
+        <item quantity="other">%1$s님과 %2$s님이 %4$s님의 아이템 %3$d개를 저장했습니다.</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_item__sharer_you_yes">
+        <item quantity="other">%1$s님과 %2$s님이 회원님의 아이템 %3$d개를 저장했습니다.</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_video_sharer_you_not">
+        <item quantity="other">%1$s님과 %2$s님이 %4$s님이 보낸 동영상 %3$d개를 저장했습니다.</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_video_sharer_you_yes">
+        <item quantity="other">%1$s님과 %2$s님이 회원님의 동영상 %3$d개를 저장했습니다.</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_yes_media_image_sharer_you_not">
+        <item quantity="other">회원님, %1$s님, %2$s님이 %4$s님이 보낸 사진 %3$d개를 저장했습니다.</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_yes_media_item_sharer_you_not">
+        <item quantity="other">회원님, %1$s님, %2$s님이 %4$s님의 아이템 %3$d개를 저장했습니다.</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_yes_media_video_sharer_you_not">
+        <item quantity="other">회원님, %1$s님, %2$s님이 %4$s님이 보낸 동영상 %3$d개를 저장했습니다.</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_image_sharer_you_not">
+        <item quantity="other">%1$s님이 %3$s님의 사진 %2$d개를 저장했습니다.</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_image_sharer_you_yes">
+        <item quantity="other">회원님이 보낸 사진 %2$d개를 %1$s님이 저장했습니다.</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_item_sharer_you_not">
+        <item quantity="other">%1$s님이 %3$s님의 아이템 %2$d개를 저장했습니다.</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_item_sharer_you_yes">
+        <item quantity="other">회원님이 보낸 아이템 %2$d개를 %1$s님이 저장했습니다.</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_video_sharer_you_not">
+        <item quantity="other">%1$s님이 %3$s님이 보낸 동영상 %2$d개를 저장했습니다.</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_video_sharer_you_yes">
+        <item quantity="other">회원님이 보낸 동영상 %2$d개를 %1$s님이 저장했습니다.</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_yes_media_image_sharer_you_not">
+        <item quantity="other">%2$s님이 보낸 사진 %1$d개를 저장했습니다.</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_yes_media_item__sharer_you_not">
+        <item quantity="other">%2$s님이 보낸 아이템 %1$d개를 저장했습니다.</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_yes_media_video_sharer_you_not">
+        <item quantity="other">%2$s님이 보낸 동영상 %1$d개를 저장했습니다.</item>
+    </plurals>
+    <plurals name="cannot_add_custom_story_snap_recipients">
+        <item quantity="other">맞춤 설정 스토리는 한번에 %1$d개까지만 추가할 수 있습니다.</item>
+    </plurals>
+    <plurals name="capture_settings_distance_value_text_feet">
+        <item quantity="other">%1$dft</item>
+    </plurals>
+    <plurals name="capture_settings_duration_value_text_orbits">
+        <item quantity="other">%1$d회 자전</item>
+    </plurals>
+    <plurals name="chat_header_gifting_birthday_upsell">
+        <item quantity="other">%2$d일 후면 %1$s 님의 생일입니다 🎂. Snapchat+를 선물해 보세요</item>
+    </plurals>
+    <plurals name="cheerios_clean_unpair_cheerios_body">
+        <item quantity="other">Pixy에 %1$d개의 Snap이 있습니다. 기기를 재설정하고 모든 Snap 및 사용자 데이터를 삭제하시겠습니까?</item>
+    </plurals>
+    <plurals name="cheerios_confirm_delete_body">
+        <item quantity="other">이러한 Snap을 삭제하면 Cheerios 기기에서 제거됩니다.</item>
+    </plurals>
+    <plurals name="cheerios_deleted">
+        <item quantity="other">%d개의 Snap이 삭제되었습니다</item>
+    </plurals>
+    <plurals name="cheerios_deleting">
+        <item quantity="other">Snap %d개 삭제 중…</item>
+    </plurals>
+    <plurals name="cheerios_memories_tooltip">
+        <item quantity="other">%d개의 새로운 Snap</item>
+    </plurals>
+    <plurals name="cheerios_new_snap_to_import">
+        <item quantity="other">%d개의 새 Snap이 있습니다. 눌러서 불러오세요.</item>
+    </plurals>
+    <plurals name="cheerios_status_transfer_complete_title">
+        <item quantity="other">%d개 Snap 불러오기 완료!</item>
+    </plurals>
+    <plurals name="cheerios_status_transferring_title">
+        <item quantity="other">%d개 Snap 불러오는 중…</item>
+    </plurals>
+    <plurals name="cluster_seven_or_more">
+        <item quantity="other">%1$s님, %2$s님, %3$s님, %4$s님, %5$s님과 %6$d님 등</item>
+    </plurals>
+    <plurals name="cluster_seven_or_more_me">
+        <item quantity="other">%1$s님, %2$s님, %3$s님, %4$s님, 나와 %5$d님 등</item>
+    </plurals>
+    <plurals name="cluster_three_or_more">
+        <item quantity="other">%1$s 및 %2$d 등</item>
+    </plurals>
+    <plurals name="cluster_three_or_more_me">
+        <item quantity="other">나와 %1$d명</item>
+    </plurals>
+    <plurals name="cognac_active_playing_game_text_multiple_player">
+        <item quantity="other">%1$s님과 %2$s님 외 %3$d명이 참여 중</item>
+    </plurals>
+    <plurals name="cognac_active_playing_game_text_multiple_player_shortened">
+        <item quantity="other">%1$s님 외 %2$d명이 참여 중</item>
+    </plurals>
+    <plurals name="cognac_active_using_cypress_text_multiple_player">
+        <item quantity="other">%1$s, %2$s 님 + %3$d명이 활성 상태임</item>
+    </plurals>
+    <plurals name="cognac_active_using_cypress_text_multiple_player_shortened">
+        <item quantity="other">%1$s님 + %2$d명이 활성 상태임</item>
+    </plurals>
+    <plurals name="cognac_app_profile_multiple_player_text">
+        <item quantity="other">%1$s-%2$d명 참여 가능</item>
+    </plurals>
+    <plurals name="cognac_close_status_message_multiple_player_second_person">
+        <item quantity="other">회원님과 %1$s님 외 %2$d명이 %3$s 게임을 마침</item>
+    </plurals>
+    <plurals name="cognac_close_status_message_multiple_player_third_person">
+        <item quantity="other">%1$s님과 %2$s님 외 %3$d명이 %4$s 게임을 마침</item>
+    </plurals>
+    <plurals name="cognac_close_status_message_text_for_feed_multiple_player_third_person">
+        <item quantity="other">%1$s님 외 %2$d명이 %3$s 게임을 마침</item>
+    </plurals>
+    <plurals name="cognac_cypress_close_status_message_multiple_player_second_person">
+        <item quantity="other">나, %1$s 및 %2$d명이 %3$s을(를) 사용함</item>
+    </plurals>
+    <plurals name="cognac_cypress_close_status_message_multiple_player_third_person">
+        <item quantity="other">%1$s, %2$s 및 %3$d명이 %4$s을(를) 사용함</item>
+    </plurals>
+    <plurals name="cognac_cypress_close_status_message_text_for_feed_multiple_player_third_person">
+        <item quantity="other">%1$s 및 %2$d명이 %3$s을(를) 사용함</item>
+    </plurals>
+    <plurals name="cognac_friend_picker_ringing_text_multiple_players">
+        <item quantity="other">%1$s 님 외 %2$d명에게 통화 연결 중…</item>
+    </plurals>
+    <plurals name="comments_collapse_child_comments">
+        <item quantity="other">답장 숨기기</item>
+    </plurals>
+    <plurals name="comments_expand_child_comments">
+        <item quantity="other">답장 %s개 표시</item>
+    </plurals>
+    <plurals name="comments_header_with_live_comment_count">
+        <item quantity="other">댓글 %s개</item>
+    </plurals>
+    <plurals name="content_detail_new_count">
+        <item quantity="other">%1$d new</item>
+    </plurals>
+    <plurals name="content_detail_seen_text">
+        <item quantity="other">가져오려는 %1$d</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="other">%d일</item>
+    </plurals>
+    <plurals name="days_abbreviated">
+        <item quantity="other">%d일</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated">
+        <item quantity="other">%d일 전</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_camera_roll">
+        <item quantity="other">%1$d일 전 사진 앨범에서</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_chat">
+        <item quantity="other">%1$d일 전 채팅에서</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_cheerios">
+        <item quantity="other">%1$d일 전 Pixy에서</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d일 전 %2$s에서</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_memories">
+        <item quantity="other">%1$d일 전 메모리에서</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_spectacles">
+        <item quantity="other">%1$d일 전 Spectacles로 촬영</item>
+    </plurals>
+    <plurals name="days_ago_update">
+        <item quantity="other">%1$s일 전 업데이트됨</item>
+    </plurals>
+    <plurals name="discard_batch_capture_description">
+        <item quantity="other">멀티 Snap을 취소하시겠습니까? 저장하지 않은 Snap %1$d개는 삭제됩니다.</item>
+    </plurals>
+    <plurals name="display_username_explanation_changed_username_too_recently">
+        <item quantity="other">"%1$s에 아이디를 변경하셨습니다.
+%2$d일 안에 다시 변경할 수 있습니다."</item>
+    </plurals>
+    <plurals name="failed_to_save_multiple_snaps">
+        <item quantity="other">%1$d개 Snap 저장 실패</item>
+    </plurals>
+    <plurals name="formatted_short_ft">
+        <item quantity="other">%dft</item>
+    </plurals>
+    <plurals name="formatted_short_km">
+        <item quantity="other">%dkm</item>
+    </plurals>
+    <plurals name="formatted_short_m">
+        <item quantity="other">%dm</item>
+    </plurals>
+    <plurals name="formatted_short_mile">
+        <item quantity="other">%dmi</item>
+    </plurals>
+    <plurals name="friending_progress_bar_secondary">
+        <item quantity="other">친구 요청을 %1$s개 더 보내세요!</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_description_items">
+        <item quantity="other">아이템이 내 공간에 추가되었습니다. 사진 앨범에서 원본을 삭제할까요?</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_description_photos">
+        <item quantity="other">사진이 내 공간에 추가되었습니다. 사진 앨범에서 원본을 삭제할까요?</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_description_videos">
+        <item quantity="other">영상이 내 공간에 추가되었습니다. 사진 앨범에서 원본을 삭제할까요?</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_title">
+        <item quantity="other">원본 삭제</item>
+    </plurals>
+    <plurals name="gallery_private_rate_limit_minutes_time_out">
+        <item quantity="other">"
+%1$d분 후에 다시 시도하세요."</item>
+    </plurals>
+    <plurals name="gauge_altitude_unit_feet">
+        <item quantity="other">%dft</item>
+    </plurals>
+    <plurals name="gauge_altitude_unit_meters">
+        <item quantity="other">%dm</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%d시간</item>
+    </plurals>
+    <plurals name="hours_abbreviated">
+        <item quantity="other">%d시간</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%d시간</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated">
+        <item quantity="other">%d시간 전</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_camera_roll">
+        <item quantity="other">%1$d시간 전 사진 앨범에서</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_chat">
+        <item quantity="other">%1$d시간 전 채팅에서</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_cheerios">
+        <item quantity="other">%1$d시간 전 Pixy에서</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d시간 전 %2$s에서</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_memories">
+        <item quantity="other">%1$d시간 전 메모리에서</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_spectacles">
+        <item quantity="other">%1$d시간 전 Spectacles로 촬영</item>
+    </plurals>
+    <plurals name="hours_ago_update">
+        <item quantity="other">%1$s시간 전 업데이트됨</item>
+    </plurals>
+    <plurals name="last_seen_here_hours">
+        <item quantity="other">%d시간 전에 여기에서 마지막으로 목격됨</item>
+    </plurals>
+    <plurals name="last_seen_here_minutes">
+        <item quantity="other">%d분 전에 여기에서 마지막으로 목격됨</item>
+    </plurals>
+    <plurals name="live_location_chat_hours_remaining">
+        <item quantity="other">%d시간</item>
+    </plurals>
+    <plurals name="live_location_description_existing_sessions">
+        <item quantity="other">현재 이 그룹에 있는 친구와 실시간 위치 정보를 공유하게 됩니다. %d명의 친구가 이미 회원님의 위치 정보를 볼 수 있습니다.</item>
+    </plurals>
+    <plurals name="live_location_duration_hr">
+        <item quantity="other">%d시간</item>
+    </plurals>
+    <plurals name="live_location_duration_min">
+        <item quantity="other">%d분</item>
+    </plurals>
+    <plurals name="live_location_share_group_description">
+        <item quantity="other">현재 이 그룹에 있는 친구와 실시간 위치 정보를 공유하게 됩니다. %d명의 멤버가 현재 회원님과 친구가 아니기 때문에 회원님의 위치 정보를 받을 수 없습니다.</item>
+    </plurals>
+    <plurals name="live_location_with_friends">
+        <item quantity="other">친구 %d명에게 공개</item>
+    </plurals>
+    <plurals name="location_upsell_description_specific_friends_more_than_four">
+        <item quantity="other">%1$s님, %2$s님, %3$s님, %4$d님을 비롯한 친구들이 지도에 출현!</item>
+    </plurals>
+    <plurals name="locked_lens_friending_banner_countdown_timer_hours">
+        <item quantity="other">%1$d시간</item>
+    </plurals>
+    <plurals name="locked_lens_friending_banner_countdown_timer_minutes">
+        <item quantity="other">%1$d분</item>
+    </plurals>
+    <plurals name="locked_lens_friending_banner_countdown_timer_seconds">
+        <item quantity="other">%1$d초</item>
+    </plurals>
+    <plurals name="map_group_card_subtext_friend_sharing">
+        <item quantity="other">%1$d명의 친구들이 공개함</item>
+    </plurals>
+    <plurals name="map_passport_and_other">
+        <item quantity="other">님 외 %d명</item>
+    </plurals>
+    <plurals name="map_passport_bucket_cities_title">
+        <item quantity="other">도시</item>
+    </plurals>
+    <plurals name="map_passport_bucket_countries_title">
+        <item quantity="other">국가</item>
+    </plurals>
+    <plurals name="map_passport_bucket_places_title">
+        <item quantity="other">장소</item>
+    </plurals>
+    <plurals name="map_widget_days_ago">
+        <item quantity="other">%d일</item>
+    </plurals>
+    <plurals name="media_export_service_batch_export_failure">
+        <item quantity="other">Snap %2$d개 중 %1$d개를 내보냈습니다. Snap %3$d개를 내보내지 못했습니다.</item>
+    </plurals>
+    <plurals name="media_export_service_processing">
+        <item quantity="other">Snap %2$d개 중 %1$d개를 내보내는 중...</item>
+    </plurals>
+    <plurals name="media_export_service_success">
+        <item quantity="other">Snap을 내보냈습니다!</item>
+    </plurals>
+    <plurals name="memories_camera_select_limit_error">
+        <item quantity="other">죄송합니다. 한 번에 아이템을 %d개만 선택할 수 있습니다.</item>
+    </plurals>
+    <plurals name="memories_delete_camera_roll_image_body">
+        <item quantity="other">이 이미지들이 기기에서 삭제됩니다.</item>
+    </plurals>
+    <plurals name="memories_delete_camera_roll_mixed_body">
+        <item quantity="other">이 아이템들이 기기에서 삭제됩니다.</item>
+    </plurals>
+    <plurals name="memories_delete_camera_roll_video_body">
+        <item quantity="other">이 동영상들이 기기에서 삭제됩니다.</item>
+    </plurals>
+    <plurals name="memories_delete_snap_body">
+        <item quantity="other">Snap을 삭제할까요?</item>
+    </plurals>
+    <plurals name="memories_delete_story_body">
+        <item quantity="other">스토리를 삭제하시겠습니까?</item>
+    </plurals>
+    <plurals name="memories_export_error">
+        <item quantity="other">Snap을 내보낼 수 없습니다!</item>
+    </plurals>
+    <plurals name="memories_favorite_snaps_story_added">
+        <item quantity="other">%d 개의 Snap이 즐겨찾는 스토리에 추가됨</item>
+    </plurals>
+    <plurals name="memories_favorite_snaps_story_removed">
+        <item quantity="other">%d 개의 Snap이 즐겨찾는 스토리에서 제거됨</item>
+    </plurals>
+    <plurals name="memories_featured_story_flashback_diff_date_subtext">
+        <item quantity="other">%1$d년 전</item>
+    </plurals>
+    <plurals name="memories_featured_story_flashback_same_date_subtext">
+        <item quantity="other">%1$d년 전, 오늘</item>
+    </plurals>
+    <plurals name="memories_featured_story_trip_flashback_chat_prefill_snap">
+        <item quantity="other">%1$s, %2$d년 전</item>
+    </plurals>
+    <plurals name="memories_featured_story_trip_flashback_chat_prefill_story">
+        <item quantity="other">%1$d년 전부터</item>
+    </plurals>
+    <plurals name="memories_hide_legacy_auto_saves">
+        <item quantity="other">이러한 스토리의 Snap은 새로운 내 스토리 페이지에서 여전히 사용할 수 있습니다. 생성하거나 편집한 스토리에는 영향을 미치지 않습니다.</item>
+    </plurals>
+    <plurals name="memories_hide_legacy_auto_saves_title">
+        <item quantity="other">자동 저장된 스토리 중 %d오래된 스토리를 삭제할까요?</item>
+    </plurals>
+    <plurals name="memories_print_print_created">
+        <item quantity="other">3D 프린트가 %d개 생성되었습니다</item>
+    </plurals>
+    <plurals name="memories_print_processing">
+        <item quantity="other">%d개의 Snap을 프린트하기 위해 처리 중...</item>
+    </plurals>
+    <plurals name="memories_remove_older_stories_dialog_title">
+        <item quantity="other">오래된 자동 저장 스토리를 %d 삭제합니다.</item>
+    </plurals>
+    <plurals name="memories_select_limit_error">
+        <item quantity="other">죄송합니다. 한 번에 Snap을 %d개만 선택할 수 있습니다.</item>
+    </plurals>
+    <plurals name="memories_status_transfer_complete_in_app_notification_text">
+        <item quantity="other">%1$d에서 불러온 Snap %2$s개</item>
+    </plurals>
+    <plurals name="memories_status_transfer_complete_title">
+        <item quantity="other">Snap %d개 불러오기 성공!</item>
+    </plurals>
+    <plurals name="memories_status_transfer_from_device_complete_title">
+        <item quantity="other">%s님이 보낸 새로운 Snap</item>
+    </plurals>
+    <plurals name="memories_status_transferring_title">
+        <item quantity="other">Snap %2$d개 중 %1$d개 불러오기 중…</item>
+    </plurals>
+    <plurals name="memories_story_editor_add_snap_selected">
+        <item quantity="other">%d개 선택됨</item>
+    </plurals>
+    <plurals name="minutes_abbreviated">
+        <item quantity="other">%d분</item>
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="other">%d분</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated">
+        <item quantity="other">%d분 전</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_camera_roll">
+        <item quantity="other">%1$d분 전 사진 앨범에서 게시</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_chat">
+        <item quantity="other">%1$d분 전 채팅에서</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_cheerios">
+        <item quantity="other">%1$d분 전 Pixy에서</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d분 전 %2$s에서</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_memories">
+        <item quantity="other">%1$d분 전 메모리에서</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_spectacles">
+        <item quantity="other">%1$d분 전 Spectacles로 촬영</item>
+    </plurals>
+    <plurals name="minutes_ago_update">
+        <item quantity="other">%1$s분 전 업데이트됨</item>
+    </plurals>
+    <plurals name="months_abbreviated">
+        <item quantity="other">%d달</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated">
+        <item quantity="other">%d달 전</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_camera_roll">
+        <item quantity="other">%1$d달 전 사진 앨범에서</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_chat">
+        <item quantity="other">%1$d달 전 채팅에서</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_cheerios">
+        <item quantity="other">%1$d개월 전 Pixy에서</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d달 전 %2$s에서</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_memories">
+        <item quantity="other">%1$d달 전 메모리에서</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_spectacles">
+        <item quantity="other">%1$d달 전 Spectacles로 촬영</item>
+    </plurals>
+    <plurals name="months_ago_update">
+        <item quantity="other">%1$s개월 전 업데이트됨</item>
+    </plurals>
+    <plurals name="more_stories">
+        <item quantity="other">%d개의 스토리 더 보기</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">새 알림 %d개</item>
+        <item quantity="one">새 알림 %d개</item>
+    </plurals>
+    <plurals name="muted_stories">
+        <item quantity="other">%d개의 스토리가 음소거됨</item>
+    </plurals>
+    <plurals name="new_registration_continue_with_n_friends">
+        <item quantity="other">친구 %d명 추가</item>
+    </plurals>
+    <plurals name="num_hours">
+        <item quantity="other">%d시간</item>
+    </plurals>
+    <plurals name="num_minutes">
+        <item quantity="other">%d분</item>
+    </plurals>
+    <plurals name="nyc_audience_many_and_x_others">
+        <item quantity="other">기타 %1$s+%2$d명</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_ft">
+        <item quantity="other">피트</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_km">
+        <item quantity="other">킬로미터</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_m">
+        <item quantity="other">미터</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_mile">
+        <item quantity="other">마일</item>
+    </plurals>
+    <plurals name="nyc_friends_many_and_x_others">
+        <item quantity="other">%1$s 님 및 %2$s 님이 이미 실시간 위치 정보를 공유하고 있습니다</item>
+    </plurals>
+    <plurals name="nyc_sharing_live_location_with_friends">
+        <item quantity="other">"%1$s명의 친구들과 실시간 위치 정보를 공유하는 중입니다. "</item>
+    </plurals>
+    <plurals name="nyc_unhide_live_location_friend_dialog_title">
+        <item quantity="other">%1$d명의 친구들에게 실시간 위치 정보를 숨기고 있습니다.</item>
+    </plurals>
+    <plurals name="pairing_validation_description">
+        <item quantity="other">Pixy에 마지막 사용자의 Snap이 %d개 있습니다. 이 기기와 연결하면 기기가 재설정되고 모든 Snap 및 사용자 데이터가 삭제됩니다.</item>
+    </plurals>
+    <plurals name="payments_num_purchased_items">
+        <item quantity="other">%d개 항목</item>
+    </plurals>
+    <plurals name="pending_syncs_logout_warning">
+        <item quantity="other">Snap %1$d개가 아직 메모리에 백업되지 않았습니다. 지금 로그아웃하시면 이 Snap은 삭제될 수 있습니다.</item>
+    </plurals>
+    <plurals name="perception_lens_collection_scan_card_lenses_count">
+        <item quantity="other">렌즈 %d개</item>
+    </plurals>
+    <plurals name="perception_lenses_scan_card_try_lenses">
+        <item quantity="other">렌즈 사용해 보기(%d)</item>
+    </plurals>
+    <plurals name="play_with_max_player_alert_text">
+        <item quantity="other">최대 %1$d명까지 참여 가능한 게임</item>
+    </plurals>
+    <plurals name="post_pairing_import_title">
+        <item quantity="other">%d개의 새로운 Snap</item>
+    </plurals>
+    <plurals name="registration_continue_with_n_friends">
+        <item quantity="other">+ 친구 %d명 추가</item>
+    </plurals>
+    <plurals name="save_button_tooltip_saved_multiple">
+        <item quantity="other">%1$d Snap 저장 완료</item>
+    </plurals>
+    <plurals name="saved_media_gallery_attribution_media_count">
+        <item quantity="other">Snap %s개</item>
+    </plurals>
+    <plurals name="seconds_abbreviated">
+        <item quantity="other">%d초</item>
+    </plurals>
+    <plurals name="seconds_ago">
+        <item quantity="other">%d초</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated">
+        <item quantity="other">%d초 전</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_camera_roll">
+        <item quantity="other">%1$d초 전 사진 앨범에서 게시</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_chat">
+        <item quantity="other">%1$d초 전 채팅에서</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_cheerios">
+        <item quantity="other">%1$d초 전 Pixy에서</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d초 전 %2$s에서</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_memories">
+        <item quantity="other">%1$d초 전 메모리에서</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_spectacles">
+        <item quantity="other">%1$d초 전 Spectacles로 촬영</item>
+    </plurals>
+    <plurals name="seconds_ago_update">
+        <item quantity="other">%1$s초 전 업데이트됨</item>
+    </plurals>
+    <plurals name="select_friend_friend">
+        <item quantity="other">친구 %1$d명</item>
+    </plurals>
+    <plurals name="select_friend_other">
+        <item quantity="other">%1$s님 외 %2$d명</item>
+    </plurals>
+    <plurals name="settings_birthday_update_years_old">
+        <item quantity="other">현재 %d세 입니다.</item>
+    </plurals>
+    <plurals name="snap_timer_selection_units">
+        <item quantity="other">초</item>
+    </plurals>
+    <plurals name="snaps_count">
+        <item quantity="other">Snap %1$d개</item>
+    </plurals>
+    <plurals name="spectacles_export_customization_description">
+        <item quantity="other">Snap들을 어떻게 내보낼까요?</item>
+    </plurals>
+    <plurals name="spotlight_comments_count_notification_title">
+        <item quantity="other">보류 중인 스포트라이트 댓글이 %d개 있습니다!</item>
+    </plurals>
+    <plurals name="status_views">
+        <item quantity="other">조회수: %d회</item>
+    </plurals>
+    <plurals name="still_sharing_last_active_location_description">
+        <item quantity="other">"회원님의 실시간 위치 정보는 숨겨져 있지만 %1$s명의 친구들이 아직 회원님의 마지막 활성 위치 정보를 볼 수 있습니다.
+
+ 이 설정을 지도 설정 메뉴에서 변경할 수 있습니다."</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_change_audience">
+        <item quantity="other">위치 정보를 저장했지만 %1$s명의 친구들은 아직 회원님의 실시간 위치 정보를 볼 수 있습니다. 위치 정보 공유를 중지하려면 친구들의 이름 옆에 있는 \"중지\"를 누르세요.</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_enter_ghost_mode">
+        <item quantity="other">유령 모드로 설정되어 있지만 %1$s명의 친구들은 아직 회원님의 실시간 위치 정보를 볼 수 있습니다. 위치 정보 공유를 중지하려면 친구들의 이름 옆에 있는 \"중지\"를 누르세요.</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_enter_ghost_mode_ghost_trail">
+        <item quantity="other">"유령 모드로 설정되어 있지만 %1$s명의 친구들은 아직 회원님의 실시간 위치 정보를 볼 수 있습니다. 위치 정보 공유를 중지하려면 친구들의 이름 옆에 있는 \"중지\"를 누르세요.
+
+유령 모드에 있으면 위치 정보가 고스트 트레일에 추가되지 않습니다."</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_enter_ghost_mode_hide_live_location">
+        <item quantity="other">유령 모드로 설정되어 있지만 %1$s명의 친구들은 아직 회원님의 실시간 위치 정보를 볼 수 있습니다. 공유를 일시 정지하려면 아래의 \"내 실시간 위치 정보 숨기기\"를 누르세요.</item>
+    </plurals>
+    <plurals name="story_friend_story_notification_title_update">
+        <item quantity="other">친구 %d명의 스토리가 업데이트됨</item>
+    </plurals>
+    <plurals name="story_fullscreen_footer_view_count">
+        <item quantity="other">조회수: %d회</item>
+    </plurals>
+    <plurals name="story_management_viewer_list_more_viewers">
+        <item quantity="other">%1$d명 이상</item>
+    </plurals>
+    <plurals name="story_mob_subtext_more">
+        <item quantity="other">%1$s &amp; %2$d개 남음…</item>
+    </plurals>
+    <plurals name="story_profile_communities_members">
+        <item quantity="other">인증됨 • 멤버 %d명</item>
+    </plurals>
+    <plurals name="story_profile_shared_stories_members">
+        <item quantity="other">멤버 %d명</item>
+    </plurals>
+    <plurals name="story_profile_stories_adding">
+        <item quantity="other">Snap %d개 추가 중…</item>
+    </plurals>
+    <plurals name="story_profile_stories_failed_to_add">
+        <item quantity="other">Snap %d개 추가 실패</item>
+    </plurals>
+    <plurals name="story_profile_stories_waiting_to_add">
+        <item quantity="other">Snap %d개 추가 대기 중...</item>
+    </plurals>
+    <plurals name="story_settings_action_menu_my_story_blocked_number_of_people">
+        <item quantity="other">%d명</item>
+    </plurals>
+    <plurals name="streak_restore_dialog_subtitle_free_restore">
+        <item quantity="other">%1$d번의 무료 복원 기회가 있습니다.</item>
+    </plurals>
+    <plurals name="streak_restore_dialog_subtitle_hours">
+        <item quantity="other">%1$s 님과의 연속 Snap 기록이 영원히 사라지기 전에 복원할 기회가 %2$d시간 남았습니다!</item>
+    </plurals>
+    <plurals name="streak_restore_dialog_subtitle_minutes">
+        <item quantity="other">%1$s 님과의 연속 Snap 기록이 영원히 사라지기 전에 복원할 기회가 %2$d분 남았습니다!</item>
+    </plurals>
+    <plurals name="subtitle_sharing_custom_friends">
+        <item quantity="other">%d명의 친구에게 공개</item>
+    </plurals>
+    <plurals name="takeover_request_index_and_total">
+        <item quantity="other">%1$d/%2$d명의 새 친구 추가</item>
+    </plurals>
+    <plurals name="ticketmaster_events_label">
+        <item quantity="other">이벤트</item>
+    </plurals>
+    <plurals name="watched_stories">
+        <item quantity="other">%d개의 스토리가 열람됨</item>
+    </plurals>
+    <plurals name="weeks">
+        <item quantity="other">%d주</item>
+    </plurals>
+    <plurals name="weeks_abbreviated">
+        <item quantity="other">%d주</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated">
+        <item quantity="other">%d주 전</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_camera_roll">
+        <item quantity="other">%1$d주 전 사진 앨범에서</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_chat">
+        <item quantity="other">%1$d주 전 채팅에서</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_cheerios">
+        <item quantity="other">%1$d주 전 Pixy에서</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d주 전 %2$s에서</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_memories">
+        <item quantity="other">%1$d주 전 메모리에서</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_spectacles">
+        <item quantity="other">%1$d주 전 Spectacles로 촬영</item>
+    </plurals>
+    <plurals name="weeks_ago_update">
+        <item quantity="other">%1$s주 전 업데이트됨</item>
+    </plurals>
+    <plurals name="years_abbreviated">
+        <item quantity="other">%d년</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated">
+        <item quantity="other">%d년 전</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_camera_roll">
+        <item quantity="other">%1$d년 전 사진 앨범에서</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_chat">
+        <item quantity="other">%1$d년 전 채팅에서</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_cheerios">
+        <item quantity="other">%1$d년 전 Pixy에서</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d년 전 %2$s에서</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_memories">
+        <item quantity="other">%1$d년 전 메모리에서</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_spectacles">
+        <item quantity="other">%1$d년 전 Spectacles로 촬영</item>
+    </plurals>
+    <plurals name="years_ago_update">
+        <item quantity="other">%1$s년 전 업데이트됨</item>
+    </plurals>
+</resources>

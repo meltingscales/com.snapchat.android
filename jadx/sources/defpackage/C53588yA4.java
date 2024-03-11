@@ -1,0 +1,89 @@
+package defpackage;
+
+import java.util.Map;
+import java.util.Set;
+
+/* renamed from: yA4  reason: default package and case insensitive filesystem */
+/* loaded from: classes8.dex */
+public final class C53588yA4 extends AbstractC13793Vtm implements InterfaceC9571Pca {
+    public String f;
+    public ZA4 g;
+    public EnumC44390sA4 h;
+    public Double i;
+    public String j;
+    public String k;
+
+    public C53588yA4() {
+        super("COUNTDOWN_CREATION_SESSION_EVENT", EnumC45985tCg.BUSINESS, 1.0d, 1.0d);
+    }
+
+    @Override // defpackage.InterfaceC9571Pca
+    public final Double a() {
+        return this.i;
+    }
+
+    @Override // defpackage.InterfaceC42467qug
+    public final int b() {
+        return 4899;
+    }
+
+    @Override // defpackage.InterfaceC42467qug
+    public final void c(C38303oC7 c38303oC7, Set set) {
+        byte[] bArr = new byte[1];
+        AbstractC39604p2m.L0(c38303oC7, 2, bArr, this.h, set);
+        AbstractC39604p2m.K0(c38303oC7, 3, bArr, this.i, set);
+        AbstractC39604p2m.O0(c38303oC7, 4, bArr, this.k, set);
+        AbstractC39604p2m.O0(c38303oC7, 5, bArr, this.f, set);
+        AbstractC39604p2m.O0(c38303oC7, 6, bArr, this.j, set);
+        AbstractC39604p2m.L0(c38303oC7, 7, bArr, this.g, set);
+        c38303oC7.j(bArr);
+    }
+
+    @Override // defpackage.AbstractC13793Vtm, defpackage.AbstractC55051z78, defpackage.InterfaceC33853lIc
+    public final int d(Map map) {
+        ZA4 za4;
+        EnumC44390sA4 enumC44390sA4;
+        int d = super.d(map);
+        if (map.containsKey("action")) {
+            Object obj = map.get("action");
+            if (obj instanceof String) {
+                enumC44390sA4 = EnumC44390sA4.valueOf((String) obj);
+            } else {
+                enumC44390sA4 = (EnumC44390sA4) obj;
+            }
+            this.h = enumC44390sA4;
+            d++;
+        }
+        Double d2 = (Double) map.get("client_time");
+        this.i = d2;
+        if (d2 != null) {
+            d++;
+        }
+        String str = (String) map.get("correspondent_id");
+        this.k = str;
+        if (str != null) {
+            d++;
+        }
+        String str2 = (String) map.get("countdown_id");
+        this.f = str2;
+        if (str2 != null) {
+            d++;
+        }
+        String str3 = (String) map.get("countdown_session_id");
+        this.j = str3;
+        if (str3 != null) {
+            d++;
+        }
+        if (map.containsKey("last_status")) {
+            Object obj2 = map.get("last_status");
+            if (obj2 instanceof String) {
+                za4 = ZA4.valueOf((String) obj2);
+            } else {
+                za4 = (ZA4) obj2;
+            }
+            this.g = za4;
+            return d + 1;
+        }
+        return d;
+    }
+}

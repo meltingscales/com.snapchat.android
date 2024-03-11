@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/showcase_product_images_carousel_view" android:layout_width="fill_parent" android:layout_height="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/showcase_product_image_scrollview" android:layout_width="wrap_content" android:layout_height="fill_parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <SeekBar android:gravity="center_horizontal" android:layout_gravity="bottom|center" android:id="@id/showcase_product_image_seekbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/default_gap_2x" app:layout_constraintBottom_toBottomOf="parent" />
+    <com.snap.component.button.SnapButtonView android:id="@id/pdp_ar_try_on_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/default_gap_4x" android:layout_marginEnd="@dimen/default_gap_2x" app:button_style="small_button_rectangle_white" app:button_text="@string/pdp_try_on_button" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

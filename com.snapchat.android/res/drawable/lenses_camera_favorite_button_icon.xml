@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/svg_top_action_bar_favorite_button" android:state_activated="true" />
+    <item android:drawable="@drawable/svg_top_action_bar_not_favorite_button" android:state_activated="false" />
+</selector>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.component.cards.SnapCardView android:id="@id/card_view" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_margin="@dimen/face_view_margin" android:animateLayoutChanges="true" android:backgroundTint="@color/sig_color_base_gray100_any" app:cardCornerRadius="@dimen/face_view_corner_radius"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.snap.imageloading.view.SnapImageView android:layout_gravity="center" android:id="@id/img" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <ImageView android:layout_gravity="bottom" android:id="@id/check" android:paddingTop="@dimen/face_view_extra_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/face_loaded_complete" android:scaleType="fitCenter" android:foregroundGravity="bottom" />
+</com.snap.component.cards.SnapCardView>

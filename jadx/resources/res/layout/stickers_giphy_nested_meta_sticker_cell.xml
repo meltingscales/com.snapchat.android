@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/sticker_view_binding_container" android:layout_width="wrap_content" android:layout_height="match_parent" android:paddingStart="5dp" android:paddingEnd="5dp">
+    <com.snap.stickers.ui.views.infosticker.AutoScaleInfoStickerView android:layout_width="match_parent" android:layout_height="match_parent" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toTopOf="0">
+        <com.snap.stickers.ui.views.meta.MetaStickerView android:layout_gravity="center" android:id="@+id/sticker_view_binding_target" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </com.snap.stickers.ui.views.infosticker.AutoScaleInfoStickerView>
+</androidx.constraintlayout.widget.ConstraintLayout>

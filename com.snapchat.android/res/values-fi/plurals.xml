@@ -1,0 +1,1047 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="action_menu_camera_select">
+        <item quantity="other">%d kohdetta valittu</item>
+        <item quantity="one">%d kohde valittu</item>
+    </plurals>
+    <plurals name="action_menu_hide_long">
+        <item quantity="other">Piilota Snapit (vain minun silmilleni)</item>
+        <item quantity="one">@string/memories_opera_action_menu_hide</item>
+    </plurals>
+    <plurals name="action_menu_mute_for_hours">
+        <item quantity="other">%d tunniksi</item>
+        <item quantity="one">%d tunniksi</item>
+    </plurals>
+    <plurals name="action_menu_snap_select">
+        <item quantity="other">%d Snappia valittu</item>
+        <item quantity="one">%d Snap valittu</item>
+    </plurals>
+    <plurals name="action_menu_unhide_long">
+        <item quantity="other">Kumoa Snappien piilotus</item>
+        <item quantity="one">@string/memories_opera_action_menu_unhide</item>
+    </plurals>
+    <plurals name="active_indicator_explainer_active_hour">
+        <item quantity="other">%d viime tunnin aikana!</item>
+        <item quantity="one">%d viime tunnin aikana!</item>
+    </plurals>
+    <plurals name="activity_indicator_explainer_active_friend_count">
+        <item quantity="other">%d kaveria olivat</item>
+        <item quantity="one">%d kaveri oli</item>
+    </plurals>
+    <plurals name="add_friend_badge_request_tips">
+        <item quantity="other">%1$s uutta kaveripyyntöä</item>
+        <item quantity="one">%1$s uusi kaveripyyntö</item>
+    </plurals>
+    <plurals name="add_friend_badge_suggestion_tips">
+        <item quantity="other">%1$s uutta kaveriehdotusta</item>
+        <item quantity="one">%1$s uusi kaveriehdotus</item>
+    </plurals>
+    <plurals name="add_friends_button_subtext">
+        <item quantity="other">%1$s Snapchattaajaa lisäsi sinut</item>
+        <item quantity="one">%1$s Snapchattaaja lisäsi sinut</item>
+    </plurals>
+    <plurals name="add_friends_button_suggestion_subtext">
+        <item quantity="other">%1$s kaveriehdotusta!</item>
+        <item quantity="one">%1$s kaveriehdotus!</item>
+    </plurals>
+    <plurals name="batch_capture_save_as_x_snaps">
+        <item quantity="other">Tallenna %1$d erillisenä Snappina</item>
+        <item quantity="one">Tallenna %1$d Snappina</item>
+    </plurals>
+    <plurals name="bottom_button_text">
+        <item quantity="other">+ Lisää %d kaveria</item>
+        <item quantity="one">+ Lisää %d kaveri</item>
+    </plurals>
+    <plurals name="camera_mode_batch_capture_limit_reached_description_with_count">
+        <item quantity="other">Multi-Snapilla voi tallentaa jopa %1$d Snappia kerrallaan!</item>
+        <item quantity="one">Multi-Snapilla voi tallentaa jopa %1$d Snapin kerrallaan!</item>
+    </plurals>
+    <plurals name="camera_mode_disable_batch_capture_description">
+        <item quantity="other">Haluatko varmasti hylätä Multi-Snapin? Tallentamattomat %1$d Snappia menetetään.</item>
+        <item quantity="one">Haluatko varmasti hylätä Multi-Snapin? Tallentamaton Snap menetetään.</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_image_sharer_you_not">
+        <item quantity="other">%1$s JA %2$s TALLENSIVAT %3$d KUVAA KÄYTTÄJÄLTÄ %4$s</item>
+        <item quantity="one">%1$s JA %2$s TALLENSIVAT KÄYTTÄJÄN %4$s KUVAN</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_image_sharer_you_yes">
+        <item quantity="other">%1$s JA %2$s TALLENSIVAT %3$d LÄHETTÄMÄÄSI KUVAA</item>
+        <item quantity="one">%1$s JA %2$s TALLENSIVAT KUVASI</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_item_sharer_you_not">
+        <item quantity="other">%1$s JA %2$s TALLENSIVAT %3$d KOHDETTA KÄYTTÄJÄLTÄ %4$s</item>
+        <item quantity="one">%1$s JA %2$s TALLENSIVAT KOHTEEN KÄYTTÄJÄLTÄ %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_item_sharer_you_yes">
+        <item quantity="other">%1$s JA %2$s TALLENSIVAT %3$d LÄHETTÄMÄÄSI KOHDETTA</item>
+        <item quantity="one">%1$s JA %2$s TALLENSIVAT KOHTEESI</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_video_sharer_you_not">
+        <item quantity="other">%1$s JA %2$s TALLENSIVAT %3$d VIDEOTA KÄYTTÄJÄLTÄ %4$s</item>
+        <item quantity="one">%1$s JA %2$s TALLENSIVAT KÄYTTÄJÄN %4$s VIDEON</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_video_sharer_you_yes">
+        <item quantity="other">%1$s JA %2$s TALLENSIVAT %3$d LÄHETTÄMÄÄSI VIDEOTA</item>
+        <item quantity="one">%1$s JA %2$s TALLENSIVAT VIDEOSI</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_yes_media_image_sharer_you_not">
+        <item quantity="other">SINÄ JA %1$s TALLENSITTE %2$d KUVAA LÄHTEESTÄ %3$s</item>
+        <item quantity="one">SINÄ JA %1$s TALLENSITTE KÄYTTÄJÄN %3$s KUVAN</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_yes_media_item_sharer_you_not">
+        <item quantity="other">SINÄ JA %1$s TALLENSITTE %2$d KOHDETTA KÄYTTÄJÄLTÄ %3$s</item>
+        <item quantity="one">SINÄ JA %1$s TALLENSITTE KOHTEEN LÄHTEESTÄ %3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_yes_media_video_sharer_you_not">
+        <item quantity="other">SINÄ JA %1$s TALLENSITTE %2$d VIDEOTA LÄHTEESTÄ %3$s</item>
+        <item quantity="one">SINÄ JA %1$s TALLENSITTE VIDEON LÄHTEESTÄ %3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_image_sharer_you_not">
+        <item quantity="other">%1$s JA %2$s TALLENSIVAT %3$d KUVAA KÄYTTÄJÄLTÄ %4$s</item>
+        <item quantity="one">%1$s JA %2$s TALLENSIVAT KÄYTTÄJÄN %4$s KUVAN</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_image_sharer_you_yes">
+        <item quantity="other">%1$s JA %2$s TALLENSIVAT %3$d LÄHETTÄMÄÄSI KUVAA</item>
+        <item quantity="one">%1$s JA %2$s TALLENSIVAT KUVASI</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_item__sharer_you_not">
+        <item quantity="other">%1$s JA %2$s TALLENSIVAT %3$d KOHDETTA KÄYTTÄJÄLTÄ %4$s</item>
+        <item quantity="one">%1$s JA %2$s TALLENSIVAT KOHTEEN KÄYTTÄJÄLTÄ %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_item__sharer_you_yes">
+        <item quantity="other">%1$s JA %2$s TALLENSIVAT %3$d LÄHETTÄMÄÄSI KOHDETTA</item>
+        <item quantity="one">%1$s JA %2$s TALLENSIVAT KOHTEESI</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_video_sharer_you_not">
+        <item quantity="other">%1$s JA %2$s TALLENSIVAT %3$d VIDEOTA KÄYTTÄJÄLTÄ %4$s</item>
+        <item quantity="one">%1$s JA %2$s TALLENSIVAT KÄYTTÄJÄN %4$s VIDEON</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_video_sharer_you_yes">
+        <item quantity="other">%1$s JA %2$s TALLENSIVAT %3$d LÄHETTÄMÄÄSI VIDEOTA</item>
+        <item quantity="one">%1$s JA %2$s TALLENSIVAT VIDEOSI</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_yes_media_image_sharer_you_not">
+        <item quantity="other">SINÄ, %1$s JA %2$s TALLENSITTE %3$d KUVAA LÄHTEESTÄ %4$s</item>
+        <item quantity="one">SINÄ, %1$s JA %2$s TALLENSITTE KÄYTTÄJÄN %4$s KUVAN</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_yes_media_item_sharer_you_not">
+        <item quantity="other">SINÄ, %1$s JA %2$s TALLENSITTE %3$d KOHDETTA KÄYTTÄJÄLTÄ %4$s</item>
+        <item quantity="one">SINÄ, %1$s JA %2$s TALLENSITTE KOHTEEN LÄHTEESTÄ %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_yes_media_video_sharer_you_not">
+        <item quantity="other">SINÄ, %1$s JA %2$s TALLENSITTE %3$d VIDEOTA LÄHTEESTÄ %4$s</item>
+        <item quantity="one">SINÄ, %1$s JA %2$s TALLENSITTE VIDEON LÄHTEESTÄ %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_image_sharer_you_not">
+        <item quantity="other">%1$s TALLENSI %2$d KUVAA KÄYTTÄJÄLTÄ %3$s</item>
+        <item quantity="one">%1$s TALLENSI KÄYTTÄJÄN %3$s KUVAN</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_image_sharer_you_yes">
+        <item quantity="other">%1$s TALLENSI %2$d LÄHETTÄMÄÄSI KUVAA</item>
+        <item quantity="one">%1$s TALLENSI KUVASI</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_item_sharer_you_not">
+        <item quantity="other">%1$s TALLENSI %2$d KOHDETTA KÄYTTÄJÄLTÄ %3$s</item>
+        <item quantity="one">%1$s TALLENSI KÄYTTÄJÄN %3$s KOHTEEN</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_item_sharer_you_yes">
+        <item quantity="other">%1$s TALLENSI %2$d LÄHETTÄMÄÄSI KOHDETTA</item>
+        <item quantity="one">%1$s TALLENSI KOHTEESI</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_video_sharer_you_not">
+        <item quantity="other">%1$s TALLENSI %2$d VIDEOTA KÄYTTÄJÄLTÄ %3$s</item>
+        <item quantity="one">%1$s TALLENSI KÄYTTÄJÄN %3$s VIDEON</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_video_sharer_you_yes">
+        <item quantity="other">%1$s TALLENSI %2$d LÄHETTÄMÄÄSI VIDEOTA</item>
+        <item quantity="one">%1$s TALLENSI VIDEOSI</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_yes_media_image_sharer_you_not">
+        <item quantity="other">TALLENSIT %1$d KUVAA LÄHTEESTÄ %2$s</item>
+        <item quantity="one">TALLENSIT KÄYTTÄJÄN %2$s KUVAN</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_yes_media_item__sharer_you_not">
+        <item quantity="other">TALLENSIT %1$d KOHDETTA KÄYTTÄJÄLTÄ %2$s</item>
+        <item quantity="one">TALLENSIT KOHTEEN LÄHTEESTÄ %2$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_yes_media_video_sharer_you_not">
+        <item quantity="other">TALLENSIT %1$d VIDEOTA LÄHTEESTÄ %2$s</item>
+        <item quantity="one">TALLENSIT VIDEON LÄHTEESTÄ %2$s</item>
+    </plurals>
+    <plurals name="cannot_add_custom_story_snap_recipients">
+        <item quantity="other">Voit lisätä sisältöä vain %1$d muokattuun tarinaan kerrallaan</item>
+        <item quantity="one">Voit lisätä sisältöä vain %1$d muokattuun tarinaan kerrallaan</item>
+    </plurals>
+    <plurals name="capture_settings_distance_value_text_feet">
+        <item quantity="other">%1$d ft.</item>
+        <item quantity="one">%1$d ft.</item>
+    </plurals>
+    <plurals name="capture_settings_duration_value_text_orbits">
+        <item quantity="other">%1$d kiertoa</item>
+        <item quantity="one">1 kierto</item>
+    </plurals>
+    <plurals name="chat_header_gifting_birthday_upsell">
+        <item quantity="other">Käyttäjän %1$s syntymäpäivä on %2$d päivän päästä 🎂 Lahjoita hänelle Snapchat+</item>
+        <item quantity="one">Käyttäjän %1$s syntymäpäivä on huomenna 🎂 Lahjoita hänelle Snapchat+</item>
+    </plurals>
+    <plurals name="cheerios_clean_unpair_cheerios_body">
+        <item quantity="other">Pixyssä on %1$d Snappia. Haluatko myös nollata laitteen ja poistaa kaikki Snapit ja käyttäjätiedot?</item>
+        <item quantity="one">Pixyssä on Snap. Haluatko myös nollata laitteen ja poistaa kaikki Snapit ja käyttäjätiedot?</item>
+    </plurals>
+    <plurals name="cheerios_confirm_delete_body">
+        <item quantity="other">Kun poistat Snapit, ne poistetaan myös Cheerios-laitteeltasi.</item>
+        <item quantity="one">Kun poistat Snapin, se poistetaan myös Cheerios-laitteeltasi.</item>
+    </plurals>
+    <plurals name="cheerios_deleted">
+        <item quantity="other">%d Snappia poistettu</item>
+        <item quantity="one">Snap poistettu</item>
+    </plurals>
+    <plurals name="cheerios_deleting">
+        <item quantity="other">Poistetaan %d Snappia…</item>
+        <item quantity="one">Poistetaan 1 Snap…</item>
+    </plurals>
+    <plurals name="cheerios_memories_tooltip">
+        <item quantity="other">%d uutta Snappia</item>
+        <item quantity="one">1 uusi Snap</item>
+    </plurals>
+    <plurals name="cheerios_new_snap_to_import">
+        <item quantity="other">%d uutta Snappia. Tuo ne napauttamalla.</item>
+        <item quantity="one">1 uusi Snap. Tuo se napauttamalla.</item>
+    </plurals>
+    <plurals name="cheerios_status_transfer_complete_title">
+        <item quantity="other">%d Snappia tuotu</item>
+        <item quantity="one">%d Snap tuotu</item>
+    </plurals>
+    <plurals name="cheerios_status_transferring_title">
+        <item quantity="other">Tuodaan %d Snappia…</item>
+        <item quantity="one">Tuodaan %d Snap…</item>
+    </plurals>
+    <plurals name="cluster_seven_or_more">
+        <item quantity="other">%1$s, %2$s, %3$s, %4$s, %5$s ja %6$d muuta</item>
+        <item quantity="one">%1$s, %2$s, %3$s, %4$s, %5$s ja %6$d muu</item>
+    </plurals>
+    <plurals name="cluster_seven_or_more_me">
+        <item quantity="other">%1$s, %2$s, %3$s, %4$s, minä ja %5$d muuta</item>
+        <item quantity="one">%1$s, %2$s, %3$s, %4$s, minä ja %5$d muu</item>
+    </plurals>
+    <plurals name="cluster_three_or_more">
+        <item quantity="other">%1$s ja %2$d muuta</item>
+        <item quantity="one">%1$s ja %2$d muu</item>
+    </plurals>
+    <plurals name="cluster_three_or_more_me">
+        <item quantity="other">Minä ja %1$d muuta</item>
+        <item quantity="one">Minä ja %1$d muu</item>
+    </plurals>
+    <plurals name="cognac_active_playing_game_text_multiple_player">
+        <item quantity="other">%1$s, %2$s ja %3$d muuta pelaavat</item>
+        <item quantity="one">%1$s, %2$s ja %3$d muuta pelaavat</item>
+    </plurals>
+    <plurals name="cognac_active_playing_game_text_multiple_player_shortened">
+        <item quantity="other">%1$s + %2$d muuta pelaavat peliä</item>
+        <item quantity="one">%1$s + %2$d muuta pelaavat peliä</item>
+    </plurals>
+    <plurals name="cognac_active_using_cypress_text_multiple_player">
+        <item quantity="other">%1$s, %2$s ja %3$d muuta ovat aktiivisia</item>
+        <item quantity="one">%1$s, %2$s ja %3$d muuta ovat aktiivisia</item>
+    </plurals>
+    <plurals name="cognac_active_using_cypress_text_multiple_player_shortened">
+        <item quantity="other">%1$s + %2$d muuta ovat aktiivisia</item>
+        <item quantity="one">%1$s + %2$d muuta ovat aktiivisia</item>
+    </plurals>
+    <plurals name="cognac_app_profile_multiple_player_text">
+        <item quantity="other">Tukee %1$s–%2$d pelaajaa</item>
+        <item quantity="one">Tukee %1$s–%2$d pelaajaa</item>
+    </plurals>
+    <plurals name="cognac_close_status_message_multiple_player_second_person">
+        <item quantity="other">Sinä, %1$s ja %2$d muuta pelasitte peliä %3$s</item>
+        <item quantity="one">Sinä, %1$s ja %2$d muuta pelasitte peliä %3$s</item>
+    </plurals>
+    <plurals name="cognac_close_status_message_multiple_player_third_person">
+        <item quantity="other">%1$s, %2$s ja %3$d muu pelasivat peliä %4$s</item>
+        <item quantity="one">%1$s, %2$s ja %3$d muu pelasivat peliä %4$s</item>
+    </plurals>
+    <plurals name="cognac_close_status_message_text_for_feed_multiple_player_third_person">
+        <item quantity="other">%1$s ja %2$d muuta pelasivat peliä %3$s</item>
+        <item quantity="one">%1$s ja %2$d muuta pelasivat peliä %3$s</item>
+    </plurals>
+    <plurals name="cognac_cypress_close_status_message_multiple_player_second_person">
+        <item quantity="other">Sinä, %1$s ja %2$d muuta käytitte kohdetta %3$s</item>
+        <item quantity="one">Sinä, %1$s ja %2$d muuta käytitte kohdetta %3$s</item>
+    </plurals>
+    <plurals name="cognac_cypress_close_status_message_multiple_player_third_person">
+        <item quantity="other">%1$s, %2$s ja %3$d muu käyttivät kohdetta %4$s</item>
+        <item quantity="one">%1$s, %2$s ja %3$d muu käyttivät kohdetta %4$s</item>
+    </plurals>
+    <plurals name="cognac_cypress_close_status_message_text_for_feed_multiple_player_third_person">
+        <item quantity="other">%1$s ja %2$d muuta käyttivät kohdetta %3$s</item>
+        <item quantity="one">%1$s ja %2$d muuta käyttivät kohdetta %3$s</item>
+    </plurals>
+    <plurals name="cognac_friend_picker_ringing_text_multiple_players">
+        <item quantity="other">Soitetaan kaverille %1$s ja %2$d muulle…</item>
+        <item quantity="one">Soitetaan kaverille %1$s ja %2$d muulle…</item>
+    </plurals>
+    <plurals name="comments_collapse_child_comments">
+        <item quantity="other">Piilota vastaukset</item>
+        <item quantity="one">Piilota vastaus</item>
+    </plurals>
+    <plurals name="comments_expand_child_comments">
+        <item quantity="other">Näytä %s vastausta</item>
+        <item quantity="one">Näytä yksi vastaus</item>
+    </plurals>
+    <plurals name="comments_header_with_live_comment_count">
+        <item quantity="other">%s kommenttia</item>
+        <item quantity="one">1 kommentti</item>
+    </plurals>
+    <plurals name="content_detail_new_count">
+        <item quantity="other">%1$d uutta</item>
+        <item quantity="one">%1$d uusi</item>
+    </plurals>
+    <plurals name="content_detail_seen_text">
+        <item quantity="other">%1$d tuotavana</item>
+        <item quantity="one">%1$d tuotavana</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="other">%d päivää</item>
+        <item quantity="one">%d päivä</item>
+    </plurals>
+    <plurals name="days_abbreviated">
+        <item quantity="other">%d pv</item>
+        <item quantity="one">%d pv</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated">
+        <item quantity="other">%d pv sitten</item>
+        <item quantity="one">%d pv sitten</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_camera_roll">
+        <item quantity="other">%1$d pv sitten kameran rullasta</item>
+        <item quantity="one">%1$d pv sitten kameran rullasta</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_chat">
+        <item quantity="other">%1$d pv sitten chatista</item>
+        <item quantity="one">%1$d pv sitten chatista</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_cheerios">
+        <item quantity="other">%1$d pv sitten Pixystä</item>
+        <item quantity="one">%1$d pv sitten Pixystä</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d pv sitten kohteesta %2$s</item>
+        <item quantity="one">%1$d pv sitten kohteesta %2$s</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_memories">
+        <item quantity="other">%1$d pv sitten Muistoista</item>
+        <item quantity="one">%1$d pv sitten Muistoista</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_spectacles">
+        <item quantity="other">%1$d pv sitten Spectacleseista</item>
+        <item quantity="one">%1$d pv sitten Spectacleseista</item>
+    </plurals>
+    <plurals name="days_ago_update">
+        <item quantity="other">Päivitetty %1$s päivää sitten</item>
+        <item quantity="one">Päivitetty %1$s päivä sitten</item>
+    </plurals>
+    <plurals name="discard_batch_capture_description">
+        <item quantity="other">Haluatko varmasti hylätä Multi-Snapin? Tallentamattomat %1$d Snappia menetetään.</item>
+        <item quantity="one">Haluatko varmasti hylätä Multi-Snapin? Tallentamaton Snap menetetään.</item>
+    </plurals>
+    <plurals name="display_username_explanation_changed_username_too_recently">
+        <item quantity="other">"Vaihdoit käyttäjätunnustasi %1$s.
+Voit vaihtaa sitä uudelleen %2$d päivän päästä."</item>
+        <item quantity="one">"Vaihdoit käyttäjätunnustasi %1$s.
+Voit vaihtaa sitä uudelleen %2$d päivän päästä."</item>
+    </plurals>
+    <plurals name="failed_to_save_multiple_snaps">
+        <item quantity="other">%1$d Snapin tallennus epäonnistui</item>
+        <item quantity="one">%1$d Snapin tallennus epäonnistui</item>
+    </plurals>
+    <plurals name="formatted_short_ft">
+        <item quantity="other">%d ft.</item>
+        <item quantity="one">%d ft.</item>
+    </plurals>
+    <plurals name="formatted_short_km">
+        <item quantity="other">%d km</item>
+        <item quantity="one">%d km</item>
+    </plurals>
+    <plurals name="formatted_short_m">
+        <item quantity="other">%d m</item>
+        <item quantity="one">%d m</item>
+    </plurals>
+    <plurals name="formatted_short_mile">
+        <item quantity="other">%d mailia</item>
+        <item quantity="one">%d maili</item>
+    </plurals>
+    <plurals name="friending_progress_bar_secondary">
+        <item quantity="other">Lähetä vielä %1$s kaveripyyntöä!</item>
+        <item quantity="one">Lähetä vielä %1$s kaveripyyntö!</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_description_items">
+        <item quantity="other">Sisällöt lisättiin \"vain minun silmilleni\" -toimintoon. Haluatko poistaa alkuperäiset kamerasi rullasta?</item>
+        <item quantity="one">Sisällöt lisättiin \"vain minun silmilleni\" -toimintoon. Haluatko poistaa alkuperäisen kamerasi rullasta?</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_description_photos">
+        <item quantity="other">Kuvasi lisättiin \"vain minun silmilleni\" -toimintoon. Haluatko poistaa alkuperäiset kamerasi rullasta?</item>
+        <item quantity="one">Kuvasi lisättiin \"vain minun silmilleni\" -toimintoon. Haluatko poistaa alkuperäisen kamerasi rullasta?</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_description_videos">
+        <item quantity="other">Videosi lisättiin \"vain minun silmilleni\" -toimintoon. Haluatko poistaa alkuperäiset kamerasi rullasta?</item>
+        <item quantity="one">Videosi lisättiin \"vain minun silmilleni\" -toimintoon. Haluatko poistaa alkuperäisen kamerasi rullasta?</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_title">
+        <item quantity="other">Poista alkuperäiset</item>
+        <item quantity="one">Poista alkuperäinen</item>
+    </plurals>
+    <plurals name="gallery_private_rate_limit_minutes_time_out">
+        <item quantity="other">"
+Yritä uudelleen %1$d minuutin kuluttua."</item>
+        <item quantity="one">"
+Yritä uudelleen %1$d minuutin kuluttua."</item>
+    </plurals>
+    <plurals name="gauge_altitude_unit_feet">
+        <item quantity="other">%d ft.</item>
+        <item quantity="one">%d ft.</item>
+    </plurals>
+    <plurals name="gauge_altitude_unit_meters">
+        <item quantity="other">%d m</item>
+        <item quantity="one">%d m</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%d tuntia</item>
+        <item quantity="one">%d tunti</item>
+    </plurals>
+    <plurals name="hours_abbreviated">
+        <item quantity="other">%d h</item>
+        <item quantity="one">%d h</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%d h</item>
+        <item quantity="one">%d h</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated">
+        <item quantity="other">%d h sitten</item>
+        <item quantity="one">%d h sitten</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_camera_roll">
+        <item quantity="other">%1$d h sitten kameran rullasta</item>
+        <item quantity="one">%1$d h sitten kameran rullasta</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_chat">
+        <item quantity="other">%1$d h sitten chatista</item>
+        <item quantity="one">%1$d h sitten chatista</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_cheerios">
+        <item quantity="other">%1$d h sitten Pixystä</item>
+        <item quantity="one">%1$d h sitten Pixystä</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d h sitten kohteesta %2$s</item>
+        <item quantity="one">%1$d h sitten kohteesta %2$s</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_memories">
+        <item quantity="other">%1$d h sitten Muistoista</item>
+        <item quantity="one">%1$d h sitten Muistoista</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_spectacles">
+        <item quantity="other">%1$d h sitten Spectacleseista</item>
+        <item quantity="one">%1$d h sitten Spectacleseista</item>
+    </plurals>
+    <plurals name="hours_ago_update">
+        <item quantity="other">Päivitetty %1$s tuntia sitten</item>
+        <item quantity="one">Päivitetty %1$s tunti sitten</item>
+    </plurals>
+    <plurals name="last_seen_here_hours">
+        <item quantity="other">Nähty täällä viimeksi %d h sitten</item>
+        <item quantity="one">Nähty täällä viimeksi %d h sitten</item>
+    </plurals>
+    <plurals name="last_seen_here_minutes">
+        <item quantity="other">Nähty täällä viimeksi %d min sitten</item>
+        <item quantity="one">Nähty täällä viimeksi %d min sitten</item>
+    </plurals>
+    <plurals name="live_location_chat_hours_remaining">
+        <item quantity="other">%d tuntia</item>
+        <item quantity="one">%d tunti</item>
+    </plurals>
+    <plurals name="live_location_description_existing_sessions">
+        <item quantity="other">Jaat reaaliaikaisen sijaintisi tässä ryhmässä tällä hetkellä olevien kavereiden kanssa. %d kaveria näkee jo reaaliaikaisen sijaintisi.</item>
+        <item quantity="one">Jaat reaaliaikaisen sijaintisi tässä ryhmässä tällä hetkellä olevien kavereiden kanssa. %d kaveri näkee jo reaaliaikaisen sijaintisi.</item>
+    </plurals>
+    <plurals name="live_location_duration_hr">
+        <item quantity="other">%d tuntia</item>
+        <item quantity="one">%d tunti</item>
+    </plurals>
+    <plurals name="live_location_duration_min">
+        <item quantity="other">%d minuuttia</item>
+        <item quantity="one">%d minuutti</item>
+    </plurals>
+    <plurals name="live_location_share_group_description">
+        <item quantity="other">Jaat reaaliaikaisen sijaintisi tässä ryhmässä tällä hetkellä olevien kavereiden kanssa. %d jäsentä ei näe sijaintiasi, koska ette ole kavereita.</item>
+        <item quantity="one">Jaat reaaliaikaisen sijaintisi tässä ryhmässä tällä hetkellä olevien kavereiden kanssa. %d jäsen ei näe sijaintiasi, koska ette ole kavereita.</item>
+    </plurals>
+    <plurals name="live_location_with_friends">
+        <item quantity="other">%d kaverin kanssa</item>
+        <item quantity="one">%d kaverin kanssa</item>
+    </plurals>
+    <plurals name="location_upsell_description_specific_friends_more_than_four">
+        <item quantity="other">%1$s, %2$s, %3$s ja %4$d muuta kaveriasi ovat kartalla!</item>
+        <item quantity="one">%1$s, %2$s, %3$s ja %4$d muu kaverisi ovat kartalla!</item>
+    </plurals>
+    <plurals name="locked_lens_friending_banner_countdown_timer_hours">
+        <item quantity="other">%1$d t</item>
+        <item quantity="one">%1$d t</item>
+    </plurals>
+    <plurals name="locked_lens_friending_banner_countdown_timer_minutes">
+        <item quantity="other">%1$d min</item>
+        <item quantity="one">%1$d min</item>
+    </plurals>
+    <plurals name="locked_lens_friending_banner_countdown_timer_seconds">
+        <item quantity="other">%1$d s</item>
+        <item quantity="one">%1$d s</item>
+    </plurals>
+    <plurals name="map_group_card_subtext_friend_sharing">
+        <item quantity="other">%1$d kaveria jakaa</item>
+        <item quantity="one">%1$d kaveri jakaa</item>
+    </plurals>
+    <plurals name="map_passport_and_other">
+        <item quantity="other">ja %d muuta</item>
+        <item quantity="one">ja %d muu</item>
+    </plurals>
+    <plurals name="map_passport_bucket_cities_title">
+        <item quantity="other">Paikkakunnat</item>
+        <item quantity="one">Paikkakunta</item>
+    </plurals>
+    <plurals name="map_passport_bucket_countries_title">
+        <item quantity="other">Maat</item>
+        <item quantity="one">Maa</item>
+    </plurals>
+    <plurals name="map_passport_bucket_places_title">
+        <item quantity="other">Paikat</item>
+        <item quantity="one">Paikka</item>
+    </plurals>
+    <plurals name="map_widget_days_ago">
+        <item quantity="other">%d pv</item>
+        <item quantity="one">%d pv</item>
+    </plurals>
+    <plurals name="media_export_service_batch_export_failure">
+        <item quantity="other">Vienti onnistui %1$d/%2$d Snapin kohdalla. %3$d Snapin vienti epäonnistui.</item>
+        <item quantity="one">Vienti onnistui %1$d/%2$d Snapin kohdalla. %3$d Snapin vienti epäonnistui.</item>
+    </plurals>
+    <plurals name="media_export_service_processing">
+        <item quantity="other">Viedään Snappia %1$d/%2$d…</item>
+        <item quantity="one">Viedään Snappia…</item>
+    </plurals>
+    <plurals name="media_export_service_success">
+        <item quantity="other">Snappien vienti onnistui!</item>
+        <item quantity="one">Snapin vienti onnistui!</item>
+    </plurals>
+    <plurals name="memories_camera_select_limit_error">
+        <item quantity="other">Vain %d kohdetta voidaan valita kerralla.</item>
+        <item quantity="one">Vain %d kohde voidaan valita kerralla.</item>
+    </plurals>
+    <plurals name="memories_delete_camera_roll_image_body">
+        <item quantity="other">Nämä kuvat poistetaan laitteestasi</item>
+        <item quantity="one">Tämä kuva poistetaan laitteestasi</item>
+    </plurals>
+    <plurals name="memories_delete_camera_roll_mixed_body">
+        <item quantity="other">Nämä kohteet poistetaan laitteestasi</item>
+        <item quantity="one">Nämä kohteet poistetaan laitteestasi</item>
+    </plurals>
+    <plurals name="memories_delete_camera_roll_video_body">
+        <item quantity="other">Nämä videot poistetaan laitteestasi</item>
+        <item quantity="one">Tämä video poistetaan laitteestasi</item>
+    </plurals>
+    <plurals name="memories_delete_snap_body">
+        <item quantity="other">Poistetaanko Snapit?</item>
+        <item quantity="one">Poistetaanko Snap?</item>
+    </plurals>
+    <plurals name="memories_delete_story_body">
+        <item quantity="other">Poistetaanko tarinat?</item>
+        <item quantity="one">Poistetaanko tarina?</item>
+    </plurals>
+    <plurals name="memories_export_error">
+        <item quantity="other">Snapin vienti epäonnistui.</item>
+        <item quantity="one">Snapin vienti epäonnistui.</item>
+    </plurals>
+    <plurals name="memories_favorite_snaps_story_added">
+        <item quantity="other">%d Snappia lisätty Suosikit-tarinaan</item>
+        <item quantity="one">Snap lisätty Suosikit-tarinaan</item>
+    </plurals>
+    <plurals name="memories_favorite_snaps_story_removed">
+        <item quantity="other">%d Snappia poistettu Suosikit-tarinasta</item>
+        <item quantity="one">Snap poistettu Suosikit-tarinasta</item>
+    </plurals>
+    <plurals name="memories_featured_story_flashback_diff_date_subtext">
+        <item quantity="other">%1$d vuotta sitten</item>
+        <item quantity="one">%1$d vuosi sitten</item>
+    </plurals>
+    <plurals name="memories_featured_story_flashback_same_date_subtext">
+        <item quantity="other">%1$d vuotta sitten tänä päivänä</item>
+        <item quantity="one">%1$d vuosi sitten tänä päivänä</item>
+    </plurals>
+    <plurals name="memories_featured_story_trip_flashback_chat_prefill_snap">
+        <item quantity="other">%1$s, %2$d vuotta sitten</item>
+        <item quantity="one">%1$s, %2$d vuosi sitten</item>
+    </plurals>
+    <plurals name="memories_featured_story_trip_flashback_chat_prefill_story">
+        <item quantity="other">Tapahtui %1$d vuotta sitten</item>
+        <item quantity="one">Tapahtui %1$d vuosi sitten</item>
+    </plurals>
+    <plurals name="memories_hide_legacy_auto_saves">
+        <item quantity="other">Näiden tarinoiden Snapit säilyvät uudella Oma tarina -sivulla. Toiminto ei vaikuta luomiisi tai muokkaamiisi tarinoihin.</item>
+        <item quantity="one">Tämän tarinan Snapit säilyvät uudella Oma tarina -sivulla. Toiminto ei vaikuta luomiisi tai muokkaamiisi tarinoihin.</item>
+    </plurals>
+    <plurals name="memories_hide_legacy_auto_saves_title">
+        <item quantity="other">Poistetaanko %d vanhempaa automaattisesti tallennettua tarinaa?</item>
+        <item quantity="one">Poistetaanko %d vanhempi automaattisesti tallennettu tarina?</item>
+    </plurals>
+    <plurals name="memories_print_print_created">
+        <item quantity="other">%d 3D-tulostetta luotu</item>
+        <item quantity="one">%d 3D-tuloste luotu</item>
+    </plurals>
+    <plurals name="memories_print_processing">
+        <item quantity="other">%d tulostettavaa Snapia käsittelyssä…</item>
+        <item quantity="one">%d tulostettava Snap käsittelyssä…</item>
+    </plurals>
+    <plurals name="memories_remove_older_stories_dialog_title">
+        <item quantity="other">Tämä poistaa %d vanhempaa automaattisesti tallennettua tarinaa.</item>
+        <item quantity="one">Tämä poistaa %d vanhemman automaattisesti tallennetun tarinan.</item>
+    </plurals>
+    <plurals name="memories_select_limit_error">
+        <item quantity="other">Vain %d Snappia voidaan valita kerralla.</item>
+        <item quantity="one">Vain %d Snap voidaan valita kerralla.</item>
+    </plurals>
+    <plurals name="memories_status_transfer_complete_in_app_notification_text">
+        <item quantity="other">%1$d Snappia tuotu käyttäjältä %2$s</item>
+        <item quantity="one">%1$d Snap tuotu käyttäjältä %2$s</item>
+    </plurals>
+    <plurals name="memories_status_transfer_complete_title">
+        <item quantity="other">%d Snappia tuotu!</item>
+        <item quantity="one">%d Snap tuotu!</item>
+    </plurals>
+    <plurals name="memories_status_transfer_from_device_complete_title">
+        <item quantity="other">Uusia Snappeja käyttäjältä %s</item>
+        <item quantity="one">Uusi Snap käyttäjältä %s</item>
+    </plurals>
+    <plurals name="memories_status_transferring_title">
+        <item quantity="other">Tuodaan %1$d/%2$d Snappia…</item>
+        <item quantity="one">Tuodaan %1$d/%2$d Snappia…</item>
+    </plurals>
+    <plurals name="memories_story_editor_add_snap_selected">
+        <item quantity="other">%d valittu</item>
+        <item quantity="one">%d valittu</item>
+    </plurals>
+    <plurals name="minutes_abbreviated">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated">
+        <item quantity="other">%d min sitten</item>
+        <item quantity="one">%d min sitten</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_camera_roll">
+        <item quantity="other">%1$d min sitten kameran rullasta</item>
+        <item quantity="one">%1$d min sitten kameran rullasta</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_chat">
+        <item quantity="other">%1$d min sitten chatista</item>
+        <item quantity="one">%1$d min sitten chatista</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_cheerios">
+        <item quantity="other">%1$d min sitten Pixystä</item>
+        <item quantity="one">%1$d min sitten Pixystä</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d min sitten kohteesta %2$s</item>
+        <item quantity="one">%1$d min sitten kohteesta %2$s</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_memories">
+        <item quantity="other">%1$d min sitten Muistoista</item>
+        <item quantity="one">%1$d min sitten Muistoista</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_spectacles">
+        <item quantity="other">%1$d min sitten Spectacleseista</item>
+        <item quantity="one">%1$d min sitten Spectacleseista</item>
+    </plurals>
+    <plurals name="minutes_ago_update">
+        <item quantity="other">Päivitetty %1$s minuuttia sitten</item>
+        <item quantity="one">Päivitetty %1$s minuutti sitten</item>
+    </plurals>
+    <plurals name="months_abbreviated">
+        <item quantity="other">%d kk</item>
+        <item quantity="one">%d kk</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated">
+        <item quantity="other">%d kk sitten</item>
+        <item quantity="one">%d kk sitten</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_camera_roll">
+        <item quantity="other">%1$d kk sitten kameran rullasta</item>
+        <item quantity="one">%1$d kk sitten kameran rullasta</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_chat">
+        <item quantity="other">%1$d kk sitten chatista</item>
+        <item quantity="one">%1$d kk sitten chatista</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_cheerios">
+        <item quantity="other">%1$d kk sitten Pixystä</item>
+        <item quantity="one">%1$d kk sitten Pixystä</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d kk sitten kohteesta %2$s</item>
+        <item quantity="one">%1$d kk sitten kohteesta %2$s</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_memories">
+        <item quantity="other">%1$d kk sitten Muistoista</item>
+        <item quantity="one">%1$d kk sitten Muistoista</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_spectacles">
+        <item quantity="other">%1$d kk sitten Spectacleseista</item>
+        <item quantity="one">%1$d kk sitten Spectacleseista</item>
+    </plurals>
+    <plurals name="months_ago_update">
+        <item quantity="other">Päivitetty %1$s kuukautta sitten</item>
+        <item quantity="one">Päivitetty %1$s kuukausi sitten</item>
+    </plurals>
+    <plurals name="more_stories">
+        <item quantity="other">Vielä %d tarinaa</item>
+        <item quantity="one">Vielä 1 tarina</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d uutta ilmoitusta</item>
+        <item quantity="one">%d uusi ilmoitus</item>
+    </plurals>
+    <plurals name="muted_stories">
+        <item quantity="other">%d mykistettyä tarinaa</item>
+        <item quantity="one">1 mykistetty tarina</item>
+    </plurals>
+    <plurals name="new_registration_continue_with_n_friends">
+        <item quantity="other">Lisää %d kaveria</item>
+        <item quantity="one">Lisää 1 kaveri</item>
+    </plurals>
+    <plurals name="num_hours">
+        <item quantity="other">%d h</item>
+        <item quantity="one">%d h</item>
+    </plurals>
+    <plurals name="num_minutes">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+    <plurals name="nyc_audience_many_and_x_others">
+        <item quantity="other">%1$s ja %2$d muuta</item>
+        <item quantity="one">%1$s ja %2$d muu</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_ft">
+        <item quantity="other">ft.</item>
+        <item quantity="one">ft.</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_km">
+        <item quantity="other">km:n</item>
+        <item quantity="one">km:n</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_m">
+        <item quantity="other">m</item>
+        <item quantity="one">m</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_mile">
+        <item quantity="other">mailin</item>
+        <item quantity="one">mailin</item>
+    </plurals>
+    <plurals name="nyc_friends_many_and_x_others">
+        <item quantity="other">%1$s ja %2$s jakavat reaaliaikaista sijaintia kanssasi</item>
+        <item quantity="one">%1$s jakaa reaaliaikaista sijaintia kanssasi</item>
+    </plurals>
+    <plurals name="nyc_sharing_live_location_with_friends">
+        <item quantity="other">"Reaaliaikaista sijaintiasi jaetaan %1$s kaverille. "</item>
+        <item quantity="one">"Reaaliaikaista sijaintiasi jaetaan %1$s kaverille. "</item>
+    </plurals>
+    <plurals name="nyc_unhide_live_location_friend_dialog_title">
+        <item quantity="other">Piilotat reaaliaikaisen sijaintisi %1$d muulta kaverilta</item>
+        <item quantity="one">Piilotat reaaliaikaisen sijaintisi 1 muulta kaverilta</item>
+    </plurals>
+    <plurals name="pairing_validation_description">
+        <item quantity="other">Pixyssä on %d Snappia edelliseltä käyttäjältä. Parin muodostaminen tähän laitteeseen nollaa sen ja poistaa kaikki Snapit ja käyttäjätiedot.</item>
+        <item quantity="one">Pixyssä on 1 Snap edelliseltä käyttäjältä. Parin muodostaminen tähän laitteeseen nollaa sen ja poistaa kaikki Snapit ja käyttäjätiedot.</item>
+    </plurals>
+    <plurals name="payments_num_purchased_items">
+        <item quantity="other">%d tuotetta</item>
+        <item quantity="one">1 tuote</item>
+    </plurals>
+    <plurals name="pending_syncs_logout_warning">
+        <item quantity="other">%1$d Snappia odottaa vielä varmuuskopiointia Muistoihin. Jos kirjaudut ulos nyt, ne saattavat kadota.</item>
+        <item quantity="one">Yhtä Snappia ei ole vielä varmuuskopioitu Muistoihin. Jos kirjaudut ulos nyt, se saattaa kadota.</item>
+    </plurals>
+    <plurals name="perception_lens_collection_scan_card_lenses_count">
+        <item quantity="other">%d tehostetta</item>
+        <item quantity="one">%d tehoste</item>
+    </plurals>
+    <plurals name="perception_lenses_scan_card_try_lenses">
+        <item quantity="other">Kokeile tehosteita (%d)</item>
+        <item quantity="one">Kokeile tehostetta</item>
+    </plurals>
+    <plurals name="play_with_max_player_alert_text">
+        <item quantity="other">Peliin mahtuu enintään %1$d pelaajaa.</item>
+        <item quantity="one">Peliin mahtuu vain %1$d pelaaja.</item>
+    </plurals>
+    <plurals name="post_pairing_import_title">
+        <item quantity="other">%d uutta Snappia</item>
+        <item quantity="one">%d uusi Snap</item>
+    </plurals>
+    <plurals name="registration_continue_with_n_friends">
+        <item quantity="other">+ Lisää %d kaveria</item>
+        <item quantity="one">+ Lisää 1 kaveri</item>
+    </plurals>
+    <plurals name="save_button_tooltip_saved_multiple">
+        <item quantity="other">%1$d Snappia tallennettu!</item>
+        <item quantity="one">%1$d Snap tallennettu!</item>
+    </plurals>
+    <plurals name="saved_media_gallery_attribution_media_count">
+        <item quantity="other">%s Snappia</item>
+        <item quantity="one">%s Snap</item>
+    </plurals>
+    <plurals name="seconds_abbreviated">
+        <item quantity="other">%d s</item>
+        <item quantity="one">%d s</item>
+    </plurals>
+    <plurals name="seconds_ago">
+        <item quantity="other">%d s</item>
+        <item quantity="one">%d s</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated">
+        <item quantity="other">%d s sitten</item>
+        <item quantity="one">%d s sitten</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_camera_roll">
+        <item quantity="other">%1$d s sitten kameran rullasta</item>
+        <item quantity="one">%1$d s sitten kameran rullasta</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_chat">
+        <item quantity="other">%1$d s sitten chatista</item>
+        <item quantity="one">%1$d s sitten chatista</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_cheerios">
+        <item quantity="other">%1$d s sitten Pixystä</item>
+        <item quantity="one">%1$d s sitten Pixystä</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d s sitten kohteesta %2$s</item>
+        <item quantity="one">%1$d s sitten kohteesta %2$s</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_memories">
+        <item quantity="other">%1$d s sitten Muistoista</item>
+        <item quantity="one">%1$d s sitten Muistoista</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_spectacles">
+        <item quantity="other">%1$d s sitten Spectacleseista</item>
+        <item quantity="one">%1$d s sitten Spectacleseista</item>
+    </plurals>
+    <plurals name="seconds_ago_update">
+        <item quantity="other">Päivitetty %1$s sekuntia sitten</item>
+        <item quantity="one">Päivitetty %1$s sekunti sitten</item>
+    </plurals>
+    <plurals name="select_friend_friend">
+        <item quantity="other">%1$d kaveria</item>
+        <item quantity="one">1 kaveri</item>
+    </plurals>
+    <plurals name="select_friend_other">
+        <item quantity="other">%1$s ja %2$d muuta</item>
+        <item quantity="one">%1$s ja 1 muu</item>
+    </plurals>
+    <plurals name="settings_birthday_update_years_old">
+        <item quantity="other">Olen %d-vuotias.</item>
+        <item quantity="one">Olen %d-vuotias.</item>
+    </plurals>
+    <plurals name="snap_timer_selection_units">
+        <item quantity="other">sekuntia</item>
+        <item quantity="one">sekunti</item>
+    </plurals>
+    <plurals name="snaps_count">
+        <item quantity="other">%1$d Snappia</item>
+        <item quantity="one">%1$d Snap</item>
+    </plurals>
+    <plurals name="spectacles_export_customization_description">
+        <item quantity="other">Miten haluat viedä Snapit?</item>
+        <item quantity="one">Miten haluat viedä Snapin?</item>
+    </plurals>
+    <plurals name="spotlight_comments_count_notification_title">
+        <item quantity="other">%d odottavaa valokeilakommenttia</item>
+        <item quantity="one">1 odottava valokeilakommentti</item>
+    </plurals>
+    <plurals name="status_views">
+        <item quantity="other">%d katselukertaa</item>
+        <item quantity="one">%d katselukerta</item>
+    </plurals>
+    <plurals name="still_sharing_last_active_location_description">
+        <item quantity="other">"Reaaliaikainen sijaintisi on piilotettu, mutta %1$s kaveria voi silti nähdä viimeisimmän aktiivisen sijaintisi.
+
+ Voit muuttaa tätä Snap-kartan asetuksissa."</item>
+        <item quantity="one">"Reaaliaikainen sijaintisi on piilotettu, mutta %1$s kaveri voi silti nähdä viimeisimmän aktiivisen sijaintisi.
+
+ Voit muuttaa tätä Snap-kartan asetuksissa."</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_change_audience">
+        <item quantity="other">%1$s kaveria näkee edelleen reaaliaikaisen sijaintisi, vaikka sijaintiasetuksesi onkin tallennettu. Lopeta jakaminen napauttamalla kaverin kohdalla Lopeta.</item>
+        <item quantity="one">%1$s kaveri näkee edelleen reaaliaikaisen sijaintisi, vaikka sijaintiasetuksesi onkin tallennettu. Lopeta jakaminen napauttamalla kaverin kohdalla Lopeta.</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_enter_ghost_mode">
+        <item quantity="other">%1$s kaveria näkee edelleen reaaliaikaisen sijaintisi, vaikka oletkin haamutilassa. Lopeta jakaminen napauttamalla kaverin kohdalla Lopeta.</item>
+        <item quantity="one">%1$s kaveri näkee edelleen reaaliaikaisen sijaintisi, vaikka oletkin haamutilassa. Lopeta jakaminen napauttamalla kaverin kohdalla Lopeta.</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_enter_ghost_mode_ghost_trail">
+        <item quantity="other">"%1$s kaveria näkee edelleen reaaliaikaisen sijaintisi, vaikka oletkin haamutilassa. Lopeta jakaminen napauttamalla kaverin kohdalla Lopeta.
+
+Sijainteja ei lisätä haamureitillesi, kun olet haamutilassa."</item>
+        <item quantity="one">"%1$s kaveri näkee edelleen reaaliaikaisen sijaintisi, vaikka oletkin haamutilassa. Lopeta jakaminen napauttamalla kaverin kohdalla Lopeta.
+
+Sijainteja ei lisätä haamureitillesi, kun olet haamutilassa."</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_enter_ghost_mode_hide_live_location">
+        <item quantity="other">%1$s kaveria näkee edelleen reaaliaikaisen sijaintisi, vaikka oletkin haamutilassa. Lopeta jakaminen napauttamalla Piilota reaaliaikainen sijaintini alla.</item>
+        <item quantity="one">%1$s kaveri näkee edelleen reaaliaikaisen sijaintisi, vaikka oletkin haamutilassa. Lopeta jakaminen napauttamalla Piilota reaaliaikainen sijaintini alla.</item>
+    </plurals>
+    <plurals name="story_friend_story_notification_title_update">
+        <item quantity="other">%d kaveria lisäsi tarinaansa</item>
+        <item quantity="one">%d kaveri lisäsi tarinaansa</item>
+    </plurals>
+    <plurals name="story_fullscreen_footer_view_count">
+        <item quantity="other">%d katselukertaa</item>
+        <item quantity="one">%d katselukerta</item>
+    </plurals>
+    <plurals name="story_management_viewer_list_more_viewers">
+        <item quantity="other">+ %1$d muuta</item>
+        <item quantity="one">+ %1$d muu</item>
+    </plurals>
+    <plurals name="story_mob_subtext_more">
+        <item quantity="other">%1$s ja %2$d muuta…</item>
+        <item quantity="one">%1$s ja %2$d muu…</item>
+    </plurals>
+    <plurals name="story_profile_communities_members">
+        <item quantity="other">Vahvistettu • %d jäsentä</item>
+        <item quantity="one">Vahvistettu • %d jäsen</item>
+    </plurals>
+    <plurals name="story_profile_shared_stories_members">
+        <item quantity="other">%d jäsentä</item>
+        <item quantity="one">%d jäsen</item>
+    </plurals>
+    <plurals name="story_profile_stories_adding">
+        <item quantity="other">Lisätään %d Snappia…</item>
+        <item quantity="one">Lisätään %d Snap…</item>
+    </plurals>
+    <plurals name="story_profile_stories_failed_to_add">
+        <item quantity="other">%d Snapin lisääminen epäonnistui</item>
+        <item quantity="one">%d Snapin lisääminen epäonnistui</item>
+    </plurals>
+    <plurals name="story_profile_stories_waiting_to_add">
+        <item quantity="other">%d Snappia odottaa lisäämistä...</item>
+        <item quantity="one">%d Snap odottaa lisäämistä...</item>
+    </plurals>
+    <plurals name="story_settings_action_menu_my_story_blocked_number_of_people">
+        <item quantity="other">%d henkilöä</item>
+        <item quantity="one">1 henkilö</item>
+    </plurals>
+    <plurals name="streak_restore_dialog_subtitle_free_restore">
+        <item quantity="other">Sinulla on %1$d maksutonta palautusta.</item>
+        <item quantity="one">Sinulla on %1$d maksuton palautus.</item>
+    </plurals>
+    <plurals name="streak_restore_dialog_subtitle_hours">
+        <item quantity="other">Sinulla on %2$d tuntia aikaa palauttaa Snapstreakisi kaverin %1$s kanssa, ennen kuin se katoaa lopullisesti!</item>
+        <item quantity="one">Sinulla on %2$d tunti aikaa palauttaa Snapstreakisi kaverin %1$s kanssa, ennen kuin se katoaa lopullisesti!</item>
+    </plurals>
+    <plurals name="streak_restore_dialog_subtitle_minutes">
+        <item quantity="other">Sinulla on %2$d minuuttia aikaa palauttaa Snapstreakisi kaverin %1$s kanssa, ennen kuin se katoaa lopullisesti!</item>
+        <item quantity="one">Sinulla on %2$d minuutti aikaa palauttaa Snapstreakisi kaverin %1$s kanssa, ennen kuin se katoaa lopullisesti!</item>
+    </plurals>
+    <plurals name="subtitle_sharing_custom_friends">
+        <item quantity="other">%d kaverin kanssa</item>
+        <item quantity="one">%d kaverin kanssa</item>
+    </plurals>
+    <plurals name="takeover_request_index_and_total">
+        <item quantity="other">%1$d/%2$d uusista kaveriehdotuksista</item>
+        <item quantity="one">%1$d/%2$d uusista kaveriehdotuksista</item>
+    </plurals>
+    <plurals name="ticketmaster_events_label">
+        <item quantity="other">tapahtumaa</item>
+        <item quantity="one">tapahtuma</item>
+    </plurals>
+    <plurals name="watched_stories">
+        <item quantity="other">%d katsottua tarinaa</item>
+        <item quantity="one">1 katsottu tarina</item>
+    </plurals>
+    <plurals name="weeks">
+        <item quantity="other">%d viikkoa</item>
+        <item quantity="one">%d viikko</item>
+    </plurals>
+    <plurals name="weeks_abbreviated">
+        <item quantity="other">%d vk</item>
+        <item quantity="one">%d vk</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated">
+        <item quantity="other">%d vk sitten</item>
+        <item quantity="one">%d vk sitten</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_camera_roll">
+        <item quantity="other">%1$d vk sitten kameran rullasta</item>
+        <item quantity="one">%1$d vk sitten kameran rullasta</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_chat">
+        <item quantity="other">%1$d vk sitten chatista</item>
+        <item quantity="one">%1$d vk sitten chatista</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_cheerios">
+        <item quantity="other">%1$d vk sitten Pixystä</item>
+        <item quantity="one">%1$d vk sitten Pixystä</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d vk sitten kohteesta %2$s</item>
+        <item quantity="one">%1$d vk sitten kohteesta %2$s</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_memories">
+        <item quantity="other">%1$d vk sitten Muistoista</item>
+        <item quantity="one">%1$d vk sitten Muistoista</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_spectacles">
+        <item quantity="other">%1$d vk sitten Spectacleseista</item>
+        <item quantity="one">%1$d vk sitten Spectacleseista</item>
+    </plurals>
+    <plurals name="weeks_ago_update">
+        <item quantity="other">Päivitetty %1$s viikkoa sitten</item>
+        <item quantity="one">Päivitetty %1$s viikko sitten</item>
+    </plurals>
+    <plurals name="years_abbreviated">
+        <item quantity="other">%d v</item>
+        <item quantity="one">%d v</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated">
+        <item quantity="other">%d v sitten</item>
+        <item quantity="one">%d v sitten</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_camera_roll">
+        <item quantity="other">%1$d v sitten kameran rullasta</item>
+        <item quantity="one">%1$d v sitten kameran rullasta</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_chat">
+        <item quantity="other">%1$d v sitten chatista</item>
+        <item quantity="one">%1$d v sitten chatista</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_cheerios">
+        <item quantity="other">%1$d v sitten Pixystä</item>
+        <item quantity="one">%1$d v sitten Pixystä</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_creative_kit">
+        <item quantity="other">%1$d v sitten kohteesta %2$s</item>
+        <item quantity="one">%1$d v sitten kohteesta %2$s</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_memories">
+        <item quantity="other">%1$d v sitten Muistoista</item>
+        <item quantity="one">%1$d v sitten Muistoista</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_spectacles">
+        <item quantity="other">%1$d v sitten Spectacleseista</item>
+        <item quantity="one">%1$d v sitten Spectacleseista</item>
+    </plurals>
+    <plurals name="years_ago_update">
+        <item quantity="other">Päivitetty %1$s vuotta sitten</item>
+        <item quantity="one">Päivitetty %1$s vuosi sitten</item>
+    </plurals>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/one_tap_login_opt_in_checkbox" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/default_gap" app:layout_constraintBottom_toTopOf="@+id/continue_button" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0">
+        <com.snap.component.button.SnapCheckBox android:layout_gravity="center_vertical" android:id="@+id/one_tap_login_opt_in_checkmark" android:background="@drawable/one_tap_login_selector" android:clickable="true" android:layout_width="@dimen/one_tap_login_checkbox_size" android:layout_height="@dimen/one_tap_login_checkbox_size" android:checked="true" android:button="@null" android:layout_marginEnd="@dimen/default_gap_half"/>
+        <com.snap.ui.view.SnapFontTextView android:textSize="?attr/v11Subtitle1TextSize" android:textColor="@color/sig_color_base_gray60_any" android:layout_gravity="center_vertical" android:id="@+id/one_tap_login_opt_in_text" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/one_tap_login_opt_in_explanation" android:layout_weight="1"/>
+    </LinearLayout>
+</merge>

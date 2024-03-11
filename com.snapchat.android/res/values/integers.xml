@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="abc_config_activityDefaultDur">220</integer>
+    <integer name="abc_config_activityShortDur">150</integer>
+    <integer name="app_bar_elevation_anim_duration">150</integer>
+    <integer name="bottom_sheet_slide_duration">150</integer>
+    <integer name="camera_fade_out_animation_duration">300</integer>
+    <integer name="cancel_button_image_alpha">127</integer>
+    <integer name="chat_wallpaper_header_alpha">210</integer>
+    <integer name="chat_wallpaper_header_opaque">255</integer>
+    <item type="integer" name="cheerios_settings_item_alpha_disabled">0.2</item>
+    <item type="integer" name="cheerios_settings_item_alpha_enabled">1.0</item>
+    <integer name="ci_composer_expand_button_right_margin">12</integer>
+    <integer name="ci_composer_expand_button_top_margin">52</integer>
+    <integer name="ci_story_ad_progress_bar_height">8</integer>
+    <integer name="comments_comment_upsell_share_animation_delay_ms">1000</integer>
+    <integer name="comments_comment_upsell_share_pulse_duration">150</integer>
+    <integer name="comments_input_max_length">250</integer>
+    <integer name="config_tooltipAnimTime">150</integer>
+    <integer name="connected_lens_session_name_max_lines">1</integer>
+    <integer name="countdown_digit_duration">1200</integer>
+    <integer name="countdown_digit_overlap">200</integer>
+    <integer name="countdown_max_count">3</integer>
+    <integer name="countdown_state_alpha_duration">200</integer>
+    <item type="integer" name="countdown_state_alpha_opaque">1.0</item>
+    <item type="integer" name="countdown_state_alpha_transparent">0.0</item>
+    <integer name="countdown_state_scale_duration">600</integer>
+    <item type="integer" name="countdown_state_scale_no_scale">1.0</item>
+    <item type="integer" name="countdown_state_scale_smaller">0.8</item>
+    <integer name="design_snackbar_text_max_lines">2</integer>
+    <integer name="design_tab_indicator_anim_duration_ms">300</integer>
+    <integer name="google_play_services_version">12451000</integer>
+    <integer name="hide_password_duration">320</integer>
+    <integer name="material_motion_duration_long_1">300</integer>
+    <integer name="material_motion_duration_long_2">350</integer>
+    <integer name="material_motion_duration_medium_1">200</integer>
+    <integer name="material_motion_duration_medium_2">250</integer>
+    <integer name="material_motion_duration_short_1">75</integer>
+    <integer name="material_motion_duration_short_2">150</integer>
+    <integer name="material_motion_path">0</integer>
+    <integer name="memories_story_details_page_badge_constraint_circle_angle">140</integer>
+    <integer name="min_password_length">1</integer>
+    <integer name="min_username_length">1</integer>
+    <integer name="mtrl_badge_max_character_count">4</integer>
+    <integer name="mtrl_btn_anim_delay_ms">100</integer>
+    <integer name="mtrl_btn_anim_duration_ms">100</integer>
+    <integer name="mtrl_calendar_header_orientation">1</integer>
+    <integer name="mtrl_calendar_selection_text_lines">1</integer>
+    <integer name="mtrl_calendar_year_selector_span">3</integer>
+    <integer name="mtrl_card_anim_delay_ms">75</integer>
+    <integer name="mtrl_card_anim_duration_ms">120</integer>
+    <integer name="mtrl_chip_anim_duration">100</integer>
+    <integer name="mtrl_tab_indicator_anim_duration_ms">250</integer>
+    <integer name="product_margin_start_top_end_bottom">1</integer>
+    <integer name="product_padding_top_bottom">25</integer>
+    <integer name="report_context_max_character_length">250</integer>
+    <integer name="send_to_spotlight_description_max_length">160</integer>
+    <integer name="show_password_duration">200</integer>
+    <integer name="status_bar_notification_info_maxnum">999</integer>
+    <integer name="story_ad_composer_expand_button_right_margin">12</integer>
+    <integer name="story_ad_composer_expand_button_top_margin">56</integer>
+    <integer name="unchangeable_text_field_alpha">15</integer>
+    <integer name="video_duration_shadow_blur_radius">3</integer>
+    <integer name="video_duration_shadow_x">0</integer>
+    <integer name="video_duration_shadow_y">1</integer>
+</resources>

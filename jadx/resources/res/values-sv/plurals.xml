@@ -1,0 +1,1035 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="action_menu_camera_select">
+        <item quantity="one">%d vara vald</item>
+        <item quantity="other">%d varor valda</item>
+    </plurals>
+    <plurals name="action_menu_hide_long">
+        <item quantity="one">@string/memories_opera_action_menu_hide</item>
+        <item quantity="other">Dölj Snappar (bara för mig)</item>
+    </plurals>
+    <plurals name="action_menu_mute_for_hours">
+        <item quantity="one">I %d timme</item>
+        <item quantity="other">I %d timmar</item>
+    </plurals>
+    <plurals name="action_menu_snap_select">
+        <item quantity="one">%d Snap vald</item>
+        <item quantity="other">%d Snappar valda</item>
+    </plurals>
+    <plurals name="action_menu_unhide_long">
+        <item quantity="one">@string/memories_opera_action_menu_unhide</item>
+        <item quantity="other">Sluta dölja Snappar</item>
+    </plurals>
+    <plurals name="active_indicator_explainer_active_hour">
+        <item quantity="one">%d timmen!</item>
+        <item quantity="other">%d timmarna!</item>
+    </plurals>
+    <plurals name="activity_indicator_explainer_active_friend_count">
+        <item quantity="one">%d vän var</item>
+        <item quantity="other">%d vänner var</item>
+    </plurals>
+    <plurals name="add_friend_badge_request_tips">
+        <item quantity="one">%1$s ny vän tillagd</item>
+        <item quantity="other">%1$s ny vän tillagd</item>
+    </plurals>
+    <plurals name="add_friend_badge_suggestion_tips">
+        <item quantity="one">%1$s nytt vänförslag</item>
+        <item quantity="other">%1$s nya vänförslag</item>
+    </plurals>
+    <plurals name="add_friends_button_subtext">
+        <item quantity="one">%1$s Snapchattare har lagt till dig.</item>
+        <item quantity="other">%1$s Snapchattare har lagt till dig.</item>
+    </plurals>
+    <plurals name="add_friends_button_suggestion_subtext">
+        <item quantity="one">%1$s vänförslag</item>
+        <item quantity="other">%1$s vänförslag</item>
+    </plurals>
+    <plurals name="batch_capture_save_as_x_snaps">
+        <item quantity="one">Spara som %1$d Snap</item>
+        <item quantity="other">Spara som %1$d Snappar</item>
+    </plurals>
+    <plurals name="bottom_button_text">
+        <item quantity="one">+ Lägg till %d vän</item>
+        <item quantity="other">+ Lägg till %d vänner</item>
+    </plurals>
+    <plurals name="camera_mode_batch_capture_limit_reached_description_with_count">
+        <item quantity="one">Multi-Snap kan ta upp till %1$d Snappar på en gång.</item>
+        <item quantity="other">Multi-Snap kan ta upp till %1$d Snappar på en gång.</item>
+    </plurals>
+    <plurals name="camera_mode_disable_batch_capture_description">
+        <item quantity="one">Är du säker på att du vill slå av Multi-Snap? Din osparade Snap kommer att förloras.</item>
+        <item quantity="other">Är du säker på att du vill slå av Multi-Snap? Dina %1$d osparade Snappar kommer att förloras.</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_image_sharer_you_not">
+        <item quantity="one">%1$s OCH %2$s SPARADE ETT FOTO FRÅN %4$s</item>
+        <item quantity="other">%1$s OCH %2$s SPARADE %3$d FOTON FRÅN %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_image_sharer_you_yes">
+        <item quantity="one">%1$s OCH %2$s SPARADE DITT FOTO</item>
+        <item quantity="other">%1$s OCH %2$s SPARADE %3$d FOTON SOM DU HAR SKICKAT</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_item_sharer_you_not">
+        <item quantity="one">%1$s OCH %2$s SPARADE ETT OBJEKT FRÅN %4$s</item>
+        <item quantity="other">%1$s OCH %2$s SPARADE %3$d OBJEKT FRÅN %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_item_sharer_you_yes">
+        <item quantity="one">%1$s OCH %2$s SPARADE DITT OBJEKT</item>
+        <item quantity="other">%1$s OCH %2$s SPARADE %3$d OBJEKT SOM DU HAR SKICKAT</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_video_sharer_you_not">
+        <item quantity="one">%1$s OCH %2$s SPARADE EN VIDEO FRÅN %4$s</item>
+        <item quantity="other">%1$s OCH %2$s SPARADE %3$d VIDEOR FRÅN %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_not_media_video_sharer_you_yes">
+        <item quantity="one">%1$s OCH %2$s SPARADE DIN VIDEO</item>
+        <item quantity="other">%1$s OCH %2$s SPARADE %3$d VIDEOR SOM DU HAR SKICKAT</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_yes_media_image_sharer_you_not">
+        <item quantity="one">DU OCH %1$s SPARADE ETT FOTO FRÅN %3$s</item>
+        <item quantity="other">DU OCH %1$s SPARADE %2$d FOTON FRÅN %3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_yes_media_item_sharer_you_not">
+        <item quantity="one">DU OCH %1$s SPARADE ETT OBJEKT FRÅN %3$s</item>
+        <item quantity="other">DU OCH %1$s SPARADE %2$d OBJEKT FRÅN %3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_dual_you_yes_media_video_sharer_you_not">
+        <item quantity="one">DU OCH %1$s SPARADE EN VIDEO FRÅN %3$s</item>
+        <item quantity="other">DU OCH %1$s SPARADE %2$d VIDEOR FRÅN %3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_image_sharer_you_not">
+        <item quantity="one">%1$s OCH %2$s SPARADE ETT FOTO FRÅN %4$s</item>
+        <item quantity="other">%1$s OCH %2$s SPARADE %3$d FOTON FRÅN %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_image_sharer_you_yes">
+        <item quantity="one">%1$s OCH %2$s SPARADE DITT FOTO</item>
+        <item quantity="other">%1$s OCH %2$s SPARADE %3$d FOTON SOM DU HAR SKICKAT</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_item__sharer_you_not">
+        <item quantity="one">%1$s OCH %2$s SPARADE ETT OBJEKT FRÅN %4$s</item>
+        <item quantity="other">%1$s OCH %2$s SPARADE %3$d OBJEKT FRÅN %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_item__sharer_you_yes">
+        <item quantity="one">%1$s OCH %2$s SPARADE DITT OBJEKT</item>
+        <item quantity="other">%1$s OCH %2$s SPARADE %3$d OBJEKT SOM DU HAR SKICKAT</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_video_sharer_you_not">
+        <item quantity="one">%1$s OCH %2$s SPARADE EN VIDEO FRÅN %4$s</item>
+        <item quantity="other">%1$s OCH %2$s SPARADE %3$d VIDEOR FRÅN %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_not_media_video_sharer_you_yes">
+        <item quantity="one">%1$s OCH %2$s SPARADE DIN VIDEO</item>
+        <item quantity="other">%1$s OCH %2$s SPARADE %3$d VIDEOR SOM DU HAR SKICKAT</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_yes_media_image_sharer_you_not">
+        <item quantity="one">DU, %1$s OCH %2$s SPARADE ETT FOTO FRÅN %4$s</item>
+        <item quantity="other">DU, %1$s OCH %2$s SPARADE %3$d FOTON FRÅN %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_yes_media_item_sharer_you_not">
+        <item quantity="one">DU, %1$s OCH %2$s SPARADE ETT OBJEKT FRÅN %4$s</item>
+        <item quantity="other">DU, %1$s OCH %2$s SPARADE %3$d OBJEKT FRÅN %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_many_you_yes_media_video_sharer_you_not">
+        <item quantity="one">DU, %1$s OCH %2$s SPARADE EN VIDEO FRÅN %4$s</item>
+        <item quantity="other">DU, %1$s OCH %2$s SPARADE %3$d VIDEOR FRÅN %4$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_image_sharer_you_not">
+        <item quantity="one">%1$s SPARADE ETT FOTO FRÅN %3$s</item>
+        <item quantity="other">%1$s SPARADE %2$d FOTON FRÅN %3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_image_sharer_you_yes">
+        <item quantity="one">%1$s SPARADE DITT FOTO</item>
+        <item quantity="other">%1$s SPARADE %2$d FOTON SOM DU HAR SKICKAT</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_item_sharer_you_not">
+        <item quantity="one">%1$s SPARADE ETT OBJEKT FRÅN %3$s</item>
+        <item quantity="other">%1$s SPARADE %2$d OBJEKT FRÅN %3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_item_sharer_you_yes">
+        <item quantity="one">%1$s SPARADE DITT OBJEKT</item>
+        <item quantity="other">%1$s SPARADE %2$d OBJEKT DU HAR SKICKAT</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_video_sharer_you_not">
+        <item quantity="one">%1$s SPARADE EN VIDEO FRÅN %3$s</item>
+        <item quantity="other">%1$s SPARADE %2$d VIDEOR FRÅN %3$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_not_media_video_sharer_you_yes">
+        <item quantity="one">%1$s SPARADE DIN VIDEO</item>
+        <item quantity="other">%1$s SPARADE %2$d VIDEOR SOM DU HAR SKICKAT</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_yes_media_image_sharer_you_not">
+        <item quantity="one">DU SPARADE ETT FOTO FRÅN %2$s</item>
+        <item quantity="other">DU SPARADE %1$d FOTON FRÅN %2$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_yes_media_item__sharer_you_not">
+        <item quantity="one">DU SPARADE ETT OBJEKT FRÅN %2$s</item>
+        <item quantity="other">DU SPARADE %1$d OBJEKT FRÅN %2$s</item>
+    </plurals>
+    <plurals name="camera_roll_save_saver_solo_you_yes_media_video_sharer_you_not">
+        <item quantity="one">DU SPARADE EN VIDEO FRÅN %2$s</item>
+        <item quantity="other">DU SPARADE %1$d VIDEOR FRÅN %2$s</item>
+    </plurals>
+    <plurals name="cannot_add_custom_story_snap_recipients">
+        <item quantity="one">Du kan bara lägga till i %1$d anpassad Story samtidigt</item>
+        <item quantity="other">Du kan bara lägga till i %1$d anpassade Stories samtidigt</item>
+    </plurals>
+    <plurals name="capture_settings_distance_value_text_feet">
+        <item quantity="one">%1$d ft</item>
+        <item quantity="other">%1$d ft</item>
+    </plurals>
+    <plurals name="capture_settings_duration_value_text_orbits">
+        <item quantity="one">1 omloppsbana</item>
+        <item quantity="other">%1$d omloppsbanor</item>
+    </plurals>
+    <plurals name="chat_header_gifting_birthday_upsell">
+        <item quantity="one">%1$s fyller år imorgon ��. Ge bort Snapchat+ i present</item>
+        <item quantity="other">%1$s fyller år om %2$d dagar ��. Ge bort Snapchat+ i present</item>
+    </plurals>
+    <plurals name="cheerios_clean_unpair_cheerios_body">
+        <item quantity="one">Det finns en Snap i din Pixy. Vill du även återställa enheten och radera alla Snappar och användardata?</item>
+        <item quantity="other">Det finns %1$d Snappar i din Pixy. Vill du även återställa enheten och radera alla Snappar och användardata?</item>
+    </plurals>
+    <plurals name="cheerios_confirm_delete_body">
+        <item quantity="one">Om du raderar den här Snappen tas den bort från din Cheerios-enhet.</item>
+        <item quantity="other">Om du raderar de här Snapparna tas de bort från din Cheerios-enhet.</item>
+    </plurals>
+    <plurals name="cheerios_deleted">
+        <item quantity="one">Snap raderad</item>
+        <item quantity="other">%d Snappar raderade</item>
+    </plurals>
+    <plurals name="cheerios_deleting">
+        <item quantity="one">Raderar 1 Snap …</item>
+        <item quantity="other">Raderar %d Snappar …</item>
+    </plurals>
+    <plurals name="cheerios_memories_tooltip">
+        <item quantity="one">1 ny Snap</item>
+        <item quantity="other">%d nya Snappar</item>
+    </plurals>
+    <plurals name="cheerios_new_snap_to_import">
+        <item quantity="one">1 ny Snap. Tryck för att importera.</item>
+        <item quantity="other">%d nya Snappar. Tryck för att importera.</item>
+    </plurals>
+    <plurals name="cheerios_status_transfer_complete_title">
+        <item quantity="one">%d Snap har importerats!</item>
+        <item quantity="other">%d Snappar har importerats!</item>
+    </plurals>
+    <plurals name="cheerios_status_transferring_title">
+        <item quantity="one">Importerar %d Snap …</item>
+        <item quantity="other">Importerar %d Snappar …</item>
+    </plurals>
+    <plurals name="cluster_seven_or_more">
+        <item quantity="one">%1$s, %2$s, %3$s, %4$s, %5$s och %6$d fler</item>
+        <item quantity="other">%1$s, %2$s, %3$s, %4$s, %5$s och %6$d fler</item>
+    </plurals>
+    <plurals name="cluster_seven_or_more_me">
+        <item quantity="one">%1$s, %2$s, %3$s, %4$s, jag och %5$d fler</item>
+        <item quantity="other">%1$s, %2$s, %3$s, %4$s, jag och %5$d fler</item>
+    </plurals>
+    <plurals name="cluster_three_or_more">
+        <item quantity="one">%1$s och %2$d fler</item>
+        <item quantity="other">%1$s och %2$d fler</item>
+    </plurals>
+    <plurals name="cluster_three_or_more_me">
+        <item quantity="one">Jag och %1$d fler</item>
+        <item quantity="other">Jag och %1$d fler</item>
+    </plurals>
+    <plurals name="cognac_active_playing_game_text_multiple_player">
+        <item quantity="one">%1$s, %2$s + %3$d till spelar</item>
+        <item quantity="other">%1$s, %2$s + %3$d till spelar</item>
+    </plurals>
+    <plurals name="cognac_active_playing_game_text_multiple_player_shortened">
+        <item quantity="one">%1$s + %2$d till spelar</item>
+        <item quantity="other">%1$s + %2$d till spelar</item>
+    </plurals>
+    <plurals name="cognac_active_using_cypress_text_multiple_player">
+        <item quantity="one">%1$s, %2$s + %3$d till är aktiva</item>
+        <item quantity="other">%1$s, %2$s + %3$d till är aktiva</item>
+    </plurals>
+    <plurals name="cognac_active_using_cypress_text_multiple_player_shortened">
+        <item quantity="one">%1$s + %2$d till är aktiva</item>
+        <item quantity="other">%1$s + %2$d till är aktiva</item>
+    </plurals>
+    <plurals name="cognac_app_profile_multiple_player_text">
+        <item quantity="one">Stödjer %1$s–%2$d spelare</item>
+        <item quantity="other">Stödjer %1$s–%2$d spelare</item>
+    </plurals>
+    <plurals name="cognac_close_status_message_multiple_player_second_person">
+        <item quantity="one">Du, %1$s och %2$d till spelade %3$s</item>
+        <item quantity="other">Du, %1$s och %2$d till spelade %3$s</item>
+    </plurals>
+    <plurals name="cognac_close_status_message_multiple_player_third_person">
+        <item quantity="one">%1$s, %2$s och %3$d till spelade %4$s</item>
+        <item quantity="other">%1$s, %2$s och %3$d till spelade %4$s</item>
+    </plurals>
+    <plurals name="cognac_close_status_message_text_for_feed_multiple_player_third_person">
+        <item quantity="one">%1$s och %2$d andra spelade %3$s</item>
+        <item quantity="other">%1$s och %2$d andra spelade %3$s</item>
+    </plurals>
+    <plurals name="cognac_cypress_close_status_message_multiple_player_second_person">
+        <item quantity="one">Du, %1$s och %2$d till använde %3$s</item>
+        <item quantity="other">Du, %1$s och %2$d till använde %3$s</item>
+    </plurals>
+    <plurals name="cognac_cypress_close_status_message_multiple_player_third_person">
+        <item quantity="one">%1$s, %2$s och %3$d till använde %4$s</item>
+        <item quantity="other">%1$s, %2$s och %3$d till använde %4$s</item>
+    </plurals>
+    <plurals name="cognac_cypress_close_status_message_text_for_feed_multiple_player_third_person">
+        <item quantity="one">%1$s och %2$d till använde %3$s</item>
+        <item quantity="other">%1$s och %2$d till använde %3$s</item>
+    </plurals>
+    <plurals name="cognac_friend_picker_ringing_text_multiple_players">
+        <item quantity="one">Ringer %1$s och %2$d andra …</item>
+        <item quantity="other">Ringer %1$s och %2$d andra …</item>
+    </plurals>
+    <plurals name="comments_collapse_child_comments">
+        <item quantity="one">Dölj svar</item>
+        <item quantity="other">Dölj svar</item>
+    </plurals>
+    <plurals name="comments_expand_child_comments">
+        <item quantity="one">Visa ett svar</item>
+        <item quantity="other">Visa %s svar</item>
+    </plurals>
+    <plurals name="comments_header_with_live_comment_count">
+        <item quantity="one">En kommentar</item>
+        <item quantity="other">%s kommentarer</item>
+    </plurals>
+    <plurals name="content_detail_new_count">
+        <item quantity="one">%1$d ny</item>
+        <item quantity="other">%1$d nya</item>
+    </plurals>
+    <plurals name="content_detail_seen_text">
+        <item quantity="one">%1$d att importera</item>
+        <item quantity="other">%1$d att importera</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="one">%d dag</item>
+        <item quantity="other">%d dagar</item>
+    </plurals>
+    <plurals name="days_abbreviated">
+        <item quantity="one">%d d</item>
+        <item quantity="other">%d d</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated">
+        <item quantity="one">%d d sedan</item>
+        <item quantity="other">%d d sedan</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_camera_roll">
+        <item quantity="one">%1$d d sedan från kamerarullen</item>
+        <item quantity="other">%1$d d sedan från kamerarullen</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_chat">
+        <item quantity="one">%1$d dag sedan från chatten</item>
+        <item quantity="other">%1$d dag sedan från chatten</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_cheerios">
+        <item quantity="one">%1$d d sedan från Pixy</item>
+        <item quantity="other">%1$d d sedan från Pixy</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_creative_kit">
+        <item quantity="one">%1$d d sedan från %2$s</item>
+        <item quantity="other">%1$d d sedan från %2$s</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_memories">
+        <item quantity="one">%1$d d sedan från Memories</item>
+        <item quantity="other">%1$d d sedan från Memories</item>
+    </plurals>
+    <plurals name="days_ago_abbreviated_spectacles">
+        <item quantity="one">%1$d d sedan från Spectacles</item>
+        <item quantity="other">%1$d d sedan från Spectacles</item>
+    </plurals>
+    <plurals name="days_ago_update">
+        <item quantity="one">Uppdaterad för %1$s dag sedan</item>
+        <item quantity="other">Uppdaterad för %1$s dagar sedan</item>
+    </plurals>
+    <plurals name="discard_batch_capture_description">
+        <item quantity="one">Är du säker på att du vill ta bort multi-Snap? Din osparade Snap kommer att förloras.</item>
+        <item quantity="other">Är du säker på att du vill ta bort multi-Snap? Dina %1$d osparade Snappar kommer att förloras.</item>
+    </plurals>
+    <plurals name="display_username_explanation_changed_username_too_recently">
+        <item quantity="one">Du ändrade ditt användarnamn den %1$s.\nDu kan ändra det igen om %2$d dag.</item>
+        <item quantity="other">Du ändrade ditt användarnamn den %1$s.\nDu kan ändra det igen om %2$d dagar.</item>
+    </plurals>
+    <plurals name="failed_to_save_multiple_snaps">
+        <item quantity="one">Kunde inte spara %1$d Snap</item>
+        <item quantity="other">Kunde inte spara %1$d Snappar</item>
+    </plurals>
+    <plurals name="formatted_short_ft">
+        <item quantity="one">%d ft</item>
+        <item quantity="other">%d ft</item>
+    </plurals>
+    <plurals name="formatted_short_km">
+        <item quantity="one">%d km</item>
+        <item quantity="other">%d km</item>
+    </plurals>
+    <plurals name="formatted_short_m">
+        <item quantity="one">%d m</item>
+        <item quantity="other">%d m</item>
+    </plurals>
+    <plurals name="formatted_short_mile">
+        <item quantity="one">%d mi</item>
+        <item quantity="other">%d mi</item>
+    </plurals>
+    <plurals name="friending_progress_bar_secondary">
+        <item quantity="one">Skicka %1$s till vänförfrågan!</item>
+        <item quantity="other">Skicka %1$s till vänförfrågningar!</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_description_items">
+        <item quantity="one">Ditt objekt har lagts till i Bara för mig. Vill du radera originalet från din kamerarulle?</item>
+        <item quantity="other">Dina objekt har lagts till i Bara för mig. Vill du radera originalen från din kamerarulle?</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_description_photos">
+        <item quantity="one">Ditt foto har lagts till i Bara för mig. Vill du radera originalet från din kamerarulle?</item>
+        <item quantity="other">Dina foton har lagts till i Bara för mig. Vill du radera originalen från din kamerarulle?</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_description_videos">
+        <item quantity="one">Din video har lagts till i Bara för mig. Vill du radera originalet från din kamerarulle?</item>
+        <item quantity="other">Dina videor har lagts till i Bara för mig. Vill du radera originalen från din kamerarulle?</item>
+    </plurals>
+    <plurals name="gallery_delete_original_dialog_title">
+        <item quantity="one">Radera originalet</item>
+        <item quantity="other">Radera originalen</item>
+    </plurals>
+    <plurals name="gallery_private_rate_limit_minutes_time_out">
+        <item quantity="one">\nFörsök igen om %1$d minut</item>
+        <item quantity="other">\nFörsök igen om %1$d minuter.</item>
+    </plurals>
+    <plurals name="gauge_altitude_unit_feet">
+        <item quantity="one">%d ft</item>
+        <item quantity="other">%d ft</item>
+    </plurals>
+    <plurals name="gauge_altitude_unit_meters">
+        <item quantity="one">%d m</item>
+        <item quantity="other">%d m</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="one">%d timme</item>
+        <item quantity="other">%d timmar</item>
+    </plurals>
+    <plurals name="hours_abbreviated">
+        <item quantity="one">%d tim</item>
+        <item quantity="other">%d tim</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="one">%d tim</item>
+        <item quantity="other">%d tim</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated">
+        <item quantity="one">%d tim sedan</item>
+        <item quantity="other">%d tim sedan</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_camera_roll">
+        <item quantity="one">%1$d tim sedan från kamerarullen</item>
+        <item quantity="other">%1$d tim sedan från kamerarullen</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_chat">
+        <item quantity="one">%1$d tim sedan från chatten</item>
+        <item quantity="other">%1$d tim sedan från chatten</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_cheerios">
+        <item quantity="one">%1$d tim sedan från Pixy</item>
+        <item quantity="other">%1$d tim sedan från Pixy</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_creative_kit">
+        <item quantity="one">%1$d tim sedan från %2$s</item>
+        <item quantity="other">%1$d tim sedan från %2$s</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_memories">
+        <item quantity="one">%1$d tim sedan från Memories</item>
+        <item quantity="other">%1$d tim sedan från Memories</item>
+    </plurals>
+    <plurals name="hours_ago_abbreviated_spectacles">
+        <item quantity="one">%1$d tim sedan från Spectacles</item>
+        <item quantity="other">%1$d tim sedan från Spectacles</item>
+    </plurals>
+    <plurals name="hours_ago_update">
+        <item quantity="one">Uppdaterad för %1$s timme sedan</item>
+        <item quantity="other">Uppdaterad för %1$s timmar sedan</item>
+    </plurals>
+    <plurals name="last_seen_here_hours">
+        <item quantity="one">Sågs senast här för %d tim sedan</item>
+        <item quantity="other">Sågs senast här för %d tim sedan</item>
+    </plurals>
+    <plurals name="last_seen_here_minutes">
+        <item quantity="one">Sågs senast här för %d min sedan</item>
+        <item quantity="other">Sågs senast här för %d min sedan</item>
+    </plurals>
+    <plurals name="live_location_chat_hours_remaining">
+        <item quantity="one">%d timme</item>
+        <item quantity="other">%d timmar</item>
+    </plurals>
+    <plurals name="live_location_description_existing_sessions">
+        <item quantity="one">Du kommer att dela din plats i realtid med dina vänner som är med i gruppen. %d vän kan redan se din liveplats.</item>
+        <item quantity="other">Du kommer att dela din plats i realtid med dina vänner som är med i gruppen. %d vänner kan redan se din liveplats.</item>
+    </plurals>
+    <plurals name="live_location_duration_hr">
+        <item quantity="one">%d timme</item>
+        <item quantity="other">%d timmar</item>
+    </plurals>
+    <plurals name="live_location_duration_min">
+        <item quantity="one">%d minut</item>
+        <item quantity="other">%d minuter</item>
+    </plurals>
+    <plurals name="live_location_share_group_description">
+        <item quantity="one">Du kommer att dela liveplatsen med dina vänner i den här gruppen. %d medlem kommer inte att få platsen eftersom du inte är vän med hen.</item>
+        <item quantity="other">Du kommer att dela liveplatsen med dina vänner i den här gruppen. %d medlemmar kommer inte att få platsen eftersom du inte är vän med dem.</item>
+    </plurals>
+    <plurals name="live_location_with_friends">
+        <item quantity="one">med %d vän</item>
+        <item quantity="other">med %d vänner</item>
+    </plurals>
+    <plurals name="location_upsell_description_specific_friends_more_than_four">
+        <item quantity="one">%1$s, %2$s, %3$s och %4$d av dina vänner finns på kartan!</item>
+        <item quantity="other">%1$s, %2$s, %3$s och %4$d av dina vänner finns på kartan!</item>
+    </plurals>
+    <plurals name="locked_lens_friending_banner_countdown_timer_hours">
+        <item quantity="one">%1$d tim</item>
+        <item quantity="other">%1$d tim</item>
+    </plurals>
+    <plurals name="locked_lens_friending_banner_countdown_timer_minutes">
+        <item quantity="one">%1$d min</item>
+        <item quantity="other">%1$d min</item>
+    </plurals>
+    <plurals name="locked_lens_friending_banner_countdown_timer_seconds">
+        <item quantity="one">%1$d sek</item>
+        <item quantity="other">%1$d sek</item>
+    </plurals>
+    <plurals name="map_group_card_subtext_friend_sharing">
+        <item quantity="one">%1$d vän delar</item>
+        <item quantity="other">%1$d vänner delar</item>
+    </plurals>
+    <plurals name="map_passport_and_other">
+        <item quantity="one">och %d andra</item>
+        <item quantity="other">och %d andra</item>
+    </plurals>
+    <plurals name="map_passport_bucket_cities_title">
+        <item quantity="one">Stad</item>
+        <item quantity="other">Städer</item>
+    </plurals>
+    <plurals name="map_passport_bucket_countries_title">
+        <item quantity="one">Land</item>
+        <item quantity="other">Länder</item>
+    </plurals>
+    <plurals name="map_passport_bucket_places_title">
+        <item quantity="one">Plats</item>
+        <item quantity="other">Platser</item>
+    </plurals>
+    <plurals name="map_widget_days_ago">
+        <item quantity="one">%d d</item>
+        <item quantity="other">%d d</item>
+    </plurals>
+    <plurals name="media_export_service_batch_export_failure">
+        <item quantity="one">%1$d av %2$d Snappar har exporterats. %3$d Snap exporterades inte.</item>
+        <item quantity="other">%1$d av %2$d Snappar har exporterats. %3$d Snappar exporterades inte.</item>
+    </plurals>
+    <plurals name="media_export_service_processing">
+        <item quantity="one">Exporterar Snap …</item>
+        <item quantity="other">Exporterar %1$d av %2$d Snappar …</item>
+    </plurals>
+    <plurals name="media_export_service_success">
+        <item quantity="one">Din Snap har exporterats!</item>
+        <item quantity="other">Dina Snappar har exporterats!</item>
+    </plurals>
+    <plurals name="memories_camera_select_limit_error">
+        <item quantity="one">Tyvärr kan bara %d objekt väljas åt gången.</item>
+        <item quantity="other">Tyvärr kan bara %d objekt väljas åt gången.</item>
+    </plurals>
+    <plurals name="memories_delete_camera_roll_image_body">
+        <item quantity="one">Denna bild kommer raderas från din enhet</item>
+        <item quantity="other">Dessa bilder kommer raderas från din enhet</item>
+    </plurals>
+    <plurals name="memories_delete_camera_roll_mixed_body">
+        <item quantity="one">Dessa saker kommer raderas från din enhet</item>
+        <item quantity="other">Dessa saker kommer raderas från din enhet</item>
+    </plurals>
+    <plurals name="memories_delete_camera_roll_video_body">
+        <item quantity="one">Denna video kommer raderas från din enhet</item>
+        <item quantity="other">Dessa videor kommer raderas från din enhet</item>
+    </plurals>
+    <plurals name="memories_delete_snap_body">
+        <item quantity="one">Ta bort Snap?</item>
+        <item quantity="other">Ta bort Snappar?</item>
+    </plurals>
+    <plurals name="memories_delete_story_body">
+        <item quantity="one">Radera Story?</item>
+        <item quantity="other">Radera Stories?</item>
+    </plurals>
+    <plurals name="memories_export_error">
+        <item quantity="one">Kan inte exportera Snap</item>
+        <item quantity="other">Kan inte exportera Snappar!</item>
+    </plurals>
+    <plurals name="memories_favorite_snaps_story_added">
+        <item quantity="one">Snap har lagts till i din Story för favoriter</item>
+        <item quantity="other">%d Snappar har lagts till i din Story för favoriter</item>
+    </plurals>
+    <plurals name="memories_favorite_snaps_story_removed">
+        <item quantity="one">Snappen har raderats från din Story för favoriter</item>
+        <item quantity="other">%d Snappar har raderats från din Story för favoriter</item>
+    </plurals>
+    <plurals name="memories_featured_story_flashback_diff_date_subtext">
+        <item quantity="one">%1$d år sedan</item>
+        <item quantity="other">%1$d år sedan</item>
+    </plurals>
+    <plurals name="memories_featured_story_flashback_same_date_subtext">
+        <item quantity="one">%1$d år sedan idag</item>
+        <item quantity="other">%1$d år sedan idag</item>
+    </plurals>
+    <plurals name="memories_featured_story_trip_flashback_chat_prefill_snap">
+        <item quantity="one">%1$s, %2$d år sedan</item>
+        <item quantity="other">%1$s, %2$d år sedan</item>
+    </plurals>
+    <plurals name="memories_featured_story_trip_flashback_chat_prefill_story">
+        <item quantity="one">Från %1$d år sedan</item>
+        <item quantity="other">Från %1$d år sedan</item>
+    </plurals>
+    <plurals name="memories_hide_legacy_auto_saves">
+        <item quantity="one">Snapparna från denna Story kommer fortfarande vara tillgängliga i din nya Min Story-sida. Stories som du har skapat eller redigerat kommer inte påverkas.</item>
+        <item quantity="other">Snapparna från dessa Stories kommer fortfarande vara tillgängliga i din nya Min Story-sida. Stories som du har skapat eller redigerat kommer inte påverkas.</item>
+    </plurals>
+    <plurals name="memories_hide_legacy_auto_saves_title">
+        <item quantity="one">Ta bort %d äldre automatiskt sparad Story?</item>
+        <item quantity="other">Ta bort %d äldre automatiskt sparade Stories?</item>
+    </plurals>
+    <plurals name="memories_print_print_created">
+        <item quantity="one">%d 3D-utskrift har skapats</item>
+        <item quantity="other">%d 3D-utskrifter har skapats</item>
+    </plurals>
+    <plurals name="memories_print_processing">
+        <item quantity="one">Bearbetar %d Snap för utskrift …</item>
+        <item quantity="other">Bearbetar %d Snappar för utskrift …</item>
+    </plurals>
+    <plurals name="memories_remove_older_stories_dialog_title">
+        <item quantity="one">Det här raderar %d äldre automatiskt sparad Story.</item>
+        <item quantity="other">Det här raderar %d äldre automatiskt sparade Stories.</item>
+    </plurals>
+    <plurals name="memories_select_limit_error">
+        <item quantity="one">Tyvärr kan bara %d Snap väljas åt gången.</item>
+        <item quantity="other">Tyvärr kan bara %d Snappar väljas åt gången.</item>
+    </plurals>
+    <plurals name="memories_status_transfer_complete_in_app_notification_text">
+        <item quantity="one">%1$d Importerade Snap från %2$s</item>
+        <item quantity="other">%1$d Importerade Snappar från %2$s</item>
+    </plurals>
+    <plurals name="memories_status_transfer_complete_title">
+        <item quantity="one">Importerad %d Snap!</item>
+        <item quantity="other">Importerade %d Snappar!</item>
+    </plurals>
+    <plurals name="memories_status_transfer_from_device_complete_title">
+        <item quantity="one">Ny Snap från %s</item>
+        <item quantity="other">Nya Snappar från %s</item>
+    </plurals>
+    <plurals name="memories_status_transferring_title">
+        <item quantity="one">Importerar %1$d av %2$d Snap …</item>
+        <item quantity="other">Importerar %1$d av %2$d Snappar …</item>
+    </plurals>
+    <plurals name="memories_story_editor_add_snap_selected">
+        <item quantity="one">%d utvald</item>
+        <item quantity="other">%d utvalda</item>
+    </plurals>
+    <plurals name="minutes_abbreviated">
+        <item quantity="one">%d min</item>
+        <item quantity="other">%d min</item>
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="one">%d min</item>
+        <item quantity="other">%d min</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated">
+        <item quantity="one">%d min sedan</item>
+        <item quantity="other">%d min sedan</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_camera_roll">
+        <item quantity="one">%1$d min sedan från kamerarullen</item>
+        <item quantity="other">%1$d min sedan från kamerarullen</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_chat">
+        <item quantity="one">%1$d min sedan från chatten</item>
+        <item quantity="other">%1$d min sedan från chatten</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_cheerios">
+        <item quantity="one">%1$d min sedan från Pixy</item>
+        <item quantity="other">%1$d min sedan från Pixy</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_creative_kit">
+        <item quantity="one">%1$d min sedan från %2$s</item>
+        <item quantity="other">%1$d min sedan från %2$s</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_memories">
+        <item quantity="one">%1$d min sedan från Memories</item>
+        <item quantity="other">%1$d min sedan från Memories</item>
+    </plurals>
+    <plurals name="minutes_ago_abbreviated_spectacles">
+        <item quantity="one">%1$d min sedan från Spectacles</item>
+        <item quantity="other">%1$d min sedan från Spectacles</item>
+    </plurals>
+    <plurals name="minutes_ago_update">
+        <item quantity="one">Uppdaterad för %1$s minut sedan</item>
+        <item quantity="other">Uppdaterad för %1$s minuter sedan</item>
+    </plurals>
+    <plurals name="months_abbreviated">
+        <item quantity="one">%d mån</item>
+        <item quantity="other">%d mån</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated">
+        <item quantity="one">%d mån sedan</item>
+        <item quantity="other">%d mån sedan</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_camera_roll">
+        <item quantity="one">%1$d mån sedan från kamerarullen</item>
+        <item quantity="other">%1$d mån sedan från kamerarullen</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_chat">
+        <item quantity="one">%1$d mån sedan från chatten</item>
+        <item quantity="other">%1$d mån sedan från chatten</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_cheerios">
+        <item quantity="one">%1$d mån sedan från Pixy</item>
+        <item quantity="other">%1$d mån sedan från Pixy</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_creative_kit">
+        <item quantity="one">%1$d mån sedan från %2$s</item>
+        <item quantity="other">%1$d mån sedan från %2$s</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_memories">
+        <item quantity="one">%1$d mån sedan från Memories</item>
+        <item quantity="other">%1$d mån sedan från Memories</item>
+    </plurals>
+    <plurals name="months_ago_abbreviated_spectacles">
+        <item quantity="one">%1$d mån sedan från Spectacles</item>
+        <item quantity="other">%1$d mån sedan från Spectacles</item>
+    </plurals>
+    <plurals name="months_ago_update">
+        <item quantity="one">Uppdaterad för %1$s månad sedan</item>
+        <item quantity="other">Uppdaterad för %1$s månader sedan</item>
+    </plurals>
+    <plurals name="more_stories">
+        <item quantity="one">1 till Story</item>
+        <item quantity="other">%d Fler Stories</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d ny avisering</item>
+        <item quantity="other">%d nya aviseringar</item>
+    </plurals>
+    <plurals name="muted_stories">
+        <item quantity="one">1 dold Story</item>
+        <item quantity="other">%d Dolda Stories</item>
+    </plurals>
+    <plurals name="new_registration_continue_with_n_friends">
+        <item quantity="one">Lägg till en vän</item>
+        <item quantity="other">Lägg till %d vänner</item>
+    </plurals>
+    <plurals name="num_hours">
+        <item quantity="one">%d tim</item>
+        <item quantity="other">%d tim</item>
+    </plurals>
+    <plurals name="num_minutes">
+        <item quantity="one">%d min</item>
+        <item quantity="other">%d min</item>
+    </plurals>
+    <plurals name="nyc_audience_many_and_x_others">
+        <item quantity="one">%1$s+%2$d till</item>
+        <item quantity="other">%1$s+%2$d till</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_ft">
+        <item quantity="one">ft</item>
+        <item quantity="other">ft</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_km">
+        <item quantity="one">km</item>
+        <item quantity="other">km</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_m">
+        <item quantity="one">m</item>
+        <item quantity="other">m</item>
+    </plurals>
+    <plurals name="nyc_distance_unit_short_mile">
+        <item quantity="one">mi</item>
+        <item quantity="other">mi</item>
+    </plurals>
+    <plurals name="nyc_friends_many_and_x_others">
+        <item quantity="one">%1$s delar redan liveplats med dig</item>
+        <item quantity="other">%1$s och %2$s delar redan liveplats med dig</item>
+    </plurals>
+    <plurals name="nyc_sharing_live_location_with_friends">
+        <item quantity="one">Du delar din liveplats med %1$s vän.  </item>
+        <item quantity="other">Du delar din liveplats med %1$s vänner.  </item>
+    </plurals>
+    <plurals name="nyc_unhide_live_location_friend_dialog_title">
+        <item quantity="one">Du döljer din liveplats från en annan vän.</item>
+        <item quantity="other">Du döljer din liveplats från %1$d andra vänner.</item>
+    </plurals>
+    <plurals name="pairing_validation_description">
+        <item quantity="one">Det finns en Snap på din Pixy från den tidigare användaren. Om du parkopplar den här enheten kommer enheten att återställas och alla Snappar och alla användardata kommer att raderas.</item>
+        <item quantity="other">Det finns %d Snappar på din Pixy från den tidigare användaren. Om du parkopplar den här enheten kommer enheten att återställas och alla Snappar och alla användardata kommer att raderas.</item>
+    </plurals>
+    <plurals name="payments_num_purchased_items">
+        <item quantity="one">1 vara</item>
+        <item quantity="other">%d varor</item>
+    </plurals>
+    <plurals name="pending_syncs_logout_warning">
+        <item quantity="one">En Snap har ännu inte säkerhetskopierats till Memories. Om du loggar ut nu kan denna Snap förloras.</item>
+        <item quantity="other">%1$d Snappar har ännu inte säkerhetskopierats till Memories. Om du loggar ut nu kan dessa Snappar förloras.</item>
+    </plurals>
+    <plurals name="perception_lens_collection_scan_card_lenses_count">
+        <item quantity="one">%d lins</item>
+        <item quantity="other">%d linser</item>
+    </plurals>
+    <plurals name="perception_lenses_scan_card_try_lenses">
+        <item quantity="one">Prova lins</item>
+        <item quantity="other">Prova linser (%d)</item>
+    </plurals>
+    <plurals name="play_with_max_player_alert_text">
+        <item quantity="one">Spelet tillåter bara %1$d spelare</item>
+        <item quantity="other">Spelet tillåter bara %1$d spelare</item>
+    </plurals>
+    <plurals name="post_pairing_import_title">
+        <item quantity="one">%d ny Snap</item>
+        <item quantity="other">%d nya Snappar</item>
+    </plurals>
+    <plurals name="registration_continue_with_n_friends">
+        <item quantity="one">+ Lägg till en vän</item>
+        <item quantity="other">+ Lägg till %d vänner</item>
+    </plurals>
+    <plurals name="save_button_tooltip_saved_multiple">
+        <item quantity="one">%1$d Snap sparad!</item>
+        <item quantity="other">%1$d Snappar sparade!</item>
+    </plurals>
+    <plurals name="saved_media_gallery_attribution_media_count">
+        <item quantity="one">%s Snap</item>
+        <item quantity="other">%s Snappar</item>
+    </plurals>
+    <plurals name="seconds_abbreviated">
+        <item quantity="one">%d sek</item>
+        <item quantity="other">%d sek</item>
+    </plurals>
+    <plurals name="seconds_ago">
+        <item quantity="one">%d sek</item>
+        <item quantity="other">%d sek</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated">
+        <item quantity="one">%d sek sedan</item>
+        <item quantity="other">%d sek sedan</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_camera_roll">
+        <item quantity="one">%1$d sek sedan från kamerarullen</item>
+        <item quantity="other">%1$d sek sedan från kamerarullen</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_chat">
+        <item quantity="one">%1$d sek sedan från chatten</item>
+        <item quantity="other">%1$d sek sedan från chatten</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_cheerios">
+        <item quantity="one">%1$d sek sedan från Pixy</item>
+        <item quantity="other">%1$d sek sedan från Pixy</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_creative_kit">
+        <item quantity="one">%1$d sek sedan från %2$s</item>
+        <item quantity="other">%1$d sek sedan från %2$s</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_memories">
+        <item quantity="one">%1$d sek sedan från Memories</item>
+        <item quantity="other">%1$d sek sedan från Memories</item>
+    </plurals>
+    <plurals name="seconds_ago_abbreviated_spectacles">
+        <item quantity="one">%1$d sek sedan från Spectacles</item>
+        <item quantity="other">%1$d sek sedan från Spectacles</item>
+    </plurals>
+    <plurals name="seconds_ago_update">
+        <item quantity="one">Uppdaterad för %1$s sekund sedan</item>
+        <item quantity="other">Uppdaterad för %1$s sekunder sedan</item>
+    </plurals>
+    <plurals name="select_friend_friend">
+        <item quantity="one">1 vän</item>
+        <item quantity="other">%1$d vänner</item>
+    </plurals>
+    <plurals name="select_friend_other">
+        <item quantity="one">%1$s och 1 annan</item>
+        <item quantity="other">%1$s och %2$d andra</item>
+    </plurals>
+    <plurals name="settings_birthday_update_years_old">
+        <item quantity="one">Jag är %d år.</item>
+        <item quantity="other">Jag är %d år.</item>
+    </plurals>
+    <plurals name="snap_timer_selection_units">
+        <item quantity="one">sekund</item>
+        <item quantity="other">sekunder</item>
+    </plurals>
+    <plurals name="snaps_count">
+        <item quantity="one">%1$d Snap</item>
+        <item quantity="other">%1$d Snappar</item>
+    </plurals>
+    <plurals name="spectacles_export_customization_description">
+        <item quantity="one">Hur vill du exportera din Snap?</item>
+        <item quantity="other">Hur vill du exportera dina Snappar?</item>
+    </plurals>
+    <plurals name="spotlight_comments_count_notification_title">
+        <item quantity="one">En väntande Spotlight-kommentar!</item>
+        <item quantity="other">%d väntande Spotlight-kommentarer!</item>
+    </plurals>
+    <plurals name="status_views">
+        <item quantity="one">%d visning</item>
+        <item quantity="other">%d visningar</item>
+    </plurals>
+    <plurals name="still_sharing_last_active_location_description">
+        <item quantity="one">Din liveplats är dold men %1$s vän kan fortfarande se platsen du var aktiv på senast.\n\n Du kan ändra det här i Kartinställningar.</item>
+        <item quantity="other">Din liveplats är dold men %1$s vänner kan fortfarande se platsen du var aktiv på senast.\n\n Du kan ändra det här i Kartinställningar.</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_change_audience">
+        <item quantity="one">Du har sparat dina platsinställningar, men %1$s vän kan ändå se din liveplats. Om du vill sluta dela trycker du på Stopp bredvid deras namn.</item>
+        <item quantity="other">Du har sparat dina platsinställningar, men %1$s vänner kan ändå se din liveplats. Om du vill sluta dela trycker du på Stopp bredvid deras namn.</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_enter_ghost_mode">
+        <item quantity="one">Du är i spökläge men %1$s vän kan ändå se din liveplats. Om du vill sluta dela trycker du på Stopp bredvid deras namn.</item>
+        <item quantity="other">Du är i spökläge men %1$s vänner kan ändå se din liveplats. Om du vill sluta dela trycker du på Stopp bredvid deras namn.</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_enter_ghost_mode_ghost_trail">
+        <item quantity="one">Du är i spökläge, men %1$s vän kan ändå se din liveplats. Om du vill sluta dela trycker du på Stopp bredvid hens namn.\n\nPlatser läggs inte till i ditt spökspår när du är i spökläge.</item>
+        <item quantity="other">Du är i spökläge, men %1$s vänner kan ändå se din liveplats. Om du vill sluta dela trycker du på Stopp bredvid deras namn.\n\nPlatser läggs inte till i ditt spökspår när du är i spökläge.</item>
+    </plurals>
+    <plurals name="still_sharing_live_location_enter_ghost_mode_hide_live_location">
+        <item quantity="one">Du är i spökläge men %1$s vän kan ändå se din liveplats. Om du vill pausa delningen trycker du på Dölj min liveplats nedan.</item>
+        <item quantity="other">Du är i spökläge men %1$s vänner kan ändå se din liveplats. Om du vill pausa delningen trycker du på Dölj min liveplats nedan.</item>
+    </plurals>
+    <plurals name="story_friend_story_notification_title_update">
+        <item quantity="one">%d vän lade till i sin Story</item>
+        <item quantity="other">%d vänner lade till i sin Story</item>
+    </plurals>
+    <plurals name="story_fullscreen_footer_view_count">
+        <item quantity="one">%d visning</item>
+        <item quantity="other">%d visningar</item>
+    </plurals>
+    <plurals name="story_management_viewer_list_more_viewers">
+        <item quantity="one">+ %1$d mer</item>
+        <item quantity="other">+ %1$d fler</item>
+    </plurals>
+    <plurals name="story_mob_subtext_more">
+        <item quantity="one">%1$s och %2$d till …</item>
+        <item quantity="other">%1$s och %2$d till …</item>
+    </plurals>
+    <plurals name="story_profile_communities_members">
+        <item quantity="one">Verifierad • %d medlem</item>
+        <item quantity="other">Verifierad • %d medlemmar</item>
+    </plurals>
+    <plurals name="story_profile_shared_stories_members">
+        <item quantity="one">%d medlem</item>
+        <item quantity="other">%d medlemmar</item>
+    </plurals>
+    <plurals name="story_profile_stories_adding">
+        <item quantity="one">Lägger till %d Snap …</item>
+        <item quantity="other">Lägger till %d Snappar ...</item>
+    </plurals>
+    <plurals name="story_profile_stories_failed_to_add">
+        <item quantity="one">Kunde inte lägga till %d Snap</item>
+        <item quantity="other">Kunde inte lägga till %d Snappar</item>
+    </plurals>
+    <plurals name="story_profile_stories_waiting_to_add">
+        <item quantity="one">Väntar på att lägga till %d Snap ...</item>
+        <item quantity="other">Väntar på att lägga till %d Snappar ...</item>
+    </plurals>
+    <plurals name="story_settings_action_menu_my_story_blocked_number_of_people">
+        <item quantity="one">1 person</item>
+        <item quantity="other">%d personer</item>
+    </plurals>
+    <plurals name="streak_restore_dialog_subtitle_free_restore">
+        <item quantity="one">Du har %1$d gratis återställning.</item>
+        <item quantity="other">Du har %1$d gratis återställningar.</item>
+    </plurals>
+    <plurals name="streak_restore_dialog_subtitle_hours">
+        <item quantity="one">Du har %2$d timme på dig att återställa din Snapstreak med %1$s innan den försvinner för alltid!</item>
+        <item quantity="other">Du har %2$d timmar på dig att återställa din Snapstreak med %1$s innan den försvinner för alltid!</item>
+    </plurals>
+    <plurals name="streak_restore_dialog_subtitle_minutes">
+        <item quantity="one">Du har %2$d minut på dig att återställa din Snapstreak med %1$s innan den försvinner för alltid!</item>
+        <item quantity="other">Du har %2$d minuter på dig att återställa din Snapstreak med %1$s innan den försvinner för alltid!</item>
+    </plurals>
+    <plurals name="subtitle_sharing_custom_friends">
+        <item quantity="one">med %d vän</item>
+        <item quantity="other">med %d vänner</item>
+    </plurals>
+    <plurals name="takeover_request_index_and_total">
+        <item quantity="one">%1$d av %2$d nya vänner tillagda</item>
+        <item quantity="other">%1$d av %2$d nya vänner tillagda</item>
+    </plurals>
+    <plurals name="ticketmaster_events_label">
+        <item quantity="one">event</item>
+        <item quantity="other">event</item>
+    </plurals>
+    <plurals name="watched_stories">
+        <item quantity="one">1 visad Story</item>
+        <item quantity="other">%d Visade Stories</item>
+    </plurals>
+    <plurals name="weeks">
+        <item quantity="one">%d vecka</item>
+        <item quantity="other">%d veckor</item>
+    </plurals>
+    <plurals name="weeks_abbreviated">
+        <item quantity="one">%d v</item>
+        <item quantity="other">%d v</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated">
+        <item quantity="one">%d v sedan</item>
+        <item quantity="other">%d v sedan</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_camera_roll">
+        <item quantity="one">%1$d v sedan från kamerarullen</item>
+        <item quantity="other">%1$d v sedan från kamerarullen</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_chat">
+        <item quantity="one">%1$d vecka sedan från chatten</item>
+        <item quantity="other">%1$d vecka sedan från chatten</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_cheerios">
+        <item quantity="one">%1$d v sedan från Pixy</item>
+        <item quantity="other">%1$d v sedan från Pixy</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_creative_kit">
+        <item quantity="one">%1$d v sedan från %2$s</item>
+        <item quantity="other">%1$d v sedan från %2$s</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_memories">
+        <item quantity="one">%1$d v sedan från Memories</item>
+        <item quantity="other">%1$d v sedan från Memories</item>
+    </plurals>
+    <plurals name="weeks_ago_abbreviated_spectacles">
+        <item quantity="one">%1$d v sedan från Spectacles</item>
+        <item quantity="other">%1$d v sedan från Spectacles</item>
+    </plurals>
+    <plurals name="weeks_ago_update">
+        <item quantity="one">Uppdaterad för %1$s vecka sedan</item>
+        <item quantity="other">Uppdaterad för %1$s veckor sedan</item>
+    </plurals>
+    <plurals name="years_abbreviated">
+        <item quantity="one">%d år</item>
+        <item quantity="other">%d år</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated">
+        <item quantity="one">%d år sedan</item>
+        <item quantity="other">%d år sedan</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_camera_roll">
+        <item quantity="one">%1$d år sedan från kamerarullen</item>
+        <item quantity="other">%1$d år sedan från kamerarullen</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_chat">
+        <item quantity="one">%1$d år sedan från chatten</item>
+        <item quantity="other">%1$d år sedan från chatten</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_cheerios">
+        <item quantity="one">%1$d år sedan från Pixy</item>
+        <item quantity="other">%1$d år sedan från Pixy</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_creative_kit">
+        <item quantity="one">%1$d år sedan från %2$s</item>
+        <item quantity="other">%1$d år sedan från %2$s</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_memories">
+        <item quantity="one">%1$d år sedan från Memories</item>
+        <item quantity="other">%1$d år sedan från Memories</item>
+    </plurals>
+    <plurals name="years_ago_abbreviated_spectacles">
+        <item quantity="one">%1$d år sedan från Spectacles</item>
+        <item quantity="other">%1$d år sedan från Spectacles</item>
+    </plurals>
+    <plurals name="years_ago_update">
+        <item quantity="one">Uppdaterad för %1$s år sedan</item>
+        <item quantity="other">Uppdaterad för %1$s år sedan</item>
+    </plurals>
+</resources>

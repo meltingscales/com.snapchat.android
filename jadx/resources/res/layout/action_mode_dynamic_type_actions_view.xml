@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="bottom" android:id="@+id/actions_view" android:visibility="invisible" style="@style/SigActionBar.DynamicType">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@+id/default_actions" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="@drawable/sig_actionbar_actions_horizontal_transparent_divider" android:showDividers="middle"/>
+    <ImageView android:id="@+id/primary_action" style="@style/SigActionBar.Actions.PrimaryButton.DynamicType"/>
+</FrameLayout>

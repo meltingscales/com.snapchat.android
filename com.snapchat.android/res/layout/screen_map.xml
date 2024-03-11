@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.maps.screen.lib.main.MapScreenRoot android:id="@id/map_screen_root" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/snap_map" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/map_screen_features" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/map_content" />
+        <ViewStub android:layout_gravity="bottom" android:id="@id/v2_btm_bg_gradient" android:layout="@layout/v2_btm_bg_gradient" android:layout_width="fill_parent" android:layout_height="150.0dip" />
+        <View android:layout_gravity="top" android:id="@id/v2_top_gradient" android:background="@drawable/map_search_bar_bg_gradient" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="150.0dip" />
+        <ViewStub android:layout_gravity="bottom" android:id="@id/map_footer" android:layout="@layout/map_footer" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <include layout="@layout/screen_map_map_features" />
+        <ViewStub android:id="@id/map_carousel_root_stub" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ViewStub android:id="@id/map_tray_root_stub" android:layout="@layout/map_tray" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ViewStub android:id="@id/me_tray_root_stub" android:layout="@layout/me_tray" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ViewStub android:id="@id/focus_view_root_stub" android:layout="@layout/focus_view_tray" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ViewStub android:id="@id/map_places_tray_root_stub" android:layout="@layout/map_places_tray" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ViewStub android:id="@id/garfield_tray_root_stub" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ViewStub android:id="@id/map_group_stub" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/nyc_child_fragment_root" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <View android:layout_gravity="bottom" android:id="@id/map_softnav_bar_underlay" android:background="@color/sig_color_flat_pure_black_any" android:layout_width="fill_parent" android:layout_height="1.0dip" android:alpha="1.0" />
+    </FrameLayout>
+    <View android:layout_gravity="right" android:id="@id/ngs_edge_swipe" android:layout_width="@dimen/edge_swipe_width" android:layout_height="fill_parent" />
+</com.snap.maps.screen.lib.main.MapScreenRoot>

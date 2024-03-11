@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@color/sig_color_flat_pure_black_any_alpha_50" android:padding="@dimen/default_gap" android:layout_width="@dimen/story_lite_overlay_debug_width" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/default_gap_2x" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.snap.ui.view.SnapFontTextView android:textColor="@color/sig_color_flat_pure_white_any" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/story_lite_overlay_debug" app:scFontWeight="bolder" style="@style/TextAppearance.Subtitle4" />
+        <com.snap.ui.view.SnapFontTextView android:textColor="@color/sig_color_flat_pure_white_any" android:id="@id/debug_text" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/TextAppearance.Tiny" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

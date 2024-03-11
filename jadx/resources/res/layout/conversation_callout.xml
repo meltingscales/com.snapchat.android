@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/bubble_content" android:paddingTop="6dp" android:paddingBottom="6dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="8dp" android:paddingEnd="14dp">
+        <ImageView android:id="@+id/conversation_icon" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginEnd="2dp"/>
+        <com.snap.ui.view.SnapFontTextView android:textSize="@dimen/v11_action_text_size" android:id="@+id/conversation_type_text" android:layout_width="wrap_content" android:layout_height="wrap_content" app:scFontWeight="2"/>
+        <com.snap.ui.view.SnapFontTextView android:textSize="@dimen/v11_very_tiny_text_size" android:textColor="?attr/sigColorTextTertiary" android:id="@+id/conversation_dot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="•" android:layout_marginStart="4dp" android:layout_marginEnd="3dp" app:scFontWeight="0"/>
+        <com.snap.ui.view.SnapFontTextView android:textSize="@dimen/v11_action_text_size" android:textColor="?attr/sigColorTextTertiary" android:id="@+id/conversation_time_text" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <ImageView android:id="@+id/bottom_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/svg_map_bitmoji_bubble_bottom" android:layout_below="@+id/bubble_content" android:layout_centerHorizontal="true" android:translationY="-12dp"/>
+</RelativeLayout>

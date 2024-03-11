@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/notification_settings_our_story_comment_count_view" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/checkbox_setting_container">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <com.snap.ui.view.SnapFontTextView android:id="@+id/notification_settings_our_story_comment_count_textview" android:paddingTop="@dimen/notification_settings_padding_vertical" android:paddingBottom="@dimen/notification_settings_padding_vertical" android:text="@string/settings_notification_spotlight_comments_header" style="@style/new_settings_item_name"/>
+        <com.snap.ui.view.SnapFontTextView android:id="@+id/notification_settings_our_story_comment_count_description_textview" android:paddingTop="@dimen/notification_settings_padding_vertical" android:paddingBottom="@dimen/notification_settings_padding_vertical" android:text="@string/settings_notification_spotlight_comments_body" style="@style/new_settings_item_text"/>
+    </LinearLayout>
+    <com.snap.component.button.SnapCheckBox android:id="@+id/notification_settings_our_story_comment_count_checkbox" style="@style/new_settings_checkbox"/>
+</LinearLayout>

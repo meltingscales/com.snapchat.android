@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_gap_2x" android:layout_marginBottom="@dimen/cognac_destination_section_header_margin_bottom" android:layout_marginStart="@dimen/cognac_destination_section_header_margin_horizontal" android:layout_marginEnd="@dimen/cognac_destination_section_header_margin_horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.snap.ui.view.SnapFontTextView android:textSize="?v11Heading2TextSize" android:textColor="@color/sig_color_base_gray100_any" android:id="@id/cognac_destination_section_header_title" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:scFontWeight="?v11Heading2FontWeight" />
+</androidx.constraintlayout.widget.ConstraintLayout>

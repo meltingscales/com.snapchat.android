@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/country_code_picker_view_v11" android:background="?sigColorBackgroundMain" style="@style/subscreen_coordinator_layout_style"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:layout_marginStart="@dimen/default_gap_2x" style="@style/subscreen_recycler_view_style_with_index_scrollbar" />
+    <com.snap.component.header.SnapSubscreenHeaderView android:id="@id/screen_header" android:paddingBottom="@dimen/my_friends_search_bar_pos" custom:input_field_hint_text="@string/input_field_search_hint" custom:title_text="@string/country_code_filter_hint" style="@style/subscreen_header_default_with_search" />
+    <com.snap.component.scrollbar.SnapIndexScrollbar android:layout_gravity="end|center|top" android:id="@id/index_scrollbar" style="@style/index_scrollbar_default_style" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

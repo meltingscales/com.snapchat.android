@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" android:id="@+id/recently_action_page" style="@style/subscreen_coordinator_layout_style">
+    <com.snap.component.header.SnapSubscreenHeaderView android:id="@+id/screen_header" android:layout_width="0dp" custom:layout_constraintEnd_toEndOf="0" custom:layout_constraintStart_toStartOf="0" custom:layout_constraintTop_toTopOf="0" custom:top_left_layout="@layout/subscreen_header_top_left_arrow" style="@style/subscreen_header_back"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/recycler_view" android:paddingBottom="@dimen/add_friend_ngs_padding" android:layout_width="0dp" android:layout_height="0dp" custom:layout_constraintBottom_toBottomOf="0" custom:layout_constraintEnd_toEndOf="0" custom:layout_constraintStart_toStartOf="0" custom:layout_constraintTop_toBottomOf="@+id/screen_header" style="@style/add_friends_recycler_view_style"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

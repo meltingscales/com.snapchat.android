@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageButton android:id="@id/pinnable_thumbnail_cancel_button" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/default_gap_3x" android:src="@drawable/svg_pinnable_cancel_icon" android:layout_marginEnd="@dimen/default_gap" app:layout_constraintBottom_toBottomOf="@id/pinnable_thumbnail_container" app:layout_constraintStart_toStartOf="parent" />
+    <FrameLayout android:id="@id/pinnable_thumbnail_container" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/send_to_bottom_panel_height" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/pinnable_thumbnail_done_button" app:layout_constraintStart_toEndOf="@id/pinnable_thumbnail_cancel_button">
+        <com.snap.previewtools.tracking.PinnablePlayHeadView android:layout_gravity="bottom|center" android:id="@id/pinnable_playhead_view" android:visibility="invisible" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <ImageButton android:id="@id/pinnable_thumbnail_done_button" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/default_gap_3x" android:src="@drawable/svg_pinnable_select_icon" android:layout_marginStart="@dimen/default_gap" app:layout_constraintBottom_toBottomOf="@id/pinnable_thumbnail_container" app:layout_constraintEnd_toEndOf="parent" />
+</merge>

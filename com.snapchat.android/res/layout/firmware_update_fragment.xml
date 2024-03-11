@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?sigColorBackgroundSubscreen" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.snap.ui.view.ScHeaderView android:id="@id/cheerios_settings_header" android:layout_width="fill_parent" android:layout_height="wrap_content" app:headerColorScheme="@color/sig_color_base_success_green_any" app:headerTitle="@string/cheerios_firmware_update" app:showBackArrow="true" app:showBottomBorder="true" />
+    <ScrollView android:id="@id/spectacles_manage_page" android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="false" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/default_gap_2x">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/cheerios_auto_update_block" android:background="@drawable/content_prompt_background" android:padding="@dimen/default_gap_2x" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/default_gap_2x" android:minHeight="@dimen/v11_info_cell_height">
+                <com.snap.ui.view.SnapFontTextView android:id="@id/cheerios_auto_update_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/cheerios_firmware_auto_update" android:layout_weight="1.0" style="@style/TextAppearance.Title1" />
+                <com.snap.component.button.SnapSwitch android:id="@id/cheerios_auto_update_switch" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/cheerios_update_available_block" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:padding="@dimen/single_dp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <com.snap.ui.view.SnapFontTextView android:id="@id/cheerios_update_progress_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/checking_for_updates" style="@style/TextAppearance.Heading2" />
+                        <com.snap.ui.view.SnapFontTextView android:id="@id/cheerios_update_latest_version" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/cheerios_firmware_latest_version" style="@style/TextAppearance.Subtitle2.Gray50" />
+                    </LinearLayout>
+                    <com.snap.ui.view.LoadingSpinnerView android:id="@id/cheerios_update_progress_spinner" android:layout_width="@dimen/icon_size" android:layout_height="@dimen/icon_size" />
+                </LinearLayout>
+                <TextView android:autoLink="web" android:id="@id/cheerios_update_release_note" android:background="@drawable/content_prompt_background" android:padding="@dimen/default_gap_2x" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_gap_2x" style="style/TextAppearance.Body" />
+                <com.snap.component.button.SnapButtonView android:id="@id/cheerios_update_now_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_gap_2x" app:button_style="large_button_rectangle_blue" app:button_text="@string/cheerios_firmware_button_update" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/cheerios_update_unavailable_block" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_gap_2x">
+                <com.snap.ui.view.SnapFontTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cheerios_firmware_up_to_date" style="@style/TextAppearance.Subtitle2.Gray50" />
+                <com.snap.ui.view.SnapFontTextView android:id="@id/cheerios_update_current_version" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextAppearance.Subtitle2.Gray50" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

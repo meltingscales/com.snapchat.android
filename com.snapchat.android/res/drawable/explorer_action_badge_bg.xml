@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="10.0dip" />
+    <solid android:color="@color/explorer_action_badge_color" />
+    <padding android:left="6.0dip" android:top="2.0dip" android:right="6.0dip" android:bottom="2.0dip" />
+</shape>

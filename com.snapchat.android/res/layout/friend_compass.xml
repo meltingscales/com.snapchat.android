@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/friend_compass" android:padding="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.snap.ui.view.SnapFontTextView android:textSize="?v11CaptionTextSize" android:textColor="@color/sig_color_icon_secondary_light" android:gravity="center" android:id="@id/friend_compass_distance_label" android:background="@drawable/friend_compass_distance_label" android:paddingLeft="36.0dip" android:paddingRight="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" app:scFontWeight="bold" />
+    <RelativeLayout android:id="@id/friend_compass_container" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.snap.imageloading.view.SnapImageView android:id="@id/friend_compass_background" android:layout_width="@dimen/friend_compass_size" android:layout_height="@dimen/friend_compass_size" android:src="@drawable/friend_compass_background" android:layout_centerInParent="true" />
+        <com.snap.imageloading.view.SnapImageView android:id="@id/friend_compass_arrow" android:layout_width="@dimen/friend_compass_arrow" android:layout_height="@dimen/friend_compass_arrow" android:src="@drawable/svg_unified_profile_map_compass" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/nearby_friend_compass_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.snap.imageloading.view.SnapImageView android:id="@id/nearby_friend_compass_background" android:layout_width="@dimen/friend_compass_size" android:layout_height="@dimen/friend_compass_size" android:src="@drawable/nearby_friend_compass_background" android:layout_centerInParent="true" />
+        <com.snap.imageloading.view.SnapImageView android:id="@id/nearby_friend_compass_arrow" android:layout_width="@dimen/friend_compass_arrow" android:layout_height="@dimen/friend_compass_arrow" android:src="@drawable/svg_friend_compass_nearby_waving" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

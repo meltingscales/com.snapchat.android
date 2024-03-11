@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.component.cards.SnapCardView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/default_gap_2x" android:layout_marginRight="@dimen/default_gap_2x">
+    <ViewStub android:id="@+id/onboardingContentViewStub" android:layout_width="match_parent" android:layout_height="@dimen/bloops_profile_teaser_section_height" android:layout_marginLeft="@dimen/default_gap_three_quarters" android:layout_marginTop="@dimen/default_gap_three_quarters" android:layout_marginRight="@dimen/default_gap_three_quarters"/>
+</com.snap.component.cards.SnapCardView>

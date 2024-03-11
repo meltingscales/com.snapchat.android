@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatImageButton android:id="@id/chat_input_bar_sharing_drawer_button" android:visibility="gone" android:src="@drawable/svg_chat_input_bar_sharing_drawer_button" app:tint="@color/icon_tint_color" style="@style/chat_single_row_input_bar_icon"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <solid android:color="@color/sig_color_base_brand_yellow_any"/>
+    <corners android:topLeftRadius="@dimen/default_gap_half" android:topRightRadius="@dimen/default_gap_half" android:bottomLeftRadius="@dimen/default_gap_half" android:bottomRightRadius="@dimen/default_gap_half"/>
+</shape>

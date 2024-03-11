@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" style="@style/new_settings_item_outer">
+    <com.snap.ui.view.SnapFontTextView android:id="@+id/lenses_settings_clear_all_item_name" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" style="@style/new_settings_item_name"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

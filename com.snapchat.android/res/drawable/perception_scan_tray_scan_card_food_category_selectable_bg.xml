@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:drawable="@drawable/perception_scan_tray_scan_card_food_category_selected_bg" />
+    <item android:drawable="@drawable/perception_scan_tray_scan_card_food_category_deselected_bg" />
+</selector>

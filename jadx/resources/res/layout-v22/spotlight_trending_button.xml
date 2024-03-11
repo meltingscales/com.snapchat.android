@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/spotlight_trending_button_background" android:paddingLeft="@dimen/five_dp_gap" android:paddingRight="@dimen/five_dp_gap" android:layout_width="wrap_content" android:layout_height="@dimen/ngs_hova_header_button_background_size" android:paddingHorizontal="@dimen/five_dp_gap">
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@+id/spotlight_hova_header_trending_button" android:layout_width="@dimen/ngs_hova_header_button_size" android:layout_height="@dimen/ngs_hova_header_button_size" android:src="@drawable/svg_spotlight_trending_icon_24x24"/>
+</FrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="sequentially"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <set android:ordering="together">
+        <objectAnimator android:duration="200" android:valueFrom="0" android:valueTo="1" android:propertyName="alpha" />
+        <objectAnimator android:interpolator="@android:anim/accelerate_decelerate_interpolator" android:duration="300" android:valueFrom="@dimen/avatar_view_translation_y" android:valueTo="@dimen/silhouette_view_init_translation_y" android:propertyName="translationY" />
+    </set>
+</set>

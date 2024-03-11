@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.snap.messaging.chat.ui.view.SwipeableMessageLinearLayout android:id="@id/chat_message_content_container" android:clipChildren="false" android:clipToPadding="false" android:descendantFocusability="blocksDescendants" style="@style/chat_message_content_container" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/apk/res-auto">
+        <include layout="@layout/chat_message_save_label" />
+        <include layout="@layout/chat_message_color_bar" />
+        <LinearLayout android:orientation="vertical" android:id="@id/stacked_message_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:id="@id/in_screen_message_content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.snap.ui.view.RoundedCornerFrameLayout android:id="@id/rounded_corner_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/chat_media_margin">
+                    <ViewStub android:id="@id/story_reply_container_view_stub" android:layout="@layout/chat_item_story_reply_view_video_capable" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <com.snap.messaging.chat.ui.view.VideoCapableThumbnailView android:layout_gravity="start|bottom|center" android:id="@id/chat_media_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <com.snap.ui.view.SnapFontTextView android:textSize="?v11Subtitle4TextSize" android:textColor="@color/sig_color_base_gray70_any" android:id="@id/tap_to_load" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tap_to_load" android:layout_centerInParent="true" custom:scFontWeight="lighter" />
+                        <com.snap.ui.view.LoadingSpinnerView android:id="@id/loading_spinner" android:visibility="gone" android:layout_width="@dimen/chat_item_loading_spinner_size" android:layout_height="@dimen/chat_item_loading_spinner_size" android:layout_centerInParent="true" />
+                        <com.snap.ui.view.LazyIconView android:id="@id/snap_spectacles_icon" android:visibility="visible" android:layout_width="@dimen/spectacles_icon" android:layout_height="@dimen/spectacles_icon" android:layout_margin="@dimen/chat_media_card_snap_margin" android:layout_alignParentTop="true" android:layout_alignParentEnd="true" custom:src="@drawable/spectacles_status_disconnected_icon" />
+                    </com.snap.messaging.chat.ui.view.VideoCapableThumbnailView>
+                </com.snap.ui.view.RoundedCornerFrameLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </com.snap.messaging.chat.ui.view.SwipeableMessageLinearLayout>
+    <include layout="@layout/chat_reactions_below_message" />
+    <include layout="@layout/chat_below_message_container" />
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <selector>
+            <item android:state_enabled="false">
+                <shape>
+                    <solid android:color="?attr/sigColorBackgroundSurfaceDown"/>
+                    <corners android:bottomLeftRadius="@dimen/v11_card_border_radius" android:bottomRightRadius="@dimen/v11_card_border_radius"/>
+                </shape>
+            </item>
+            <item android:state_pressed="true">
+                <shape>
+                    <solid android:color="?attr/sigColorBackgroundSurfaceDown"/>
+                    <corners android:bottomLeftRadius="@dimen/v11_card_border_radius" android:bottomRightRadius="@dimen/v11_card_border_radius"/>
+                </shape>
+            </item>
+            <item>
+                <shape>
+                    <solid android:color="?attr/sigColorBackgroundSurface"/>
+                    <corners android:bottomLeftRadius="@dimen/v11_card_border_radius" android:bottomRightRadius="@dimen/v11_card_border_radius"/>
+                </shape>
+            </item>
+        </selector>
+    </item>
+    <item android:height="@dimen/send_to_item_divider_width">
+        <shape>
+            <solid android:color="?attr/sigColorLayoutDivider"/>
+        </shape>
+    </item>
+</layer-list>

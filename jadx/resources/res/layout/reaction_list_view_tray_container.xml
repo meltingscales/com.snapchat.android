@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/reaction_list_header" android:layout_width="match_parent" android:layout_height="@dimen/reaction_detail_list_view_header_size" android:paddingStart="@dimen/default_gap_3x">
+        <com.snap.ui.view.SnapFontTextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/reaction_detail_list_header_text" android:layout_weight="1" style="@style/snap_tray_header_text"/>
+        <com.snap.imageloading.view.SnapImageView android:layout_gravity="end" android:id="@+id/reaction_list_exit_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/reaction_detail_list_header_x_icon" android:scaleType="fitCenter" android:paddingEnd="@dimen/default_gap_3x"/>
+    </LinearLayout>
+    <View android:id="@+id/reaction_list_header_divider" android:background="@color/sig_color_layout_divider_light" android:layout_width="match_parent" android:layout_height="@dimen/reaction_detail_list_view_header_divider_height"/>
+    <androidx.core.widget.NestedScrollView android:id="@+id/reaction_list_scroll_view" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="@dimen/default_gap_1_75x">
+        <LinearLayout android:orientation="vertical" android:id="@+id/reaction_list_detail_view" android:paddingBottom="@dimen/default_gap_2x" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.lenses.carousel.DefaultCarouselView android:id="@id/lenses_camera_carousel_view" android:layout_width="fill_parent" android:layout_height="fill_parent" custom:closeButtonBottomMargin="@dimen/lens_camera_carousel_close_button_margin_bottom"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/lenses_camera_carousel_back_widgets_view" />
+    <com.snap.lenses.carousel.CarouselListView android:id="@id/lenses_camera_carousel_list_view" android:paddingTop="@dimen/lens_camera_carousel_top_margin" android:paddingBottom="@dimen/lens_camera_carousel_bottom_padding" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="@dimen/lens_camera_carousel_height" android:layout_alignParentBottom="true" android:overScrollMode="never" android:importantForAccessibility="no" custom:itemSpacing="@dimen/lens_camera_carousel_item_offset" custom:itemWidth="@dimen/lens_camera_carousel_item_size" />
+    <ImageView android:id="@id/lenses_camera_carousel_close_button_view" android:visibility="gone" android:scaleType="fitXY" android:layout_alignBottom="@id/lenses_camera_carousel_close_button_anchor_view" android:layout_centerHorizontal="true" android:contentDescription="@string/camera_carousel_close_button_content_description" style="?carouselCloseButtonStyle" />
+</com.snap.lenses.carousel.DefaultCarouselView>

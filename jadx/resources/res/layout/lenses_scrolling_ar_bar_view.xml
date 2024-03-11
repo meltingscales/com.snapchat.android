@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.lenses.arbar.DefaultArBarView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/lenses_scrolling_ar_bar_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.snap.lenses.common.NestedChildRecyclerView android:orientation="horizontal" android:id="@+id/ar_bar_tabs" android:layout_width="match_parent" android:layout_height="match_parent" android:overScrollMode="always"/>
+    <ViewStub android:layout_gravity="start|center_vertical" android:id="@+id/ar_bar_close_button_view_stub" android:inflatedId="@+id/ar_bar_close_button_view" android:layout_width="@dimen/ar_bar_action_button_size" android:layout_height="@dimen/ar_bar_action_button_size"/>
+    <ViewStub android:layout_gravity="end|center_vertical" android:id="@+id/ar_bar_action_button_view_stub" android:inflatedId="@+id/ar_bar_action_button_view" android:layout_width="@dimen/ar_bar_action_button_size" android:layout_height="@dimen/ar_bar_action_button_size"/>
+</com.snap.lenses.arbar.DefaultArBarView>

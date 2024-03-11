@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.ui.view.SnapFontTextView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/unblock_friend_button" android:text="@string/profile_user_card_unblock_button" style="@style/profile_user_card_unblock_button"/>

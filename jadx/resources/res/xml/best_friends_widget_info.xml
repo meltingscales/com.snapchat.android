@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android" android:minWidth="250dp" android:minHeight="110dp" android:updatePeriodMillis="1800000" android:initialLayout="@layout/best_friends_widget" android:previewImage="@drawable/best_friends_widget_preview" android:resizeMode="horizontal" android:minResizeWidth="180dp" android:widgetCategory="home_screen"/>

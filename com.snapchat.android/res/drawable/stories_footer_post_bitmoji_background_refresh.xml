@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="oval"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/sig_color_base_gray90_any" />
+    <stroke android:width="@dimen/stories_footer_post_tool_bitmoji_border" android:color="@color/stories_footer_bitmoji_post_plus_icon_refresh" />
+</shape>

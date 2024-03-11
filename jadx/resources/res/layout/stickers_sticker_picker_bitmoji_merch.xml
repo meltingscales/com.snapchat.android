@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentTop="true" android:layoutDirection="ltr" style="@style/BitmojiMerchStickerPickerContainer">
+    <LinearLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentTop="true" android:layout_alignParentBottom="true">
+        <include layout="@layout/stickers_search_bar"/>
+        <com.snap.stickers.ui.views.CategorySelector android:layout_gravity="bottom" android:id="@+id/sticker_picker_category_selector_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="true"/>
+        <com.snap.ui.view.SafeViewPager android:id="@+id/sticker_picker_horizontal_view_pager" android:background="@drawable/stickers_sticker_picker_white_ui_rounded_corners" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/stickers_sticker_picker_sticker_container_margin"/>
+    </LinearLayout>
+</RelativeLayout>

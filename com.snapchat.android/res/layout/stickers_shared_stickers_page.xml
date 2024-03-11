@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/page_loading_spinner" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include layout="@layout/stickers_sticker_picker_sticker_progressbar" />
+        </FrameLayout>
+        <FrameLayout android:orientation="vertical" android:id="@id/page_no_results_with_message" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.snap.ui.view.SnapFontTextView android:textSize="?v11Title1TextSize" android:textColor="@color/sig_color_flat_pure_white_any" android:gravity="center" android:layout_gravity="center" android:id="@id/page_no_results_with_message_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sticker_search_error" app:scFontWeight="bolder" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.snap.stickers.ui.views.StickersRecyclerView android:id="@id/stickers_list" android:tag="PagerStickerList" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.snap.stickers.ui.pages.CTPlatformFeedPageImpl android:id="@id/ct_item_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <FrameLayout android:gravity="center" android:id="@id/bitmoji_selector_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <ViewStub android:layout_gravity="bottom" android:id="@id/bloopsButtonContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </FrameLayout>
+</merge>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/magic_eraser_action_bar" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.snap.component.button.SnapButtonView android:gravity="top" android:id="@id/magic_eraser_cancel_btn" android:layout_width="fill_parent" android:layout_height="@dimen/magic_eraser_tool_button_height" android:layout_marginTop="@dimen/default_gap_2x" android:layout_weight="1.0" android:layout_marginStart="@dimen/default_gap_2x" android:layout_marginEnd="@dimen/default_gap_1_25x" app:button_style="medium_button_rectangle_sig_button_secondary_dark" app:button_text="@string/cancel" />
+    <com.snap.component.button.SnapButtonView android:gravity="top" android:id="@id/magic_eraser_done_btn" android:layout_width="fill_parent" android:layout_height="@dimen/magic_eraser_tool_button_height" android:layout_marginTop="@dimen/default_gap_2x" android:layout_weight="1.0" android:layout_marginEnd="@dimen/default_gap_2x" app:button_style="medium_button_rectangle_yellow" app:button_text="@string/done" />
+</LinearLayout>

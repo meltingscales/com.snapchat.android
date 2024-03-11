@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.snap.imageloading.view.SnapImageView android:id="@id/map_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:id="@id/shadow_anchor" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginBottom="@dimen/shadow_anchor_bottom_margin" android:layout_centerInParent="true" />
+    <com.snap.imageloading.view.SnapImageView android:id="@id/shadow_view" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="12.0dip" android:src="@drawable/svg_map_shadow_render" android:layout_below="@id/shadow_anchor" android:layout_centerHorizontal="true" />
+    <FrameLayout android:id="@id/circle_story_container" android:background="@android:color/transparent" android:layout_width="@dimen/circle_thumbnail_background_size" android:layout_height="@dimen/circle_thumbnail_background_size" android:layout_centerInParent="true">
+        <View android:layout_gravity="center" android:id="@id/circle_thumbnail_background" android:background="@drawable/thumbnail_circle" android:layout_width="@dimen/circle_thumbnail_background_size" android:layout_height="@dimen/circle_thumbnail_background_size" />
+        <com.snap.imageloading.view.SnapImageView android:layout_gravity="center" android:id="@id/circle_story_thumbnail" android:layout_width="@dimen/circle_thumbnail_story_size" android:layout_height="@dimen/circle_thumbnail_story_size" android:scaleType="centerCrop" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/rectangle_story_container" android:background="@android:color/transparent" android:layout_width="@dimen/rectangle_thumbnail_background_width_size" android:layout_height="@dimen/rectangle_thumbnail_background_height_size" android:layout_centerInParent="true">
+        <View android:layout_gravity="center" android:id="@id/rectangle_thumbnail_background" android:background="?sigColorBackgroundMain" android:layout_width="@dimen/rectangle_thumbnail_background_width_size" android:layout_height="@dimen/rectangle_thumbnail_background_height_size" />
+        <com.snap.imageloading.view.SnapImageView android:layout_gravity="center" android:id="@id/rectangle_story_thumbnail" android:layout_width="@dimen/rectangle_thumbnail_story_width_size" android:layout_height="@dimen/rectangle_thumbnail_story_height_size" android:scaleType="centerCrop" />
+    </FrameLayout>
+    <com.snap.imageloading.view.SnapImageView android:id="@id/bitmoji_view" android:layout_width="70.0dip" android:layout_height="70.0dip" android:layout_centerInParent="true" />
+    <ViewStub android:id="@id/friend_compass_view_stub" android:padding="10.0dip" android:layout="@layout/friend_compass" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <com.snap.ui.view.SnapFontTextView android:textSize="@dimen/static_map_label_text_size" android:id="@id/label_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="-8.0dip" android:layout_above="@id/bitmoji_view" android:layout_centerHorizontal="true" app:scFontWeight="bold" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bitmoji_name_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/bitmoji_view" android:layout_centerHorizontal="true">
+        <com.snap.ui.view.SnapFontTextView android:textSize="?v11Subtitle4TextSize" android:textColor="?sigColorTextPrimary" android:ellipsize="end" android:id="@id/bitmoji_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" android:lineSpacingMultiplier="0.8" app:scFontWeight="bolder" />
+        <com.snap.ui.view.SnapFontTextView android:textSize="@dimen/v11_very_tiny_text_size" android:textColor="?colorGray90" android:id="@id/time" android:paddingTop="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" app:scFontWeight="bold" />
+    </LinearLayout>
+    <com.snap.ui.view.LoadingSpinnerView android:id="@id/loading_spinner" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_centerInParent="true" app:loading_spinner_color="@color/sig_color_base_gray60_any" />
+</RelativeLayout>

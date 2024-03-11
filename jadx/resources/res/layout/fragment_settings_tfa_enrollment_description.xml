@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/tfa_enrollment_description_layout" android:background="?attr/sigColorBackgroundMain" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.snap.component.header.SnapSubscreenHeaderView android:id="@+id/header" custom:header_background="?attr/sigColorBackgroundMain" custom:header_style="back" custom:title_text="@string/settings_tfa_settings_header" style="@style/subscreen_header_back"/>
+    <ScrollView android:id="@+id/tfa_enroll_scrollview" android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/default_gap_2x" android:layout_marginEnd="@dimen/default_gap_2x">
+            <com.snap.ui.view.SnapFontTextView android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_gap_2x" android:layout_marginBottom="@dimen/default_gap_2x" android:text="@string/settings_tfa_enrollment_description" style="@style/IdentitySettingsCopyText"/>
+            <com.snap.imageloading.view.SnapImageView android:id="@+id/settings_tfa_enrollment_splash" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="fitCenter" android:adjustViewBounds="true"/>
+        </LinearLayout>
+    </ScrollView>
+    <com.snap.identity.ui.settings.shared.SettingsStatefulButton android:layout_gravity="bottom|center_horizontal" android:id="@+id/tfa_enrollment_description_continue_button" android:background="?attr/sigColorBackgroundMain" android:layout_width="match_parent" android:layout_height="@dimen/registration_continue_button_height" custom:buttonText="@string/registration_continue" style="@style/IdentitySettingsContinueButton"/>
+</LinearLayout>

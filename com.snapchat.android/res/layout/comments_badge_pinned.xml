@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.ui.view.SnapFontTextView android:background="@drawable/comments_pinned_badge_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/comments_pinned" style="@style/CommentsPinnedBadgeText"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

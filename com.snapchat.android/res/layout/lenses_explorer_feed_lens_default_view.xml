@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/lens_holder" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/lens_info_container" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent">
+            <com.snap.ui.view.SnapFontTextView android:textColor="@color/explorer_selectable_primary_text_color" android:id="@id/lens_name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SingleLineText.SubheadlineEmphasis" />
+            <com.snap.ui.view.SnapFontTextView android:textColor="@color/explorer_selectable_primary_text_color" android:id="@id/lens_creator" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SingleLineText.Caption" />
+        </LinearLayout>
+        <com.snap.lenses.common.RoundedImageView android:id="@id/lens_thumbnail" android:layout_width="0.0dip" android:layout_height="0.0dip" android:scaleType="centerCrop" app:cornerRadius="@dimen/tile_corner_radius" app:layout_constraintBottom_toTopOf="@id/lens_info_container" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" app:shapeClipMode="corners" app:shapeStrokeColor="@color/explorer_lens_tile_selection_color" app:shapeStrokeDefaultSize="@dimen/tile_thumbnail_border_width" app:shapeStrokeStatesIds="@array/lens_tile_stroke_states_ids" app:shapeStrokeStatesSize="@array/lens_tile_stroke_states_size" />
+        <com.snap.imageloading.view.SnapImageView android:id="@id/lens_icon" app:layout_constraintBottom_toTopOf="@id/lens_info_container" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" style="@style/Image.LensIcon" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

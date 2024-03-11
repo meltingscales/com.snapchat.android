@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/snap_kit_connected_apps_section_header_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_connected_app_section_header_margin_bottom" android:layout_marginBottom="@dimen/settings_connected_app_section_header_margin_bottom"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.snap.ui.view.SnapFontTextView android:textSize="?v11Title1TextSize" android:id="@id/snap_kit_connected_apps_section_header_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/settings_connected_app_section_header_margin_start" app:scFontWeight="bold" />
+    <com.snap.ui.view.SnapFontTextView android:textSize="?v11Subtitle1TextSize" android:id="@id/snap_kit_connected_apps_section_sub_header_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/settings_connected_app_section_header_margin_start" />
+</LinearLayout>

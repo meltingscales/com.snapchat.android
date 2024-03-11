@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="start" android:drawable="@drawable/info_card_button_creator_chevron" android:left="-15.0dip" android:top="6.0dip" android:bottom="6.0dip" />
+</layer-list>

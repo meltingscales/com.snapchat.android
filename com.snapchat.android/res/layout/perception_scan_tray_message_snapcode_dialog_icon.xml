@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.imageloading.view.SnapImageView android:id="@id/scan_tray_message_dialog_icon" android:layout_width="@dimen/perception_scan_tray_message_dialog_icon_size" android:layout_height="@dimen/perception_scan_tray_message_dialog_icon_size" android:layout_marginTop="@dimen/default_gap_4x"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

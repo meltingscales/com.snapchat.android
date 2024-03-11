@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <com.snap.ui.view.PullToRefreshLayout android:id="@id/ptr_container" android:layout_width="fill_parent" android:layout_height="fill_parent" custom:ptr_innerView="@id/recycler_view" custom:ptr_releaseThreshold="@dimen/neon_header_release_threshold">
+        <include layout="@layout/mushroom_ptr" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.snap.ui.view.PullToRefreshLayout>
+    <View android:id="@id/colored_overlay" android:background="?colorGray50" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:layout_gravity="bottom|center" android:id="@id/floating_affordance_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/new_stories_bottom_margin" />
+    <View android:id="@id/v11_header_overlay" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/v11_header_height" />
+    <com.snap.ui.view.progressbar.YellowHorizontalIndeterminateProgressBar android:id="@id/yellow_progress_bar" android:layout_width="fill_parent" android:layout_height="@dimen/v11_yellow_indeterminate_progress_bar_height" android:layout_marginTop="@dimen/v11_header_height" />
+    <View android:layout_gravity="bottom" android:id="@id/navbar_inset" android:background="?colorTrueBlack" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+    <ViewStub android:layout_gravity="bottom" android:id="@id/bottom_gradient_view" android:layout="@layout/bottom_black_gradient_view" android:layout_width="fill_parent" android:layout_height="@dimen/neon_bottom_gradient_height" />
+</merge>

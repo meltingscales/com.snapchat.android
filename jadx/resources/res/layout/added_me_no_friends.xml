@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="@dimen/added_me_no_friends_height">
+    <com.snap.ui.view.SnapFontTextView android:textSize="@dimen/text_size_small" android:textColor="@color/sig_color_base_gray100_any" android:gravity="center" android:id="@+id/no_friends_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_new_friends_text" app:scFontWeight="1"/>
+</LinearLayout>

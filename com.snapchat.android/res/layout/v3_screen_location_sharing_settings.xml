@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/location_sharing_settings_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <com.snap.framework.ui.views.statusbar.StatusBarCustomView android:id="@id/sharing_settings_status_bar_padding" android:layout_width="fill_parent" android:layout_height="0.0dip" custom:scFixedHeight="0.0dip" />
+    <com.snap.component.header.SnapSubscreenHeaderView android:id="@id/sc_header" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" custom:title_text="@string/nyc_settings_title" custom:top_left_layout="@layout/subscreen_header_top_left_arrow" style="@style/subscreen_header_back" />
+    <FrameLayout android:id="@id/recycler_view_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/settings_recycler_view" android:background="?sigColorBackgroundSubscreen" android:paddingBottom="@dimen/default_gap_quarter" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/default_gap_2x" android:paddingEnd="@dimen/default_gap_2x" />
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/location_sharing_attribution" android:background="?sigColorBackgroundSubscreen" android:paddingTop="@dimen/default_gap_quarter" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/in_house_location_sharing_attribution_text" android:padding="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.snap.ui.view.SnapFontTextView android:textSize="?v11Subtitle4TextSize" android:textColor="?sigColorTextTertiary" android:gravity="center" android:layout_gravity="center" android:id="@id/attribution_snapmap_providers" android:paddingBottom="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nyc_map_attribution_providers" android:paddingEnd="@dimen/default_gap_half" />
+            <ImageView android:id="@id/grey_right_arrow" android:layout_width="16.0dip" android:layout_height="16.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/location_sharing_attribution_text" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.snap.ui.view.SnapFontTextView android:textSize="?v11Subtitle4TextSize" android:textColor="?sigColorTextTertiary" android:id="@id/location_sharing_attribution_mapbox_text_before_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="5.0dip" android:drawableEnd="@drawable/map_mapbox_logo" />
+            <com.snap.ui.view.SnapFontTextView android:textSize="?v11Subtitle4TextSize" android:textColor="?sigColorTextTertiary" android:gravity="center" android:layout_gravity="center" android:id="@id/location_sharing_attribution_mapbox_text_after_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="5.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

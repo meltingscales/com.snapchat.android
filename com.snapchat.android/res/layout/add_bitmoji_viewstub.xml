@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <com.snap.imageloading.view.SnapImageView android:layout_gravity="center_vertical" android:id="@id/add_bitmoji_camera" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/svg_mirror_camera_icon" android:tint="?sigColorBrandSecondary" android:paddingEnd="@dimen/seven_dp_gap" />
+    <com.snap.ui.view.SnapFontTextView android:textSize="?v11TabsTextSize" android:textColor="?sigColorBrandSecondary" android:id="@id/add_bitmoji_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/create_bitmoji_text" android:textAlignment="center" custom:scFontWeight="?v11TabsFontWeight" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/cheerios_calib_link_pending" android:maxLevel="0" />
+    <item android:drawable="@drawable/cheerios_calib_link_done" android:maxLevel="1" />
+</level-list>

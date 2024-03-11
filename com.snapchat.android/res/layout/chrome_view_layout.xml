@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="start" android:orientation="horizontal" android:id="@id/chrome_view_name_and_emoji_root" android:paddingLeft="@dimen/chrome_left_padding" android:paddingTop="@dimen/chrome_top_padding" android:paddingRight="@dimen/action_menu_button_width" android:paddingBottom="@dimen/chrome_bottom_padding" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/chrome_back_button_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center" android:id="@id/chrome_down_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/navigation_back_arrow" android:layout_marginStart="@dimen/back_button_margin_left" android:layout_marginEnd="@dimen/back_button_margin_right" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="start|center" android:id="@id/chrome_view_name_and_emoji" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/default_gap_half" android:layout_marginEnd="@dimen/default_gap_6x">
+            <com.snap.ui.view.SnapFontTextView android:textSize="?v11Title1TextSize" android:ellipsize="end" android:id="@id/chrome_view_display_name" android:maxLines="1" android:paddingStart="@dimen/default_gap_half" android:paddingEnd="@dimen/default_gap" style="@style/chrome_text" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/chrome_subtitle_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.snap.ui.view.SnapFontTextView android:textSize="@dimen/text_size_timestamp" android:ellipsize="end" android:id="@id/chrome_view_subtitle" android:paddingLeft="@dimen/default_gap" android:paddingRight="@dimen/default_gap" android:layout_marginTop="@dimen/chrome_secondary_text_top_margin" android:maxLines="1" android:includeFontPadding="false" style="@style/chrome_subtext" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/context_menu_chrome" android:paddingLeft="@dimen/default_gap" android:paddingRight="@dimen/default_gap" android:paddingBottom="@dimen/default_gap" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/chrome_secondary_text_top_margin">
+            <com.snap.ui.view.SnapFontTextView android:textSize="@dimen/text_size_timestamp" android:id="@id/chrome_view_timestamp" android:includeFontPadding="false" android:drawablePadding="@dimen/default_gap_half" style="@style/chrome_subtext" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

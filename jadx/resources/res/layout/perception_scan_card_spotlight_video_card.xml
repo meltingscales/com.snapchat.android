@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.component.cards.SnapCardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/default_gap_1_5x" app:cardCornerRadius="@dimen/perception_scan_cards_thumbnail_corner_radius">
+    <LinearLayout android:orientation="vertical" android:id="@+id/scan_card_spotlight_video_container" android:padding="@dimen/default_gap" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.snap.component.cards.SnapCardView android:layout_width="@dimen/perception_scan_card_spotlight_video_width" android:layout_height="@dimen/perception_scan_card_spotlight_video_height" app:cardCornerRadius="@dimen/perception_scan_cards_thumbnail_corner_radius">
+            <com.snap.imageloading.view.SnapImageView android:id="@+id/scan_card_spotlight_thumbnail" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+        </com.snap.component.cards.SnapCardView>
+        <com.snap.ui.view.SnapFontTextView android:id="@+id/scan_card_spotlight_view_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_gap" android:drawablePadding="@dimen/perception_scan_card_spotlight_play_padding" android:drawableStart="@drawable/svg_play_indicator" style="@style/TextAppearance.Heading3.White"/>
+    </LinearLayout>
+</com.snap.component.cards.SnapCardView>

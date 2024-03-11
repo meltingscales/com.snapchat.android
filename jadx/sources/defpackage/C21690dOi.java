@@ -1,0 +1,525 @@
+package defpackage;
+
+import com.google.protobuf.nano.MessageNano;
+import com.snapchat.client.messaging.Tweaks;
+
+/* renamed from: dOi  reason: default package and case insensitive filesystem */
+/* loaded from: classes8.dex */
+public final class C21690dOi extends AbstractC11592Sh8 {
+    public int a = 0;
+    public AbstractC11592Sh8 b = null;
+
+    public C21690dOi() {
+        this.unknownFieldData = null;
+        this.cachedSize = -1;
+    }
+
+    public final C22330dp a() {
+        if (this.a == 26) {
+            return (C22330dp) this.b;
+        }
+        return null;
+    }
+
+    public final C40519pe1 b() {
+        if (this.a == 17) {
+            return (C40519pe1) this.b;
+        }
+        return null;
+    }
+
+    public final VF1 c() {
+        if (this.a == 22) {
+            return (VF1) this.b;
+        }
+        return null;
+    }
+
+    @Override // defpackage.AbstractC11592Sh8, com.google.protobuf.nano.MessageNano
+    public final int computeSerializedSize() {
+        int computeSerializedSize = super.computeSerializedSize();
+        if (this.a == 1) {
+            computeSerializedSize += C4316Gu3.l(1, this.b);
+        }
+        if (this.a == 2) {
+            computeSerializedSize += C4316Gu3.l(2, this.b);
+        }
+        if (this.a == 3) {
+            computeSerializedSize += C4316Gu3.l(3, this.b);
+        }
+        if (this.a == 4) {
+            computeSerializedSize += C4316Gu3.l(4, this.b);
+        }
+        if (this.a == 5) {
+            computeSerializedSize += C4316Gu3.l(5, this.b);
+        }
+        if (this.a == 6) {
+            computeSerializedSize += C4316Gu3.l(6, this.b);
+        }
+        if (this.a == 7) {
+            computeSerializedSize += C4316Gu3.l(7, this.b);
+        }
+        if (this.a == 8) {
+            computeSerializedSize += C4316Gu3.l(8, this.b);
+        }
+        if (this.a == 9) {
+            computeSerializedSize += C4316Gu3.l(9, this.b);
+        }
+        if (this.a == 10) {
+            computeSerializedSize += C4316Gu3.l(10, this.b);
+        }
+        if (this.a == 11) {
+            computeSerializedSize += C4316Gu3.l(11, this.b);
+        }
+        if (this.a == 12) {
+            computeSerializedSize += C4316Gu3.l(12, this.b);
+        }
+        if (this.a == 13) {
+            computeSerializedSize += C4316Gu3.l(13, this.b);
+        }
+        if (this.a == 14) {
+            computeSerializedSize += C4316Gu3.l(14, this.b);
+        }
+        if (this.a == 15) {
+            computeSerializedSize += C4316Gu3.l(15, this.b);
+        }
+        if (this.a == 16) {
+            computeSerializedSize += C4316Gu3.l(16, this.b);
+        }
+        if (this.a == 17) {
+            computeSerializedSize += C4316Gu3.l(17, this.b);
+        }
+        if (this.a == 18) {
+            computeSerializedSize += C4316Gu3.l(18, this.b);
+        }
+        if (this.a == 19) {
+            computeSerializedSize += C4316Gu3.l(19, this.b);
+        }
+        if (this.a == 20) {
+            computeSerializedSize += C4316Gu3.l(20, this.b);
+        }
+        if (this.a == 21) {
+            computeSerializedSize += C4316Gu3.l(21, this.b);
+        }
+        if (this.a == 22) {
+            computeSerializedSize += C4316Gu3.l(22, this.b);
+        }
+        if (this.a == 23) {
+            computeSerializedSize += C4316Gu3.l(23, this.b);
+        }
+        if (this.a == 24) {
+            computeSerializedSize += C4316Gu3.l(24, this.b);
+        }
+        if (this.a == 25) {
+            computeSerializedSize += C4316Gu3.l(25, this.b);
+        }
+        if (this.a == 26) {
+            computeSerializedSize += C4316Gu3.l(26, this.b);
+        }
+        if (this.a == 27) {
+            return computeSerializedSize + C4316Gu3.l(27, this.b);
+        }
+        return computeSerializedSize;
+    }
+
+    public final C20657cjb d() {
+        if (this.a == 15) {
+            return (C20657cjb) this.b;
+        }
+        return null;
+    }
+
+    public final C43721rjb e() {
+        if (this.a == 8) {
+            return (C43721rjb) this.b;
+        }
+        return null;
+    }
+
+    public final C33679lBd f() {
+        if (this.a == 11) {
+            return (C33679lBd) this.b;
+        }
+        return null;
+    }
+
+    public final C16412Zxf g() {
+        if (this.a == 20) {
+            return (C16412Zxf) this.b;
+        }
+        return null;
+    }
+
+    public final C32151kDh h() {
+        if (this.a == 24) {
+            return (C32151kDh) this.b;
+        }
+        return null;
+    }
+
+    public final C13159Utj i() {
+        if (this.a == 14) {
+            return (C13159Utj) this.b;
+        }
+        return null;
+    }
+
+    public final E4k j() {
+        if (this.a == 25) {
+            return (E4k) this.b;
+        }
+        return null;
+    }
+
+    public final C52756xck k() {
+        if (this.a == 16) {
+            return (C52756xck) this.b;
+        }
+        return null;
+    }
+
+    public final JRk l() {
+        if (this.a == 5) {
+            return (JRk) this.b;
+        }
+        return null;
+    }
+
+    public final C7446Lsm m() {
+        if (this.a == 7) {
+            return (C7446Lsm) this.b;
+        }
+        return null;
+    }
+
+    @Override // com.google.protobuf.nano.MessageNano
+    public final MessageNano mergeFrom(C3683Fu3 c3683Fu3) {
+        int i;
+        AbstractC11592Sh8 c38751oUc;
+        while (true) {
+            int t = c3683Fu3.t();
+            switch (t) {
+                case 0:
+                    break;
+                case 10:
+                    i = 1;
+                    if (this.a != 1) {
+                        c38751oUc = new C38751oUc();
+                        this.b = c38751oUc;
+                        break;
+                    }
+                    break;
+                case 18:
+                    i = 2;
+                    if (this.a != 2) {
+                        c38751oUc = new C21834dUi();
+                        this.b = c38751oUc;
+                        break;
+                    }
+                    break;
+                case 26:
+                    i = 3;
+                    if (this.a != 3) {
+                        c38751oUc = new C15903Zci();
+                        this.b = c38751oUc;
+                        break;
+                    }
+                    break;
+                case 34:
+                    i = 4;
+                    if (this.a != 4) {
+                        c38751oUc = new C11300Rv7();
+                        this.b = c38751oUc;
+                        break;
+                    }
+                    break;
+                case Tweaks.TEST_UNREAD_MESSAGE_TIMEOUT_SECONDS_KEY /* 42 */:
+                    i = 5;
+                    if (this.a != 5) {
+                        c38751oUc = new JRk();
+                        this.b = c38751oUc;
+                        break;
+                    }
+                    break;
+                case 50:
+                    i = 6;
+                    if (this.a != 6) {
+                        c38751oUc = new C17448adi();
+                        this.b = c38751oUc;
+                        break;
+                    }
+                    break;
+                case 58:
+                    i = 7;
+                    if (this.a != 7) {
+                        c38751oUc = new C7446Lsm();
+                        this.b = c38751oUc;
+                        break;
+                    }
+                    break;
+                case 66:
+                    i = 8;
+                    if (this.a != 8) {
+                        c38751oUc = new C43721rjb();
+                        this.b = c38751oUc;
+                        break;
+                    }
+                    break;
+                case 74:
+                    i = 9;
+                    if (this.a != 9) {
+                        c38751oUc = new C22218dkb();
+                        this.b = c38751oUc;
+                        break;
+                    }
+                    break;
+                case 82:
+                    i = 10;
+                    if (this.a != 10) {
+                        c38751oUc = new C49491vUc();
+                        this.b = c38751oUc;
+                        break;
+                    }
+                    break;
+                case 90:
+                    i = 11;
+                    if (this.a != 11) {
+                        c38751oUc = new C33679lBd();
+                        this.b = c38751oUc;
+                        break;
+                    }
+                    break;
+                case 98:
+                    i = 12;
+                    if (this.a != 12) {
+                        c38751oUc = new C24050ew9();
+                        this.b = c38751oUc;
+                        break;
+                    }
+                    break;
+                case 106:
+                    i = 13;
+                    if (this.a != 13) {
+                        c38751oUc = new C39375otj();
+                        this.b = c38751oUc;
+                        break;
+                    }
+                    break;
+                case Tweaks.FAIL_DECRYPT_FOR_DUPLEX_SNAPS_TEST_ONLY /* 114 */:
+                    i = 14;
+                    if (this.a != 14) {
+                        c38751oUc = new C13159Utj();
+                        this.b = c38751oUc;
+                        break;
+                    }
+                    break;
+                case 122:
+                    i = 15;
+                    if (this.a != 15) {
+                        c38751oUc = new C20657cjb();
+                        this.b = c38751oUc;
+                        break;
+                    }
+                    break;
+                case 130:
+                    i = 16;
+                    if (this.a != 16) {
+                        c38751oUc = new C52756xck();
+                        this.b = c38751oUc;
+                        break;
+                    }
+                    break;
+                case 138:
+                    i = 17;
+                    if (this.a != 17) {
+                        c38751oUc = new C40519pe1();
+                        this.b = c38751oUc;
+                        break;
+                    }
+                    break;
+                case 146:
+                    i = 18;
+                    if (this.a != 18) {
+                        c38751oUc = new C52262xIc();
+                        this.b = c38751oUc;
+                        break;
+                    }
+                    break;
+                case 154:
+                    i = 19;
+                    if (this.a != 19) {
+                        c38751oUc = new C1656Coj();
+                        this.b = c38751oUc;
+                        break;
+                    }
+                    break;
+                case 162:
+                    i = 20;
+                    if (this.a != 20) {
+                        c38751oUc = new C16412Zxf();
+                        this.b = c38751oUc;
+                        break;
+                    }
+                    break;
+                case 170:
+                    i = 21;
+                    if (this.a != 21) {
+                        c38751oUc = new C43979rtj();
+                        this.b = c38751oUc;
+                        break;
+                    }
+                    break;
+                case 178:
+                    i = 22;
+                    if (this.a != 22) {
+                        c38751oUc = new VF1();
+                        this.b = c38751oUc;
+                        break;
+                    }
+                    break;
+                case 186:
+                    i = 23;
+                    if (this.a != 23) {
+                        c38751oUc = new C11754Snl();
+                        this.b = c38751oUc;
+                        break;
+                    }
+                    break;
+                case 194:
+                    i = 24;
+                    if (this.a != 24) {
+                        c38751oUc = new C32151kDh();
+                        this.b = c38751oUc;
+                        break;
+                    }
+                    break;
+                case 202:
+                    i = 25;
+                    if (this.a != 25) {
+                        c38751oUc = new E4k();
+                        this.b = c38751oUc;
+                        break;
+                    }
+                    break;
+                case 210:
+                    i = 26;
+                    if (this.a != 26) {
+                        c38751oUc = new C22330dp();
+                        this.b = c38751oUc;
+                        break;
+                    }
+                    break;
+                case 218:
+                    i = 27;
+                    if (this.a != 27) {
+                        c38751oUc = new C43335rTf();
+                        this.b = c38751oUc;
+                        break;
+                    }
+                    break;
+                default:
+                    if (!storeUnknownField(c3683Fu3, t)) {
+                        break;
+                    } else {
+                        continue;
+                    }
+            }
+            c3683Fu3.j(this.b);
+            this.a = i;
+        }
+        return this;
+    }
+
+    public final boolean n() {
+        if (this.a == 24) {
+            return true;
+        }
+        return false;
+    }
+
+    @Override // defpackage.AbstractC11592Sh8, com.google.protobuf.nano.MessageNano
+    public final void writeTo(C4316Gu3 c4316Gu3) {
+        if (this.a == 1) {
+            c4316Gu3.L(1, this.b);
+        }
+        if (this.a == 2) {
+            c4316Gu3.L(2, this.b);
+        }
+        if (this.a == 3) {
+            c4316Gu3.L(3, this.b);
+        }
+        if (this.a == 4) {
+            c4316Gu3.L(4, this.b);
+        }
+        if (this.a == 5) {
+            c4316Gu3.L(5, this.b);
+        }
+        if (this.a == 6) {
+            c4316Gu3.L(6, this.b);
+        }
+        if (this.a == 7) {
+            c4316Gu3.L(7, this.b);
+        }
+        if (this.a == 8) {
+            c4316Gu3.L(8, this.b);
+        }
+        if (this.a == 9) {
+            c4316Gu3.L(9, this.b);
+        }
+        if (this.a == 10) {
+            c4316Gu3.L(10, this.b);
+        }
+        if (this.a == 11) {
+            c4316Gu3.L(11, this.b);
+        }
+        if (this.a == 12) {
+            c4316Gu3.L(12, this.b);
+        }
+        if (this.a == 13) {
+            c4316Gu3.L(13, this.b);
+        }
+        if (this.a == 14) {
+            c4316Gu3.L(14, this.b);
+        }
+        if (this.a == 15) {
+            c4316Gu3.L(15, this.b);
+        }
+        if (this.a == 16) {
+            c4316Gu3.L(16, this.b);
+        }
+        if (this.a == 17) {
+            c4316Gu3.L(17, this.b);
+        }
+        if (this.a == 18) {
+            c4316Gu3.L(18, this.b);
+        }
+        if (this.a == 19) {
+            c4316Gu3.L(19, this.b);
+        }
+        if (this.a == 20) {
+            c4316Gu3.L(20, this.b);
+        }
+        if (this.a == 21) {
+            c4316Gu3.L(21, this.b);
+        }
+        if (this.a == 22) {
+            c4316Gu3.L(22, this.b);
+        }
+        if (this.a == 23) {
+            c4316Gu3.L(23, this.b);
+        }
+        if (this.a == 24) {
+            c4316Gu3.L(24, this.b);
+        }
+        if (this.a == 25) {
+            c4316Gu3.L(25, this.b);
+        }
+        if (this.a == 26) {
+            c4316Gu3.L(26, this.b);
+        }
+        if (this.a == 27) {
+            c4316Gu3.L(27, this.b);
+        }
+        super.writeTo(c4316Gu3);
+    }
+}

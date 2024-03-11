@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textColor="@color/sig_color_text_primary_dark" android:id="@id/debug_overlay" android:background="@color/sig_color_background_overlay_light" android:padding="@dimen/default_gap" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snap.component.cards.SnapCardView style="@style/StoryCellContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.snap.imageloading.view.SnapImageView android:layout_gravity="start|center" android:id="@id/story_cell_thumbnail" android:layout_width="@dimen/memories_story_cell_thumbnail_width" android:layout_height="@dimen/memories_story_cell_thumbnail_height" android:scaleType="centerCrop" android:layout_marginStart="@dimen/memories_story_cell_thumbnail_margin" />
+    <include layout="@layout/story_cell_titles" />
+</com.snap.component.cards.SnapCardView>

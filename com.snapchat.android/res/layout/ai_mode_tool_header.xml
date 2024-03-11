@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/ai_mode_tool_header" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.snap.ui.view.SnapFontTextView android:textAppearance="@style/TextStyle.Title4" android:textColor="@color/sig_color_text_primary_dark" android:gravity="center" android:id="@id/ai_mode_header_title" android:layout_width="fill_parent" android:layout_height="@dimen/magic_eraser_tool_header_text_height" android:text="@string/preview_ai_mode_tool" app:autoFit="true" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</FrameLayout>

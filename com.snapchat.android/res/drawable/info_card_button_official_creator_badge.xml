@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="start" android:drawable="@drawable/svg_official_creator_star_16x16" />
+    <item android:gravity="start" android:drawable="@drawable/info_card_button_creator_chevron" android:left="16.0dip" />
+</layer-list>
